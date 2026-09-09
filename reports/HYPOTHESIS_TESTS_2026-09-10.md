@@ -1,5 +1,14 @@
 # First executed hypothesis tests for *Invisible Ledger*
 
+> **Evidence update:** this report records the first executed repository tests.
+> A later official BPS business-level publication supplies joint
+> marketplace/financial-statement evidence that was absent from the province
+> files, and current tax documents refine the institutional-linkage status.
+> See
+> [`HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md`](../docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
+> The province calculations below remain unchanged and should be read as an
+> ecological-method warning, not the final participant-side conclusion.
+
 ## Technical summary
 
 The first tests produce a mixed but useful result. The expanded Indonesia

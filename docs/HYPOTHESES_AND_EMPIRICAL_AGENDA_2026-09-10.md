@@ -13,6 +13,13 @@ support, H3 is not established by the province evidence, H4 remains untested,
 and H5 is supported by the existing measurement modules. These statuses do not
 finalize the Indonesia sample.
 
+An official BPS business-level publication and the current Indonesian
+marketplace-reporting architecture now refine H3 and H4 beyond that first
+checkpoint. See
+[`HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md`](HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
+The province result remains a valid ecological warning, but it is no longer the
+best available participant-side evidence.
+
 The established evidence is recorded separately in
 [`EMPIRICAL_FINDINGS_2026-09-10.md`](EMPIRICAL_FINDINGS_2026-09-10.md).
 

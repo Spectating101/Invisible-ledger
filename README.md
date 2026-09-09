@@ -14,6 +14,8 @@ For the integrated explanation of how the issuer, BPS, ASEAN, and global evidenc
 
 Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
 
+For the official BPS business-level marketplace evidence and the legal-versus-operational status of Indonesia's marketplace reporting bridge, read [the participant and institutional-linkage hypothesis extension](docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
@@ -47,6 +49,7 @@ Invisible-ledger/
 │   ├── measurement/            # accounting/scope reconciliation exercises
 │   ├── market/                 # preserved price data and exploratory outputs
 │   ├── bps_official/           # Indonesia official-statistics extracts, 2020–2024
+│   ├── institutional/          # reporting rules, appointments, and implementation status
 │   ├── asean_context/          # country-level context kept separate
 │   ├── asean_corroboration/    # six-country, revision-aware supporting evidence
 │   └── legacy_not_active/      # preserved but prohibited as active evidence

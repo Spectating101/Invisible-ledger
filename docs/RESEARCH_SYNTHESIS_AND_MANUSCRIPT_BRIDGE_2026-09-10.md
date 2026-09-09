@@ -109,12 +109,24 @@ approximately 0.022, and the within-province 2023--2024 Pearson correlation is
 approximately 0.309. Province marginals cannot show whether the same businesses
 both use marketplaces and maintain financial reports.
 
+An additional BPS-authored business-level analysis of the 2024 E-Commerce
+Survey now supplies the joint evidence that the province files could not.
+Marketplace users have a published financial-statement ownership rate of
+28.63%, compared with 12.25% among non-marketplace users. BPS's multivariate
+logistic model reports an odds ratio of 1.8463 for financial-statement ownership
+as a predictor of marketplace use (95% CI 1.7083--1.9955). This is an official
+association, not a causal marketplace effect. The province result remains a
+useful demonstration that ecological correlations can fail to recover a
+business-level relationship.
+
 Sources and outputs:
 
 - `data/bps_official/bps_crosswave_source_certification_2026-09-10.csv`
 - `outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv`
 - `outputs/hypothesis_tests_2026-09-10/bps_province_hypothesis_results.csv`
 - `docs/BPS_CROSSWAVE_CERTIFICATION_2026-09-10.md`
+- `data/bps_official/bps_marketplace_business_level_published_evidence_2026-09-10.csv`
+- `docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md`
 
 ### ASEAN corroboration layer
 
@@ -211,12 +223,15 @@ The repository establishes the following observation boundaries:
 | Recognized platform revenue | issuer, investor, public researcher | consistent denominator across business models |
 | Merchant records | merchant; BPS through survey response | completeness, quality, and record-level linkage |
 | Official statistics | BPS aggregate estimates | exact overlap with issuer-reported transactions |
-| Tax information | existence of selected rules and collection statistics | taxpayer matching, liability, compliance, and transaction coverage |
+| Tax information | PMK 37/2025 legal architecture and July 2026 appointments | operational taxpayer matching, compliance effects, and transaction coverage; application is postponed until 1 November 2026 |
 | Payment records | potentially payment provider/regulator | a verified linked dataset bridging platform and merchant records |
 
-The current finding is that linkage is **not established in the available
-evidence**. It is not yet an empirical finding that the institutions themselves
-are unable to link these records.
+The current finding is more precise than the earlier version. A legal bridge is
+documented: PMK 37/2025 assigns designated marketplaces seller-identity,
+turnover-linked withholding, deposit, and reporting roles. Operational linkage
+is **not established in the available evidence**, because implementation was
+postponed through 31 October 2026. It is not yet an empirical finding that the
+institutions are unable to link these records or that the mechanism succeeds.
 
 To strengthen this layer, the next evidence search should prioritize:
 
