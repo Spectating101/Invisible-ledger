@@ -86,7 +86,7 @@ The three opposite-sign cases are:
 
 This establishes descriptively that recognized platform/segment revenue is not a stable one-for-one proxy for the movement of the transaction activity it accompanies. It does **not** establish a final thesis-sample estimate because Blibli and Bukalapak business/geographic admission remains for the advisor to decide.
 
-## 4. Indonesia: official statistics show economically large digital commerce
+## 4. Indonesia: official statistics show economically large and channel-heterogeneous digital commerce
 
 The official retained BPS values report:
 
@@ -102,23 +102,25 @@ The 3,816,750 count is retained for the cross-year series because a later offici
 
 Using the selected aggregate totals, implied nominal transaction value per estimated e-commerce business rises approximately **1.54%** from 2023 to 2024. This is an arithmetic ratio of repeated aggregate survey estimates, not growth of the same incumbent businesses and not a productivity estimate.
 
-### Conditional BPS channel comparison
+### Certified descriptive sales-media comparison
 
-The repository also supports a **conditional** derived comparison in which:
+The 2023 BPS publication reports national e-commerce transaction value **by sales media**, with **Rp200.68 trillion** through marketplace/platform digital and **Rp900.19 trillion** through non-marketplace/platform-digital media.
 
-- 2023 direct marketplace transaction value is Rp200.68 trillion;
-- the 2024 marketplace component is reconstructed from the published 15.79% share of total transaction value;
-- the resulting marketplace-component growth is approximately **1.42%**;
-- the residual non-marketplace component would grow approximately **20.58%**.
+A BPS-Statistics Indonesia presentation reports the corresponding 2024 national sales-media split directly as **Rp203.58 trillion / 15.79% marketplace** and **84.21% non-marketplace**, against total e-commerce transaction value of Rp1,288.93 trillion. Using the directly reported 2024 marketplace amount rather than reconstructing it from the rounded share gives:
 
-These channel-growth calculations are not yet promoted to fully established findings because exact 2023/2024 source wording, denominator, and survey-population concordance still require certification. They must remain labelled conditional until that source-level check is closed.
+- marketplace component: **Rp200.68T → Rp203.58T, +1.45%**;
+- non-marketplace component: **Rp900.19T → Rp1,085.35T, +20.57%**;
+- total e-commerce transaction value: **+17.08%**.
 
-The same caution applies to interpreting the 15.19%→17.15% financial-report figures as a strict longitudinal trend: the two published wave values are established, but stronger cross-wave inference requires questionnaire/population concordance.
+This establishes a descriptive national-estimate result: the published non-marketplace component grew much faster than the marketplace component between 2023 and 2024. It does **not** identify incumbent-firm behavior, causal channel substitution, productivity, hidden activity, tax status, or a linkage to issuer GMV/TPV.
+
+The stronger cross-wave interpretation of financial-report ownership remains guarded. The two published wave values, 15.19% and 17.15%, are established, but questionnaire/population concordance should still be checked before treating the +1.96 percentage-point movement as a strong behavioral trend.
 
 Evidence and reproduction:
 
 - `data/bps_official/`
 - `reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`
+- `docs/BPS_CROSSWAVE_CERTIFICATION_2026-09-10.md`
 - `docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md`
 
 ## 5. BPS province evidence is repeated aggregate evidence, not a business panel
@@ -235,6 +237,6 @@ Those remain separate hypotheses, data-access questions, or future analyses. The
 
 The defensible conclusion is not that transaction value missing from platform revenue is missing from the economy. It is that the economic story changes with the ledger observed.
 
-Indonesia provides the substantive country setting and already shows large within-series divergence under the current candidate construction; BPS describes the broader business population; ASEAN demonstrates recurrence, heterogeneity, and revision sensitivity; and the global issuer histories show that transaction activity and recognized revenue can follow materially different trajectories across very different platform business models.
+Indonesia provides the substantive country setting and already shows large within-series divergence under the current candidate construction; BPS describes the broader business population and now provides a certified aggregate sales-media comparison; ASEAN demonstrates recurrence, heterogeneity, and revision sensitivity; and the global issuer histories show that transaction activity and recognized revenue can follow materially different trajectories across very different platform business models.
 
 The strongest established contribution is therefore to identify and measure where public transaction and revenue views cease to be interchangeable, while documenting what participant-level and institutional linkage would still be required before stronger hidden-income, tax, or value-added claims could be tested.
