@@ -91,8 +91,7 @@ Evidence and reproduction:
 - `reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`
 - `scripts/analysis/build_comprehensive_empirical_audit.py`
 
-## 4. Issuer accounting: transaction activity and recognized revenue are not
-## interchangeable measures
+## 4. Issuer accounting: transaction activity and recognized revenue are not interchangeable measures
 
 The global corroboration panel contains forty-eight matched issuer-years for
 eight platform businesses from 2017–2025. These yield forty consecutive
