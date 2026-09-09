@@ -1,5 +1,4 @@
 import importlib.util
-import math
 import tempfile
 import unittest
 from pathlib import Path
@@ -14,6 +13,8 @@ SPEC.loader.exec_module(mod)
 
 
 class EmpiricalReviewPackageTests(unittest.TestCase):
+    """Tests the raw helper layer; certified geography/count corrections are tested separately."""
+
     def setUp(self):
         self.samples, self.census_issues, self.exclusions, self.transitions = mod.build_sample_sensitivity()
         self.by_rule = {r["rule"]: r for r in self.samples}
@@ -55,23 +56,25 @@ class EmpiricalReviewPackageTests(unittest.TestCase):
         self.assertIn(("Tokopedia e-commerce segment", "FY2021"), keys)
         self.assertIn(("Bukalapak", "FY2024"), keys)
 
-    def test_bps_internal_checks(self):
+    def test_raw_bps_internal_checks(self):
         self.assertEqual(len(self.bps), 7)
         self.assertEqual(self.bps_by_id["BPS-01"]["status"], "PASS_INTERNAL")
         self.assertEqual(self.bps_by_id["BPS-05"]["status"], "PASS_INTERNAL")
         self.assertEqual(self.bps_by_id["BPS-06"]["status"], "BLOCKED_SOURCE_CONFLICT")
-        self.assertEqual(self.bps_by_id["BPS-07"]["status"], "PASS_WITH_SOURCE_RESIDUAL")
-        self.assertEqual(self.d["province24_total_diff"], 1)
+        # Raw helper includes the Indonesia total row in the row-set reconciliation.
+        # The certified overlay excludes it and tests the +1 province residual correctly.
+        self.assertEqual(self.bps_by_id["BPS-07"]["status"], "REVIEW")
+        self.assertEqual(self.d["province24_total_diff"], 4400973)
 
     def test_bps_conditional_growth_calculation(self):
-        self.assertAlmostEqual(self.d["total_growth_pct"], 17.0843082934, places=5)
+        self.assertAlmostEqual(self.d["total_growth_pct"], 17.0828526529, places=5)
         self.assertAlmostEqual(self.d["marketplace24_derived_value"], 203.522047, places=5)
-        self.assertAlmostEqual(self.d["marketplace_growth_pct"], 1.4164605342, places=5)
+        self.assertAlmostEqual(self.d["marketplace_growth_pct"], 1.4162083915, places=5)
         self.assertEqual(self.bps_by_id["BPS-02"]["status"], "CONDITIONAL_SOURCE_CONCORDANCE")
 
-    def test_province_common_coverage(self):
-        self.assertEqual(self.d["common_provinces"], 38)
-        self.assertEqual(self.d["complete_common_provinces"], 36)
+    def test_raw_row_coverage_includes_indonesia_total(self):
+        self.assertEqual(self.d["common_provinces"], 39)
+        self.assertEqual(self.d["complete_common_provinces"], 37)
 
     def test_advisor_outputs_do_not_claim_approval(self):
         review = mod.build_kong_review(self.samples, self.census_issues, self.exclusions, self.bps, self.d)
