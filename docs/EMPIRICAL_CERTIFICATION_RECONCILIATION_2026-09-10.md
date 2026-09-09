@@ -49,9 +49,9 @@ The three sign reversals are:
 
 This result is **established descriptively for the current candidate-series construction**, but it is not yet a final-thesis sample result because Blibli and Bukalapak scope admission remains for the advisor to decide.
 
-## 3. BPS findings: established versus conditional
+## 3. BPS findings: established, descriptive cross-wave, and guarded items
 
-The current BPS evidence contains a mixture of directly published values and derived cross-wave comparisons. These should not be assigned one common certainty label.
+The BPS evidence contains directly published national values, source-concordant descriptive cross-wave comparisons, aggregate arithmetic, and one remaining guarded trend interpretation. These should not be assigned one common certainty label.
 
 ### Established from retained official totals
 
@@ -62,22 +62,39 @@ The current BPS evidence contains a mixture of directly published values and der
 - 2024 e-commerce-business count: **4,400,972**.
 - 2023→2024 business-count growth: **15.31%**.
 - 2023 financial-report ownership: **15.19%**.
-- 2024 financial-report ownership: **17.15%** as separately published wave values.
+- 2024 financial-report ownership: **17.15%** as a separately published wave value.
 
-The 3,816,750 count is preferred for the cross-year series because the later official BPS 2024 release reports approximately **15.30%** year-on-year growth in the number of e-commerce businesses; 4,400,972 / 3,816,750 implies 15.31%, whereas the conflicting 3,934,981 text passage implies only 11.84%. The conflicting passage should remain in the source audit rather than be erased.
+The 3,816,750 count is preferred for the cross-year series because the later official BPS 2024 release reports approximately **15.30%** year-on-year growth in the number of e-commerce businesses; 4,400,972 / 3,816,750 implies 15.31%, whereas the conflicting 3,934,981 text passage implies only 11.84%. The conflicting passage remains in the source audit rather than being erased.
+
+### Established descriptive sales-media comparison
+
+The 2023 BPS publication reports **E-Commerce Transaction Value and Percentage of E-Commerce Transaction Value by Sales Media, 2023**, including:
+
+- marketplace/platform digital: **Rp200.68 trillion**;
+- non-marketplace/platform digital: **Rp900.19 trillion**.
+
+A BPS-Statistics Indonesia presentation reports the corresponding **E-Commerce Transactions Value by Sales Media, 2024** as:
+
+- marketplace: **Rp203.58 trillion / 15.79%**;
+- non-marketplace: **84.21%** of total Rp1,288.93 trillion.
+
+Using the direct 2024 marketplace amount avoids a rounding artifact from multiplying the rounded share by the total. The source-concordant national aggregate comparison is therefore:
+
+- marketplace component: **+1.45%** from 2023 to 2024;
+- non-marketplace component: **+20.57%**;
+- total e-commerce transaction value: **+17.08%**.
+
+This is an established **descriptive cross-wave national-estimate comparison**, not a business panel, causal channel-substitution estimate, productivity measure, tax result, or issuer-GMV reconciliation.
+
+See `docs/BPS_CROSSWAVE_CERTIFICATION_2026-09-10.md`.
 
 ### Established arithmetic, but not a firm-panel result
 
 Using the selected aggregate business counts and transaction totals, implied nominal transaction value per estimated business rises about **1.54%** from 2023 to 2024. This is a ratio of repeated aggregate survey estimates, not growth of the same incumbent firms and not a productivity estimate.
 
-### Still conditional pending exact cross-wave concordance
+### Still guarded pending questionnaire-level concordance
 
-- Derived 2024 exclusive-marketplace transaction value from the published 15.79% share.
-- Marketplace-component growth of approximately **1.42%** from 2023 to 2024.
-- Derived non-marketplace-component growth of approximately **20.58%**.
-- Any strong longitudinal interpretation of the 15.19%→17.15% financial-report series beyond reporting the two published wave values.
-
-These comparisons are promising, but they should not be presented as fully established findings until the original 2023 and 2024 publication wording, denominator, and survey-population concordance are certified.
+The two financial-report ownership wave values, **15.19%** and **17.15%**, are established. A strong behavioral interpretation of the +1.96 percentage-point movement remains guarded until the exact 2024 questionnaire wording, skip logic, and estimation universe are matched to the 2023 instrument.
 
 ## 4. Province-layer correction
 
