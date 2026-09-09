@@ -88,10 +88,63 @@ compliance, or business-level marketplace effects.
 Evidence and reproduction:
 
 - `data/bps_official/`
+- `outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv`
 - `reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`
+- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
 - `scripts/analysis/build_comprehensive_empirical_audit.py`
+- `scripts/analysis/build_hypothesis_tests.py`
 
-## 4. Issuer accounting: transaction activity and recognized revenue are not interchangeable measures
+## 4. Indonesia: the first longitudinal tests show divergence but do not finalize the sample
+
+The first hypothesis execution retains seventeen matched annual candidate
+levels across five series and twelve consecutive within-series transitions.
+The records are kept in three separate evidence tiers. Ten transitions have
+faster revenue growth than transaction growth, two have faster transaction
+growth, and two move in opposite directions. The all-candidate median absolute
+growth difference is 42.02 percentage points, but that number combines evidence
+tiers and is an inventory diagnostic rather than a pooled-sample estimate.
+
+The strongest individual transition is Tokopedia FY2022–FY2023 because it uses
+an Indonesia-aligned direct segment pair. Transaction value declines 8.90%
+while third-party net segment revenue rises 53.20%. Blibli 3P Retail also has an
+opposite-sign FY2024–FY2025 transition, but it remains in the scope-pending tier
+because the segment includes online travel.
+
+This establishes that transaction activity and recognized revenue can tell
+different longitudinal stories within the available Indonesia-related issuer
+evidence. It does not establish an approved multi-platform Indonesia sample.
+
+Evidence and reproduction:
+
+- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_levels.csv`
+- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_transitions.csv`
+- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_transition_summary.csv`
+- `scripts/analysis/build_hypothesis_tests.py`
+- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
+
+## 5. BPS province evidence does not establish a stable marketplace-recordkeeping relationship
+
+The 2023 province cross-section shows a modest association between marketplace
+use and financial-report ownership, but the result is sensitive to correlation
+measure and weighting. The 2024 unweighted Pearson association is approximately
+zero (`r=0.022`, `p=0.897`). Across thirty-six common provinces, changes from
+2023–2024 have Pearson `r=0.309` (`p=0.066`) and Spearman `rho=0.151`
+(`p=0.379`). The business-count-weighted change correlation is `0.099`.
+
+The executed province evidence therefore does not validate a stable
+business-level marketplace/recordkeeping relationship. The national marginal
+percentages also permit very wide joint-status bounds. Business-level microdata
+or an official joint cross-tabulation is required to test that hypothesis.
+
+Evidence and reproduction:
+
+- `outputs/hypothesis_tests_2026-09-10/bps_province_hypothesis_results.csv`
+- `outputs/hypothesis_tests_2026-09-10/bps_within_province_changes.csv`
+- `outputs/hypothesis_tests_2026-09-10/bps_joint_status_bounds.csv`
+- `scripts/analysis/build_hypothesis_tests.py`
+- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
+
+## 6. Issuer accounting: transaction activity and recognized revenue are not interchangeable measures
 
 The global corroboration panel contains forty-eight matched issuer-years for
 eight platform businesses from 2017–2025. These yield forty consecutive
@@ -126,7 +179,7 @@ Evidence and reproduction:
 - `scripts/analysis/build_global_ecommerce_corroboration.py`
 - `reports/GLOBAL_ECOMMERCE_CORROBORATION_2026-09-10.md`
 
-## 5. Business-model and definition heterogeneity materially affect comparison
+## 7. Business-model and definition heterogeneity materially affect comparison
 
 Across the retained global histories, the observed revenue-to-transaction
 ratio ranges from approximately 0.22% for launch-stage Shopee in 2017 to
@@ -146,7 +199,7 @@ Evidence and reproduction:
 - `data/global_ecommerce/global_platform_issuer_summary.csv`
 - `reports/GLOBAL_ECOMMERCE_CORROBORATION_2026-09-10.md`
 
-## 6. ASEAN: digital-commerce expansion recurs, but countries are heterogeneous
+## 8. ASEAN: digital-commerce expansion recurs, but countries are heterogeneous
 
 The revision-aware ASEAN module retains six separate country histories rather
 than pooling the region. Latest-vintage estimates show e-commerce GMV rising
@@ -173,7 +226,7 @@ Evidence and reproduction:
 - `scripts/analysis/build_asean_corroboration.py`
 - `reports/ASEAN_CORROBORATION_EXTENSION_2026-09-10.md`
 
-## 7. Published estimates revise the measured past
+## 9. Published estimates revise the measured past
 
 The ASEAN source-vintage table preserves repeated estimates for the same
 country-year. Of sixty repeated overall-digital-economy and e-commerce cells,
@@ -198,7 +251,7 @@ Evidence and reproduction:
 - `scripts/analysis/build_asean_corroboration.py`
 - `scripts/analysis/build_global_ecommerce_corroboration.py`
 
-## 8. What the evidence establishes when read together
+## 10. What the evidence establishes when read together
 
 The combined evidence establishes a measurement-boundary result:
 
@@ -221,7 +274,7 @@ current evidence can support: the economically relevant activity is not
 necessarily absent from every record; it is distributed across ledgers that
 are not automatically comparable or linkable.
 
-## 9. What is not an empirical finding
+## 11. What is not an empirical finding
 
 The current repository does not establish:
 
@@ -239,7 +292,7 @@ The current repository does not establish:
 Those remain separate hypotheses, data-access questions, or future analyses.
 They must not be presented as conclusions from the current evidence.
 
-## 10. Current empirical conclusion
+## 12. Current empirical conclusion
 
 The defensible conclusion is not that transaction value missing from platform
 revenue is missing from the economy. It is that the economic story changes

@@ -1,0 +1,4 @@
+year,transaction_value_idr_trillion,estimated_ecommerce_businesses,implied_idr_million_per_business,marketplace_value_idr_trillion,nonmarketplace_value_idr_trillion,marketplace_value_status
+2022,783.0,2995986.0,261.34968587970707,,,not_available
+2023,1100.87,3816750.0,288.431256959455,200.68,900.1899999999998,direct_official_estimate
+2024,1288.93,4400972.0,292.8739378482753,203.522047,1085.4079530000001,derived_from_official_total_and_share

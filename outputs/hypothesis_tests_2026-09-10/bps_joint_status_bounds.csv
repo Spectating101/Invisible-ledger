@@ -1,0 +1,3 @@
+year,marketplace_use_pct,financial_report_ownership_pct,joint_marketplace_and_reports_lower_pct,joint_marketplace_and_reports_upper_pct,neither_lower_pct,neither_upper_pct,interpretation
+2023,17.8,15.190000000000001,0.0,15.190000000000001,67.00999999999999,82.19999999999999,Frechet bounds from separate national marginals; not a measured cross-tabulation.
+2024,17.23,17.15,0.0,17.15,65.62,82.77,Frechet bounds from separate national marginals; not a measured cross-tabulation.

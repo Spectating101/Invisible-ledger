@@ -1,0 +1,5 @@
+evidence_tier,transitions,series,revenue_grows_faster,transaction_grows_faster,opposite_sign_transitions,median_signed_difference_pp,median_absolute_difference_pp,interpretation_limit
+all_candidate_tiers,12,5,10,2,2,18.83837591701145,42.01719939214485,"Tiers are summarized separately; all-candidate totals are inventory diagnostics, not an approved pooled Indonesia sample."
+conditional_country_reconstruction,4,2,4,0,0,50.642953768822295,50.642953768822295,"Tiers are summarized separately; all-candidate totals are inventory diagnostics, not an approved pooled Indonesia sample."
+direct_indonesia_aligned_segment,1,1,1,0,1,62.09558686474561,62.09558686474561,"Tiers are summarized separately; all-candidate totals are inventory diagnostics, not an approved pooled Indonesia sample."
+direct_issuer_scope_pending,7,2,5,2,1,14.411066588306532,15.737939914478803,"Tiers are summarized separately; all-candidate totals are inventory diagnostics, not an approved pooled Indonesia sample."

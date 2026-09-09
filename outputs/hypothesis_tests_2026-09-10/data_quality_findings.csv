@@ -1,0 +1,8 @@
+issue,severity,affected_use,decision,reason
+Tokopedia FY2021 period mismatch,high,longitudinal net-revenue series,exclude from executed transitions,Full-year pro-forma GTV is not matched to a demonstrably equivalent full-year net-revenue period.
+Blibli 3P scope includes online travel,high,Indonesia goods-marketplace interpretation,retain in direct issuer scope-pending tier,"The pair is source-reported, but the segment perimeter is broader than marketplace goods commerce."
+Bukalapak overseas operations,high,Indonesia-only interpretation,retain in direct issuer scope-pending tier,Group transaction value and revenue are period-matched but not established as Indonesia-only.
+Bukalapak FY2024 reporting-period mismatch,critical,FY2024 ratio and transition,exclude,Transaction value covers nine months while revenue covers twelve months.
+Grab and Shopee Indonesia allocation dependence,high,country transaction/revenue interpretation,retain as conditional tier only,At least one country quantity is derived using a Group rate or external country-market estimate.
+BPS national business-count conflict for 2023,medium,business-count level and derived value per business,"use 3,816,750 with conflict disclosed","The main body/figure value is consistent with the stated growth calculation; another passage reports 3,934,981."
+BPS province evidence is ecological,high,marketplace participation and recordkeeping hypothesis,do not infer a business-level relationship,Province marginals do not identify the joint status of individual businesses.

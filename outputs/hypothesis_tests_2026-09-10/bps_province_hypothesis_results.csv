@@ -1,0 +1,4 @@
+specification,year_or_change,province_n,pearson_r,pearson_p,spearman_rho,spearman_p,business_count_weighted_r,interpretation
+province_cross_section,2023,36,0.263447723452261,0.12054963583273282,0.34259974259974263,0.04081362236845735,0.49043660818015333,Ecological cross-section; not a business-level marketplace effect.
+province_cross_section,2024,38,0.021777346687702218,0.8967441463074415,0.11303206040048144,0.4992496020214756,0.314271257982549,Ecological cross-section; not a business-level marketplace effect.
+within_province_change,2023-2024,36,0.3094530988399797,0.06627425068265697,0.15097496652667075,0.37943698077817767,0.09879843902870727,Ecological first difference; still not a business-level or causal effect.

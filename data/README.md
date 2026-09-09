@@ -15,6 +15,11 @@
 | `global_ecommerce/` | Definition-aware issuer transaction/revenue histories | Global corroboration only; not Indonesia observations or a representative firm sample |
 | `legacy_not_active/` | Superseded or unsafe historical files | Do not use in active analysis |
 
+The first executed tests of the current hypotheses are kept under
+`outputs/hypothesis_tests_2026-09-10/` and documented in
+`reports/HYPOTHESIS_TESTS_2026-09-10.md`. They preserve the evidence-tier
+boundaries above and do not define an approved main sample.
+
 ## Known coverage counts
 
 - FY2023 Indonesia construction: 3 platform cases supported by 11 source inputs.

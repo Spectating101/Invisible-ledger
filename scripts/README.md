@@ -1,5 +1,19 @@
 # Scripts
 
+## First hypothesis tests
+
+- `analysis/build_hypothesis_tests.py` executes the first longitudinal
+  Indonesia candidate analysis and BPS growth/recordkeeping tests. It writes
+  only derived outputs under `outputs/hypothesis_tests_2026-09-10/`, figures
+  under `reports/figures/`, and the technical readout
+  `reports/HYPOTHESIS_TESTS_2026-09-10.md`.
+
+Run from the repository root:
+
+```bash
+python3 scripts/analysis/build_hypothesis_tests.py
+```
+
 ## Global e-commerce corroboration
 
 - `acquisition/acquire_global_ecommerce_sources.py` archives issuer-hosted

@@ -22,6 +22,7 @@ This repository is a **working research archive**, not a claim that the empirica
 - The active expansion therefore concentrates on a longitudinal Indonesia design using additional years and issuers where source definitions permit.
 - ASEAN material is kept separately as context or robustness evidence. It must not be pooled as though ASEAN were one tax or regulatory system.
 - The current ASEAN corroboration extension treats six countries separately and preserves publication-vintage revisions; see [the technical readout](reports/ASEAN_CORROBORATION_EXTENSION_2026-09-10.md).
+- The first executed hypothesis tests now compare 12 within-series Indonesia candidate transitions and evaluate the BPS growth and province-recordkeeping evidence; see [the technical readout](reports/HYPOTHESIS_TESTS_2026-09-10.md) and [validation report](reports/HYPOTHESIS_TESTS_VALIDATION_2026-09-10.md).
 - The transaction–revenue difference is not automatically missing GDP, participant income, unpaid tax, or tax evasion.
 - Investor-event results remain exploratory while event contamination and information timing are unresolved.
 

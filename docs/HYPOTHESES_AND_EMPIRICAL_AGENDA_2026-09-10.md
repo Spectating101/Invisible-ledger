@@ -6,6 +6,13 @@ Everything in this document is provisional unless it explicitly points back to
 the established findings ledger. This is a research agenda, not a result sheet,
 manuscript conclusion, or statement of advisor approval.
 
+The first execution checkpoint is now available in
+[`HYPOTHESIS_TESTS_2026-09-10.md`](../reports/HYPOTHESIS_TESTS_2026-09-10.md).
+H1 receives candidate-inventory support, H2 receives aggregate-decomposition
+support, H3 is not established by the province evidence, H4 remains untested,
+and H5 is supported by the existing measurement modules. These statuses do not
+finalize the Indonesia sample.
+
 The established evidence is recorded separately in
 [`EMPIRICAL_FINDINGS_2026-09-10.md`](EMPIRICAL_FINDINGS_2026-09-10.md).
 

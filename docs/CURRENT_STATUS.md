@@ -1,4 +1,4 @@
-# Current status — 9 September 2026
+# Current status — 10 September 2026
 
 ## Advisor-facing decision state
 
@@ -17,6 +17,8 @@ No expanded sample is represented here as advisor-approved.
 - Preserved market prices for five platforms and three benchmarks, sufficient to revisit—but not automatically validate—the exploratory event study.
 - ASEAN and World Bank context kept in a separate data layer.
 - A separate global e-commerce corroboration module now contains 48 matched issuer-years across eight platform businesses. It shows transaction and revenue growth diverging within issuers, but it is not part of the Indonesia sample and is not a representative global panel.
+- The first Indonesia hypothesis execution retains 17 matched annual candidate levels and 12 within-series transitions across five series, separated into direct Indonesia-aligned, direct scope-pending, and conditional tiers. Tokopedia FY2022–FY2023 is the only transition currently in the direct Indonesia-aligned tier.
+- BPS aggregate decompositions support a participation-growth interpretation for 2022–2024, while the province-level marketplace/financial-recordkeeping relationship is unstable and does not establish a business-level effect.
 - Official BPS Indonesia evidence now covers national indicators through 2024 and 74 complete province-years across the 2023 and 2024 publications.
 - The official 2024 publication reports Rp1,288.93 trillion in e-commerce transaction value, 4,400,972 estimated e-commerce businesses, and 17.15% financial-report ownership.
 - A legacy Blibli 1Q23 column-mapping error has been isolated; the official issuer PDF and a corrected extract are preserved separately.
