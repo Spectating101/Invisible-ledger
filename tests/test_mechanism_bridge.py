@@ -60,7 +60,7 @@ class MechanismBridgeTests(unittest.TestCase):
     def test_unresolved_case_stays_unresolved(self):
         r = self.by_id["blibli_3p_2020_2021_unresolved"]
         self.assertEqual(r["mechanism_status"], "unresolved")
-        self.assertIn("not establish", r["mechanism_evidence"])
+        self.assertIn("sufficient to explain", r["mechanism_evidence"])
         self.assertLess(r["recognized_revenue_growth_pct"], 0)
         self.assertGreater(r["activity_growth_pct"], 0)
 
