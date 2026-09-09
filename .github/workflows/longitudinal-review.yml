@@ -1,0 +1,41 @@
+name: Longitudinal data review
+on:
+  pull_request:
+    paths:
+      - 'data/longitudinal/**'
+      - 'data/quarterly/**'
+      - 'scripts/analysis/**'
+      - 'research/longitudinal/**'
+      - 'tests/**'
+      - '.github/workflows/longitudinal-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test source corrections and paper tables
+        run: python3 -m unittest discover -s tests -p 'test_*longitudinal*.py' -v
+      - name: Generate reviewed coverage and empirical section
+        run: python3 scripts/analysis/paper_review_tables.py --output build/longitudinal
+      - name: Check deterministic regeneration and unchanged inputs
+        run: |
+          cp -r build/longitudinal build/first
+          python3 scripts/analysis/paper_review_tables.py --output build/longitudinal > /dev/null
+          diff -r build/first build/longitudinal
+          git diff --exit-code -- data sources
+      - name: Include review documentation
+        run: |
+          cp research/longitudinal/README.md build/longitudinal/README.md
+          cp research/longitudinal/OPEN_SOURCE_ISSUES.csv build/longitudinal/OPEN_SOURCE_ISSUES.csv
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: longitudinal-review
+          path: build/longitudinal
+          if-no-files-found: error
+          retention-days: 14
