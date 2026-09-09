@@ -1,0 +1,35 @@
+name: Economic contribution bridge
+on:
+  pull_request:
+    paths:
+      - 'scripts/analysis/build_contribution_bridge.py'
+      - 'tests/test_contribution_bridge.py'
+      - 'research/contribution_bridge/**'
+      - 'data/bps_official/bps_ecommerce_national_indicators_2020_2023.csv'
+      - '.github/workflows/contribution-bridge.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test identities, bounds, lineage and actual inputs
+        run: python3 -m unittest discover -s tests -p 'test_contribution_bridge.py' -v
+      - name: Regenerate the reported results twice
+        run: |
+          python3 scripts/analysis/build_contribution_bridge.py --output build/contribution_bridge
+          python3 scripts/analysis/build_contribution_bridge.py --output build/repeat > /dev/null
+          diff -r build/contribution_bridge build/repeat
+          diff research/contribution_bridge/results/RESULTS.md build/contribution_bridge/RESULTS.md
+          git diff --exit-code -- data sources outputs papers
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: economic-contribution-results
+          path: build/contribution_bridge
+          if-no-files-found: error
+          retention-days: 30
