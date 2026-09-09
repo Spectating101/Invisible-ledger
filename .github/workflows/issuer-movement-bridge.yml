@@ -4,7 +4,9 @@ on:
   pull_request:
     paths:
       - 'scripts/analysis/build_issuer_movement_bridge.py'
+      - 'scripts/analysis/build_mechanism_bridge.py'
       - 'tests/test_issuer_movement_bridge.py'
+      - 'tests/test_mechanism_bridge.py'
       - 'research/issuer_movement_bridge/**'
       - 'data/longitudinal/**'
       - 'data/measurement/results/tokopedia_fy2022_2023_revenue_incentive_reconciliation.csv'
@@ -18,20 +20,29 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Test selection, exclusions, and growth calculations
-        run: python3 -m unittest discover -s tests -p 'test_issuer_movement_bridge.py' -v
+      - name: Test selection, exclusions, growth and mechanisms
+        run: |
+          python3 -m unittest discover -s tests -p 'test_issuer_movement_bridge.py' -v
+          python3 -m unittest discover -s tests -p 'test_mechanism_bridge.py' -v
 
-      - name: Generate research outputs
+      - name: Generate research outputs twice
         run: |
           rm -rf build/issuer_movement_bridge build/issuer_movement_bridge_repeat
+          rm -rf build/mechanism_bridge build/mechanism_bridge_repeat
           python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge
           python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge_repeat
           diff -r build/issuer_movement_bridge build/issuer_movement_bridge_repeat
+          python3 scripts/analysis/build_mechanism_bridge.py --output build/mechanism_bridge
+          python3 scripts/analysis/build_mechanism_bridge.py --output build/mechanism_bridge_repeat
+          diff -r build/mechanism_bridge build/mechanism_bridge_repeat
           cat build/issuer_movement_bridge/SUMMARY.md
+          cat build/mechanism_bridge/MECHANISMS.md
 
       - name: Upload computed research outputs
         uses: actions/upload-artifact@v4
         with:
-          name: issuer-movement-bridge-results
-          path: build/issuer_movement_bridge
+          name: issuer-movement-and-mechanism-results
+          path: |
+            build/issuer_movement_bridge
+            build/mechanism_bridge
           retention-days: 30
