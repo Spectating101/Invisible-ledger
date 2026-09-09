@@ -4,7 +4,10 @@ on:
   pull_request:
     paths:
       - 'data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv'
+      - 'data/bps_official/bps_ecommerce_national_indicators_2020_2023.csv'
+      - 'data/bps_official/bps_crosswave_source_certification_2026-09-10.csv'
       - 'scripts/analysis/build_indonesia_longitudinal_robustness.py'
+      - 'scripts/analysis/build_bps_growth_robustness.py'
       - 'outputs/empirical_robustness_2026-09-10/**'
       - 'docs/INDONESIA_LONGITUDINAL_ROBUSTNESS_2026-09-10.md'
       - '.github/workflows/empirical-robustness.yml'
@@ -19,11 +22,15 @@ jobs:
       - name: Rebuild robustness outputs
         run: |
           python3 -m py_compile scripts/analysis/build_indonesia_longitudinal_robustness.py
+          python3 -m py_compile scripts/analysis/build_bps_growth_robustness.py
           rm -rf build/empirical_robustness
           python3 scripts/analysis/build_indonesia_longitudinal_robustness.py --output build/empirical_robustness
+          python3 scripts/analysis/build_bps_growth_robustness.py --output build/empirical_robustness
           diff -r build/empirical_robustness outputs/empirical_robustness_2026-09-10
       - name: Check robustness headlines
         run: |
           grep -q '42.94 percentage points' outputs/empirical_robustness_2026-09-10/SUMMARY.md
           grep -q '29.34 percentage points' outputs/empirical_robustness_2026-09-10/SUMMARY.md
           grep -q '29.34pp to 52.52pp' outputs/empirical_robustness_2026-09-10/SUMMARY.md
+          grep -q '90.29%' outputs/empirical_robustness_2026-09-10/BPS_SUMMARY.md
+          grep -q '98.46%' outputs/empirical_robustness_2026-09-10/BPS_SUMMARY.md
