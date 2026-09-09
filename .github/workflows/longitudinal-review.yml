@@ -19,23 +19,18 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
-      - name: Test review rules
-        run: python3 -m unittest discover -s tests -p 'test_longitudinal_review.py' -v
-      - name: Build and inspect actual repository data
-        run: python3 scripts/analysis/longitudinal_review.py --output build/longitudinal
+      - name: Test review rules and actual source corrections
+        run: python3 -m unittest discover -s tests -p 'test_*longitudinal*.py' -v
+      - name: Build source-reviewed coverage and comparisons
+        run: python3 scripts/analysis/reviewed_longitudinal.py --output build/longitudinal
       - name: Check deterministic regeneration and unchanged inputs
         run: |
           cp -r build/longitudinal build/first
-          python3 scripts/analysis/longitudinal_review.py --output build/longitudinal > /dev/null
+          python3 scripts/analysis/reviewed_longitudinal.py --output build/longitudinal > /dev/null
           diff -r build/first build/longitudinal
           git diff --exit-code -- data sources
-      - name: Public input export for independent review
+      - name: Bounded public input export for independent reproduction
         run: python3 scripts/analysis/export_review_inputs.py
-      - name: Inspect the original annual and quarterly column order
-        run: |
-          pdftotext -layout -f 2 -l 2 sources/core_public_documents/blibli_fy2023_linked_0.pdf -
-          curl --fail --location --max-time 30 'https://asset-about.blibli.com/2023/05/Earnings-Release-1Q23-PT-Global-Digital-Niaga-Tbk.pdf' --output /tmp/blibli_q123.pdf
-          pdftotext -layout -f 2 -l 2 /tmp/blibli_q123.pdf -
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: longitudinal-review
