@@ -1,0 +1,15 @@
+severity,area,finding,required_treatment
+critical,main-sample definition,No expanded longitudinal sample is advisor-approved.,Treat sample families as alternatives; do not pool them.
+critical,geography,No verified strict direct country-level transaction/revenue pair is established for all proposed platforms.,"Separate explicit-country anchors, Indonesia-aligned segments, and company-wide records."
+high,Grab country construction,Country transaction value is inferred with a Group monetization rate.,Keep conditional; show rate sensitivity and avoid calling it direct.
+high,Shopee country construction,Country GMV is external and country revenue is derived from a Group service rate.,Keep conditional; test market-size/share/rate assumptions separately.
+high,Blibli scope,3P includes online travel and Group geography is not confirmed Indonesia-only.,Resolve segment and geographic eligibility before main-sample admission.
+high,Bukalapak geography,Group disclosures include overseas activity.,Use only with explicit issuer-scope framing or a verified Indonesia allocation.
+high,Bukalapak FY2024,TPV covers 9 months while revenue covers 12 months.,Exclude until a matched 9M revenue denominator is found.
+high,event study,Contamination classifications remain unresolved for many events.,Keep results exploratory until classifications and timing are closed.
+medium,reporting vintages,Blibli observations repeat across releases and sometimes change slightly.,Preserve all vintages; designate one canonical record per period/scope.
+high,Blibli Q1 extraction,Rows labelled 2023Q1 reproduce FY2022 values in the source line and are likely mapped to the wrong comparative columns.,Exclude the affected Q1 extraction until the issuer table is manually remapped.
+resolved,Blibli Q1 extraction,The official 1Q23 issuer PDF was recovered and FY22/1Q23/1Q22 columns were manually remapped in a separate immutable correction extract.,Use blibli_q1_2023_corrected_extract.csv; retain the legacy rows only as excluded lineage.
+medium,revenue definitions,"Gross, net, service, and total revenue are not interchangeable.",Use a consistent denominator within each comparison and publish reconciliations.
+medium,structural breaks,Grab business-model changes and Tokopedia deconsolidation alter comparability.,Flag or segment time series around breaks; use issuer comparable-basis disclosures.
+medium,row-count interpretation,"Source rows, inputs, scenarios, annual totals, and quarters overlap.",Report N separately by observation grain and unique economic period.

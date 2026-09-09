@@ -1,0 +1,16 @@
+platform,sample_family,records,full_pairs,ratio_eligible,direct_pairs,conditional_or_derived,explicit_country_records,first_year,last_year
+Blibli/GDN,blibli_prospectus_candidates,8,8,7,8,0,0,2019.0,2020.0
+Blibli/GDN,blibli_q1_verified_replacement,10,10,10,10,0,0,2022.0,2023.0
+Blibli/GDN,blibli_reported_source_universe,70,70,69,70,0,0,2021.0,2025.0
+Bukalapak,bukalapak_annual_candidates,5,5,4,4,0,0,2020.0,2024.0
+GoTo,quarterly_company_accounting,16,16,16,0,0,0,2022.0,2026.0
+GoTo,recent_company_annual,4,4,4,0,4,0,2022.0,2025.0
+Grab,conditional_indonesia_country_reconstruction,3,3,3,0,3,3,2021.0,2023.0
+Grab,historical_company_segment,3,3,2,3,0,0,2019.0,2021.0
+Grab,quarterly_company_accounting,17,17,17,0,0,0,2022.0,2026.0
+Grab,recent_company_annual,4,4,4,0,4,0,2022.0,2025.0
+Sea,quarterly_company_accounting,14,14,14,0,0,0,2022.0,2026.0
+Sea,recent_company_annual,4,4,4,0,4,0,2022.0,2025.0
+Sea / Shopee,historical_company_segment,5,5,5,5,0,0,2017.0,2021.0
+Shopee,conditional_indonesia_country_reconstruction,3,3,3,0,3,3,2022.0,2024.0
+Tokopedia e-commerce segment,indonesia_aligned_direct_segment,3,3,3,3,0,0,2021.0,2023.0

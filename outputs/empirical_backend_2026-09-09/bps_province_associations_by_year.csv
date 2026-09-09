@@ -1,0 +1,3 @@
+year,province_N,pearson_r,pearson_p,spearman_rho,spearman_p,business_count_weighted_r,interpretation
+2023,36,0.263447723452261,0.12054963583273282,0.34259974259974263,0.04081362236845735,0.49043660818015333,Province-level descriptive association; not causal or business-level.
+2024,38,0.021777346687702218,0.8967441463074415,0.11303206040048144,0.4992496020214756,0.314271257982549,Province-level descriptive association; not causal or business-level.

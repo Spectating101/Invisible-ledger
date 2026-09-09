@@ -13,9 +13,16 @@ import sys
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parents[1]
-EXTRACTS = ROOT / "02_SOURCE_EXTRACTS"
-RESULTS = ROOT / "05_RESULTS"
+ROOT = Path(__file__).resolve().parents[2]
+MAIN = ROOT / "data" / "indonesia_fy2023"
+LONGITUDINAL = ROOT / "data" / "longitudinal"
+SOURCES = ROOT / "sources" / "core_public_documents"
+
+
+def source_exists(source: str) -> bool:
+    if (ROOT / source).is_file() or (SOURCES / Path(source).name).is_file():
+        return True
+    return any((ROOT / "data").rglob(Path(source).name))
 
 
 def read_rows(path: Path) -> list[dict[str, str]]:
@@ -29,16 +36,16 @@ def require(condition: bool, message: str) -> None:
 
 
 def main() -> None:
-    main_inputs = read_rows(EXTRACTS / "fy2023_indonesia_source_inputs.csv")
-    extension_inputs = read_rows(EXTRACTS / "indonesia_extension_source_inputs.csv")
-    grab_coverage = read_rows(EXTRACTS / "grab_country_revenue_coverage_2021_2024.csv")
+    main_inputs = read_rows(MAIN / "fy2023_indonesia_source_inputs.csv")
+    extension_inputs = read_rows(LONGITUDINAL / "indonesia_extension_source_inputs.csv")
+    grab_coverage = read_rows(LONGITUDINAL / "grab_country_revenue_coverage_2021_2024.csv")
 
     missing = []
     for row in [*main_inputs, *extension_inputs, *grab_coverage]:
         source = row.get("source_file", "")
         if source.startswith("02_SOURCE_EXTRACTS/"):
             continue
-        if not (ROOT / source).is_file():
+        if not source_exists(source):
             missing.append(source)
     require(not missing, f"Missing cited source files: {sorted(set(missing))}")
 
@@ -48,12 +55,12 @@ def main() -> None:
     require({r["period"] for r in grab_coverage} == {"FY2021", "FY2022", "FY2023", "FY2024"}, "Grab coverage periods changed")
     require({r["geography"] for r in grab_coverage} == {"Indonesia", "Malaysia", "Philippines", "Singapore", "Thailand"}, "Grab coverage countries changed")
 
-    main_rows = read_rows(RESULTS / "fy2023_indonesia_main_rebuilt.csv")
-    expanded_sensitivity = read_rows(RESULTS / "fy2023_indonesia_main_one_way_sensitivity.csv")
-    leave_one_out = read_rows(RESULTS / "fy2023_indonesia_leave_one_platform_out.csv")
-    extension_rows = read_rows(RESULTS / "indonesia_platform_year_extension.csv")
-    history_rows = read_rows(RESULTS / "historical_within_platform_ratios.csv")
-    event_rows = read_rows(ROOT / "07_EVENT_AND_MARKET" / "clean_event_panel_accounting.csv")
+    main_rows = read_rows(MAIN / "fy2023_indonesia_main_rebuilt.csv")
+    expanded_sensitivity = read_rows(MAIN / "fy2023_indonesia_main_one_way_sensitivity.csv")
+    leave_one_out = read_rows(MAIN / "fy2023_indonesia_leave_one_platform_out.csv")
+    extension_rows = read_rows(LONGITUDINAL / "indonesia_platform_year_extension.csv")
+    history_rows = read_rows(LONGITUDINAL / "historical_within_platform_ratios.csv")
+    event_rows = read_rows(ROOT / "data" / "quarterly" / "clean_event_panel_accounting.csv")
     require(len(main_rows) == 3, f"Expected 3 main observations, found {len(main_rows)}")
     require(len(expanded_sensitivity) == 14, f"Expected 14 one-way scenarios, found {len(expanded_sensitivity)}")
     require(len(leave_one_out) == 3, f"Expected 3 leave-one-platform-out checks, found {len(leave_one_out)}")

@@ -1,0 +1,10 @@
+sample_family,source_records_all_vintages,canonical_records,full_matched_pairs,ratio_eligible_pairs,unique_platforms,unique_platform_segment_combinations,unique_period_labels,min_year,max_year,direct_pair_records,derived_or_conditional_records,excluded_records,interpretation
+blibli_prospectus_candidates,8,8,8,7,1,4,2,2019.0,2020.0,8,0,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+blibli_q1_verified_replacement,15,10,10,10,1,5,2,2022.0,2023.0,10,0,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+blibli_reported_source_universe,90,70,70,69,1,5,14,2021.0,2025.0,70,0,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+bukalapak_annual_candidates,5,5,5,4,1,1,5,2020.0,2024.0,4,0,1,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+conditional_indonesia_country_reconstruction,6,6,6,6,2,2,4,2021.0,2024.0,0,6,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+historical_company_segment,8,8,8,7,2,2,5,2017.0,2021.0,8,0,1,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+indonesia_aligned_direct_segment,3,3,3,3,1,1,3,2021.0,2023.0,3,0,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+quarterly_company_accounting,47,47,47,47,3,3,17,2022.0,2026.0,0,0,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."
+recent_company_annual,13,12,12,12,3,5,4,2022.0,2025.0,0,12,0,"Counts are internal to this sample family; do not add across overlapping annual, quarterly, segment, or vintage layers."

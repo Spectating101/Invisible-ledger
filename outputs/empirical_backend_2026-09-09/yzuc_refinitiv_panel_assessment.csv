@@ -1,0 +1,2 @@
+dataset_id,registered_rows,registered_columns,claimed_grain,actual_nonmissing_fiscal_years,actual_unique_rics,actual_relevant_rics,assessment,admission_decision,reason
+refinitiv_fundamental_annual_panel,227,8,instrument_fiscal_year,0,227,GOTO.JK,"The registered parquet is an FY0 cross-sectional snapshot: fiscal_year is null for every row.",exclude_from_longitudinal_expansion,"It cannot supply a historical panel or add valid fiscal-year observations; retain only as a current-value cross-check after field-level verification."

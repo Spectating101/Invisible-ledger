@@ -1,0 +1,16 @@
+{
+  "generated_on": "2026-09-09",
+  "source_files_profiled": 78,
+  "csv_files_profiled": 66,
+  "source_layer_csv_rows": 35972,
+  "census_source_records": 195,
+  "census_canonical_records": 169,
+  "census_ratio_eligible_records": 165,
+  "indonesia_extension_records": 9,
+  "quarterly_accounting_records": 47,
+  "strict_explicit_country_direct_pairs": 0,
+  "candidate_indonesia_aligned_direct_annual_pairs": 14,
+  "bps_provinces_with_complete_pair": 36,
+  "bps_complete_province_years_2023_2024": 74,
+  "interpretation": "Counts belong to different, overlapping evidence families and must not be summed into one sample N."
+}

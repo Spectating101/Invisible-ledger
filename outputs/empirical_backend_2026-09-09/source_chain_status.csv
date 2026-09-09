@@ -1,0 +1,7 @@
+module,records,source_linked_records,usable_numeric_records,reproduction_status,analytical_role,limitation
+FY2023 Indonesia reconstruction,3,3,3,yes,conditional,Grab and Shopee depend on allocation assumptions; Tokopedia is segment-labelled.
+Indonesia longitudinal extension,9,9,9,yes,candidate,Unbalanced 2021-2024; mixed direct segment and derived country cases.
+Historical direct annual platform series,8,8,7,yes,supporting,Grab FY2019 ratio invalid because revenue denominator is negative.
+Quarterly accounting panel,47,47,47,yes,supporting,"Company/segment scope, not Indonesia-only."
+Unfiltered event-study rows,47,47,47,prices preserved,exploratory,31 contamination flags unresolved.
+ASEAN World Bank context,2860,2860,2617,yes,context_only,Country-year-indicator slots; not platform accounting observations.

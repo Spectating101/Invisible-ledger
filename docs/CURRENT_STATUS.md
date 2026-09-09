@@ -16,6 +16,9 @@ No expanded sample is represented here as advisor-approved.
 - Grab country-revenue coverage and additional Shopee country-market anchors; these do not independently provide matching country transaction value and revenue.
 - Preserved market prices for five platforms and three benchmarks, sufficient to revisit—but not automatically validate—the exploratory event study.
 - ASEAN and World Bank context kept in a separate data layer.
+- Official BPS Indonesia evidence now covers national indicators through 2024 and 74 complete province-years across the 2023 and 2024 publications.
+- The official 2024 publication reports Rp1,288.93 trillion in e-commerce transaction value, 4,400,972 estimated e-commerce businesses, and 17.15% financial-report ownership.
+- A legacy Blibli 1Q23 column-mapping error has been isolated; the official issuer PDF and a corrected extract are preserved separately.
 
 ## Primary unresolved decisions
 
@@ -25,6 +28,7 @@ No expanded sample is represented here as advisor-approved.
 4. How should Blibli's online-travel component and Bukalapak's overseas operations affect admission?
 5. Should Grab and Shopee country allocations remain conditional cases rather than core observations?
 6. Is the resulting measurement/disclosure analysis sufficient, or is an additional empirical test required?
+7. Should BPS evidence remain an independent measurement/context module or become a larger business-level design if licensed microdata are obtained?
 
 ## Do not currently claim
 
@@ -34,4 +38,3 @@ No expanded sample is represented here as advisor-approved.
 - that the difference measures missing GDP, undeclared income or unpaid tax;
 - that the event study is final;
 - that an ASEAN aggregate validates Indonesia-specific assumptions.
-
