@@ -1,0 +1,9 @@
+design_dimension,decision,reason
+main_geography,Indonesia,ASEAN evidence cannot replace the advisor-requested Indonesia main analysis
+country_unit,separate country-year,Do not treat ASEAN as one tax or regulatory regime
+tax_inference,not estimated,"GMV does not reveal taxable income, compliance, or tax liability"
+business_model,country-specific,Use platform-share structure descriptively; do not impose one platform mix
+source_status,external estimate,"e-Conomy SEA and Momentum Works are market estimates, not issuer or statistical-agency records"
+vintage_policy,latest available,Canonical series uses the latest report vintage; all earlier vintages remain auditable
+pooling,descriptive only,"Regional totals may summarize scale, but inference is based on within-country results"
+interpretation,digital commercial intensity,"GMV/GDP and GMV/consumption ratios are scale indicators, not national-accounting residuals"

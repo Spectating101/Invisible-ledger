@@ -14,6 +14,7 @@ This repository is a **working research archive**, not a claim that the empirica
 - FY2023 is the cleanest cross-platform comparison, but a one-year main sample has been judged insufficient for the master's thesis.
 - The active expansion therefore concentrates on a longitudinal Indonesia design using additional years and issuers where source definitions permit.
 - ASEAN material is kept separately as context or robustness evidence. It must not be pooled as though ASEAN were one tax or regulatory system.
+- The current ASEAN corroboration extension treats six countries separately and preserves publication-vintage revisions; see [the technical readout](reports/ASEAN_CORROBORATION_EXTENSION_2026-09-10.md).
 - The transaction–revenue difference is not automatically missing GDP, participant income, unpaid tax, or tax evasion.
 - Investor-event results remain exploratory while event contamination and information timing are unresolved.
 
@@ -37,6 +38,7 @@ Invisible-ledger/
 │   ├── market/                 # preserved price data and exploratory outputs
 │   ├── bps_official/           # Indonesia official-statistics extracts, 2020–2024
 │   ├── asean_context/          # country-level context kept separate
+│   ├── asean_corroboration/    # six-country, revision-aware supporting evidence
 │   └── legacy_not_active/      # preserved but prohibited as active evidence
 ├── scripts/
 │   ├── acquisition/

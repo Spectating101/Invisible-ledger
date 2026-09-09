@@ -1,0 +1,7 @@
+country,economy_sea_ecommerce_gmv_usd_billion,momentum_platform_market_gmv_usd_billion,economy_sea_minus_momentum_usd_billion,economy_sea_minus_momentum_pct_of_momentum,interpretation
+Indonesia,71.0,57.7,13.299999999999997,23.050259965337936,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates
+Malaysia,20.0,17.0,3.0,17.647058823529417,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates
+Philippines,24.0,21.1,2.8999999999999986,13.744075829383885,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates
+Singapore,9.0,5.9,3.0999999999999996,52.542372881355924,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates
+Thailand,33.0,35.5,-2.5,-7.042253521126762,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates
+Vietnam,25.0,20.4,4.600000000000001,22.549019607843146,Cross-source definition/coverage diagnostic only; differences are not measurement error estimates

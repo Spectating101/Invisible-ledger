@@ -14,3 +14,8 @@ build/
 tmp/
 scratch/
 
+# Re-downloadable public research archives. Commit manifests and acquisition
+# scripts, not duplicate binary report collections.
+sources/asean_economy_reports/*.pdf
+sources/asean_market_sources/**/*.pdf
+sources/asean_market_sources/**/*.jpg

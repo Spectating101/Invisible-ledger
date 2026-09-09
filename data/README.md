@@ -11,6 +11,7 @@
 | `market/` | Daily prices, events and exploratory event outputs | Event interpretation remains unresolved |
 | `bps_official/` | Official Indonesia national and province e-commerce statistics | Different unit from issuer data; province evidence is ecological |
 | `asean_context/` | Country-level macro, market and policy context | Must remain separate by country and definition |
+| `asean_corroboration/` | Revision-aware SEA-6 market histories and diagnostics | Six country analyses; never a pooled tax sample |
 | `legacy_not_active/` | Superseded or unsafe historical files | Do not use in active analysis |
 
 ## Known coverage counts
@@ -24,6 +25,7 @@
 - World Bank ASEAN context: 2,860 country-year-indicator slots, 2,617 populated.
 - BPS repeated province evidence: 74 complete province-years across 2023–2024; national indicators extend across available years from 2020–2024.
 - Indonesia-aligned direct annual candidate design: 14 matched periods across Blibli, Bukalapak, and Tokopedia, before final geographic/scope admission.
+- ASEAN corroboration: 450 source-vintage metric rows yielding 42 latest-vintage country-years across six countries; supporting evidence only.
 
 These counts describe different data layers. They must never be added together as a single sample N.
 
