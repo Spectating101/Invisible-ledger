@@ -6,9 +6,11 @@ on:
       - 'scripts/analysis/build_issuer_movement_bridge.py'
       - 'scripts/analysis/build_mechanism_bridge.py'
       - 'scripts/analysis/build_empirical_review_package.py'
+      - 'scripts/analysis/build_empirical_review_certified.py'
       - 'tests/test_issuer_movement_bridge.py'
       - 'tests/test_mechanism_bridge.py'
       - 'tests/test_empirical_review_package.py'
+      - 'tests/test_empirical_review_certified.py'
       - 'research/issuer_movement_bridge/**'
       - 'data/longitudinal/**'
       - 'data/bps_official/**'
@@ -24,17 +26,19 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Test selection, exclusions, growth, mechanisms and review package
+      - name: Test selection, exclusions, growth, mechanisms and review packages
         run: |
           python3 -m unittest discover -s tests -p 'test_issuer_movement_bridge.py' -v
           python3 -m unittest discover -s tests -p 'test_mechanism_bridge.py' -v
           python3 -m unittest discover -s tests -p 'test_empirical_review_package.py' -v
+          python3 -m unittest discover -s tests -p 'test_empirical_review_certified.py' -v
 
       - name: Generate research outputs twice
         run: |
           rm -rf build/issuer_movement_bridge build/issuer_movement_bridge_repeat
           rm -rf build/mechanism_bridge build/mechanism_bridge_repeat
           rm -rf build/empirical_review_package build/empirical_review_package_repeat
+          rm -rf build/empirical_review_certified build/empirical_review_certified_repeat
           python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge
           python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge_repeat
           diff -r build/issuer_movement_bridge build/issuer_movement_bridge_repeat
@@ -44,10 +48,13 @@ jobs:
           python3 scripts/analysis/build_empirical_review_package.py --output build/empirical_review_package
           python3 scripts/analysis/build_empirical_review_package.py --output build/empirical_review_package_repeat
           diff -r build/empirical_review_package build/empirical_review_package_repeat
+          python3 scripts/analysis/build_empirical_review_certified.py --output build/empirical_review_certified
+          python3 scripts/analysis/build_empirical_review_certified.py --output build/empirical_review_certified_repeat
+          diff -r build/empirical_review_certified build/empirical_review_certified_repeat
           cat build/issuer_movement_bridge/SUMMARY.md
           cat build/mechanism_bridge/MECHANISMS.md
-          cat build/empirical_review_package/KONG_DATA_REVIEW.md
-          cat build/empirical_review_package/KONG_DECISION_SHEET.md
+          cat build/empirical_review_certified/KONG_DATA_REVIEW.md
+          cat build/empirical_review_certified/KONG_DECISION_SHEET.md
 
       - name: Upload computed research outputs
         uses: actions/upload-artifact@v4
@@ -57,4 +64,5 @@ jobs:
             build/issuer_movement_bridge
             build/mechanism_bridge
             build/empirical_review_package
+            build/empirical_review_certified
           retention-days: 30
