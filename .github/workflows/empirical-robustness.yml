@@ -10,6 +10,7 @@ on:
       - 'scripts/analysis/build_bps_growth_robustness.py'
       - 'outputs/empirical_robustness_2026-09-10/**'
       - 'docs/INDONESIA_LONGITUDINAL_ROBUSTNESS_2026-09-10.md'
+      - 'docs/BPS_GROWTH_ANATOMY_ROBUSTNESS_2026-09-10.md'
       - '.github/workflows/empirical-robustness.yml'
 
 jobs:
