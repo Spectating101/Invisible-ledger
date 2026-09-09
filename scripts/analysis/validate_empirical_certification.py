@@ -53,8 +53,6 @@ def validate_indonesia() -> dict[str, float | int]:
                 continue
             tv0, tv1 = float(a["transaction_value"]), float(b["transaction_value"])
             rev0, rev1 = float(a["revenue_value"]), float(b["revenue_value"])
-            # Ratio/growth interpretation requires positive bases. This excludes
-            # Blibli FY2019→FY2020 because FY2019 net revenue is negative.
             if tv0 <= 0 or rev0 <= 0 or tv1 <= 0 or rev1 <= 0:
                 continue
             tg, rg = pct(tv1, tv0), pct(rev1, rev0)
@@ -76,6 +74,18 @@ def validate_indonesia() -> dict[str, float | int]:
         "opposite_sign_transitions": len(reversals),
         "median_abs_growth_gap_pp": med,
     }
+
+
+def validate_vintage_sensitivity() -> dict[str, str]:
+    rows = {r["item"]: r for r in read_csv(ROOT / "data/longitudinal/blibli_vintage_sensitivity_2026-09-10.csv")}
+    assert rows["FY2023_3P_TPV"]["canonical_value"] == "49912"
+    assert rows["FY2023_3P_TPV"]["alternative_value"] == "49917"
+    assert abs(float(rows["FY2022_to_FY2023_3P_TPV_growth"]["difference"])) < 0.02
+    assert abs(float(rows["FY2023_to_FY2024_3P_TPV_growth"]["difference"])) < 0.02
+    assert rows["direct_candidate_transition_count"]["canonical_value"] == "9"
+    assert rows["opposite_sign_transition_count"]["canonical_value"] == "3"
+    assert rows["median_absolute_growth_gap"]["canonical_value"] == rows["median_absolute_growth_gap"]["alternative_value"]
+    return {"FY2023_TPV_vintage_delta_IDR_bn": rows["FY2023_3P_TPV"]["difference"]}
 
 
 def validate_bps() -> dict[str, str]:
@@ -126,11 +136,13 @@ def validate_findings_text() -> None:
 
 def main() -> None:
     i = validate_indonesia()
+    v = validate_vintage_sensitivity()
     b = validate_bps()
     g = validate_global()
     validate_findings_text()
     print("empirical certification OK")
     print(i)
+    print(v)
     print(b)
     print(g)
 
