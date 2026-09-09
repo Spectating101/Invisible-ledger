@@ -4,6 +4,8 @@ Research repository for **The Invisible Ledger**, a thesis project on the measur
 
 The project asks how platform transaction flows relate to revenue recognized by the platform, what participant-side activity remains outside that corporate revenue boundary, and what can—and cannot—be inferred for economic statistics and tax administration.
 
+For the reasoning behind the current rebuild—including agreed decisions, provisional interpretation, strongest findings, unresolved questions, and the handoff to independent reviewers—read [the research-direction handoff](docs/RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
@@ -15,7 +17,7 @@ This repository is a **working research archive**, not a claim that the empirica
 - The transaction–revenue difference is not automatically missing GDP, participant income, unpaid tax, or tax evasion.
 - Investor-event results remain exploratory while event contamination and information timing are unresolved.
 
-Read [AGENTS.md](AGENTS.md), [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md), and [data/README.md](data/README.md) before using the files.
+Read [AGENTS.md](AGENTS.md), [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md), [docs/PROJECT_HISTORY.md](docs/PROJECT_HISTORY.md), [docs/METHODOLOGY.md](docs/METHODOLOGY.md), [data/README.md](data/README.md), and [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) before interpreting repository outputs.
 
 ## Repository map
 

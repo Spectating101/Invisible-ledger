@@ -19,3 +19,4 @@ Platforms create detailed private records of transactions involving drivers, mer
 
 The core idea is not the ecosystem-ratio arithmetic. The contribution sought is a reproducible measurement protocol and an analysis of how geography, business perimeter, incentives, accounting definitions and missing participant-side data affect what can be inferred from platform disclosures.
 
+For the fuller decision history and the boundary between settled direction and current agent recommendations, see [the research-direction handoff](RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
