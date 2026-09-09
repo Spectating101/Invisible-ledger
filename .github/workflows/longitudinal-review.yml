@@ -1,0 +1,35 @@
+name: Longitudinal data review
+on:
+  pull_request:
+    paths:
+      - 'data/longitudinal/**'
+      - 'data/quarterly/**'
+      - 'scripts/analysis/longitudinal_review.py'
+      - 'tests/test_longitudinal_review.py'
+      - '.github/workflows/longitudinal-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Test review rules
+        run: python3 -m unittest discover -s tests -p 'test_longitudinal_review.py' -v
+      - name: Build and inspect actual repository data
+        run: python3 scripts/analysis/longitudinal_review.py --output build/longitudinal --print-review
+      - name: Check deterministic regeneration and unchanged inputs
+        run: |
+          cp -r build/longitudinal build/first
+          python3 scripts/analysis/longitudinal_review.py --output build/longitudinal > /dev/null
+          diff -r build/first build/longitudinal
+          git diff --exit-code -- data sources
+      - uses: actions/upload-artifact@v4
+        with:
+          name: longitudinal-review
+          path: build/longitudinal
+          retention-days: 14
