@@ -36,6 +36,81 @@ ISO3 = {
     "Vietnam": "VNM",
 }
 
+TAX_PLATFORM_CONTEXT = [
+    {
+        "country": "Indonesia",
+        "instrument": "PMSE VAT collector regime",
+        "effective_date": "2020-07-01",
+        "active_in_fy2023": "yes",
+        "tax_object": "Use in Indonesia of qualifying intangible goods and taxable services supplied through electronic systems",
+        "platform_role": "Appointed foreign or domestic PMSE operators collect, remit, and report VAT",
+        "scope_boundary": "Does not make total marketplace merchandise GMV equal taxable merchant income or platform revenue",
+        "official_source_url": "https://pajak.go.id/en/digitaltax",
+        "archived_source_file": "",
+        "source_archive_status": "official page verified; local archival timed out",
+    },
+    {
+        "country": "Malaysia",
+        "instrument": "Service Tax on Digital Services by foreign service providers",
+        "effective_date": "2020-01-01",
+        "active_in_fy2023": "yes",
+        "tax_object": "Digital services supplied by a registered foreign service provider to a Malaysian consumer",
+        "platform_role": "Definition of foreign service provider can include an overseas online marketplace operator",
+        "scope_boundary": "Service tax on digital services is not a tax on all domestic marketplace merchandise GMV",
+        "official_source_url": "https://mysst.customs.gov.my/faq-business/",
+        "archived_source_file": "sources/asean_tax_sources/malaysia_mystods_faq_business.html",
+        "source_archive_status": "archived",
+    },
+    {
+        "country": "Philippines",
+        "instrument": "VAT on Digital Services under RA 12023 and RR 3-2025",
+        "effective_date": "2025 (post-FY2023 implementation)",
+        "active_in_fy2023": "no",
+        "tax_object": "Digital services consumed in the Philippines",
+        "platform_role": "A qualifying nonresident e-marketplace may be liable for VAT on covered transactions when it controls key aspects of supply",
+        "scope_boundary": "The 2025 digital-services regime cannot be imposed retrospectively on the FY2023 country comparison",
+        "official_source_url": "https://bir-cdn.bir.gov.ph/BIR/pdf/RR%203-2025.pdf",
+        "archived_source_file": "sources/asean_tax_sources/philippines_bir_rr_3_2025.pdf",
+        "source_archive_status": "archived",
+    },
+    {
+        "country": "Singapore",
+        "instrument": "Overseas Vendor Registration for remote services and low-value goods",
+        "effective_date": "2020-01-01; expanded to low-value goods and non-digital remote services in 2023",
+        "active_in_fy2023": "yes",
+        "tax_object": "Covered B2C remote services and low-value goods supplied to Singapore customers",
+        "platform_role": "Electronic marketplace operator may be regarded as supplier and account for GST under stated conditions",
+        "scope_boundary": "Deemed-supplier treatment applies to defined supplies and thresholds, not every transaction represented by market GMV",
+        "official_source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/gst-and-digital-economy/overseas-businesses",
+        "archived_source_file": "sources/asean_tax_sources/singapore_iras_overseas_businesses.html",
+        "source_archive_status": "archived",
+    },
+    {
+        "country": "Thailand",
+        "instrument": "VAT on Electronic Services for nonresident providers",
+        "effective_date": "2021-09-01",
+        "active_in_fy2023": "yes",
+        "tax_object": "Electronic services supplied from abroad to non-VAT-registered customers above the registration threshold",
+        "platform_role": "Foreign electronic service providers and electronic platforms register, file, and pay VAT when conditions are met",
+        "scope_boundary": "The regime concerns covered electronic services, not all marketplace goods or merchant income",
+        "official_source_url": "https://www.rd.go.th/fileadmin/download/eService.pdf",
+        "archived_source_file": "sources/asean_tax_sources/thailand_revenue_department_eservice_guide.pdf",
+        "source_archive_status": "archived",
+    },
+    {
+        "country": "Vietnam",
+        "instrument": "Decree 117/2025 platform withholding for household and individual business",
+        "effective_date": "2025-07-01",
+        "active_in_fy2023": "no",
+        "tax_object": "Covered VAT and personal-income-tax obligations of households and individuals trading through digital platforms",
+        "platform_role": "Platforms with payment functions may withhold, declare, and pay tax on behalf of covered sellers",
+        "scope_boundary": "The 2025 withholding architecture differs from digital-service VAT and was not active in FY2023",
+        "official_source_url": "https://vanban.chinhphu.vn/?classid=1&docid=213883&orggroupid=2&pageid=27160",
+        "archived_source_file": "sources/asean_tax_sources/vietnam_decree_117_2025.html",
+        "source_archive_status": "archived",
+    },
+]
+
 # report_vintage -> country -> observation_year ->
 # (overall digital GMV, ecommerce GMV, transport-and-food GMV,
 #  online-travel GMV, online-media GMV)
@@ -244,13 +319,17 @@ def platform_structure() -> pd.DataFrame:
     rows = []
     for _, row in data.iterrows():
         shares = {names[c]: float(row[c]) for c in share_cols if pd.notna(row[c])}
-        top_name, top_share = max(shares.items(), key=lambda item: item[1])
+        ranked = sorted(shares.items(), key=lambda item: item[1], reverse=True)
+        top_name, top_share = ranked[0]
+        second_name, second_share = ranked[1]
         rows.append({
             "country": row["country"],
             "year": int(row["year"]),
             "market_gmv_usd_billion": row["market_gmv_usd_billion"],
             "top_reported_platform": top_name,
             "top_reported_platform_share_pct": top_share,
+            "second_reported_platform": second_name,
+            "second_reported_platform_share_pct": second_share,
             "reported_share_sum_pct": sum(shares.values()),
             "reported_platform_hhi": sum(v * v for v in shares.values()),
             "hhi_scope_warning": "HHI uses reported named shares only; rounding and omitted sub-1% categories remain",
@@ -261,6 +340,34 @@ def platform_structure() -> pd.DataFrame:
             "definition_note": row["definition_note"],
         })
     return pd.DataFrame(rows)
+
+
+def tax_platform_context() -> pd.DataFrame:
+    data = pd.DataFrame(TAX_PLATFORM_CONTEXT)
+    data["comparability_consequence"] = (
+        "Country-specific institutional case; do not pool tax treatment or infer a common platform collection obligation"
+    )
+    return data
+
+
+def heterogeneity_profile(panel: pd.DataFrame, structure: pd.DataFrame, tax: pd.DataFrame) -> pd.DataFrame:
+    market = panel[panel["observation_year"] == 2025][[
+        "country", "ecommerce_gmv", "overall_digital_economy_gmv",
+        "ecommerce_share_of_digital_pct", "ecommerce_gmv_pct_of_gdp",
+    ]].copy()
+    platform = structure[[
+        "country", "top_reported_platform", "top_reported_platform_share_pct",
+        "second_reported_platform", "second_reported_platform_share_pct", "reported_platform_hhi",
+    ]]
+    institutions = tax[[
+        "country", "instrument", "effective_date", "active_in_fy2023",
+        "tax_object", "platform_role", "scope_boundary",
+    ]]
+    out = market.merge(platform, on="country").merge(institutions, on="country")
+    out["research_treatment"] = (
+        "Use for country-specific heterogeneity and corroboration; never as a pooled ASEAN tax observation"
+    )
+    return out
 
 
 def cross_source_2025(panel: pd.DataFrame, structure: pd.DataFrame) -> pd.DataFrame:
@@ -320,7 +427,7 @@ def make_figure(growth: pd.DataFrame) -> None:
     plt.close(fig)
 
 
-def validate(source: pd.DataFrame, panel: pd.DataFrame, growth: pd.DataFrame) -> None:
+def validate(source: pd.DataFrame, panel: pd.DataFrame, growth: pd.DataFrame, tax: pd.DataFrame) -> None:
     key = ["report_vintage", "country", "observation_year", "metric"]
     assert len(source) == 450, f"unexpected source row count: {len(source)}"
     assert not source.duplicated(key).any(), "duplicate source-vintage metric key"
@@ -330,6 +437,8 @@ def validate(source: pd.DataFrame, panel: pd.DataFrame, growth: pd.DataFrame) ->
     assert panel.groupby("country")["observation_year"].nunique().eq(7).all(), "unbalanced country-year coverage"
     assert panel["component_rounding_residual_usd_billion"].abs().le(1.1).all(), "component sum inconsistent with rounded total"
     assert len(growth) == 6 and (growth["ecommerce_growth_2023_2025_pct"] > 0).all(), "corroboration growth check failed"
+    assert len(tax) == 6 and set(tax["country"]) == set(COUNTRIES), "tax context country coverage changed"
+    assert tax["active_in_fy2023"].value_counts().to_dict() == {"yes": 4, "no": 2}, "FY2023 policy timing classification changed"
 
 
 def main() -> None:
@@ -340,14 +449,18 @@ def main() -> None:
     revisions = revision_diagnostics(source)
     growth = growth_summary(panel)
     structure = platform_structure()
+    tax = tax_platform_context()
+    profile = heterogeneity_profile(panel_context, structure, tax)
     cross_source = cross_source_2025(panel, structure)
-    validate(source, panel, growth)
+    validate(source, panel, growth, tax)
 
     source.to_csv(OUT / "economy_sea_source_vintages_2019_2025.csv", index=False)
     panel_context.to_csv(OUT / "asean_country_year_canonical_2019_2025.csv", index=False)
     revisions.to_csv(OUT / "economy_sea_revision_diagnostics.csv", index=False)
     growth.to_csv(OUT / "asean_growth_corroboration_2023_2025.csv", index=False)
     structure.to_csv(OUT / "platform_structure_2025.csv", index=False)
+    tax.to_csv(OUT / "asean_tax_platform_context.csv", index=False)
+    profile.to_csv(OUT / "asean_country_heterogeneity_profile.csv", index=False)
     cross_source.to_csv(OUT / "cross_source_ecommerce_gmv_2025.csv", index=False)
     write_design_rules()
     make_figure(growth)
@@ -357,6 +470,8 @@ def main() -> None:
     print(f"repeated_vintage_diagnostics_rows={len(revisions)}")
     print(f"country_growth_rows={len(growth)}")
     print(f"platform_structure_rows={len(structure)}")
+    print(f"tax_platform_context_rows={len(tax)}")
+    print(f"heterogeneity_profile_rows={len(profile)}")
     print(f"cross_source_rows={len(cross_source)}")
 
 

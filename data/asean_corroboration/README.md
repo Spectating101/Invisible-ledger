@@ -13,6 +13,8 @@ countries into a common tax or regulatory sample.
 | `economy_sea_revision_diagnostics.csv` | 210 | One country × year × metric, comparing publication vintages. |
 | `asean_growth_corroboration_2023_2025.csv` | 6 | One within-country 2023–2025 growth comparison. |
 | `platform_structure_2025.csv` | 6 | One country-level platform-market structure record from Momentum Works. |
+| `asean_tax_platform_context.csv` | 6 | Country-specific tax object, platform role, timing, and scope boundary from official sources. |
+| `asean_country_heterogeneity_profile.csv` | 6 | Joins market composition, platform structure, and tax architecture without pooling countries. |
 | `cross_source_ecommerce_gmv_2025.csv` | 6 | e-Conomy SEA versus Momentum Works definition/coverage diagnostic. |
 | `asean_corroboration_design_rules.csv` | 8 | Explicit admission, pooling, and interpretation rules. |
 
@@ -22,6 +24,7 @@ countries into a common tax or regulatory sample.
 - Momentum Works values are external platform-market estimates.
 - World Bank values are official context series, not measures of platform GMV.
 - No row estimates tax non-compliance, unpaid tax, hidden income, or omitted GDP.
+- Current tax rules are not applied retrospectively: the profile explicitly records whether each identified instrument was active in FY2023.
 
 ## Reproduction
 

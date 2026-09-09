@@ -92,6 +92,43 @@ This evidence does not justify assuming that a platform's group monetization
 rate, revenue definition, or compliance environment is constant across
 countries. It provides a measurable reason not to do so.
 
+## Tax architecture differs in object, timing, and platform responsibility
+
+The country-level institutional table operationalizes Kong's concern rather
+than treating it as a generic limitation. It records the tax object, effective
+date, platform responsibility, scope boundary, and whether the identified
+instrument was active during FY2023.
+
+Four identified regimes were active in FY2023, but they were not equivalent:
+
+- Indonesia's PMSE regime appoints qualifying operators to collect, remit, and
+  report VAT on covered electronically supplied intangible goods and services.
+- Malaysia's foreign-provider regime taxes covered digital services and can
+  include an overseas online marketplace in the provider definition.
+- Singapore's overseas-vendor regime covers defined remote services and
+  low-value goods; a marketplace may be treated as supplier under specified
+  conditions.
+- Thailand's regime applies to qualifying electronic services supplied from
+  abroad to non-VAT-registered customers above its registration threshold.
+
+The identified Philippine digital-services VAT and Vietnam platform-
+withholding architecture were introduced after FY2023. The Philippine rules
+concern covered digital services, while Vietnam's 2025 decree assigns
+withholding and remittance responsibilities for covered household and
+individual sellers to platforms with payment functions.
+
+Consequently, a common ASEAN "digital tax" dummy would collapse different tax
+objects and different legal roles. Current rules also cannot be projected
+backward onto the FY2023 observations. In this research design, tax
+architecture is therefore country-specific institutional evidence—not a
+pooled treatment and not a multiplier applied to GMV.
+
+The six official-source records are in
+`data/asean_corroboration/asean_tax_platform_context.csv`. Five sources were
+archived locally with retrieval hashes; the Indonesian DGT page was verified
+but its local archival request timed out, which is recorded rather than
+concealed.
+
 ## Revisions reveal measurement uncertainty, not economic change
 
 The 450-row source table deliberately keeps all overlapping report vintages.
@@ -155,6 +192,7 @@ adding ASEAN GMV to an Indonesia platform-revenue residual.
 | Cross-vintage consistency | Measurably imperfect | Earlier values are revised; canonical selection and diagnostics are both retained. |
 | Cross-country comparability | Moderate for market-scale description | Same report family and metric labels, but country institutions and sector structures differ. |
 | Cross-source comparability | Weak for direct substitution | e-Conomy SEA and Momentum Works use different market definitions. |
+| Tax-system documentation | Strong for identified instrument structure; incomplete as a full tax-code census | Official sources establish different objects, dates, and platform roles. |
 | Tax inference | Not supported | Country tax systems are not pooled and GMV is not treated as a tax base. |
 | Indonesia platform-revenue validation | Not provided | Regional GMV recurrence does not validate Grab/Shopee country-revenue allocations. |
 
@@ -175,7 +213,7 @@ ASEAN corroboration
   publication-vintage and source-definition sensitivity
 
 Country institutions
-  tax and regulatory evidence evaluated country by country
+  tax object, timing, and platform responsibility evaluated country by country
   no pooled tax interpretation unless a separate harmonized design is built
 ```
 
@@ -203,3 +241,9 @@ ASEAN has a single tax system or platform business model.
 - [ASEAN e-commerce policy overview](https://asean.org/our-communities/economic-community/asean-e-commerce)
 - [Momentum Works 2025 platform-market release](https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-gmv-reaches-us128-4b/)
 - [World Bank Indicators API](https://api.worldbank.org/)
+- [Indonesia Directorate General of Taxes: PMSE VAT](https://pajak.go.id/en/digitaltax)
+- [Malaysia Royal Customs: Service Tax on Digital Services FAQ](https://mysst.customs.gov.my/faq-business/)
+- [Singapore IRAS: GST and overseas vendors](https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/gst-and-digital-economy/overseas-businesses)
+- [Thailand Revenue Department: VAT for Electronic Services guide](https://www.rd.go.th/fileadmin/download/eService.pdf)
+- [Philippines BIR: Revenue Regulations 3-2025](https://bir-cdn.bir.gov.ph/BIR/pdf/RR%203-2025.pdf)
+- [Vietnam Government: Decree 117/2025](https://vanban.chinhphu.vn/?classid=1&docid=213883&orggroupid=2&pageid=27160)

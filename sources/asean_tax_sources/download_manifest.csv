@@ -1,0 +1,7 @@
+country,filename,url,status,bytes,sha256,retrieved_at_utc,error
+Indonesia,indonesia_dgt_digital_tax.html,https://pajak.go.id/en/digitaltax,failed,0,,2026-09-09T16:48:38.173952+00:00,<urlopen error timed out>
+Malaysia,malaysia_mystods_faq_business.html,https://mysst.customs.gov.my/faq-business/,downloaded,1027664,33e35b5e4121d8c9554f02c58ec5a22173089f6ebe28922917237f27b9129631,2026-09-09T16:48:39.155053+00:00,
+Singapore,singapore_iras_overseas_businesses.html,https://www.iras.gov.sg/taxes/goods-services-tax-%28gst%29/gst-and-digital-economy/overseas-businesses,cached,285107,ce180d1aa8584e47f811518346a04373c13327d11f4f8ce253ed1538d9da287d,2026-09-09T16:42:59.078966+00:00,
+Thailand,thailand_revenue_department_eservice_guide.pdf,https://www.rd.go.th/fileadmin/download/eService.pdf,downloaded,710826,7785bb2355fe678c69597aea952e3d964c4c9ec632add45facd81402b5f68f44,2026-09-09T16:48:40.263053+00:00,
+Philippines,philippines_bir_rr_3_2025.pdf,https://bir-cdn.bir.gov.ph/BIR/pdf/RR%203-2025.pdf,cached,36779,eced459b904dbbb8d8a54f91cda3fd9a1ff01eacfe535466c41092e09ec4f1e4,2026-09-09T16:43:01.694968+00:00,
+Vietnam,vietnam_decree_117_2025.html,https://vanban.chinhphu.vn/?classid=1&docid=213883&orggroupid=2&pageid=27160,cached,86445,f33ec254c5fbaf77acf42e7ef8820c1e1e252902a1d5fc210baa868e3cde1023,2026-09-09T16:43:05.342971+00:00,
