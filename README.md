@@ -6,6 +6,9 @@ The project asks how platform transaction flows relate to revenue recognized by 
 
 For the reasoning behind the current rebuild—including agreed decisions, provisional interpretation, strongest findings, unresolved questions, and the handoff to independent reviewers—read [the research-direction handoff](docs/RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
 
+For a claim-bounded ledger of the results already established by the executed
+empirical modules, read [the empirical findings ledger](docs/EMPIRICAL_FINDINGS_2026-09-10.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
