@@ -30,6 +30,17 @@ Row-level table: `data/longitudinal/kong_empirical_candidate_table_2026-09-10.cs
 
 Box's first all-tier hypothesis execution is a separate **coverage diagnostic**: 17 retained levels and 12 transitions across all five series, with 2 sign reversals and median absolute divergence 42.02pp. It starts Blibli at FY2021 and includes conditional Grab/Shopee. The direct-candidate sensitivity above includes Blibli FY2020 from the prospectus and excludes conditional country series. Do not treat these as competing estimates.
 
+### Evidence-tier sensitivity within Box's executed inventory
+
+| Evidence tier | Transitions | Reversals | Median absolute transaction/revenue growth divergence |
+|---|---:|---:|---:|
+| Direct Indonesia-aligned segment | 1 | 1 | **62.10pp** |
+| Direct issuer scope-pending | 7 | 1 | **15.74pp** |
+| Conditional country reconstruction | 4 | 0 | **50.64pp** |
+| All labelled tiers | 12 | 2 | **42.02pp** |
+
+The large all-tier median is therefore not a population parameter and should not be used as the headline effect size. Box's independent validation also flags sensitivity to early revenue-base effects. The robust empirical point is qualitative/descriptive: transaction and revenue growth can diverge materially, while the magnitude depends on evidence tier, business perimeter and monetization history.
+
 ## 3. BPS national results
 
 Established/descriptive national evidence:
