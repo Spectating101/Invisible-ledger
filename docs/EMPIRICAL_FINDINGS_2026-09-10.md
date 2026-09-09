@@ -2,308 +2,186 @@
 
 ## Purpose and status
 
-This document records what the executed and source-auditable empirical work
-currently establishes. It is not a manuscript argument, hypothesis list, or
-statement of advisor approval. Each finding below names the data and code that
-support it and then states the boundary of the inference.
+This document records what the executed and source-auditable empirical work currently establishes. It is not a manuscript argument, hypothesis list, or statement of advisor approval. Evidence layers are complementary but are not one pooled sample.
 
-The evidence layers are complementary but are not one pooled sample:
+For certification details, read:
 
-1. Indonesia issuer and official-statistics evidence;
-2. ASEAN country histories and institutional heterogeneity;
-3. global issuer transaction/revenue histories;
-4. exploratory market-price evidence.
+- `docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md`;
+- `docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md`;
+- `docs/BPS_CROSSWAVE_CERTIFICATION_2026-09-10.md`.
 
-Counts from these layers must not be added into a single `N`.
+## 1. FY2023 Indonesia construction: auditable but insufficient alone
 
-## 1. Indonesia: the one-year construction is auditable but insufficient alone
+The FY2023 construction contains three platform cases supported by eleven source inputs. Tokopedia provides the strongest paired disclosure. Grab's Indonesia revenue is direct but its Indonesia transaction value is derived using a Group monetization rate. Shopee's Indonesia transaction value is an external country-market estimate and its country revenue is derived using Sea's disclosed service-revenue/GMV rate.
 
-The FY2023 construction contains three platform cases supported by eleven
-source inputs. Tokopedia supplies the strongest paired disclosure. Grab's
-Indonesia revenue is direct but its Indonesia transaction value is derived
-using a Group monetization rate. Shopee's Indonesia transaction value is an
-external country-market estimate and its country revenue is derived using
-Sea's disclosed service-revenue/GMV rate.
+This establishes that a transparent FY2023 comparison can be reconstructed. It does not establish a sufficient longitudinal thesis sample, a national total, or a directly observed country pair for all three platforms.
 
-This establishes that a transparent FY2023 comparison can be reconstructed.
-It does not establish a sufficient longitudinal thesis sample, a national
-total, or a directly observed country pair for all three platforms.
+## 2. Indonesia evidence is now longitudinal, but admission tiers remain distinct
 
-Evidence and reproduction:
+The historical comprehensive audit headline of 14 direct annual candidate periods included Tokopedia FY2021, whose transaction and revenue periods do not match. After hard exclusion, the advisor-facing direct candidate inventory contains **13 economic periods**:
 
-- `data/indonesia_fy2023/`
-- `docs/METHODOLOGY.md`
-- `docs/KNOWN_LIMITATIONS.md`
+- Blibli 3P FY2019–FY2025: 7;
+- Bukalapak Group FY2020–FY2023: 4;
+- Tokopedia e-commerce FY2022–FY2023: 2.
 
-## 2. Indonesia: the broader evidence base is longitudinal and multi-layered
+**12** have positive revenue denominators; Blibli FY2019 has negative net revenue.
 
-The active repository contains more than the FY2023 three-case table:
+The original Indonesia extension retains **8** observations rather than 9:
 
-- fourteen Indonesia-aligned annual candidate periods across Blibli,
-  Bukalapak, and Tokopedia before final geographic and scope admission;
-- seven Blibli annual issuer-year candidates from 2019–2025;
-- four Bukalapak annual Group candidates from 2020–2023;
-- forty-seven company-quarter accounting rows for Grab, GoTo, and Sea;
-- seventy-four complete BPS province-years across the 2023 and 2024
-  publications;
-- national BPS indicators extending across available years from 2020–2024.
+- Grab FY2021–FY2023: 3 conditional country reconstructions;
+- Shopee FY2022–FY2024: 3 conditional country reconstructions;
+- Tokopedia FY2022–FY2023: 2 direct Indonesia-aligned segment observations.
 
-These observations do not constitute one homogeneous dataset. Their value is
-that they permit separate longitudinal, accounting, and population-level
-analyses without pretending that issuer segments and official business
-statistics describe the same population.
+The repository also contains 47 company-quarter accounting rows, official BPS national/province evidence, ASEAN country histories, and a global issuer panel. These are separate evidence families and must not be added into one `N`.
 
-Evidence and reproduction:
+## 3. BPS national evidence shows large growth with different channel trajectories
 
-- `data/longitudinal/`
-- `data/quarterly/`
-- `data/bps_official/`
-- `scripts/analysis/build_panel.py`
-- `scripts/analysis/build_quarterly_panel_source_coverage.py`
-- `scripts/analysis/build_comprehensive_empirical_audit.py`
-- `reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`
+### Aggregate growth anatomy
 
-## 3. Indonesia: official statistics show economically large digital commerce
+Box's first executed hypothesis tests report:
 
-The official 2024 BPS publication reports:
+- **2022→2023:** nominal e-commerce transaction value +40.60%, estimated businesses +27.40%, implied nominal value/business +10.36%;
+- **2023→2024:** transaction value +17.08%, estimated businesses +15.31%, implied nominal value/business +1.54%.
 
-- e-commerce transaction value of Rp1,288.93 trillion;
-- 4,400,972 estimated e-commerce businesses;
-- financial-report ownership of 17.15%.
+These are aggregate arithmetic decompositions, not causal estimates of entry, incumbent growth, inflation-adjusted output, or productivity.
 
-The executed growth decomposition for 2023–2024 reports:
+The selected cross-year business count uses **3,816,750** for 2023 and **4,400,972** for 2024. The implied 15.31% increase matches BPS's later official ~15.30% growth statement; the conflicting 3,934,981 passage remains preserved in the source audit.
 
-- total nominal e-commerce transaction value growth of 17.08%;
-- marketplace-component growth of 1.42%;
-- non-marketplace-component growth of 20.58%;
-- estimated e-commerce-business growth of 15.31%;
-- implied nominal transaction value per estimated business growth of 1.54%.
+### Certified sales-media comparison
 
-The arithmetic indicates that expansion in the estimated business population
-is an important part of the observed aggregate growth, and that the published
-non-marketplace component grew faster than the marketplace component in this
-comparison. It does not identify productivity, firm entry causally, tax
-compliance, or business-level marketplace effects.
+The 2023 BPS publication reports national e-commerce transaction value by sales media as:
 
-Evidence and reproduction:
+- marketplace/platform digital: **Rp200.68T**;
+- non-marketplace/platform digital: **Rp900.19T**.
 
-- `data/bps_official/`
-- `outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv`
-- `reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`
-- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
-- `scripts/analysis/build_comprehensive_empirical_audit.py`
-- `scripts/analysis/build_hypothesis_tests.py`
+A BPS-Statistics Indonesia presentation reports the corresponding 2024 split directly as:
 
-## 4. Indonesia: the first longitudinal tests show divergence but do not finalize the sample
+- marketplace: **Rp203.58T / 15.79%**;
+- non-marketplace: **84.21%** of total **Rp1,288.93T**.
 
-The first hypothesis execution retains seventeen matched annual candidate
-levels across five series and twelve consecutive within-series transitions.
-The records are kept in three separate evidence tiers. Ten transitions have
-faster revenue growth than transaction growth, two have faster transaction
-growth, and two move in opposite directions. The all-candidate median absolute
-growth difference is 42.02 percentage points, but that number combines evidence
-tiers and is an inventory diagnostic rather than a pooled-sample estimate.
+Using the directly reported 2024 marketplace amount gives:
 
-The strongest individual transition is Tokopedia FY2022–FY2023 because it uses
-an Indonesia-aligned direct segment pair. Transaction value declines 8.90%
-while third-party net segment revenue rises 53.20%. Blibli 3P Retail also has an
-opposite-sign FY2024–FY2025 transition, but it remains in the scope-pending tier
-because the segment includes online travel.
+- marketplace component: **+1.45%**;
+- non-marketplace component: **+20.57%**;
+- total e-commerce transaction value: **+17.08%**.
 
-This establishes that transaction activity and recognized revenue can tell
-different longitudinal stories within the available Indonesia-related issuer
-evidence. It does not establish an approved multi-platform Indonesia sample.
+This establishes a descriptive national-estimate result: the published non-marketplace component grew substantially faster than the marketplace component between 2023 and 2024. It does not identify the same businesses, causal substitution, productivity, hidden activity, tax status, or issuer GMV/TPV.
 
-Evidence and reproduction:
+Financial-report ownership is **15.19%** in 2023 and **17.15%** in 2024 as separately published wave values. A strong behavioral interpretation of the +1.96pp movement remains guarded until exact questionnaire/population concordance is closed.
 
-- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_levels.csv`
-- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_transitions.csv`
-- `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_transition_summary.csv`
-- `scripts/analysis/build_hypothesis_tests.py`
-- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
+## 4. Indonesia longitudinal tests establish divergence, but sample definition changes the summary
 
-## 5. BPS province evidence does not establish a stable marketplace-recordkeeping relationship
+### First all-tier hypothesis execution
 
-The 2023 province cross-section shows a modest association between marketplace
-use and financial-report ownership, but the result is sensitive to correlation
-measure and weighting. The 2024 unweighted Pearson association is approximately
-zero (`r=0.022`, `p=0.897`). Across thirty-six common provinces, changes from
-2023–2024 have Pearson `r=0.309` (`p=0.066`) and Spearman `rho=0.151`
-(`p=0.379`). The business-count-weighted change correlation is `0.099`.
+Box's executed hypothesis inventory retains **17 matched annual candidate levels** across five series and **12 consecutive transitions** in three evidence tiers:
 
-The executed province evidence therefore does not validate a stable
-business-level marketplace/recordkeeping relationship. The national marginal
-percentages also permit very wide joint-status bounds. Business-level microdata
-or an official joint cross-tabulation is required to test that hypothesis.
+- direct Indonesia-aligned: Tokopedia;
+- direct issuer scope-pending: Blibli 3P and Bukalapak Group;
+- conditional country reconstructions: Grab and Shopee.
 
-Evidence and reproduction:
+Across all 12 transitions:
 
-- `outputs/hypothesis_tests_2026-09-10/bps_province_hypothesis_results.csv`
-- `outputs/hypothesis_tests_2026-09-10/bps_within_province_changes.csv`
-- `outputs/hypothesis_tests_2026-09-10/bps_joint_status_bounds.csv`
-- `scripts/analysis/build_hypothesis_tests.py`
-- `reports/HYPOTHESIS_TESTS_2026-09-10.md`
+- revenue grows faster in **10**;
+- transaction activity grows faster in **2**;
+- **2** have opposite signs;
+- median absolute divergence is **42.02pp**.
 
-## 6. Issuer accounting: transaction activity and recognized revenue are not interchangeable measures
+This is an inventory diagnostic across labelled tiers, not an approved pooled Indonesia sample.
 
-The global corroboration panel contains forty-eight matched issuer-years for
-eight platform businesses from 2017–2025. These yield forty consecutive
-within-issuer annual transitions. Eleven are conservatively flagged for known
-perimeter breaks, leaving twenty-nine clean-screened transitions.
+The strongest transition is Tokopedia FY2022→FY2023: transaction value **−8.90%** while third-party net segment revenue **+53.20%**. Blibli FY2024→FY2025 also reverses sign: TPV **−1.89%**, net revenue **+12.07%**.
 
-Among those twenty-nine transitions:
+### Direct-candidate scope sensitivity
 
-- recognized revenue grew faster than the transaction measure in twenty-two;
-- the transaction measure grew faster in seven;
-- the median signed revenue-minus-transaction growth difference was 6.54
-  percentage points;
-- the median absolute growth difference was 7.10 percentage points;
-- four transitions had opposite growth signs.
+A narrower certification sensitivity removes conditional Grab/Shopee and adds the directly transcribed Blibli FY2020 prospectus observation. It therefore contains **9 direct transitions**:
 
-The opposite-sign cases are Etsy 2021–2022, Etsy 2023–2024, eBay 2022–2023,
-and Zalando 2021–2022. These cases directly demonstrate that a revenue series
-can imply a different direction of change from the platform's reported
-transaction measure.
+- revenue grows faster in **6**;
+- transaction activity grows faster in **3**;
+- **3** have opposite signs;
+- median absolute divergence is **42.94pp**.
 
-This does not mean revenue is erroneous. Revenue and transaction measures
-describe different economic objects. It does establish that corporate revenue
-is not a stable one-for-one proxy for the commercial activity coordinated by a
-platform.
+The additional reversal is Blibli FY2020→FY2021: transaction activity **+14.86%**, net revenue **−28.08%**.
 
-Evidence and reproduction:
+The difference between 12/2/42.02 and 9/3/42.94 is evidence admission, not a computational contradiction. Neither is a final thesis-sample estimate. See `docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md`.
 
-- `data/global_ecommerce/global_platform_source_inputs.csv`
-- `data/global_ecommerce/global_platform_matched_annual.csv`
-- `data/global_ecommerce/global_platform_growth_divergence.csv`
-- `data/global_ecommerce/global_platform_summary.csv`
-- `scripts/analysis/build_global_ecommerce_corroboration.py`
-- `reports/GLOBAL_ECOMMERCE_CORROBORATION_2026-09-10.md`
+## 5. Mechanism evidence explains some divergence without forcing one explanation
 
-## 7. Business-model and definition heterogeneity materially affect comparison
+Existing source reconciliations show:
 
-Across the retained global histories, the observed revenue-to-transaction
-ratio ranges from approximately 0.22% for launch-stage Shopee in 2017 to
-74.63% for Zalando in 2020. The range is not a performance ranking. The
-underlying definitions differ because the businesses variously include or
-exclude subscriptions, advertising, travel, first-party sales, returns,
-shipping, taxes, B2B services, and financial services.
+- **Tokopedia FY2022→FY2023:** 60.56% of the arithmetic net-revenue increase is associated with lower customer incentives and 39.44% with higher gross revenue; this is arithmetic, not causal decomposition.
+- **Blibli 3P FY2022→FY2023:** the Rp926bn net-revenue increase reconciles to Rp664bn higher pre-promotion revenue and Rp262bn lower discount/direct promotion.
+- **Blibli FY2024→FY2025:** TPV falls 1.89%, net revenue rises 12.07%, GPBD rises 13.93%; the issuer attributes GPBD improvement mainly to higher-margin OTA mix and operating efficiency.
+- **Blibli FY2020→FY2021:** observed reversal remains mechanism-unresolved in the current source review.
 
-The definition evidence establishes that similarly named transaction metrics
-cannot be pooled mechanically across issuers or applied as a common country
-monetization rate. Business perimeter is part of the empirical result, not a
-minor disclosure footnote.
+Thus divergence can reflect incentives, monetization, business mix and accounting perimeter rather than one universal hidden quantity.
 
-Evidence and reproduction:
+## 6. BPS province evidence does not establish a stable marketplace-recordkeeping relationship
 
-- `data/global_ecommerce/global_platform_definition_map.csv`
-- `data/global_ecommerce/global_platform_issuer_summary.csv`
-- `reports/GLOBAL_ECOMMERCE_CORROBORATION_2026-09-10.md`
+Box's executed province tests show:
 
-## 8. ASEAN: digital-commerce expansion recurs, but countries are heterogeneous
+- 2023 Pearson `r=0.263`, `p=0.121`; Spearman `rho=0.343`, `p=0.041`;
+- 2024 Pearson `r=0.022`, `p=0.897`; Spearman `rho=0.113`, `p=0.499`;
+- 36-province 2023→2024 change: Pearson `r=0.309`, `p=0.066`; Spearman `rho=0.151`, `p=0.379`; business-count-weighted `r=0.099`.
 
-The revision-aware ASEAN module retains six separate country histories rather
-than pooling the region. Latest-vintage estimates show e-commerce GMV rising
-between 2023 and 2025 in Indonesia, Malaysia, the Philippines, Singapore,
-Thailand, and Vietnam. The median within-country increase is 36.4%, ranging
-from 12.5% in Singapore to 53.8% in Malaysia.
+The association is unstable and ecological. It does not establish an individual-business marketplace/financial-recordkeeping effect. Business-level microdata or an official joint cross-tabulation is required.
 
-In 2025, the estimated e-commerce share of overall digital-economy GMV ranges
-from approximately 31.0% in Singapore to 71.7% in Indonesia. Reported platform
-market structures and country tax architectures also differ.
+After excluding the national `Indonesia` row, 38 actual provinces are common across the two retained waves and 36 have complete focal cells. The 2024 province counts sum to 4,400,973 versus national total 4,400,972; preserve the one-business source residual.
 
-The evidence establishes regional recurrence of digital-commercial expansion
-and validates the decision to analyze countries separately. It does not
-establish a common ASEAN treatment effect, tax system, monetization rate, or
-Indonesia allocation.
+## 7. Global issuers corroborate transaction/revenue non-equivalence across business models
 
-Evidence and reproduction:
+The global panel contains **48 matched issuer-years** across eight platform businesses and **40** consecutive transitions. Eleven are flagged for known perimeter breaks, leaving **29 clean-screened transitions**.
 
-- `data/asean_corroboration/asean_country_year_canonical_2019_2025.csv`
-- `data/asean_corroboration/asean_growth_corroboration_2023_2025.csv`
-- `data/asean_corroboration/asean_country_heterogeneity_profile.csv`
-- `data/asean_corroboration/platform_structure_2025.csv`
-- `data/asean_corroboration/asean_tax_platform_context.csv`
-- `scripts/analysis/build_asean_corroboration.py`
-- `reports/ASEAN_CORROBORATION_EXTENSION_2026-09-10.md`
+Among those 29:
 
-## 9. Published estimates revise the measured past
+- revenue grows faster in **22**;
+- transaction activity grows faster in **7**;
+- median signed revenue-minus-transaction difference is **6.54pp**;
+- median absolute difference is **7.10pp**;
+- **4** have opposite signs: Etsy 2021→2022, Etsy 2023→2024, eBay 2022→2023, and Zalando 2021→2022.
 
-The ASEAN source-vintage table preserves repeated estimates for the same
-country-year. Of sixty repeated overall-digital-economy and e-commerce cells,
-forty-five change between the earliest and latest publication. Among changed
-cells, the median absolute revision is 7.14%. These are revisions to estimates
-of the same economic period, not additional observations or economic growth.
+This corroborates the non-equivalence of transaction and revenue movement across different platform models. It is not a representative global sample.
 
-Issuer reporting can also revise past transaction metrics. Zalando's FY2024
-GMV, for example, changes between its original FY2024 publication and the
-FY2025 comparative. The global module therefore selects the latest available
-comparative vintage while preserving alternatives.
+## 8. Business-model and definition heterogeneity materially affect comparison
 
-This establishes that measurement vintage affects the apparent historical
-record in both market-estimate and issuer-reporting systems. It does not show
-that national accounts are wrong by the revision amount.
+Across the retained global histories, observed revenue-to-transaction ratios range from about 0.22% for launch-stage Shopee in 2017 to 74.63% for Zalando in 2020. This is not a performance ranking. Subscription, advertising, travel, first-party sales, shipping, taxes, B2B services, financial services and principal/agent treatment create materially different perimeters.
 
-Evidence and reproduction:
+Therefore similarly named GMV/GTV/GMS metrics cannot be pooled mechanically or mapped to one universal monetization rate.
 
-- `data/asean_corroboration/economy_sea_source_vintages_2019_2025.csv`
-- `data/asean_corroboration/economy_sea_revision_diagnostics.csv`
-- `data/global_ecommerce/global_platform_vintage_diagnostics.csv`
-- `scripts/analysis/build_asean_corroboration.py`
-- `scripts/analysis/build_global_ecommerce_corroboration.py`
+## 9. ASEAN corroborates recurrence but also institutional heterogeneity
 
-## 10. What the evidence establishes when read together
+The revision-aware ASEAN module keeps six country histories separate. Latest-vintage e-commerce GMV rises between 2023 and 2025 in Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam. Median within-country increase is **36.4%**, ranging from **12.5%** in Singapore to **53.8%** in Malaysia.
+
+Country platform structures and tax architectures differ materially. This supports separate within-country corroboration, not one ASEAN treatment effect or common monetization rate.
+
+## 10. Publication vintage changes the measured past
+
+Across repeated ASEAN overall-digital-economy/e-commerce cells, 45 of 60 repeated cells change between earliest and latest publication; median absolute revision among changed cells is **7.14%**.
+
+Issuer histories can also revise prior metrics. For Blibli 3P FY2023, original TPV 49,917bn versus later comparative 49,912bn changes adjacent growth rates by only about 0.01pp and does not change the direct-sensitivity 9-transition / 3-reversal / 42.94pp headline. The vintage issue remains documented but is not load-bearing for that result.
+
+## 11. What the evidence establishes together
 
 The combined evidence establishes a measurement-boundary result:
 
-> Digital commerce is recorded through transaction, corporate-revenue,
-> business-recordkeeping, market-estimate, statistical, and tax-administrative
-> ledgers that measure different objects. Those measures can evolve
-> differently, use incompatible perimeters, and revise the same historical
-> period. No single public ledger is therefore a sufficient proxy for every
-> dimension of platform-mediated commercial activity.
+> Digital commerce is recorded through transaction, corporate-revenue, business-recordkeeping, market-estimate, statistical and tax-administrative ledgers that measure different objects. Their levels, growth rates, perimeters and even historical vintages can differ. No single public ledger is therefore a sufficient proxy for every dimension of platform-mediated commercial activity.
 
-The digital element is not that gross-versus-net accounting began with online
-platforms. It is that platforms coordinate large numbers of third-party
-transactions and create granular private records while public corporate
-accounts recognize the platform's own revenue under a different perimeter.
-Digitalization can therefore increase private traceability at the same time
-that public and institutional views remain fragmented.
+The digital element is not that gross-versus-net accounting began online. It is that platforms coordinate large volumes of third-party commercial activity and create granular private records while public corporate accounts recognize the platform's own revenue under a different perimeter.
 
-This result preserves the original *Invisible Ledger* motivation in a form the
-current evidence can support: the economically relevant activity is not
-necessarily absent from every record; it is distributed across ledgers that
-are not automatically comparable or linkable.
+## 12. What remains unestablished
 
-## 11. What is not an empirical finding
+The current evidence does **not** establish:
 
-The current repository does not establish:
-
-- a monetary amount of activity omitted from GDP;
+- activity omitted from GDP;
 - undeclared participant income;
 - unpaid tax or tax evasion;
 - an Indonesia-wide transaction-minus-revenue total;
-- representative effects for all platforms or countries;
-- business-level links between marketplace use and financial recordkeeping;
-- institutional inability to link private platform records to tax or
-  statistical records;
+- representative population effects for all platforms/countries;
+- a business-level marketplace/financial-recordkeeping relationship;
+- institutional inability to link platform records to tax/statistical records;
 - causal effects of platform participation or reporting policy;
 - final investor-market effects.
 
-Those remain separate hypotheses, data-access questions, or future analyses.
-They must not be presented as conclusions from the current evidence.
+## 13. Current empirical conclusion
 
-## 12. Current empirical conclusion
+The defensible conclusion is that **the economic story changes with the ledger observed**. Indonesia provides the substantive country case; BPS describes the broader business population and channel composition; the issuer histories show large within-series divergence; ASEAN supplies recurrence and institutional heterogeneity; and global platform histories show the same transaction/revenue non-equivalence across materially different business models.
 
-The defensible conclusion is not that transaction value missing from platform
-revenue is missing from the economy. It is that the economic story changes
-with the ledger observed. Indonesia provides the substantive country setting;
-BPS describes the broader business population; ASEAN demonstrates recurrence,
-heterogeneity, and revision sensitivity; and the global issuer histories show
-that transaction activity and recognized revenue often follow materially
-different trajectories.
-
-The paper's strongest established contribution is therefore to identify and
-measure where public transaction and revenue views cease to be interchangeable,
-while documenting what additional participant-level and institutional linkage
-would be required to infer hidden income, tax consequences, or omitted value
-added.
+The strongest established contribution is to identify and measure where public transaction and revenue views cease to be interchangeable, while documenting the participant-level and institutional linkage still required before stronger hidden-income, tax, or value-added claims can be tested.
