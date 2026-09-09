@@ -1,0 +1,9 @@
+item,canonical_value,alternative_value,difference,unit,interpretation
+FY2023_3P_TPV,49912,49917,5,IDR_billion,"canonical uses FY2024 comparative; alternative is original FY2023 release"
+FY2022_to_FY2023_3P_TPV_growth,34.715250,34.728745,0.013495,percentage_points,"growth conclusion unchanged"
+FY2023_to_FY2024_3P_TPV_growth,8.611156,8.600276,-0.010879,percentage_points,"growth conclusion unchanged"
+FY2022_to_FY2023_activity_direction,up,up,unchanged,direction,"no sign change"
+FY2023_to_FY2024_activity_direction,up,up,unchanged,direction,"no sign change"
+direct_candidate_transition_count,9,9,0,transitions,"headline count unchanged"
+opposite_sign_transition_count,3,3,0,transitions,"headline sign-reversal count unchanged"
+median_absolute_growth_gap,42.940174,42.940174,0,percentage_points,"headline median unchanged because the marginal vintage revision does not alter the median transition"
