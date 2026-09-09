@@ -1,0 +1,37 @@
+name: Issuer movement bridge
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/analysis/build_issuer_movement_bridge.py'
+      - 'tests/test_issuer_movement_bridge.py'
+      - 'research/issuer_movement_bridge/**'
+      - 'data/longitudinal/**'
+      - 'data/measurement/results/tokopedia_fy2022_2023_revenue_incentive_reconciliation.csv'
+      - '.github/workflows/issuer-movement-bridge.yml'
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Test selection, exclusions, and growth calculations
+        run: python3 -m unittest discover -s tests -p 'test_issuer_movement_bridge.py' -v
+
+      - name: Generate research outputs
+        run: |
+          rm -rf build/issuer_movement_bridge build/issuer_movement_bridge_repeat
+          python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge
+          python3 scripts/analysis/build_issuer_movement_bridge.py --output build/issuer_movement_bridge_repeat
+          diff -r build/issuer_movement_bridge build/issuer_movement_bridge_repeat
+          cat build/issuer_movement_bridge/SUMMARY.md
+
+      - name: Upload computed research outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: issuer-movement-bridge-results
+          path: build/issuer_movement_bridge
+          retention-days: 30
