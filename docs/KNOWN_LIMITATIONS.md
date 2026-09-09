@@ -10,4 +10,4 @@
 - Market-return analysis is exploratory; reviewed ledgers still contain unresolved contamination classifications.
 - ASEAN countries have different platforms, tax systems, regulation and definitions. Regional context is not one pooled main sample.
 - Public issuer documents and third-party market estimates vary in precision and definitions.
-
+- The global e-commerce panel is purposively selected on disclosure availability. Its issuer-level transaction and revenue definitions differ, so levels are not pooled and its results do not establish population-representative global effects.

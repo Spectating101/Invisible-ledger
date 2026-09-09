@@ -21,3 +21,6 @@ sources/asean_market_sources/**/*.pdf
 sources/asean_market_sources/**/*.jpg
 sources/asean_tax_sources/*.html
 sources/asean_tax_sources/*.pdf
+
+# Re-downloadable primary issuer filings for the global corroboration module.
+sources/global_ecommerce/raw/**/*

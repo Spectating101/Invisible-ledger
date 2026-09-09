@@ -18,7 +18,10 @@ REQUIRED = [
     "data/longitudinal/annual_extension_panel_preliminary.csv",
     "data/quarterly/clean_event_panel_accounting.csv",
     "data/market/platform_market_daily_2010_2026.csv",
+    "data/global_ecommerce/global_platform_matched_annual.csv",
+    "data/global_ecommerce/global_platform_growth_divergence.csv",
     "sources/manifests/document_manifest.csv",
+    "sources/global_ecommerce/global_issuer_document_manifest.csv",
 ]
 
 
@@ -42,7 +45,7 @@ def main() -> int:
 
     csv_files = sorted(ROOT.glob("data/**/*.csv")) + sorted(
         ROOT.glob("sources/manifests/*.csv")
-    )
+    ) + sorted(ROOT.glob("sources/global_ecommerce/*.csv"))
     failures = 0
     total_rows = 0
     for path in csv_files:

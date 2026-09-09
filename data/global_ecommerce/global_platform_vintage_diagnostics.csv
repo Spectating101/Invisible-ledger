@@ -1,0 +1,9 @@
+issuer,observation_year,publication_vintage,transaction_value_eur_million,vintage_note,change_from_earliest_pct,interpretation
+Zalando,2021,2021,14348.4,original FY2021 key figures,0.0,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2021,2022,14332.7,FY2022 comparative; selected,-0.10941986562961192,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2022,2022,14797.9,original FY2022 key figures,0.0,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2022,2023,14788.7,FY2023 comparative; selected,-0.062170983720655215,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2023,2023,14631.6,original FY2023 results,0.0,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2023,2024,14631.0,FY2024 comparative; selected,-0.004100713524157751,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2024,2024,15296.2,original FY2024 key figures,0.0,"same economic period, different publication vintage; never count as extra observation"
+Zalando,2024,2025,15311.3,FY2025 comparative; selected,0.09871732848680814,"same economic period, different publication vintage; never count as extra observation"

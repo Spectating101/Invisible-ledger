@@ -1,0 +1,9 @@
+metric,value,unit
+matched_issuer_years,48.0,rows
+issuers,8.0,issuers
+annual_transitions,40.0,transitions
+clean_scope_transitions,29.0,transitions
+opposite_direction_transitions_all,8.0,transitions
+opposite_direction_transitions_clean,4.0,transitions
+median_abs_growth_divergence_clean,7.104798587706625,percentage_points
+max_abs_growth_divergence_clean,2734.109803917051,percentage_points

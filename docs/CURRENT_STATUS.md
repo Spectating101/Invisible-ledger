@@ -16,6 +16,7 @@ No expanded sample is represented here as advisor-approved.
 - Grab country-revenue coverage and additional Shopee country-market anchors; these do not independently provide matching country transaction value and revenue.
 - Preserved market prices for five platforms and three benchmarks, sufficient to revisit—but not automatically validate—the exploratory event study.
 - ASEAN and World Bank context kept in a separate data layer.
+- A separate global e-commerce corroboration module now contains 48 matched issuer-years across eight platform businesses. It shows transaction and revenue growth diverging within issuers, but it is not part of the Indonesia sample and is not a representative global panel.
 - Official BPS Indonesia evidence now covers national indicators through 2024 and 74 complete province-years across the 2023 and 2024 publications.
 - The official 2024 publication reports Rp1,288.93 trillion in e-commerce transaction value, 4,400,972 estimated e-commerce businesses, and 17.15% financial-report ownership.
 - A legacy Blibli 1Q23 column-mapping error has been isolated; the official issuer PDF and a corrected extract are preserved separately.
@@ -38,3 +39,4 @@ No expanded sample is represented here as advisor-approved.
 - that the difference measures missing GDP, undeclared income or unpaid tax;
 - that the event study is final;
 - that an ASEAN aggregate validates Indonesia-specific assumptions.
+- that the global issuer panel validates Indonesia country allocations or represents the global platform population.
