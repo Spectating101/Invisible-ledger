@@ -3,6 +3,7 @@ name: Empirical certification
 on:
   pull_request:
     paths:
+      - 'README.md'
       - 'docs/EMPIRICAL_FINDINGS_2026-09-10.md'
       - 'docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md'
       - 'docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md'
