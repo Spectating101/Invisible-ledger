@@ -1,0 +1,4 @@
+check,expected,actual,status,note
+main_sample_row_count,3,3,PASS,FY2023 Indonesia main sample remains three platforms and is not pooled with extension rows.
+shopee_rate_used,0.1,0.1,PASS,"Uses Sea's stated 10.0% FY2023 rate, not 7.9/78.5 from rounded headline figures."
+aggregate_gap_usd_b,calculated,40.070288,PASS,"This is an accounting/transaction gap, not a tax-gap estimate."

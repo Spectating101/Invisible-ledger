@@ -1,0 +1,364 @@
+[
+  {
+    "source_id": "blibli_fy2022",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2022-full-year-results-performance-2",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2022_ce2c312bb8.html",
+    "bytes": 144640,
+    "sha256": "ce2c312bb8235ed59e86f77a28e6f2f26170cde1e345067b008ee2c0979e6c8b",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2022-full-year-results-performance-2",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2023/03/Earnings-Release-FY22-PT-Global-Digital-Niaga-Tbk-1.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_fy2023",
+    "url": "https://about.blibli.com/id/media/press-release/pt-global-digital-niaga-tbk-2023-full-year-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2023_7f3cd436dc.html",
+    "bytes": 104775,
+    "sha256": "7f3cd436dccda3bdf0be82212a0f6c8a10210250652132e5c0bb7bb33a3133d4",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/id/media/press-release/pt-global-digital-niaga-tbk-2023-full-year-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2024/03/Rilis-Kinerja-FY23-PT-Global-Digital-Niaga-Tbk-.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_fy2024",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-full-year-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2024_2e7c144e57.html",
+    "bytes": 126151,
+    "sha256": "2e7c144e57a85055c481f0080f15230a720337c208f7d171774a6d456b7f6c4d",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-full-year-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2025/03/Earnings-Release-FY24-PT-Global-Digital-Niaga-Tbk.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_fy2025",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-full-year-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2025_66343ece37.html",
+    "bytes": 134898,
+    "sha256": "66343ece37b0d1c38a2df9f0ba27884ab4ba7eca5c49733ba870c05a5db15592",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-full-year-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2026/03/Earnings-Release-FY25-PT-Global-Digital-Niaga-Tbk-.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_q12023",
+    "url": "https://about.blibli.com/en/media/press-release/2023-first-quarter-results-performance-pt-global-digital-niaga-tbk",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q12023_2d3a06eab1.html",
+    "bytes": 141736,
+    "sha256": "2d3a06eab13a9e8c3750e71ec6bc600f165222fdd4ddfbfe1eab7595d9e0f8ab",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/2023-first-quarter-results-performance-pt-global-digital-niaga-tbk",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2023/05/Earnings-Release-1Q23-PT-Global-Digital-Niaga-Tbk.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_q32023",
+    "url": "https://about.blibli.com/en/media/press-release/2023-third-quarter-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q32023_eaba30672a.html",
+    "bytes": 124965,
+    "sha256": "eaba30672a1d5762611f1a38cdb46c67d621467ccae77c5b8c937eee6abdc8e6",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/2023-third-quarter-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2023/11/Earnings-Release-9M23-PT-Global-Digital-Niaga-Tbk-1.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_prospectus",
+    "url": "https://about.blibli.com/investor-relations/prospectus/Final%20Prospectus%20IPO%20-%20PT%20Global%20Digital%20Niaga%20Tbk.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_prospectus.pdf",
+    "bytes": 9726585,
+    "sha256": "4111c33e03b309f51a588dfee68810cb145da36b0d5e9a5d3a535051a9d5e7f9",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/investor-relations/prospectus/Final%20Prospectus%20IPO%20-%20PT%20Global%20Digital%20Niaga%20Tbk.pdf"
+  },
+  {
+    "source_id": "bukalapak_ir",
+    "url": "https://about.bukalapak.com/id/investor-relations/",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_ir.html",
+    "bytes": 4245,
+    "sha256": "16e644e78d82c73af25f9ace59e5328dab1e2c6aac1bf64d45eb312b19b7e22f",
+    "error": "",
+    "resolved_url": "https://about.bukalapak.com/id/investor-relations/",
+    "pdf_links": []
+  },
+  {
+    "source_id": "bukalapak_ir_main",
+    "url": "https://www.bukalapak.com/investor-relations",
+    "status": "failed",
+    "file": "",
+    "bytes": 0,
+    "sha256": "",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "source_id": "bukalapak_fy2022_release",
+    "url": "https://www.prnewswire.com/apac/news-releases/buka-finished-2022-with-positive-contribution-margin-301784373.html",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_fy2022_release.html",
+    "bytes": 178275,
+    "sha256": "7fc81233372dbf74a060ae416f122899c2cc04d8cac398972a45c1e92a2dd369",
+    "error": "",
+    "resolved_url": "https://www.prnewswire.com/apac/news-releases/buka-finished-2022-with-positive-contribution-margin-301784373.html",
+    "pdf_links": []
+  },
+  {
+    "source_id": "blibli_q22024",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-second-quarter-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q22024.html",
+    "bytes": 125252,
+    "sha256": "587c0971d0f1d3486a91ee2765898b8caa942f73388f54c7e61a8e27a91a0e5f",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-second-quarter-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2024/07/Earnings-Release-1H24-PT-Global-Digital-Niaga-Tbk-.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_q32024",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-third-quarter-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q32024.html",
+    "bytes": 130173,
+    "sha256": "42519f98887badbe22498f68ec0401649adcd8a6646c9470c6d0a49d6426a744",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-third-quarter-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2024/11/Earnings-Release-9M24-PT-Global-Digital-Niaga-Tbk.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_q12025",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-first-quarter-results-performance-2",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q12025.html",
+    "bytes": 115285,
+    "sha256": "3d26908f24d6cf6157cb4148feb08eee8b23e16478ae39b45f6ba57ea453cf5f",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-first-quarter-results-performance-2",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2025/04/Earnings-Release-1Q25-PT-Global-Digital-Niaga-Tbk-.pdf"
+    ]
+  },
+  {
+    "source_id": "blibli_q22025",
+    "url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-second-quarter-results-performance",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q22025.html",
+    "bytes": 127711,
+    "sha256": "18ee9dd80568a69bc2e2bd6a7c50e1d12c70a80fd032c7e0155ac8e41af64352",
+    "error": "",
+    "resolved_url": "https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2025-second-quarter-results-performance",
+    "pdf_links": [
+      "https://asset-about.blibli.com/2025/07/Earnings-Release-1H25-PT-Global-Digital-Niaga-Tbk-1.pdf"
+    ]
+  },
+  {
+    "source_id": "bukalapak_ar2021_mirror",
+    "url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2021.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_ar2021_mirror.pdf",
+    "bytes": 5919026,
+    "sha256": "89b6fcf5b2880a3359ee2011cab160b6704b58299003ba79a4c193a573acf44d",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2021.pdf"
+  },
+  {
+    "source_id": "bukalapak_ar2022_mirror",
+    "url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2022.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_ar2022_mirror.pdf",
+    "bytes": 6651619,
+    "sha256": "4591beefc5828b3e3f3a0cf9558a56f66730fafd7aeaa92f00a0e691f9015699",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2022.pdf"
+  },
+  {
+    "source_id": "bukalapak_ar2023_mirror",
+    "url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2023.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_ar2023_mirror.pdf",
+    "bytes": 8947295,
+    "sha256": "dc4649c6e0bd3da1fda3ed25f51199d2183d724d9a2fae41951d0620ec78fb21",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2023.pdf"
+  },
+  {
+    "source_id": "bukalapak_ar2024_mirror",
+    "url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2024.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_ar2024_mirror.pdf",
+    "bytes": 9091797,
+    "sha256": "bca9226fe9226e55dcbe63fe8388745ad1253b49b6e175e852f9b8e9399fb4dd",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/annual-reports/72327.ar.en.2024.pdf"
+  },
+  {
+    "source_id": "grab_fy2025_20f",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001855612/4d2a05a2-f9ed-4b40-9803-129963531f02.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/grab_fy2025_20f.pdf",
+    "bytes": 2714892,
+    "sha256": "b5c2936d660ea4fcb0414781c020cfa8876c1e2953ba65bded64dd71010a227e",
+    "error": "",
+    "resolved_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001855612/4d2a05a2-f9ed-4b40-9803-129963531f02.pdf"
+  },
+  {
+    "source_id": "momentum_2020_indonesia",
+    "url": "https://thelowdown.momentum.asia/indonesia-ecommerce-marketplace-gmv-reached-us40-billion-with-shopee-and-tokopedia-leading/",
+    "status": "downloaded",
+    "file": "raw_sources/momentum_2020_indonesia.html",
+    "bytes": 262458,
+    "sha256": "c8a58a8a74d44a8c679e4101679612eac231e4445f7a6be9a283e040633387de",
+    "error": "",
+    "resolved_url": "https://thelowdown.momentum.asia/indonesia-ecommerce-marketplace-gmv-reached-us40-billion-with-shopee-and-tokopedia-leading/",
+    "pdf_links": []
+  },
+  {
+    "source_id": "momentum_2025_asean_release",
+    "url": "https://thelowdown.momentum.asia/wp-content/uploads/2026/04/Embargoed-Press-release-Momentum-Works-Ecommerce-in-SEA-2026.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/momentum_2025_asean_release.pdf",
+    "bytes": 509185,
+    "sha256": "61f25bdb82c8e8606f77ca3d20fce7e68eecfb08eb45314764fdc502fc19cb7f",
+    "error": "",
+    "resolved_url": "https://thelowdown.momentum.asia/wp-content/uploads/2026/04/Embargoed-Press-release-Momentum-Works-Ecommerce-in-SEA-2026.pdf"
+  },
+  {
+    "source_id": "bukalapak_sr2024_mirror",
+    "url": "https://companiesmarketcap.com/sustainability-reports/72327.sar.en.2024.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_sr2024_mirror.pdf",
+    "bytes": 10157157,
+    "sha256": "3206e11ab1d08e078e639f11bcbced100ac21903361df60f4c36dc71b4d34831",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/sustainability-reports/72327.sar.en.2024.pdf"
+  },
+  {
+    "source_id": "bukalapak_sr2021_mirror",
+    "url": "https://companiesmarketcap.com/sustainability-reports/72327.sar.en.2021.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/bukalapak_sr2021_mirror.pdf",
+    "bytes": 2301180,
+    "sha256": "05f781b01308609730591f854089df0f7c65de6f3e4e3ef4771df5ca1e360385",
+    "error": "",
+    "resolved_url": "https://companiesmarketcap.com/sustainability-reports/72327.sar.en.2021.pdf"
+  },
+  {
+    "source_id": "blibli_fy2022_linked_0",
+    "url": "https://asset-about.blibli.com/2023/03/Earnings-Release-FY22-PT-Global-Digital-Niaga-Tbk-1.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2022_linked_0.pdf",
+    "bytes": 258088,
+    "sha256": "d740c914a071b5f48dd45f37195b18551045e2c6d6fe5d9d3161b0b7bf5e598e",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2023/03/Earnings-Release-FY22-PT-Global-Digital-Niaga-Tbk-1.pdf"
+  },
+  {
+    "source_id": "blibli_fy2023_linked_0",
+    "url": "https://asset-about.blibli.com/2024/03/Rilis-Kinerja-FY23-PT-Global-Digital-Niaga-Tbk-.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2023_linked_0.pdf",
+    "bytes": 1153046,
+    "sha256": "4da4d34cea4c5dff501c0c81e760faf5d7f17da26691f4d001c812558812c2ef",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2024/03/Rilis-Kinerja-FY23-PT-Global-Digital-Niaga-Tbk-.pdf"
+  },
+  {
+    "source_id": "blibli_fy2024_linked_0",
+    "url": "https://asset-about.blibli.com/2025/03/Earnings-Release-FY24-PT-Global-Digital-Niaga-Tbk.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2024_linked_0.pdf",
+    "bytes": 555356,
+    "sha256": "29ee4a6ce316517e978a942a17e1293bd2975367e4b3ce7b825b1f8b2b4c9eab",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2025/03/Earnings-Release-FY24-PT-Global-Digital-Niaga-Tbk.pdf"
+  },
+  {
+    "source_id": "blibli_fy2025_linked_0",
+    "url": "https://asset-about.blibli.com/2026/03/Earnings-Release-FY25-PT-Global-Digital-Niaga-Tbk-.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_fy2025_linked_0.pdf",
+    "bytes": 1924316,
+    "sha256": "7c692fcd51d2a2fc08ccc8c052c873f85860a4b34d78b6e9065a7ba9203dc336",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2026/03/Earnings-Release-FY25-PT-Global-Digital-Niaga-Tbk-.pdf"
+  },
+  {
+    "source_id": "blibli_q12023_linked_0",
+    "url": "https://asset-about.blibli.com/2023/05/Earnings-Release-1Q23-PT-Global-Digital-Niaga-Tbk.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q12023_linked_0.pdf",
+    "bytes": 268045,
+    "sha256": "4130a696c5beebcc71920acd9cea5fc0ed55a50247ee8f14f07294be43952594",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2023/05/Earnings-Release-1Q23-PT-Global-Digital-Niaga-Tbk.pdf"
+  },
+  {
+    "source_id": "blibli_q32023_linked_0",
+    "url": "https://asset-about.blibli.com/2023/11/Earnings-Release-9M23-PT-Global-Digital-Niaga-Tbk-1.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q32023_linked_0.pdf",
+    "bytes": 348890,
+    "sha256": "74bb68b0ec87fd6452f1b8d7ab26c8091e5cef7c7e960b1c55fdb74cfd840195",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2023/11/Earnings-Release-9M23-PT-Global-Digital-Niaga-Tbk-1.pdf"
+  },
+  {
+    "source_id": "blibli_q22024_linked_0",
+    "url": "https://asset-about.blibli.com/2024/07/Earnings-Release-1H24-PT-Global-Digital-Niaga-Tbk-.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q22024_linked_0.pdf",
+    "bytes": 1059672,
+    "sha256": "9f49fb7309ca053c785b388aac786589dbb9d5112cb36e20fbacf77ce32505a1",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2024/07/Earnings-Release-1H24-PT-Global-Digital-Niaga-Tbk-.pdf"
+  },
+  {
+    "source_id": "blibli_q32024_linked_0",
+    "url": "https://asset-about.blibli.com/2024/11/Earnings-Release-9M24-PT-Global-Digital-Niaga-Tbk.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q32024_linked_0.pdf",
+    "bytes": 1489457,
+    "sha256": "4c79c74bd36d3c951c8a6aada6a35ff129e4aafc0fff3e8125c1151fd0c3de04",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2024/11/Earnings-Release-9M24-PT-Global-Digital-Niaga-Tbk.pdf"
+  },
+  {
+    "source_id": "blibli_q12025_linked_0",
+    "url": "https://asset-about.blibli.com/2025/04/Earnings-Release-1Q25-PT-Global-Digital-Niaga-Tbk-.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q12025_linked_0.pdf",
+    "bytes": 2022452,
+    "sha256": "b49a3e51cb0ed7203f37bcee5dfea467e6c52674bc2535f479185e1061ecdd53",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2025/04/Earnings-Release-1Q25-PT-Global-Digital-Niaga-Tbk-.pdf"
+  },
+  {
+    "source_id": "blibli_q22025_linked_0",
+    "url": "https://asset-about.blibli.com/2025/07/Earnings-Release-1H25-PT-Global-Digital-Niaga-Tbk-1.pdf",
+    "status": "downloaded",
+    "file": "raw_sources/blibli_q22025_linked_0.pdf",
+    "bytes": 1590976,
+    "sha256": "3f68cd07ce4a21b7d284864afaf61d35787f1bc826d6ac840468925daabf47b0",
+    "error": "",
+    "resolved_url": "https://asset-about.blibli.com/2025/07/Earnings-Release-1H25-PT-Global-Digital-Niaga-Tbk-1.pdf"
+  }
+]

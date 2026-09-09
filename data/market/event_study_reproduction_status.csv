@@ -1,0 +1,2 @@
+total_panel_rows,rows_with_recomputed_car,unresolved_contamination_rows,contamination_subset_status,design
+47,47,31,BLOCKED until every event is classified yes/no,"market-adjusted CAR[-1,+1]"

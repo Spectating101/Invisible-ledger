@@ -1,0 +1,14 @@
+platform,year,gmv_or_gtv,matched_revenue,currency,unit,ecosystem_ratio,basis,notes
+Grab,2022,14.113,1.367,USD,billions,9.324067301,company historical restatement / scope-matched On-Demand GMV and Mobility+Deliveries revenue,
+Grab,2023,15.785,2.181,USD,billions,6.237505731,company historical restatement / scope-matched On-Demand GMV and Mobility+Deliveries revenue,
+Grab,2024,18.363,2.54,USD,billions,6.229527559,sum of clean contemporaneous quarter inputs,Prefer later company-restated FY comparable figures if independently verified before final Table 3C.
+Grab,2025,22.139,3.019,USD,billions,6.333222921,sum of clean contemporaneous quarter inputs,Prefer later company-restated FY comparable figures if independently verified before final Table 3C.
+Sea,2022,73.5,7.3,USD,billions,9.068493151,scope-matched FY Shopee GMV / Shopee revenue,
+Sea,2023,78.5,9.0,USD,billions,7.722222222,scope-matched FY Shopee GMV / Shopee revenue,
+Sea,2024,100.5,12.4,USD,billions,7.104838710,scope-matched FY Shopee GMV / Shopee revenue,
+Sea,2025,127.4,16.6,USD,billions,6.674698795,scope-matched FY Shopee GMV / Shopee revenue,
+GoTo,2022,613.362,11.349,IDR,trillions,53.045466561,FY actual,Early monetization/revenue-recognition regime; interpret with caution
+GoTo,2023,607.361,14.785,IDR,trillions,40.079540074,FY actual / later comparable disclosure,
+GoTo,2024,538.2,15.894,IDR,trillions,32.861834655,FY actual,Tokopedia deconsolidation structural break; do not silently compare as continuous
+GoTo,2024,519.784,14.753,IDR,trillions,34.232427303,FY pro-forma comparable,"Alternative 2024 basis; label separately, never mix with actual"
+GoTo,2025,685.649,18.322,IDR,trillions,36.422170069,FY actual,

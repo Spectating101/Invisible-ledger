@@ -1,0 +1,5 @@
+platform,period,metric,reported_value,unit,comparison_basis,source_file,source_locator,source_status,interpretation_limit
+Grab,FY2023,Group_revenue_growth,65,percent,reported_FY2023_vs_FY2022,01_RAW_SOURCES/main_indonesia/grab_2023_results.htm,HTML lines 409-412,direct_company_disclosure,Group-wide; not Indonesia-specific.
+Grab,FY2023,Group_revenue_growth,40,percent,as_if_Q4_2022_business_model_change_had_occurred_in_2022,01_RAW_SOURCES/main_indonesia/grab_2023_results.htm,HTML lines 409-412,direct_company_disclosure,Issuer-provided comparable-basis statement; not a separate observed Indonesia series.
+Grab,FY2023,Deliveries_revenue_growth,80,percent,reported_FY2023_vs_FY2022,01_RAW_SOURCES/main_indonesia/grab_2023_results.htm,HTML lines 614-616,direct_company_disclosure,Group-wide Deliveries segment; not Indonesia-specific.
+Grab,FY2023,Deliveries_revenue_growth,30,percent,as_if_Q4_2022_business_model_change_had_occurred_in_2022,01_RAW_SOURCES/main_indonesia/grab_2023_results.htm,HTML lines 614-616,direct_company_disclosure,Issuer-provided comparable-basis statement; not a separate observed Indonesia series.

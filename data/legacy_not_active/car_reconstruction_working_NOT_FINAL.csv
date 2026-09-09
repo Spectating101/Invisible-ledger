@@ -1,0 +1,48 @@
+platform,fiscal_year,quarter,CAR_m1_p1_percent_working,status,notes
+Grab,2022,1,24.3,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2022,2,-10.1,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2022,3,9.04,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2022,4,-7.93,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2023,1,-15.04,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2023,2,12.06,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2023,3,1.97,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2023,4,-11.91,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2024,1,3.36,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2024,2,-8.4,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2024,3,15.31,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2024,4,-4.64,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2025,1,-1.73,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2025,2,-7.65,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2025,3,-5.25,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2025,4,-1.78,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Grab,2026,1,-0.12,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2022,1,2.24,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2022,2,-18.77,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2022,3,23.86,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2022,4,22.91,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2023,4,14.57,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2024,1,4.06,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2024,2,15.57,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2024,3,12.3,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2024,4,16.61,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2025,1,12.35,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2025,2,17.25,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2025,3,-5.89,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2025,4,-18.9,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+Sea,2026,1,7.78,RECONSTRUCTED IN CHAT; MUST RECOMPUTE FROM RAW MARKET DATA BEFORE MANUSCRIPT USE,Included so the prior reconstruction is not lost; this file is not sufficient provenance for final Table 10.
+GoTo,2022,2,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2022,3,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2022,4,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2023,1,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2023,2,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2023,3,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2023,4,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2024,1,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2024,2,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2024,3,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2024,4,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2025,1,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2025,2,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2025,3,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2025,4,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.
+GoTo,2026,1,,NOT COMPLETED,Compute only after event-session verification and GOTO/JCI market data alignment.

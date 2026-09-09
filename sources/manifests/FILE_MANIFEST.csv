@@ -1,0 +1,233 @@
+module,relative_path,size_bytes,size_human,file_type,data_rows_or_records,structure_or_pages,count_interpretation
+00_READ_FIRST,00_READ_FIRST/DATASET_MAP.csv,3265,3.2 KB,CSV table,11,6 columns,data rows exclude header
+00_READ_FIRST,00_READ_FIRST/Invisible_Ledger_Data_Summary.xlsx,31187,30.5 KB,Excel workbook,249,Start_Here:7; FY2023_Inputs:13; FY2023_Cases:5; Sensitivity:16; Leave_One_Out:5; ID_Extension:11; Grab_Country_Revenue:22; Historical_Ratios:10; Event_Accounting:49; Event_Sessions:49; Contamination:49; Data_Map:13,approximate data rows across sheets; headers excluded
+00_READ_FIRST,00_READ_FIRST/ORIGINAL_SOURCE_URLS.md,4177,4.1 KB,Documentation,N/A,42 lines,documentation; rows are not applicable
+00_READ_FIRST,00_READ_FIRST/README.md,4022,3.9 KB,Documentation,N/A,38 lines,documentation; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/EDGAR_GRAB_GMV_REVENUE_BY_SEGMENT_ANNUAL_2019_2021.csv,2385,2.3 KB,CSV table,15,8 columns,data rows exclude header
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/EDGAR_GRAB_REVENUE_BY_GEOGRAPHY_ANNUAL_2019_2021.csv,2474,2.4 KB,CSV table,15,8 columns,data rows exclude header
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/EDGAR_SEA_SHOPEE_GMV_QUARTERLY_2017_2021.csv,3593,3.5 KB,CSV table,20,7 columns,data rows exclude header
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/EDGAR_SEA_SHOPEE_SEGMENT_REVENUE_ANNUAL_2016_2021.csv,1778,1.7 KB,CSV table,6,8 columns,data rows exclude header
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/eria_indonesia_ecommerce_2022.pdf,201966,197.2 KB,PDF source document,N/A,18 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/goto_fy2021_annual_report.pdf,31871171,30.4 MB,PDF source document,N/A,434 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/goto_fy2022_annual_report.pdf,7426761,7.1 MB,PDF source document,N/A,518 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/goto_q2_2022_pr.pdf,355109,346.8 KB,PDF source document,N/A,22 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_20f_fy2021.htm,157344,153.7 KB,HTML/XML source document,N/A,1859 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_20f_fy2021_full.htm,6443400,6.1 MB,HTML/XML source document,N/A,29767 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_20f_list.xml,11292,11.0 KB,HTML/XML source document,N/A,170 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_filing_index.html,10256,10.0 KB,HTML/XML source document,N/A,230 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_fy2022_20f.pdf,2560387,2.4 MB,PDF source document,N/A,383 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_fy2024_20f_cloudfront.pdf,2224844,2.1 MB,PDF source document,N/A,297 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/grab_submissions.json,60417,59.0 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/katadata_momentumworks_indonesia_2024.html,59493,58.1 KB,HTML/XML source document,N/A,1 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/kemendag_pmse_2025_report.pdf,1434321,1.4 MB,PDF source document,N/A,20 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/momentum_works_sea_2022.html,250136,244.3 KB,HTML/XML source document,N/A,2165 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/momentum_works_sea_2023.html,250342,244.5 KB,HTML/XML source document,N/A,2163 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/momentum_works_sea_2024_press_release.html,253423,247.5 KB,HTML/XML source document,N/A,2164 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_20f_fy2018.htm,2610855,2.5 MB,HTML/XML source document,N/A,25734 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_20f_fy2019.htm,5535182,5.3 MB,HTML/XML source document,N/A,33965 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_20f_fy2020.htm,5553152,5.3 MB,HTML/XML source document,N/A,31269 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_20f_fy2021.htm,5187471,4.9 MB,HTML/XML source document,N/A,71424 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_f1_2017.htm,3949214,3.8 MB,HTML/XML source document,N/A,56560 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_fy2022_20f.pdf,1306059,1.2 MB,PDF source document,N/A,222 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_fy2024_20f_official.pdf,715614,698.8 KB,PDF source document,N/A,229 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_fy2025_20f_yahoo_cdn.htm,5641014,5.4 MB,HTML/XML source document,N/A,79416 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/extension_indonesia/sea_submissions.json,71842,70.2 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/goto_annual_report_2023.pdf,5308358,5.1 MB,PDF source document,N/A,505 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/grab_2023_20f.htm,7413061,7.1 MB,HTML/XML source document,N/A,22492 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/grab_2023_results.htm,756241,738.5 KB,HTML/XML source document,N/A,2526 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/katadata_momentumworks_indonesia_2023.htm,617773,603.3 KB,HTML/XML source document,N/A,3812 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/sea_2023_20f.htm,5464961,5.2 MB,HTML/XML source document,N/A,77379 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/main_indonesia/world_bank_idn_official_exchange_rate_2023.json,331,331 B,JSON data/source,2,top-level records,JSON records
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2022Q2_issuer_press_release.html,136719,133.5 KB,HTML/XML source document,N/A,141 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2022Q3.html,132691,129.6 KB,HTML/XML source document,N/A,114 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2022Q3_primary_results_release.pdf,356670,348.3 KB,PDF source document,N/A,19 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2022Q4.html,135515,132.3 KB,HTML/XML source document,N/A,113 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2022Q4_primary_presentation.pdf,2509985,2.4 MB,PDF source document,N/A,22 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q1_issuer_press_release.html,132442,129.3 KB,HTML/XML source document,N/A,117 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q1_primary_presentation.pdf,1885266,1.8 MB,PDF source document,N/A,20 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q2_issuer_press_release.html,131019,127.9 KB,HTML/XML source document,N/A,110 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q2_primary_presentation.pdf,5007172,4.8 MB,PDF source document,N/A,28 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q3.html,140578,137.3 KB,HTML/XML source document,N/A,127 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q3_primary_presentation.pdf,3941523,3.8 MB,PDF source document,N/A,30 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q4.html,326274,318.6 KB,HTML/XML source document,N/A,942 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2023Q4_primary_presentation.pdf,5093646,4.9 MB,PDF source document,N/A,29 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q1.html,247426,241.6 KB,HTML/XML source document,N/A,518 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q1_primary_presentation.pdf,3865603,3.7 MB,PDF source document,N/A,24 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q2_issuer_press_release.html,329980,322.2 KB,HTML/XML source document,N/A,939 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q2_primary_presentation.pdf,2436530,2.3 MB,PDF source document,N/A,24 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q3_issuer_press_release.html,431479,421.4 KB,HTML/XML source document,N/A,1244 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q3_primary_presentation.pdf,2648284,2.5 MB,PDF source document,N/A,26 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q4.html,410746,401.1 KB,HTML/XML source document,N/A,1299 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2024Q4_primary_presentation.pdf,4472769,4.3 MB,PDF source document,N/A,37 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q1.html,276616,270.1 KB,HTML/XML source document,N/A,762 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q1_primary_presentation.pdf,6669410,6.4 MB,PDF source document,N/A,37 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q2.html,356426,348.1 KB,HTML/XML source document,N/A,1227 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q2_primary_presentation.pdf,8246952,7.9 MB,PDF source document,N/A,40 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q3.html,320045,312.5 KB,HTML/XML source document,N/A,1209 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q3_primary_presentation.pdf,4516867,4.3 MB,PDF source document,N/A,38 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q4_issuer_press_release.html,333209,325.4 KB,HTML/XML source document,N/A,1194 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2025Q4_primary_presentation.pdf,4420808,4.2 MB,PDF source document,N/A,40 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2026Q1.html,263542,257.4 KB,HTML/XML source document,N/A,593 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GOTO_2026Q1_primary_presentation.pdf,4702197,4.5 MB,PDF source document,N/A,31 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q1.html,235620,230.1 KB,HTML/XML source document,N/A,4940 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q1_sec_primary_exhibit.html,205013,200.2 KB,HTML/XML source document,N/A,3179 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q2.html,364759,356.2 KB,HTML/XML source document,N/A,7538 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q2_sec_primary_exhibit.html,281708,275.1 KB,HTML/XML source document,N/A,4592 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q3_sec_exhibit_99_1.html,273534,267.1 KB,HTML/XML source document,N/A,4638 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q3_sec_primary_exhibit.html,273534,267.1 KB,HTML/XML source document,N/A,4638 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q4_sec_exhibit_99_1.html,328139,320.4 KB,HTML/XML source document,N/A,5785 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2022Q4_sec_primary_exhibit.html,328139,320.4 KB,HTML/XML source document,N/A,5785 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q1.html,231647,226.2 KB,HTML/XML source document,N/A,1974 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q1_sec_primary_exhibit.html,561739,548.6 KB,HTML/XML source document,N/A,1438 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q2_sec_exhibit_99_1.html,746641,729.1 KB,HTML/XML source document,N/A,1762 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q2_sec_primary_exhibit.html,746641,729.1 KB,HTML/XML source document,N/A,1762 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q3_sec_exhibit_99_1.html,642981,627.9 KB,HTML/XML source document,N/A,1816 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q3_sec_primary_exhibit.html,625398,610.7 KB,HTML/XML source document,N/A,1757 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q4.html,167732,163.8 KB,HTML/XML source document,N/A,4473 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2023Q4_sec_primary_exhibit.html,738774,721.5 KB,HTML/XML source document,N/A,2471 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q1.html,148576,145.1 KB,HTML/XML source document,N/A,3470 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q1_sec_primary_exhibit.html,636586,621.7 KB,HTML/XML source document,N/A,2242 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q2.html,240366,234.7 KB,HTML/XML source document,N/A,1997 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q2_sec_primary_exhibit.html,562477,549.3 KB,HTML/XML source document,N/A,1889 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q3.html,354961,346.6 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q3_sec_primary_exhibit.html,354961,346.6 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q4.html,239253,233.6 KB,HTML/XML source document,N/A,2001 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2024Q4_sec_primary_exhibit.html,398083,388.8 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q1.html,237222,231.7 KB,HTML/XML source document,N/A,2007 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q1_sec_primary_exhibit.html,249206,243.4 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q2.html,369947,361.3 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q2_sec_primary_exhibit.html,363318,354.8 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q3.html,239832,234.2 KB,HTML/XML source document,N/A,1995 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q3_sec_primary_exhibit.html,409460,399.9 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q4.html,239243,233.6 KB,HTML/XML source document,N/A,1999 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2025Q4_sec_primary_exhibit.html,445491,435.0 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2026Q1_sec_exhibit_99_1.html,304295,297.2 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/GRAB_2026Q1_sec_primary_exhibit.html,294527,287.6 KB,HTML/XML source document,N/A,12 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q1_sec_exhibit_99_1.html,348690,340.5 KB,HTML/XML source document,N/A,2064 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q1_sec_primary_exhibit.html,348690,340.5 KB,HTML/XML source document,N/A,2064 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q2_sec_exhibit_99_1.html,320486,313.0 KB,HTML/XML source document,N/A,2140 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q2_sec_primary_exhibit.html,320486,313.0 KB,HTML/XML source document,N/A,2140 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q3_sec_exhibit_99_1.html,307880,300.7 KB,HTML/XML source document,N/A,2362 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q3_sec_primary_exhibit.html,307880,300.7 KB,HTML/XML source document,N/A,2362 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q4_sec_exhibit_99_1.html,473458,462.4 KB,HTML/XML source document,N/A,3504 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2022Q4_sec_primary_exhibit.html,473458,462.4 KB,HTML/XML source document,N/A,3504 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2023Q1.html,38254,37.4 KB,HTML/XML source document,N/A,607 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2023Q2_sec_exhibit_99_1.html,297075,290.1 KB,HTML/XML source document,N/A,1997 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2023Q3.html,270827,264.5 KB,HTML/XML source document,N/A,12025 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2023Q4_sec_exhibit_99_1.html,468194,457.2 KB,HTML/XML source document,N/A,2788 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2023Q4_sec_primary_exhibit.html,468194,457.2 KB,HTML/XML source document,N/A,2788 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q1_sec_exhibit_99_1.html,328300,320.6 KB,HTML/XML source document,N/A,4613 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q1_sec_primary_exhibit.html,328300,320.6 KB,HTML/XML source document,N/A,4613 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q2_sec_exhibit_99_1.html,273474,267.1 KB,HTML/XML source document,N/A,2074 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q2_sec_primary_exhibit.html,273474,267.1 KB,HTML/XML source document,N/A,2074 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q3_sec_exhibit_99_1.html,297666,290.7 KB,HTML/XML source document,N/A,1828 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q3_sec_primary_exhibit.html,297666,290.7 KB,HTML/XML source document,N/A,1828 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q4_sec_exhibit_99_1.html,425083,415.1 KB,HTML/XML source document,N/A,7369 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2024Q4_sec_primary_exhibit.html,425083,415.1 KB,HTML/XML source document,N/A,7369 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q1_sec_exhibit_99_1.html,288202,281.4 KB,HTML/XML source document,N/A,5080 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q1_sec_primary_exhibit.html,288202,281.4 KB,HTML/XML source document,N/A,5080 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q2.pdf,392554,383.4 KB,PDF source document,N/A,18 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q2_sec_primary_exhibit.html,290385,283.6 KB,HTML/XML source document,N/A,5159 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q3.pdf,393171,384.0 KB,PDF source document,N/A,18 pages,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q3_sec_primary_exhibit.html,290133,283.3 KB,HTML/XML source document,N/A,5157 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q4_sec_exhibit_99_1.html,462046,451.2 KB,HTML/XML source document,N/A,8704 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2025Q4_sec_primary_exhibit.html,462046,451.2 KB,HTML/XML source document,N/A,8704 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2026Q1_sec_exhibit_99_1.html,286911,280.2 KB,HTML/XML source document,N/A,5089 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/SEA_2026Q1_sec_primary_exhibit.html,286911,280.2 KB,HTML/XML source document,N/A,5089 lines,source document; rows are not applicable
+01_RAW_SOURCES,01_RAW_SOURCES/quarterly_releases/goto_q2_2022_pr.pdf,355109,346.8 KB,PDF source document,N/A,22 pages,source document; rows are not applicable
+02_SOURCE_EXTRACTS,02_SOURCE_EXTRACTS/fy2023_indonesia_source_inputs.csv,4670,4.6 KB,CSV table,11,12 columns,data rows exclude header
+02_SOURCE_EXTRACTS,02_SOURCE_EXTRACTS/grab_country_revenue_coverage_2021_2024.csv,4729,4.6 KB,CSV table,20,8 columns,data rows exclude header
+02_SOURCE_EXTRACTS,02_SOURCE_EXTRACTS/indonesia_extension_source_inputs.csv,6701,6.5 KB,CSV table,24,11 columns,data rows exclude header
+03_ANALYTIC_DATA,03_ANALYTIC_DATA/historical_company_panels/GOTO_GTV_REVENUE_Q1Q2_2022.csv,1576,1.5 KB,CSV table,2,9 columns,data rows exclude header
+03_ANALYTIC_DATA,03_ANALYTIC_DATA/historical_company_panels/README.md,1140,1.1 KB,Documentation,N/A,20 lines,documentation; rows are not applicable
+03_ANALYTIC_DATA,03_ANALYTIC_DATA/historical_company_panels/annual_extension_panel_preliminary.csv,1698,1.7 KB,CSV table,13,9 columns,data rows exclude header
+03_ANALYTIC_DATA,03_ANALYTIC_DATA/historical_company_panels/source_locator.csv,3568,3.5 KB,CSV table,22,4 columns,data rows exclude header
+03_ANALYTIC_DATA,03_ANALYTIC_DATA/historical_company_panels/table5_corrected_preliminary.csv,419,419 B,CSV table,3,11 columns,data rows exclude header
+04_SCRIPTS,04_SCRIPTS/README.md,1216,1.2 KB,Documentation,N/A,13 lines,documentation; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/archive_goto_quarterly_presentations.py,10362,10.1 KB,Python script,N/A,230 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/archive_quarterly_sources.py,5263,5.1 KB,Python script,N/A,142 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/archive_sec_quarterly_exhibits.py,7089,6.9 KB,Python script,N/A,153 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/build_empirical_backend.py,23275,22.7 KB,Python script,N/A,468 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/build_file_manifest.py,6202,6.1 KB,Python script,N/A,141 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/build_quarterly_panel_source_coverage.py,10456,10.2 KB,Python script,N/A,221 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/IE_DATA_COMPILATION.py,22652,22.1 KB,Python script,N/A,583 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/build_panel.py,3187,3.1 KB,Python script,N/A,76 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/build_summary_stats.py,4225,4.1 KB,Python script,N/A,96 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/event_study.py,6163,6.0 KB,Python script,N/A,145 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/fetch_market_data_yfinance.py,1152,1.1 KB,Python script,N/A,33 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/merge_round2.py,4977,4.9 KB,Python script,N/A,138 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/merge_round3.py,3536,3.5 KB,Python script,N/A,103 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/merge_round4.py,3538,3.5 KB,Python script,N/A,103 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/reproduce_event_study.py,5382,5.3 KB,Python script,N/A,98 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/verified_round2.py,10709,10.5 KB,Python script,N/A,131 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/verified_round3_sea.py,4811,4.7 KB,Python script,N/A,58 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/original_project_scripts/verified_round4_grab.py,3882,3.8 KB,Python script,N/A,52 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/recompute_event_study_from_preserved_prices.py,6668,6.5 KB,Python script,N/A,135 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/recover_quarterly_primary_sources.py,8217,8.0 KB,Python script,N/A,135 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/reextract_goto_panel_metrics.py,7645,7.5 KB,Python script,N/A,111 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/reextract_grab_panel_components.py,8205,8.0 KB,Python script,N/A,180 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/reextract_sea_panel_metrics.py,5044,4.9 KB,Python script,N/A,110 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/scan_quarterly_panel_source_tokens.py,5555,5.4 KB,Python script,N/A,127 code lines,code file; rows are not applicable
+04_SCRIPTS,04_SCRIPTS/validate_empirical_package.py,3723,3.6 KB,Python script,N/A,75 code lines,code file; rows are not applicable
+05_RESULTS,05_RESULTS/event_accounting_ratio_checks.csv,4041,3.9 KB,CSV table,47,7 columns,data rows exclude header
+05_RESULTS,05_RESULTS/event_accounting_summary_rebuilt.csv,854,854 B,CSV table,3,10 columns,data rows exclude header
+05_RESULTS,05_RESULTS/fy2023_indonesia_leave_one_platform_out.csv,740,740 B,CSV table,3,9 columns,data rows exclude header
+05_RESULTS,05_RESULTS/fy2023_indonesia_main_one_way_sensitivity.csv,4712,4.6 KB,CSV table,14,15 columns,data rows exclude header
+05_RESULTS,05_RESULTS/fy2023_indonesia_main_rebuilt.csv,1358,1.3 KB,CSV table,3,13 columns,data rows exclude header
+05_RESULTS,05_RESULTS/fy2023_indonesia_main_sensitivity.csv,1064,1.0 KB,CSV table,5,8 columns,data rows exclude header
+05_RESULTS,05_RESULTS/fy2023_indonesia_main_summary.csv,241,241 B,CSV table,1,6 columns,data rows exclude header
+05_RESULTS,05_RESULTS/historical_within_platform_ratios.csv,2120,2.1 KB,CSV table,8,9 columns,data rows exclude header
+05_RESULTS,05_RESULTS/indonesia_platform_year_extension.csv,3642,3.6 KB,CSV table,9,13 columns,data rows exclude header
+05_RESULTS,05_RESULTS/reproduction_checks.csv,385,385 B,CSV table,3,5 columns,data rows exclude header
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/ASEAN_IE_Data_Compiled.xlsx,8724,8.5 KB,Excel workbook,21,Malaysia_SToDS_LVG:6; Vietnam_Foreign_Portal:4; Vietnam_Domestic_Ecom:3; eConomy_SEA_2024:4; Payment_Systems:4,approximate data rows across sheets; headers excluded
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/ASEAN_IE_Data_Summary.csv,376,376 B,CSV table,4,7 columns,data rows exclude header
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/README.md,644,644 B,Documentation,N/A,5 lines,documentation; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/indonesia_digital_economy_data.xlsx,10141,9.9 KB,Excel workbook,28,Digital Economy GMV:6; Sectoral GMV 2025:4; Digital Tax Revenue:6; Crypto Tax Composition:2; Fintech Tax Composition:3; SIPP Tax Composition:2; ASEAN Digital VAT Policies:5,approximate data rows across sheets; headers excluded
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/e_conomy_sea_2024_report.pdf,19846797,18.9 MB,PDF source document,N/A,128 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/e_conomy_sea_2025_report.pdf,22757311,21.7 MB,PDF source document,N/A,82 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/indonesia_e_conomy_sea_2025_report.pdf,3040024,2.9 MB,PDF source document,N/A,15 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/malaysia_e_conomy_sea_2025_report.pdf,3133000,3.0 MB,PDF source document,N/A,15 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_food_delivery_2021.html,253337,247.4 KB,HTML/XML source document,N/A,2186 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_food_delivery_2022.html,257098,251.1 KB,HTML/XML source document,N/A,2178 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_indonesia_2020.html,262090,255.9 KB,HTML/XML source document,N/A,2196 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_sea_2022.html,250136,244.3 KB,HTML/XML source document,N/A,2165 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_sea_2023.html,250342,244.5 KB,HTML/XML source document,N/A,2163 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_sea_2024_press_release.html,253423,247.5 KB,HTML/XML source document,N/A,2164 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_sea_2025_press_release.html,242680,237.0 KB,HTML/XML source document,N/A,2108 lines,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/momentum_works_sea_2026_press_release.pdf,509185,497.3 KB,PDF source document,N/A,6 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/philippines_e_conomy_sea_2025_report.pdf,1536903,1.5 MB,PDF source document,N/A,8 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/singapore_e_conomy_sea_2025_report.pdf,1534200,1.5 MB,PDF source document,N/A,8 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/thailand_e_conomy_sea_2025_report.pdf,2881156,2.7 MB,PDF source document,N/A,15 pages,source document; rows are not applicable
+06_SUPPORTING_ASEAN,06_SUPPORTING_ASEAN/source_documents/vietnam_e_conomy_sea_2025_report.pdf,2825141,2.7 MB,PDF source document,N/A,15 pages,source document; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/README.md,549,549 B,Documentation,N/A,5 lines,documentation; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/clean_event_panel_accounting.csv,5889,5.8 KB,CSV table,47,12 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/contamination_ledger_REVIEWED.csv,5950,5.8 KB,CSV table,47,6 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/event_session_ledger_REVIEWED.csv,10435,10.2 KB,CSV table,47,8 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/market_daily.csv,182287,178.0 KB,CSV table,4413,6 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/market_index_daily.csv,136154,133.0 KB,CSV table,4149,4 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_GOTO_JK_2019_2026_chart.json,52148,50.9 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_GRAB_2019_2026_chart.json,157008,153.3 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_JKSE_2019_2026_chart.json,188229,183.8 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_NASDAQ_2019_2026_chart.json,193413,188.9 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_SE_2019_2026_chart.json,202391,197.6 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/raw_price_downloads/yahoo_SP500_2019_2026_chart.json,199830,195.1 KB,JSON data/source,N/A,structured object,source/API object; rows are not applicable
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_correlations_unfiltered_recomputed.csv,481,481 B,CSV table,4,6 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_reproduction_status.csv,192,192 B,CSV table,1,5 columns,data rows exclude header
+07_EVENT_AND_MARKET,07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_results_unfiltered_recomputed.csv,26086,25.5 KB,CSV table,47,28 columns,data rows exclude header
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/ASEAN_master_long.csv,8952,8.7 KB,CSV table,63,7 columns,data rows exclude header
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/ASEAN_verified_GMV_2024_wedge_take75.csv,357,357 B,CSV table,5,5 columns,data rows exclude header
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/README.md,691,691 B,Documentation,N/A,8 lines,documentation; rows are not applicable
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/THESIS_DATA_READY.csv,4539,4.4 KB,CSV table,44,9 columns,data rows exclude header
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/car_reconstruction_working_NOT_FINAL.csv,8288,8.1 KB,CSV table,47,6 columns,data rows exclude header
+08_LEGACY_NOT_ACTIVE,08_LEGACY_NOT_ACTIVE/platform_fundamentals_quarterly.csv,33498,32.7 KB,CSV table,66,19 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/README.md,2487,2.4 KB,Documentation,N/A,46 lines,documentation; rows are not applicable
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/goto_panel_primary_document_reconciliation.csv,7500,7.3 KB,CSV table,16,15 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/goto_quarterly_primary_document_manifest.csv,6410,6.3 KB,CSV table,16,10 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/grab_panel_component_reconciliation.csv,7756,7.6 KB,CSV table,17,21 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/quarterly_panel_raw_token_scan.csv,11527,11.3 KB,CSV table,47,12 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/quarterly_panel_source_coverage.csv,39512,38.6 KB,CSV table,47,23 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/quarterly_primary_source_recovery_manifest.csv,8843,8.6 KB,CSV table,24,13 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/quarterly_release_archive_manifest.csv,15976,15.6 KB,CSV table,40,16 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/registry_sources_not_used_by_current_panel.csv,1231,1.2 KB,CSV table,3,16 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/sea_panel_direct_reconciliation.csv,5335,5.2 KB,CSV table,14,15 columns,data rows exclude header
+09_QUARTERLY_SOURCE_AUDIT,09_QUARTERLY_SOURCE_AUDIT/sec_quarterly_primary_exhibit_manifest.csv,10415,10.2 KB,CSV table,31,12 columns,data rows exclude header

@@ -1,0 +1,5 @@
+symbol,kind,event_json,source_file
+BABA,dividends,"{""amount"": 1.0, ""date"": 1703082600}",raw/market/10d8cdee559c_BABA.json
+BABA,dividends,"{""amount"": 1.66, ""date"": 1718285400}",raw/market/10d8cdee559c_BABA.json
+BABA,dividends,"{""amount"": 2.0, ""date"": 1749735000}",raw/market/10d8cdee559c_BABA.json
+BABA,dividends,"{""amount"": 1.05, ""date"": 1781184600}",raw/market/10d8cdee559c_BABA.json

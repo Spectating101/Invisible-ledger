@@ -1,0 +1,11 @@
+platform,module,coverage_located,status,next_check
+Grab,Indonesia geographic revenue,2021-2025,Direct revenue anchors; FY2025 recovered in this pass,Verify a consistent matching transaction scope before extending country-GMV proxy through 2024-2025
+Grab,Other ASEAN geographic revenue,2019-2025 varying country detail,Existing historical extracts plus new 2023-2025 source table,Rest-of-SEA is not a country; check period-specific geographic splits
+Shopee,Indonesia market anchors,2020 and 2022-2025,2020 and 2025 original Momentum Works material recovered,Recover 2021; test external-market and issuer-GMV definitions; rate proxy remains conditional
+Tokopedia,E-commerce segment,2022-2023 usable paired-period candidates,Existing sources; not an explicit country-labelled pair,Seek pre-acquisition financials for 2020-2021; do not reuse mismatched FY2021 pair
+Blibli/GDN,Annual issuer and business segments,2019-2025,Seven annual years of paired source material located,Finish geographic and consolidation checks; distinguish 1P 3P Institutions and Physical Stores; negative 2019 3P revenue
+Blibli/GDN,Quarterly issuer and business segments,2021Q4 and selected 2022-2025 quarters,Text extraction completed for nine distinct group quarters; further scanned releases saved,OCR and inspect image-only tables; reconcile four Q4 2024 scope conflicts before canonicalizing
+Bukalapak,Annual issuer,2020-2023,Four paired annual candidates extracted,Separate overseas business from Indonesia or classify as supporting issuer panel
+Bukalapak,2024,9M TPV and FY revenue,Not a matched annual observation,Recover matched 9M revenue and quarters; no TPV reported starting Q4 2024
+ASEAN,Country market estimates,2025 six countries,Six external country-market rows extracted from original researcher appendix,Link earlier market reports without mixing market definition or manufacturing country revenue
+Drive catalog,Procurement search,Bukalapak query,Returned unrelated local sample records; not an exhaustive search result,Inspect underlying registry and targeted connectors before concluding absence

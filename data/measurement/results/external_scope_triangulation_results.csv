@@ -1,0 +1,5 @@
+check,source_construct,value_usd_billion,difference_from_main_anchor_usd_billion,difference_from_main_anchor_percent,interpretation_limit
+Indonesia_ecommerce_market_total,Indonesia e-commerce market GMV,53.8,0.0,0.0,Not an audited Sea geographic disclosure.
+Indonesia_ecommerce_market_total,Indonesia e-commerce market estimate,52.93,-0.8699999999999974,-1.6171003717472043,Does not establish the same market definition or Shopee FY2023 share.
+Indonesia_ecommerce_market_total,Indonesia e-commerce GMV estimate,53.34,-0.45999999999999375,-0.8550185873605787,Does not establish the same market definition or Shopee FY2023 share.
+GrabFood_component_floor,Indonesia_food_delivery_GMV_times_GrabFood_share,2.3,3.081397,133.97378260869567,A partial-service lower-bound comparison only. It cannot validate the Group-rate allocation used to derive Grab Indonesia GTV.

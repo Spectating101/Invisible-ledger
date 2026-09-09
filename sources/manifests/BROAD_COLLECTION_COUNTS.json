@@ -1,0 +1,69 @@
+{
+  "downloaded_files": 519,
+  "unique_download_hashes": 517,
+  "downloaded_bytes": 418900209,
+  "modules": {
+    "sea": 154,
+    "goto": 112,
+    "other_issuers": 1,
+    "worldbank": 10,
+    "market": 9,
+    "blibli": 45,
+    "grab": 3,
+    "momentum": 11,
+    "momentum_figures": 173,
+    "momentum_reports": 1
+  },
+  "failed_urls": [
+    {
+      "url": "https://momentum.asia/wp-content/uploads/2023/08/The-TikTok-Shop-Playbook_MW_Aug-2023-1.jpg",
+      "error": "404 Client Error: Not Found for url: https://momentum.asia/wp-content/uploads/2023/08/The-TikTok-Shop-Playbook_MW_Aug-2023-1.jpg"
+    },
+    {
+      "url": "https://momentum.asia/wp-content/uploads/2023/08/The-TikTok-Shop-Playbook_MW_Aug-2023.jpg",
+      "error": "404 Client Error: Not Found for url: https://momentum.asia/wp-content/uploads/2023/08/The-TikTok-Shop-Playbook_MW_Aug-2023.jpg"
+    },
+    {
+      "url": "https://momentum.asia/wp-content/uploads/2023/08/Old-ver-TikTok-Shop-2023_MW_Jul-2023.jpg",
+      "error": "404 Client Error: Not Found for url: https://momentum.asia/wp-content/uploads/2023/08/Old-ver-TikTok-Shop-2023_MW_Jul-2023.jpg"
+    },
+    {
+      "url": "https://momentum.asia/wp-content/uploads/2023/08/Bonus_The-TikTok-Shop-Playbook_MW_Aug-2023.jpg",
+      "error": "404 Client Error: Not Found for url: https://momentum.asia/wp-content/uploads/2023/08/Bonus_The-TikTok-Shop-Playbook_MW_Aug-2023.jpg"
+    },
+    {
+      "url": "https://thelowdown.momentum.asia/wp-content/uploads/2023/06/Ecommerce-in-Southeast-Asia_MW_June-2023-2-1-1024x576.png",
+      "error": "404 Client Error: Not Found for url: https://thelowdown.momentum.asia/wp-content/uploads/2023/06/Ecommerce-in-Southeast-Asia_MW_June-2023-2-1-1024x576.png"
+    },
+    {
+      "url": "https://thelowdown.momentum.asia/wp-content/uploads/2021/01/FD-6-1.png",
+      "error": "404 Client Error: Not Found for url: https://thelowdown.momentum.asia/wp-content/uploads/2021/01/FD-6-1.png"
+    }
+  ],
+  "preserved_existing_files": 246,
+  "market_security_days": 22393,
+  "market_nonmissing_close": 22317,
+  "market_by_symbol": {
+    "GRAB": 1448,
+    "SE": 2231,
+    "GOTO.JK": 1060,
+    "BUKA.JK": 1229,
+    "BELI.JK": 920,
+    "BABA": 3009,
+    "^IXIC": 4195,
+    "^GSPC": 4195,
+    "^JKSE": 4106
+  },
+  "worldbank_country_year_indicator_slots": 2860,
+  "worldbank_nonmissing": 2617,
+  "publisher_articles": 875,
+  "publisher_market_report_candidates": 53,
+  "search_excerpts": 25248,
+  "csv_files": 71,
+  "main_sample_N": "not finalized; none of these layer totals is the Indonesia sample N",
+  "checks": [
+    "downloaded byte hashes passed",
+    "security-timestamp uniqueness passed",
+    "country-year-indicator uniqueness passed"
+  ]
+}

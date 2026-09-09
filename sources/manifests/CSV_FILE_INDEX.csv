@@ -1,0 +1,72 @@
+file,rows,columns,bytes,role
+source_extracts/grab_country_revenue_2023_2025.csv,21,8,4719,new extract or inventory: see file-specific status
+source_extracts/shopee_additional_country_anchors.csv,4,9,818,new extract or inventory: see file-specific status
+source_extracts/bukalapak_annual_candidates.csv,5,10,1226,new extract or inventory: see file-specific status
+source_extracts/blibli_reporting_vintage_conflicts.csv,8,6,531,new extract or inventory: see file-specific status
+source_extracts/blibli_additional_reported_pairs.csv,55,14,47274,new extract or inventory: see file-specific status
+source_extracts/blibli_prospectus_2019_2020_candidates.csv,8,11,2437,new extract or inventory: see file-specific status
+source_extracts/blibli_reported_pairs_all_vintages.csv,90,17,71776,new extract or inventory: see file-specific status
+source_extracts/momentum_2025_country_market_estimates.csv,6,13,1467,new extract or inventory: see file-specific status
+source_extracts/blibli_annual_group_candidates_all_vintages.csv,6,17,5006,new extract or inventory: see file-specific status
+broad_archive/document_manifest.csv,519,9,244050,new extract or inventory: see file-specific status
+broad_archive/asean_worldbank_context_2000_2025.csv,2860,9,810776,new extract or inventory: see file-specific status
+broad_archive/platform_market_events.csv,4,4,406,new extract or inventory: see file-specific status
+broad_archive/momentum_publisher_articles.csv,875,8,6490377,new extract or inventory: see file-specific status
+broad_archive/searchable_source_excerpts.csv,25248,8,16226805,new extract or inventory: see file-specific status
+broad_archive/sea_gmv_disclosure_candidates.csv,41,11,25344,new extract or inventory: see file-specific status
+broad_archive/preserved_existing_manifest.csv,246,5,85469,existing material: retain original scope/status
+broad_archive/platform_market_daily_2010_2026.csv,22393,13,7217157,new extract or inventory: see file-specific status
+broad_archive/issuer_document_index.csv,243,5,40214,new extract or inventory: see file-specific status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/market_index_daily.csv,4149,4,136154,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/contamination_ledger_REVIEWED.csv,47,6,5950,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/event_session_ledger_REVIEWED.csv,47,8,10435,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/market_daily.csv,4413,6,182287,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/clean_event_panel_accounting.csv,47,12,5889,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/historical_within_platform_ratios.csv,8,9,2120,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/fy2023_indonesia_main_sensitivity.csv,5,8,1064,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/event_accounting_summary_rebuilt.csv,3,10,854,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/reproduction_checks.csv,3,5,385,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/event_accounting_ratio_checks.csv,47,7,4041,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/indonesia_platform_year_extension.csv,9,13,3642,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/fy2023_indonesia_leave_one_platform_out.csv,3,9,740,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/fy2023_indonesia_main_one_way_sensitivity.csv,14,15,4712,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/fy2023_indonesia_main_rebuilt.csv,3,13,1358,existing material: retain original scope/status
+broad_archive/preserved_existing/05_RESULTS/fy2023_indonesia_main_summary.csv,1,6,241,existing material: retain original scope/status
+broad_archive/preserved_existing/00_READ_FIRST/FILE_MANIFEST.csv,232,8,38650,existing material: retain original scope/status
+broad_archive/preserved_existing/00_READ_FIRST/DATASET_MAP.csv,11,6,3265,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/sec_quarterly_primary_exhibit_manifest.csv,31,12,10415,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/quarterly_primary_source_recovery_manifest.csv,24,13,8843,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/registry_sources_not_used_by_current_panel.csv,3,16,1231,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/goto_quarterly_primary_document_manifest.csv,16,10,6410,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/sea_panel_direct_reconciliation.csv,14,15,5335,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/quarterly_panel_raw_token_scan.csv,47,12,11527,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/quarterly_release_archive_manifest.csv,40,16,15976,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/quarterly_panel_source_coverage.csv,47,23,39512,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/grab_panel_component_reconciliation.csv,17,21,7756,existing material: retain original scope/status
+broad_archive/preserved_existing/09_QUARTERLY_SOURCE_AUDIT/goto_panel_primary_document_reconciliation.csv,16,15,7500,existing material: retain original scope/status
+broad_archive/preserved_existing/06_SUPPORTING_ASEAN/ASEAN_IE_Data_Summary.csv,4,7,376,existing material: retain original scope/status
+broad_archive/preserved_existing/02_SOURCE_EXTRACTS/fy2023_indonesia_source_inputs.csv,11,12,4670,existing material: retain original scope/status
+broad_archive/preserved_existing/02_SOURCE_EXTRACTS/grab_country_revenue_coverage_2021_2024.csv,20,8,4729,existing material: retain original scope/status
+broad_archive/preserved_existing/02_SOURCE_EXTRACTS/indonesia_extension_source_inputs.csv,24,11,6701,existing material: retain original scope/status
+broad_archive/preserved_existing/08_LEGACY_NOT_ACTIVE/platform_fundamentals_quarterly.csv,66,19,33498,existing material: retain original scope/status
+broad_archive/preserved_existing/08_LEGACY_NOT_ACTIVE/THESIS_DATA_READY.csv,44,9,4539,existing material: retain original scope/status
+broad_archive/preserved_existing/08_LEGACY_NOT_ACTIVE/ASEAN_verified_GMV_2024_wedge_take75.csv,5,5,357,existing material: retain original scope/status
+broad_archive/preserved_existing/08_LEGACY_NOT_ACTIVE/ASEAN_master_long.csv,63,7,8952,existing material: retain original scope/status
+broad_archive/preserved_existing/08_LEGACY_NOT_ACTIVE/car_reconstruction_working_NOT_FINAL.csv,47,6,8288,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/source_extracts/external_scope_triangulation_2023.csv,5,9,1834,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/source_extracts/grab_fy2023_reporting_scope_comparison.csv,4,10,1125,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/source_extracts/tokopedia_fy2022_2023_revenue_components.csv,6,8,1913,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/results/grab_fy2023_reporting_scope_comparison.csv,2,7,446,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/results/tokopedia_fy2022_2023_revenue_incentive_reconciliation.csv,1,9,506,existing material: retain original scope/status
+broad_archive/preserved_existing/10_MEASUREMENT_RECONCILIATION/results/external_scope_triangulation_results.csv,4,6,866,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_correlations_unfiltered_recomputed.csv,4,6,481,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_reproduction_status.csv,1,5,192,existing material: retain original scope/status
+broad_archive/preserved_existing/07_EVENT_AND_MARKET/recomputed_from_preserved_prices/event_study_results_unfiltered_recomputed.csv,47,28,26086,existing material: retain original scope/status
+broad_archive/preserved_existing/03_ANALYTIC_DATA/historical_company_panels/source_locator.csv,22,4,3568,existing material: retain original scope/status
+broad_archive/preserved_existing/03_ANALYTIC_DATA/historical_company_panels/GOTO_GTV_REVENUE_Q1Q2_2022.csv,2,9,1576,existing material: retain original scope/status
+broad_archive/preserved_existing/03_ANALYTIC_DATA/historical_company_panels/table5_corrected_preliminary.csv,3,11,419,existing material: retain original scope/status
+broad_archive/preserved_existing/03_ANALYTIC_DATA/historical_company_panels/annual_extension_panel_preliminary.csv,13,9,1698,existing material: retain original scope/status
+broad_archive/preserved_existing/01_RAW_SOURCES/extension_indonesia/EDGAR_GRAB_REVENUE_BY_GEOGRAPHY_ANNUAL_2019_2021.csv,15,8,2474,existing material: retain original scope/status
+broad_archive/preserved_existing/01_RAW_SOURCES/extension_indonesia/EDGAR_SEA_SHOPEE_SEGMENT_REVENUE_ANNUAL_2016_2021.csv,6,8,1778,existing material: retain original scope/status
+broad_archive/preserved_existing/01_RAW_SOURCES/extension_indonesia/EDGAR_GRAB_GMV_REVENUE_BY_SEGMENT_ANNUAL_2019_2021.csv,15,8,2385,existing material: retain original scope/status
+broad_archive/preserved_existing/01_RAW_SOURCES/extension_indonesia/EDGAR_SEA_SHOPEE_GMV_QUARTERLY_2017_2021.csv,20,7,3593,existing material: retain original scope/status

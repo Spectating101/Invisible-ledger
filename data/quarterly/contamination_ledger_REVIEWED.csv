@@ -1,0 +1,48 @@
+platform,fiscal_year,quarter,guidance_contaminated_working,reason,status
+GoTo,2022,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+GoTo,2022,3,no,"Official release (Nov 21 2022) covers Q3 results only; no guidance revision, M&A, capital action, or restructuring disclosed alongside.",RESOLVED (Claude research 2026-08-26)
+GoTo,2022,4,yes,"Same Q4/FY2022 release disclosed a major restructuring of fulfillment and 1P e-commerce delivery under GoTo Logistics, plus material one-off restructuring/impairment items. This independently satisfies the manuscript's 'major concurrent restructuring' criterion.",RESOLVED/REVIEWED 2026-08-26
+GoTo,2023,1,no,Release references prior-quarter (Q4 2022) restructuring only; no new guidance revision or major concurrent event in this release.,RESOLVED (Claude research 2026-08-26)
+GoTo,2023,2,yes,Same Q2 2023 release explicitly revised FY2023 Group Adjusted EBITDA guidance upward to Rp-4.5T to Rp-3.8T from Rp-5.3T to Rp-4.6T.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2023,3,yes,Same Q3 results release announced that GoTo no longer intended to execute the international IPO previously disclosed in its IPO prospectus and approved by shareholders; this is a material capital-markets decision concurrent with earnings.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2023,4,yes,"Same results release introduced a proposed share-buyback initiative of up to US$200m, subject to approvals. The TikTok-Tokopedia transaction was already public before this earnings date, so it should not be described as newly announced on the event date.",RESOLVED/REVIEWED 2026-08-26
+GoTo,2024,1,no,Official Q1 release kept the full-year 2024 Group Adjusted EBITDA breakeven target on track; no guidance revision or newly announced M&A/capital raise/restructuring identified in the release.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2024,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+GoTo,2024,3,no,Official Q3 release maintained the full-year 2024 breakeven target. Items mentioned such as cloud contracts and the Vietnam exit were previously announced/recent developments rather than a new same-release guidance revision or capital/M&A/restructuring announcement.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2024,4,candidate,"Official FY2024/Q4 release introduced FY2025 Adjusted EBITDA guidance of Rp1.4-1.6T. That is initial next-year guidance, not clearly a revision. Buyback/cancellation items in the release were updates on previously approved/completed actions. Strict manuscript rule ('revises guidance') suggests NO; broader 'any guidance news' rule suggests YES.",RULE-DEFINITION DECISION REQUIRED
+GoTo,2025,1,no,Official Q1 2025 release explicitly reaffirmed FY2025 Adjusted EBITDA guidance of Rp1.4-1.6T; no guidance revision or newly announced major M&A/capital/restructuring event identified.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2025,2,no,Official Q2 2025 release explicitly reaffirmed FY2025 Adjusted EBITDA guidance of Rp1.4-1.6T; no guidance revision identified. Operational/product announcements do not meet the manuscript's major-event contamination rule.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2025,3,yes,Official Q3 2025 release states that GoTo raised its full-year guidance; this is a direct guidance revision in the same earnings release.,RESOLVED/REVIEWED 2026-08-26
+GoTo,2025,4,candidate,"Primary GoTo release is now verified (11 Mar 2026). It sets initial FY2026 Adjusted EBITDA guidance of Rp3.2-3.4T while reporting FY2025 results. Under the literal current rule ('revises guidance'), initial next-year guidance is not automatically contaminated; under a broader guidance-news rule it would be.",PRIMARY SOURCE RESOLVED; RULE-DEFINITION DECISION REQUIRED
+GoTo,2026,1,no,Official Q1 2026 release reaffirmed full-year Adjusted EBITDA guidance of Rp3.2-3.4T rather than revising it; no new M&A/capital/restructuring event identified in the results release.,RESOLVED/REVIEWED 2026-08-26
+Grab,2022,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2022,2,yes,FY2022 guidance revised/downward or profitability timing changed in same release,working known example; final full recode required
+Grab,2022,3,yes,FY2022 revenue / Adjusted EBITDA guidance revised in same release,working known example; final full recode required
+Grab,2022,4,candidate,Breakeven timing brought forward; apply final contamination rule consistently,working known example; final full recode required
+Grab,2023,1,yes,Adjusted EBITDA guidance revised upward,working known example; final full recode required
+Grab,2023,2,yes,Breakeven timing brought forward,working known example; final full recode required
+Grab,2023,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2023,4,candidate,Inaugural US$500m share repurchase announced concurrently,working known example; final full recode required
+Grab,2024,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2024,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2024,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2024,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2025,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2025,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2025,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2025,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Grab,2026,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2022,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2022,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2022,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2022,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2023,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2024,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2024,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2024,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2024,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2025,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2025,2,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2025,3,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2025,4,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW
+Sea,2026,1,unknown,,NEEDS RELEASE-BY-RELEASE REVIEW

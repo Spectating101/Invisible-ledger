@@ -1,0 +1,5 @@
+platform,year,country,measure,value,unit,status,source_file,locator
+Shopee,2020,Indonesia,GMV,14.2,USD billion,external_country_estimate_only,raw_sources/momentum_2020_indonesia.html,Article key insights Shopee paragraph
+Shopee,2025,Indonesia,market_GMV,57.7,USD billion,external_country_market_estimate,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13
+Shopee,2025,Indonesia,market_share,0.54,fraction,external_country_share_estimate,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13
+Shopee,2025,Group,service_revenue_over_GMV,0.114,fraction,direct_disclosed_company_rate,/home/phyrexian/Downloads/Invisible_Ledger_Empirical_Rebuild_2026-09-08/01_RAW_SOURCES/extension_indonesia/sea_fy2025_20f_yahoo_cdn.htm,Printed p100 FY2025 versus FY2024 revenue discussion

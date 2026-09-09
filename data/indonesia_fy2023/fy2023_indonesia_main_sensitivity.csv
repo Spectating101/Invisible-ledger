@@ -1,0 +1,6 @@
+platform,period,rate_multiplier_vs_group_rate,assumed_monetization_rate,indonesia_revenue_usd_b,estimated_indonesia_gtv_usd_b,formula,interpretation
+Grab,FY2023,0.8,0.08993947,0.605,6.726746,Indonesia revenue / (Group revenue-to-GMV rate × multiplier),Scenario only; this is not a confidence interval or an observed country rate.
+Grab,FY2023,0.9,0.10118191,0.605,5.97933,Indonesia revenue / (Group revenue-to-GMV rate × multiplier),Scenario only; this is not a confidence interval or an observed country rate.
+Grab,FY2023,1.0,0.11242434,0.605,5.381397,Indonesia revenue / (Group revenue-to-GMV rate × multiplier),Scenario only; this is not a confidence interval or an observed country rate.
+Grab,FY2023,1.1,0.12366678,0.605,4.892179,Indonesia revenue / (Group revenue-to-GMV rate × multiplier),Scenario only; this is not a confidence interval or an observed country rate.
+Grab,FY2023,1.2,0.13490921,0.605,4.484497,Indonesia revenue / (Group revenue-to-GMV rate × multiplier),Scenario only; this is not a confidence interval or an observed country rate.

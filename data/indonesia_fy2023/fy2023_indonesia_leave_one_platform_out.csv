@@ -1,0 +1,4 @@
+scenario,excluded_platform,remaining_platform_cases,selected_platform_transaction_value_usd_b,selected_platform_revenue_usd_b,selected_platform_gap_usd_b,selected_platform_transaction_to_revenue_ratio,selected_platform_gap_to_revenue_ratio,interpretation
+exclude_grab,Grab,2,37.85117,2.557279,35.293891,14.801345,13.801345,Composition check only: this is not an estimate of Indonesia-wide activity.
+exclude_tokopedia_e-commerce_segment,Tokopedia e-commerce segment,2,26.901397,2.757,24.144397,9.757489,8.757489,Composition check only: this is not an estimate of Indonesia-wide activity.
+exclude_shopee,Shopee,2,21.712567,1.010279,20.702288,21.491653,20.491653,Composition check only: this is not an estimate of Indonesia-wide activity.

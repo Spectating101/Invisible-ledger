@@ -1,0 +1,6 @@
+platform,year,tpv_idr_million,revenue_idr_million,tpv_months,revenue_months,source_file,locator,status,geography_note
+Bukalapak,2020,85081843,1351664,12,12,raw_sources/bukalapak_sr2021_mirror.pdf,Sustainability performance table,reported_pair_geography_review_pending,Group data; overseas operations disclosed in later annual report
+Bukalapak,2021,122618794,1869122,12,12,raw_sources/bukalapak_sr2021_mirror.pdf,Sustainability performance table,reported_pair_geography_review_pending,Group data; overseas operations disclosed in later annual report
+Bukalapak,2022,153738958,3618366,12,12,raw_sources/bukalapak_sr2024_mirror.pdf,PDF p6 economic performance table,reported_pair_geography_review_pending,AR2023 printed p65 identifies operations in Indonesia and four other countries
+Bukalapak,2023,164380065,4438269,12,12,raw_sources/bukalapak_sr2024_mirror.pdf,PDF p6 economic performance table,reported_pair_geography_review_pending,AR2023 printed p65 identifies operations in Indonesia and four other countries
+Bukalapak,2024,124076664,4460266,9,12,raw_sources/bukalapak_sr2024_mirror.pdf,PDF p6 economic performance table and footnote,EXCLUDE_PERIOD_MISMATCH,TPV reporting stopped Q4 2024; find matched 9M revenue separately

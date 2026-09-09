@@ -1,0 +1,2 @@
+platform,period_change,gross_revenue_change_idr_million,incentive_reduction_idr_million,net_revenue_change_idr_million,gross_revenue_share_of_net_change,incentive_reduction_share_of_net_change,identity,interpretation_limit
+Tokopedia e-commerce segment,FY2022_to_FY2023,845670.0,1298601.0,2144271.0,0.39438578425954557,0.6056142157404545,net revenue change = gross revenue change + reduction in incentives,Arithmetic reconciliation only; it is not a causal decomposition or an Indonesia-geographic claim.

@@ -1,0 +1,7 @@
+country,year,market_gmv_usd_billion,shopee_share_pct,tiktok_including_tokopedia_share_pct,lazada_share_pct,blibli_share_pct,amazon_share_pct,tiki_share_note,source_file,locator,status,definition_note
+Indonesia,2025,57.7,54,38,6,3,,,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders; rounded shares sum101; Blibli excludes lifestyle and travel
+Malaysia,2025,17.0,53,38,9,,,,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders; no independently reported country revenue here
+Vietnam,2025,20.4,58,39,3,,,less than 1 percent,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders; shares rounded
+Thailand,2025,35.5,50,32,18,,,,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders
+Philippines,2025,21.1,49,29,22,,,,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders
+Singapore,2025,5.9,52,6,36,,6,,raw_sources/momentum_2025_asean_release.pdf,PDF p5 lower panel report slide13,external_market_estimate,GMV includes cancelled returned refunded paid orders
