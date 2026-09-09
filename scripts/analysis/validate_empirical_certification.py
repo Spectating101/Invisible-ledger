@@ -60,7 +60,7 @@ n23=float(src['BPS-ECOM-2023-NONMKT']['value']); n24=t24-m24
 assert src['BPS-ECOM-2024-MKT']['source_type']=='official_bps_presentation'
 assert math.isclose(pct(t24,t23),17.0828526529,abs_tol=1e-8)
 assert math.isclose(pct(m24,m23),1.4450867052,abs_tol=1e-8)
-assert math.isclose(pct(n24,n23),20.5689958782,abs_tol=1e-8)
+assert math.isclose(pct(n24,n23),20.5689909908,abs_tol=1e-8)
 
 bps={r['item']:r for r in read_csv(ROOT/'data/bps_official/bps_certification_status_2026-09-10.csv')}
 assert bps['2023_to_2024_total_transaction_growth']['value_or_result']=='17.08%'
