@@ -13,6 +13,7 @@
 | `asean_context/` | Country-level macro, market and policy context | Must remain separate by country and definition |
 | `asean_corroboration/` | Revision-aware SEA-6 market histories and diagnostics | Six country analyses; never a pooled tax sample |
 | `global_ecommerce/` | Definition-aware issuer transaction/revenue histories | Global corroboration only; not Indonesia observations or a representative firm sample |
+| `institutional/` | Indonesian marketplace tax architecture and market-coverage context | Policy reach, market share, and analytical sample coverage are different quantities |
 | `legacy_not_active/` | Superseded or unsafe historical files | Do not use in active analysis |
 
 The first executed tests of the current hypotheses are kept under
@@ -33,6 +34,7 @@ boundaries above and do not define an approved main sample.
 - Indonesia-aligned direct annual candidate design: 14 matched periods across Blibli, Bukalapak, and Tokopedia, before final geographic/scope admission.
 - ASEAN corroboration: 450 source-vintage metric rows yielding 42 latest-vintage country-years across six countries; supporting evidence only.
 - Global e-commerce corroboration: 48 matched issuer-years across eight businesses, yielding 40 within-issuer annual transitions; 11 transitions are flagged for known perimeter breaks.
+- 2023 Indonesia marketplace context: Shopee and Tokopedia account for 70% of the referenced market estimate; adding Blibli gives 74%. The four marketplaces designated for Article 22 withholding in July 2026 correspond to 83% of that 2023 estimate. These are coverage diagnostics, not one analytical N or a contemporaneous policy-impact measure.
 
 These counts describe different data layers. They must never be added together as a single sample N.
 

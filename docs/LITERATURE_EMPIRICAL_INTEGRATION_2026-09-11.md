@@ -101,6 +101,8 @@ The OECD's 2020 Model Rules require covered platforms to collect and report sell
 
 **Empirical connection.** The repository documents the Indonesian legal reporting bridge and designated marketplaces. It does not yet establish operating coverage, successful record matching, compliance effects, or the visibility of non-marketplace channels.
 
+As market context, the four marketplaces designated by DJP in July 2026—Blibli, Shopee Indonesia, Tokopedia, and Lazada—correspond to 83% of the 2023 Indonesian platform e-commerce GMV shares reported by Katadata from Momentum Works. This is a cross-year coverage diagnostic, not evidence that 83% of merchants, tax liabilities, or 2026 transactions were covered in practice. The designation was subsequently postponed through 31 October 2026, so the current evidence establishes institutional design rather than a completed policy effect.
+
 **What this study adds.** It identifies the exact information bridge required to move from public measurement divergence to a test of administrative visibility. The current data support the institutional design, not its causal effectiveness.
 
 ### 6. Measurement revision and cross-country heterogeneity bound the external claim
@@ -338,3 +340,6 @@ This statement is narrower than “GDP misses the digital economy,” but strong
 21. Ministry of Finance of the Republic of Indonesia (2025). “[PMK 37 Tahun 2025](https://jdih.kemenkeu.go.id/dok/pmk-37-tahun-2025/files).” Regulation on designation of marketplaces as withholding and reporting parties for domestic sellers' income.
 22. BPS-Statistics Indonesia (2025). “[E-Commerce Statistics 2024](https://www.bps.go.id/en/publication/2025/11/28/647323224ecc656c2933571b/statistik-e-commerce-2024.html).”
 23. BPS-Statistics Indonesia (2025). “[Weighing the Benefits and Risks of Marketplace Use in E-Commerce](https://www.bps.go.id/en/publication/2025/09/30/3bc481a585782813cc894636/cerita-data-statistik-untuk-indonesia-menimbang-manfaat-dan-risiko-penggunaan-marketplace-dalam-e-commerce-di-indonesia.html).” Statistical Data Story for Indonesia.
+24. Directorate General of Taxes (2026). “[Government Implements PMK 37/2025 by Designating Four Marketplaces as Income-Tax Withholders](https://pajak.go.id/id/siaran-pers/pemerintah-implementasi-pmk-372025-melalui-penunjukan-empat-marketplace-sebagai).”
+25. Directorate General of Taxes (2026). “[Postponement of Marketplace Article 22 Withholding](https://www.pajak.go.id/id/pengumuman/penundaan-waktu-pemberlakuan-ketentuan-pemungutan-pph-pasal-22-oleh-marketplace).”
+26. Katadata Databoks (2025). “[Five Indonesian E-commerce Platforms with the Largest 2023 GMV](https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar).” Reports Momentum Works estimates.
