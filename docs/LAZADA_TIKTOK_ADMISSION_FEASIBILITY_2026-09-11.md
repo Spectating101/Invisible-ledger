@@ -11,6 +11,20 @@ Lazada and TikTok Shop can materially improve the **market-activity, competitive
 | Lazada | External country GMV/share estimates for multiple years | Not separately disclosed by Alibaba; Lazada is combined with AliExpress, Trendyol and other international-commerce businesses | Market coverage, competitive structure, regional corroboration |
 | TikTok Shop | External Indonesia GMV estimates for 2021–2023; later combined market shares with Tokopedia | ByteDance does not publish TikTok Shop Indonesia revenue; GoTo's post-transaction fee is not the combined entity's revenue | Market growth, 2023 policy break, post-merger public-visibility case |
 
+## Expanded material retained
+
+The collection now preserves three noninterchangeable tables:
+
+| File | Rows | Unit | Purpose |
+|---|---:|---|---|
+| `data/longitudinal/lazada_tiktok_indonesia_market_activity_candidates_2021_2025.csv` | 9 | Indonesia platform/combination-year | Lazada and TikTok-specific admission inventory |
+| `data/asean_context/indonesia_platform_market_share_snapshots_2022_2025.csv` | 22 | Indonesia platform-year market snapshot | Competitive structure and value-coverage calculations |
+| `data/asean_context/sea_leading_platform_gmv_2020_2024.csv` | 19 | Southeast Asia platform-year | Regional transaction-activity corroboration |
+
+These row counts must not be added to the issuer sample N. The tables overlap economically and differ in geography, platform perimeter, and purpose.
+
+The reported platform shares are rounded. Consequently, the 2024 and 2025 platform shares sum to 101% rather than 100%; the rows preserve the source values and must not be renormalized silently.
+
 ## Lazada
 
 ### What can be sourced
@@ -84,6 +98,12 @@ TikTok Shop's suspension and combination with Tokopedia demonstrate why legal en
 ### 4. Tax-policy alignment
 
 DJP's initial 2026 marketplace design designated Lazada alongside Blibli, Shopee, and Tokopedia. TikTok Shop was not separately named in that first group, while its Indonesian commerce was operating through the combined PT Tokopedia structure. This supports an institutional mapping of legal collectors; it does not establish the economic coverage of every brand-facing storefront.
+
+### 5. Longitudinal competitive evidence
+
+The regional series adds five annual observations for Lazada (2020–2024) and four for TikTok Shop (2021–2024). Lazada's estimated regional GMV rises from US$13.1 billion in 2020 to US$21.0 billion in 2021, then declines gradually to US$18.0 billion by 2024. TikTok Shop rises from US$0.6 billion in 2021 to US$22.6 billion in 2024. These paths document a major reallocation of marketplace activity, but they do not identify revenue, profitability, seller welfare, or a causal competitive effect.
+
+The Indonesia snapshots show Lazada's estimated share declining from 10% in 2022 to 7% in 2024 and 6% in 2025. Standalone TikTok Shop rises from 5% in 2022 to 11% in 2023 and 2024; the 2025 source reports TikTok Shop and Tokopedia together at 38%, so that final row is not a continuation of the standalone series.
 
 ## Recommended paper treatment
 
