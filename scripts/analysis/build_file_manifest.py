@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a transparent file inventory for the Professor Kong data-review package.
+"""Create a transparent file inventory for the advisor data-review package.
 
 The manifest does not alter data or calculations.  It records the files actually
 included in the package and, where meaningful, their tabular row counts.

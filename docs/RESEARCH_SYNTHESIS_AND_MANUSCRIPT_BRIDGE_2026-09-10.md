@@ -83,7 +83,7 @@ Sources and outputs:
 - `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_levels.csv`
 - `outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_transitions.csv`
 - `docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md`
-- `data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv`
+- `data/longitudinal/advisor_empirical_candidate_table_2026-09-10.csv`
 
 ### Official Indonesia layer
 
@@ -315,6 +315,6 @@ Before manuscript reconstruction, the project should close or explicitly bound:
 5. implementation evidence for the proposed institutional visibility matrix.
 
 The new evidence moves the project well beyond the one-year problem identified
-by Professor Kong. It does not remove the need for her sample decision. The
+by the advisor. It does not remove the need for an advisor sample decision. The
 research backend now supports a coherent longitudinal measurement study; the
 current manuscript still describes the earlier FY2023-only implementation.

@@ -13,7 +13,7 @@ def read_csv(path):
 def pct(n,o): return (n/o-1)*100
 
 # Certified advisor-facing observation inventory.
-rows = read_csv(ROOT/'data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv')
+rows = read_csv(ROOT/'data/longitudinal/advisor_empirical_candidate_table_2026-09-10.csv')
 direct = [r for r in rows if r['certified_admission'] in {'candidate_scope_pending','candidate_geography_pending','strongest_direct_candidate'}]
 assert len(direct) == 13
 assert sum(r['ratio_status']=='eligible_direct_pair' for r in direct) == 12

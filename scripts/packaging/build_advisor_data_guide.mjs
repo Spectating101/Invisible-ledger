@@ -3,7 +3,7 @@ import path from "node:path";
 import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
 
 const repo = "/tmp/invisible-ledger-synthesis-Y73PTP";
-const outputDir = path.join(repo, "outputs", "kong_review_package_2026-09-10");
+const outputDir = path.join(repo, "outputs", "advisor_review_package_2026-09-10");
 const outputFile = path.join(outputDir, "Invisible_Ledger_Data_Guide_2026-09-10.xlsx");
 
 function parseCsv(text) {
@@ -107,7 +107,7 @@ readme.getRange("A10:C10").values = [["Order", "Sheet", "What it answers"]];
 readme.getRange("A10:C10").format.fill = "#24364B";
 readme.getRange("A10:C10").format.font = { bold: true, color: "#FFFFFF" };
 readme.getRange("A11:C20").values = [
-  [1, "Sample Decisions", "What Kong needs to approve before the manuscript is rebuilt"],
+  [1, "Sample Decisions", "What the advisor needs to approve before the manuscript is rebuilt"],
   [2, "Indonesia Candidates", "Which annual source-reported periods exist and why each is admitted or limited"],
   [3, "Issuer Transitions", "How transaction and revenue growth differ within candidate series"],
   [4, "BPS Growth", "How national e-commerce value, business counts, and sales channels changed"],
@@ -149,7 +149,7 @@ decisions.getRange("A1").write(decisionRows);
 styleTable(decisions, decisionRows, "TblSampleDecisions");
 
 const specs = [
-  ["Indonesia Candidates", "data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv", "TblIndonesiaCandidates"],
+  ["Indonesia Candidates", "data/longitudinal/advisor_empirical_candidate_table_2026-09-10.csv", "TblIndonesiaCandidates"],
   ["Issuer Transitions", "outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_transitions.csv", "TblIssuerTransitions"],
   ["BPS Growth", "outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv", "TblBpsGrowth"],
   ["BPS Business", "data/bps_official/bps_marketplace_business_level_published_evidence_2026-09-10.csv", "TblBpsBusiness"],

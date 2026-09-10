@@ -17,7 +17,7 @@ The strongest affirmative finding is broader than the original platform residual
 | Empirical module | Usable coverage | Unit of observation | Proper role |
 |---|---:|---|---|
 | Conditional Indonesia reconstruction | 9 records, FY2021–FY2024, unbalanced | platform-year | Preserves Grab/Tokopedia/Shopee design; Grab and Shopee remain model-dependent |
-| Indonesia-aligned direct annual issuer/segment evidence | 14 matched periods, FY2019–FY2025, unbalanced | platform/segment-year | Candidate longitudinal core if Kong accepts Indonesia-aligned rather than strict country-labelled scope |
+| Indonesia-aligned direct annual issuer/segment evidence | 14 matched periods, FY2019–FY2025, unbalanced | platform/segment-year | Candidate longitudinal core if the advisor accepts Indonesia-aligned rather than strict country-labelled scope |
 | Quarterly issuer accounting panel | 47 quarters: Grab 17, GoTo 16, Sea 14 | company/segment-quarter | Longitudinal accounting and disclosure evidence; not Indonesia-only |
 | BPS province evidence | 74 complete province-years across 2023–2024 | province-year | Official repeated cross-sections on channels and financial-report ownership |
 | BPS national indicators | available observations from 2020–2024 | national indicator-year | Scale, channel composition, and formal-recordkeeping context |
@@ -34,7 +34,7 @@ The repository profiles 78 data/source files and 35,972 CSV rows. That is a sour
 4. **Quarterly company/segment panel:** 47 source-reconciled quarters. This is substantially deeper longitudinal evidence, but it changes the geographic unit to listed platforms serving Indonesia.
 5. **Official BPS business-statistics module:** 74 complete province-years plus national indicators. This directly observes business channel use and financial-report ownership, but province analysis is ecological and microdata would be required for business-level inference.
 
-Kong must approve which boundary defines the main sample. The evidence can inform that choice; packaging cannot make the choice on her behalf.
+The advisor must approve which boundary defines the main sample. The evidence can inform that choice; packaging cannot make the choice on the advisor's behalf.
 
 ## Empirical findings that survive the audit
 
@@ -83,7 +83,7 @@ The complete observation census is `outputs/empirical_backend_2026-09-09/candida
 
 The evidence best supports an Indonesia-first, multi-layer measurement thesis:
 
-1. Use a multi-year Indonesia-aligned issuer/segment series as the longitudinal platform layer, conditional on Kong accepting its geographic rule.
+1. Use a multi-year Indonesia-aligned issuer/segment series as the longitudinal platform layer, conditional on the advisor accepting its geographic rule.
 2. Retain Grab and Shopee country reconstructions as explicitly conditional cases or sensitivity evidence, not as equivalent to direct disclosures.
 3. Add BPS national and province evidence as an independent official-statistics layer showing scale, channel composition, and financial-recordkeeping coverage.
 4. Use the 47-quarter company panel to analyze reporting definitions and structural breaks, without relabelling it Indonesia-only.
@@ -93,7 +93,7 @@ This preserves the original ambition—modern digital activity can outrun famili
 
 ## Remaining work before manuscript revision
 
-- Obtain Kong's approval of the main geographic and business-scope rule.
+- Obtain advisor approval of the main geographic and business-scope rule.
 - Decide whether the direct Indonesia-aligned annual panel or the conditional Grab/Tokopedia/Shopee series is the main longitudinal object.
 - If business-level inference is required, obtain licensed BPS microdata under its data-use agreement; do not infer enterprise behavior from province correlations.
 - Complete accounting-definition reconciliations for the admitted platform series.
@@ -107,4 +107,3 @@ This preserves the original ambition—modern digital activity can outrun famili
 - [BPS marketplace analytical publication](https://www.bps.go.id/en/publication/2025/09/30/3bc481a585782813cc894636/cerita-data-statistik-untuk-indonesia---menimbang-manfaat-dan-risiko-penggunaan-marketplace-dalam-e-commerce-di-indonesia.html)
 - [BPS 2024 microdata catalogue](https://silastik.bps.go.id/v3/index.php/mikrodata/detail/ODdXeUNNcW5vcVVGVWhTUERuTGNTQT09)
 - [Blibli 1Q23 issuer release](https://asset-about.blibli.com/2023/05/Earnings-Release-1Q23-PT-Global-Digital-Niaga-Tbk.pdf)
-

@@ -8,7 +8,7 @@ For the reasoning behind the current rebuild—including agreed decisions, provi
 
 For a claim-bounded ledger of the results already established by the executed empirical modules, read [the empirical findings ledger](docs/EMPIRICAL_FINDINGS_2026-09-10.md).
 
-For the certified count corrections, evidence-tier reconciliation, BPS cross-wave source checks, and advisor-facing sample decisions, read [the empirical certification reconciliation](docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md) and [the Kong empirical decision sheet](docs/KONG_EMPIRICAL_DECISION_SHEET_2026-09-10.md).
+For the certified count corrections, evidence-tier reconciliation, BPS cross-wave source checks, and advisor-facing sample decisions, read [the empirical certification reconciliation](docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md) and [the advisor empirical decision sheet](docs/ADVISOR_EMPIRICAL_DECISION_SHEET_2026-09-10.md).
 
 For the integrated explanation of how the issuer, BPS, ASEAN, and global evidence fit together—and exactly what survives or changes in the September manuscript—read [the research synthesis and manuscript bridge](docs/RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md).
 

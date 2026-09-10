@@ -9,7 +9,7 @@ e-Conomy SEA estimates show e-commerce GMV increasing between 2023 and 2025.
 The median within-country increase is 36.4%, ranging from 12.5% in Singapore
 to 53.8% in Malaysia.
 
-The same evidence also validates Professor Kong's warning against pooling.
+The same evidence also validates the advisor's warning against pooling.
 E-commerce represents very different shares of estimated digital-economy GMV
 across countries (31.0% to 71.7% in 2025), platform-market structures differ,
 and overlapping report vintages frequently revise earlier estimates. A second
@@ -94,7 +94,7 @@ countries. It provides a measurable reason not to do so.
 
 ## Tax architecture differs in object, timing, and platform responsibility
 
-The country-level institutional table operationalizes Kong's concern rather
+The country-level institutional table operationalizes the advisor's concern rather
 than treating it as a generic limitation. It records the tax object, effective
 date, platform responsibility, scope boundary, and whether the identified
 instrument was active during FY2023.
@@ -217,7 +217,7 @@ Country institutions
   no pooled tax interpretation unless a separate harmonized design is built
 ```
 
-This structure answers Kong's immediate concern. It expands time and regional
+This structure answers the advisor's immediate concern. It expands time and regional
 evidence without mixing samples in the main tables and without claiming that
 ASEAN has a single tax system or platform business model.
 

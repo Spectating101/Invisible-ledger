@@ -16,7 +16,7 @@ Hard exclusions:
 - Tokopedia FY2021: period mismatch;
 - Bukalapak FY2024: 9-month TPV vs 12-month revenue.
 
-Row-level table: `data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv`.
+Row-level table: `data/longitudinal/advisor_empirical_candidate_table_2026-09-10.csv`.
 
 ## 2. Candidate sample boundaries
 

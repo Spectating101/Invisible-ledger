@@ -13,19 +13,19 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_DEST = Path.home() / "Downloads" / "Invisible_Ledger_Kong_Review_2026-09-10"
+DEFAULT_DEST = Path.home() / "Downloads" / "Invisible_Ledger_Advisor_Data_Review_2026-09-10"
 
 
 FILE_MAP = {
-    "00_READ_FIRST/README_FIRST.md": "packaging/kong_review_2026-09-10/README_FIRST.md",
-    "00_READ_FIRST/HOW_TO_REPRODUCE.md": "packaging/kong_review_2026-09-10/HOW_TO_REPRODUCE.md",
-    "00_READ_FIRST/PACKAGE_FLOW.svg": "packaging/kong_review_2026-09-10/PACKAGE_FLOW.svg",
-    "00_READ_FIRST/PACKAGE_FLOW.png": "packaging/kong_review_2026-09-10/PACKAGE_FLOW.png",
-    "00_READ_FIRST/KONG_EMPIRICAL_DECISION_SHEET_2026-09-10.md": "docs/KONG_EMPIRICAL_DECISION_SHEET_2026-09-10.md",
+    "00_READ_FIRST/README_FIRST.md": "packaging/advisor_review_2026-09-10/README_FIRST.md",
+    "00_READ_FIRST/HOW_TO_REPRODUCE.md": "packaging/advisor_review_2026-09-10/HOW_TO_REPRODUCE.md",
+    "00_READ_FIRST/PACKAGE_FLOW.svg": "packaging/advisor_review_2026-09-10/PACKAGE_FLOW.svg",
+    "00_READ_FIRST/PACKAGE_FLOW.png": "packaging/advisor_review_2026-09-10/PACKAGE_FLOW.png",
+    "00_READ_FIRST/ADVISOR_EMPIRICAL_DECISION_SHEET_2026-09-10.md": "docs/ADVISOR_EMPIRICAL_DECISION_SHEET_2026-09-10.md",
     "00_READ_FIRST/RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md": "docs/RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md",
     "00_READ_FIRST/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md": "docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md",
     "00_READ_FIRST/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md": "docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md",
-    "Invisible_Ledger_Data_Guide_2026-09-10.xlsx": "outputs/kong_review_package_2026-09-10/Invisible_Ledger_Data_Guide_2026-09-10.xlsx",
+    "Invisible_Ledger_Data_Guide_2026-09-10.xlsx": "outputs/advisor_review_package_2026-09-10/Invisible_Ledger_Data_Guide_2026-09-10.xlsx",
 }
 
 
@@ -39,10 +39,37 @@ TREE_MAP = {
     "03_ASEAN_CORROBORATION/data": "data/asean_corroboration",
     "04_GLOBAL_CORROBORATION/data": "data/global_ecommerce",
     "05_QUARTERLY_SUPPORT/data": "data/quarterly",
-    "06_SCRIPTS": "scripts",
     "08_MANIFESTS/repository_manifests": "sources/manifests",
     "09_ANALYTICAL_FIGURES": "reports/figures",
 }
+
+
+SCRIPT_FILES = [
+    "acquisition/acquire_economy_sea_reports.py",
+    "acquisition/acquire_global_ecommerce_sources.py",
+    "acquisition/acquire_sources.py",
+    "acquisition/collect_blibli_and_grab.py",
+    "extraction/extract_additional_blibli.py",
+    "extraction/extract_blibli_tables.py",
+    "extraction/extract_grab_geography.py",
+    "extraction/extract_sea_headline_gmv.py",
+    "extraction/reextract_goto_panel_metrics.py",
+    "extraction/reextract_grab_panel_components.py",
+    "extraction/reextract_sea_panel_metrics.py",
+    "analysis/build_asean_corroboration.py",
+    "analysis/build_comprehensive_empirical_audit.py",
+    "analysis/build_empirical_backend.py",
+    "analysis/build_global_ecommerce_corroboration.py",
+    "analysis/build_hypothesis_tests.py",
+    "analysis/build_measurement_reconciliations.py",
+    "analysis/build_quarterly_panel_source_coverage.py",
+    "analysis/validate_empirical_certification.py",
+    "analysis/validate_measurement_reconciliations.py",
+    "packaging/build_advisor_data_guide.mjs",
+    "packaging/build_advisor_review_package.py",
+    "packaging/validate_advisor_review_package.py",
+    "validate_repo.py",
+]
 
 
 REPORT_MAP = {
@@ -140,6 +167,8 @@ def main() -> int:
         copy_file(ROOT / source, dest / target)
     for target, source in TREE_MAP.items():
         shutil.copytree(ROOT / source, dest / target)
+    for relative in SCRIPT_FILES:
+        copy_file(ROOT / "scripts" / relative, dest / "06_SCRIPTS" / relative)
     for filename in SOURCE_FILES:
         copy_file(ROOT / "sources" / "core_public_documents" / filename, dest / "07_SOURCE_DOCUMENTS" / filename)
 

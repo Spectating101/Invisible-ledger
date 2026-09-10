@@ -164,4 +164,4 @@ not observed joint percentages.
 4. Build the institutional visibility matrix only from verified reporting and
    implementation evidence.
 5. Take the resulting sample census and the negative BPS province result to
-   Kong before restructuring the manuscript.
+   the advisor before restructuring the manuscript.

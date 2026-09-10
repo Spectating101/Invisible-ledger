@@ -28,12 +28,12 @@ the manuscript is rewritten:
 ## Package layout
 
 ```text
-Invisible_Ledger_Kong_Review_2026-09-10/
+Invisible_Ledger_Advisor_Data_Review_2026-09-10/
 ├── 00_READ_FIRST/
 │   ├── README_FIRST.md
 │   ├── PACKAGE_FLOW.svg
 │   ├── PACKAGE_FLOW.png
-│   ├── KONG_EMPIRICAL_DECISION_SHEET_2026-09-10.md
+│   ├── ADVISOR_EMPIRICAL_DECISION_SHEET_2026-09-10.md
 │   ├── RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md
 │   └── HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md
 ├── 01_INDONESIA_ISSUER/

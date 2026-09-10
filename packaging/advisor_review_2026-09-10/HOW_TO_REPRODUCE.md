@@ -5,7 +5,7 @@ Run commands from the extracted package root.
 ## Check the package first
 
 ```bash
-python3 06_SCRIPTS/packaging/validate_kong_review_package.py
+python3 06_SCRIPTS/packaging/validate_advisor_review_package.py
 ```
 
 This verifies required files, recorded hashes, and CSV row counts. Row counts
@@ -49,4 +49,3 @@ the reorganized advisor folder look executable.
 count of every submitted file. Source-document manifests preserve original URLs
 and retrieval status. Files in `07_SOURCE_DOCUMENTS` are unchanged copies of
 the archived public documents.
-

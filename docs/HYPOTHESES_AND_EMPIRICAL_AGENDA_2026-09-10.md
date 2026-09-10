@@ -315,7 +315,7 @@ Before rewriting the manuscript around this agenda, obtain decisions on:
 3. the consistent revenue basis for longitudinal comparison;
 4. whether BPS remains an independent official-statistics module or becomes a
    business-level empirical design;
-5. whether Kong considers the combined measurement analysis sufficient or
+5. whether the advisor considers the combined measurement analysis sufficient or
    requires an additional empirical test.
 
 Until those decisions are made, this document is a map of testable routes—not a

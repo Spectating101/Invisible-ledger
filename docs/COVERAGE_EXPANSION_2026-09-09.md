@@ -1,6 +1,6 @@
 # IL coverage expansion — working acquisition, 9 September 2026
 
-This folder adds newly located evidence to the existing September 8 empirical base. It does not replace the dataset sent to Kong, revise the manuscript, or establish that the enlarged sample is approved. Raw documents are unchanged downloads; CSVs are explicitly new source extracts, not original downloads.
+This folder adds newly located evidence to the existing September 8 empirical base. It does not replace the dataset sent to the advisor, revise the manuscript, or establish that the enlarged sample is approved. Raw documents are unchanged downloads; CSVs are explicitly new source extracts, not original downloads.
 
 ## What has been recovered
 
