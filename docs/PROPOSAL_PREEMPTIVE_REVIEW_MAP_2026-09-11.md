@@ -20,6 +20,20 @@ Does the interpretation follow from the measurement?
 
 The proposal should answer those questions before presenting any result. The following comments are therefore predictable even if they have not yet been made explicitly.
 
+## Resolution status
+
+This map is not merely a list of future tasks. The accompanying machine-readable tracker records **29 controls**:
+
+- **19 resolved in the empirical backend**;
+- **5 partially resolved** and requiring a bounded methodological completion;
+- **3 requiring an advisor sample decision** rather than an agent assumption;
+- **1 dependent on future event-study work**; and
+- **1 not yet applied to the authoritative proposal document**, although proposal-ready text exists.
+
+Tracker: `data/quality_control/proposal_preemptive_review_resolution_status_2026-09-11.csv`.
+
+“Resolved in the backend” means that the evidence, exclusion, calculation, or claim boundary has been implemented and documented. It does not mean that the corresponding wording has already been inserted into the final proposal file or approved by the advisor.
+
 ## Priority 1 — comments likely to affect sample approval
 
 | Likely review question | Why it will arise | Preemptive proposal treatment | Current status |
@@ -153,4 +167,3 @@ The proposal is not ready for final circulation if any of the following remains 
 - the fact that the tax mechanism was postponed and has no measurable post-period yet;
 - the separation of the Indonesia, BPS, ASEAN, and global empirical populations; or
 - the distinction between descriptive association and causal effect.
-
