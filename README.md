@@ -12,6 +12,8 @@ For the certified count corrections, evidence-tier reconciliation, BPS cross-wav
 
 For the integrated explanation of how the issuer, BPS, ASEAN, and global evidence fit together—and exactly what survives or changes in the September manuscript—read [the research synthesis and manuscript bridge](docs/RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md).
 
+For the closest-literature map, evidence-to-claim matrix, and complete section-by-section manuscript architecture, read [the literature–empirical integration](docs/LITERATURE_EMPIRICAL_INTEGRATION_2026-09-11.md).
+
 Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
 
 For the official BPS business-level marketplace evidence and the legal-versus-operational status of Indonesia's marketplace reporting bridge, read [the participant and institutional-linkage hypothesis extension](docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
