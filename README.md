@@ -20,6 +20,8 @@ Potential interpretations, falsification tests, additional data requirements, an
 
 For the official BPS business-level marketplace evidence and the legal-versus-operational status of Indonesia's marketplace reporting bridge, read [the participant and institutional-linkage hypothesis extension](docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
 
+For proposal-ready wording that makes the multi-year design explicit and integrates the verified Indonesian marketplace-tax context, read [the longitudinal and tax proposal note](docs/PROPOSAL_LONGITUDINAL_AND_TAX_INSERTS_2026-09-11.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
