@@ -58,7 +58,7 @@ Box's broader aggregate decomposition also reports 2022→2023 total value +40.6
 
 ## 4. BPS province result
 
-Province evidence does **not** establish a stable marketplace/financial-recordkeeping relationship. Box's executed results include 2024 Pearson `r≈0.022 (p≈0.897)` and 2023→2024 within-province Pearson `r≈0.309 (p≈0.066)`, Spearman `rho≈0.151 (p≈0.379)`, weighted `r≈0.099`. Business-level microdata or an official joint table is required for the individual-business hypothesis.
+Province evidence does **not** establish a stable marketplace/financial-recordkeeping relationship. Executed results include 2024 Pearson `r≈0.022 (p≈0.897)` and 2023→2024 within-province Pearson `r≈0.309 (p≈0.066)`, Spearman `rho≈0.151 (p≈0.379)`, weighted `r≈0.099`. Separately, BPS has published business-level group comparisons and an adjusted association for reference year 2023. Those results are observational; licensed microdata would permit independent replication and richer conditioning.
 
 ## 5. Supporting evidence kept separate
 
@@ -73,6 +73,6 @@ Province evidence does **not** establish a stable marketplace/financial-recordke
 2. May Blibli 3P enter despite OTA/travel, or should it remain supporting evidence?
 3. Should Bukalapak Group be excluded from the main Indonesia analysis because of overseas scope?
 4. Should Grab/Shopee country reconstructions remain sensitivity only?
-5. Should BPS remain an official-statistics module or should business-level microdata be pursued before finalizing the design?
+5. Should BPS remain an official-statistics module using the published business-level evidence, or should licensed microdata be pursued for replication and a larger cross-wave extension?
 
 Pending these decisions, do not report one final sample size and do not reconstruct the manuscript.
