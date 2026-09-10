@@ -26,6 +26,8 @@ For a comment-by-comment drafting control covering sample consistency, geography
 
 For anticipated follow-up questions extending beyond the comments already received, read [the proposal preemptive review map](docs/PROPOSAL_PREEMPTIVE_REVIEW_MAP_2026-09-11.md).
 
+For the decision-relevance test, concrete economic stakes, claim boundaries, and next analytical developments, read [why Invisible Ledger matters](docs/WHY_INVISIBLE_LEDGER_MATTERS_STAKES_AND_DEVELOPMENT_2026-09-11.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.

@@ -37,6 +37,7 @@ boundaries above and do not define an approved main sample.
 - 2023 Indonesia marketplace context: Shopee and Tokopedia account for 70% of the referenced market estimate; adding Blibli gives 74%. The four marketplaces designated for Article 22 withholding in July 2026 correspond to 83% of that 2023 estimate. These are coverage diagnostics, not one analytical N or a contemporaneous policy-impact measure.
 - Marketplace expansion context: 22 Indonesia platform-share snapshot rows for 2022–2025 and 19 Southeast Asia platform-GMV rows for 2020–2024. A separate nine-row Lazada/TikTok country inventory records why those activity observations do not yet qualify as matched issuer transaction/revenue pairs.
 - Proposal review controls: `quality_control/proposal_preemptive_review_resolution_status_2026-09-11.csv` records 29 anticipated review issues—19 resolved in the backend, five partially resolved, three requiring an advisor decision, one future-data dependency, and one awaiting insertion into the authoritative proposal file.
+- Stakes control: `quality_control/stakes_evidence_claim_matrix_2026-09-11.csv` maps six decision domains to observed evidence, defensible consequences, and outcomes that remain untested.
 
 These counts describe different data layers. They must never be added together as a single sample N.
 
