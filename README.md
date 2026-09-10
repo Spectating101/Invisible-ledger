@@ -22,6 +22,8 @@ For the official BPS business-level marketplace evidence and the legal-versus-op
 
 For proposal-ready wording that makes the multi-year design explicit and integrates the verified Indonesian marketplace-tax context, read [the longitudinal and tax proposal note](docs/PROPOSAL_LONGITUDINAL_AND_TAX_INSERTS_2026-09-11.md).
 
+For a comment-by-comment drafting control covering sample consistency, geography, derivations, tax interpretation, market coverage, and robustness boundaries, read [the proposal review-comment response matrix](docs/PROPOSAL_REVIEW_COMMENT_RESPONSE_MATRIX_2026-09-11.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
