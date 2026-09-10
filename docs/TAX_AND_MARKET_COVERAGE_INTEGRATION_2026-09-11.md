@@ -159,3 +159,5 @@ The literature supports the proposition that third-party information can be admi
 - Katadata report of Momentum Works 2023 Indonesian platform GMV estimates: <https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar>
 
 The machine-readable market-share rows are stored in `data/institutional/indonesia_marketplace_gmv_coverage_2023.csv`. The existing tax chronology is stored in `data/institutional/indonesia_marketplace_reporting_architecture_2025_2026.csv`.
+
+The separate feasibility and activity history for Lazada and TikTok Shop is documented in `docs/LAZADA_TIKTOK_ADMISSION_FEASIBILITY_2026-09-11.md` and `data/longitudinal/lazada_tiktok_indonesia_market_activity_candidates_2021_2025.csv`. Those rows enlarge the market-activity layer but are not matched transaction/revenue observations.
