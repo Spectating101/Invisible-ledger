@@ -39,6 +39,11 @@ digital commercial event
   |                                         +--> sales-media composition
   |                                         +--> recordkeeping marginals
   |
+  +-- payment-system trace ------------ Bank Indonesia SPIP and QRIS reports
+  |                                         |
+  |                                         +--> monthly/annual payment histories
+  |                                         +--> instrument/channel definition checks
+  |
   +-- regional market estimate --------- successive e-Conomy SEA vintages
   |                                         |
   |                                         +--> six separate country histories
@@ -213,6 +218,15 @@ value grew far faster than the marketplace component, while business-count
 growth accounted arithmetically for much of aggregate growth. Platform-company
 accounts cannot reveal that participation and channel structure.
 
+Bank Indonesia supplies a further independent camera. Its SPIP workbook contains
+monthly payment-system histories from 2009 through November 2025, while separate
+official reports provide QRIS levels and growth. Between 2023 and 2024, QRIS
+value, electronic-money shopping value, mobile-banking purchase value and BPS
+e-commerce value grew at materially different rates. That is expected because
+payments are not sales and can include transfers, top-ups and repeated flows;
+the analytical result is that a payment trace cannot be substituted for an
+e-commerce or issuer ledger without reconciling its scope.
+
 ## What is established about institutional linkage
 
 The repository establishes the following observation boundaries:
@@ -224,7 +238,7 @@ The repository establishes the following observation boundaries:
 | Merchant records | merchant; BPS through survey response | completeness, quality, and record-level linkage |
 | Official statistics | BPS aggregate estimates | exact overlap with issuer-reported transactions |
 | Tax information | PMK 37/2025 legal architecture and July 2026 appointments | operational taxpayer matching, compliance effects, and transaction coverage; application is postponed until 1 November 2026 |
-| Payment records | potentially payment provider/regulator | a verified linked dataset bridging platform and merchant records |
+| Payment records | Bank Indonesia aggregate instrument/channel statistics; payment providers at transaction level | a verified record-level dataset bridging platform, merchant, BPS and tax records |
 
 The current finding is more precise than the earlier version. A legal bridge is
 documented: PMK 37/2025 assigns designated marketplaces seller-identity,
@@ -281,11 +295,13 @@ evidence.
    channels account for most of the 2023--2024 value increase.
 4. **Negative result:** province-level marketplace use does not establish a
    stable financial-recordkeeping relationship.
-5. **ASEAN corroboration:** digital expansion recurs, but country institutions,
+5. **Payment-ledger result:** payment traces expand under instrument-specific
+   definitions and need not mirror BPS e-commerce or issuer growth.
+6. **ASEAN corroboration:** digital expansion recurs, but country institutions,
    market structures, and measurement vintages differ.
-6. **Global corroboration:** transaction/revenue divergence recurs across
+7. **Global corroboration:** transaction/revenue divergence recurs across
    platform business models, without validating Indonesia allocations.
-7. **Synthesis:** the economic interpretation changes with the ledger observed;
+8. **Synthesis:** the economic interpretation changes with the ledger observed;
    no single public ledger is a sufficient proxy for every dimension of digital
    commercial transformation.
 

@@ -20,8 +20,11 @@ REQUIRED = [
     "data/market/platform_market_daily_2010_2026.csv",
     "data/global_ecommerce/global_platform_matched_annual.csv",
     "data/global_ecommerce/global_platform_growth_divergence.csv",
+    "data/payments/bank_indonesia_spip_national_monthly_2009_2025.csv",
+    "data/payments/bank_indonesia_payment_report_observations_2023_2025.csv",
     "sources/manifests/document_manifest.csv",
     "sources/global_ecommerce/global_issuer_document_manifest.csv",
+    "sources/bank_indonesia_payments/source_manifest_2026-09-11.csv",
 ]
 
 
@@ -46,6 +49,7 @@ def main() -> int:
     csv_files = sorted(ROOT.glob("data/**/*.csv")) + sorted(
         ROOT.glob("sources/manifests/*.csv")
     ) + sorted(ROOT.glob("sources/global_ecommerce/*.csv"))
+    csv_files += sorted(ROOT.glob("sources/bank_indonesia_payments/*.csv"))
     failures = 0
     total_rows = 0
     for path in csv_files:

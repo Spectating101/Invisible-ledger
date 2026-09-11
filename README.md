@@ -28,6 +28,8 @@ For anticipated follow-up questions extending beyond the comments already receiv
 
 For the decision-relevance test, concrete economic stakes, claim boundaries, and next analytical developments, read [why Invisible Ledger matters](docs/WHY_INVISIBLE_LEDGER_MATTERS_STAKES_AND_DEVELOPMENT_2026-09-11.md).
 
+For the independent Bank Indonesia payment-system source layer, row counts, first executed comparisons, and strict limits on interpreting payment value as commerce, read [the payment-ledger extension](docs/BANK_INDONESIA_PAYMENT_LEDGER_EXTENSION_2026-09-11.md).
+
 ## Current status
 
 This repository is a **working research archive**, not a claim that the empirical design has been approved or that every dataset is mutually comparable.
@@ -41,6 +43,7 @@ This repository is a **working research archive**, not a claim that the empirica
 - The certification layer separately records the corrected 13-period direct candidate inventory, the 9-transition direct-scope sensitivity, and the distinction between directly reported and derived BPS cross-wave quantities.
 - The transaction–revenue difference is not automatically missing GDP, participant income, unpaid tax, or tax evasion.
 - Investor-event results remain exploratory while event contamination and information timing are unresolved.
+- Bank Indonesia payment statistics now add national and regional monthly evidence through November 2025 and published annual evidence through 2024. This remains an independent payment ledger, not extra issuer or BPS sample observations.
 
 Read [AGENTS.md](AGENTS.md), [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md), [docs/PROJECT_HISTORY.md](docs/PROJECT_HISTORY.md), [docs/METHODOLOGY.md](docs/METHODOLOGY.md), [data/README.md](data/README.md), and [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) before interpreting repository outputs.
 
@@ -61,6 +64,7 @@ Invisible-ledger/
 │   ├── measurement/            # accounting/scope reconciliation exercises
 │   ├── market/                 # preserved price data and exploratory outputs
 │   ├── bps_official/           # Indonesia official-statistics extracts, 2020–2024
+│   ├── payments/               # Bank Indonesia SPIP and QRIS evidence
 │   ├── institutional/          # reporting rules, appointments, and implementation status
 │   ├── asean_context/          # country-level context kept separate
 │   ├── asean_corroboration/    # six-country, revision-aware supporting evidence
@@ -94,7 +98,7 @@ The ratio is an author-constructed descriptive transformation. Where a country v
 
 The repository preserves original project scripts as well as later acquisition and reconciliation scripts. Some historical scripts retain their original directory assumptions and are included for lineage, not as a turnkey pipeline. See [scripts/README.md](scripts/README.md).
 
-Large downloaded source archives, private correspondence, chat histories, administrative forms, credentials, and licensed database exports are intentionally not committed. Their public-source URLs and checksums are retained where appropriate.
+Large broad source archives, private correspondence, chat histories, administrative forms, credentials, and licensed database exports are intentionally not committed. Selected load-bearing public source files may be preserved with URLs and checksums; broader public-source URLs and checksums are retained where appropriate.
 
 ## Current empirical audit
 

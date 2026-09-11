@@ -158,15 +158,23 @@ Across repeated ASEAN overall-digital-economy/e-commerce cells, 45 of 60 repeate
 
 Issuer histories can also revise prior metrics. For Blibli 3P FY2023, original TPV 49,917bn versus later comparative 49,912bn changes adjacent growth rates by only about 0.01pp and does not change the direct-sensitivity 9-transition / 3-reversal / 42.94pp headline. The vintage issue remains documented but is not load-bearing for that result.
 
-## 11. What the evidence establishes together
+## 11. Bank Indonesia adds an independent payment ledger
+
+The official SPIP source layer now supplies 18,954 national monthly and 42,701 regional monthly metric-period records through November 2025, plus published annual columns through 2024. These are payment-system observations, not additional issuer or BPS sample rows.
+
+For 2023-2024, BPS total e-commerce value grew 17.08%, its marketplace component 1.45%, and its non-marketplace component 20.57%. Over the same years, SPIP electronic-money shopping value grew 30.47%, mobile-banking payment/purchase value 82.84%, and QRIS transaction value 186.98%. These differences do not validate one series with another; they establish that payment rails and sales-media estimates are separate observational objects with different growth dynamics.
+
+Bank Indonesia's own 2023 presentations also demonstrate definition dependence. Its Rp835.84 trillion electronic-money headline is neither the SPIP table's Rp1,859.95 trillion all-component total nor its Rp457.73 trillion shopping-only line. This is a definition cross-check, not evidence that any figure is wrong.
+
+## 12. What the evidence establishes together
 
 The combined evidence establishes a measurement-boundary result:
 
-> Digital commerce is recorded through transaction, corporate-revenue, business-recordkeeping, market-estimate, statistical and tax-administrative ledgers that measure different objects. Their levels, growth rates, perimeters and even historical vintages can differ. No single public ledger is therefore a sufficient proxy for every dimension of platform-mediated commercial activity.
+> Digital commerce is recorded through transaction, corporate-revenue, business-recordkeeping, payment-system, market-estimate, statistical and tax-administrative ledgers that measure different objects. Their levels, growth rates, perimeters and even historical vintages can differ. No single public ledger is therefore a sufficient proxy for every dimension of platform-mediated commercial activity.
 
 The digital element is not that gross-versus-net accounting began online. It is that platforms coordinate large volumes of third-party commercial activity and create granular private records while public corporate accounts recognize the platform's own revenue under a different perimeter.
 
-## 12. What remains unestablished
+## 13. What remains unestablished
 
 The current evidence does **not** establish:
 
@@ -179,9 +187,10 @@ The current evidence does **not** establish:
 - institutional inability to link platform records to tax/statistical records;
 - causal effects of platform participation or reporting policy;
 - final investor-market effects.
+- a record-level linkage from payment transactions to issuer, merchant, BPS or tax records.
 
-## 13. Current empirical conclusion
+## 14. Current empirical conclusion
 
-The defensible conclusion is that **the economic story changes with the ledger observed**. Indonesia provides the substantive country case; BPS describes the broader business population and channel composition; the issuer histories show large within-series divergence; ASEAN supplies recurrence and institutional heterogeneity; and global platform histories show the same transaction/revenue non-equivalence across materially different business models.
+The defensible conclusion is that **the economic story changes with the ledger observed**. Indonesia provides the substantive country case; BPS describes the broader business population and channel composition; the issuer histories show large within-series divergence; Bank Indonesia shows the independent evolution and definition dependence of payment traces; ASEAN supplies recurrence and institutional heterogeneity; and global platform histories show the same transaction/revenue non-equivalence across materially different business models.
 
 The strongest established contribution is to identify and measure where public transaction and revenue views cease to be interchangeable, while documenting the participant-level and institutional linkage still required before stronger hidden-income, tax, or value-added claims can be tested.

@@ -13,6 +13,7 @@
 | `asean_context/` | Country-level macro, market and policy context | Must remain separate by country and definition |
 | `asean_corroboration/` | Revision-aware SEA-6 market histories and diagnostics | Six country analyses; never a pooled tax sample |
 | `global_ecommerce/` | Definition-aware issuer transaction/revenue histories | Global corroboration only; not Indonesia observations or a representative firm sample |
+| `payments/` | Bank Indonesia SPIP and QRIS payment-system evidence | Independent payment ledger; not e-commerce-only and never pooled with issuer/BPS observations |
 | `institutional/` | Indonesian marketplace tax architecture and market-coverage context | Policy reach, market share, and analytical sample coverage are different quantities |
 | `legacy_not_active/` | Superseded or unsafe historical files | Do not use in active analysis |
 
@@ -34,6 +35,7 @@ boundaries above and do not define an approved main sample.
 - Indonesia-aligned direct annual candidate design: 14 matched periods across Blibli, Bukalapak, and Tokopedia, before final geographic/scope admission.
 - ASEAN corroboration: 450 source-vintage metric rows yielding 42 latest-vintage country-years across six countries; supporting evidence only.
 - Global e-commerce corroboration: 48 matched issuer-years across eight businesses, yielding 40 within-issuer annual transitions; 11 transitions are flagged for known perimeter breaks.
+- Bank Indonesia payment extension: 18,954 national monthly SPIP rows, 42,701 regional monthly rows, 1,460 published annual rows, and 14 separate official-report observations. These are metric-period records, not an e-commerce sample N.
 - 2023 Indonesia marketplace context: Shopee and Tokopedia account for 70% of the referenced market estimate; adding Blibli gives 74%. The four marketplaces designated for Article 22 withholding in July 2026 correspond to 83% of that 2023 estimate. These are coverage diagnostics, not one analytical N or a contemporaneous policy-impact measure.
 - Marketplace expansion context: 22 Indonesia platform-share snapshot rows for 2022–2025 and 19 Southeast Asia platform-GMV rows for 2020–2024. A separate nine-row Lazada/TikTok country inventory records why those activity observations do not yet qualify as matched issuer transaction/revenue pairs.
 - Proposal review controls: `quality_control/proposal_preemptive_review_resolution_status_2026-09-11.csv` records 29 anticipated review issues—19 resolved in the backend, five partially resolved, three requiring an advisor decision, one future-data dependency, and one awaiting insertion into the authoritative proposal file.
