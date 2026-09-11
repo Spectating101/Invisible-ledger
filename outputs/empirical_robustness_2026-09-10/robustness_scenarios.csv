@@ -1,0 +1,6 @@
+scenario,transitions,series,opposite_sign_transitions,revenue_grows_faster,transaction_grows_faster,median_absolute_growth_gap_pp,median_absolute_log_growth_gap_x100,maximum_absolute_growth_gap_pp,interpretation_note
+all_direct_candidates,9,3,3,6,3,42.94017372775078,36.639820698858465,430.6113835032111,Direct issuer/segment candidates only; final Indonesia admission remains advisor-pending.
+exclude_largest_raw_gap_transition,8,3,3,5,3,29.33905682111479,25.185748495382782,72.18309932473092,"Drops Blibli_2022_2023, the largest ordinary percentage-growth gap; diagnostic for extreme-base sensitivity."
+leave_out_Blibli,4,2,1,3,1,38.91676338961221,28.584736227398114,68.20679674248908,Leave-one-series-out diagnostic; removes all Blibli transitions.
+leave_out_Bukalapak,6,2,3,4,2,52.517880296248194,41.727974451266434,430.6113835032111,Leave-one-series-out diagnostic; removes all Bukalapak transitions.
+leave_out_Tokopedia,8,2,2,5,3,29.33905682111479,25.185748495382782,430.6113835032111,Leave-one-series-out diagnostic; removes all Tokopedia transitions.
