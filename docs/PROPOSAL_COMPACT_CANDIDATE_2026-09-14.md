@@ -14,7 +14,7 @@ This study measures the difference between the transaction value digital platfor
 
 ## 1. Introduction
 
-Southeast Asia's digital economy grew from **US$100 billion in gross merchandise value in 2020 to US$263 billion in 2024** (Google, Temasek and Bain 2020, 2024). Much of that activity is coordinated through digital platforms, but transaction value can be far larger than the revenue a platform recognizes for itself. Platforms record transactions, determine participant payouts, and book their own revenue. I call the difference between transaction value processed through a platform and platform-booked revenue the **invisible wedge**.
+Southeast Asia's digital economy grew from **US$100 billion in gross transaction value in 2020 to US$263 billion in 2024** (Google, Temasek and Bain 2020, 2024; reported there as gross merchandise value). Much of that activity is coordinated through digital platforms, but transaction value can be far larger than the revenue a platform recognizes for itself. Platforms record transactions, determine participant payouts, and book their own revenue. I call the difference between transaction value processed through a platform and platform-booked revenue the **invisible wedge**.
 
 Suppose a platform processes **100 units of transaction value** but recognizes only **10 units as revenue**. The remaining **90 units** are still recorded within the platform's system but do not constitute platform revenue; they may include merchant receipts, driver payouts, inventory costs, taxes paid elsewhere, and other pass-through payments. The paper measures this accounting gap without assuming that the residual is profit, taxable income, or unpaid tax. The 90-unit difference is the absolute wedge, *W = V − R*.
 
