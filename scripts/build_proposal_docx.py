@@ -76,9 +76,13 @@ def table(rows,size=9.5):
         c.text=''; p=c.paragraphs[0]; p.add_run(txt)
         fmt(p,size=size,bold=bold,align=WD_ALIGN_PARAGRAPH.LEFT,sa=1,sb=1)
     for j,h in enumerate(rows[0]): cell(t.rows[0].cells[j],h,True)
-    for row in rows[1:]:
+    small = len(rows) <= 7          # keep short tables whole on one page
+    for ri,row in enumerate(rows[1:],1):
         tr=t.add_row(); tr._tr.get_or_add_trPr().append(OxmlElement('w:cantSplit'))
         for j,v in enumerate(row[:n]): cell(tr.cells[j],v,False)
+        if small and ri < len(rows)-1:
+            for _c in tr.cells:
+                for _p in _c.paragraphs: _p.paragraph_format.keep_with_next=True
     body.remove(t._tbl); sect.addprevious(t._tbl)
 
 for kind,val in blocks:
