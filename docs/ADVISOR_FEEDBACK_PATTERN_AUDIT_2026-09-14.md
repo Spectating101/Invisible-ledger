@@ -79,3 +79,69 @@ Extrapolating the same pattern rather than the same comments:
   from the source copy or remove the citation.
 - The document is now 14 pages, up from 12, of which the references and appendix account for roughly
   two. The argument itself has not lengthened.
+
+---
+
+# Addendum — Theme G, the finance-citation balance
+
+Her August comment 88 read: *"I checked the references you have cited, most of them are econ papers.
+Please include some finance papers. I uploaded a file (i.e., Journal Ranking in Finance)."*
+
+That attachment was located at
+`Molina-Optiplex/Sharpe-Renaissance/drive/dropbox_snapshot/Chris/Journal Ranking in Finance.pdf`. It is
+an image-only PDF, so it was rendered and read as pages. It is the Taiwanese general-finance journal
+grading table (表 4, 一般財務領域期刊分級結果):
+
+| Grade | Count | Journals |
+|---|---|---|
+| **A+** | 4 | Journal of Finance; Journal of Financial Economics; Review of Financial Studies; Journal of Financial and Quantitative Analysis |
+| **A Tier-1** | 16 | Review of Finance; Journal of Banking and Finance; Journal of Money, Credit and Banking; Review of Corporate Finance Studies; Journal of Financial Intermediation; Journal of Corporate Finance; Review of Asset Pricing Studies; Journal of Financial Markets; Financial Management; Journal of Empirical Finance; Mathematical Finance; Journal of International Money and Finance; Journal of Financial Econometrics; Critical Finance Review; Financial Analysts Journal; Journal of Business, Finance & Accounting |
+| **A Tier-2** | 14 | Journal of Financial Stability; Pacific-Basin Finance Journal; European Financial Management; Journal of Futures Markets; Journal of Accounting, Auditing & Finance; Journal of Financial Services Research; and others |
+
+This is a grading table, not a reading list — it tells us which outlets count, not which papers to cite.
+
+## What changed
+
+**Berg, Burg, Gombović and Puri (2020),** *Review of Financial Studies* — **A+** — was already in this
+repository's reference list and used in the integrated manuscript, but had never reached the proposal.
+It is now cited in §2.3, where it does real work rather than decorating the list: their result that a
+digital footprint predicts default as well as a bureau score establishes that intermediary-held
+transaction traces are economically informative even when conventional records are thin, which is
+exactly the asymmetry the invisible wedge measures.
+
+**Barrios, Hochberg and Yi (2022),** *Journal of Financial Economics* — **A+** — was already cited;
+the sentence now names the journal and states what the paper contributes.
+
+**Denes, Lagaras and Tsoutsoura (2025) has been removed.** Its publication details could not be
+verified from any source in this repository, and an unverifiable citation in a submitted proposal is a
+worse outcome than a shorter reference list. The sentence it shared with Barrios et al. was rewritten
+to stand on the verified citation alone.
+
+The list now carries 28 entries, of which four are finance or accounting — **two of them in A+
+journals**. That is a real improvement on the balance she objected to, but it is still a minority.
+
+## What remains, and why it is not done here
+
+Closing Theme G properly needs two or three more citations from the graded outlets. Those are not
+added here because no further verifiable candidates exist in this repository, and inventing
+publication details for a submitted thesis proposal is not an acceptable trade. The gap is therefore
+stated rather than filled.
+
+The three most promising directions, each mapped to a section that already needs support:
+
+1. **§2.2, accounting and revenue recognition** — gross-versus-net presentation and non-GAAP metric
+   disclosure. *Journal of Business, Finance & Accounting* (A Tier-1) and *Journal of Accounting,
+   Auditing & Finance* (A Tier-2) publish directly on this, and the topic is the analytical core of
+   the wedge: whether facilitated commerce is booked gross or net is what creates the gap being
+   measured.
+2. **§2.1, platform economics** — platform and marketplace business models in *Journal of Financial
+   Intermediation* or *Journal of Corporate Finance* (both A Tier-1). This would replace or supplement
+   the current reliance on Rochet–Tirole and Armstrong, which are economics rather than finance.
+3. **§5, the Indonesian and Southeast Asian setting** — *Pacific-Basin Finance Journal* (A Tier-2) is
+   the natural venue for regional work and would additionally signal awareness of where this paper
+   could itself be submitted.
+
+A search of those outlets on "platform", "marketplace", "gross merchandise value", "revenue
+recognition" and "digital intermediary" should produce candidates quickly. Each new citation should
+earn its place in an argument, since Theme C shows the advisor reads for whether material is used, not
+merely present.

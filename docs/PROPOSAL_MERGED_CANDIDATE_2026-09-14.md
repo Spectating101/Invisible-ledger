@@ -84,13 +84,15 @@ Accounting determines how much facilitated commerce becomes revenue. Under IFRS 
 
 Traditional informal-economy estimates rely on household surveys, firm surveys, or indirect macroeconomic indicators. Medina and Schneider (2019) estimate a large global shadow economy; La Porta and Shleifer (2014) emphasise the small scale and low productivity of informal firms; and Ulyssea (2018) shows that registration and off-the-books employment are distinct margins whose welfare effects cannot be inferred from formal status alone. **The International Labour Organization (2021, 2023) likewise treats platform work and informality as overlapping but non-identical categories.**
 
+The finance literature supplies the complementary result that these digital records carry economic value in their own right. Berg, Burg, Gombović and Puri (2020) show that a simple digital footprint predicts borrower default as well as a credit bureau score, establishing that transaction-level traces held by an intermediary constitute usable financial information even where conventional records are thin. That is precisely the asymmetry this proposal measures: the record exists and is economically informative, but it is not necessarily visible in either the platform's revenue or the participant's reported income.
+
 Platform participants occupy an unusual position in this literature. Their transactions are priced, recorded, and settled through a formal intermediary, but the participant may remain self-employed, unregistered, below filing thresholds, or simply outside an automatic reporting channel. The object measured here is therefore not the shadow economy as conventionally defined. It is a digitally recorded flow whose administrative treatment may resemble self-reported income even though an intermediary already possesses the transaction record.
 
 ### 2.4 Third-party reporting
 
 A central result in public finance is that tax compliance depends strongly on third-party information and remittance structure. Kleven et al. (2011) find an evasion rate of 0.3 percent on income subject to third-party reporting versus 37 percent on self-reported income in Denmark. Pomeranz (2015) shows that the VAT paper trail creates self-enforcement across firms, while Naritomi (2019) demonstrates that consumer-held records can raise reported sales. Kleven, Kreiner and Saez (2016) formalise firms as fiscal intermediaries, and Slemrod (2019) places information reporting and remittance regimes among the core instruments of modern enforcement.
 
-Platform work creates a new configuration: a large intermediary may hold detailed transaction records even where there is no comprehensive obligation to report seller or worker income. The administrative problem is therefore not necessarily a lack of data generation; it can be the absence, incompleteness, or fragmentation of the reporting rule. Barrios, Hochberg, and Yi (2022) and Denes, Lagaras, and Tsoutsoura (2025) further show that platform-mediated work leaves economically meaningful financial and administrative records.
+Platform work creates a new configuration: a large intermediary may hold detailed transaction records even where there is no comprehensive obligation to report seller or worker income. The administrative problem is therefore not necessarily a lack of data generation; it can be the absence, incompleteness, or fragmentation of the reporting rule. Barrios, Hochberg and Yi (2022), writing in the *Journal of Financial Economics*, further show that platform-mediated work leaves economically meaningful financial and administrative traces, linking gig-economy activity to measurable new business formation.
 
 ### 2.5 Digital taxation and platform-reporting rules
 
@@ -272,6 +274,8 @@ Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economi
 
 Barrios, J. M., Hochberg, Y. V., and Yi, H. (2022). Launching with a parachute: The gig economy and new business formation. *Journal of Financial Economics*, 144(1), 22–43.
 
+Berg, T., Burg, V., Gombović, A., and Puri, M. (2020). On the rise of FinTechs: Credit scoring using digital footprints. *Review of Financial Studies*, 33(7), 2845–2897.
+
 BPS-Statistics Indonesia. (2025a). *E-Commerce Statistics 2023*. Jakarta: BPS.
 
 BPS-Statistics Indonesia. (2025b). *E-Commerce Statistics 2024*. Jakarta: BPS.
@@ -281,8 +285,6 @@ Bukalapak. (2021–2024). Annual and sustainability reports for fiscal years 202
 Caillaud, B., and Jullien, B. (2003). Chicken and egg: Competition among intermediation service providers. *RAND Journal of Economics*, 34(2), 309–328.
 
 De Franco, G., Kothari, S. P., and Verdi, R. S. (2011). The benefits of financial statement comparability. *Journal of Accounting Research*, 49(4), 895–931.
-
-Denes, M., Lagaras, S., and Tsoutsoura, M. (2025). [Citation to be completed from the source copy.]
 
 Evans, D. S., and Schmalensee, R. (2016). *Matchmakers: The New Economics of Multisided Platforms*. Boston: Harvard Business Review Press.
 
