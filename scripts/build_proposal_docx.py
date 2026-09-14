@@ -11,7 +11,7 @@ import sys as _sys
 # Optional argv override so compression candidates can be rendered without editing the script:
 #   build_proposal_docx.py [source.md] [output.docx]
 SRC_MD=(_sys.argv[1] if len(_sys.argv)>1 else
-        '/home/phyrexian/Downloads/Invisible-ledger/docs/PROPOSAL_MERGED_CANDIDATE_2026-09-14.md')
+        '/home/phyrexian/Downloads/Invisible-ledger/docs/PROPOSAL_COMPACT_CANDIDATE_2026-09-14.md')
 REPO='/home/phyrexian/Downloads/Invisible-ledger/'
 # The template still lives in the sibling working directory; the output must land in
 # the repo, or a rebuild silently leaves papers/current/ stale.
