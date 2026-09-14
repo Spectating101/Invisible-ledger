@@ -99,7 +99,8 @@ for kind,val in blocks:
     elif kind=='EQ':para(val,align=WD_ALIGN_PARAGRAPH.CENTER,italic=True,sb=4,sa=5)
     elif kind=='TBL':table(val); para('',size=5,sa=0)
     else:
-        if val.startswith('Table '): para(val,size=9.5,italic=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=7,sa=2,keep=True)
+        # Match only a real caption ("Table 3. ..."), not prose that opens "Table 3 compares".
+        if re.match(r'^Table \d+\.', val): para(val,size=9.5,italic=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=7,sa=2,keep=True)
         else: para(val)
 import sys as _s; _s.path.insert(0, REPO+'scripts/proposal_content')
 from content import REFS, PRIM_HEAD, PRIM_NOTE, PRIM
