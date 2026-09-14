@@ -37,7 +37,7 @@ The technical empirical baseline immediately before this handoff is commit 2ced0
 
 1. The earlier ASEAN architecture mixed countries, years, company-wide figures, country estimates and different regulatory environments too closely. The advisor required one consistent main sample.
 2. The FY2023 Indonesia reconstruction solved part of the geography and provenance problem, including replacing GoTo Group with the more Indonesia-aligned Tokopedia e-commerce segment. It then created a new problem: a single fiscal year was explicitly judged insufficient for a master's thesis.
-3. The advisor asked to review the dataset and derivations before another manuscript rewrite. The current priority is empirical coverage and sample agreement.
+3. The advisor asked to review the dataset and derivations before another manuscript rewrite. The current priority is empirical coverage and sample agreement. *(Answered out of band — Chris reports showing her an Empirical Data review via Dropbox. See the 14 September notes; the material has not been reconciled against the data package built in this repo.)*
 4. More years should be collected for Indonesia where possible. ASEAN-wide aggregation is unsafe without country-level comparability because countries differ in tax systems, regulation and platform business models.
 
 **Researcher objections that shaped the rebuild:**

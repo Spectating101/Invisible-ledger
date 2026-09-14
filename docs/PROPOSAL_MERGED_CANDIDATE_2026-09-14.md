@@ -316,6 +316,8 @@ Two source-level caveats survive verification and are disclosed in the text rath
 Known gaps that remain open regardless of this file:
 
 - never opened in Microsoft Word;
-- the advisor's 9 September request to review the dataset before any rewrite is still unanswered;
+- the advisor's 9 September request to review the dataset was answered out of band via a Dropbox
+  Empirical Data review, per Chris; that material has not been seen or reconciled against the data
+  package built here;
 - `main` now carries `docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md`, so the 9-vs-12 authority no
   longer depends on a branch, but the other five `research/*` branches remain unmerged.

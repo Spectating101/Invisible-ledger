@@ -102,5 +102,8 @@ English Times New Roman, body 12pt, 1.15 line spacing. The proposal uses Flashpo
 
 - Never opened in Microsoft Word (built and rendered in LibreOffice only).
 - RQ3-as-corroboration is a structural decision the advisor has not seen.
-- The advisor's Sep-9 request to review the dataset before any rewrite is still unanswered.
+- The advisor's Sep-9 request to review the dataset was answered out of band: Chris reports showing
+  her an Empirical Data review via Dropbox. Not verified here (no Dropbox access from the build
+  environment), and not reconciled against `Invisible_Ledger_Data_Package_2026-09-14.xlsx` — so it is
+  unknown whether the figures she saw match the ones the proposal now states.
 - Blibli and Bukalapak scope admission remains the open question the proposal puts to the committee.
