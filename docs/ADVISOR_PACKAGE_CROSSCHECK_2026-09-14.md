@@ -53,18 +53,37 @@ Two shipped CSVs embed absolute build paths exposing the local account name:
 These should be relative paths in any refreshed package. They leak the machine layout, not anything
 about the advisor.
 
+## Branch consolidation — done 14 September
+
+All nine `research/*` branches are now merged into `main`; none remain unmerged.
+
+`results-consolidation-20260912` fully contained `research-synthesis-20260910`, so those two were one
+merge, and `empirical-certification-v2-20260910` arrived transitively with them. Six of the remaining
+merges were clean. Two needed resolution:
+
+- **`results-consolidation`** conflicted on three files in the BPS layer. The branch had
+  *independently* made the same Rp203.58T correction fixed on `main` in 386fd3c — convergent
+  confirmation that 1.45% is right. Both sides had also added the same data row, which git auto-merged
+  into a duplicate; deduplicated.
+- **`empirical-certification-integration-20260910`** produced eleven add/add conflicts and is a
+  superseded lane: its successor v2 was already in, and `main`'s files are strict supersets
+  throughout. Resolved to `main` and merged anyway, so the branch stops reading as outstanding work.
+
+The payment-layer record counts were verified against the merged files and all six match what was
+reported: 18,954 national monthly, 42,701 regional monthly, 1,460 published annual, 3,616 core
+monthly, 278 core annual, 14 report observations.
+
+`docs/CANONICAL_EMPIRICAL_RESULTS_2026-09-12.md`, now on `main`, agrees with the proposal on every
+headline figure — 42.02pp all-tier, 42.94pp direct-candidate, 9 direct transitions, 1.45%, 98.46%. The
+analysis was re-run after every resolution and the proposal rebuilt: unchanged at 12 pages and 9
+tables, all three advisor documents validating clean.
+
+A `pre-consolidation-backup` tag marks `main` at 07e85a6, immediately before the first merge.
+
 ## What a refreshed package still needs
 
-The 10 September data room predates two bodies of work that remain unmerged on `main`:
-
-| Branch | Carries |
-|---|---|
-| `research/research-synthesis-20260910` | Bank Indonesia payment layer, packaging code, global/ASEAN/BPS evidence |
-| `research/results-consolidation-20260912` | canonical results consolidation |
-
-The payment layer alone adds roughly 18,954 national monthly, 42,701 regional monthly, 1,460
-published annual, 3,616 core monthly and 278 core annual records (counts reported by ChatGPT from the
-branch, not independently verified here).
+The 10 September data room predates the payment layer and consolidated results, both of which are now
+on `main` per the section above. Rebuilding the package from `main` therefore picks them up.
 
 A refresh should therefore fold in the payment layer and the consolidated results, carry the corrected
 Rp203.58T BPS figure, keep the US$40.070 billion FY2023 construction, state the 11-direct-level /
