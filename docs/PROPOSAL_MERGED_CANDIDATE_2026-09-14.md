@@ -13,7 +13,7 @@ inspected and the numbers re-verified against committed sources.
 
 ## Abstract
 
-This study measures the difference between the transaction value digital platforms process in Indonesia and the revenue those platforms recognize for themselves. I call that difference the **invisible wedge**. The absolute wedge is *W = V − R*, where *V* is transaction value and *R* is platform revenue; the **Ecosystem Ratio**, *E = (V − R)/R*, expresses the same boundary relative to platform revenue. Because no Indonesian platform discloses a strictly country-labelled matched pair across the full study period, observations are retained under named evidence tiers rather than pooled as if they had equal scope. The current inventory spans seventeen candidate platform-year levels across five issuer series from FY2019 to FY2025. Longitudinal evidence shows that transaction value and revenue can move differently, and disclosed revenue components explain important divergences. Official statistics and Indonesia's marketplace reporting rules then provide evidence on wider economic activity and on how platform-held transaction records can enter third-party reporting. External issuer evidence is retained as corroboration rather than as part of the Indonesia sample.
+This study measures the difference between the transaction value digital platforms process in Indonesia and the revenue those platforms recognize. I call that difference the **invisible wedge**. The absolute wedge is *W = V − R*, where *V* is transaction value and *R* is platform revenue; the **Ecosystem Ratio**, *E = (V − R)/R*, expresses the same boundary relative to revenue and is constructed for this study rather than adopted from prior work. Because no Indonesian platform discloses a strictly country-labelled matched pair across the study period, observations are retained under named evidence tiers rather than pooled as if equal in scope. The inventory spans seventeen candidate platform-year levels across five issuer series from FY2019 to FY2025. Transaction value and revenue move differently, and disclosed revenue components explain important divergences. Official statistics and Indonesia's marketplace reporting rules then evidence wider activity and how platform-held records can enter third-party reporting.
 
 ---
 
@@ -39,7 +39,9 @@ One question drives the proposal:
 |---|---|---|
 | 1 | Measure the wedge longitudinally while keeping evidence tiers visible | 17 retained candidate platform-year levels, three tiers, FY2019–FY2025 |
 | 2 | Explain why the wedge moves | Disclosed monetization, customer incentives, gross-versus-net revenue, accounting, business scope |
-| 3 | Locate the wider activity and the underlying records beyond platform revenue | BPS national, channel and recordkeeping evidence; PMK 37/2025 and DJP materials |
+| 3 | Locate the wider activity and the underlying records beyond platform revenue | National statistical evidence from BPS-Statistics Indonesia (*Badan Pusat Statistik*); Regulation PMK 37/2025 (*Peraturan Menteri Keuangan*) and Directorate General of Taxes (DJP) materials |
+
+Table 1 shows that the three objectives rest on different evidence bases rather than on one dataset. The measurement, the explanation of its movement, and the wider-activity evidence each stand or fall on their own sources, so a weakness in one objective does not propagate to the others.
 
 A separate module of **48 matched issuer-years across eight non-Indonesian platform businesses** is retained as external corroboration. It tests whether the transaction–revenue boundary also appears across other platform business models; it is not an Indonesia observation, not a representative global panel, and not a separate main research question.
 
@@ -63,6 +65,8 @@ A separate module of **48 matched issuer-years across eight non-Indonesian platf
 | Issuer revenue components can arithmetically reconcile selected divergences. | That accounting components are causal treatment effects. |
 | BPS aggregates show wider e-commerce activity, channels, participation, and recordkeeping beyond issuer accounts. | A firm-level causal relationship or a reconciliation of BPS totals to issuer transaction value. |
 | PMK/DJP documents establish a legal/reporting architecture using seller-linked transaction information. | That the policy has already raised compliance or tax revenue. |
+
+Table 2 states the claim boundary row by row. The pattern is consistent across all six: what the assembled evidence supports is descriptive and measurement-focused, while every causal, fiscal or welfare reading sits in the right-hand column. The table is included so that the boundary is fixed before the examination rather than negotiated during it.
 
 ---
 
@@ -112,7 +116,7 @@ The **Ecosystem Ratio** expresses that wedge relative to platform revenue:
 
 For example, if a platform processes 100 units of transaction value and books 10 units as revenue, then *W = 90* and *E = 9*.
 
-Gross transaction value (GTV), or gross merchandise value (GMV) in some platform disclosures, is the total value of transactions processed through a platform, regardless of who ultimately receives the proceeds. This construction is consistent with the platform-economics literature showing that booked platform revenue need not track the total transaction value coordinated through a multisided platform (Rochet and Tirole 2003; Evans and Schmalensee 2016).
+Gross transaction value (GTV) is the total value of transactions processed through a platform, regardless of who ultimately receives the proceeds. **Terminology note.** Issuers label this quantity inconsistently: Sea Limited and Blibli report *gross merchandise value* (GMV), Grab reports *gross merchandise value* for deliveries and *total payment volume* (TPV) for financial services, and GoTo reports *gross transaction value*. Where the underlying measure is the same, this proposal uses GTV throughout and records the issuer's own label in the source extracts. This construction is consistent with the platform-economics literature showing that booked platform revenue need not track the total transaction value coordinated through a multisided platform (Rochet and Tirole 2003; Evans and Schmalensee 2016).
 
 The Ecosystem Ratio describes the scale of participant-facing transaction value relative to the platform's auditable revenue base. A higher ratio indicates a larger unbooked transaction flow relative to the platform's own revenue; it does **not** by itself imply greater participant profit, taxable income, value-added, non-compliance, or tax due.
 
@@ -143,6 +147,8 @@ Eligibility is not equivalent to final main-sample admission. The current analys
 | Conditional country reconstruction | Grab Indonesia; Shopee Indonesia | 6 | 4 |
 | All tiers (inventory diagnostic) | 5 series | 17 | 12 |
 
+Table 3 reports how the seventeen candidate levels distribute across the tiers. The decisive figure is that only two levels — Tokopedia's — are directly Indonesia-aligned; nine are direct issuer disclosures whose geographic scope is still pending, and six require a country reconstruction. Sample size and evidence quality therefore move in opposite directions, which is why the tiers are reported separately and never summed into one monetary total.
+
 ### 4.2 Current candidate structure
 
 No Indonesian platform provides a strictly country-labelled matched transaction-value / revenue pair across the full study period. Tokopedia supplies the strongest Indonesia-aligned issuer segment currently available. Blibli and Bukalapak provide direct issuer pairs but remain scope-pending because Blibli 3P Retail includes online travel and Bukalapak Group includes overseas operations. Grab and Shopee country constructions remain conditional because matching country transaction value and revenue are not both directly disclosed.
@@ -169,11 +175,11 @@ The study is not a single-fiscal-year design. Table 4 lists the seven retained m
 
 ### 4.4 Conditional country constructions
 
-Grab's Indonesia transaction value is derived from disclosed Indonesia revenue using the company's Group monetization rate (Group revenue / Group GMV); Table 5 sets out the derivation year by year. The assumption is transparent and testable but is not a direct country transaction-value disclosure. Shopee's Indonesia transaction value uses an external market estimate from **Momentum Works, whose annual Southeast Asian e-commerce report is the only recurring public source disaggregating regional marketplace gross merchandise value by country and platform. It is used because Sea Limited discloses no Indonesian figure, is labelled a third-party estimate wherever it enters a calculation, and is tested in the Section 5.1 sensitivity.** These constructions are supporting / conditional evidence rather than proof that the same monetization rate holds identically at country level.
+Grab's Indonesia transaction value is derived from disclosed Indonesia revenue using the company's Group monetization rate (Group revenue / Group GTV); Table 5 sets out the derivation year by year. The assumption is transparent and testable but is not a direct country transaction-value disclosure. Shopee's Indonesia transaction value uses an external market estimate from **Momentum Works, whose annual Southeast Asian e-commerce report is the only recurring public source disaggregating regional marketplace transaction value by country and platform. It is used because Sea Limited discloses no Indonesian figure, is labelled a third-party estimate wherever it enters a calculation, and is tested in the Section 5.1 sensitivity.** These constructions are supporting / conditional evidence rather than proof that the same monetization rate holds identically at country level.
 
 **Table 5. Worked derivation of conditional Indonesia transaction value for Grab.** *Indonesia revenue is directly disclosed and Group figures are source-reported; the final column is derived, not disclosed.*
 
-| Year | Indonesia revenue | Group revenue | Group GMV | Conditional Indonesia GMV (derived) |
+| Year | Indonesia revenue | Group revenue | Group GTV | Conditional Indonesia GTV (derived) |
 |---|---|---|---|---|
 | FY2021 | US$79m | US$675m | US$16,061m | US$1,879.7m |
 | FY2022 | US$275m | US$1,433m | US$19,937m | US$3,826.0m |
@@ -196,7 +202,9 @@ The current evidence is sufficient to establish feasibility while leaving final 
 | Shopee Indonesia | 21.520 | 2.152 | 19.368 | 9.000× | Derived V and R |
 | Selected platforms | 43.233 | 3.162 | 40.070 | 12.671× | Sum, not a total |
 
-The combined wedge is approximately **US$40.07 billion** at an Ecosystem Ratio of **12.671**. One-at-a-time parameter variation moves the wedge between approximately **US$37.65 billion and US$42.49 billion**. Leave-one-platform-out calculations give approximately **US$35.29 billion, US$24.14 billion, and US$20.70 billion**. These are composition and sensitivity checks, not estimates of one national total.
+Table 6 reports the FY2023 cross-section. The combined wedge is approximately **US$40.07 billion** at an Ecosystem Ratio of **12.671**. One-at-a-time parameter variation moves the wedge between approximately **US$37.65 billion and US$42.49 billion**. Leave-one-platform-out calculations give approximately **US$35.29 billion, US$24.14 billion, and US$20.70 billion**. These are composition and sensitivity checks, not estimates of one national total.
+
+**Economic scale.** Against Indonesia's 2023 nominal GDP of approximately **US$1.371 trillion**, the combined wedge is equivalent to about **2.9 percent of GDP**. The GDP figure is taken from the World Bank (US$1,371,169,301,564) and cross-checked against the Federal Reserve Economic Data series (US$1,371,166,925,750), which agree to within 0.0002 percent. This comparison is a scale reference only. The wedge is transaction value not booked as platform revenue; it is not value added, and it is therefore not a component of GDP and not a claim about GDP mismeasurement.
 
 ### 5.2 Two valid longitudinal evidence universes
 
@@ -211,7 +219,7 @@ The combined wedge is approximately **US$40.07 billion** at an Ecosystem Ratio o
 | Opposite-sign transitions | 2 | 3 |
 | Median absolute divergence | 42.02 pp | 42.94 pp |
 
-The difference between these summaries comes from admission rules, not from an arithmetic contradiction. **The additional opposite-sign transition in the direct-candidate universe is Blibli FY2020→FY2021, which enters only when the prospectus observation is admitted.** The sample hierarchy is therefore shown rather than collapsed.
+Table 7 compares the two admission rules side by side. The difference between these summaries comes from admission rules, not from an arithmetic contradiction. **The additional opposite-sign transition in the direct-candidate universe is Blibli FY2020→FY2021, which enters only when the prospectus observation is admitted.** The sample hierarchy is therefore shown rather than collapsed.
 
 ### 5.3 Mechanism: Tokopedia
 
@@ -219,7 +227,7 @@ Tokopedia FY2022–FY2023 provides the cleanest mechanism case currently reprodu
 
 ### 5.4 External corroboration
 
-Across **48 matched issuer-years for eight non-Indonesian platform businesses** — eBay, Etsy, Shopify, Jumia, Zalando, Rakuten, Mercado Libre and Sea — the transaction–revenue boundary appears across distinct business models while its magnitude varies substantially: **take rates range from 0.22 to 74.63 percent**. Of **40 annual transitions, 29 are clean-scope**, with a **median absolute growth divergence of 7.10 percentage points** and four transitions in which transaction value and revenue move in opposite directions. This module is purposively selected on disclosure availability, its definitions differ by issuer, its levels are not pooled, and it does not validate Indonesia country allocations. Its role is external corroboration only.
+The **take rate** is platform revenue divided by gross transaction value — the share of processed commerce the platform books as its own revenue. The Ecosystem Ratio is its complement: *E = 1/(take rate) − 1*. Across **48 matched issuer-years for eight non-Indonesian platform businesses** — eBay, Etsy, Shopify, Jumia, Zalando, Rakuten, Mercado Libre and Sea — the transaction–revenue boundary appears across distinct business models while its magnitude varies substantially: **take rates range from 0.22 to 74.63 percent**. Of **40 annual transitions, 29 are clean-scope**, with a **median absolute growth divergence of 7.10 percentage points** and four transitions in which transaction value and revenue move in opposite directions. This module is purposively selected on disclosure availability, its definitions differ by issuer, its levels are not pooled, and it does not validate Indonesia country allocations. Its role is external corroboration only.
 
 ### 5.5 BPS and wider Indonesian e-commerce activity
 
@@ -254,19 +262,95 @@ Both decisions change the reported transition counts, and neither should be desc
 | October–November 2026 | Complete requested reconciliations and source concordance; extend sensitivity to the approved tier boundary; freeze thesis tables and figures. |
 | Before final defence | Rebuild the manuscript under the approved sample; retain supporting modules only where they advance the final argument. |
 
+Table 8 sets out the remaining work. The empirical backend is already assembled and source-linked; what remains is the sample-admission decision, any analysis the committee requests, and manuscript construction. The schedule therefore depends on the examination outcome rather than on further data collection.
+
+---
+
+## References
+
+Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economics*, 37(3), 668–691.
+
+Barrios, J. M., Hochberg, Y. V., and Yi, H. (2022). Launching with a parachute: The gig economy and new business formation. *Journal of Financial Economics*, 144(1), 22–43.
+
+BPS-Statistics Indonesia. (2025a). *E-Commerce Statistics 2023*. Jakarta: BPS.
+
+BPS-Statistics Indonesia. (2025b). *E-Commerce Statistics 2024*. Jakarta: BPS.
+
+Bukalapak. (2021–2024). Annual and sustainability reports for fiscal years 2020–2024.
+
+Caillaud, B., and Jullien, B. (2003). Chicken and egg: Competition among intermediation service providers. *RAND Journal of Economics*, 34(2), 309–328.
+
+De Franco, G., Kothari, S. P., and Verdi, R. S. (2011). The benefits of financial statement comparability. *Journal of Accounting Research*, 49(4), 895–931.
+
+Denes, M., Lagaras, S., and Tsoutsoura, M. (2025). [Citation to be completed from the source copy.]
+
+Evans, D. S., and Schmalensee, R. (2016). *Matchmakers: The New Economics of Multisided Platforms*. Boston: Harvard Business Review Press.
+
+Global Digital Niaga. (2022–2026). Prospectus and annual results releases for Blibli fiscal years 2019–2025.
+
+GoTo Gojek Tokopedia. (2024). *Annual Report 2023*. E-commerce operating metrics and segment note 29.
+
+Grab Holdings. (2024). *Form 20-F and full-year 2023 results release*. U.S. Securities and Exchange Commission.
+
+Hagiu, A., and Wright, J. (2015). Multi-sided platforms. *International Journal of Industrial Organization*, 43, 162–174.
+
+IFRS Foundation. (2021). *IFRIC Update November 2021: Principal versus Agent Considerations*.
+
+Kleven, H. J., Knudsen, M. B., Kreiner, C. T., Pedersen, S., and Saez, E. (2011). Unwilling or unable to cheat? Evidence from a tax audit experiment in Denmark. *Econometrica*, 79(3), 651–692.
+
+Kleven, H. J., Kreiner, C. T., and Saez, E. (2016). Why can modern governments tax so much? An agency model of firms as fiscal intermediaries. *Economica*, 83(330), 219–246.
+
+La Porta, R., and Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives*, 28(3), 109–126.
+
+Medina, L., and Schneider, F. (2019). *Shedding Light on the Shadow Economy: A Global Database and the Interaction with the Official One*. CESifo Working Paper No. 7981.
+
+Ministry of Finance of the Republic of Indonesia. (2025). *PMK 37 Tahun 2025*.
+
+Momentum Works. (2024). *Ecommerce in Southeast Asia 2024*. Singapore: Momentum Works.
+
+Naritomi, J. (2019). Consumers as tax auditors. *American Economic Review*, 109(9), 3031–3072.
+
+OECD. (2020). *Model Rules for Reporting by Platform Operators with respect to Sellers in the Sharing and Gig Economy*. Paris: OECD Publishing.
+
+Parker, G. G., and Van Alstyne, M. W. (2005). Two-sided network effects: A theory of information product design. *Management Science*, 51(10), 1494–1504.
+
+Pomeranz, D. (2015). No taxation without information: Deterrence and self-enforcement in the value added tax. *American Economic Review*, 105(8), 2539–2569.
+
+Rochet, J.-C., and Tirole, J. (2003). Platform competition in two-sided markets. *Journal of the European Economic Association*, 1(4), 990–1029.
+
+Sea Limited. (2024). *Form 20-F for fiscal year 2023*. U.S. Securities and Exchange Commission.
+
+Slemrod, J. (2019). Tax compliance and enforcement. *Journal of Economic Literature*, 57(4), 904–954.
+
+Ulyssea, G. (2018). Firms, informality, and development: Theory and evidence from Brazil. *American Economic Review*, 108(8), 2015–2047.
+
 ---
 
 ## Appendix A — key variables
 
 | Symbol | Definition | Status |
 |---|---|---|
-| *V* | platform transaction value (GTV/GMV/issuer-equivalent metric, scope labelled) | observed or explicitly derived / external by tier |
+| *V* | platform transaction value (GTV or the issuer-equivalent metric, scope labelled) | observed or explicitly derived / external by tier |
 | *R* | platform-recognized revenue on the matched scope and period | observed or explicitly derived by tier |
 | *W* | *V − R*, absolute invisible wedge | derived |
 | *E* | *(V − R)/R*, Ecosystem Ratio | author-constructed derived measure |
 | *g(V)* | within-series transaction-value growth | derived from unrounded inputs |
 | *g(R)* | within-series platform-revenue growth | derived from unrounded inputs |
 | *D* | *g(V) − g(R)*, growth divergence | derived |
+
+**Data sources by evidence tier.**
+
+| Tier | Series | Source of *V* | Source of *R* |
+|---|---|---|---|
+| Direct Indonesia-aligned segment | Tokopedia e-commerce | GoTo Gojek Tokopedia annual report, e-commerce segment operating metrics | GoTo annual report, segment note |
+| Direct issuer, scope-pending | Blibli 3P Retail | Global Digital Niaga prospectus and annual results releases | Same issuer filings |
+| Direct issuer, scope-pending | Bukalapak Group | Bukalapak annual and sustainability reports | Same issuer filings |
+| Conditional country reconstruction | Grab Indonesia | Derived: disclosed Indonesia revenue ÷ Group monetization rate (Grab Form 20-F) | Grab Form 20-F, disclosed Indonesia revenue |
+| Conditional country reconstruction | Shopee Indonesia | Momentum Works Southeast Asia e-commerce report, third-party market estimate | Derived from Sea Limited Form 20-F at the estimated country take rate |
+| National statistical evidence | BPS-Statistics Indonesia | *E-Commerce Statistics 2023* and *2024*; BPS directorate presentation for the 2024 sales-media split | — |
+| Regulatory architecture | PMK 37/2025; DJP materials | Ministry of Finance of the Republic of Indonesia | — |
+
+Every figure used in this proposal is traced to a named file and locator in the accompanying data package.
 
 ---
 
