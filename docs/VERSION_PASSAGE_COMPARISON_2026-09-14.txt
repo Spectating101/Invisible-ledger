@@ -1,0 +1,403 @@
+
+==========================================================================================
+OPENING
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Southeast Asia's digital economy grew from $98 billion in 2020 to $263 billion in 2024
+   (Google, Temasek and Bain 2024). Digital platform scale, however, is not the same as
+   tax-administrative visibility. These platforms record transactions, determine
+   participant payouts, and book their own revenue, while the gross receipts earned by
+   merchants, drivers, and other participants may remain outside routine third-party
+   income reporting. I call this administrative information gap the "invisible wedge."
+   The empirical question is whether this digitally recorded but separately reported flow
+   is large enough to matter for tax administration.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Digital commercial activity has expanded on a scale that is easy to observe but
+   surprisingly difficult to translate into one economic measure. Commerce can appear as
+   activity facilitated through platforms, revenue recognized by platform firms, sales
+   recorded by businesses, national e-commerce estimates, payment-system transactions, or
+   information available to public institutions. These quantities are related to the same
+   broader transformation, but they are not the same economic object and need not move
+   together.
+
+ [PROPOSAL 10pp (current)]
+   Southeast Asia's digital economy grew from $100 billion in gross merchandise value in
+   2020 to $263 billion in 2024 (Google, Temasek and Bain 2020, 2024). Much of that
+   activity is coordinated through digital platforms, but the value of transactions a
+   platform processes can be far larger than the revenue it recognizes for itself. These
+   platforms record transactions, determine participant payouts, and book their own
+   revenue. I call the difference between the transaction value processed through a
+   platform and the revenue that platform books the “invisible wedge.”
+
+==========================================================================================
+100/10/90 SCHEMATIC
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   The term invisible refers to the administration's information channel, not to criminal
+   concealment. Suppose a platform processes 100 units of transaction value but
+   recognizes only 10 units as revenue. The remaining 90 units are still recorded within
+   the platform's system but do not constitute platform revenue. Instead, they may
+   represent merchant receipts, driver payouts, inventory costs, taxes paid elsewhere,
+   and other pass-through payments. The paper measures this accounting gap without
+   assuming that the residual represents profit, taxable income, or unpaid tax.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   Suppose a platform processes 100 units of transaction value but recognizes only 10
+   units as revenue. The remaining 90 units are still recorded within the platform's
+   system but do not constitute platform revenue. Instead, they may represent merchant
+   receipts, driver payouts, inventory costs, taxes paid elsewhere, and other
+   pass-through payments. The paper measures this accounting gap without assuming that
+   the residual represents profit, taxable income, or unpaid tax.
+
+==========================================================================================
+THE MEASURE / HEADLINE FIGURE
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   an ecosystem ratio defined as the gross transaction value (GTV) not recognized as
+   platform revenue divided by the revenue that the platform does recognize. The baseline
+   estimate is constructed based on the disclosures in fiscal-year of 2023 disclosures.
+   Inputs for Grab and Shopee are either Indonesia-specific or transparently derived for
+   Indonesia. By contrast, GoTo reports the required inputs directly only at the Group
+   level, which includes operations outside Indonesia. Consequently, the estimated wedge
+   of US$66.8 billion should be interpreted as an Indonesia-focused baseline estimate.
+   The corresponding figures for Vietnam, the Philippines, Thailand, and Malaysia are
+   scenario-based calibrations derived from this benchmark rather than independently
+   measured estimates.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   I measure the wedge with an ecosystem ratio defined as the gross transaction value
+   (GTV) not recognized as platform revenue divided by the revenue that the platform does
+   recognize. Inputs for Grab and Shopee are either Indonesia-specific or transparently
+   derived for Indonesia. By contrast, Blibli and Bukalapak report both inputs directly
+   but at a business or group scope wider than Indonesia alone. For fiscal year 2023 the
+   three leading platform cases place transaction value not booked as platform revenue at
+   approximately US$40.07 billion, equivalent to roughly 2.9 percent of Indonesia's
+   nominal gross domestic product. The paper measures gross participant-facing
+   transaction value that is not booked as platform revenue; it does not estimate
+   participant profit, unpaid tax, or value-added.
+
+==========================================================================================
+TAX / THIRD-PARTY REPORTING
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Southeast Asia's digital economy grew from $98 billion in 2020 to $263 billion in 2024
+   (Google, Temasek and Bain 2024). Digital platform scale, however, is not the same as
+   tax-administrative visibility. These platforms record transactions, determine
+   participant payouts, and book their own revenue, while the gross receipts earned by
+   merchants, drivers, and other participants may remain outside routine third-party
+   income reporting. I call this administrative information gap the "invisible wedge."
+   The empirical question is whether this digitally recorded but separately reported flow
+   is large enough to matter for tax administration.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Once trace abundance is separated from economic meaning, the remaining question is
+   institutional: when can those traces actually be used by public administration? PMK
+   37/2025 shows a legal bridge built around seller identity, transaction-linked
+   turnover, withholding, and reporting rather than platform corporate revenue. Current
+   evidence establishes that legal architecture, but the implementation postponement
+   prevents claims about successful operational matching, compliance, or revenue effects.
+
+ [PROPOSAL 10pp (current)]
+   The term invisible refers to the administration's information channel, not to criminal
+   concealment. Digital platform scale is not the same as tax-administrative visibility:
+   the gross receipts earned by merchants, drivers, and other participants may remain
+   outside routine third-party income reporting, even though the platform holds a record
+   of the transaction that produced them. The wedge does not measure that reporting gap,
+   and this paper does not claim it does. It measures the accounting boundary; whether
+   the activity behind that boundary is separately recorded and transmitted to public
+   institutions is a further question the study then examines.
+
+==========================================================================================
+PLATFORM ECONOMICS
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   The economics of multisided platforms begins with the interaction of distinct user
+   groups whose participation affects the value received by the other side. Rochet and
+   Tirole (2003), Caillaud and Jullien (2003), Parker and Van Alstyne (2005), and
+   Armstrong (2006) show why platform pricing cannot be read as a simple markup over
+   cost: prices and commissions are chosen to balance cross-group network effects,
+   participation, and competition. Hagiu and Wright (2015) further distinguish a
+   multisided platform from a vertically integrated firm by locating decision rights and
+   entrepreneurial effort with affiliated participants rather than inside the platform.
+   Evans and Schmalensee (2016) translate the same point into the business-model
+   literature. These results explain why low retained shares can coexist with large
+   ecosystems and why platform revenue is a poor proxy for the transaction value
+   coordinated through the platform.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   The platform transaction-revenue boundary provides a natural place to begin.
+   Multisided-platform theory explains why platforms may coordinate large volumes of
+   third-party commerce while recognizing commissions, fees, advertising, logistics,
+   travel, financial-service, or other revenue within a narrower accounting perimeter
+   (Rochet & Tirole, 2003; Armstrong, 2006; Hagiu & Wright, 2015). The existence of a gap
+   is therefore not itself anomalous. The more informative question is whether
+   transaction activity and platform revenue provide the same longitudinal account of
+   growth and, when they diverge, what mechanisms explain the difference.
+
+ [PROPOSAL 10pp (current)]
+   The economics of multisided platforms begins with the interaction of distinct user
+   groups whose participation affects the value received by the other side. Rochet and
+   Tirole (2003), Caillaud and Jullien (2003), Parker and Van Alstyne (2005), and
+   Armstrong (2006) show why platform pricing cannot be read as a simple markup over
+   cost: prices and commissions are chosen to balance cross-group network effects,
+   participation, and competition. Hagiu and Wright (2015) further distinguish a
+   multisided platform from a vertically integrated firm by locating decision rights and
+   entrepreneurial effort with affiliated participants rather than inside the platform.
+   These results explain why low retained shares can coexist with large ecosystems and
+   why platform revenue is a poor proxy for the transaction value coordinated through the
+   platform.
+
+==========================================================================================
+ACCOUNTING / REVENUE RECOGNITION
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   — not present
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Accounting rules and business-model design determine how underlying commerce becomes
+   corporate revenue. IFRS 15 distinguishes principal and agent relationships and
+   therefore affects gross-versus-net revenue presentation. Customer incentives,
+   advertising, logistics, subscriptions, travel, financial services, acquisitions, and
+   reporting perimeter can all change revenue without equivalent changes in facilitated
+   commerce. Financial-statement comparability matters because users must understand how
+   similar economic events map into reported numbers; De Franco, Kothari, and Verdi
+   (2011) show that comparability is associated with a stronger analyst information
+   environment. Yet even a well-reconciled issuer account describes only the company
+   perimeter, which leaves open where digital growth appears in the broader economy.
+
+ [PROPOSAL 10pp (current)]
+   Accounting determines how much facilitated commerce becomes revenue. Under IFRS 15,
+   principal–agent treatment governs gross-versus-net presentation, while customer
+   incentives, advertising and service income, acquisitions, and reporting perimeter can
+   move revenue without an equivalent change in commerce. De Franco, Kothari and Verdi
+   (2011) show why comparability matters to users of financial statements.
+
+==========================================================================================
+INFORMALITY / PLATFORM WORK
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Traditional informal-economy estimates rely on household surveys, firm surveys, or
+   indirect macroeconomic indicators. Medina and Schneider (2019) estimate a large global
+   shadow economy; La Porta and Shleifer (2014) emphasise the small scale and low
+   productivity of informal firms; and Ulyssea (2018) shows that registration and
+   off-the-books employment are distinct margins whose welfare effects cannot be inferred
+   from formal status alone. The International Labour Organization (2021, 2023) likewise
+   treats platform work and informality as overlapping but non-identical categories.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Research on small firms and informality therefore adds the participant side of the
+   picture. Business practices and conventional recordkeeping vary substantially (La
+   Porta & Shleifer, 2014; Ulyssea, 2018; McKenzie & Woodruff, 2017), while digital
+   footprints can contain economically useful information even where conventional records
+   are incomplete (Berg et al., 2020). A related public-finance literature shows that
+   third-party information and transaction paper trails can matter for verification when
+   records are reported and linked to the relevant taxpayer or transaction (Kleven et
+   al., 2011; Pomeranz, 2015; Slemrod, 2019). This moves the problem from whether a
+   digital trace exists to whether it is structured, linked, and institutionally usable.
+
+ [PROPOSAL 10pp (current)]
+   Traditional informal-economy estimates rely on household surveys, firm surveys, or
+   indirect macroeconomic indicators. Medina and Schneider (2019) estimate a large global
+   shadow economy; La Porta and Shleifer (2014) emphasise the small scale and low
+   productivity of informal firms; and Ulyssea (2018) shows that registration and
+   off-the-books employment are distinct margins whose welfare effects cannot be inferred
+   from formal status alone. Platform participants occupy an unusual position in this
+   literature. Their transactions are priced, recorded, and settled through a formal
+   intermediary, but the participant may remain self-employed, unregistered, below filing
+   thresholds, or simply outside an automatic reporting channel. The object measured here
+   is therefore not the shadow economy as conventionally defined. It is a digitally
+   recorded flow whose administrative treatment resembles self-reported income even
+   though an intermediary already possesses the record.
+
+==========================================================================================
+THIRD-PARTY REPORTING
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   A central result in public finance is that tax compliance depends strongly on
+   third-party information and remittance structure. Kleven et al. (2011) find an evasion
+   rate of 0.3 percent on income subject to third-party reporting versus 37 percent on
+   self-reported income in Denmark. Pomeranz (2015) shows that the VAT paper trail
+   creates self-enforcement across firms, while Naritomi (2019) demonstrates that
+   consumer-held records can raise reported sales. Kleven, Kreiner and Saez (2016)
+   formalise firms as fiscal intermediaries, and Slemrod (2019) places information
+   reporting and remittance regimes among the core instruments of modern enforcement.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Research on small firms and informality therefore adds the participant side of the
+   picture. Business practices and conventional recordkeeping vary substantially (La
+   Porta & Shleifer, 2014; Ulyssea, 2018; McKenzie & Woodruff, 2017), while digital
+   footprints can contain economically useful information even where conventional records
+   are incomplete (Berg et al., 2020). A related public-finance literature shows that
+   third-party information and transaction paper trails can matter for verification when
+   records are reported and linked to the relevant taxpayer or transaction (Kleven et
+   al., 2011; Pomeranz, 2015; Slemrod, 2019). This moves the problem from whether a
+   digital trace exists to whether it is structured, linked, and institutionally usable.
+
+ [PROPOSAL 10pp (current)]
+   A central result in public finance is that tax compliance depends strongly on
+   third-party information and remittance structure. Kleven et al. (2011) find an evasion
+   rate of 0.3 percent on income subject to third-party reporting versus 37 percent on
+   self-reported income in Denmark. Pomeranz (2015) shows that the VAT paper trail
+   creates self-enforcement across firms, while Naritomi (2019) demonstrates that
+   consumer-held records can raise reported sales. Kleven, Kreiner and Saez (2016)
+   formalise firms as fiscal intermediaries, and Slemrod (2019) places information
+   reporting and remittance regimes among the core instruments of modern enforcement.
+   Platform work creates a new configuration — a large intermediary with detailed records
+   but, in many jurisdictions, no comprehensive obligation to report seller or worker
+   income. The administrative problem is therefore not a lack of data generation; it is
+   the absence, incompleteness, or fragmentation of the reporting rule. Barrios,
+   Hochberg, and Yi (2022) and Denes, Lagaras, and Tsoutsoura (2025) show that
+   platform-mediated work leaves economically meaningful financial and administrative
+   records.
+
+==========================================================================================
+PLATFORM-REPORTING RULES
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Corporate digital-tax reforms and platform-participant reporting address different
+   bases. The OECD Pillar One blueprint concerns the allocation of taxing rights over
+   large multinational enterprises (OECD 2020b). By contrast, the OECD’s Forum on Tax
+   Administration report and Model Rules require platforms to collect and report
+   information on income realised by sellers and service providers (OECD 2019, 2020a).
+   The European Union’s DAC7 regime similarly imposes due-diligence and reporting duties
+   on platform operators (European Union 2021). These instruments provide the closest
+   policy precedent for the mechanism studied here: using the platform’s existing
+   transaction record to improve participant-level visibility without treating platform
+   revenue as the participant tax base.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   Corporate digital-tax reforms and platform-participant reporting address different
+   bases. The OECD Pillar One blueprint concerns the allocation of taxing rights over
+   large multinational enterprises. By contrast, the OECD's Model Rules require platforms
+   to collect and report information on income realised by sellers and service providers,
+   and the European Union's DAC7 regime similarly imposes due-diligence and reporting
+   duties on platform operators. These instruments provide the closest policy precedent
+   for the mechanism studied here: using the platform's existing transaction record to
+   improve participant-level visibility without treating platform revenue as the
+   participant tax base. Indonesia's PMK 37/2025 applies the same logic through seller
+   identification, transaction-linked reporting, and marketplace withholding.
+
+==========================================================================================
+RESEARCH GAP
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   — not present
+
+ [FLASHPOINT Sep-12 (rejected)]
+   Taken together, these literatures explain the individual boundaries that the thesis
+   encounters: platform economics explains why facilitated activity and revenue differ;
+   accounting explains how activity enters the issuer perimeter; digital-economy
+   measurement distinguishes gross transactions from value added; business research
+   describes variation in participant records; and third-party-information research
+   explains why linkage matters administratively. What remains less developed in the
+   present setting is a source-auditable account that follows the same digital-commercial
+   transformation across those boundaries and asks when the resulting economic
+   interpretation changes. The thesis addresses that gap by tracing where digital growth
+   becomes visible, explaining why selected records diverge, and identifying what
+   additional information is recovered through reconciliation.
+
+ [PROPOSAL 10pp (current)]
+   These literatures explain why transaction value exceeds platform revenue, why
+   accounting moves the two apart, why participant records vary, and why third-party
+   information matters. What is missing is a longitudinal, source-auditable account for
+   one market that measures the wedge, explains why it moves, establishes whether the
+   same boundary appears in platform businesses elsewhere, locates the wider digital
+   activity beyond issuer accounts, and only then asks how the existing transaction
+   records enter institutional reporting.
+
+==========================================================================================
+WHAT GTV IS
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Gross transaction value (GTV), or gross merchandise value (GMV) in some platform
+   disclosures, is the total value of transactions processed through a platform,
+   regardless of who ultimately receives the proceeds. This construction is consistent
+   with the platform-economics literature showing that booked platform revenue need not
+   track the total transaction value coordinated through a multisided platform (Rochet
+   and Tirole 2003; Evans and Schmalensee 2016).
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   Gross transaction value (GTV), or gross merchandise value (GMV) in some platform
+   disclosures, is the total value of transactions processed through a platform,
+   regardless of who ultimately receives the proceeds. This construction is consistent
+   with the platform-economics literature showing that booked platform revenue need not
+   track the total transaction value coordinated through a multisided platform (Rochet
+   and Tirole 2003; Evans and Schmalensee 2016). The ecosystem ratio describes the scale
+   of participant-facing transaction value relative to the platform's auditable revenue
+   base. A higher ratio indicates a larger unbooked transaction flow relative to the
+   platform's own revenue; it does not by itself imply greater participant profit,
+   taxable income, value-added, non-compliance, or tax due.
+
+==========================================================================================
+HIGHER RATIO / BOUNDARY
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   The ecosystem ratio describes the scale of participant-facing transaction value
+   relative to the platform's auditable revenue base. A higher ratio indicates a larger
+   unbooked transaction flow relative to the platform's own revenue; it does not by
+   itself imply greater participant profit, taxable income, value-added, non-compliance,
+   or tax due.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   Gross transaction value (GTV), or gross merchandise value (GMV) in some platform
+   disclosures, is the total value of transactions processed through a platform,
+   regardless of who ultimately receives the proceeds. This construction is consistent
+   with the platform-economics literature showing that booked platform revenue need not
+   track the total transaction value coordinated through a multisided platform (Rochet
+   and Tirole 2003; Evans and Schmalensee 2016). The ecosystem ratio describes the scale
+   of participant-facing transaction value relative to the platform's auditable revenue
+   base. A higher ratio indicates a larger unbooked transaction flow relative to the
+   platform's own revenue; it does not by itself imply greater participant profit,
+   taxable income, value-added, non-compliance, or tax due.
+
+==========================================================================================
+SAMPLE CONSTRUCTION
+==========================================================================================
+
+ [KONG Sept-01 (approved)]
+   Platform revenue and transaction value are taken from primary company disclosures:
+   Grab and Sea Limited Form 20-F filings and investor releases, and GoTo annual and
+   quarterly reports. Momentum Works (2024) is used only where an Indonesia-specific
+   market-share input is not separately disclosed. The core cross-platform sample is
+   fiscal year 2023, and Table 2 identifies whether each input is directly reported,
+   derived for Indonesia, or reported only at GoTo Group level.
+
+ [FLASHPOINT Sep-12 (rejected)]
+   — not present
+
+ [PROPOSAL 10pp (current)]
+   Platform revenue and transaction value are taken from primary company disclosures. A
+   platform-year is admitted only when both measures cover the same period and a scope
+   that can be identified, units and definitions are known, derived inputs trace to
+   source, and structural breaks are flagged rather than treated as ordinary year-to-year
+   change. Repeated publication vintages of the same period are not counted as
+   independent observations. All monetary values are reported in U.S. dollars. Take rate
+   is defined as platform revenue divided by gross transaction value (GTV).
