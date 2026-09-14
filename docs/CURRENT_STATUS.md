@@ -19,6 +19,7 @@ No expanded sample is represented here as advisor-approved.
 - A separate global e-commerce corroboration module now contains 48 matched issuer-years across eight platform businesses. It shows transaction and revenue growth diverging within issuers, but it is not part of the Indonesia sample and is not a representative global panel.
 - The first Indonesia hypothesis execution retains 17 matched annual candidate levels and 12 within-series transitions across five series, separated into direct Indonesia-aligned, direct scope-pending, and conditional tiers. Tokopedia FY2022–FY2023 is the only transition currently in the direct Indonesia-aligned tier.
 - BPS aggregate decompositions support a participation-growth interpretation for 2022–2024, while the province-level marketplace/financial-recordkeeping relationship is unstable and does not establish a business-level effect.
+- An independent Bank Indonesia payment layer now preserves national and regional monthly SPIP observations through November 2025, published annual observations through 2024, and separate QRIS report observations. The first comparison shows payment-channel growth can differ sharply from BPS e-commerce-channel growth, but payment values are not treated as e-commerce sales.
 - Official BPS Indonesia evidence now covers national indicators through 2024 and 74 complete province-years across the 2023 and 2024 publications.
 - The official 2024 publication reports Rp1,288.93 trillion in e-commerce transaction value, 4,400,972 estimated e-commerce businesses, and 17.15% financial-report ownership.
 - A legacy Blibli 1Q23 column-mapping error has been isolated; the official issuer PDF and a corrected extract are preserved separately.
@@ -42,3 +43,4 @@ No expanded sample is represented here as advisor-approved.
 - that the event study is final;
 - that an ASEAN aggregate validates Indonesia-specific assumptions.
 - that the global issuer panel validates Indonesia country allocations or represents the global platform population.
+- that payment-system transaction value equals e-commerce value, platform GMV, merchant revenue or taxable income.

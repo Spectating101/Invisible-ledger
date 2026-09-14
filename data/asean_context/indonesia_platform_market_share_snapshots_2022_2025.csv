@@ -1,0 +1,23 @@
+platform_or_combination,year,market_gmv_usd_billion,share_pct,implied_or_reported_gmv_usd_billion,value_basis,source_url,comparability_status
+Shopee,2022,51.9,36,18.7,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+Tokopedia,2022,51.9,35,18.1,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+Lazada,2022,51.9,10,5.19,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+Bukalapak,2022,51.9,10,5.19,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+TikTok Shop,2022,51.9,5,2.6,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+Blibli,2022,51.9,4,2.1,reported_rounded_amount,https://katadata.co.id/digital/e-commerce/658154f260d7e/bukalapak-dan-lazada-kuasai-pasar-khusus-meski-tiktok-gaet-tokopedia,standalone_platform
+Shopee,2023,53.8,40,21.52,reported_amount,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,standalone_platform
+Tokopedia,2023,53.8,30,16.14,reported_amount,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,standalone_pre_combination
+TikTok Shop,2023,53.8,11,5.92,reported_amount,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,standalone_with_october_interruption
+Lazada,2023,53.8,9,4.84,reported_amount,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,standalone_platform
+Blibli,2023,53.8,4,2.15,reported_amount,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,standalone_platform_excluding_unspecified_residual_scope
+Other or omitted,2023,53.8,6,3.23,derived_rounded_residual,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/678272b342544/tak-ada-bukalapak-ini-5-e-commerce-ri-dengan-gmv-terbesar,residual_not_platform_observation
+Shopee,2024,56.5,46,25.99,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,standalone_platform
+Tokopedia,2024,56.5,23,13.00,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,brand_channel_after_combination
+TikTok Shop,2024,56.5,11,6.22,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,brand_channel_after_combination
+Bukalapak,2024,56.5,10,5.65,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,reported_share_but_transaction_reporting_ceased_after_q3
+Lazada,2024,56.5,7,3.96,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,standalone_platform
+Blibli,2024,56.5,4,2.26,derived_from_rounded_share,https://databoks.katadata.co.id/teknologi-telekomunikasi/statistik/68629ac92be0b/pangsa-pasar-shopee-tiktok-shop-hingga-blibli-di-indonesia-2024,standalone_platform
+Shopee,2025,57.7,54,31.158,derived_from_rounded_share,data/asean_context/momentum_2025_country_market_estimates.csv,standalone_platform
+TikTok Shop and Tokopedia,2025,57.7,38,21.926,derived_from_rounded_share,data/asean_context/momentum_2025_country_market_estimates.csv,combined_platform_group
+Lazada,2025,57.7,6,3.462,derived_from_rounded_share,data/asean_context/momentum_2025_country_market_estimates.csv,standalone_platform
+Blibli,2025,57.7,3,1.731,derived_from_rounded_share,data/asean_context/momentum_2025_country_market_estimates.csv,standalone_platform_excluding_lifestyle_and_travel

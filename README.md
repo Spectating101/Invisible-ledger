@@ -2,16 +2,33 @@
 
 Research repository for **The Invisible Ledger**, a thesis project on the measurement and disclosure boundaries of platform-mediated economic activity in Indonesia, with separate historical and ASEAN evidence.
 
-The project asks how platform transaction flows relate to revenue recognized by the platform, what participant-side activity remains outside that corporate revenue boundary, and what can—and cannot—be inferred for economic statistics and tax administration.
+The project asks how platform transaction flows relate to revenue recognized by the platform, what participant-side activity remains outside that corporate revenue boundary, and what can—and cannot be inferred for economic statistics and tax administration.
 
 For the reasoning behind the current rebuild—including agreed decisions, provisional interpretation, strongest findings, unresolved questions, and the handoff to independent reviewers—read [the research-direction handoff](docs/RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
 
-For a claim-bounded ledger of the results already established by the executed
-empirical modules, read [the empirical findings ledger](docs/EMPIRICAL_FINDINGS_2026-09-10.md).
+For a claim-bounded ledger of the results already established by the executed empirical modules, read [the empirical findings ledger](docs/EMPIRICAL_FINDINGS_2026-09-10.md).
 
-Potential interpretations, falsification tests, additional data requirements,
-and manuscript decision gates are kept separately in [the hypotheses and
-empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
+For the certified count corrections, evidence-tier reconciliation, BPS cross-wave source checks, and advisor-facing sample decisions, read [the empirical certification reconciliation](docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md) and [the advisor empirical decision sheet](docs/ADVISOR_EMPIRICAL_DECISION_SHEET_2026-09-10.md).
+
+For the integrated explanation of how the issuer, BPS, ASEAN, and global evidence fit together—and exactly what survives or changes in the September manuscript—read [the research synthesis and manuscript bridge](docs/RESEARCH_SYNTHESIS_AND_MANUSCRIPT_BRIDGE_2026-09-10.md).
+
+For the closest-literature map, evidence-to-claim matrix, and complete section-by-section manuscript architecture, read [the literature–empirical integration](docs/LITERATURE_EMPIRICAL_INTEGRATION_2026-09-11.md).
+
+The first full manuscript rebuilt on that integrated architecture is available as [the editable Word draft](papers/current/Invisible_Ledger_Integrated_Manuscript_2026-09-11.docx), with its [version-controlled manuscript source](papers/current/Invisible_Ledger_Integrated_Manuscript_2026-09-11.md).
+
+Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
+
+For the official BPS business-level marketplace evidence and the legal-versus-operational status of Indonesia's marketplace reporting bridge, read [the participant and institutional-linkage hypothesis extension](docs/HYPOTHESIS_EXTENSION_PARTICIPANT_AND_INSTITUTIONAL_LINKAGE_2026-09-10.md).
+
+For proposal-ready wording that makes the multi-year design explicit and integrates the verified Indonesian marketplace-tax context, read [the longitudinal and tax proposal note](docs/PROPOSAL_LONGITUDINAL_AND_TAX_INSERTS_2026-09-11.md).
+
+For a comment-by-comment drafting control covering sample consistency, geography, derivations, tax interpretation, market coverage, and robustness boundaries, read [the proposal review-comment response matrix](docs/PROPOSAL_REVIEW_COMMENT_RESPONSE_MATRIX_2026-09-11.md).
+
+For anticipated follow-up questions extending beyond the comments already received, read [the proposal preemptive review map](docs/PROPOSAL_PREEMPTIVE_REVIEW_MAP_2026-09-11.md).
+
+For the decision-relevance test, concrete economic stakes, claim boundaries, and next analytical developments, read [why Invisible Ledger matters](docs/WHY_INVISIBLE_LEDGER_MATTERS_STAKES_AND_DEVELOPMENT_2026-09-11.md).
+
+For the independent Bank Indonesia payment-system source layer, row counts, first executed comparisons, and strict limits on interpreting payment value as commerce, read [the payment-ledger extension](docs/BANK_INDONESIA_PAYMENT_LEDGER_EXTENSION_2026-09-11.md).
 
 ## Current status
 
@@ -22,9 +39,11 @@ This repository is a **working research archive**, not a claim that the empirica
 - The active expansion therefore concentrates on a longitudinal Indonesia design using additional years and issuers where source definitions permit.
 - ASEAN material is kept separately as context or robustness evidence. It must not be pooled as though ASEAN were one tax or regulatory system.
 - The current ASEAN corroboration extension treats six countries separately and preserves publication-vintage revisions; see [the technical readout](reports/ASEAN_CORROBORATION_EXTENSION_2026-09-10.md).
-- The first executed hypothesis tests now compare 12 within-series Indonesia candidate transitions and evaluate the BPS growth and province-recordkeeping evidence; see [the technical readout](reports/HYPOTHESIS_TESTS_2026-09-10.md) and [validation report](reports/HYPOTHESIS_TESTS_VALIDATION_2026-09-10.md).
+- The first executed hypothesis tests compare 12 within-series Indonesia candidate transitions and evaluate the BPS growth and province-recordkeeping evidence; see [the technical readout](reports/HYPOTHESIS_TESTS_2026-09-10.md) and [validation report](reports/HYPOTHESIS_TESTS_VALIDATION_2026-09-10.md).
+- The certification layer separately records the corrected 13-period direct candidate inventory, the 9-transition direct-scope sensitivity, and the distinction between directly reported and derived BPS cross-wave quantities.
 - The transaction–revenue difference is not automatically missing GDP, participant income, unpaid tax, or tax evasion.
 - Investor-event results remain exploratory while event contamination and information timing are unresolved.
+- Bank Indonesia payment statistics now add national and regional monthly evidence through November 2025 and published annual evidence through 2024. This remains an independent payment ledger, not extra issuer or BPS sample observations.
 
 Read [AGENTS.md](AGENTS.md), [docs/CURRENT_STATUS.md](docs/CURRENT_STATUS.md), [docs/PROJECT_HISTORY.md](docs/PROJECT_HISTORY.md), [docs/METHODOLOGY.md](docs/METHODOLOGY.md), [data/README.md](data/README.md), and [docs/KNOWN_LIMITATIONS.md](docs/KNOWN_LIMITATIONS.md) before interpreting repository outputs.
 
@@ -45,6 +64,8 @@ Invisible-ledger/
 │   ├── measurement/            # accounting/scope reconciliation exercises
 │   ├── market/                 # preserved price data and exploratory outputs
 │   ├── bps_official/           # Indonesia official-statistics extracts, 2020–2024
+│   ├── payments/               # Bank Indonesia SPIP and QRIS evidence
+│   ├── institutional/          # reporting rules, appointments, and implementation status
 │   ├── asean_context/          # country-level context kept separate
 │   ├── asean_corroboration/    # six-country, revision-aware supporting evidence
 │   └── legacy_not_active/      # preserved but prohibited as active evidence
@@ -77,11 +98,8 @@ The ratio is an author-constructed descriptive transformation. Where a country v
 
 The repository preserves original project scripts as well as later acquisition and reconciliation scripts. Some historical scripts retain their original directory assumptions and are included for lineage, not as a turnkey pipeline. See [scripts/README.md](scripts/README.md).
 
-Large downloaded source archives, private correspondence, chat histories, administrative forms, credentials, and licensed database exports are intentionally not committed. Their public-source URLs and checksums are retained where appropriate.
+Large broad source archives, private correspondence, chat histories, administrative forms, credentials, and licensed database exports are intentionally not committed. Selected load-bearing public source files may be preserved with URLs and checksums; broader public-source URLs and checksums are retained where appropriate.
 
 ## Current empirical audit
 
-The comprehensive backend census is generated by
-[`scripts/analysis/build_comprehensive_empirical_audit.py`](scripts/analysis/build_comprehensive_empirical_audit.py).
-Read [`reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`](reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md)
-or open the executed notebook in `notebooks/` before interpreting row counts.
+The comprehensive backend census is generated by [`scripts/analysis/build_comprehensive_empirical_audit.py`](scripts/analysis/build_comprehensive_empirical_audit.py). Read [`reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md`](reports/EMPIRICAL_BACKEND_AUDIT_2026-09-09.md) or open the executed notebook in `notebooks/` before interpreting row counts.

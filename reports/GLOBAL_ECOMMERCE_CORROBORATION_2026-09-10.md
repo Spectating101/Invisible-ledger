@@ -95,7 +95,7 @@ perimeters differ:
 - Shopee's revenue perimeter and monetization mix changed substantially during
   platform maturation.
 
-Accordingly, the global panel supports Kong's warning in a broader setting:
+Accordingly, the global panel supports the advisor's warning in a broader setting:
 different platform business models cannot be made comparable merely by giving
 their transaction measures the same label. The definition map is not a
 limitations appendix; it is necessary to interpret the empirical variation.
@@ -177,4 +177,3 @@ empirical consequences across business models. The strongest global conclusion
 is not that every platform hides the same amount of activity. It is that the
 economic story depends on which ledger, perimeter, and publication vintage a
 researcher observes.
-

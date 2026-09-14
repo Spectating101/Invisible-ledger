@@ -463,9 +463,9 @@ def hypothesis_summary(
             },
             {
                 "hypothesis": "H3 marketplace participation predicts financial recordkeeping",
-                "status": "not_established_by_province_evidence",
-                "evidence": f"2023-2024 within-province change Pearson r={province_change.pearson_r:.3f} (p={province_change.pearson_p:.3f}); Spearman rho={province_change.spearman_rho:.3f} (p={province_change.spearman_p:.3f}).",
-                "boundary": "Business-level microdata or an official joint cross-tabulation is required.",
+                "status": "associated_in_published_business_level_evidence_not_validated_by_province_aggregates",
+                "evidence": f"BPS reports business-level differences and an adjusted association for reference year 2023; the 2023-2024 within-province change is unstable (Pearson r={province_change.pearson_r:.3f}, p={province_change.pearson_p:.3f}; Spearman rho={province_change.spearman_rho:.3f}, p={province_change.spearman_p:.3f}).",
+                "boundary": "Published association is not causal; licensed microdata would permit independent replication and richer conditioning.",
             },
             {
                 "hypothesis": "H4 institutional linkage failure",
@@ -657,10 +657,13 @@ with expansion in business participation contributing importantly to aggregate
 growth, but it is an arithmetic decomposition rather than a causal entry or
 productivity result.
 
-The province evidence does not establish that marketplace participation predicts
-financial-report ownership. The association changes materially between the
-2023 and 2024 cross-sections and is weak in within-province changes. A
-business-level cross-tabulation or licensed microdata remains necessary.
+The province evidence does not validate a stable ecological relationship between
+marketplace participation and financial-report ownership. The association
+changes materially between the 2023 and 2024 cross-sections and is weak in
+within-province changes. Separately, BPS has published business-level group
+comparisons and an adjusted association for reference year 2023. Those results
+are observational; licensed microdata remain desirable for independent
+replication, richer conditioning, and cross-wave analysis.
 
 ## Revenue and transaction activity diverge, but evidence tiers matter
 
@@ -754,8 +757,9 @@ not observed joint percentages.
 1. The final Indonesia main sample is not advisor-approved.
 2. Blibli includes travel and Bukalapak includes overseas activity.
 3. Grab and Shopee country series remain model-dependent.
-4. BPS province evidence is ecological; survey microdata are still needed for
-   business-level inference.
+4. BPS province evidence is ecological; published business-level evidence is
+   associative, while survey microdata would enable replication and richer
+   conditioning.
 5. The BPS national series contains a documented 2023 business-count conflict.
 6. The tests do not measure missing GDP, tax liability, or undeclared income.
 
@@ -764,12 +768,12 @@ not observed joint percentages.
 1. Resolve Indonesia candidate admission and publication-vintage rules.
 2. Recover gross revenue, incentives, and comparable-basis components for every
    admissible issuer transition.
-3. Seek an official BPS marketplace-by-financial-report cross-tabulation or
-   approved microdata access.
+3. Reconcile the published BPS business-level model and seek approved microdata
+   access for replication and cross-wave extension.
 4. Build the institutional visibility matrix only from verified reporting and
    implementation evidence.
 5. Take the resulting sample census and the negative BPS province result to
-   Kong before restructuring the manuscript.
+   the advisor before restructuring the manuscript.
 """
     REPORT.write_text(report, encoding="utf-8")
 

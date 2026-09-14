@@ -1,0 +1,33 @@
+name: Empirical certification
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/EMPIRICAL_FINDINGS_2026-09-10.md'
+      - 'docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md'
+      - 'docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md'
+      - 'docs/BPS_CROSSWAVE_CERTIFICATION_2026-09-10.md'
+      - 'docs/BLIBLI_VINTAGE_SENSITIVITY_2026-09-10.md'
+      - 'docs/KONG_EMPIRICAL_DECISION_SHEET_2026-09-10.md'
+      - 'data/longitudinal/certified_indonesia_evidence_status_2026-09-10.csv'
+      - 'data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv'
+      - 'data/longitudinal/blibli_vintage_sensitivity_2026-09-10.csv'
+      - 'data/bps_official/bps_certification_status_2026-09-10.csv'
+      - 'data/bps_official/bps_crosswave_source_certification_2026-09-10.csv'
+      - 'outputs/hypothesis_tests_2026-09-10/indonesia_longitudinal_candidate_transitions.csv'
+      - 'data/global_ecommerce/global_platform_summary.csv'
+      - 'scripts/analysis/validate_empirical_certification.py'
+      - '.github/workflows/empirical-certification.yml'
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate reconciled empirical record
+        run: |
+          python3 -m py_compile scripts/analysis/validate_empirical_certification.py
+          python3 scripts/analysis/validate_empirical_certification.py

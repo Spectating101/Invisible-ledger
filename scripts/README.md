@@ -30,6 +30,27 @@ Run the analytical build from the repository root:
 python3 scripts/analysis/build_global_ecommerce_corroboration.py
 ```
 
+## Bank Indonesia payment-ledger extension
+
+- `acquisition/acquire_bank_indonesia_payments.py` downloads the selected
+  official SPIP archive and BI reports without overwriting existing files by
+  default.
+- `extraction/extract_bank_indonesia_spip.py` reshapes the official workbook
+  into source-row-addressable national, regional and core CSV layers.
+- `analysis/build_payment_ledger_extension.py` builds the BPS/payment growth
+  comparison and BI definition cross-check.
+- `analysis/validate_payment_ledger_extension.py` validates row identities,
+  time coverage and source hashes.
+
+Run from the repository root:
+
+```bash
+python3 scripts/acquisition/acquire_bank_indonesia_payments.py
+python3 scripts/extraction/extract_bank_indonesia_spip.py
+python3 scripts/analysis/build_payment_ledger_extension.py
+python3 scripts/analysis/validate_payment_ledger_extension.py
+```
+
 ## `acquisition/`
 
 Later code used to download public issuer, market, World Bank and market-research materials and produce retrieval manifests. Re-running it may produce new publication vintages or encounter changed URLs.

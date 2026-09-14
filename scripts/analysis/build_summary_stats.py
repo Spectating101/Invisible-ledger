@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Table 1, matching Stella's own sample draft (De-Rong Kong & Tse-Chun Lin's
+"""Table 1, matching the advisor-supplied sample draft (De-Rong Kong & Tse-Chun Lin's
 CryptoPunks paper) structurally:
   Panel A: observation counts by year x category, with row/column totals
   Panel B: N, Mean, Median by category

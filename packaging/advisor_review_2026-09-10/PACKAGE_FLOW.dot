@@ -1,0 +1,30 @@
+digraph InvisibleLedgerPackage {
+  graph [rankdir=LR, bgcolor="white", pad="0.2", nodesep="0.35", ranksep="0.65", fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=11, color="#64748B", fillcolor="#F8FAFC", fontcolor="#172033", margin="0.15,0.10"];
+  edge [color="#64748B", penwidth=1.4, arrowsize=0.7];
+
+  sources [label="Original source documents\nissuer filings · BPS · regulations", fillcolor="#E8EEF6"];
+  extracts [label="Source-preserving extracts\nperiod · scope · unit · locator", fillcolor="#E8EEF6"];
+  indonesia [label="Indonesia issuer module\nannual levels and transitions", fillcolor="#EAF4EA"];
+  bps [label="BPS official module\nbusinesses · channels · records", fillcolor="#EAF4EA"];
+  asean [label="ASEAN corroboration\nseparate country histories", fillcolor="#FFF4DB"];
+  global [label="Global corroboration\nwithin-issuer comparisons", fillcolor="#FFF4DB"];
+  quarterly [label="Quarterly support\n47 company/segment quarters", fillcolor="#FFF4DB"];
+  outputs [label="Reported outputs\nfindings + explicit limitations", fillcolor="#F3E8FF"];
+  decision [label="Advisor sample decision\ngeography · period · admission", fillcolor="#FDECEC", color="#B45353"];
+  manuscript [label="Manuscript reconstruction\nafter sample approval", fillcolor="#F8FAFC"];
+
+  sources -> extracts;
+  extracts -> indonesia;
+  extracts -> bps;
+  extracts -> asean;
+  extracts -> global;
+  extracts -> quarterly;
+  indonesia -> outputs;
+  bps -> outputs;
+  asean -> outputs;
+  global -> outputs;
+  quarterly -> outputs;
+  outputs -> decision;
+  decision -> manuscript;
+}

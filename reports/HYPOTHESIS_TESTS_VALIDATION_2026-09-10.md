@@ -4,7 +4,7 @@
 
 The analysis is reproducible and the headline calculations reconcile to the
 source-layer CSVs. It is suitable for internal review and for discussing sample
-design with Professor Kong. It is not ready to be presented as a finalized
+design with the advisor. It is not ready to be presented as a finalized
 Indonesia main sample because most longitudinal transitions are either
 scope-pending issuer records or conditional country reconstructions.
 
@@ -90,7 +90,7 @@ scope-pending issuer records or conditional country reconstructions.
 
 ## Suggested improvements
 
-1. Resolve issuer/segment admission with Kong before manuscript restructuring.
+1. Resolve issuer/segment admission with the advisor before manuscript restructuring.
 2. Seek a BPS business-level cross-tabulation or licensed microdata.
 3. Expand the revenue-component reconciliation for admitted issuer transitions.
 4. Retain tier-specific summaries and avoid making the all-candidate median a

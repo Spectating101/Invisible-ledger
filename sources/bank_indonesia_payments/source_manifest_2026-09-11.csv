@@ -1,0 +1,6 @@
+local_file,file_size_bytes,sha256,source_url,source_type,notes
+raw/SPIP-Desember-2025.zip,2463103,8f0aed1895aec8482afb5302a7f15eebdcab62d327532a8d2da7965155aa2729,https://www.bi.go.id/id/statistik/ekonomi-keuangan/spip/Documents/SPIP-Desember-2025.zip,official_download,Downloaded unchanged from Bank Indonesia
+raw/SPIP-Desember-2025.xlsx,2710566,e6874c6ff8927999dbcf81cce5d81a1e1be9e46c2a86529cacd28b98ab7b8bde,https://www.bi.go.id/id/statistik/ekonomi-keuangan/spip/Documents/SPIP-Desember-2025.zip,official_archive_member,Extracted unchanged from the official ZIP
+raw/reports/Monetary-Policy-Report-Quarter-IV-2023.pdf,4743306,a5d1ba306b649727d45679fd02a71f02695c2758385938da4b1099125565dead,https://www.bi.go.id/en/publikasi/laporan/Documents/Monetary-Policy-Report-Quarter-IV-2023.pdf,official_report,QRIS 2023 observations on PDF page 8
+raw/reports/LKTBI-2024.pdf,3996768,5942c4d9b4c79280c757d325f21bc731e623b4d156b4c25e7230351b541a9aa4,https://www.bi.go.id/id/publikasi/ruang-media/news-release/Documents/LKTBI-2024.pdf,official_report,QRIS 2024 observations on PDF page 31
+raw/reports/LPI-2025_05_Bab-3.pdf,9003804,3388941fca7aead03c47cf98e4fea2f77eeb08a1e28c0788b2b4756ed0c19fdb,https://www.bi.go.id/id/publikasi/laporan/Documents/LPI-2025_05_Bab-3.pdf,official_report,QRIS 2025 observations on PDF page 15

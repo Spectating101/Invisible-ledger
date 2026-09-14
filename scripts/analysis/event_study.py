@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Event study: does the ecosystem ratio (GMV/Revenue) predict the market's
-reaction to earnings announcements? Direct answer to Stella's point 3 --
+reaction to earnings announcements? Direct answer to the advisor's third comment --
 "investigate whether investors benefit from a larger Invisible Ledger."
 
 Method (market-adjusted model, the simplest defensible one for a 35-firm-
@@ -14,13 +14,13 @@ quarter-over-quarter change (a "larger ledger" is arguably about growth in
 the wedge, not its static level)?
 
 Caveats stated in the output, not hidden in code comments only:
-  - n=35 is small; per Stella's point 1, this is a real but thin panel
+  - n=35 is small; per the advisor's first comment, this is a real but thin panel
   - GoTo's announcement dates are the earnings-call-transcript date in a few
     cases (round 2 notes some of these came from search snippets, not a
     press-release dateline directly) -- imprecision here biases toward
     finding nothing, not toward a false positive
   - Contaminated observations (concurrent_guidance == Y) are flagged and
-    reported both included and excluded, per Stella's implicit ask to be able
+    reported both included and excluded, reflecting the advisor's request to be able
     to drop them
 """
 from __future__ import annotations

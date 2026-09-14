@@ -1,6 +1,6 @@
 # Invisible Ledger — expanded research collection
 
-9 September 2026. This is the broad research archive requested by Chris, not the compact submission previously sent to Kong and not a claim that the main sample is finalized.
+9 September 2026. This is the broad research archive requested by the researcher, not the compact submission previously sent to the advisor and not a claim that the main sample is finalized.
 
 ## Open these first
 
@@ -41,4 +41,4 @@ All new acquisition/extraction code is in this parent folder, explicitly distinc
 
 The directory now offers a much broader evidence base. Next, numeric table extraction and period/geography/business-scope reconciliation determine which observations enter the longitudinal Indonesia analysis. Country allocation, consolidation changes, negative revenue and rounded/restated releases remain substantive issues. Downloading supporting data does not settle them.
 
-This is a substantial completed acquisition pass, not a claim that every possible source has been exhausted, that the proposal has been approved, or that the resulting main sample is sufficient. No thesis/proposal text was edited and nothing was sent to Kong.
+This is a substantial completed acquisition pass, not a claim that every possible source has been exhausted, that the proposal has been approved, or that the resulting main sample is sufficient. No thesis/proposal text was edited and nothing was sent to the advisor.
