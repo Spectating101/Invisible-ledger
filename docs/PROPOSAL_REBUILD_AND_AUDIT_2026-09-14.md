@@ -38,7 +38,7 @@ denominators**. The executed hypothesis run admitted **17 levels / 12 transition
 | 3 | "74 complete province-years" | Does not reproduce: 36 (2023) + 39 (2024) fully populated. Replaced with "39 provinces observed in 2023 and 2024" |
 | 4 | SEA 2020 GMV "$98 billion" | Not a published figure. e-Conomy SEA 2020 reports **$100 billion** |
 | 5 | PMK timeline jumped designation → postponement | Collection **took effect 1 August 2026** after a month for system adjustment, which is why refunds were ordered |
-| 6 | BPS marketplace growth 1.45% / 98.46% outside | Executed output is **1.4162%** and **98.49%** |
+| 6 | BPS marketplace growth 1.45% / 98.46% outside | ~~Executed output is 1.4162% and 98.49%~~ **Reopened and reversed 14 Sep.** The executed output was 1.4162% only because the repo lacked BPS's directly published 2024 marketplace amount (Rp203.58T) and the script reconstructed the component from the rounded 15.79% share. The original 1.45% / 98.46% was right. Direct amount added to `data/bps_official/`, script now prefers it, outputs regenerated. |
 
 ## 4. Verified against primary sources
 

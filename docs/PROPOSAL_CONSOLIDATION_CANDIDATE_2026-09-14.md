@@ -212,7 +212,7 @@ Across **48 matched issuer-years for eight non-Indonesian platform businesses**,
 
 ### 5.5 BPS and wider Indonesian e-commerce activity
 
-BPS reports national e-commerce transaction value rising from **Rp1,100.87 trillion in 2023 to Rp1,288.93 trillion in 2024 (+17.08%)**, while estimated e-commerce businesses rise from **3,816,750 to 4,400,972 (+15.31%)**. In the current channel decomposition, the marketplace component grows approximately **1.42 percent** while the non-marketplace component grows approximately **20.58 percent**, so roughly **98.49 percent** of the nominal increase falls outside the marketplace component. These aggregates provide a wider view of Indonesian e-commerce activity; they are not reconciled one-for-one to issuer transaction value and do not establish a firm-level causal effect.
+BPS reports national e-commerce transaction value rising from **Rp1,100.87 trillion in 2023 to Rp1,288.93 trillion in 2024 (+17.08%)**, while estimated e-commerce businesses rise from **3,816,750 to 4,400,972 (+15.31%)**. In the current channel decomposition, the marketplace component grows approximately **1.45 percent** while the non-marketplace component grows approximately **20.57 percent**, so roughly **98.46 percent** of the nominal increase falls outside the marketplace component. These aggregates provide a wider view of Indonesian e-commerce activity; they are not reconciled one-for-one to issuer transaction value and do not establish a firm-level causal effect.
 
 ### 5.6 PMK 37/2025 and reporting architecture
 

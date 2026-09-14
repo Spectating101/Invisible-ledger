@@ -8,9 +8,11 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 SRC_MD='/home/phyrexian/Downloads/Invisible-ledger/docs/PROPOSAL_MERGED_CANDIDATE_2026-09-14.md'
-B='/home/phyrexian/Downloads/llm_automation/project_portfolio/Solarpunk-bitcoin/'
-TPL=B+'Invisible_Ledger_Proposal_FLASHPOINT_GRAFT_PLAIN_FINAL_2026-09-13.docx'
-OUT=B+'Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+REPO='/home/phyrexian/Downloads/Invisible-ledger/'
+# The template still lives in the sibling working directory; the output must land in
+# the repo, or a rebuild silently leaves papers/current/ stale.
+TPL=REPO+'papers/reference/Invisible_Ledger_Proposal_FLASHPOINT_GRAFT_PLAIN_FINAL_2026-09-13.docx'
+OUT=REPO+'papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
 TITLE_ZH="隱形帳簿：量化印尼平台經濟中的隱形楔子"
 TITLE_EN="The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia's Platform Economy"
 

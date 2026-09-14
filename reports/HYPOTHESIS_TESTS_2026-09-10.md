@@ -63,7 +63,7 @@ Indonesia-only tier.
 | transition   |   total_transaction_value_growth_pct |   estimated_businesses_growth_pct |   implied_value_per_business_growth_pct | marketplace_component_growth_pct   | nonmarketplace_component_growth_pct   |
 |:-------------|-------------------------------------:|----------------------------------:|----------------------------------------:|:-----------------------------------|:--------------------------------------|
 | 2022-2023    |                                40.6  |                             27.4  |                                   10.36 | not available                      | not available                         |
-| 2023-2024    |                                17.08 |                             15.31 |                                    1.54 | 1.42                               | 20.58                                 |
+| 2023-2024    |                                17.08 |                             15.31 |                                    1.54 | 1.45                               | 20.57                                 |
 
 ![BPS national growth anatomy](figures/bps_national_growth_anatomy.png)
 
@@ -75,10 +75,11 @@ conflict; the executed value is the main-body figure consistent with BPS's
 published growth calculation.
 
 The 2023–2024 marketplace component grew approximately
-1.42%, while the non-marketplace
-component grew 20.58%. The 2024
-component is derived mechanically from BPS's published total and share. This
-supports treating non-marketplace digital commerce as central to the national
+1.45%, while the non-marketplace
+component grew 20.57%. Both years
+use directly published marketplace amounts (Rp200.68T, Rp203.58T); the 2024 amount
+reconciles to BPS's published 15.79 percent share and is preferred over
+reconstructing from that rounded share. This supports treating non-marketplace digital commerce as central to the national
 measurement question rather than equating e-commerce with platform marketplaces.
 
 ## Province evidence does not validate a business-level recordkeeping effect

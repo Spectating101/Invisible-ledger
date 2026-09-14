@@ -35,9 +35,9 @@ global take rate maximum (%),74.63,74.626028,PASS,data/global_ecommerce/global_p
 BPS total e-commerce growth 2023-24 (%),17.08,17.082853,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
 BPS business-count growth 2023-24 (%),15.31,15.306792,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
 BPS value per business growth (%),1.54,1.540291,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
-BPS marketplace component growth (%),1.42,1.416208,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
-BPS non-marketplace component growth (%),20.58,20.575429,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
-share of nominal increase outside marketplace (%),98.49,98.488755,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_levels.csv
+BPS marketplace component growth (%),1.45,1.445087,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
+BPS non-marketplace component growth (%),20.57,20.568991,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_growth_anatomy.csv
+share of nominal increase outside marketplace (%),98.46,98.457943,PASS,outputs/hypothesis_tests_2026-09-10/bps_national_levels.csv
 Tokopedia net revenue change (%),53.2,53.195586,PASS,data/measurement/source_extracts/tokopedia_fy2022_2023_revenue_components.csv
 Tokopedia share from lower incentives (%),60.56,60.561422,PASS,data/measurement/source_extracts/tokopedia_fy2022_2023_revenue_components.csv
 Tokopedia share from higher gross revenue (%),39.44,39.438578,PASS,data/measurement/source_extracts/tokopedia_fy2022_2023_revenue_components.csv

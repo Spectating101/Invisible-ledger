@@ -74,8 +74,8 @@ The official 2024 BPS publication reports:
 The executed growth decomposition for 2023–2024 reports:
 
 - total nominal e-commerce transaction value growth of 17.08%;
-- marketplace-component growth of 1.42%;
-- non-marketplace-component growth of 20.58%;
+- marketplace-component growth of 1.45%;
+- non-marketplace-component growth of 20.57%;
 - estimated e-commerce-business growth of 15.31%;
 - implied nominal transaction value per estimated business growth of 1.54%.
 

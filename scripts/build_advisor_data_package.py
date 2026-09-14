@@ -5,7 +5,7 @@ from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from openpyxl.utils import get_column_letter
 
 R='/home/phyrexian/Downloads/Invisible-ledger/'
-OUT='/home/phyrexian/Downloads/llm_automation/project_portfolio/Solarpunk-bitcoin/Invisible_Ledger_Data_Package_2026-09-14.xlsx'
+OUT='/home/phyrexian/Downloads/Invisible-ledger/papers/advisor_package/Invisible_Ledger_Data_Package_2026-09-14.xlsx'
 rows=lambda p: list(csv.DictReader(open(R+p)))
 
 wb=Workbook(); wb.remove(wb.active)

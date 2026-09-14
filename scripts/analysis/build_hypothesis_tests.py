@@ -229,9 +229,17 @@ def bps_growth_anatomy(national: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFra
             marketplace = indicator_value(national, year, "marketplace_transaction_value")
             marketplace_status = "direct_official_estimate"
         elif year == 2024:
-            share = indicator_value(national, year, "marketplace_share_of_transaction_value") / 100
-            marketplace = total * share
-            marketplace_status = "derived_from_official_total_and_share"
+            # Prefer the directly published amount. Reconstructing from the rounded
+            # 15.79 percent share discards precision and shifts component growth by
+            # ~0.03pp (1.4162 vs 1.4451), which propagates into the headline share of
+            # the nominal increase falling outside the marketplace component.
+            try:
+                marketplace = indicator_value(national, year, "marketplace_transaction_value")
+                marketplace_status = "direct_official_estimate"
+            except IndexError:
+                share = indicator_value(national, year, "marketplace_share_of_transaction_value") / 100
+                marketplace = total * share
+                marketplace_status = "derived_from_official_total_and_share"
         levels.append(
             {
                 "year": year,
@@ -694,9 +702,10 @@ published growth calculation.
 
 The 2023–2024 marketplace component grew approximately
 {growth_2324.marketplace_component_growth_pct:.2f}%, while the non-marketplace
-component grew {growth_2324.nonmarketplace_component_growth_pct:.2f}%. The 2024
-component is derived mechanically from BPS's published total and share. This
-supports treating non-marketplace digital commerce as central to the national
+component grew {growth_2324.nonmarketplace_component_growth_pct:.2f}%. Both years
+use directly published marketplace amounts (Rp200.68T, Rp203.58T); the 2024 amount
+reconciles to BPS's published 15.79 percent share and is preferred over
+reconstructing from that rounded share. This supports treating non-marketplace digital commerce as central to the national
 measurement question rather than equating e-commerce with platform marketplaces.
 
 ## Province evidence does not validate a business-level recordkeeping effect
