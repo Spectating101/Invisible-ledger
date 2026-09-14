@@ -44,7 +44,7 @@ throughout with the single Rp figure carrying a USD conversion.
 | A | "take rate" used undefined, after she asked what it means and supplied the definition herself | Defined at first use, with the Ecosystem Ratio given as its complement, *E = 1/(take rate) − 1* |
 | A | BPS and PMK never expanded anywhere in the document | Both expanded at first occurrence |
 | I | The GDP-share framing she proposed herself was absent entirely | §5.1 now reports ~2.9% of 2023 GDP, with World Bank and FRED figures agreeing to 0.0002%, and states plainly that the wedge is not value added |
-| J | No references section at all, despite ~17 inline citations | Full references section added |
+| J | ~~No references section at all~~ **Retracted — this finding was wrong.** The audit grepped the markdown source, but the references section is emitted by the build script, so it was present in the built document all along. A duplicate was briefly added and has been removed. | Berg et al. (2020), *Review of Financial Studies*, added to the existing list |
 | J | Abstract 171 words against her stated 100–150 | 149 words |
 | A/J | Appendix A gave variable definitions but not data sources, which she asked for in August | Data-source table added by evidence tier |
 
@@ -112,13 +112,14 @@ exactly the asymmetry the invisible wedge measures.
 **Barrios, Hochberg and Yi (2022),** *Journal of Financial Economics* — **A+** — was already cited;
 the sentence now names the journal and states what the paper contributes.
 
-**Denes, Lagaras and Tsoutsoura (2025) has been removed.** Its publication details could not be
-verified from any source in this repository, and an unverifiable citation in a submitted proposal is a
-worse outcome than a shorter reference list. The sentence it shared with Barrios et al. was rewritten
-to stand on the verified citation alone.
+**Denes, Lagaras and Tsoutsoura (2025) is retained.** It was briefly removed as unverifiable, which
+was a mistake with the same root cause: the reference list lives in the build script's content module,
+not the markdown, and it carries the entry in full — *Entrepreneurship and the gig economy: Evidence
+from U.S. tax returns*, Journal of Financial Economics, 173, 104156. JFE is A+ on the advisor's own
+ranking, so this is a finance citation that was already in place.
 
-The list now carries 28 entries, of which four are finance or accounting — **two of them in A+
-journals**. That is a real improvement on the balance she objected to, but it is still a minority.
+The built list carries 20 entries, of which five are finance or accounting — **three of them in A+
+journals** (Barrios et al. and Denes et al. in JFE, Berg et al. in RFS). That is a real improvement on the balance she objected to, but it is still a minority.
 
 ## What remains, and why it is not done here
 

@@ -92,7 +92,7 @@ Platform participants occupy an unusual position in this literature. Their trans
 
 A central result in public finance is that tax compliance depends strongly on third-party information and remittance structure. Kleven et al. (2011) find an evasion rate of 0.3 percent on income subject to third-party reporting versus 37 percent on self-reported income in Denmark. Pomeranz (2015) shows that the VAT paper trail creates self-enforcement across firms, while Naritomi (2019) demonstrates that consumer-held records can raise reported sales. Kleven, Kreiner and Saez (2016) formalise firms as fiscal intermediaries, and Slemrod (2019) places information reporting and remittance regimes among the core instruments of modern enforcement.
 
-Platform work creates a new configuration: a large intermediary may hold detailed transaction records even where there is no comprehensive obligation to report seller or worker income. The administrative problem is therefore not necessarily a lack of data generation; it can be the absence, incompleteness, or fragmentation of the reporting rule. Barrios, Hochberg and Yi (2022), writing in the *Journal of Financial Economics*, further show that platform-mediated work leaves economically meaningful financial and administrative traces, linking gig-economy activity to measurable new business formation.
+Platform work creates a new configuration: a large intermediary may hold detailed transaction records even where there is no comprehensive obligation to report seller or worker income. The administrative problem is therefore not necessarily a lack of data generation; it can be the absence, incompleteness, or fragmentation of the reporting rule. Barrios, Hochberg and Yi (2022) and Denes, Lagaras and Tsoutsoura (2025), both in the *Journal of Financial Economics*, further show that platform-mediated work leaves economically meaningful financial and administrative traces; the latter observes gig activity directly in U.S. tax returns.
 
 ### 2.5 Digital taxation and platform-reporting rules
 
@@ -265,66 +265,6 @@ Both decisions change the reported transition counts, and neither should be desc
 | Before final defence | Rebuild the manuscript under the approved sample; retain supporting modules only where they advance the final argument. |
 
 Table 8 sets out the remaining work. The empirical backend is already assembled and source-linked; what remains is the sample-admission decision, any analysis the committee requests, and manuscript construction. The schedule therefore depends on the examination outcome rather than on further data collection.
-
----
-
-## References
-
-Armstrong, M. (2006). Competition in two-sided markets. *RAND Journal of Economics*, 37(3), 668–691.
-
-Barrios, J. M., Hochberg, Y. V., and Yi, H. (2022). Launching with a parachute: The gig economy and new business formation. *Journal of Financial Economics*, 144(1), 22–43.
-
-Berg, T., Burg, V., Gombović, A., and Puri, M. (2020). On the rise of FinTechs: Credit scoring using digital footprints. *Review of Financial Studies*, 33(7), 2845–2897.
-
-BPS-Statistics Indonesia. (2025a). *E-Commerce Statistics 2023*. Jakarta: BPS.
-
-BPS-Statistics Indonesia. (2025b). *E-Commerce Statistics 2024*. Jakarta: BPS.
-
-Bukalapak. (2021–2024). Annual and sustainability reports for fiscal years 2020–2024.
-
-Caillaud, B., and Jullien, B. (2003). Chicken and egg: Competition among intermediation service providers. *RAND Journal of Economics*, 34(2), 309–328.
-
-De Franco, G., Kothari, S. P., and Verdi, R. S. (2011). The benefits of financial statement comparability. *Journal of Accounting Research*, 49(4), 895–931.
-
-Evans, D. S., and Schmalensee, R. (2016). *Matchmakers: The New Economics of Multisided Platforms*. Boston: Harvard Business Review Press.
-
-Global Digital Niaga. (2022–2026). Prospectus and annual results releases for Blibli fiscal years 2019–2025.
-
-GoTo Gojek Tokopedia. (2024). *Annual Report 2023*. E-commerce operating metrics and segment note 29.
-
-Grab Holdings. (2024). *Form 20-F and full-year 2023 results release*. U.S. Securities and Exchange Commission.
-
-Hagiu, A., and Wright, J. (2015). Multi-sided platforms. *International Journal of Industrial Organization*, 43, 162–174.
-
-IFRS Foundation. (2021). *IFRIC Update November 2021: Principal versus Agent Considerations*.
-
-Kleven, H. J., Knudsen, M. B., Kreiner, C. T., Pedersen, S., and Saez, E. (2011). Unwilling or unable to cheat? Evidence from a tax audit experiment in Denmark. *Econometrica*, 79(3), 651–692.
-
-Kleven, H. J., Kreiner, C. T., and Saez, E. (2016). Why can modern governments tax so much? An agency model of firms as fiscal intermediaries. *Economica*, 83(330), 219–246.
-
-La Porta, R., and Shleifer, A. (2014). Informality and development. *Journal of Economic Perspectives*, 28(3), 109–126.
-
-Medina, L., and Schneider, F. (2019). *Shedding Light on the Shadow Economy: A Global Database and the Interaction with the Official One*. CESifo Working Paper No. 7981.
-
-Ministry of Finance of the Republic of Indonesia. (2025). *PMK 37 Tahun 2025*.
-
-Momentum Works. (2024). *Ecommerce in Southeast Asia 2024*. Singapore: Momentum Works.
-
-Naritomi, J. (2019). Consumers as tax auditors. *American Economic Review*, 109(9), 3031–3072.
-
-OECD. (2020). *Model Rules for Reporting by Platform Operators with respect to Sellers in the Sharing and Gig Economy*. Paris: OECD Publishing.
-
-Parker, G. G., and Van Alstyne, M. W. (2005). Two-sided network effects: A theory of information product design. *Management Science*, 51(10), 1494–1504.
-
-Pomeranz, D. (2015). No taxation without information: Deterrence and self-enforcement in the value added tax. *American Economic Review*, 105(8), 2539–2569.
-
-Rochet, J.-C., and Tirole, J. (2003). Platform competition in two-sided markets. *Journal of the European Economic Association*, 1(4), 990–1029.
-
-Sea Limited. (2024). *Form 20-F for fiscal year 2023*. U.S. Securities and Exchange Commission.
-
-Slemrod, J. (2019). Tax compliance and enforcement. *Journal of Economic Literature*, 57(4), 904–954.
-
-Ulyssea, G. (2018). Firms, informality, and development: Theory and evidence from Brazil. *American Economic Review*, 108(8), 2015–2047.
 
 ---
 

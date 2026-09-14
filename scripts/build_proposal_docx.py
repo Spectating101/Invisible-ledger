@@ -95,15 +95,17 @@ for kind,val in blocks:
     else:
         if val.startswith('Table '): para(val,size=9.5,italic=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=7,sa=2,keep=True)
         else: para(val)
-import sys as _s; _s.path.insert(0,'/tmp/prop')
+import sys as _s; _s.path.insert(0, REPO+'scripts/proposal_content')
 from content import REFS, PRIM_HEAD, PRIM_NOTE, PRIM
 para('References',style='Heading 1',size=13,bold=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=9,sa=4,keep=True)
 for _r in REFS:
-    _p=para(_r,size=11,sa=2); _p.paragraph_format.left_indent=Pt(18); _p.paragraph_format.first_line_indent=Pt(-18)
-para(PRIM_HEAD,style='Heading 1',size=13,bold=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=9,sa=4,keep=True)
-para(PRIM_NOTE,size=11)
-for _r in PRIM:
-    _p=para(_r,size=11,sa=2); _p.paragraph_format.left_indent=Pt(18); _p.paragraph_format.first_line_indent=Pt(-18)
+    _p=para(_r,size=11,sa=1); _p.paragraph_format.left_indent=Pt(18); _p.paragraph_format.first_line_indent=Pt(-18)
+para(PRIM_HEAD,style='Heading 1',size=13,bold=True,align=WD_ALIGN_PARAGRAPH.LEFT,sb=6,sa=3,keep=True)
+para(PRIM_NOTE,size=11,sa=3)
+# Keep the source list together; at sa=2 its last two entries orphaned onto a page of their own.
+for _i,_r in enumerate(PRIM):
+    _p=para(_r,size=11,sa=1); _p.paragraph_format.left_indent=Pt(18); _p.paragraph_format.first_line_indent=Pt(-18)
+    # (no keep_with_next: forcing the block together only moved the stub page)
 
 for s in d.sections:
     for c in (s.header,s.footer):
