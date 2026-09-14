@@ -162,7 +162,7 @@ The study is not a single-fiscal-year design. Table 4 lists the seven retained m
 | Direct Indonesian issuer candidates | FY2019–FY2025 | 13 period-matched; 12 with positive denominators | Candidate longitudinal core |
 | Conditional country reconstructions | FY2021–FY2024 | 6 Grab/Shopee platform-years | Sensitivity only |
 | Indonesia marketplace structure | 2022–2025 | Market-share and platform-structure evidence | Coverage and structural breaks |
-| BPS official e-commerce evidence | 2020–2024 | National indicators; 39 provinces, 2023 and 2024 | Activity, channels, recordkeeping |
+| BPS official e-commerce evidence | 2020–2024 | National indicators; province evidence for 2023–2024, with 36 common complete provinces in the change analysis | Activity, channels, recordkeeping |
 | ASEAN corroboration | 2019–2025 | 42 country-years from 450 source-vintage rows | Separate-country robustness |
 | Global issuer corroboration | Multi-year | 48 matched issuer-years, 8 businesses | Business-model corroboration |
 | Historical quarterly accounting | 2017–2022 | 47 company/segment-quarters | Historical disclosure evidence |
@@ -223,7 +223,7 @@ Across **48 matched issuer-years for eight non-Indonesian platform businesses** 
 
 ### 5.5 BPS and wider Indonesian e-commerce activity
 
-BPS reports national e-commerce transaction value rising from **Rp1,100.87 trillion in 2023 to Rp1,288.93 trillion in 2024 (+17.08%)**, approximately US$72.2 billion to US$81.4 billion, while estimated e-commerce businesses rise from **3,816,750 to 4,400,972 (+15.31%)**. In the current channel decomposition, the marketplace component grows approximately **1.42 percent** while the non-marketplace component grows approximately **20.58 percent**, so roughly **98.49 percent** of the nominal increase falls outside the marketplace component. These aggregates provide a wider view of Indonesian e-commerce activity; they are not reconciled one-for-one to issuer transaction value and do not establish a firm-level causal effect.
+BPS reports national e-commerce transaction value rising from **Rp1,100.87 trillion in 2023 to Rp1,288.93 trillion in 2024 (+17.08%)**, approximately US$72.2 billion to US$81.4 billion, while estimated e-commerce businesses rise from **3,816,750 to 4,400,972 (+15.31%)**. The 2023 business count is taken from the BPS main body/figure, which reconciles to the displayed 2022 count and its stated growth rate; an executive-summary passage in the same publication reports 3,934,981. The conflict is unresolved at source, is recorded in `data/bps_official/README.md` and in the repository's data-quality findings, and business-count growth is therefore reported as descriptive context rather than as a load-bearing result. In the current channel decomposition, the marketplace component grows approximately **1.42 percent** while the non-marketplace component grows approximately **20.58 percent**, so roughly **98.49 percent** of the nominal increase falls outside the marketplace component. These aggregates provide a wider view of Indonesian e-commerce activity; they are not reconciled one-for-one to issuer transaction value and do not establish a firm-level causal effect.
 
 ### 5.6 PMK 37/2025 and reporting architecture
 
@@ -295,10 +295,27 @@ Both decisions change the reported transition counts, and neither should be desc
 
 ## Verification status
 
-Every empirical figure in this file was checked against committed repository outputs or named primary sources during the 2026-09-14 session; the per-claim record is in `docs/PROPOSAL_REBUILD_AND_AUDIT_2026-09-14.md`. That check should nevertheless be **re-run against this file specifically** before any DOCX is generated — the audit was performed on the 10-page proposal, and this file is a different arrangement of the same claims.
+Every load-bearing figure in **this file** was re-verified against committed repository outputs on
+2026-09-14. The per-claim result is committed as
+`outputs/verification_2026-09-14/merged_candidate_claim_ledger.csv`:
+**46 claims checked, 46 PASS**, each row naming the claim, the value stated in the proposal, the value
+reproduced from source, and the source file.
+
+This supersedes the earlier note that the check still needed re-running; the audit in
+`docs/PROPOSAL_REBUILD_AND_AUDIT_2026-09-14.md` was performed against the 10-page proposal, and the
+ledger above was produced against this file specifically.
+
+Two source-level caveats survive verification and are disclosed in the text rather than resolved:
+
+- **BPS 2023 business count.** 3,816,750 (main body/figure) versus 3,934,981 (executive summary) in the
+  same publication. The former is used because it reconciles to the displayed 2022 count and stated
+  growth rate. Reproducing 15.31% confirms the arithmetic, not the source conflict.
+- **Province coverage.** The change analysis uses 36 common complete provinces, not a full 39-province
+  panel in both years.
 
 Known gaps that remain open regardless of this file:
 
 - never opened in Microsoft Word;
-- `main` is behind six `research/*` branches, including `research-synthesis-20260910` which holds the tier reconciliation cited above;
-- the advisor's 9 September request to review the dataset before any rewrite is still unanswered.
+- the advisor's 9 September request to review the dataset before any rewrite is still unanswered;
+- `main` now carries `docs/EMPIRICAL_TIER_RECONCILIATION_2026-09-10.md`, so the 9-vs-12 authority no
+  longer depends on a branch, but the other five `research/*` branches remain unmerged.
