@@ -7,18 +7,24 @@ from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-SRC_MD='/home/phyrexian/Downloads/Invisible-ledger/docs/PROPOSAL_MERGED_CANDIDATE_2026-09-14.md'
+import sys as _sys
+# Optional argv override so compression candidates can be rendered without editing the script:
+#   build_proposal_docx.py [source.md] [output.docx]
+SRC_MD=(_sys.argv[1] if len(_sys.argv)>1 else
+        '/home/phyrexian/Downloads/Invisible-ledger/docs/PROPOSAL_MERGED_CANDIDATE_2026-09-14.md')
 REPO='/home/phyrexian/Downloads/Invisible-ledger/'
 # The template still lives in the sibling working directory; the output must land in
 # the repo, or a rebuild silently leaves papers/current/ stale.
 TPL=REPO+'papers/reference/Invisible_Ledger_Proposal_FLASHPOINT_GRAFT_PLAIN_FINAL_2026-09-13.docx'
-OUT=REPO+'papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+OUT=(_sys.argv[2] if len(_sys.argv)>2 else
+     REPO+'papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx')
 TITLE_ZH="隱形帳簿：量化印尼平台經濟中的隱形楔子"
 TITLE_EN="The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia's Platform Economy"
 
 md=open(SRC_MD,encoding='utf8').read()
 md=md.split('## Abstract',1)[1]
 md='## Abstract'+md
+md=md.split('## Compression notes')[0]
 md=md.split('## Change log against')[0]          # drop change log + verification from the proposal body
 md=md.split('## Verification status')[0]
 
