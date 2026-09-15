@@ -1,0 +1,17 @@
+name: Export current proposal PDF
+on:
+  push:
+    branches:
+      - render/current-proposal-c788ba0
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exact-current-proposal-pdf-c788ba0
+          path: papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          if-no-files-found: error
