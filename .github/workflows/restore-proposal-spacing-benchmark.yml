@@ -16,10 +16,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libreoffice poppler-utils
           pip install python-docx
-      - name: Verify main base and apply benchmark spacing
+      - name: Verify proposal base and apply benchmark spacing
         run: |
           git fetch origin main
-          test "$(git rev-parse origin/main)" = "c788ba004750c7b1f7e4720441a1704fe1c64f2d"
+          test "$(git rev-parse origin/main:papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx)" = "aac0779d0812a7ed9691cbb87a90c6937787d915"
+          test "$(git rev-parse origin/main:papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf)" = "5b442b07276322cd0a0d6a3d22a97a94d2eea247"
           git checkout -B main origin/main
           python - <<'PY'
           from docx import Document
