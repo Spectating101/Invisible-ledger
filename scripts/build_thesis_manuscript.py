@@ -181,12 +181,12 @@ for t in ['direct_indonesia_aligned_segment','direct_issuer_scope_pending','cond
 tier_rows.append(['**All tiers (diagnostic)**','five series',len(levels),int(allt.transitions),'—'])
 w(tbl(tier_rows))
 w()
-w('The inventory holds **%d candidate platform-year levels** across five series from FY2019 to FY2025. '
+w('The inventory holds **%d candidate platform-year levels** across five series from FY%d to FY%d. '
   'Under the **%s** boundary used here, **%d levels** enter the main sample. Tokopedia is the strongest '
   'Indonesia-aligned segment but is not a literal country line; Blibli 3P Retail includes online travel; '
   'Bukalapak reports at Group scope with overseas operations; Grab and Shopee each require a derived or '
   'externally estimated country component. Tokopedia FY2021 and Bukalapak FY2024 are excluded because '
-  'transaction and revenue periods do not match.' % (len(levels), BOUNDARY, len(in_scope)))
+  'transaction and revenue periods do not match.' % (len(levels), levels.year.min(), levels.year.max(), BOUNDARY, len(in_scope)))
 w()
 w('Three counts are intentionally different and are never collapsed into one *N*: the all-tier inventory '
   'holds %d retained levels; the executed direct tiers hold 11 levels; and the broader direct-candidate '

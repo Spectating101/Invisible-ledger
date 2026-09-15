@@ -72,7 +72,7 @@ A platform-period is eligible only when transaction value and revenue cover the 
 | conditional country reconstruction | Grab; Shopee | 6 | 4 | no |
 | **All tiers (diagnostic)** | five series | 17 | 12 | — |
 
-The inventory holds **17 candidate platform-year levels** across five series from FY2019 to FY2025. Under the **direct_plus_scope_pending** boundary used here, **11 levels** enter the main sample. Tokopedia is the strongest Indonesia-aligned segment but is not a literal country line; Blibli 3P Retail includes online travel; Bukalapak reports at Group scope with overseas operations; Grab and Shopee each require a derived or externally estimated country component. Tokopedia FY2021 and Bukalapak FY2024 are excluded because transaction and revenue periods do not match.
+The inventory holds **17 candidate platform-year levels** across five series from FY2020 to FY2025. Under the **direct_plus_scope_pending** boundary used here, **11 levels** enter the main sample. Tokopedia is the strongest Indonesia-aligned segment but is not a literal country line; Blibli 3P Retail includes online travel; Bukalapak reports at Group scope with overseas operations; Grab and Shopee each require a derived or externally estimated country component. Tokopedia FY2021 and Bukalapak FY2024 are excluded because transaction and revenue periods do not match.
 
 Three counts are intentionally different and are never collapsed into one *N*: the all-tier inventory holds 17 retained levels; the executed direct tiers hold 11 levels; and the broader direct-candidate sensitivity holds 13 periods, including a Blibli FY2020 prospectus observation, yielding 9 annual transitions.
 
