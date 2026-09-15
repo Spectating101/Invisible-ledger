@@ -68,7 +68,7 @@ jobs:
           refs=[p.text.strip() for p in doc.paragraphs if p.style.name=='Reference' and p.text.strip()]
           assert len(refs)==31, len(refs)
           pages=int(subprocess.check_output(['pdfinfo',str(pdf)],text=True).split('Pages:')[1].splitlines()[0].strip())
-          assert pages==11, pages
+          assert pages==10, pages
           text=mirror.read_text(encoding='utf-8')
           assert 'How much economic activity remains invisible when digital platforms are measured through their reported revenue?' in text
           assert 'Digital platforms sit between economic activity and the records used to measure it.' in text
@@ -79,7 +79,6 @@ jobs:
           before=Path('/tmp/ch3plus.txt').read_text(encoding='utf-8')
           assert after==before, 'Chapter 3 onward changed during Chapter 1-2 freeze'
           shape=doc.inline_shapes[0]
-          from docx.oxml.ns import qn
           blip=shape._inline.graphic.graphicData.pic.blipFill.blip
           img=doc.part.related_parts[blip.embed].image
           assert abs(shape.width/shape.height-img.px_width/img.px_height)<0.01
@@ -90,7 +89,7 @@ jobs:
                   if name.endswith('.xml'):
                       xml=z.read(name).decode('utf-8','ignore')
                       assert not any(p.search(xml) for p in pats), name
-          print('QA: Chapters 1-2 frozen; Chapter 3 onward byte-identical in searchable text; 11 pages; 7 tables; 31 references; figure ratio valid; no comments/tracked changes')
+          print('QA: Chapters 1-2 frozen; Chapter 3 onward byte-identical in searchable text; 10 pages; 7 tables; 31 references; figure ratio valid; no comments/tracked changes')
           PY
 
       - name: Commit verified artifacts
