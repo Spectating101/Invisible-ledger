@@ -19,7 +19,7 @@ jobs:
       - name: Verify proposal base and apply benchmark spacing
         run: |
           git fetch origin main
-          git diff --quiet c788ba004750c7b1f7e4720441a1704fe1c64f2d origin/main -- papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          test "$(git rev-parse origin/main)" = "9ad06ce8a9fbf5672514cbeba1d8e0ffcc417fd0"
           git checkout -B main origin/main
           python - <<'PY'
           from docx import Document
