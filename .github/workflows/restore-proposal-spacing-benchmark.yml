@@ -1,4 +1,4 @@
-name: Finalize proposal close and references
+name: Start proposal references on page 9
 on:
   push:
     branches: [fix/restore-proposal-spacing-benchmark-20260915]
@@ -16,106 +16,29 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libreoffice poppler-utils
           pip install python-docx
-      - name: Apply final close and reference-page break
+      - name: Force References to a fresh page
         run: |
           git fetch origin main
-          test "$(git rev-parse origin/main)" = "30ee1ba24357c8c2a49fe709ce77c687865421a6"
+          test "$(git rev-parse origin/main)" = "40f6e4492b2a288b84166c280624f481e14ff2f8"
           git checkout -B main origin/main
           python - <<'PY'
-          from copy import deepcopy
           from docx import Document
-          from docx.shared import Pt
-          from docx.oxml import OxmlElement
-          from docx.text.paragraph import Paragraph
           from zipfile import ZipFile
           import hashlib
 
           path='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
-          closing=(
-              "The final thesis will therefore focus on measuring how transaction value and "
-              "platform-recognized revenue diverge, how that relationship changes over time, "
-              "and which disclosed mechanisms help explain those changes. The remaining work "
-              "is primarily to finalize the admissible sample and complete the planned robustness "
-              "checks. Once that boundary is fixed, the study can provide a consistent and auditable "
-              "account of the invisible wedge in Indonesia's platform economy while keeping its "
-              "conclusions within the limits of the available evidence."
-          )
-
           doc=Document(path)
-          before_nonempty=[p.text for p in doc.paragraphs if p.text.strip()]
+          before_text=[p.text for p in doc.paragraphs]
           before_tables=[[c.text for r in t.rows for c in r.cells] for t in doc.tables]
           with ZipFile(path) as z:
               before_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
 
-          # Restore the previously approved spacing grammar everywhere it matters.
-          for p in doc.paragraphs:
-              t=p.text.strip()
-              if t=='4. Data and Methodology':
-                  p.paragraph_format.space_before=Pt(8.0)
-              elif t.startswith((
-                  'Table 2 shows that only two of the seventeen retained levels',
-                  'Table 3 reports the FY2023 cross-section.',
-                  'Table 4 compares the two admission rules.',
-                  'Table 5 summarizes the inferential boundaries',
-              )):
-                  p.paragraph_format.space_before=Pt(5.0)
-                  p.paragraph_format.space_after=Pt(2.5)
-                  p.paragraph_format.keep_with_next=False
-              elif t.startswith('Figure 1 makes two features'):
-                  p.paragraph_format.space_before=Pt(4.5)
-                  p.paragraph_format.space_after=Pt(2.5)
-                  p.paragraph_format.keep_with_next=False
-              elif t.startswith('Every figure used in this proposal traces'):
-                  p.paragraph_format.space_before=Pt(5.0)
-                  p.paragraph_format.space_after=Pt(3.0)
-                  p.paragraph_format.keep_with_next=False
-
-          appendix=next(p for p in doc.paragraphs if p.text.strip()=='Appendix A - data sources by evidence class')
-          appendix.paragraph_format.space_before=Pt(8.0)
-
-          # Remove the old empty spacer immediately before Appendix A, if present.
-          prev=appendix._p.getprevious()
-          if prev is not None and prev.tag.endswith('}p'):
-              pp=Paragraph(prev, appendix._parent)
-              if not pp.text.strip():
-                  prev.getparent().remove(prev)
-
-          # Insert one compact synthesis paragraph after Table 6 and before Appendix A.
-          assert closing not in [p.text for p in doc.paragraphs]
-          new_p=OxmlElement('w:p')
-          appendix._p.addprevious(new_p)
-          cp=Paragraph(new_p, appendix._parent)
-          cp.style=doc.styles['Normal']
-          cp.paragraph_format.space_before=Pt(5.0)
-          cp.paragraph_format.space_after=Pt(3.0)
-          cp.paragraph_format.line_spacing=1.0291666666666666
-          cp.paragraph_format.keep_with_next=False
-          run=cp.add_run(closing)
-          run.font.name='Times New Roman'
-          run.font.size=Pt(12)
-          run.bold=False
-          run.italic=False
-
-          # References should begin cleanly on page 9, not be stranded at the foot of page 8.
           refs=next(p for p in doc.paragraphs if p.text.strip()=='References')
           refs.paragraph_format.page_break_before=True
-
           doc.save(path)
 
           after=Document(path)
-          after_nonempty=[p.text for p in after.paragraphs if p.text.strip()]
-          assert len(after_nonempty)==len(before_nonempty)+1
-          assert after_nonempty.count(closing)==1
-          old_iter=iter(before_nonempty)
-          for txt in after_nonempty:
-              if txt==closing:
-                  continue
-              assert txt==next(old_iter)
-          try:
-              next(old_iter)
-              raise AssertionError('lost original paragraph')
-          except StopIteration:
-              pass
+          assert [p.text for p in after.paragraphs]==before_text
           assert [[c.text for r in t.rows for c in r.cells] for t in after.tables]==before_tables
           assert len(after.tables)==7
           assert len(after.inline_shapes)==1
@@ -126,7 +49,7 @@ jobs:
           with ZipFile(path) as z:
               after_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
           assert after_media==before_media
-          print('Final close inserted; benchmark spacing and figure preserved; references page break set.')
+          print('Document content preserved; References page break set.')
           PY
       - name: Render PDF and release gates
         run: |
@@ -153,12 +76,12 @@ jobs:
                   if n.endswith('.xml'):
                       x=z.read(n).decode('utf-8','ignore')
                       assert not any(q.search(x) for q in pats), n
-          print('QA: 9 pages; references start on page 9; 7 tables; 31 references; clean review state.')
+          print('QA: 9 pages; References starts on page 9; 7 tables; 31 references; clean review state.')
           PY
-      - name: Commit finalized proposal to main
+      - name: Commit proposal layout to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
-          git commit -m "Finalize proposal close and reference-page layout"
+          git commit -m "Start proposal references on a fresh page"
           git push origin main
