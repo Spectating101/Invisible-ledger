@@ -1,0 +1,44 @@
+name: Sync canonical proposal text
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+      - scripts/export_canonical_proposal_text.py
+      - .github/workflows/sync-canonical-proposal-text.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install exporter dependency
+        run: pip install python-docx
+
+      - name: Export searchable text from canonical DOCX
+        run: python scripts/export_canonical_proposal_text.py
+
+      - name: Commit mirror only if this run is still current
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "A newer main commit exists; leave synchronization to the newer run."
+            exit 0
+          fi
+          git add papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md
+          if git diff --cached --quiet; then
+            echo "Canonical searchable mirror already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync canonical proposal searchable text"
+          git push origin main
