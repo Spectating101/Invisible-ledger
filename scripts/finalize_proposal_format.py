@@ -165,15 +165,17 @@ for i, paragraph in enumerate(doc.paragraphs):
 # Tables are identified by header text, not position, so inserting or removing a table cannot
 # shift widths onto the wrong one. Every table spans the 9547-dxa text width.
 WIDTHS = {
-    "Hypothesis":    [3900, 5647],
-    "Evidence tier": [2835, 3402, 1655, 1655],
-    "Case":          [2721, 879, 879, 879, 935, 3254],
-    "":              [3816, 2865, 2865],
-    "Claim":         [3100, 6447],
-    "Period":        [2232, 7315],
-    "Tier":          [2160, 2160, 3096, 2131],
+    "Hypothesis":       [3300, 6247],
+    "Type of evidence": [2700, 3100, 1300, 2447],
+    "Platform":         [1500, 2700, 2800, 2547],
+    "Evidence source":  [2600, 3600, 3347],
+    "Case":             [2000, 1250, 1050, 1050, 1250, 2947],
+    "Question":         [2300, 4100, 3147],
+    "Claim":            [3100, 6447],
+    "Period":           [2232, 7315],
+    "Evidence type":    [2000, 2100, 2900, 2547],
 }
-MARGIN_LR = {"Case": 35, "Evidence tier": 35}
+MARGIN_LR = {"Case": 35, "Type of evidence": 35}
 
 for table in doc.tables:
     table.autofit = False

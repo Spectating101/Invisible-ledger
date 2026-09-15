@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `e675c9ee8218ac904999f18b80dc4d8e15d3425fe05fd010f8869ccac9e18414`.
+Source DOCX SHA-256: `4f0392f78d616a5adb1e2e3879ef72a9290cb92e2a994cbb9cefc1272024ac52`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -24,19 +24,19 @@ The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia's Platform Ec
 
 ## Abstract
 
-The economic measurement of platform-based commerce rests on records that do not describe the same thing. Platform revenue, e-commerce statistics and payment data are commonly used as interchangeable indicators of digital activity, although each captures a different side of the boundary between the value a platform processes and the revenue it records. This paper measures that boundary for Indonesia, where I term it the invisible wedge, using issuer disclosures for 2020-2025. In FY2023, three documented platform cases processed transaction value 13.7 times their recognised revenue, a wedge of US$40.07 billion or 2.9 percent of GDP, and the wedge stays above US$20 billion when any single platform is excluded. Within platform series, revenue grew faster than transaction value in 10 of 12 annual transitions, with a median divergence of 42 percentage points. Official statistics place 98.5 percent of Indonesia's 2023-2024 e-commerce growth outside the marketplace channel that platform accounts record, while digital payment value grew up to eleven times as fast as e-commerce value. Each of these records misstates both the size of the digital economy and where it is growing.
+Digital economy is measured through records that do not describe the same thing. Platform revenue, e-commerce statistics and payment data are used as interchangeable measures of digital activity, yet each captures a different side of the boundary between the value a platform processes and the revenue it recognizes. I define the difference between transaction value and platform-recognized revenue as the invisible wedge and show that substituting one record for another misstates both the size of the digital economy and where it is growing. Indonesia, the largest digital market in Southeast Asia, is the empirical setting. In 2023, Tokopedia, Shopee and Grab processed US$43.23 billion of transaction value against US$3.16 billion of recognized revenue, a ratio of 13.7 to 1 and a wedge of US$40.07 billion that stays above US$20 billion when any one platform is excluded. Between 2020 and 2025, revenue grew faster than transaction value in ten of twelve year-to-year comparisons, so platform revenue understates the level of platform commerce and overstates its growth. National statistics place 98.5 percent of Indonesia's 2023-2024 e-commerce growth outside the marketplace channel, and digital payment value grew up to eleven times as fast as e-commerce value. Evidence from eight platform businesses outside Indonesia shows the same boundary under other business models.
 
 ## 1. Introduction
 
-Southeast Asia's digital economy grew from approximately US$100 billion in 2020 to US$263 billion in 2024 (Google, Temasek and Bain 2020, 2024). Digital platform scale, however, is not the same thing as platform revenue. Platforms record transactions, determine participant payouts, and book their own revenue, while national statistics and payment systems record other parts of the same economic activity. These measures are often used interchangeably even though they do not measure the same thing. This paper argues that doing so can produce systematically wrong conclusions about the scale and growth of platform economies.
+Southeast Asia's digital economy grew from approximately US$100 billion in 2020 to US$263 billion in 2024 (Google, Temasek and Bain 2020, 2024). Digital platform scale, however, is not the same thing as platform revenue. Platforms record transactions, determine participant payouts, and book their own revenue, while national statistics and payment systems record other parts of the same economic activity. These measures are used interchangeably even though they do not measure the same thing. This paper argues that doing so produces systematically wrong conclusions about the scale and growth of platform economies.
 
-Suppose a platform processes 100 units of transaction value but recognizes only 10 as revenue. The remaining 90 are still recorded within the platform's system but do not constitute platform revenue; they may represent merchant receipts, driver payouts, inventory costs, taxes, and other pass-through payments. An analyst using the platform's accounts sees 10, while one measuring the commerce it processes sees 100. I call the difference the invisible wedge.
+Suppose a platform processes 100 units of transaction value but recognizes only 10 as revenue. The remaining 90 are still recorded within the platform's system but do not constitute platform revenue; they are merchant receipts, driver payouts, inventory costs, taxes, and other pass-through payments. An analyst using the platform's accounts sees 10, while one measuring the commerce it processes sees 100. I call the difference the invisible wedge.
 
-Indonesia provides a useful empirical setting because several records of the same activity can be compared. Platform companies disclose transaction and revenue information; BPS-Statistics Indonesia, the national statistical agency, reports e-commerce activity; and Bank Indonesia, the country's central bank, reports digital payments. In 2023, the platform comparison covers Shopee and Tokopedia, which together represented about 70 percent of estimated Indonesian marketplace transaction value, together with Grab, a major intermediary in delivery and other digital services. The three cases processed US$43.23 billion of transaction value against US$3.16 billion of recognized revenue, leaving a US$40.07 billion invisible wedge.
+Indonesia is the empirical setting. It is the largest digital market in Southeast Asia, and several records of the same activity can be compared there. Platform companies disclose transaction and revenue information; BPS-Statistics Indonesia, the national statistical agency, reports e-commerce activity; and Bank Indonesia, the country's central bank, reports digital payments. In 2023, the platform comparison covers Shopee and Tokopedia, which together represented about 70 percent of estimated Indonesian marketplace transaction value, together with Grab, a major intermediary in delivery and other digital services. The three platforms processed US$43.23 billion of transaction value against US$3.16 billion of recognized revenue, leaving a US$40.07 billion invisible wedge that stays above US$20 billion when any one of them is removed.
 
-The difference also changes over time. Across twelve year-to-year comparisons between 2020 and 2025, revenue grew faster than transaction value in ten, with a median divergence of approximately 42 percentage points; in some years the two measures moved in opposite directions. Platform revenue therefore understates the level of platform-mediated commerce while, in most observed years, overstating its growth.
+The difference also changes over time. Across twelve year-to-year comparisons between 2020 and 2025, revenue grew faster than transaction value in ten, and the median absolute gap between the two growth rates was 42 percentage points; in some years the two measures moved in opposite directions. Platform revenue therefore understates the level of platform-mediated commerce and, in most observed years, overstates its growth.
 
-The same problem appears beyond company accounts. BPS reports that national e-commerce value grew 17.1 percent between 2023 and 2024, but about 98.5 percent of that increase occurred outside the marketplace component; digital payment measures reported by Bank Indonesia grew substantially faster still. Indonesia's Minister of Finance Regulation No. 37 of 2025, which introduces seller reporting and withholding through designated marketplaces, provides a further test of how platform-held transaction records enter administrative reporting.
+The same problem appears beyond company accounts. BPS reports that national e-commerce value grew 17.1 percent between 2023 and 2024, but about 98.5 percent of that increase occurred outside the marketplace component, and digital payment value reported by Bank Indonesia grew up to eleven times as fast as e-commerce value. Indonesia's Minister of Finance Regulation No. 37 of 2025, which introduces seller reporting and withholding through designated marketplaces, provides a further test of how platform-held transaction records enter administrative reporting.
 
 ### 1.1 Research question and objectives
 
@@ -52,15 +52,13 @@ A separate comparison of eight platform businesses outside Indonesia tests wheth
 
 First, the study develops the invisible wedge from a one-year estimate into a measure that can be followed over time. From 2020 to 2025, revenue grows faster than transaction value in ten of twelve annual comparisons, showing that platform revenue is not a stable measure of either the level or the growth of platform-mediated commerce.
 
-Second, I examine why the wedge moves using accounting components disclosed by the platforms themselves. Between 2022 and 2023, Tokopedia's transaction value fell 8.9 percent while selected third-party net revenue rose 53.2 percent. About 60.6 percent of the arithmetic increase in net revenue is associated with lower customer incentives, with the remainder associated with higher gross revenue.
+Second, I explain why the wedge moves using accounting components disclosed by the platforms themselves. Between 2022 and 2023, Tokopedia's transaction value fell 8.9 percent while net revenue from its third-party marketplace rose 53.2 percent. Lower customer incentives account for 60.6 percent of that increase in net revenue and higher gross revenue for the remainder.
 
-Third, I extend the comparison beyond company accounts. National e-commerce statistics show that almost all of Indonesia's 2023–2024 growth occurred outside the marketplace component, while digital payment measures grew substantially faster than e-commerce value. The records therefore produce different conclusions about the scale, growth, and location of digital activity.
-
-Fourth, I test whether the main findings survive alternative assumptions, sample rules, and external platform evidence rather than depending on one preferred construction.
+Third, I extend the comparison beyond company accounts. National e-commerce statistics show that almost all of Indonesia's 2023-2024 growth occurred outside the marketplace component, while digital payment value grew up to eleven times as fast as e-commerce value. The records therefore produce different conclusions about the scale, growth, and location of digital activity.
 
 ### 1.3 Positioning the contribution
 
-The contribution is a finance measurement problem before it is a tax-policy one. Platform accounts make the intermediation boundary observable, but that boundary affects the conclusions investors, researchers, statistical agencies, and policymakers draw about scale, growth, and monetization. De Franco, Kothari and Verdi (2011) show why comparable accounting bases matter, while Berg et al. (2020) show that intermediary-held digital traces contain information conventional records can miss. This paper applies those ideas to platform economies and shows that the measure chosen to describe digital activity can change the economic conclusion.
+The contribution is a finance measurement problem before it is a tax-policy one. Platform accounts make the intermediation boundary observable, but that boundary affects the conclusions investors, researchers, statistical agencies, and policymakers draw about scale, growth, and monetization. De Franco, Kothari and Verdi (2011) show why comparable accounting bases matter, while Berg et al. (2020) show that intermediary-held digital traces contain information conventional records can miss. This paper applies those ideas to platform economies and shows that the measure chosen to describe digital activity changes the economic conclusion.
 
 ## 2. Literature Review and Research Gap
 
@@ -76,7 +74,7 @@ Accounting can widen or narrow this difference. Under IFRS 15, whether a company
 
 Activity outside platform revenue is not necessarily unrecorded. Merchants and service providers can be small, self-employed, or weakly represented in conventional financial records while their transactions still leave detailed records inside a digital platform. This differs from the usual shadow-economy problem, where part of the difficulty is that economic activity leaves few reliable formal records (La Porta and Shleifer 2014; Ulyssea 2018; Medina and Schneider 2019). Digital records can contain useful economic information that conventional records miss (Berg et al. 2020), and platform-mediated activity can create additional financial and administrative traces (Barrios, Hochberg and Yi 2022; Denes, Lagaras and Tsoutsoura 2025).
 
-These records also matter once they become available to government. Public-finance research shows that compliance and enforcement change when information about income or transactions is independently reported by third parties (Kleven et al. 2011; Pomeranz 2015; Naritomi 2019; Kleven, Kreiner and Saez 2016; Slemrod 2019). The OECD Model Rules and the European Union's DAC7 regime apply this principle to digital platforms. Indonesia's Minister of Finance Regulation No. 37 of 2025 follows the same logic through seller identification, transaction-linked reporting, and marketplace withholding. The relevance here is informational: transaction records outside platform revenue may still exist and become usable elsewhere.
+These records also matter once they become available to government. Public-finance research shows that compliance and enforcement change when information about income or transactions is independently reported by third parties (Kleven et al. 2011; Pomeranz 2015; Naritomi 2019; Kleven, Kreiner and Saez 2016; Slemrod 2019). The OECD Model Rules (OECD 2020) and the European Union's DAC7 regime (European Union 2021) apply this principle to digital platforms. Indonesia's Minister of Finance Regulation No. 37 of 2025 follows the same logic through seller identification, transaction-linked reporting, and marketplace withholding. The relevance here is informational: transaction records outside platform revenue still exist and can become usable elsewhere.
 
 ### 2.3 Measuring the Digital Economy
 
@@ -90,158 +88,234 @@ Existing research explains the pieces of the problem separately. Platform econom
 
 What remains less clear is how large these differences become in practice, whether they persist over time, and whether choosing one measure instead of another changes the economic conclusion. This thesis addresses that gap by measuring the invisible wedge over time, examining disclosed reasons for major movements, comparing platform accounts with national e-commerce and payment records, and using external platform evidence to test whether the same measurement problem appears beyond the main Indonesian setting.
 
-## 3. Theoretical Framework and Key Variables
+## 3. Theoretical Framework and Hypotheses
 
-Let V denote transaction value and R platform-recognized revenue for a matched platform scope and period. The core measures are:
+Digital platform activity can be observed through several records, but those records do not measure the same economic object. The framework begins with the difference between the value a platform processes and the revenue it recognizes, then asks whether that relationship remains stable over time and whether other records produce the same account of digital activity.
 
-W = V - R E = (V - R) / R D = g(V) - g(R)
+For the platform analysis, transaction value and revenue are paired only when they refer to the same period and business activity. Broader-scope, reconstructed, national-statistical, and payment evidence is kept in separate analytical roles rather than combined into one sample.
 
-W is the absolute invisible wedge; E, the Ecosystem Ratio, is constructed for this study and measures the wedge per unit of platform revenue; and D is the annual growth divergence between transaction value and revenue. A negative D means platform revenue is growing faster than the commerce behind it.
+### 3.1 Measurement Framework
 
-Gross transaction value (GTV) is the proposal's common label for the value processed through a platform. Issuer terminology differs: Sea Limited and Blibli use GMV, Grab uses GMV for deliveries and TPV for financial services, and GoTo uses GTV. The source labels and business perimeters are retained in the empirical files, and the main longitudinal comparisons are made within named series.
+Let Vit denote transaction value processed by platform i in year t, and Rit the revenue it recognizes over the same period and business scope. The absolute invisible wedge is:
 
-### 3.1 Hypotheses
+Wit = Vit − Rit
 
-The framework yields four hypotheses, set out in Table 1 with the evidence already assembled for each. H4 is the central claim of the thesis, and H1 to H3 establish the mechanisms behind it. Whether platform records become administratively usable once PMK 37/2025 takes effect on 1 November 2026 depends on post-implementation evidence; Section 5.3 addresses it through the design of the regime.
+W measures transaction value outside the platform's recognized revenue. It does not by itself imply participant profit, taxable income, value added, non-compliance, or tax due. Because platforms differ in size, I also express the wedge relative to revenue through the Ecosystem Ratio, which is constructed for this study:
 
-Table 1. Hypotheses and current evidence.
+Eit = (Vit − Rit) / Rit
 
-| Hypothesis | Status in the current evidence |
+An E of 9 means that for every one unit of platform revenue, nine additional units of transaction value lie outside the revenue line. A single ratio does not show whether transaction value and revenue move together through time, so I define annual growth divergence as:
+
+Dit = g(Vit) − g(Rit)
+
+A positive D means transaction value grew faster than revenue; a negative D means revenue grew faster. Together, W, E, and D measure the size of the transaction-revenue boundary and how that boundary changes over time.
+
+### 3.2 Hypotheses
+
+The four hypotheses examine different layers of the same measurement problem. H1 tests the transaction-revenue boundary within platforms. H2 and H3 examine where activity and records outside platform revenue appear in national e-commerce evidence. H4 is the central claim of the thesis, and H1 to H3 establish the mechanisms behind it.
+
+H1. Platform revenue is not a stable proxy for the transaction value a platform processes.
+
+If it were, transaction value and revenue would move proportionally within the same platform over time.
+
+H2. Aggregate e-commerce growth is driven mainly by growth in the number of participating businesses rather than by higher transaction value per business.
+
+This separates wider business participation from changes in the average value observed per business.
+
+H3. Marketplace participation is associated with stronger financial recordkeeping.
+
+This asks whether marketplace-mediated activity leaves a different recordkeeping pattern from other e-commerce activity.
+
+H4. Platform revenue, national e-commerce statistics and payment records are not interchangeable: substituting one for another changes the measured scale and growth of digital economic activity.
+
+This asks whether the records produce the same economic account when they observe different parts of digital activity.
+
+Table 1. Hypotheses and principal empirical tests.
+
+| Hypothesis | Principal empirical test |
 | --- | --- |
-| H1 Platform revenue is not a stable proxy for platform commerce: the ratio of transaction value to revenue moves materially within the same platform over time. | Supported. Revenue outgrows transaction value in 10 of 12 within-series transitions; median divergence 42.02 pp. Survives log growth (36.64), removal of the largest transition (29.34 pp) and exclusion of any single series. |
-| H2 Indonesian e-commerce growth is driven by the entry of new businesses rather than by higher value per business. | Supported. The business-count term accounts for 90.29% of the 2023-2024 increase in e-commerce value, and 70.95% under the conflicting BPS business count. |
-| H3 Marketplace participation is associated with financial recordkeeping. | Supported in BPS business-level evidence. The within-province change is weaker (r = 0.309, p = 0.066) and is tested further in the thesis. |
-| H4 Platform revenue, marketplace statistics and payment data are not interchangeable measures of digital commerce, and substituting one for another misstates its scale and location. | Supported. FY2023 transaction value is 13.7 times revenue; 98.46% of 2023-2024 e-commerce growth falls outside the marketplace channel; payment value grew 1.8-11 times as fast as e-commerce value. |
+| H1 - Transaction-revenue divergence | Platform transaction value and revenue through time, the Ecosystem Ratio, and annual growth divergence |
+| H2 - Sources of e-commerce growth | BPS national e-commerce value and business-count decomposition |
+| H3 - Marketplace participation and recordkeeping | BPS published marketplace and financial-recordkeeping evidence |
+| H4 - Measurement choice | Comparison of platform, national e-commerce, and payment records |
+
+The comparison of platform businesses outside Indonesia is used as corroboration rather than as a fifth hypothesis. Indonesia's marketplace reporting regime is examined as an institutional application in Section 5.3.
 
 ## 4. Data and Methodology
 
-### 4.1 Admission rules and evidence tiers
+The study uses several sources because no single record captures every part of digital platform activity. Platform reports provide transaction value and revenue; BPS-Statistics Indonesia provides national e-commerce and business evidence; Bank Indonesia provides payment statistics; and platform companies outside Indonesia provide a separate comparison. These sources answer different questions and are not combined into one dataset.
 
-A platform-period is eligible only when transaction value and revenue cover the same period; geography and business scope can be evaluated; units and definitions are known; derived inputs trace to source; and structural breaks or revised reporting bases are flagged. Repeated publication vintages are not counted as independent observations. Final admission to the main sample is decided at the proposal examination (Section 7).
+### 4.1 Selecting the Platform Evidence
 
-Table 2. Evidence tiers for Indonesian platform observations. Tiers are reported separately according to how directly each series maps to Indonesia.
+The basic observation is one platform in one year, with transaction value and revenue referring to the same period and, as closely as possible, the same business activity. An observation is retained only when its period, geographic and business coverage, units, definitions, and source can be identified. Measures referring to different periods are excluded, while major changes in accounting definitions or business structure are recorded.
 
-| Evidence tier | Series | Levels | Transitions |
+Table 2. Indonesian platform evidence.
+
+| Type of evidence | Platforms | Annual observations | Role |
 | --- | --- | --- | --- |
-| Direct Indonesia-aligned | Tokopedia e-commerce | 2 | 1 |
-| Direct, scope-pending | Blibli 3P; Bukalapak Group | 9 | 7 |
-| Conditional reconstruction | Grab; Shopee Indonesia | 6 | 4 |
-| All tiers (diagnostic) | Five series | 17 | 12 |
+| Direct Indonesia-aligned data | Tokopedia e-commerce | 2 | Main direct anchor |
+| Company-reported data with broader scope | Blibli third-party business; Bukalapak Group | 9 | Evidence through time with stated scope limits |
+| Indonesia estimates requiring construction | Grab; Shopee Indonesia | 6 | Supporting country evidence |
 
-Table 2 shows the trade-off the design manages: only two of the seventeen levels come from a directly Indonesia-aligned segment, while the larger tiers carry more observations under wider scope. Tokopedia is the strongest Indonesia-aligned series; Blibli includes online travel; Bukalapak reports at Group level with overseas operations; and Grab and Shopee each require a derived or externally estimated country component. Tokopedia FY2021 and Bukalapak FY2024 are excluded because their transaction and revenue periods do not match.
+An annual observation is one matched transaction-and-revenue pair for one platform in one year. The 17 retained observations produce 12 year-to-year comparisons because the same platforms are not available in every year. Tokopedia is closely aligned with Indonesia but is not a literal country line. Blibli includes online travel, Bukalapak includes some overseas activity, and Grab and Shopee require additional construction. Tokopedia 2021 and Bukalapak 2024 are excluded because their transaction and revenue figures cover different periods.
 
-Three counts are intentionally different. The all-tier inventory contains 17 retained levels; the executed direct tiers contain 11 levels (2 Indonesia-aligned and 9 scope-pending); and the broader direct-candidate sensitivity contains 13 periods, including a Blibli FY2020 prospectus observation, yielding 9 annual transitions. These counts answer different construction questions and are reported separately.
+### 4.2 Comparing Platform Activity Through Time
 
-### 4.2 Comparability strategy
+Changes through time are examined mainly by comparing each platform with itself. This keeps the company, business activity, and reporting convention as similar as the disclosures allow. When transaction value and revenue move sharply apart, disclosed changes in monetization, customer incentives, revenue recognition, and business scope are used to reconcile the movement where the filings permit.
 
-The main longitudinal comparisons are made within named series. A within-series transition holds the issuer, business perimeter and disclosure convention as constant as the filings allow, so a change in the ratio of transaction value to revenue reflects a change in that platform's economics and accounting.
+Companies also use different names for transaction activity, including gross transaction value (GTV), gross merchandise value (GMV), and total payment volume (TPV). The original definitions are retained rather than assumed to be identical.
 
-Cross-platform levels serve a different purpose. The FY2023 cross-section establishes scale, and the 48 external issuer-years test whether the boundary appears outside Indonesia. Keeping those roles distinct is what allows heterogeneous disclosures to be used together.
+The cross-platform comparison uses the 2023 fiscal year, the last year in which the three principal platforms can be compared on the same basis. It measures the scale of the transaction-revenue difference for those platforms, and market-share estimates describe their coverage of marketplace transaction value.
 
-### 4.3 Conditional country evidence
+### 4.3 Direct and Constructed Indonesia Measures
 
-Grab discloses Indonesia revenue but not Indonesia transaction value. Its conditional country transaction value is therefore derived as:
+Not every company reports the same Indonesia-specific information.
 
-Indonesia GTV = Indonesia revenue x Group GTV / Group revenue
+Table 3. Construction of the principal platform measures.
 
-The construction applies the Group monetisation rate to Indonesia. Shopee's Indonesian transaction value comes from Momentum Works' recurring Southeast Asian e-commerce estimates, since Sea Limited discloses no country figure, and is labelled as third-party wherever it is used.
+| Platform | Directly available | Constructed or external input | Main limitation |
+| --- | --- | --- | --- |
+| Tokopedia | E-commerce transaction value and segment revenue | None for matched pair | Indonesia-aligned segment, not literal country line |
+| Grab | Indonesia revenue; Group revenue and GTV | Indonesia GTV derived from Group figures | Assumes Group revenue-to-GTV relationship applies to Indonesia |
+| Shopee | Group service monetization rate | External Indonesia transaction estimate; Indonesia revenue derived | Country measures are not independent disclosures |
+| Blibli / Bukalapak | Reported transaction and revenue pairs | None for retained pairs | Scope extends beyond Indonesia alone |
+
+Grab reports Indonesian revenue directly but not Indonesian transaction value. Indonesian GTV is therefore estimated as:
+
+Indonesia GTV = Indonesia revenue × Group GTV / Group revenue
+
+Sea Limited does not report Shopee transaction value separately for Indonesia. Indonesian transaction value is taken from Momentum Works, and Indonesian revenue is estimated using Sea's Group service monetization rate:
+
+Indonesia revenue = Indonesia transaction value × Group monetization rate
+
+Both constructions are labeled wherever they are used, and Section 5.1 reports how far the results move under alternative values of their inputs.
+
+### 4.4 Evidence Beyond Platform Accounts
+
+Table 4. Evidence modules and their role.
+
+| Evidence source | What is observed | Role |
+| --- | --- | --- |
+| Indonesian platform histories | Transaction value and revenue through time | Measure the wedge and its movement |
+| BPS national e-commerce statistics | National transaction value and estimated number of businesses | Examine sources of aggregate growth |
+| BPS marketplace study | Business-level marketplace and recordkeeping evidence | Examine the association with financial recordkeeping |
+| Bank Indonesia | Digital-payment measures | Compare payment growth with e-commerce growth |
+| Platform companies outside Indonesia | Matched transaction and revenue measures | Test whether the same boundary appears elsewhere |
+
+For H2, national e-commerce value is expressed as:
+
+V = N × A
+
+where N is the estimated number of e-commerce businesses and A is implied nominal transaction value per business. Changes in total value are divided arithmetically between the business-count and value-per-business components. A conflicting published 2023 business count is retained as a sensitivity check.
+
+For H3, BPS's published business-level evidence is used to examine the association between marketplace participation and financial recordkeeping, with province-level correlations as supporting diagnostics. For H4, Bank Indonesia payment measures are compared with e-commerce growth but are not added to platform or BPS transaction values.
+
+### 4.5 External Evidence and Robustness
+
+The external comparison contains 48 matched annual transaction-and-revenue observations from eight platform businesses covering 2017-2025. It tests whether the same transaction-revenue boundary appears under other business models and is kept separate from the Indonesian sample.
+
+The robustness checks remove one platform at a time, vary every constructed input, replace ordinary growth rates with log changes, drop the most extreme year-to-year comparison, and restrict the evidence to pairs the companies report directly. Section 5 reports the resulting ranges.
 
 ## 5. Preliminary Evidence and Feasibility
 
-### 5.1 FY2023 scale
+The evidence assembled so far establishes that the proposed comparisons can be carried out and that the choice of record produces economically large differences. The preliminary results first show the scale and movement of the transaction-revenue boundary, then examine whether the wider Indonesian evidence tells the same story.
 
-Table 3. Indonesia-focused FY2023 cross-section, US$ billions. V is transaction value, R platform revenue, W the wedge and E the Ecosystem Ratio; the final row sums the three cases, and E is computed from unrounded inputs.
+### 5.1 Platform Scale and Movement
 
-| Case | V | R | W | E | Evidence class |
+The 2023 fiscal year provides a common comparison across Grab, Tokopedia, and Shopee.
+
+Table 5. Indonesia-focused 2023 platform comparison, US$ billions.
+
+| Case | Transaction value V | Revenue R | Wedge W | Ecosystem Ratio E | Evidence |
 | --- | --- | --- | --- | --- | --- |
-| Grab Indonesia | 5.381 | 0.605 | 4.776 | 7.895x | Derived V |
-| Tokopedia | 16.331 | 0.405 | 15.926 | 39.296x | Direct pair |
-| Shopee Indonesia | 21.520 | 2.152 | 19.368 | 9.000x | Derived V and R |
-| Selected platforms | 43.233 | 3.162 | 40.070 | 12.671x | Sum of three cases |
+| Grab Indonesia | 5.381 | 0.605 | 4.776 | 7.895x | Transaction value reconstructed |
+| Tokopedia | 16.331 | 0.405 | 15.926 | 39.296x | Direct matched pair |
+| Shopee Indonesia | 21.520 | 2.152 | 19.368 | 9.000x | Transaction value and revenue estimated |
+| Three platforms | 43.233 | 3.162 | 40.070 | 12.671x | Sum of three cases |
 
-Table 3 reports the FY2023 cross-section. Across the three cases, transaction value is 13.7 times recognised revenue. Tokopedia, the one direct pair, contributes 39.7 percent of the wedge, Shopee 48.3 percent and Grab 11.9 percent. Shopee's Indonesian revenue is estimated by applying Sea Limited's disclosed Group monetisation rate of 10.0 percent to an external market estimate, which fixes its Ecosystem Ratio at 9.000; varying that rate between 9 and 11 percent moves the combined wedge only between US$40.29 billion and US$39.86 billion, because a higher assumed rate raises estimated revenue and lowers the residual almost equally. Excluding any single platform leaves a wedge of between US$20.70 billion and US$35.29 billion, and one-at-a-time variation of every derived input keeps it between US$37.65 billion and US$42.49 billion. Tokopedia alone, which rests on no reconstruction, carries a wedge of US$15.93 billion.
+Across the three platforms, US$43.23 billion of transaction value corresponds to US$3.16 billion of recognized revenue, leaving a US$40.07 billion wedge; transaction value is 13.7 times recognized revenue. Tokopedia contributes 39.7 percent of the wedge, Shopee 48.3 percent and Grab 11.9 percent. Shopee's ratio of exactly 9.000 follows from applying Sea's Group monetization rate of 10.0 percent, so its revenue is an assumption. Varying that rate between 9 and 11 percent moves the combined wedge only between US$39.86 billion and US$40.29 billion, because Shopee's revenue is small relative to its transaction value. Excluding any one platform leaves a wedge between US$20.70 billion and US$35.29 billion, varying every constructed input one at a time keeps it between US$37.65 billion and US$42.49 billion, and Tokopedia alone, which requires no construction, carries a wedge of US$15.93 billion.
 
-### 5.2 Longitudinal movement and mechanism
+The relationship between the two measures is not stable. Across twelve year-to-year comparisons, revenue grows faster than transaction value in ten, and the median absolute gap between the two growth rates is 42.02 percentage points. Restricting the evidence to pairs reported directly by Tokopedia, Blibli and Bukalapak gives nine comparisons, in which revenue grows faster in six and the median absolute gap is 42.94 points. On that restricted evidence the gap is 36.64 points in log changes and 29.34 points after removing the single largest comparison, stays between 29.34 and 52.52 points when any one comparison is left out, and every version that excludes one platform keeps at least one year in which the two measures move in opposite directions.
 
-Table 4. Within-series annual divergence under two admission rules. Counts differ because the admission rules differ.
+Tokopedia shows why the two measures separate. Between 2022 and 2023, its transaction value fell 8.9 percent while net revenue from its third-party marketplace rose 53.2 percent. Lower customer incentives account for 60.6 percent of that increase and higher gross revenue for the remaining 39.4 percent, so the platform's revenue improved while the commerce it carried contracted.
 
-|  | All-tier inventory | Direct-candidate sensitivity |
+Figure 1. Ecosystem Ratio through time for each platform, 2020-2025. Each line follows one platform's matched transaction value and revenue.
+
+### 5.2 Evidence Beyond Platform Revenue
+
+National e-commerce and business evidence provides a different view of the same digital economy. Table 6 summarizes the preliminary evidence corresponding to H2-H4.
+
+Table 6. Preliminary evidence beyond platform accounts.
+
+| Question | Preliminary evidence | Interpretation |
 | --- | --- | --- |
-| Transitions | 12 | 9 |
-| Revenue grows faster | 10 | 6 |
-| Transaction grows faster | 2 | 3 |
-| Opposite-sign transitions | 2 | 3 |
-| Median absolute divergence | 42.02 pp | 42.94 pp |
+| Where does e-commerce growth come from? | E-commerce value +17.08%; estimated business count +15.31%; implied nominal value per business +1.54%. The business count accounts for 90.29% of the increase (70.95% under the conflicting count) | Growth comes mainly from more participating businesses (H2) |
+| Where does that growth occur? | 98.46% of the nominal increase occurs outside the marketplace component; marketplace share falls from 18.2% to 15.8% | Marketplace-based measurement misses almost all recent growth |
+| Are marketplace use and financial records related? | Complete financial statements: 28.63% of marketplace users versus 12.25% of non-marketplace users | Marketplace participation is associated with stronger financial recordkeeping (H3) |
+| Do other digital records show the same growth? | BPS e-commerce +17.08%; electronic-money shopping +30.47%; mobile-banking payments and purchases +82.84%; QRIS +186.98% | Payment measures grow 1.8 to 11 times as fast as e-commerce value (H4) |
 
-Table 4 compares the two admission rules, and both lead to the same conclusion. Under the all-tier inventory, revenue grew faster than transaction value in 10 of 12 annual transitions, with a median absolute divergence of 42.02 percentage points; under the direct-candidate rule, revenue grew faster in 6 of 9 and the median is 42.94 points. Platform revenue growth is therefore a poor guide to the growth of the commerce behind it, and in most years it overstates that growth. Under the direct-candidate rule the result survives the obvious tests: measured in log changes the median gap is 36.64 points, removing the single largest transition leaves 29.34 points, and every construction that excludes one platform series retains at least one sign reversal. Tokopedia FY2022-FY2023 shows the mechanism: transaction value fell 8.90 percent while third-party net segment revenue rose 53.20 percent, and 60.56 percent of that revenue gain came from lower customer incentives, with 39.44 percent from higher gross revenue.
+The records do not agree. Between 2023 and 2024, marketplace value grew 1.45 percent, national e-commerce value grew 17.08 percent and payment measures grew between 30 and 187 percent, so the same year reads as stagnation or as rapid expansion depending on which record is used.
 
-Figure 1. Ecosystem Ratio across the extended candidate series, FY2020-FY2025. Each line follows one disclosed or reconstructed series.
+### 5.3 Feasibility and Institutional Application
 
-Figure 1 shows the pattern behind Table 4. The wedge is present in every series in every year, at ratios from about 8 to over 180, and in every series it is lower at the end of the period than at the start, as platforms have raised their monetisation. Measured through platform revenue, these businesses appear to be growing faster than the commerce they carry, which is the distortion H1 describes.
+The preliminary evidence is sufficient to motivate the full analysis. H1 is supported by the movement between transaction value and revenue within platforms, H2 and H3 by national and business-level BPS evidence, and H4 by the contrast between platform, e-commerce, and payment records.
 
-### 5.3 Wider Indonesian activity and reporting
+Outside Indonesia, 48 matched company-years for eight platform businesses, including eBay, Etsy, Shopify, Mercado Libre and Sea, show the same boundary under other business models, with take rates among the marketplace businesses ranging from about 3 percent at Shopify to about 25 percent at Mercado Libre. Eleven of 40 year-to-year comparisons fail a clean-scope test because of acquisitions or perimeter changes, so the comparability problem the Indonesian design manages is a general feature of platform disclosure.
 
-BPS reports national e-commerce transaction value rising 17.08 percent from 2023 to 2024. The marketplace component, the channel that platform accounts describe, rose 1.45 percent while the non-marketplace component rose 20.57 percent, so 98.46 percent of the increase took place outside the marketplace channel. The marketplace share of e-commerce value fell from 18.2 to 15.8 percent in a single year, so measurement anchored on marketplace platforms misses almost all of the recent growth. Growth in the number of e-commerce businesses accounts for 90.29 percent of the national increase, with value per business contributing the remainder (H2).
+PMK 37/2025 applies the same distinction in policy. It requires designated marketplace operators to identify sellers, report transaction-linked turnover and withhold tax, with implementation scheduled for 1 November 2026 after a postponement. Its reach is set by the channel it targets: the marketplace component carried 15.8 percent of 2024 e-commerce value and 1.5 percent of 2023-2024 growth.
 
-PMK 37/2025 is the institutional response. The verified implementation sequence records marketplace designation on 1 July 2026, collection effective 1 August, postponement through 31 October, and scheduled implementation on 1 November 2026. A platform record becomes usable for tax administration only once a seller identity is attached, the record is transmitted to the DJP and it is matched to a taxpayer. The regime designates marketplace operators, and the marketplace channel carried 15.8 percent of 2024 e-commerce value and 1.5 percent of its 2023-2024 growth. However well it is implemented, its coverage is bounded by the channel it targets.
-
-Outside Indonesia, 48 matched issuer-years across eight platform businesses, including eBay, Etsy, Shopify, Mercado Libre and Sea, show the same boundary under other business models. Eleven of 40 annual transitions fail a clean-scope test because of acquisitions or perimeter changes, which indicates that the comparability problem the evidence tiers address is a feature of platform disclosure generally.
-
-### 5.4 Payment traces and administrative records
-
-Bank Indonesia's payment statistics provide a third record of the same activity. Between 2023 and 2024, BPS e-commerce value grew 17.08 percent, while electronic-money shopping value grew 30.47 percent, mobile-banking payment and purchase value 82.84 percent and QRIS transaction value 186.98 percent. Payments and sales are different objects, and the payment series grew between 1.8 and 11 times as fast as the commerce they help settle, so a digital-economy indicator built on payment value would substantially overstate commerce growth over this period.
-
-### 5.5 What the preliminary evidence establishes
-
-The preliminary evidence supports the central claim at each step. Platform revenue understates the level of platform commerce by a factor of 13.7 and, in most years, overstates its growth. Marketplace statistics miss 98.5 percent of the recent expansion. Payment data grow up to eleven times as fast as the commerce behind them. And the one disclosed decomposition traces the revenue-transaction gap to identifiable commercial choices. The thesis will extend and test these results under the sample boundary approved at examination.
+At this stage, the proposed measure can be constructed, followed through time, reconciled to disclosed accounting changes, and compared with independent records of Indonesian digital activity.
 
 ## 6. Why the Problem Matters
 
-The consequences follow directly. An investor valuing platforms on revenue growth, a statistical agency sizing e-commerce from marketplace data and a policymaker reading payment growth as commerce growth are each working from a record that departs sharply from the activity they intend to measure, and in a different direction. The same transformation looks like rapidly monetising platforms, a stagnant marketplace sector or an explosion of digital commerce depending on which record is used. Indonesia's new reporting regime inherits the problem, because it is built around the marketplace channel. The thesis identifies proxy substitution between these records as the underlying error, and measures its size.
+These records are designed to measure different things, and the error arises when one is used in place of another. Platform revenue measures what the platform recognizes as its own income, transaction value measures the commerce it processes, national e-commerce statistics describe the wider market, and payment systems record the movement of funds. An investor valuing platforms on revenue growth, a statistical agency sizing e-commerce from marketplace data and a policymaker reading payment growth as commerce growth are each working from a record that departs sharply from the activity they intend to measure, and each in a different direction.
 
-## 7. Robustness and Proposal Decisions
+Administrative use follows the same logic. Platform-held transaction records contain seller and transaction information that never appears in corporate revenue, and they become useful to government only when identity, reporting, transmission, and matching are in place. Indonesia's new reporting regime is built around the marketplace channel, so it inherits the coverage of that channel.
 
-Table 5. Claims, evidence and robustness tests.
+## 7. Limitations and Robustness
+
+Table 7. Claims, evidence and robustness tests.
 
 | Claim | Evidence and robustness test |
 | --- | --- |
-| Platform revenue understates platform commerce by more than an order of magnitude. | FY2023 transaction value is 13.7 times revenue (wedge US$40.07bn). Holds across Shopee monetisation of 9-11% (US$39.86-40.29bn), leave-one-platform-out (at least US$20.70bn), one-at-a-time input variation (US$37.65-42.49bn), and on the Tokopedia direct pair alone (US$15.93bn). |
-| Platform revenue growth misstates commerce growth. | Revenue outgrows transaction value in 10 of 12 transitions; median divergence 42.02 pp. Holds in log changes (36.64), without the largest transition (29.34 pp), under the direct-candidate rule (42.94 pp) and in every leave-one-series-out construction. |
-| Marketplace statistics miss where e-commerce grows. | 98.46% of 2023-2024 growth in e-commerce value falls outside the marketplace component; marketplace share 18.2% to 15.8%. Holds on both the published amount and the rounded-share reconstruction (98.49%). |
+| Platform revenue understates platform commerce by more than an order of magnitude. | 2023 transaction value is 13.7 times revenue (wedge US$40.07bn). Holds across Shopee monetization of 9-11% (US$39.86-40.29bn), with any one platform excluded (at least US$20.70bn), under one-at-a-time input variation (US$37.65-42.49bn), and on Tokopedia alone (US$15.93bn). |
+| Platform revenue growth misstates commerce growth. | Revenue outgrows transaction value in 10 of 12 year-to-year comparisons; median absolute gap 42.02 pp. Holds on directly reported pairs only (6 of 9; 42.94 pp), in log changes (36.64), without the largest comparison (29.34 pp), and with any one platform excluded. |
+| Marketplace statistics miss where e-commerce grows. | 98.46% of 2023-2024 growth in e-commerce value falls outside the marketplace component. Holds on both the published amount and the rounded-share reconstruction (98.49%). |
 | Payment data overstate commerce growth. | Electronic-money, mobile-banking and QRIS payment value grew 1.8 to 11 times as fast as e-commerce value, 2023-2024. |
-| Questions the thesis tests further. | Causal effects of incentive choices; business-level validation of the BPS recordkeeping association (province r = 0.309, p = 0.066); operational performance of PMK 37/2025 after 1 November 2026. |
 
-Table 5 sets each claim against its evidence and the robustness tests it survives. The sample is small and the evidence descriptive, so the thesis reports tests rather than population estimates. What it establishes is that the standard records of digital commerce diverge by magnitudes too large for measurement or policy to ignore.
+The evidence is descriptive and the sample is small. The business-count decomposition is arithmetic, the recordkeeping result is an association, the Tokopedia reconciliation is an accounting identity rather than a causal estimate, and the ranges above are sensitivity ranges rather than statistical confidence intervals. Payment values are compared with e-commerce growth but are not treated as estimates of sales, and the compliance and revenue effects of PMK 37/2025 can be observed only after implementation.
 
-Two sample decisions are put to the committee: whether Blibli 3P Retail and Bukalapak Group enter the final longitudinal core, and whether Grab and Shopee remain sensitivity evidence. The central claim holds under either outcome: the divergence result holds under both admission rules in Table 4, and the level result holds on the Tokopedia pair alone.
+Two sample decisions are put to the committee: whether Blibli and Bukalapak, whose reported figures extend beyond Indonesian goods marketplaces, enter the main longitudinal sample, and whether Grab and Shopee remain supporting evidence. The central results hold under either choice, because the growth result holds on directly reported pairs and the level result holds on Tokopedia alone.
 
-## 8. Next Step
+## 8. Next Steps
 
-After the proposal examination the approved sample boundary will be frozen and the requested checks completed during October-November 2026, with the full manuscript rebuilt around that boundary before the final defence. Robustness, ASEAN/payment extensions, detailed source reconciliation, and the complete verification ledger remain available in the repository and advisor data package. Table 6 sets out that schedule; the empirical backend is already assembled, so what remains is sample admission, requested analysis, and manuscript construction.
+The main data and empirical framework are already assembled. The remaining work is to settle the sample decisions, complete the robustness checks, verify source consistency, and develop the preliminary results into the full thesis analysis.
 
-Table 6. Planned work to the final defence.
+Table 8. Planned work toward the final thesis.
 
 | Period | Planned work |
 | --- | --- |
-| September 2026 | Advisor review of the empirical package; proposal oral examination; freeze the sample-admission rule and the checks the committee requests. |
-| October-November 2026 | Complete requested reconciliations and source concordance; extend sensitivity to the approved tier boundary; freeze thesis tables and figures. |
-| Before the final defence | Rebuild the manuscript under the approved sample; retain supporting payment, ASEAN and global modules only where they advance the final argument. |
+| Proposal stage | Incorporate feedback from the proposal examination and finalize the empirical specification. |
+| October-November 2026 | Complete remaining source checks and robustness analysis; finalize the main tables and figures. |
+| Before the final defense | Complete the full manuscript, integrate supporting evidence where it strengthens the argument, and conduct the final citation and consistency review. |
 
-The proposal establishes that the records used to measure Indonesia's platform economy diverge far more than their interchangeable use assumes. Platform revenue understates the level of platform commerce by more than an order of magnitude and misstates its growth, marketplace statistics miss almost all of the recent expansion, and payment data outrun commerce by up to eleven times. What remains is to fix the sample boundary, complete the checks the committee requires and build the thesis on that decision; the data, the evidence tiers and the reproducible backend are already in place.
+The proposed study begins from a simple distinction between the value a platform processes and the revenue it recognizes. The preliminary evidence shows that this boundary is economically large, changes through time, and gives a different account of Indonesia's digital economy from national statistics and payment records. The final thesis measures how far those accounts diverge and which conclusions change when one record is used in place of another.
 
-## Appendix A - data sources by evidence class
+## Appendix A - Data Sources by Evidence Type
 
-Table A1. Source lineage by evidence class.
+Table A1. Source lineage by evidence type.
 
-| Tier | Series | Source of V | Source of R |
+| Evidence type | Platform or source | Transaction-value source | Revenue or comparison source |
 | --- | --- | --- | --- |
 | Direct Indonesia-aligned | Tokopedia e-commerce | GoTo annual report, e-commerce segment metrics | GoTo annual report, segment note |
-| Direct, scope-pending | Blibli 3P Retail | Global Digital Niaga prospectus and results releases | Same issuer filings |
-| Direct, scope-pending | Bukalapak Group | Bukalapak annual and sustainability reports | Same issuer filings |
-| Conditional reconstruction | Grab Indonesia | Derived from disclosed Indonesia revenue and Group monetization rate (Form 20-F) | Grab Form 20-F |
-| Conditional reconstruction | Shopee Indonesia | Momentum Works Southeast Asia e-commerce estimate (third-party) | Derived from Sea Limited Form 20-F |
-| National statistics | BPS-Statistics Indonesia | E-Commerce Statistics 2023, 2024; BPS directorate presentation | - |
-| Regulatory | PMK 37/2025; DJP | Ministry of Finance of the Republic of Indonesia | - |
+| Company-reported, broader scope | Blibli third-party business | Global Digital Niaga prospectus and results releases | Same issuer filings |
+| Company-reported, broader scope | Bukalapak Group | Bukalapak annual and sustainability reports | Same issuer filings |
+| Indonesia reconstruction | Grab Indonesia | Derived from Indonesia revenue and Group monetization rate | Grab Form 20-F |
+| Indonesia reconstruction | Shopee Indonesia | Momentum Works Southeast Asia e-commerce estimate | Derived from Sea Limited Form 20-F |
+| National statistics | BPS-Statistics Indonesia | E-Commerce Statistics 2023 and 2024; marketplace study | Business-count and recordkeeping evidence |
+| Payment statistics | Bank Indonesia | Payment System Statistics and QRIS reports | Growth-rate comparison only |
+| External corroboration | Eight platform businesses | Issuer transaction measures | Issuer revenue measures |
+| Regulatory | PMK 37/2025; DJP | Ministry of Finance / Directorate General of Taxes | Institutional architecture only |
 
 Every figure used in this proposal traces to a named file and locator in the accompanying data package.
 
