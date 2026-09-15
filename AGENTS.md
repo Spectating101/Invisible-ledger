@@ -2,11 +2,20 @@
 
 Read these files before changing this repository:
 
-1. `docs/CURRENT_STATUS.md`
-2. `docs/PROJECT_HISTORY.md`
-3. `docs/METHODOLOGY.md`
-4. `data/README.md`
-5. `docs/KNOWN_LIMITATIONS.md`
+1. `CANONICAL_ARTIFACTS.md`
+2. `docs/CURRENT_STATUS.md`
+3. `docs/PROJECT_HISTORY.md`
+4. `docs/METHODOLOGY.md`
+5. `data/README.md`
+6. `docs/KNOWN_LIMITATIONS.md`
+
+## Canonical proposal rule
+
+- The only editable canonical proposal is `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
+- The canonical committee render is the same path with `.pdf`.
+- For search/review, use `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`, which is generated from the FINAL DOCX.
+- Never infer current proposal text from `PROPOSAL_*_CANDIDATE*`, `VERSION_*COMPARISON*`, `scripts/surgery/*`, or historical proposal generators.
+- Never call a historical snapshot `current` without an explicit commit SHA and path.
 
 ## Research boundaries
 
@@ -28,5 +37,5 @@ Read these files before changing this repository:
 - Keep original currency and units; convert only through a documented period-specific FX rule.
 - Missing data stay missing. No interpolation or annual-total division by four.
 - Before manuscript changes, verify that the proposed table can be reproduced from repository data.
+- Before proposal comparisons or rewrites, read the canonical searchable text mirror or the FINAL DOCX; do not retrieve a historical candidate by keyword and treat it as current.
 - Update `docs/CURRENT_STATUS.md` when a sample decision is actually approved or rejected.
-
