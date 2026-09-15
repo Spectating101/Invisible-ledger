@@ -1,11 +1,11 @@
-name: Restore proposal spacing benchmark
+name: Finalize proposal close and references
 on:
   push:
     branches: [fix/restore-proposal-spacing-benchmark-20260915]
 permissions:
   contents: write
 jobs:
-  restore:
+  finalize:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -16,34 +16,48 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libreoffice poppler-utils
           pip install python-docx
-      - name: Verify proposal base and apply benchmark spacing
+      - name: Apply final close and reference-page break
         run: |
           git fetch origin main
-          test "$(git rev-parse origin/main)" = "9ad06ce8a9fbf5672514cbeba1d8e0ffcc417fd0"
+          test "$(git rev-parse origin/main)" = "30ee1ba24357c8c2a49fe709ce77c687865421a6"
           git checkout -B main origin/main
           python - <<'PY'
+          from copy import deepcopy
           from docx import Document
           from docx.shared import Pt
+          from docx.oxml import OxmlElement
           from docx.text.paragraph import Paragraph
           from zipfile import ZipFile
           import hashlib
 
           path='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+          closing=(
+              "The final thesis will therefore focus on measuring how transaction value and "
+              "platform-recognized revenue diverge, how that relationship changes over time, "
+              "and which disclosed mechanisms help explain those changes. The remaining work "
+              "is primarily to finalize the admissible sample and complete the planned robustness "
+              "checks. Once that boundary is fixed, the study can provide a consistent and auditable "
+              "account of the invisible wedge in Indonesia's platform economy while keeping its "
+              "conclusions within the limits of the available evidence."
+          )
+
           doc=Document(path)
-          before_paras=[p.text for p in doc.paragraphs if p.text!='']
+          before_nonempty=[p.text for p in doc.paragraphs if p.text.strip()]
           before_tables=[[c.text for r in t.rows for c in r.cells] for t in doc.tables]
           with ZipFile(path) as z:
               before_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
 
-          targets=(
-              'Table 2 shows that only two of the seventeen retained levels',
-              'Table 3 reports the FY2023 cross-section.',
-              'Table 4 compares the two admission rules.',
-              'Table 5 summarizes the inferential boundaries',
-          )
+          # Restore the previously approved spacing grammar everywhere it matters.
           for p in doc.paragraphs:
               t=p.text.strip()
-              if any(t.startswith(s) for s in targets):
+              if t=='4. Data and Methodology':
+                  p.paragraph_format.space_before=Pt(8.0)
+              elif t.startswith((
+                  'Table 2 shows that only two of the seventeen retained levels',
+                  'Table 3 reports the FY2023 cross-section.',
+                  'Table 4 compares the two admission rules.',
+                  'Table 5 summarizes the inferential boundaries',
+              )):
                   p.paragraph_format.space_before=Pt(5.0)
                   p.paragraph_format.space_after=Pt(2.5)
                   p.paragraph_format.keep_with_next=False
@@ -56,35 +70,72 @@ jobs:
                   p.paragraph_format.space_after=Pt(3.0)
                   p.paragraph_format.keep_with_next=False
 
-          for p in doc.paragraphs:
-              if p.text.strip()=='Appendix A - data sources by evidence class':
-                  p.paragraph_format.space_before=Pt(6.0)
-                  prev=p._p.getprevious()
-                  if prev is not None and prev.tag.endswith('}p'):
-                      pp=Paragraph(prev, p._parent)
-                      if not pp.text.strip():
-                          prev.getparent().remove(prev)
-                  break
+          appendix=next(p for p in doc.paragraphs if p.text.strip()=='Appendix A - data sources by evidence class')
+          appendix.paragraph_format.space_before=Pt(8.0)
+
+          # Remove the old empty spacer immediately before Appendix A, if present.
+          prev=appendix._p.getprevious()
+          if prev is not None and prev.tag.endswith('}p'):
+              pp=Paragraph(prev, appendix._parent)
+              if not pp.text.strip():
+                  prev.getparent().remove(prev)
+
+          # Insert one compact synthesis paragraph after Table 6 and before Appendix A.
+          assert closing not in [p.text for p in doc.paragraphs]
+          new_p=OxmlElement('w:p')
+          appendix._p.addprevious(new_p)
+          cp=Paragraph(new_p, appendix._parent)
+          cp.style=doc.styles['Normal']
+          cp.paragraph_format.space_before=Pt(5.0)
+          cp.paragraph_format.space_after=Pt(3.0)
+          cp.paragraph_format.line_spacing=1.0291666666666666
+          cp.paragraph_format.keep_with_next=False
+          run=cp.add_run(closing)
+          run.font.name='Times New Roman'
+          run.font.size=Pt(12)
+          run.bold=False
+          run.italic=False
+
+          # References should begin cleanly on page 9, not be stranded at the foot of page 8.
+          refs=next(p for p in doc.paragraphs if p.text.strip()=='References')
+          refs.paragraph_format.page_break_before=True
 
           doc.save(path)
+
           after=Document(path)
-          assert [p.text for p in after.paragraphs if p.text!='']==before_paras
+          after_nonempty=[p.text for p in after.paragraphs if p.text.strip()]
+          assert len(after_nonempty)==len(before_nonempty)+1
+          assert after_nonempty.count(closing)==1
+          old_iter=iter(before_nonempty)
+          for txt in after_nonempty:
+              if txt==closing:
+                  continue
+              assert txt==next(old_iter)
+          try:
+              next(old_iter)
+              raise AssertionError('lost original paragraph')
+          except StopIteration:
+              pass
           assert [[c.text for r in t.rows for c in r.cells] for t in after.tables]==before_tables
           assert len(after.tables)==7
           assert len(after.inline_shapes)==1
           shape=after.inline_shapes[0]
           assert abs(shape.width/shape.height - 2.74584) < 0.001
           assert abs(shape.width/360000 - 16.8346) < 0.02
+          assert next(p for p in after.paragraphs if p.text.strip()=='References').paragraph_format.page_break_before is True
           with ZipFile(path) as z:
               after_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
           assert after_media==before_media
-          print('Content/table/media invariants preserved; benchmark spacing restored.')
+          print('Final close inserted; benchmark spacing and figure preserved; references page break set.')
           PY
       - name: Render PDF and release gates
         run: |
           rm -f papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
           libreoffice --headless --convert-to pdf --outdir papers/current papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "9"
+          PDF=papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          test "$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')" = "9"
+          ! pdftotext -f 8 -l 8 "$PDF" - | grep -Fxq 'References'
+          pdftotext -f 9 -l 9 "$PDF" - | grep -Fxq 'References'
           python - <<'PY'
           from docx import Document
           from zipfile import ZipFile
@@ -94,6 +145,7 @@ jobs:
           idx=next(i for i,x in enumerate(d.paragraphs) if x.text.strip()=='References')
           refs=[x.text.strip() for x in d.paragraphs[idx+1:] if x.text.strip()]
           assert len(refs)==31
+          assert len(d.tables)==7
           with ZipFile(p) as z:
               assert not any('comment' in n.lower() or 'people' in n.lower() for n in z.namelist())
               pats=[re.compile(r'<w:'+k+r'(?:\s|>)') for k in ('ins','del','moveFrom','moveTo')]
@@ -101,12 +153,12 @@ jobs:
                   if n.endswith('.xml'):
                       x=z.read(n).decode('utf-8','ignore')
                       assert not any(q.search(x) for q in pats), n
-          print('QA: 9 pages, 7 tables, 31 references, clean review state.')
+          print('QA: 9 pages; references start on page 9; 7 tables; 31 references; clean review state.')
           PY
-      - name: Commit restored-spacing artifacts to main
+      - name: Commit finalized proposal to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
-          git commit -m "Restore benchmark spacing around proposal tables"
+          git commit -m "Finalize proposal close and reference-page layout"
           git push origin main
