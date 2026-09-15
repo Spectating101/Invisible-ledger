@@ -220,10 +220,24 @@ w(tbl([['Case','V (US$bn)','R (US$bn)','W (US$bn)','E','Evidence class'],
         '**%.3f×**'%fy23.aggregate_gap_to_revenue_ratio,'sum, not a national total']]))
 w()
 w('The final row sums three documented cases under mixed evidence classes and is not an Indonesia-wide '
-  'estimate. One-at-a-time parameter variation moves the combined wedge between approximately US$37.65 '
-  'billion and US$42.49 billion; leave-one-platform-out calculations give approximately US$35.29 billion, '
-  'US$24.14 billion and US$20.70 billion. The large transaction–revenue gap does not depend on any single '
-  'case.')
+  'estimate; it is reported to establish order of magnitude, not to rank the platforms against one '
+  'another. The dispersion across cases is itself informative. Tokopedia, the only directly '
+  'Indonesia-aligned pair, shows an Ecosystem Ratio of 39.296, while Grab Indonesia shows 7.895 and '
+  'Shopee Indonesia 9.000. That spread is not a measurement error: it reflects genuinely different '
+  'business models. A marketplace that books only commission and advertising against third-party '
+  'merchant sales will mechanically show a far higher ratio than a mobility and delivery platform that '
+  'recognises a larger share of each transaction, or than a platform whose revenue includes first-party '
+  'retail. The ratio therefore measures where a platform sits on the gross-versus-net recognition '
+  'spectrum, and is comparable within a series over time rather than across business models at a point '
+  'in time.')
+w()
+w('Three sensitivity exercises bound the FY2023 figure. One-at-a-time parameter variation across the '
+  'derived inputs moves the combined wedge between approximately US$37.65 billion and US$42.49 billion, '
+  'a range of roughly 12 percent around the central figure. Leave-one-platform-out calculations give '
+  'approximately US$35.29 billion, US$24.14 billion and US$20.70 billion, so no single case carries the '
+  'result even though Tokopedia and Shopee are individually large. And because two of the three cases '
+  'require a derived or externally estimated component, the direct-pair subtotal -- Tokopedia alone at '
+  'US$15.926 billion -- is reported as the floor that rests on no reconstruction at all.')
 w()
 w('### 4.2 Longitudinal divergence'); w()
 srows=[['Admission rule','Transitions','Revenue faster','Transaction faster','Sign reversals','Median abs. divergence']]
@@ -241,13 +255,29 @@ w('Reported by tier rather than pooled, because the tiers differ in how directly
 w()
 # ---------------------------------------------------------------- 5
 w('## 5. Mechanism and Robustness'); w()
-w('### 5.1 Reconciling a divergence: Tokopedia FY2022–FY2023'); w()
-w('Tokopedia provides the cleanest mechanism case. Transaction value falls **8.90 percent** while selected '
-  'third-party net segment revenue rises **53.20 percent**. Of the arithmetic increase in net revenue, '
-  '**60.56 percent** is associated with lower customer incentives and **39.44 percent** with higher gross '
-  'revenue. This reconciles the divergence against disclosed components without asserting causality: the '
-  'decomposition is arithmetic, and incentive policy is itself a managerial choice rather than an '
-  'exogenous treatment.')
+w('### 5.1 Reconciling a divergence: Tokopedia FY2022-FY2023'); w()
+w('The longitudinal result establishes that transaction value and revenue move apart. It does not by '
+  'itself say why. Tokopedia FY2022-FY2023 is the cleanest case for answering that, because it is the '
+  'only directly Indonesia-aligned segment pair in the inventory and because the divergence runs in the '
+  'counter-intuitive direction: transaction value falls while revenue rises sharply.')
+w()
+w('Transaction value falls **8.90 percent** while selected third-party net segment revenue rises '
+  '**53.20 percent**. A naive reading would treat that as a platform growing strongly in a shrinking '
+  'market. The disclosed components say something narrower. Of the arithmetic increase in net revenue, '
+  '**60.56 percent** is associated with lower customer incentives and **39.44 percent** with higher '
+  'gross revenue. Net revenue is gross revenue less incentives, so a reduction in promotional spending '
+  'raises net revenue without any corresponding increase in commerce facilitated. The larger part of the '
+  'revenue improvement is therefore a change in how much of the transaction the platform retains, not a '
+  'change in how much transaction there is.')
+w()
+w('Three points bound this reading. The decomposition is arithmetic: it allocates a disclosed change '
+  'across disclosed components and does not identify a causal effect of incentive policy on revenue. '
+  'Incentive spending is itself a managerial choice, plausibly responding to the same competitive '
+  'conditions that moved transaction value, so the two are not independent. And the exercise is '
+  'available only where an issuer discloses the components separately, which is why it is presented as a '
+  'mechanism illustration rather than as a systematic decomposition across the sample. What it '
+  'establishes is sufficient for the thesis\'s purpose: at least some movement in the wedge is traceable '
+  'to identifiable accounting choices rather than being an unexplained residual.')
 w()
 w('### 5.2 Robustness of the longitudinal result'); w()
 w('The direct-candidate baseline gives 9 adjacent annual transitions, 3 sign reversals and a median '
@@ -291,9 +321,24 @@ w('### 6.2 Channel composition'); w()
 w('The marketplace component grows **%.2f percent** while the non-marketplace component grows '
   '**%.2f percent**. In level terms the marketplace increase is Rp2.90 trillion against a total increase '
   'of Rp188.06 trillion, so approximately **98.46 percent** of the nominal increase falls outside the '
-  'marketplace component that platform accounts observe. This is the single most consequential aggregate '
-  'result in the thesis: it locates the growth outside exactly the channel the issuer evidence measures.'
+  'marketplace component that platform accounts observe.'
   % (b24.marketplace_component_growth_pct, b24.nonmarketplace_component_growth_pct))
+w()
+w('This is the single most consequential aggregate result in the thesis, and it cuts against the '
+  'framing the issuer evidence might otherwise invite. The platform chapters measure marketplace '
+  'activity carefully and find a large wedge inside it. The national statistics then say that '
+  'marketplace activity is where Indonesian e-commerce growth is *not* happening. Both can be true: the '
+  'wedge is a statement about the relationship between transaction value and revenue within observed '
+  'platforms, while the channel split is a statement about where aggregate commerce is expanding. Read '
+  'together they imply that platform accounts are becoming a narrower window onto national e-commerce, '
+  'not a wider one.')
+w()
+w('Two cautions apply. BPS sales-media categories rest on a question allowing multiple responses, so '
+  'the channel decomposition of *value* and the multiple-response channel *use* figures are different '
+  'objects and are not mixed here. And the 2024 marketplace amount comes from a BPS directorate '
+  'presentation rather than the main publication; it reconciles to the published 15.79 percent share '
+  '(Rp203.58T / Rp1,288.93T = 15.7945 percent), which is why the direct amount is preferred over '
+  'reconstructing from the rounded share.')
 w()
 w('### 6.3 Extensive versus intensive margin'); w()
 w('Decomposing *V = N × A* symmetrically into a business-count term and an implied-value-per-business '
@@ -371,16 +416,29 @@ w('The ASEAN panel holds **%d country-years across %d countries, 2019–2025**, 
   'with issuer observations.' % (len(aseanp), aseanp.country.nunique()))
 w()
 w('### 8.2 Global platform corroboration'); w()
-w('Across **%d matched issuer-years for %d non-Indonesian platform businesses** — eBay, Etsy, Shopify, '
-  'Jumia, Zalando, Rakuten, Mercado Libre and Sea — the transaction–revenue boundary appears under '
+w('Across **%d matched issuer-years for %d non-Indonesian platform businesses** -- eBay, Etsy, Shopify, '
+  'Jumia, Zalando, Rakuten, Mercado Libre and Sea -- the transaction-revenue boundary appears under '
   'distinct business models. Of %d annual transitions, %d meet the clean-scope requirement; %d of those '
-  'show opposite-direction movement, at a median absolute growth divergence of **%.2f pp**. This is '
-  'external corroboration that the measured boundary is a general feature of platform accounting. It is '
-  'not an Indonesia observation, not a representative global panel, and is never pooled with the main '
-  'sample.'
+  'show opposite-direction movement, at a median absolute growth divergence of **%.2f pp**.'
   % (int(glob_['matched_issuer_years']), int(glob_['issuers']), int(glob_['annual_transitions']),
      int(glob_['clean_scope_transitions']), int(glob_['opposite_direction_transitions_clean']),
      glob_['median_abs_growth_divergence_clean']))
+w()
+w('Two features of that summary matter more than the headline. First, the clean-scope filter removes '
+  '%d of %d transitions -- roughly a quarter -- because acquisitions, reporting-perimeter changes or '
+  'restatements make the year-on-year pair non-comparable. The same defect that forces the evidence-tier '
+  'design in the Indonesian sample therefore recurs in mature, well-resourced global issuers, which '
+  'suggests it is a structural feature of platform disclosure rather than a weakness peculiar to '
+  'Indonesian filings. Second, the median clean divergence of %.2f pp is far below the Indonesian '
+  'figure, while the maximum reaches %.0f pp. The global distribution is thus much more dispersed than '
+  'any single summary conveys, and the Indonesian series sit toward its upper end rather than outside '
+  'it.'
+  % (int(glob_['annual_transitions'])-int(glob_['clean_scope_transitions']), int(glob_['annual_transitions']),
+     glob_['median_abs_growth_divergence_clean'], glob_['max_abs_growth_divergence_clean']))
+w()
+w('This module is external corroboration that the measured boundary is a general feature of platform '
+  'accounting rather than an artefact of Indonesian reporting practice. It is not an Indonesia '
+  'observation, not a representative global panel, and is never pooled with the main sample.')
 w()
 # ---------------------------------------------------------------- 9
 w('## 9. Discussion'); w()
@@ -422,13 +480,46 @@ w('Five limitations bound the design. The issuer sample is small and selected by
 w()
 # ---------------------------------------------------------------- 10
 w('## 10. Conclusion'); w()
-w('Indonesian platforms process transaction value far in excess of the revenue they recognise, that gap '
-  'moves over time in ways disclosed accounting components can partly explain, and the national statistics '
-  'locate most e-commerce growth outside the marketplace channel that platform accounts observe. Measured '
-  'carefully, the invisible wedge is an accounting boundary rather than a hidden economy — but it is the '
-  'boundary at which a platform\'s own records stop being visible in its revenue line, which is precisely '
-  'where a reporting architecture like PMK 37/2025 has to operate. Whether those records become '
-  'administratively usable is the question the next stage of this work takes up.')
+w('This thesis set out to measure how large the invisible wedge is in Indonesia, how it changes, and '
+  'what explains those changes. On the first question, the documented FY2023 cases imply a wedge of '
+  'US$%.2f billion at an Ecosystem Ratio of %.3f: for every dollar these platforms recognised as '
+  'revenue, roughly %.0f dollars of transaction value passed through their systems without becoming '
+  'platform revenue. On the second, the boundary is not a fixed platform characteristic. Within-series '
+  'growth in transaction value and revenue diverges by a median of %.2f percentage points across the '
+  'all-tier inventory, with sign reversals that survive every robustness construction attempted. On the '
+  'third, the Tokopedia reconciliation shows that such movements are at least partly explicable from '
+  'disclosed components: a 53.20 percent rise in net segment revenue against an 8.90 percent decline in '
+  'transaction value resolves into lower customer incentives and higher gross revenue in a 60.56 to '
+  '39.44 split.'
+  % (fy23.total_transaction_revenue_gap_usd_b, fy23.aggregate_gap_to_revenue_ratio,
+     fy23.aggregate_gap_to_revenue_ratio, allt.median_absolute_difference_pp))
+w()
+w('The contribution is a measurement one. The Ecosystem Ratio is constructed here rather than adopted, '
+  'and the evidence-tier design is what makes it usable: by keeping direct, scope-pending and '
+  'conditional observations separate rather than pooling them into a single headline, the thesis reports '
+  'a defensible measurement under an explicit admission rule instead of an indefensible one under a '
+  'hidden rule. That discipline costs statistical power and is the reason the results are presented as '
+  'descriptive diagnostics rather than population estimates.')
+w()
+w('The wider evidence changes where the question points. Indonesian e-commerce grew '
+  '%.2f percent between 2023 and 2024, but the marketplace component grew only %.2f percent, so '
+  'approximately 98.46 percent of the nominal increase fell outside the channel that platform accounts '
+  'observe. Payment traces expanded faster still, with QRIS transaction value rising %.2f percent over '
+  'the same period. Read together, these say that the activity platform accounting makes visible is a '
+  'shrinking share of the activity that is actually happening, and that the abundance of digital traces '
+  'is not the same thing as the measurability of commerce.'
+  % (b24.total_transaction_value_growth_pct, b24.marketplace_component_growth_pct,
+     pct('qris_transaction_value')))
+w()
+w('Measured carefully, then, the invisible wedge is an accounting boundary rather than a hidden economy. '
+  'It is not profit, not taxable income, and not missing output, and this thesis claims none of those '
+  'things. But it is the precise point at which a platform\'s own transaction records stop being visible '
+  'in its revenue line, and that is exactly where a seller-linked reporting architecture such as PMK '
+  '37/2025 has to operate. The analysis in Section 7.3 suggests that architecture faces a coverage '
+  'problem independent of how well it is implemented, because designation reaches marketplace operators '
+  'while most of the measured growth sits outside that component. Whether the regime can nonetheless '
+  'deliver reporting, matching and compliance is the question that post-implementation evidence from '
+  'November 2026 onward will be able to answer, and it is the natural continuation of this work.')
 w()
 w('---'); w()
 w('## Appendix A — Source lineage by evidence class'); w()
