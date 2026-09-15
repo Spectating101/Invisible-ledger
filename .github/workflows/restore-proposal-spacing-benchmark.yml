@@ -1,0 +1,112 @@
+name: Restore proposal spacing benchmark
+on:
+  push:
+    branches: [fix/restore-proposal-spacing-benchmark-20260915]
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice poppler-utils
+          pip install python-docx
+      - name: Verify main base and apply benchmark spacing
+        run: |
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "c788ba004750c7b1f7e4720441a1704fe1c64f2d"
+          git checkout -B main origin/main
+          python - <<'PY'
+          from docx import Document
+          from docx.shared import Pt
+          from docx.text.paragraph import Paragraph
+          from zipfile import ZipFile
+          import hashlib
+
+          path='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+          doc=Document(path)
+          before_paras=[p.text for p in doc.paragraphs if p.text!='']
+          before_tables=[[c.text for r in t.rows for c in r.cells] for t in doc.tables]
+          with ZipFile(path) as z:
+              before_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
+
+          targets=(
+              'Table 2 shows that only two of the seventeen retained levels',
+              'Table 3 reports the FY2023 cross-section.',
+              'Table 4 compares the two admission rules.',
+              'Table 5 summarizes the inferential boundaries',
+          )
+          for p in doc.paragraphs:
+              t=p.text.strip()
+              if any(t.startswith(s) for s in targets):
+                  p.paragraph_format.space_before=Pt(5.0)
+                  p.paragraph_format.space_after=Pt(2.5)
+                  p.paragraph_format.keep_with_next=False
+              elif t.startswith('Figure 1 makes two features'):
+                  p.paragraph_format.space_before=Pt(4.5)
+                  p.paragraph_format.space_after=Pt(2.5)
+                  p.paragraph_format.keep_with_next=False
+              elif t.startswith('Every figure used in this proposal traces'):
+                  p.paragraph_format.space_before=Pt(5.0)
+                  p.paragraph_format.space_after=Pt(3.0)
+                  p.paragraph_format.keep_with_next=False
+
+          for p in doc.paragraphs:
+              if p.text.strip()=='Appendix A - data sources by evidence class':
+                  p.paragraph_format.space_before=Pt(6.0)
+                  prev=p._p.getprevious()
+                  if prev is not None and prev.tag.endswith('}p'):
+                      pp=Paragraph(prev, p._parent)
+                      if not pp.text.strip():
+                          prev.getparent().remove(prev)
+                  break
+
+          doc.save(path)
+          after=Document(path)
+          assert [p.text for p in after.paragraphs if p.text!='']==before_paras
+          assert [[c.text for r in t.rows for c in r.cells] for t in after.tables]==before_tables
+          assert len(after.tables)==7
+          assert len(after.inline_shapes)==1
+          shape=after.inline_shapes[0]
+          assert abs(shape.width/shape.height - 2.74584) < 0.001
+          assert abs(shape.width/360000 - 16.8346) < 0.02
+          with ZipFile(path) as z:
+              after_media={n:hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')}
+          assert after_media==before_media
+          print('Content/table/media invariants preserved; benchmark spacing restored.')
+          PY
+      - name: Render PDF and release gates
+        run: |
+          rm -f papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          libreoffice --headless --convert-to pdf --outdir papers/current papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "9"
+          python - <<'PY'
+          from docx import Document
+          from zipfile import ZipFile
+          import re
+          p='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+          d=Document(p)
+          idx=next(i for i,x in enumerate(d.paragraphs) if x.text.strip()=='References')
+          refs=[x.text.strip() for x in d.paragraphs[idx+1:] if x.text.strip()]
+          assert len(refs)==31
+          with ZipFile(p) as z:
+              assert not any('comment' in n.lower() or 'people' in n.lower() for n in z.namelist())
+              pats=[re.compile(r'<w:'+k+r'(?:\s|>)') for k in ('ins','del','moveFrom','moveTo')]
+              for n in z.namelist():
+                  if n.endswith('.xml'):
+                      x=z.read(n).decode('utf-8','ignore')
+                      assert not any(q.search(x) for q in pats), n
+          print('QA: 9 pages, 7 tables, 31 references, clean review state.')
+          PY
+      - name: Commit restored-spacing artifacts to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          git commit -m "Restore benchmark spacing around proposal tables"
+          git push origin main
