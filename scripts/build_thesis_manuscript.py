@@ -99,13 +99,19 @@ w('**Research question.** *How large is the invisible wedge in Indonesia, how do
   'and what explains those changes?*')
 w()
 w('### 1.1 Hypotheses'); w()
+# H4 (institutional linkage) is demoted to a feasibility assessment in 7.3, so the
+# retained hypotheses are renumbered contiguously rather than leaving a gap at H4.
+TESTED=[h for _,h in hyp.iterrows() if not h.hypothesis.startswith('H4')]
 w(tbl([['','Hypothesis','Status in the evidence assembled here']] +
-      [[h.hypothesis.split()[0], ' '.join(h.hypothesis.split()[1:]), h.status.replace('_',' ')]
-       for _,h in hyp.iterrows()]))
+      [['H%d'%k, ' '.join(h.hypothesis.split()[1:]), h.status.replace('_',' ')]
+       for k,h in enumerate(TESTED,1)]))
 w()
-w('H1 to H3 and H5 are addressed by the empirical chapters below. H4 is stated as the thesis\'s forward '
-  'question: PMK 37/2025 implementation is scheduled for 1 November 2026, so evidence on actual '
-  'administrative linkage postdates this draft. None of the five is framed as a causal claim.')
+w('The thesis tests four hypotheses. A fifth possibility, that platform-held records are not yet '
+  'administratively linked to seller obligations, is deliberately not advanced as a hypothesis here: '
+  'testing it needs post-implementation evidence on reporting, identity matching and compliance, and PMK '
+  '37/2025 implementation is scheduled for 1 November 2026. Section 7.3 instead assesses what such '
+  'linkage would require and whether the published architecture is capable of it, which current sources '
+  'can answer. None of the four is framed as a causal claim.')
 w()
 # ---------------------------------------------------------------- 2
 w('## 2. Literature and Conceptual Framework'); w()
@@ -326,14 +332,28 @@ w('Financial-report ownership among Indonesian e-commerce businesses is 15.19 pe
   'as a published association that province aggregates do not independently validate. Province-level '
   'evidence is ecological and is not used to infer a business-level relationship.')
 w()
-w('### 7.3 The reporting architecture'); w()
+w('### 7.3 What administrative linkage would require'); w()
 w('PMK 37/2025 is the institutional bridge. The verified implementation sequence records marketplace '
   'designation on 1 July 2026, collection effective 1 August, postponement through 31 October, and '
-  'scheduled implementation on 1 November 2026. The regulation establishes a legal architecture built on '
-  'seller identity, transaction-linked turnover, withholding and reporting — not on platform corporate '
-  'revenue. Because implementation postdates this draft, the thesis can establish the architecture but '
-  'not operational matching, compliance, or revenue effects. This is H4, and it is the study\'s principal '
-  'forward question.')
+  'scheduled implementation on 1 November 2026. The regulation builds on seller identity, '
+  'transaction-linked turnover, withholding and reporting, not on platform corporate revenue.')
+w()
+w('A record becomes administratively usable only after four steps: the platform holds it; a seller '
+  'identity is attached; it is transmitted to the Directorate General of Taxes; and it is matched to a '
+  'taxpayer record. The wedge measured here establishes only the first. What can be assessed from '
+  'published sources is whether the architecture is capable of the remaining three, and three '
+  'observations follow. First, designation is by marketplace operator, so coverage is bounded by the '
+  'designated set rather than by all platform-mediated commerce, and the channel result above puts '
+  '98.46 percent of the 2023-2024 increase outside the marketplace component that designation reaches. '
+  'Second, matching depends on seller tax identity, which the regulation requires but which the largely '
+  'micro population documented by BPS may not uniformly hold. Third, the postponement through 31 '
+  'October 2026 is itself evidence that operational readiness, rather than legal authority, is the '
+  'binding constraint.')
+w()
+w('The thesis therefore establishes the architecture and its coverage boundary, and stops there. Whether '
+  'linkage delivers reporting, matching and compliance effects is an empirical question that '
+  'post-implementation data from November 2026 onward can answer. It is recorded in Section 9.4 as a '
+  'limitation and as the natural next study rather than claimed here.')
 w()
 # ---------------------------------------------------------------- 8
 w('## 8. Corroboration Outside the Indonesian Sample'); w()

@@ -25,10 +25,9 @@ For FY2023, three documented Indonesian platform cases imply a combined wedge of
 | H1 | transaction and revenue growth can diverge | supported in candidate inventory not final sample |
 | H2 | aggregate growth partly reflects more businesses | supported for 2022 2024 aggregate decomposition |
 | H3 | marketplace participation predicts financial recordkeeping | associated in published business level evidence not validated by province aggregates |
-| H4 | institutional linkage failure | not yet tested |
-| H5 | measurement choices can alter conclusions | supported by existing measurement modules |
+| H4 | measurement choices can alter conclusions | supported by existing measurement modules |
 
-H1 to H3 and H5 are addressed by the empirical chapters below. H4 is stated as the thesis's forward question: PMK 37/2025 implementation is scheduled for 1 November 2026, so evidence on actual administrative linkage postdates this draft. None of the five is framed as a causal claim.
+The thesis tests four hypotheses. A fifth possibility, that platform-held records are not yet administratively linked to seller obligations, is deliberately not advanced as a hypothesis here: testing it needs post-implementation evidence on reporting, identity matching and compliance, and PMK 37/2025 implementation is scheduled for 1 November 2026. Section 7.3 instead assesses what such linkage would require and whether the published architecture is capable of it, which current sources can answer. None of the four is framed as a causal claim.
 
 ## 2. Literature and Conceptual Framework
 
@@ -164,9 +163,13 @@ Bank Indonesia's payment-system statistics give a view of digital trace activity
 
 Financial-report ownership among Indonesian e-commerce businesses is 15.19 percent in 2023 and 17.15 percent in 2024 as separately published wave values. BPS also publishes a business-level analysis reporting higher financial-report ownership among marketplace users than non-users. That is BPS's own result and is cited as such. The within-province change between waves is unstable — Pearson r = 0.309 (p = 0.066), Spearman rho = 0.151 (p = 0.379) across 36 common complete provinces — so H3 is reported as a published association that province aggregates do not independently validate. Province-level evidence is ecological and is not used to infer a business-level relationship.
 
-### 7.3 The reporting architecture
+### 7.3 What administrative linkage would require
 
-PMK 37/2025 is the institutional bridge. The verified implementation sequence records marketplace designation on 1 July 2026, collection effective 1 August, postponement through 31 October, and scheduled implementation on 1 November 2026. The regulation establishes a legal architecture built on seller identity, transaction-linked turnover, withholding and reporting — not on platform corporate revenue. Because implementation postdates this draft, the thesis can establish the architecture but not operational matching, compliance, or revenue effects. This is H4, and it is the study's principal forward question.
+PMK 37/2025 is the institutional bridge. The verified implementation sequence records marketplace designation on 1 July 2026, collection effective 1 August, postponement through 31 October, and scheduled implementation on 1 November 2026. The regulation builds on seller identity, transaction-linked turnover, withholding and reporting, not on platform corporate revenue.
+
+A record becomes administratively usable only after four steps: the platform holds it; a seller identity is attached; it is transmitted to the Directorate General of Taxes; and it is matched to a taxpayer record. The wedge measured here establishes only the first. What can be assessed from published sources is whether the architecture is capable of the remaining three, and three observations follow. First, designation is by marketplace operator, so coverage is bounded by the designated set rather than by all platform-mediated commerce, and the channel result above puts 98.46 percent of the 2023-2024 increase outside the marketplace component that designation reaches. Second, matching depends on seller tax identity, which the regulation requires but which the largely micro population documented by BPS may not uniformly hold. Third, the postponement through 31 October 2026 is itself evidence that operational readiness, rather than legal authority, is the binding constraint.
+
+The thesis therefore establishes the architecture and its coverage boundary, and stops there. Whether linkage delivers reporting, matching and compliance effects is an empirical question that post-implementation data from November 2026 onward can answer. It is recorded in Section 9.4 as a limitation and as the natural next study rather than claimed here.
 
 ## 8. Corroboration Outside the Indonesian Sample
 
