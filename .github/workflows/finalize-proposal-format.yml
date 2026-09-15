@@ -37,17 +37,26 @@ jobs:
       - name: Release gates
         run: |
           unzip -t papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "9"
+          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "10"
           python - <<'PY'
           from docx import Document
           from zipfile import ZipFile
           import re
           path='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
           doc=Document(path)
-          assert len(doc.tables) == 6
-          idx=next(i for i,p in enumerate(doc.paragraphs) if p.text.strip()=='References')
-          refs=[p.text.strip() for p in doc.paragraphs[idx+1:] if p.text.strip()]
+          assert len(doc.tables) == 7, len(doc.tables)
+          refs=[p.text.strip() for p in doc.paragraphs if p.style.name=='Reference' and p.text.strip()]
           assert len(refs) == 31, len(refs)
+          shape=doc.inline_shapes[0]
+          from docx.oxml.ns import qn
+          blip=shape._inline.graphic.graphicData.pic.blipFill.blip
+          img=doc.part.related_parts[blip.embed].image
+          assert abs(shape.width/shape.height - img.px_width/img.px_height) < 0.01, 'figure is distorted'
+          for p in doc.paragraphs:
+              t=p.text.strip()
+              if re.match(r'^Table \\d+ (shows|reports|compares|summarizes|sets)\\b', t):
+                  r=p.runs[0]
+                  assert r.font.size.pt==12 and not r.bold and not r.italic, 'prose styled as caption: '+t[:40]
           with ZipFile(path) as z:
               assert not any('comment' in n.lower() or 'people' in n.lower() for n in z.namelist())
               pats=[re.compile(r'<w:'+k+r'(?:\\s|>)') for k in ('ins','del','moveFrom','moveTo')]
@@ -55,7 +64,7 @@ jobs:
                   if name.endswith('.xml'):
                       xml=z.read(name).decode('utf-8','ignore')
                       assert not any(p.search(xml) for p in pats), name
-          print('QA: 9 pages, 6 tables, 31 references, no comments/tracked changes')
+          print('QA: 10 pages, 7 tables, 31 references, undistorted figure, prose not caption-styled, no comments/tracked changes')
           PY
 
       - name: Commit finalized artifacts
@@ -66,6 +75,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No artifact changes to commit."
           else
-            git commit -m "Finalize proposal typography and 9-page layout"
+            git commit -m "Finalize proposal typography and layout"
             git push
           fi

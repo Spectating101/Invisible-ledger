@@ -1,3 +1,4 @@
+import re
 from docx import Document
 from docx.shared import Pt, Cm
 from docx.oxml import OxmlElement
@@ -131,7 +132,7 @@ for i, paragraph in enumerate(doc.paragraphs):
         fmt.space_after = Pt(1.5)
         fmt.keep_with_next = True
         continue
-    if text.startswith("Table ") and ". " in text:
+    if re.match(r"^Table [0-9A]+\.", text):   # a caption, not prose that merely opens with a table reference
         for run in paragraph.runs:
             set_run_font(run, 9.5, True)
             run.italic = True
@@ -154,56 +155,60 @@ for i, paragraph in enumerate(doc.paragraphs):
     if i >= 14:
         fmt.space_after = Pt(4.0)
         fmt.line_spacing = 1.0291666667
-    if text.startswith(post_table_starts):
+    if re.match(r"^Table \d+ (shows|reports|compares|summarizes|sets)\b", text) or text.startswith("Every figure used"):
         fmt.space_before = Pt(5)
         fmt.keep_together = True
-    elif text.startswith("Figure 1 makes"):
+    elif text.startswith(("Figure 1 makes", "Figure 1 shows")):
         fmt.space_before = Pt(4.5)
         fmt.keep_together = True
 
-# Widths mirror the polished proposal; Tables 1–2 also use explicit grids so
-# the evidence labels and numeric columns remain readable on one line.
-cell_widths = [
-    [2835, 3402, 1655, 1655],
-    [2721, 879, 879, 879, 935, 3254],
-    [3816, 2865, 2865],
-    [4773, 4773],
-    [2232, 7315],
-    [2160, 2160, 3096, 2131],
-]
-margin_lr = [35, 35, 55, 55, 55, 55]
-margin_start = [38, 38, 38, 38, 30, 38]
+# Tables are identified by header text, not position, so inserting or removing a table cannot
+# shift widths onto the wrong one. Every table spans the 9547-dxa text width.
+WIDTHS = {
+    "Hypothesis":    [3900, 5647],
+    "Evidence tier": [2835, 3402, 1655, 1655],
+    "Case":          [2721, 879, 879, 879, 935, 3254],
+    "":              [3816, 2865, 2865],
+    "Claim":         [3100, 6447],
+    "Period":        [2232, 7315],
+    "Tier":          [2160, 2160, 3096, 2131],
+}
+MARGIN_LR = {"Case": 35, "Evidence tier": 35}
 
-for ti, table in enumerate(doc.tables):
+for table in doc.tables:
     table.autofit = False
-    widths = cell_widths[ti] if ti < len(cell_widths) else None
-    if ti in (0, 1) and widths:
+    key = table.rows[0].cells[0].text.strip()
+    widths = WIDTHS.get(key)
+    if not widths or len(widths) != len(table.columns):
+        widths = None
+    else:
         for grid_col, width in zip(table._tbl.tblGrid.gridCol_lst, widths):
             grid_col.set(qn("w:w"), str(width))
-    for row in table.rows:
+    lr = MARGIN_LR.get(key, 55)
+    last = len(table.rows) - 1
+    for ri, row in enumerate(table.rows):
         cant_split(row)
         for ci, cell in enumerate(row.cells):
-            if widths and ci < len(widths):
+            if widths:
                 set_cell_width(cell, widths[ci])
-            set_cell_margins(
-                cell,
-                45,
-                margin_start[ti],
-                45,
-                margin_start[ti],
-                margin_lr[ti],
-                margin_lr[ti],
-            )
+            set_cell_margins(cell, 45, 38, 45, 38, lr, lr)
             for paragraph in cell.paragraphs:
-                paragraph.paragraph_format.space_before = Pt(0)
-                paragraph.paragraph_format.space_after = Pt(0)
-                paragraph.paragraph_format.line_spacing = 1.0
+                pf = paragraph.paragraph_format
+                pf.space_before = Pt(0)
+                pf.space_after = Pt(0)
+                pf.line_spacing = 1.0
+                pf.keep_with_next = ri < last   # keeps each table whole, together with its caption
                 for run in paragraph.runs:
                     set_run_font(run, 9)
 
+# Figure: fix the width, derive the height from the image's own pixel dimensions so the chart
+# can never be stretched. A fixed width/height pair distorted it by about 40 percent before.
 if doc.inline_shapes:
-    doc.inline_shapes[0].width = Cm(14.5288)
-    doc.inline_shapes[0].height = Cm(7.42732)
+    shape = doc.inline_shapes[0]
+    blip = shape._inline.graphic.graphicData.pic.blipFill.blip
+    image = doc.part.related_parts[blip.embed].image
+    shape.width = Cm(16.83)
+    shape.height = int(shape.width * image.px_height / image.px_width)
 
 doc.save(DOCX)
 print(f"Formatted {DOCX}")
