@@ -121,7 +121,7 @@ for i, paragraph in enumerate(doc.paragraphs):
         for run in paragraph.runs:
             set_run_font(run, 12, True)
         fmt.space_before = Pt(6 if text == "References" else 7)
-        fmt.space_after = Pt(2.5)
+        fmt.space_after = Pt(4.0)
         fmt.keep_with_next = True
         continue
     if paragraph.style.name == "Heading 2":
@@ -152,7 +152,7 @@ for i, paragraph in enumerate(doc.paragraphs):
     for run in paragraph.runs:
         set_run_font(run, 12)
     if i >= 14:
-        fmt.space_after = Pt(2.5)
+        fmt.space_after = Pt(4.0)
         fmt.line_spacing = 1.0291666667
     if text.startswith(post_table_starts):
         fmt.space_before = Pt(5)
