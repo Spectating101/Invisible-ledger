@@ -1,0 +1,71 @@
+name: Finalize proposal format
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - scripts/finalize_proposal_format.py
+      - .github/workflows/finalize-proposal-format.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice poppler-utils fonts-liberation fonts-noto-cjk
+          python -m pip install --upgrade pip
+          pip install python-docx
+
+      - name: Apply final proposal typography
+        run: |
+          python scripts/finalize_proposal_format.py papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+
+      - name: Render PDF
+        run: |
+          rm -f papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          libreoffice --headless --convert-to pdf --outdir papers/current papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+
+      - name: Release gates
+        run: |
+          unzip -t papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "9"
+          python - <<'PY'
+          from docx import Document
+          from zipfile import ZipFile
+          import re
+          path='papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx'
+          doc=Document(path)
+          assert len(doc.tables) == 6
+          idx=next(i for i,p in enumerate(doc.paragraphs) if p.text.strip()=='References')
+          refs=[p.text.strip() for p in doc.paragraphs[idx+1:] if p.text.strip()]
+          assert len(refs) == 31, len(refs)
+          with ZipFile(path) as z:
+              assert not any('comment' in n.lower() or 'people' in n.lower() for n in z.namelist())
+              pats=[re.compile(r'<w:'+k+r'(?:\\s|>)') for k in ('ins','del','moveFrom','moveTo')]
+              for name in z.namelist():
+                  if name.endswith('.xml'):
+                      xml=z.read(name).decode('utf-8','ignore')
+                      assert not any(p.search(xml) for p in pats), name
+          print('QA: 9 pages, 6 tables, 31 references, no comments/tracked changes')
+          PY
+
+      - name: Commit finalized artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+          if git diff --cached --quiet; then
+            echo "No artifact changes to commit."
+          else
+            git commit -m "Finalize proposal typography and 9-page layout"
+            git push
+          fi
