@@ -1,3 +1,5 @@
+> **SUPERSEDED — do not rebuild the proposal from this file.** Since 2026-09-15 the canonical proposal is `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`, edited directly. This markdown holds an earlier abstract and framing.
+
 # Invisible Ledger — compact proposal candidate
 
 **Date:** 2026-09-14  
