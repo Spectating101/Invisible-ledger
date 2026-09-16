@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `924c33e2914f87692fa2c81e1ba9b52d394eba96f527f68f53d97246f28787ba`.
+Source DOCX SHA-256: `2c3a0bbad34f4eeaadca9f37041c8633ee391352a48b4ec3977542d306739d09`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 

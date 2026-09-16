@@ -137,7 +137,7 @@ for i, paragraph in enumerate(doc.paragraphs):
             set_run_font(run, 9.5, True)
             run.italic = True
         fmt.space_before = Pt(4)
-        fmt.space_after = Pt(2.5)
+        fmt.space_after = Pt(3.5)
         fmt.line_spacing = 1.0
         fmt.keep_with_next = True
         continue
@@ -153,8 +153,8 @@ for i, paragraph in enumerate(doc.paragraphs):
     for run in paragraph.runs:
         set_run_font(run, 12)
     if i >= 14:
-        fmt.space_after = Pt(4.0)
-        fmt.line_spacing = 1.0291666667
+        fmt.space_after = Pt(5.5)
+        fmt.line_spacing = 1.07
     if re.match(r"^Table \d+ (shows|reports|compares|summarizes|sets)\b", text) or text.startswith("Every figure used"):
         fmt.space_before = Pt(5)
         fmt.keep_together = True
@@ -230,6 +230,16 @@ for table in doc.tables:
                 vAlign = OxmlElement("w:vAlign")
                 tcPr.append(vAlign)
             vAlign.set(qn("w:val"), "top")
+
+# The figure block floats: the paragraph above it must not drag it, or the figure is pushed to the
+# next page and leaves a third of a page blank. Image and caption stay glued to each other.
+paras = list(doc.paragraphs)
+fig_i = next((i for i, p in enumerate(paras) if p._p.xpath(".//w:drawing")), None)
+if fig_i is not None:
+    paras[fig_i - 1].paragraph_format.keep_with_next = False
+    paras[fig_i].paragraph_format.keep_with_next = True
+    if fig_i + 1 < len(paras):
+        paras[fig_i + 1].paragraph_format.keep_with_next = False
 
 # Figure: fix the width, derive the height from the image's own pixel dimensions so the chart
 # can never be stretched. A fixed width/height pair distorted it by about 40 percent before.
