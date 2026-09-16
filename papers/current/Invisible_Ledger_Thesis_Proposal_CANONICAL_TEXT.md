@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `373b2706021ea0f729cdd903c4ccc9230fb6696418c8525afa44b10d07e54ab4`.
+Source DOCX SHA-256: `28603da6ad05b1884e53f387f48732ca953cecb745c6be378caaabf33318f0e2`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -317,7 +317,7 @@ Table 8. Planned work toward the final thesis.
 | October–November 2026 | Reconcile BPS and platform definitions; divide wedge movements into volume and monetization effects; complete robustness checks; finalize tables and figures. |
 | Before the final defense | Complete the full manuscript and the final citation and consistency review. |
 
-The thesis therefore treats measurement choice as an empirical object rather than a background convention. It measures disagreement across records, tests the stability of the revenue–transaction relationship, and examines which conclusions survive alternative definitions and sample choices.
+The thesis treats the choice of record as an empirical question. It measures how far the records disagree, tests whether the relationship between revenue and transaction value remains stable, and identifies which conclusions about the size, growth and direction of digital activity depend on the record chosen.
 
 ## Appendix A. Variables and Data Sources
 
