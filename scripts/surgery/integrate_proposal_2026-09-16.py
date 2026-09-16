@@ -285,12 +285,9 @@ w.hyp("H2. Aggregate e-commerce growth partly reflects changes in the number of 
 w.para("This separates changes associated with wider business participation from changes in the average value "
        "observed per business.")
 w.hyp("H3. Marketplace participation is associated with stronger financial recordkeeping.")
-w.para("This asks whether marketplace-mediated activity is associated with a different recordkeeping pattern from "
-       "other e-commerce activity. Association does not imply that marketplace participation causes formalization.")
+w.para("Association does not imply that marketplace participation causes formalization.")
 w.hyp("H4. Measurement choices materially alter conclusions about the scale and growth of digital economic "
       "activity.")
-w.para("This asks whether platform accounts, national e-commerce statistics, and payment records produce the same "
-       "economic account when they observe different parts of digital activity.")
 w.caption("Table 1. Hypotheses and principal empirical tests.")
 w.table([
     ["Hypothesis", "Principal empirical test"],
@@ -474,9 +471,6 @@ w.para("The preliminary evidence is sufficient to motivate the full analysis. H1
        "between transaction value and revenue within platforms. H2 and H3 can be examined using national and "
        "business-level BPS evidence, while the contrast between platform, e-commerce, and payment records provides a "
        "direct test of H4.")
-w.para("A separate comparison of eight platform businesses outside Indonesia provides additional evidence that the "
-       "transaction-revenue boundary is not unique to the Indonesian setting. It is used as corroboration rather than "
-       "added to the Indonesian sample.")
 # EDIT: implementation date and the regime's coverage, a design fact rather than an outcome
 w.para("Indonesia's marketplace reporting regime provides an institutional application of the same distinction. PMK "
        "37/2025, administered by the Directorate General of Taxes (DJP), shows how seller-linked transaction records "
@@ -487,12 +481,11 @@ w.para("Indonesia's marketplace reporting regime provides an institutional appli
        "institutional architecture, not as evidence of unpaid tax or of a completed compliance effect.")
 w.para("At this stage, the preliminary results establish that the proposed measurement can be constructed, followed "
        "through time, connected to disclosed accounting changes, and compared with independent records of Indonesian "
-       "digital activity. The remaining analysis tests how robust those conclusions are to alternative evidence and "
-       "measurement choices.")
+       "digital activity.")
 
 w.h1("6. Why the Problem Matters")
-w.para("The problem is not that these records differ; they are designed to measure different things. The problem "
-       "arises when one is used as a substitute for another. Platform revenue measures what the platform recognizes "
+w.para("These records are designed to measure different things, and the problem arises when one is used as a "
+       "substitute for another. Platform revenue measures what the platform recognizes "
        "as its own income, transaction value measures the commerce it processes, national e-commerce statistics "
        "describe a broader market, and payment systems record the movement of funds. When these measures move "
        "differently, the choice of record can change conclusions about economic scale, growth, and monetization.")

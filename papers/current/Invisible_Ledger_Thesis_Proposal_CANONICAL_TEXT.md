@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `27244acf461f188d239eda7efde1344324b1eb5d664d590a9bbf2e4507390e81`.
+Source DOCX SHA-256: `77a64d24bfdeab3ee1c5ddc813d0e0efa82ad380eac3e202f31b56d76d32dbfe`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -130,11 +130,9 @@ This separates changes associated with wider business participation from changes
 
 H3. Marketplace participation is associated with stronger financial recordkeeping.
 
-This asks whether marketplace-mediated activity is associated with a different recordkeeping pattern from other e-commerce activity. Association does not imply that marketplace participation causes formalization.
+Association does not imply that marketplace participation causes formalization.
 
 H4. Measurement choices materially alter conclusions about the scale and growth of digital economic activity.
-
-This asks whether platform accounts, national e-commerce statistics, and payment records produce the same economic account when they observe different parts of digital activity.
 
 Table 1. Hypotheses and principal empirical tests.
 
@@ -282,15 +280,13 @@ The evidence nevertheless shows why measurement choice matters. Recent e-commerc
 
 The preliminary evidence is sufficient to motivate the full analysis. H1 is supported by substantial movement between transaction value and revenue within platforms. H2 and H3 can be examined using national and business-level BPS evidence, while the contrast between platform, e-commerce, and payment records provides a direct test of H4.
 
-A separate comparison of eight platform businesses outside Indonesia provides additional evidence that the transaction-revenue boundary is not unique to the Indonesian setting. It is used as corroboration rather than added to the Indonesian sample.
-
 Indonesia's marketplace reporting regime provides an institutional application of the same distinction. PMK 37/2025, administered by the Directorate General of Taxes (DJP), shows how seller-linked transaction records can enter reporting and withholding, but implementation begins only on 1 November 2026, so post-implementation outcomes are not yet available. Because the regime designates marketplace operators, its reach is bounded by the marketplace channel, which carried 15.8 percent of 2024 e-commerce value and 1.5 percent of 2023-2024 growth. The regulation is therefore examined as institutional architecture, not as evidence of unpaid tax or of a completed compliance effect.
 
-At this stage, the preliminary results establish that the proposed measurement can be constructed, followed through time, connected to disclosed accounting changes, and compared with independent records of Indonesian digital activity. The remaining analysis tests how robust those conclusions are to alternative evidence and measurement choices.
+At this stage, the preliminary results establish that the proposed measurement can be constructed, followed through time, connected to disclosed accounting changes, and compared with independent records of Indonesian digital activity.
 
 ## 6. Why the Problem Matters
 
-The problem is not that these records differ; they are designed to measure different things. The problem arises when one is used as a substitute for another. Platform revenue measures what the platform recognizes as its own income, transaction value measures the commerce it processes, national e-commerce statistics describe a broader market, and payment systems record the movement of funds. When these measures move differently, the choice of record can change conclusions about economic scale, growth, and monetization.
+These records are designed to measure different things, and the problem arises when one is used as a substitute for another. Platform revenue measures what the platform recognizes as its own income, transaction value measures the commerce it processes, national e-commerce statistics describe a broader market, and payment systems record the movement of funds. When these measures move differently, the choice of record can change conclusions about economic scale, growth, and monetization.
 
 Administrative use is a separate question. Platform-held transaction records may contain information about sellers and transactions that does not appear in the platform's corporate revenue, but those records become useful to government only when identity, reporting, transmission, and matching are in place. PMK 37/2025 illustrates this institutional link without establishing a compliance or tax-revenue effect.
 

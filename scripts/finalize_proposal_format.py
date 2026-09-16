@@ -121,23 +121,23 @@ for i, paragraph in enumerate(doc.paragraphs):
     if paragraph.style.name == "Heading 1":
         for run in paragraph.runs:
             set_run_font(run, 12, True)
-        fmt.space_before = Pt(6 if text == "References" else 7)
-        fmt.space_after = Pt(4.0)
+        fmt.space_before = Pt(8 if text == "References" else 10)
+        fmt.space_after = Pt(5.0)
         fmt.keep_with_next = True
         continue
     if paragraph.style.name == "Heading 2":
         for run in paragraph.runs:
             set_run_font(run, 12, True)
-        fmt.space_before = Pt(4.5)
-        fmt.space_after = Pt(1.5)
+        fmt.space_before = Pt(7)
+        fmt.space_after = Pt(3)
         fmt.keep_with_next = True
         continue
     if re.match(r"^Table [0-9A]+\.", text):   # a caption, not prose that merely opens with a table reference
         for run in paragraph.runs:
             set_run_font(run, 9.5, True)
             run.italic = True
-        fmt.space_before = Pt(3)
-        fmt.space_after = Pt(1.5)
+        fmt.space_before = Pt(4)
+        fmt.space_after = Pt(2.5)
         fmt.line_spacing = 1.0
         fmt.keep_with_next = True
         continue
@@ -170,7 +170,7 @@ WIDTHS = {
     "Platform":         [1500, 2700, 2800, 2547],
     "Evidence source":  [2600, 3600, 3347],
     "Case":             [2000, 1250, 1050, 1050, 1250, 2947],
-    "Question":         [2300, 4100, 3147],
+    "Question":         [2050, 4450, 3047],
     "Claim":            [3100, 6447],
     "Evidence supports": [4500, 5047],
     "Period":           [2232, 7315],
@@ -203,6 +203,33 @@ for table in doc.tables:
                 pf.keep_with_next = ri < last   # keeps each table whole, together with its caption
                 for run in paragraph.runs:
                     set_run_font(run, 9)
+
+# A heading keeps only the first line of what follows it, which strands headings such as "1.1" at
+# the foot of a page. Keep the whole first block with its heading, and pull a short lead-in
+# ("One question drives the proposal:") along with whatever it introduces.
+blocks = list(doc.paragraphs)
+for i, paragraph in enumerate(blocks[:-1]):
+    if not paragraph.style.name.startswith("Heading"):
+        continue
+    nxt = blocks[i + 1]
+    if not nxt.text.strip():
+        continue
+    nxt.paragraph_format.keep_together = True          # do not split that paragraph across pages
+    if len(nxt.text.split()) <= 20:                     # a lead-in line, not a real paragraph
+        nxt.paragraph_format.keep_with_next = True
+        if i + 2 < len(blocks) and blocks[i + 2].text.strip():
+            blocks[i + 2].paragraph_format.keep_together = True
+
+# Table cells: align contents to the top so short cells do not float against tall neighbours.
+for table in doc.tables:
+    for row in table.rows:
+        for cell in row.cells:
+            tcPr = cell._tc.get_or_add_tcPr()
+            vAlign = tcPr.find(qn("w:vAlign"))
+            if vAlign is None:
+                vAlign = OxmlElement("w:vAlign")
+                tcPr.append(vAlign)
+            vAlign.set(qn("w:val"), "top")
 
 # Figure: fix the width, derive the height from the image's own pixel dimensions so the chart
 # can never be stretched. A fixed width/height pair distorted it by about 40 percent before.
