@@ -1179,16 +1179,18 @@ _para_containing("Indonesia's digital economy is observed through several record
 
 # ------------------------------------------------------------------ iterative polish, loop 11: final precision and abstract tightening
 revise_whole("Digital economy is measured through several records:",
-    "Digital economy is measured through several records: the transaction value platforms process, the revenue they "
-    "recognize, national e-commerce statistics and payment data. These records capture parts of the same activity. This "
-    "study defines the invisible wedge as transaction value minus platform-recognized revenue and follows it across "
-    "Indonesian platforms from 2020 to 2025. In 2023, Tokopedia, Shopee and Grab processed US$43.23 billion against "
-    "US$3.16 billion of recognized revenue. The relationship was unstable: among platforms reporting both figures, "
-    "revenue grew faster in six of eight year-to-year comparisons and moved in the opposite direction in two. "
-    "BPS-Statistics Indonesia reports a 2023 marketplace figure below Tokopedia and Shopee's transaction value alone "
-    "and places 98.5 percent of 2023–2024 e-commerce growth outside its marketplace category. Payment measures grew up "
-    "to eleven times as fast. Eight platforms outside Indonesia show the transaction-revenue distinction with smaller "
-    "divergence. Thus, conclusions about scale and growth depend on the record used.")
+    "Digital economy is measured through several records (platform transaction value, platform revenue, national "
+    "e-commerce statistics and payment data) that are often used interchangeably, although each captures a different "
+    "part of the same activity. This study asks how much economic activity remains invisible when digital platforms "
+    "are measured through their reported revenue. I define the invisible wedge as transaction value minus "
+    "platform-recognized revenue and follow it across Indonesian platforms from 2020 to 2025. In 2023, Tokopedia, "
+    "Shopee and Grab processed US$43.23 billion of transaction value against US$3.16 billion of recognized revenue. "
+    "The relationship was unstable: among platforms reporting both figures, revenue grew faster than transaction value "
+    "in six of eight year-to-year comparisons and moved in the opposite direction in two. Using its own definitions, "
+    "BPS-Statistics Indonesia reports a 2023 marketplace figure below Tokopedia's and Shopee's transaction value alone "
+    "and places 98.5 percent of 2023–2024 e-commerce growth outside its marketplace category; payment measures grew up "
+    "to eleven times as fast as e-commerce value. Eight platforms outside Indonesia show the same distinction with "
+    "smaller divergence. Conclusions about scale and growth therefore depend on the record used.")
 
 revise_sub("Each is correct for what it measures. These measures are often used interchangeably even though they do not "
            "measure the same thing.",

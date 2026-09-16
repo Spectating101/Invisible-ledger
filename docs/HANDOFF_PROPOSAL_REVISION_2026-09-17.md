@@ -274,6 +274,25 @@ Optional:
 - That payment growth measures e-commerce growth.
 - Causal statements (entry, formalization, incentive effects).
 
+## 10a. Writing priorities and style (Chris's chosen standard — governs every edit)
+
+Priorities, in order. When two conflict, the higher one wins.
+
+1. **The argument survives.** Never cut or soften a sentence that carries the claim, the research question, or the explanation a reader needs to avoid misreading (e.g. "using its own definitions"). Word limits and page counts rank below this.
+2. **True to the evidence.** Every statement traceable to a repo file; nothing explained before the evidence exists. Precision fixes are always accepted.
+3. **Understood on first read.** A reader with no finance background should know after page 2 what the paper claims and why it matters. Define terms at first use, in the sentence where they appear.
+4. **Confident voice.** State what the data shows plainly. No "can", "may" or "appears to" on findings the data proves. Limitations are stated once, in §7, not scattered as disclaimers.
+5. **Economy.** Cut repetition and throat-clearing, but only after 1–4 are satisfied.
+
+Style:
+- Concrete before abstract: show the number or the contradiction, then name the idea.
+- One sentence, one job. Split sentences that define, qualify and conclude at once.
+- Affirmative framing. Say what something is before what it is not; avoid opening or closing paragraphs on a negation.
+- Consistent terms: one name per concept (wedge; transaction value; marketplace channel; issuer-reported), used the same way throughout.
+- First person "I" for the author's decisions (defining, measuring, reconciling); impersonal voice for results.
+- No committee-facing hedging, no bureaucratic phrasing ("it should be noted", "in terms of"), no rhetorical flourishes.
+- When shortening, remove words, not meaning. Before cutting a clause, ask what misreading it prevents.
+
 ## 11. Remaining open items (not for this pass)
 
 - Title breadth ("Platform Economy") is mitigated by the scope paragraph; a title change would cascade to the Chinese title and department records. Chris's call.

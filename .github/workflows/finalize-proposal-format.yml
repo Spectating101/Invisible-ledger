@@ -37,7 +37,7 @@ jobs:
       - name: Release gates
         run: |
           unzip -t papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "15"
+          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "14"
           python - <<'PY'
           from docx import Document
           from zipfile import ZipFile
@@ -64,7 +64,7 @@ jobs:
                   if name.endswith('.xml'):
                       xml=z.read(name).decode('utf-8','ignore')
                       assert not any(p.search(xml) for p in pats), name
-          print('QA: 15 pages, 10 tables, 32 references, undistorted figure, prose not caption-styled, no comments/tracked changes')
+          print('QA: 14 pages, 10 tables, 32 references, undistorted figure, prose not caption-styled, no comments/tracked changes')
           PY
 
       - name: Commit finalized artifacts
