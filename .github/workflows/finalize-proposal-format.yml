@@ -37,7 +37,7 @@ jobs:
       - name: Release gates
         run: |
           unzip -t papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "13"
+          test "$(pdfinfo papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf | awk '/^Pages:/ {print $2}')" = "15"
           python - <<'PY'
           from docx import Document
           from zipfile import ZipFile
@@ -46,7 +46,7 @@ jobs:
           doc=Document(path)
           assert len(doc.tables) == 10, len(doc.tables)
           refs=[p.text.strip() for p in doc.paragraphs if p.style.name=='Reference' and p.text.strip()]
-          assert len(refs) == 31, len(refs)
+          assert len(refs) == 32, len(refs)
           shape=doc.inline_shapes[0]
           from docx.oxml.ns import qn
           blip=shape._inline.graphic.graphicData.pic.blipFill.blip
@@ -64,7 +64,7 @@ jobs:
                   if name.endswith('.xml'):
                       xml=z.read(name).decode('utf-8','ignore')
                       assert not any(p.search(xml) for p in pats), name
-          print('QA: 13 pages, 10 tables, 31 references, undistorted figure, prose not caption-styled, no comments/tracked changes')
+          print('QA: 15 pages, 10 tables, 32 references, undistorted figure, prose not caption-styled, no comments/tracked changes')
           PY
 
       - name: Commit finalized artifacts

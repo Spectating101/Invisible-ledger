@@ -218,6 +218,9 @@ CH12_EDITS = [
      "Indonesia, the largest digital market in Southeast Asia, provides a clear empirical setting because"),
     ("with a median divergence of approximately 42 percentage points;",
      "with a median absolute gap of approximately 42 percentage points between the two growth rates;"),
+    ("The difference also changes over time. Across twelve year-to-year comparisons between 2020 and 2025,",
+     "The difference also changes over time. Across the five platforms, in twelve year-to-year comparisons between "
+     "2020 and 2025,"),
     ("while selected third-party net revenue rose 53.2 percent", "while its third-party net revenue rose 53.2 percent"),
     ("The OECD Model Rules and the European Union's DAC7 regime apply",
      "The OECD Model Rules (OECD 2020) and the European Union's DAC7 regime (European Union 2021) apply"),
@@ -254,12 +257,17 @@ w.para("Let V_{it} denote transaction value processed by platform i in period t,
        "over the same matched period and business scope. The absolute invisible wedge is:")
 w.eq("W_{it} = V_{it} − R_{it}")
 w.para("W measures transaction value outside the platform's recognized revenue. It does not represent merchant "
-       "profit, worker income, taxable income, unpaid tax, tax evasion, or value added.")
+       "profit, worker income, taxable income, unpaid tax, tax evasion, or value added. The platform's accounts are "
+       "not incomplete: they report its own income correctly. W is large because that income is a commission on "
+       "commerce, and it is the commerce, not the commission, that the digital-economy question asks about.")
 w.para("Because platforms differ in size, I also express the wedge relative to revenue. The Ecosystem Ratio is:")
 w.eq("E_{it} = (V_{it} − R_{it}) / R_{it}")
 w.para("An E of 9 means that for every one unit of platform revenue, nine additional units of transaction value lie "
        "outside the revenue line. The Ecosystem Ratio is constructed for this study rather than adopted from prior "
-       "work. Its basis is the platform-economics result that booked revenue need not track the transaction value a "
+       "work. It is a transformation of the platform's monetization rate, t = R/V, since E = 1/t - 1, and is "
+       "reported as a residual because the question concerns the commerce outside recognized revenue rather than "
+       "the share captured as revenue. Its basis is the platform-economics result that booked revenue need not "
+       "track the transaction value a "
        "multisided platform coordinates (Rochet and Tirole 2003; Hagiu and Wright 2015; Evans and Schmalensee 2016), "
        "together with the accounting result that the share of transaction value entering revenue is itself a "
        "reporting choice (International Accounting Standards Board 2014; De Franco, Kothari and Verdi 2011).")
@@ -314,19 +322,29 @@ w.para("The basic observation is one platform in one year, with transaction valu
 w.para("An observation is retained only when its period, geographic and business coverage, units, definitions, and "
        "source can be identified. Measures referring to different periods are excluded, while major changes in "
        "accounting definitions or business structure are recorded.")
+w.para("The study covers Indonesian consumer-facing platforms that disclose both transaction value and revenue. In "
+       "practice these are e-commerce marketplaces - Tokopedia, Blibli, Bukalapak and Shopee - together with Grab, "
+       "whose Indonesian operations are principally delivery and other on-demand services. Blibli's third-party "
+       "segment includes online travel. Platforms in ride-hailing, travel and financial services that publish no "
+       "matched pair fall outside the sample rather than outside the phenomenon.")
 w.caption("Table 2. Indonesian platform evidence.")
 w.table([
     ["Type of evidence", "Platforms", "Annual observations", "Role"],   # EDIT: "Platform series" -> "Platforms"
-    ["Direct Indonesia-aligned data", "Tokopedia e-commerce", "2", "Main direct anchor"],
-    ["Company-reported data with broader scope", "Blibli third-party business; Bukalapak Group", "9",
-     "Evidence through time with stated scope limits"],
-    ["Indonesia estimates requiring construction", "Grab; Shopee Indonesia", "6", "Supporting country evidence"],
+    ["Issuer-reported, Indonesia-aligned", "Tokopedia e-commerce", "2", "Main sample: cleanest scope, shortest window"],
+    ["Issuer-reported, broader scope", "Blibli third-party business; Bukalapak Group", "9",
+     "Main sample: most of the time series"],
+    ["Requires construction", "Grab; Shopee Indonesia", "6", "Supporting: 2023 scale comparison"],
 ])
-w.para("Table 2 groups the retained evidence by how directly it maps to Indonesia. An annual observation means one "
+w.para("Table 2 separates the pairs the issuers report themselves from the country figures that have to be "
+       "constructed. The main sample is the first group: 11 platform-years and 8 year-to-year comparisons. An "
+       "annual observation means one "
        "matched transaction-and-revenue pair for one platform in one year, and the 17 retained observations produce "
        "12 year-to-year comparisons because the same platforms are not available in every year.")
 w.para("Tokopedia is closely aligned with Indonesia but is not a literal country line. Blibli includes online travel, "
-       "Bukalapak includes some overseas activity, and Grab and Shopee require additional construction.")
+       "Bukalapak includes some overseas activity, and Grab and Shopee require additional construction. Tokopedia "
+       "enters only for 2022 and 2023, because that is the window in which a matched pair exists: the 2021 pair "
+       "covers mismatched periods, and the Tokopedia and TikTok Shop businesses were combined under PT Tokopedia on "
+       "31 January 2024, after which the listed parent reports a contractual fee rather than platform revenue.")
 w.h2("4.2 Comparing Platform Activity Through Time")
 w.para("Changes through time are examined mainly by comparing each platform with itself. This keeps the company, "
        "business activity, and reporting convention as similar as the disclosures allow.")
@@ -429,17 +447,21 @@ w.para("Table 5 reports that cross-section. Across the three cases, US$43.23 bil
 w.para("Shopee's ratio of 9.0 follows from the Group monetization rate used to estimate its Indonesian revenue. In "
        "preliminary checks, rates between 9 and 11 percent move the combined wedge only between US$39.86 billion "
        "and US$40.29 billion, and excluding any one platform leaves a wedge of at least US$20.70 billion.")
-w.para("The longitudinal evidence shows that this relationship is not constant. Across twelve year-to-year "
-       "comparisons, revenue grows faster than transaction value in ten, with a median absolute growth divergence "
-       "of 42.02 percentage points. Figure 1 tracks the Ecosystem Ratio for each platform across those years; it "
-       "ends lower than it started in every series, though not by a steady decline.")
+w.para("The longitudinal evidence shows that this relationship is not constant. Across the eight year-to-year "
+       "comparisons in the main sample, revenue grows faster than transaction value in six, the median absolute "
+       "growth divergence is 38.92 percentage points, and the two measures move in opposite directions in two of "
+       "them. Adding the constructed Grab and Shopee series gives twelve comparisons, revenue faster in ten, with a "
+       "median of 42.02 points. Figure 1 tracks the Ecosystem Ratio for each platform across those years; it ends "
+       "lower than it started in every series, though not by a steady decline.")
 w.element(figure_el)
 w.caption("Figure 1. Ecosystem Ratio through time for each retained platform. Each line follows one platform's "
           "matched figures; differences between platforms are descriptive.", center=True)
 w.para("Tokopedia provides the clearest illustration of why the two measures can separate. Between 2022 and 2023, "
        "transaction value falls 8.9 percent while third-party net revenue rises 53.2 percent. The change in net "
        "revenue can be reconciled arithmetically to lower customer incentives and higher gross revenue rather than "
-       "treated as an unexplained residual.")
+       "treated as an unexplained residual. Blibli shows the same reversal at the other end of the period: between "
+       "2024 and 2025 its transaction value fell 1.89 percent while net revenue rose 12.07 percent. The pattern is "
+       "therefore not confined to one platform or one year.")
 w.h2("5.2 Evidence Beyond Platform Revenue")
 w.para("National e-commerce and business evidence provides a different view of the same digital economy. Table 6 "
        "summarizes the preliminary evidence corresponding to H2-H4.")
