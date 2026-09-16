@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `e560dc98a16cf81f1f4e463525fec4636f6113ede94866828b9a2ab31f04c489`.
+Source DOCX SHA-256: `373b2706021ea0f729cdd903c4ccc9230fb6696418c8525afa44b10d07e54ab4`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -106,9 +106,9 @@ W is transaction value outside the platform's recognized revenue, not an omissio
 
 Eit = (Vit − Rit) / Rit
 
-An E of 9 means that nine units of transaction value lie outside the revenue line for every unit recognized as platform revenue. E contains the same information as the platform's monetization rate, t = R/V, because E = 1/t − 1. The residual form matches the research question, which concerns commerce outside recognized revenue.
+An E of 9 means that nine units of transaction value lie outside the revenue line for every unit recognized as platform revenue. E contains the same information as the platform's monetization rate, t = R/V, because E = 1/t − 1. For example, a platform that recognizes 2.5 percent of transaction value as revenue has an E of 39. The residual form matches the research question, which concerns commerce outside recognized revenue.
 
-The Ecosystem Ratio is a descriptive transformation constructed for this study, not a new underlying economic quantity or a measure adopted from prior work. Its interpretation rests on the platform-economics result that booked revenue need not track the transaction value a multisided platform coordinates (Rochet and Tirole 2003; Hagiu and Wright 2015; Evans and Schmalensee 2016), together with the accounting result that the share entering revenue depends on how revenue is recognized, including whether the platform acts as principal or agent (International Accounting Standards Board 2014; De Franco, Kothari and Verdi 2011).
+The Ecosystem Ratio is constructed for this study as a descriptive transformation of the monetization rate. Its interpretation rests on the platform-economics result that booked revenue need not track the transaction value a multisided platform coordinates (Rochet and Tirole 2003; Hagiu and Wright 2015; Evans and Schmalensee 2016), together with the accounting result that the share entering revenue depends on how revenue is recognized, including whether the platform acts as principal or agent (International Accounting Standards Board 2014; De Franco, Kothari and Verdi 2011).
 
 A single ratio does not show whether the relationship holds through time, so I define annual growth divergence, where g(X) is the percentage growth of X from one year to the next, as:
 
@@ -226,7 +226,7 @@ For H3, BPS's published business-level comparison of marketplace and non-marketp
 
 The external comparison contains 48 matched annual observations for eight listed platform businesses from 2017 to 2025: eBay, Etsy, Jumia, Mercado Libre, Rakuten, Sea, Shopify and Zalando. It tests whether the same separation between transaction value and revenue appears under other business models and is reported separately from the Indonesian evidence.
 
-Robustness checks vary the admission rules, revenue definitions, publication versions, and the assumptions in the constructed country measures. The resulting ranges are reported as sensitivity ranges rather than statistical confidence intervals.
+Robustness checks vary the sample-inclusion rules, revenue definitions, publication versions, and the assumptions in the constructed country measures. The resulting ranges are reported as sensitivity ranges rather than statistical confidence intervals.
 
 ## 5. Preliminary Evidence and Feasibility
 
@@ -251,15 +251,15 @@ Two ratios rest on construction. Shopee's 9.0 follows from an assumed company-wi
 
 At the 2023 exchange rate, Blibli's and Bukalapak's reported transaction and revenue figures yield wedges of US$3.20 billion and US$10.50 billion. They are excluded from the total because their measures include online travel and Group-level activity. Their ratios, 43.4 and 36.0, sit close to Tokopedia's 39.3; the constructed ratios instead reflect company-wide monetization.
 
-The relationship is not stable. Revenue grew faster in six of eight main-sample comparisons; the median absolute gap is 38.92 percentage points, with two reversals. Tokopedia's 53.2 percent revenue growth against an 8.9 percent transaction-value decline gives a 62.1-point divergence. Dropping the largest comparison leaves five of seven and a 15.74-point median; every leave-one-out sample retains a majority and a reversal. Adding Grab and Shopee gives ten of twelve, but those four comparisons track company-wide monetization. Figure 1 shows E for each platform; every series ends lower than it began, though not steadily.
+The relationship is not stable. Revenue grew faster in six of the eight main-sample comparisons, and the median absolute gap between the two growth rates was 38.92 percentage points. In two comparisons, revenue and transaction value moved in opposite directions. Tokopedia's 53.2 percent revenue growth against an 8.9 percent transaction-value decline gives a 62.1-point divergence. After dropping the largest comparison, revenue still grew faster in five of seven, with a median gap of 15.74 points. Every leave-one-out sample retains both a majority and at least one reversal. Adding Grab and Shopee gives ten of twelve, but those four comparisons track company-wide monetization. Figure 1 traces E for each platform; every series ends below its starting point, although the decline is not monotonic in every case.
 
 Figure 1. Ecosystem Ratio by platform, 2020–2025. Solid lines are issuer-reported pairs; dashed lines are constructed Indonesian series whose ratios equal Group ratios by construction.
 
-Tokopedia illustrates the separation. In 2022–2023, transaction value fell 8.9 percent while third-party net revenue rose 53.2 percent; 60.6 percent of the revenue increase reconciles to lower customer incentives and 39.4 percent to higher gross revenue. Its accounts show growth while its transactions show contraction. Blibli similarly reversed in 2024–2025: transaction value fell 1.89 percent and net revenue rose 12.07 percent. Its revenue components remain unreconciled.
+Tokopedia illustrates the separation. In 2022–2023, transaction value fell 8.9 percent while third-party net revenue rose 53.2 percent; 60.6 percent of the revenue increase reconciles to lower customer incentives and 39.4 percent to higher gross revenue. Its accounts show growth while its transactions show contraction. Blibli similarly reversed in 2024–2025: transaction value fell 1.89 percent and net revenue rose 12.07 percent. The pattern therefore appears in more than one platform and period.
 
 ### 5.2 Evidence Beyond Platform Revenue
 
-National statistics give a different account of the same commerce, beginning with its level. BPS measures online sales reported by surveyed e-commerce businesses; Tokopedia reports GTV, while the external Shopee figure is a GMV estimate. For 2023, BPS places the marketplace component at Rp200.68 trillion, about US$13.2 billion, in its exclusive channel split, where marketplaces account for 18.2 percent of transaction value. Tokopedia's reported GTV and the external Shopee estimate total US$37.9 billion. Because channel attribution and reporting definitions differ, the records are not yet like-for-like. The thesis will reconcile those definitions before attributing any part of the difference to coverage.
+National statistics give a different account of the same commerce, beginning with its level. BPS measures online sales reported by surveyed e-commerce businesses; Tokopedia reports GTV, while the external Shopee figure is a GMV estimate. For 2023, BPS places the marketplace component at Rp200.68 trillion, about US$13.2 billion, in its exclusive channel split, where marketplaces account for 18.2 percent of e-commerce value. Tokopedia's reported GTV and the external Shopee estimate total US$37.9 billion. Because channel attribution and reporting definitions differ, the records are not yet like-for-like. The thesis will reconcile those definitions before attributing any part of the difference to coverage.
 
 Growth can be compared more directly. Table 6 summarizes the evidence for H2–H4 and the payment context.
 
@@ -284,7 +284,7 @@ PMK 37/2025 provides an administrative example. From 1 November 2026, the Direct
 
 ## 6. Why the Problem Matters
 
-Indonesia's digital economy is observed through platform accounts, transaction measures, national statistics and payment records, which disagree about scale and growth. Revenue alone can reverse the apparent direction of platform activity, while a marketplace measure can show a different trend from all e-commerce. The contribution is to identify which conclusions depend on the record selected and why no fixed conversion from platform revenue can recover the commerce underneath it.
+Indonesia's digital economy is observed through platform accounts, transaction measures, national statistics and payment records, which disagree about scale and growth. Tokopedia's transaction value fell 8.9 percent while its revenue rose 53.2 percent, and BPS's marketplace category grew 1.45 percent while all e-commerce grew 17.08 percent. The contribution is to identify which conclusions depend on the record selected and why no fixed conversion from platform revenue can recover the commerce underneath it.
 
 ## 7. Limitations and Robustness
 
@@ -307,7 +307,7 @@ Robustness is reported as sensitivity ranges: Shopee's assumed rate is varied, e
 
 ## 8. Next Steps
 
-The data and empirical framework are assembled. The remaining work will reconcile the definitions behind the BPS and platform levels, divide movements in the wedge into transaction-volume and monetization effects, test alternative admission rules, and complete the robustness checks. Table 8 sets out that schedule.
+The data and empirical framework are assembled. The remaining work will reconcile the definitions behind the BPS and platform levels, divide movements in the wedge into transaction-volume and monetization effects, test alternative sample-inclusion rules, and complete the robustness checks. Table 8 sets out that schedule.
 
 Table 8. Planned work toward the final thesis.
 
@@ -317,7 +317,7 @@ Table 8. Planned work toward the final thesis.
 | October–November 2026 | Reconcile BPS and platform definitions; divide wedge movements into volume and monetization effects; complete robustness checks; finalize tables and figures. |
 | Before the final defense | Complete the full manuscript and the final citation and consistency review. |
 
-Indonesia's digital economy is observed through several records that measure different objects. The preliminary evidence shows that those records disagree about its size, growth and, in some cases, direction. This thesis measures that disagreement, tests whether the relationship between revenue and transaction value remains stable, and identifies which conclusions depend on the record chosen.
+The thesis therefore treats measurement choice as an empirical object rather than a background convention. It measures disagreement across records, tests the stability of the revenue–transaction relationship, and examines which conclusions survive alternative definitions and sample choices.
 
 ## Appendix A. Variables and Data Sources
 
