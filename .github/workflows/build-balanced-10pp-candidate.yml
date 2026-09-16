@@ -1,0 +1,84 @@
+name: Build balanced 10pp proposal candidate
+
+on:
+  push:
+    branches:
+      - proposal/balanced-10pp-review-20260915
+    paths:
+      - scripts/make_balanced_10pp_candidate.py
+      - docs/BALANCED_10PP_CANDIDATE_REVIEW_2026-09-15.md
+      - .github/workflows/build-balanced-10pp-candidate.yml
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice poppler-utils fonts-liberation fonts-noto-cjk
+          python -m pip install --upgrade pip
+          pip install python-docx
+
+      - name: Build candidate DOCX
+        run: |
+          python scripts/make_balanced_10pp_candidate.py
+
+      - name: Render candidate PDF
+        run: |
+          mkdir -p papers/candidates
+          libreoffice --headless --convert-to pdf --outdir papers/candidates \
+            papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.docx
+
+      - name: Release gates
+        run: |
+          DOCX=papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.docx
+          PDF=papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.pdf
+          unzip -t "$DOCX"
+          test "$(pdfinfo "$PDF" | awk '/^Pages:/ {print $2}')" = "10"
+          python - <<'PY'
+          from docx import Document
+          from zipfile import ZipFile
+          import re
+
+          source = Document('papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx')
+          cand = Document('papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.docx')
+
+          assert [p.text for p in source.paragraphs] == [p.text for p in cand.paragraphs]
+          assert [[[c.text for c in r.cells] for r in t.rows] for t in source.tables] == [[[c.text for c in r.cells] for r in t.rows] for t in cand.tables]
+          assert len(cand.tables) == 6
+          idx = next(i for i,p in enumerate(cand.paragraphs) if p.text.strip() == 'References')
+          refs = [p.text.strip() for p in cand.paragraphs[idx+1:] if p.text.strip()]
+          assert len(refs) == 31, len(refs)
+
+          with ZipFile('papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.docx') as z:
+              assert not any('comment' in n.lower() or 'people' in n.lower() for n in z.namelist())
+              pats = [re.compile(r'<w:' + k + r'(?:\s|>)') for k in ('ins','del','moveFrom','moveTo')]
+              for name in z.namelist():
+                  if name.endswith('.xml'):
+                      xml = z.read(name).decode('utf-8', 'ignore')
+                      assert not any(p.search(xml) for p in pats), name
+
+          print('QA: 10 pages, content-identical, 6 tables, 31 references, no comments/tracked changes')
+          PY
+          sha256sum "$DOCX" "$PDF"
+
+      - name: Commit candidate artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.docx \
+                  papers/candidates/Invisible_Ledger_Thesis_Proposal_BALANCED_10PP_CANDIDATE_2026-09-15.pdf
+          if git diff --cached --quiet; then
+            echo "No candidate artifact changes to commit."
+          else
+            git commit -m "Build balanced 10-page proposal review candidate"
+            git push
+          fi
