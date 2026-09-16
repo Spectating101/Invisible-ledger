@@ -236,9 +236,9 @@ w.para(
     "Tokopedia, Shopee, Blibli and Bukalapak, and Grab, whose Indonesian business is mainly delivery and other "
     "on-demand services. In 2023, Tokopedia, Shopee and Grab together processed US$43.23 billion of transaction "
     "value against US$3.16 billion of recognized revenue, a wedge of US$40.07 billion. BPS-Statistics Indonesia, the "
-    "national statistical agency, placed the whole marketplace channel at between US$13.2 billion and US$23.7 billion, "
-    "depending on how sales through several channels are attributed, and all e-commerce at US$72.3 billion. These "
-    "figures cover different scopes, and that is the point: each answers a different question, and anyone quoting "
+    "national statistical agency, placed the marketplace component of e-commerce at about US$13.2 billion and all "
+    "e-commerce at US$72.3 billion. These figures cover different scopes and definitions, and that is the point: "
+    "each answers a different question, and anyone quoting "
     "one of them as the size of the digital economy has chosen a record.")
 w.para(
     "The records also disagree about growth. Between 2022 and 2023, Tokopedia's revenue rose 53.2 percent while the "
@@ -251,10 +251,8 @@ w.para(
     "bank, grew between 1.8 and 11 times as fast.")
 w.para(
     "A statement about how large Indonesia's digital economy is, or how fast it grew, is therefore a statement about "
-    "a record. An investor reading platform revenue, an analyst sizing e-commerce from marketplace figures and a "
-    "regulator building a rule on marketplace records will each reach a different conclusion about the same years. "
-    "Indonesia's Minister of Finance Regulation No. 37 of 2025 (PMK 37/2025) is one such rule, and Section 5.3 "
-    "shows that it rests on the channel that carried 1.5 percent of recent e-commerce growth.")
+    "a record. An investor reading platform revenue and an analyst sizing e-commerce from marketplace figures will "
+    "reach different conclusions about the same years, and each will have read the record correctly.")
 w.h2("1.1 Research question and objectives")
 w.para("One question drives the proposal:")
 w.para("How much economic activity remains invisible when digital platforms are measured through their reported "
@@ -346,7 +344,8 @@ w.para(
     "compliance and enforcement change when information about income or transactions is independently reported by "
     "third parties (Kleven et al. 2011; Pomeranz 2015; Naritomi 2019; Kleven, Kreiner and Saez 2016; Slemrod 2019). "
     "The OECD Model Rules (OECD 2020) and the European Union's DAC7 regime (European Union 2021) apply this principle "
-    "to digital platforms, and PMK 37/2025 follows the same logic through seller identification, transaction-linked "
+    "to digital platforms, and Indonesia's Minister of Finance Regulation No. 37 of 2025 (PMK 37/2025) follows the "
+    "same logic through seller identification, transaction-linked "
     "reporting, and marketplace withholding. The relevance here is informational: records outside platform revenue "
     "exist, and what they can show depends on which of them a measure or a rule draws on.")
 w.h2("2.4 Research Gap")
@@ -377,8 +376,9 @@ w.h2("3.1 Measurement Framework")
 w.para("Let V_{it} denote transaction value processed by platform i in period t, and R_{it} the revenue recognized "
        "over the same matched period and business scope. The absolute invisible wedge is:")
 w.eq("W_{it} = V_{it} − R_{it}")
-w.para("W is transaction value outside the platform's recognized revenue; it is not merchant profit, worker income, "
-       "taxable income, unpaid tax, tax evasion, or value added. Because platforms differ in size, I also express the "
+w.para("W is transaction value outside the platform's recognized revenue, not an omission from its accounts: both "
+       "inputs can appear in the same company report. It is not merchant profit, worker income, taxable income, unpaid "
+       "tax, tax evasion, or value added. Because platforms differ in size, I also express the "
        "wedge relative to revenue. The Ecosystem Ratio is:")
 w.eq("E_{it} = (V_{it} − R_{it}) / R_{it}")
 w.para(
@@ -387,7 +387,8 @@ w.para(
     "a platform keeping 2.5 percent of transaction value has an E of 39. It is reported this way because the question "
     "concerns the commerce outside revenue rather than the share the platform captures.")
 w.para(
-    "The Ecosystem Ratio is constructed for this study rather than adopted from prior work. Its basis is the "
+    "The Ecosystem Ratio is constructed for this study as a descriptive transformation of the monetization rate, not "
+    "a new underlying quantity or a measure adopted from prior work. Its basis is the "
     "platform-economics result that booked revenue need not track the transaction value a multisided platform "
     "coordinates (Rochet and Tirole 2003; Hagiu and Wright 2015; Evans and Schmalensee 2016), together with the "
     "accounting result that the share of transaction value entering revenue is itself a reporting choice "
@@ -409,13 +410,16 @@ w.para("If they did, D would stay close to zero and E would be constant. The tes
        "changes sign.")
 w.hyp("H2. National e-commerce growth comes mainly from more participating businesses rather than from higher "
       "sales per business.")
-w.para("Growth driven by new sellers can take place in channels that platform accounts do not cover.")
+w.para("Growth driven by new sellers can take place in channels that platform accounts do not cover. The split is "
+       "arithmetic and does not assign new businesses to particular channels.")
 w.hyp("H3. Marketplace participation is associated with stronger financial recordkeeping.")
 w.para("Recordkeeping determines whether activity outside platform accounts leaves a record that statistics can "
        "observe. The relationship is tested as an association.")
-w.hyp("H4. Platform accounts, national e-commerce statistics and payment records give different accounts of the "
-      "level and growth of Indonesian digital commerce.")
-w.para("H4 is the central claim of the thesis; H1 to H3 supply its components.")
+w.hyp("H4. The measured growth of Indonesian digital commerce depends on the record used, both within platforms "
+      "and in national statistics.")
+w.para("H4 is the central claim of the thesis. It fails if revenue grows in step with transaction value within "
+       "platforms and the marketplace channel grows in step with all e-commerce. Level differences between platform "
+       "and BPS figures, and payment growth, are reported as context because their definitions and coverage differ.")
 w.caption("Table 1. Hypotheses and principal empirical tests.")
 w.table([
     ["Hypothesis", "Principal empirical test"],
@@ -423,7 +427,8 @@ w.table([
      "Growth divergence D and the Ecosystem Ratio for the platforms that report both figures"],
     ["H2 - Sources of e-commerce growth", "BPS national e-commerce value split into business count and sales per business"],
     ["H3 - Marketplace participation and recordkeeping", "BPS published comparison of marketplace and non-marketplace sellers"],
-    ["H4 - Measurement choice", "Levels and growth rates reported by platform accounts, BPS and Bank Indonesia for the same years"],
+    ["H4 - Measurement choice", "Growth of revenue against transaction value within platforms, and of the marketplace "
+     "channel against all e-commerce in BPS"],
 ])
 w.para("The comparison of platform businesses outside Indonesia corroborates H1 rather than forming a fifth "
        "hypothesis.")
@@ -446,7 +451,7 @@ w.para(
     "The sample consists of the Indonesian platforms that publish both transaction value and revenue. Lazada and "
     "TikTok Shop, both large in Indonesia, are outside it because no matched Indonesian revenue series has been "
     "located for either. The window runs from the first matched pair, Bukalapak in 2020, to the latest, Blibli in "
-    "2025.")
+    "2025. It is a sample of disclosing cases rather than a representative sample of Indonesian platforms.")
 w.caption("Table 2. Indonesian platform evidence.")
 w.table([
     ["Type of evidence", "Platforms", "Annual observations", "Role"],
@@ -458,7 +463,8 @@ w.table([
 w.para(
     "Table 2 separates the pairs issuers report themselves from the country figures that must be constructed. The "
     "main sample is the first group: 11 platform-years yielding 8 year-to-year comparisons. Adding Grab and Shopee "
-    "gives 17 platform-years and 12 comparisons.")
+    "gives 17 platform-years and 12 comparisons. A 2020 Blibli pair from its prospectus is used only in a separate "
+    "sensitivity.")
 w.para(
     "Each series covers the years in which a matched pair exists. Tokopedia is an Indonesia-aligned segment rather "
     "than a literal country line and enters only for 2022 and 2023: the 2021 pair covers mismatched periods, and the "
@@ -525,7 +531,7 @@ w.table([
      "Examine the level and sources of growth"],
     ["BPS marketplace study", "Business-level marketplace and recordkeeping evidence",
      "Examine the association with financial recordkeeping"],
-    ["Bank Indonesia", "Economy-wide digital payment measures", "Compare payment growth with e-commerce growth"],
+    ["Bank Indonesia", "Economy-wide digital payment measures", "Context on payment growth"],
     ["Platform companies outside Indonesia", "Matched transaction and revenue measures",
      "Test whether the same boundary appears elsewhere"],
 ])
@@ -539,8 +545,10 @@ w.para(
     "consistent with its stated growth figure is used, and the other is retained as a sensitivity check.")
 w.para(
     "For H3, BPS's published business-level comparison of marketplace and non-marketplace sellers is used. For H4, "
-    "Bank Indonesia payment measures are compared with e-commerce growth on growth rates only: they cover payments "
-    "across the whole economy rather than e-commerce alone, so they are never added to platform or BPS values.")
+    "BPS's split of e-commerce value by sales channel is set against the platform evidence. Bank Indonesia payment "
+    "measures provide context only: they cover payments across the whole economy, and their growth also reflects the "
+    "adoption of payment methods and substitution between them, so they are never added to platform or BPS values or "
+    "read as estimates of e-commerce growth.")
 w.h2("4.5 External Evidence and Robustness")
 w.para(
     "The external comparison contains 48 matched annual observations for eight listed platform businesses from 2017 "
@@ -604,18 +612,17 @@ w.para(
     "customer incentives and 39.4 percent to higher gross revenue. Read through its accounts the platform was "
     "growing quickly, read through its transactions it was shrinking. Blibli shows the same reversal in 2024–2025, "
     "when transaction value fell 1.89 percent and net revenue rose 12.07 percent, so the pattern is not confined to "
-    "one platform or one year.")
+    "one platform or one year, although Blibli's revenue components have yet to be reconciled.")
 w.h2("5.2 Evidence Beyond Platform Revenue")
 w.para(
     "National statistics give a different account of the same commerce, beginning with its level. BPS measures the "
     "online sales reported by surveyed e-commerce businesses, whereas platform transaction value is the gross value "
     "of orders processed, and the external Shopee estimate explicitly includes cancelled and returned orders. For "
-    "2023, BPS places the marketplace channel at Rp200.68 trillion, about US$13.2 billion, in its exclusive split of "
-    "transaction value by sales channel, and at 32.74 percent of the total, about US$23.7 billion, in its "
-    "multiple-response measure, which counts businesses under every channel they use. Tokopedia and Shopee alone "
-    "reported US$37.9 billion. Both records are correct for what they measure; reconciling their definitions is "
-    "part of the thesis.")
-w.para("Growth tells the same story. Table 6 summarizes the evidence corresponding to H2–H4.")
+    "2023, BPS places the marketplace component at Rp200.68 trillion, about US$13.2 billion, in its exclusive split of "
+    "transaction value by sales channel, while Tokopedia and Shopee alone reported US$37.9 billion. The figures are "
+    "not yet like-for-like: channel attribution, reporting definitions and the populations covered all differ, and "
+    "reconciling them is part of the thesis before any remainder is attributed to coverage.")
+w.para("Growth can be compared more directly. Table 6 summarizes the evidence for H2–H4 and the payment context.")
 w.caption("Table 6. Preliminary evidence beyond platform accounts.")
 w.table([
     ["Question", "Preliminary evidence", "Interpretation"],
@@ -632,20 +639,20 @@ w.table([
     ["Do payment records show the same growth?",
      "BPS e-commerce +17.08%; electronic-money shopping +30.47%; mobile-banking payments and purchases +82.84%; "
      "QRIS +186.98%",
-     "Economy-wide payment measures grow 1.8 to 11 times as fast (H4)"],
+     "Context only: payment measures grow 1.8 to 11 times as fast, and also reflect adoption and substitution"],
 ])
 w.para(
-    "Outside the marketplace channel, e-commerce runs mainly through social media and instant messaging. In 2023, "
-    "95.33 percent of e-commerce businesses sold through instant messaging, and social media accounted for 44.04 "
-    "percent of attributed transaction value against 32.74 percent for marketplaces. Growth in those channels is "
-    "growth that the marketplace platforms studied here do not record. The business-count split is arithmetic, the "
-    "recordkeeping result is an association, and payment values are compared on growth only.")
+    "The channels outside marketplaces are mainly social media and instant messaging: in 2023, 95.33 percent of "
+    "e-commerce businesses sold through instant messaging, and BPS's multiple-response measure attributes 44.04 "
+    "percent of transaction value to social media against 32.74 percent to marketplaces. These shares describe one "
+    "year and do not allocate the 2023–2024 increase among channels. The business-count split is arithmetic and the "
+    "recordkeeping result is an association.")
 w.h2("5.3 Feasibility and Scope of the Preliminary Findings")
 w.para(
     "The preliminary evidence supports each hypothesis and shows that the comparisons can be completed. It supports "
     "H1 through the six of eight comparisons in which revenue outgrew transaction value; H2 through the business-count "
-    "share of growth; H3 through BPS's business-level comparison; and H4 through the disagreement in both level and "
-    "growth between platform, national and payment records.")
+    "share of growth; H3 through BPS's business-level comparison; and H4 through the different growth recorded within "
+    "platforms and within the national channel split.")
 w.para(
     "The external comparison corroborates the direction of H1 and qualifies its size. Transaction value exceeds "
     "revenue in all eight businesses, with monetization rates from about 2.4 percent at Shopify to about 25 percent "
@@ -653,12 +660,11 @@ w.para(
     "revenue grew faster than transaction value in 22 and the two moved in opposite directions in 4, but the median "
     "gap, 7.1 percentage points, is far smaller than in the Indonesian main sample.")
 w.para(
-    "PMK 37/2025 shows why the choice of record matters beyond statistics. Administered by the Directorate General of "
-    "Taxes (DJP), it requires designated marketplace operators to report seller-linked transactions and withhold tax, "
-    "with implementation from 1 November 2026. Because it is built on the marketplace record, its reach is bounded "
-    "by the marketplace channel, which carried 15.8 percent of 2024 e-commerce value and 1.5 percent of 2023–2024 "
-    "growth. The regulation is examined as a rule built on one record; its compliance and revenue effects lie outside "
-    "this study.")
+    "PMK 37/2025 shows the same question arising in administration. Administered by the Directorate General of Taxes "
+    "(DJP), it requires designated marketplace operators to report seller-linked transactions and withhold tax, with "
+    "implementation from 1 November 2026. It draws on the records of designated operators, whose scope does not "
+    "automatically match BPS's marketplace channel, so mapping one to the other is needed before any statement about "
+    "its coverage; its compliance and revenue effects lie outside this study.")
 w.para(
     "At this stage, the proposed measurement can be constructed, followed through time, reconciled to disclosed "
     "accounting changes, and compared with independent records of Indonesian digital commerce.")
@@ -674,8 +680,6 @@ w.para(
     "e-commerce rose 17 percent, and payment measures rose by as much as 187 percent. A reader who takes any one of "
     "them as the measure of the digital economy, whether to value a platform or to size the sector, inherits that "
     "record's view.")
-w.para("The same holds for rules: a reporting regime built on the marketplace record reaches only what that record "
-       "covers.")
 
 # ------------------------------------------------------------------ Chapter 7
 w.h1("7. Limitations and Robustness")
@@ -701,8 +705,8 @@ w.table([
      "Causal business entry, productivity effects, or marketplace-induced formalization."],
     ["Platform, BPS and payment records disagree in level and growth.",
      "That either record is wrong, or that payment values measure sales."],
-    ["PMK 37/2025 illustrates a rule built on the marketplace record.",
-     "A completed compliance or tax-revenue effect."],
+    ["PMK 37/2025 draws on designated operators' transaction records.",
+     "Its coverage of the digital economy, or a compliance or tax-revenue effect."],
 ])
 w.para(
     "Robustness is reported as sensitivity ranges: Shopee's assumed rate is varied, each platform is excluded in "
@@ -771,6 +775,97 @@ w.table([
      "Institutional architecture only"],
 ])
 w.para("Every figure used in this proposal traces to a named file and locator in the accompanying data package.")
+
+# ------------------------------------------------------------------ previewed revisions 1-8 (17 September)
+def _para_containing(text):
+    hits = [p for p in doc.paragraphs if text in p.text]
+    assert len(hits) == 1, (len(hits), text[:60])
+    assert len(hits[0].runs) == 1, ("multi-run paragraph", text[:60])
+    return hits[0]
+
+
+def revise_sub(old, new):
+    par = _para_containing(old)
+    par.runs[0].text = par.runs[0].text.replace(old, new)
+
+
+def revise_whole(start, new):
+    par = _para_containing(start)
+    par.runs[0].text = new
+
+
+def delete_para(start):
+    par = _para_containing(start)
+    par._p.getparent().remove(par._p)
+
+
+# 1. which platforms report what
+revise_sub("The study covers the five Indonesian platforms that publish usable transaction and revenue figures: the "
+           "marketplaces Tokopedia, Shopee, Blibli and Bukalapak, and Grab, whose Indonesian business is mainly "
+           "delivery and other on-demand services.",
+           "The study covers five platforms. Tokopedia, Blibli and Bukalapak report transaction value and revenue "
+           "themselves; for the marketplace Shopee and for Grab, whose Indonesian business is mainly delivery and other "
+           "on-demand services, the Indonesian figures are partly constructed.")
+# 2. take-rate sentence
+revise_sub("Seen from the other side, E is the platform's monetization rate, t = R/V, inverted: E = 1/t − 1, so a "
+           "platform keeping 2.5 percent of transaction value has an E of 39.",
+           "E carries the same information as the platform's monetization rate, t = R/V, since E = 1/t − 1: a platform "
+           "that recognizes 2.5 percent of transaction value as revenue has an E of 39.")
+# 3. accounting basis
+revise_sub("the share of transaction value entering revenue is itself a reporting choice",
+           "the share of transaction value entering revenue depends on how revenue is recognized, including whether "
+           "the platform acts as principal or agent")
+# 4. digital records opening
+revise_sub("Activity outside platform revenue is still recorded. Merchants and service providers can be small, "
+           "self-employed, or weakly represented in conventional financial records while their transactions leave "
+           "detailed records inside a digital platform.",
+           "Transactions outside a platform's revenue can still leave a detailed record. Merchants and service providers "
+           "can be small, self-employed, or weakly represented in conventional financial records, yet the transactions "
+           "they make on a platform are recorded by it.")
+# 5. 100/10/90
+revise_sub("they represent merchant receipts", "they include merchant receipts")
+# 6. section 4.1 sample and windows
+revise_whole("The sample consists of the Indonesian platforms that publish both transaction value and revenue.",
+    "The main sample consists of the platforms that report transaction value and revenue themselves: Tokopedia, Blibli "
+    "and Bukalapak. Grab and Shopee, whose Indonesian figures must be constructed, support the 2023 scale comparison. "
+    "Lazada and TikTok Shop, both large in Indonesia, are outside the sample because no matched Indonesian revenue "
+    "series has been located for either. The platforms are disclosing cases rather than a representative sample of "
+    "Indonesian platforms.")
+revise_whole("Table 2 separates the pairs issuers report themselves",
+    "Table 2 gives the main sample 11 platform-years and 8 year-to-year comparisons; adding Grab and Shopee gives 17 and "
+    "12. Each series covers only the years in which a matched pair exists. Tokopedia, an Indonesia-aligned segment rather "
+    "than a literal country line, appears for 2022 and 2023: its 2021 pair covers mismatched periods, and after the "
+    "Tokopedia and TikTok Shop businesses were combined under PT Tokopedia on 31 January 2024, the listed parent reports "
+    "a contractual fee rather than platform revenue. Blibli runs from 2021 to 2025, with a 2020 prospectus pair used "
+    "only as a sensitivity, and its third-party segment includes online travel. Bukalapak runs from 2020 to 2023 at Group "
+    "level, including some overseas activity; its 2024 pair is excluded because it covers nine months of transactions "
+    "against twelve of revenue. Grab runs from 2021 to 2023, after which its transaction measure changes basis, and "
+    "Shopee from 2022 to 2024.")
+delete_para("Each series covers the years in which a matched pair exists. Tokopedia is an Indonesia-aligned segment")
+# 7. section 5.3
+revise_whole("The preliminary evidence supports each hypothesis and shows that the comparisons can be completed.",
+    "The preliminary evidence supports each hypothesis: H1 through the six of eight comparisons in which revenue outgrew "
+    "transaction value, H2 through the business-count share of growth, H3 through BPS's business-level comparison, and "
+    "H4 through the different growth recorded within platforms and within the national channel split.")
+revise_whole("The external comparison corroborates the direction of H1 and qualifies its size.",
+    "Outside Indonesia, transaction value exceeds revenue in all eight businesses, with monetization rates from about 2.4 "
+    "percent at Shopify to about 25 percent at Mercado Libre among the marketplaces. In the 29 comparisons free of "
+    "acquisitions or perimeter changes, revenue grew faster than transaction value in 22 and the two moved in opposite "
+    "directions in 4. The median gap of 7.1 percentage points is far smaller than in Indonesia, so the external evidence "
+    "confirms the direction of H1 while qualifying its size.")
+revise_whole("PMK 37/2025 shows the same question arising in administration.",
+    "PMK 37/2025, administered by the Directorate General of Taxes (DJP), raises the same question in administration: "
+    "from 1 November 2026 it requires designated marketplace operators to report seller-linked transactions and withhold "
+    "tax. Its designated operators do not automatically correspond to BPS's marketplace channel, so its coverage cannot "
+    "yet be measured, and its compliance and revenue effects lie outside this study.")
+delete_para("At this stage, the proposed measurement can be constructed")
+# 8. chapter 6
+revise_whole("These records are designed to measure different things",
+    "These records measure different things, and the problem arises when one stands in for another. Between 2022 and "
+    "2024 they disagreed about both the size and the growth of Indonesian digital commerce: Tokopedia's transactions "
+    "shrank while its revenue grew, the marketplace channel was almost flat while national e-commerce rose 17 percent, "
+    "and payment measures rose by as much as 187 percent. A reader who takes any one of them as the measure of the "
+    "digital economy, whether to value a platform or to size the sector, inherits that record's view.")
 
 # ------------------------------------------------------------------ references: add World Bank, then footnote
 last_ref = [p for p in doc.paragraphs if p.style.name == "Reference" and p.text.strip()][-1]
