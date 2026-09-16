@@ -200,7 +200,7 @@ abstract.runs[0].text = (
     "platform-recognized revenue, measure it across Indonesian platform histories from 2020 to 2025, and compare "
     "the result with BPS-Statistics Indonesia e-commerce data and Bank Indonesia payment records. In 2023, three "
     "major platforms processed US$43.23 billion of transaction value against US$3.16 billion of recognized "
-    "revenue, a ratio of 13.7 to 1 and a wedge equivalent to about 2.9 percent of Indonesian GDP. Across twelve "
+    "revenue, a ratio of 13.7 to 1. Across twelve "
     "year-to-year comparisons, revenue grew faster than transaction value in ten, so the relationship is not "
     "stable. National statistics place 98.5 percent of recent e-commerce growth outside the marketplace "
     "component, and payment measures grew up to eleven times as fast as e-commerce value. Eight platform "
@@ -258,7 +258,11 @@ w.para("W measures transaction value outside the platform's recognized revenue. 
 w.para("Because platforms differ in size, I also express the wedge relative to revenue. The Ecosystem Ratio is:")
 w.eq("E_{it} = (V_{it} − R_{it}) / R_{it}")
 w.para("An E of 9 means that for every one unit of platform revenue, nine additional units of transaction value lie "
-       "outside the revenue line. The Ecosystem Ratio is constructed for this study.")
+       "outside the revenue line. The Ecosystem Ratio is constructed for this study rather than adopted from prior "
+       "work. Its basis is the platform-economics result that booked revenue need not track the transaction value a "
+       "multisided platform coordinates (Rochet and Tirole 2003; Hagiu and Wright 2015; Evans and Schmalensee 2016), "
+       "together with the accounting result that the share of transaction value entering revenue is itself a "
+       "reporting choice (International Accounting Standards Board 2014; De Franco, Kothari and Verdi 2011).")
 w.para("A single ratio does not show whether transaction value and revenue move together through time. I therefore "
        "define annual growth divergence as:")
 w.eq("D_{it} = g(V_{it}) − g(R_{it})")
@@ -334,8 +338,9 @@ w.para("When transaction value and revenue move sharply apart, disclosed changes
        "permit. These reconciliations are arithmetic accounting explanations rather than estimates of causal "
        "effects.")
 gtv = w.para("Companies use different names for transaction activity, including gross transaction value (GTV), gross "
-             "merchandise value (GMV), and total payment volume (TPV). This proposal uses GTV throughout, and each "
-             "issuer's own label and definition are checked rather than assumed to be identical.")
+             "merchandise value (GMV), and total payment volume (TPV). This proposal uses GTV as its common label "
+             "for the value of transactions processed through a platform, and each issuer's own label and definition "
+             "are retained and checked rather than assumed to be identical.")
 footnote_ref(gtv, 2)
 w.para("A separate comparison uses the 2023 fiscal year (FY2023) because it provides the most useful common year "
        "across the principal platform cases. It shows the scale of the transaction-revenue difference among the "
@@ -362,9 +367,10 @@ w.eq("Indonesia GTV = Indonesia revenue × Group GTV / Group revenue")
 w.para("The Group monetization rate is platform revenue divided by gross transaction value, and the result is treated "
        "as a reconstruction rather than a direct disclosure.")
 w.para("Sea Limited does not report Shopee transaction value separately for Indonesia. Indonesian transaction value "
-       "is taken from Momentum Works, a Singapore-based research firm whose annual Southeast Asian e-commerce report "
-       "is the main published source of country-level platform transaction estimates for this market, and Indonesian "
-       "revenue is estimated using Sea's Group service monetization rate:")
+       "is taken from Momentum Works, a Singapore-based industry research firm whose annual Southeast Asian "
+       "e-commerce report is widely cited for country-level platform transaction estimates. It is used because no "
+       "issuer discloses Shopee's Indonesian transaction value, it is labeled as a third-party estimate wherever it "
+       "appears, and Indonesian revenue is then estimated using Sea's Group service monetization rate:")
 w.eq("Indonesia revenue = Indonesia transaction value × Group monetization rate")
 w.para("Both constructions remain explicitly labeled wherever they are used.")
 w.h2("4.4 Evidence Beyond Platform Accounts")
@@ -419,7 +425,9 @@ w.table([
 w.para("Table 5 reports that cross-section. Across the three cases, US$43.23 billion of transaction value corresponds "
        "to US$3.16 billion of recognized platform revenue, leaving a US$40.07 billion wedge, so transaction value is "
        "approximately 13.7 times recognized revenue. For scale, that wedge is equivalent in magnitude to about 2.9 "
-       "percent of Indonesia's 2023 nominal GDP of US$1.371 trillion.")
+       "percent of Indonesia's 2023 nominal GDP of US$1.371 trillion. The comparison is one of magnitude only: the "
+       "three platforms are not the whole market, and the wedge is transaction value outside platform revenue, not "
+       "value added.")
 # EDIT: the one assumption an examiner will test first, with its preliminary sensitivity
 w.para("Shopee's ratio of 9.0 follows from the Group monetization rate used to estimate its Indonesian revenue. In "
        "preliminary checks, rates between 9 and 11 percent move the combined wedge only between US$39.86 billion "
@@ -475,7 +483,8 @@ w.para("Indonesia's marketplace reporting regime provides an institutional appli
        "can enter reporting and withholding, but implementation "
        "begins only on 1 November 2026, so post-implementation outcomes are not yet available. Because the regime "
        "designates marketplace operators, its reach is bounded by the marketplace channel, which carried 15.8 percent "
-       "of 2024 e-commerce value and 1.5 percent of 2023-2024 growth.")
+       "of 2024 e-commerce value and 1.5 percent of 2023-2024 growth. The regulation is therefore examined as "
+       "institutional architecture, not as evidence of unpaid tax or of a completed compliance effect.")
 w.para("At this stage, the preliminary results establish that the proposed measurement can be constructed, followed "
        "through time, connected to disclosed accounting changes, and compared with independent records of Indonesian "
        "digital activity. The remaining analysis tests how robust those conclusions are to alternative evidence and "
@@ -553,8 +562,10 @@ w.table([
 w.para("Table A1 traces each evidence type to its sources. Every figure used in this proposal traces to a named file "
        "and locator in the accompanying data package.")
 
-add_footnotes(doc, ["Sea Limited and Blibli report GMV, Grab reports GMV for deliveries and TPV for financial "
-                    "services, and GoTo reports GTV. The labels describe the same quantity, the value of "
-                    "transactions processed through the platform, and GTV is used throughout this proposal."])
+add_footnotes(doc, ["Issuer labels differ. GoTo reports GTV and Sea Limited reports GMV for Shopee; for these the "
+                    "label differs but the measure is the same. Blibli and Bukalapak report TPV for the segments "
+                    "used here, and Grab reports GMV for deliveries and mobility and TPV for financial services. "
+                    "Where a source reports TPV the measure rests on a different basis, so it is retained under its "
+                    "own label rather than relabeled as GTV."])
 doc.save(OUT)
 print("wrote", OUT)
