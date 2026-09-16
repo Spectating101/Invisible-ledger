@@ -1,0 +1,20 @@
+name: Issuer admission policy candidate
+
+on:
+  pull_request:
+    paths:
+      - 'docs/ISSUER_ADMISSION_POLICY_CANDIDATE_2026-09-15.md'
+      - 'docs/ADVISOR_SAMPLE_DECISION_REQUEST_2026-09-15.md'
+      - 'data/quality_control/issuer_admission_policy_candidate_2026-09-15.json'
+      - 'tests/test_issuer_admission_policy_candidate.py'
+      - '.github/workflows/issuer-admission-policy.yml'
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate candidate policy boundaries
+        run: python3 -m unittest tests.test_issuer_admission_policy_candidate -v

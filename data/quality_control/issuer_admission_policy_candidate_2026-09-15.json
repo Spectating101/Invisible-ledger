@@ -1,0 +1,144 @@
+{
+  "schema": "invisible_ledger.issuer_admission_policy_candidate.v1",
+  "snapshot": "2026-09-15",
+  "status": "RESEARCHER_CANDIDATE_ADVISOR_RATIFICATION_REQUIRED",
+  "changes_current_status": false,
+  "advisor_approved": false,
+  "proposed_main_geography": "Indonesia",
+  "decision_principle": "Separate inference domain from source directness; admit scope-labelled direct issuer series to within-series longitudinal translation without promoting them to Indonesia-only country observations.",
+  "domains": [
+    {
+      "id": "A_INDONESIA_SPECIFIC",
+      "role": "Claims explicitly about Indonesia as a geography, national market, participant population, payment system, or administrative system.",
+      "families": [
+        "BPS national and business-level evidence",
+        "Bank Indonesia payment evidence with distinct definitions",
+        "Indonesian institutional and tax-administration evidence",
+        "Tokopedia e-commerce as Indonesia-aligned direct segment evidence"
+      ],
+      "pool_with_other_domains": false
+    },
+    {
+      "id": "B_DIRECT_ISSUER_LONGITUDINAL",
+      "role": "RQ1 within-series transaction-versus-revenue growth translation.",
+      "periods": 13,
+      "positive_base_transitions": 9,
+      "pool_levels_as_indonesia_panel": false,
+      "series": [
+        {
+          "name": "Tokopedia e-commerce",
+          "periods": 2,
+          "positive_base_transitions": 1,
+          "years": "FY2022-FY2023",
+          "directness": "direct_segment",
+          "scope_label": "Indonesia-aligned segment; not a literal geographic country line",
+          "admission": "ADMIT_DOMAIN_B_AND_INDONESIA_ALIGNED_MECHANISM_CASE"
+        },
+        {
+          "name": "Blibli 3P",
+          "periods": 7,
+          "positive_base_transitions": 5,
+          "years": "FY2019-FY2025",
+          "directness": "direct_segment",
+          "scope_label": "includes OTA/travel through tiket.com and changing business mix",
+          "admission": "ADMIT_DOMAIN_B_ONLY_WITH_SCOPE_LABEL"
+        },
+        {
+          "name": "Bukalapak Group",
+          "periods": 4,
+          "positive_base_transitions": 3,
+          "years": "FY2020-FY2023",
+          "directness": "direct_group",
+          "scope_label": "group geography broader than strict Indonesia because overseas operations remain in perimeter",
+          "admission": "ADMIT_DOMAIN_B_ONLY_WITH_SCOPE_LABEL"
+        }
+      ]
+    },
+    {
+      "id": "C_CONDITIONAL_COUNTRY_RECONSTRUCTION",
+      "role": "Sensitivity and historical continuity only.",
+      "series": ["Grab Indonesia", "Shopee Indonesia"],
+      "admission": "CONDITIONAL_ONLY_NOT_DIRECT_CORE",
+      "pool_with_domain_b": false
+    },
+    {
+      "id": "D_EXTERNAL_CORROBORATION",
+      "role": "Recurrence, heterogeneity, and context only.",
+      "families": ["ASEAN histories", "global issuer histories", "company-wide accounting histories"],
+      "validate_indonesia_allocation": false,
+      "pool_with_indonesia_n": false
+    }
+  ],
+  "admission_rule_domain_b": [
+    "transaction_and_revenue_cover_same_economic_period",
+    "common_issuer_or_segment_perimeter_is_stable_enough_for_within_series_comparison",
+    "geography_and_business_scope_are_known_enough_to_label",
+    "currency_units_definitions_reporting_basis_and_structural_breaks_are_recorded",
+    "derived_components_are_transparent_and_separately_classified",
+    "duplicate_annual_quarterly_cumulative_or_vintage_representations_are_not_counted_independently",
+    "claims_are_restricted_to_the_series_inference_domain"
+  ],
+  "revenue_basis_rule": {
+    "force_common_cross_platform_revenue_definition": false,
+    "primary_comparison": "within_series",
+    "selection_rule": "Use the issuer-defined revenue measure that is consistently available across retained periods and most closely matches the transaction-measure business perimeter; preserve definition changes and structural breaks explicitly.",
+    "cross_platform_levels": "descriptive_scope_labelled_only",
+    "cross_platform_growth_summaries": "diagnostic_not_common_level_panel_estimate"
+  },
+  "hard_exclusions": [
+    {
+      "series": "Tokopedia",
+      "period": "FY2021",
+      "reason": "transaction and revenue periods do not match"
+    },
+    {
+      "series": "Bukalapak",
+      "period": "FY2024",
+      "reason": "transaction value and revenue cover different durations"
+    }
+  ],
+  "diagnostics": {
+    "domain_b": {
+      "transitions": 9,
+      "revenue_growth_faster": 6,
+      "transaction_growth_faster": 3,
+      "opposite_sign_transitions": 3,
+      "median_absolute_growth_divergence_pp": 42.94,
+      "interpretation": "direct-evidence diagnostic only; not an Indonesia population or country effect"
+    },
+    "all_tier_inventory": {
+      "levels": 17,
+      "transitions": 12,
+      "median_absolute_growth_divergence_pp": 42.02,
+      "interpretation": "broader inventory diagnostic including conditional country reconstructions"
+    }
+  },
+  "prohibited_wording": [
+    "13 Indonesia platform-years",
+    "9 Indonesia panel transitions",
+    "Blibli Indonesia e-commerce when referring to the 3P perimeter",
+    "Bukalapak Indonesia when referring to Group-level values with overseas operations",
+    "representative Indonesian platform sample",
+    "Indonesia-wide wedge from summing issuer transaction-revenue differences"
+  ],
+  "advisor_ratification_question": "For RQ1, may the thesis use Tokopedia, Blibli 3P, and Bukalapak Group together as a scope-labelled direct issuer longitudinal evidence set for within-series transaction-versus-revenue growth, while reserving strict Indonesia geographic claims for Indonesia-aligned/national modules and explicitly not treating the 13 periods as one Indonesia country panel?",
+  "effect_if_ratified": [
+    "update docs/CURRENT_STATUS.md with the decision and date",
+    "replace scope-pending wording with ratified labels in outward thesis artifacts",
+    "preserve existing source and directness classifications",
+    "keep Grab and Shopee conditional",
+    "use Domain B as the longitudinal RQ1 evidence set",
+    "retain BPS, Bank Indonesia, and institutional modules as separate Indonesia-specific evidence",
+    "rerun manuscript tables and figures under the ratified selection",
+    "unlock IL conference and journal packets that require a frozen longitudinal perimeter"
+  ],
+  "authority_sources": [
+    "docs/CURRENT_STATUS.md",
+    "docs/CANONICAL_EMPIRICAL_RESULTS_2026-09-12.md",
+    "docs/EMPIRICAL_CERTIFICATION_RECONCILIATION_2026-09-10.md",
+    "docs/METHODOLOGY.md",
+    "docs/KNOWN_LIMITATIONS.md",
+    "data/README.md"
+  ],
+  "human_readable_policy": "docs/ISSUER_ADMISSION_POLICY_CANDIDATE_2026-09-15.md"
+}
