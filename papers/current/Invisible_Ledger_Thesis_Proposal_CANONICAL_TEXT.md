@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `77a64d24bfdeab3ee1c5ddc813d0e0efa82ad380eac3e202f31b56d76d32dbfe`.
+Source DOCX SHA-256: `924c33e2914f87692fa2c81e1ba9b52d394eba96f527f68f53d97246f28787ba`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -253,7 +253,7 @@ Table 5 reports that cross-section. Across the three cases, US$43.23 billion of 
 
 Shopee's ratio of 9.0 follows from the Group monetization rate used to estimate its Indonesian revenue. In preliminary checks, rates between 9 and 11 percent move the combined wedge only between US$39.86 billion and US$40.29 billion, and excluding any one platform leaves a wedge of at least US$20.70 billion.
 
-The longitudinal evidence shows that this relationship is not constant. Across twelve year-to-year comparisons, revenue grows faster than transaction value in ten, with a median absolute growth divergence of 42.02 percentage points.
+The longitudinal evidence shows that this relationship is not constant. Across twelve year-to-year comparisons, revenue grows faster than transaction value in ten, with a median absolute growth divergence of 42.02 percentage points. Figure 1 tracks the Ecosystem Ratio for each platform across those years; it ends lower than it started in every series, though not by a steady decline.
 
 Figure 1. Ecosystem Ratio through time for each retained platform. Each line follows one platform's matched figures; differences between platforms are descriptive.
 

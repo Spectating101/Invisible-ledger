@@ -431,7 +431,8 @@ w.para("Shopee's ratio of 9.0 follows from the Group monetization rate used to e
        "and US$40.29 billion, and excluding any one platform leaves a wedge of at least US$20.70 billion.")
 w.para("The longitudinal evidence shows that this relationship is not constant. Across twelve year-to-year "
        "comparisons, revenue grows faster than transaction value in ten, with a median absolute growth divergence "
-       "of 42.02 percentage points.")
+       "of 42.02 percentage points. Figure 1 tracks the Ecosystem Ratio for each platform across those years; it "
+       "ends lower than it started in every series, though not by a steady decline.")
 w.element(figure_el)
 w.caption("Figure 1. Ecosystem Ratio through time for each retained platform. Each line follows one platform's "
           "matched figures; differences between platforms are descriptive.", center=True)
