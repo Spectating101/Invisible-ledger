@@ -1177,6 +1177,65 @@ revise_whole("Tokopedia shows why the two measures separate.",
     "remain unreconciled.")
 _para_containing("Indonesia's digital economy is observed through several records that measure different objects.").paragraph_format.keep_together = True
 
+# ------------------------------------------------------------------ iterative polish, loop 11: final precision and abstract tightening
+revise_whole("Digital economy is measured through several records:",
+    "Digital economy is measured through several records: the transaction value platforms process, the revenue they "
+    "recognize, national e-commerce statistics and payment data. These records capture parts of the same activity. This "
+    "study defines the invisible wedge as transaction value minus platform-recognized revenue and follows it across "
+    "Indonesian platforms from 2020 to 2025. In 2023, Tokopedia, Shopee and Grab processed US$43.23 billion against "
+    "US$3.16 billion of recognized revenue. The relationship was unstable: among platforms reporting both figures, "
+    "revenue grew faster in six of eight year-to-year comparisons and moved in the opposite direction in two. "
+    "BPS-Statistics Indonesia reports a 2023 marketplace figure below Tokopedia and Shopee's transaction value alone "
+    "and places 98.5 percent of 2023–2024 e-commerce growth outside its marketplace category. Payment measures grew up "
+    "to eleven times as fast. Eight platforms outside Indonesia show the transaction-revenue distinction with smaller "
+    "divergence. Thus, conclusions about scale and growth depend on the record used.")
+
+revise_sub("Each is correct for what it measures. These measures are often used interchangeably even though they do not "
+           "measure the same thing.",
+           "These records are designed to measure different things, yet they are often used interchangeably.")
+
+revise_whole("Suppose a platform processes 100 units of transaction value",
+    "Suppose a platform processes 100 units of transaction value but recognizes only 10 as its own revenue: the "
+    "commissions and fees it earns for arranging the transactions. Depending on the business model, the remaining 90 "
+    "can include merchant receipts, driver payouts, inventory costs, taxes and other pass-through payments. An analyst "
+    "using the platform's accounts sees 10, while one measuring the commerce it processes sees 100. I call the "
+    "difference the invisible wedge. Neither number is wrong: revenue records what the platform earned, while "
+    "transaction value records what it carried. The arithmetic is familiar; the measurement problem is that the "
+    "relationship does not remain fixed.")
+
+revise_whole("A statement about how large Indonesia's digital economy is",
+    "A statement about how large Indonesia's digital economy is, or how fast it grew, is therefore a statement about a "
+    "record. An investor using platform revenue and an analyst using marketplace figures reach different conclusions "
+    "about the same years because the records measure different objects. The error lies in treating either one as the "
+    "measure of the digital economy.")
+
+revise_sub("Indonesia's Minister of Finance Regulation No. 37 of 2025 through",
+           "Indonesia's Minister of Finance Regulation No. 37 of 2025 (PMK 37/2025) through")
+
+revise_whole("Blibli and Bukalapak report 2023 wedges of",
+    "At the 2023 exchange rate, Blibli's and Bukalapak's reported transaction and revenue figures yield wedges of "
+    "US$3.20 billion and US$10.50 billion. They are excluded from the total because their measures include online travel "
+    "and Group-level activity. Their ratios, 43.4 and 36.0, sit close to Tokopedia's 39.3; the constructed ratios instead "
+    "reflect company-wide monetization.")
+
+revise_whole("National statistics give a different account of the same commerce, beginning with its level.",
+    "National statistics give a different account of the same commerce, beginning with its level. BPS measures online "
+    "sales reported by surveyed e-commerce businesses; Tokopedia reports GTV, while the external Shopee figure is a GMV "
+    "estimate. For 2023, BPS places the marketplace component at Rp200.68 trillion, about US$13.2 billion, in its "
+    "exclusive channel split, where marketplaces account for 18.2 percent of transaction value. Tokopedia's reported "
+    "GTV and the external Shopee estimate total US$37.9 billion. Because channel attribution and reporting definitions "
+    "differ, the records are not yet like-for-like. The thesis will reconcile those definitions before attributing any "
+    "part of the difference to coverage.")
+
+revise_sub("The value is labelled as a third-party estimate", "The value is labeled as a third-party estimate")
+
+revise_whole("Indonesia's digital economy is observed through platform accounts, transaction measures, national",
+    "Indonesia's digital economy is observed through platform accounts, transaction measures, national statistics and "
+    "payment records, which disagree about scale and growth. Revenue alone can reverse the apparent direction of platform "
+    "activity, while a marketplace measure can show a different trend from all e-commerce. The contribution is to "
+    "identify which conclusions depend on the record selected and why no fixed conversion from platform revenue can "
+    "recover the commerce underneath it.")
+
 # ------------------------------------------------------------------ references: add World Bank, then footnote
 last_ref = [p for p in doc.paragraphs if p.style.name == "Reference" and p.text.strip()][-1]
 new_ref = copy.deepcopy(last_ref._p)
