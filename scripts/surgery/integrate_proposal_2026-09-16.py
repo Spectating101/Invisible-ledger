@@ -27,6 +27,38 @@ FONT = "Times New Roman"
 J, L, C = WD_ALIGN_PARAGRAPH.JUSTIFY, WD_ALIGN_PARAGRAPH.LEFT, WD_ALIGN_PARAGRAPH.CENTER
 
 
+FOOTNOTES_XML = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:footnotes xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:footnote w:type="separator" w:id="-1"><w:p><w:pPr><w:spacing w:after="0" w:line="240" w:lineRule="auto"/></w:pPr><w:r><w:separator/></w:r></w:p></w:footnote>
+<w:footnote w:type="continuationSeparator" w:id="0"><w:p><w:pPr><w:spacing w:after="0" w:line="240" w:lineRule="auto"/></w:pPr><w:r><w:continuationSeparator/></w:r></w:p></w:footnote>
+%s</w:footnotes>"""
+
+FOOTNOTE_BODY = """<w:footnote w:id="%d"><w:p><w:pPr><w:spacing w:after="0" w:line="240" w:lineRule="auto"/><w:jc w:val="both"/></w:pPr>
+<w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman"/><w:vertAlign w:val="superscript"/><w:sz w:val="20"/></w:rPr><w:footnoteRef/></w:r>
+<w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman"/><w:sz w:val="20"/></w:rPr><w:t xml:space="preserve"> %s</w:t></w:r></w:p></w:footnote>"""
+
+
+def add_footnotes(document, texts):
+    """Attach a real footnotes part; python-docx has no API for it."""
+    from docx.opc.constants import CONTENT_TYPE as CT, RELATIONSHIP_TYPE as RT
+    from docx.opc.packuri import PackURI
+    from docx.opc.part import Part
+    body = "\n".join(FOOTNOTE_BODY % (i + 2, t) for i, t in enumerate(texts))
+    part = Part(PackURI("/word/footnotes.xml"), CT.WML_FOOTNOTES,
+                (FOOTNOTES_XML % body).encode("utf-8"), document.part.package)
+    document.part.relate_to(part, RT.FOOTNOTES)
+
+
+def footnote_ref(paragraph, note_id):
+    r = paragraph.add_run()
+    font(r, 12)
+    r._element.get_or_add_rPr().append(OxmlElement("w:vertAlign"))
+    r._element.rPr.find(qn("w:vertAlign")).set(qn("w:val"), "superscript")
+    ref = OxmlElement("w:footnoteReference")
+    ref.set(qn("w:id"), str(note_id))
+    r._element.append(ref)
+
+
 def find(text):
     for p in doc.paragraphs:
         if p.text.strip() == text:
@@ -166,16 +198,15 @@ abstract.runs[0].text = (
     "study asks how much economic activity remains invisible when digital platforms are measured through their "
     "reported revenue. I define the invisible wedge as the difference between transaction value and "
     "platform-recognized revenue, measure it across Indonesian platform histories from 2020 to 2025, and compare "
-    "the platform evidence with BPS-Statistics Indonesia e-commerce data and Bank Indonesia payment records. "
-    "Preliminary evidence shows that the boundary is economically large and unstable. In 2023, three major "
-    "platforms processed US$43.23 billion of transaction value against US$3.16 billion of recognized revenue, a "
-    "ratio of 13.7 to 1. Across twelve year-to-year comparisons, revenue grew faster than transaction value in "
-    "ten. National statistics place 98.5 percent of recent e-commerce growth outside the marketplace component, "
-    "marketplace participation is associated with stronger financial recordkeeping, and payment measures grew up "
-    "to eleven times as fast as e-commerce value. A separate comparison of eight platform businesses outside "
-    "Indonesia provides external corroboration. The proposal treats these records as distinct measurement layers "
-    "and tests whether substituting one for another changes conclusions about the scale and growth of digital "
-    "activity.")
+    "the result with BPS-Statistics Indonesia e-commerce data and Bank Indonesia payment records. In 2023, three "
+    "major platforms processed US$43.23 billion of transaction value against US$3.16 billion of recognized "
+    "revenue, a ratio of 13.7 to 1 and a wedge equivalent to about 2.9 percent of Indonesian GDP. Across twelve "
+    "year-to-year comparisons, revenue grew faster than transaction value in ten, so the relationship is not "
+    "stable. National statistics place 98.5 percent of recent e-commerce growth outside the marketplace "
+    "component, and payment measures grew up to eleven times as fast as e-commerce value. Eight platform "
+    "businesses outside Indonesia provide external corroboration. The proposal treats these records as distinct "
+    "measurement layers and tests whether substituting one for another changes conclusions about the scale and "
+    "growth of digital activity.")
 abstract.alignment = J
 
 # ------------------------------------------------------------------ Chapters 1-2: author's text, exact edits only
@@ -215,7 +246,7 @@ w.para("Digital platform activity can be observed through several records, but t
        "the revenue it recognizes, then asks whether that relationship remains stable over time and whether other "
        "records produce the same account of digital activity.")
 w.para("For the platform analysis, transaction value and revenue are paired only when they refer to the same period "
-       "and business activity. Indonesia is the main empirical setting. Broader-scope, reconstructed, "
+       "and business activity. Broader-scope, reconstructed, "
        "national-statistical, and payment evidence is kept in separate analytical roles rather than combined into "
        "one sample.")
 w.h2("3.1 Measurement Framework")
@@ -239,7 +270,8 @@ w.para("The four hypotheses examine different layers of the same measurement pro
        "transaction-revenue boundary within platforms. H2 and H3 examine where activity and records outside "
        "platform revenue appear in national e-commerce evidence. H4 asks whether the different records ultimately "
        "produce different conclusions about digital economic activity. The evidence layers are analyzed "
-       "separately, and none of the hypotheses is interpreted as a causal claim.")
+       "separately, and none of the hypotheses is interpreted as a causal claim. Table 1 pairs each hypothesis "
+       "with the evidence that tests it.")
 # EDIT: H1 and H4 stated without "can", so that the tests can fail; "series" label removed
 w.hyp("H1. Transaction value and platform revenue diverge materially within the same platform over time.")
 w.para("If revenue were a stable proxy for the commerce processed by a platform, transaction value and revenue would "
@@ -289,9 +321,9 @@ w.table([
      "Evidence through time with stated scope limits"],
     ["Indonesia estimates requiring construction", "Grab; Shopee Indonesia", "6", "Supporting country evidence"],
 ])
-w.para("An annual observation means one matched transaction-and-revenue pair for one platform in one year. The 17 "
-       "retained observations produce 12 year-to-year comparisons because the same platforms are not available in "
-       "every year.")
+w.para("Table 2 groups the retained evidence by how directly it maps to Indonesia. An annual observation means one "
+       "matched transaction-and-revenue pair for one platform in one year, and the 17 retained observations produce "
+       "12 year-to-year comparisons because the same platforms are not available in every year.")
 w.para("Tokopedia is closely aligned with Indonesia but is not a literal country line. Blibli includes online travel, "
        "Bukalapak includes some overseas activity, and Grab and Shopee require additional construction.")
 w.h2("4.2 Comparing Platform Activity Through Time")
@@ -301,15 +333,17 @@ w.para("When transaction value and revenue move sharply apart, disclosed changes
        "incentives, revenue recognition, and business scope are used to reconcile the movement where the filings "
        "permit. These reconciliations are arithmetic accounting explanations rather than estimates of causal "
        "effects.")
-w.para("Companies also use different names for transaction activity, including gross transaction value (GTV), gross "
-       "merchandise value (GMV), and total payment volume (TPV). The original definitions are retained rather than "
-       "assumed to be identical.")
+gtv = w.para("Companies use different names for transaction activity, including gross transaction value (GTV), gross "
+             "merchandise value (GMV), and total payment volume (TPV). This proposal uses GTV throughout, and each "
+             "issuer's own label and definition are checked rather than assumed to be identical.")
+footnote_ref(gtv, 2)
 w.para("A separate comparison uses the 2023 fiscal year (FY2023) because it provides the most useful common year "
        "across the principal platform cases. It shows the scale of the transaction-revenue difference among the "
        "selected cases, not the size of Indonesia's entire digital economy. Market-share estimates describe "
        "transaction-value coverage only, not wider representativeness.")
 w.h2("4.3 Direct and Constructed Indonesia Measures")
-w.para("Not every company reports the same Indonesia-specific information.")
+w.para("Not every company reports the same Indonesia-specific information. Table 3 sets out, for each platform, what "
+       "is disclosed directly, what has to be constructed, and the limitation that follows.")
 w.caption("Table 3. Construction of the principal platform measures.")
 w.table([
     ["Platform", "Directly available", "Constructed or external input", "Main limitation"],
@@ -325,10 +359,12 @@ w.table([
 w.para("Grab reports Indonesian revenue directly but not Indonesian transaction value. Indonesian GTV is therefore "
        "estimated as:")
 w.eq("Indonesia GTV = Indonesia revenue × Group GTV / Group revenue")
-w.para("The result is treated as a reconstruction rather than a direct disclosure.")
+w.para("The Group monetization rate is platform revenue divided by gross transaction value, and the result is treated "
+       "as a reconstruction rather than a direct disclosure.")
 w.para("Sea Limited does not report Shopee transaction value separately for Indonesia. Indonesian transaction value "
-       "is taken from Momentum Works, and Indonesian revenue is estimated using Sea's Group service monetization "
-       "rate:")
+       "is taken from Momentum Works, a Singapore-based research firm whose annual Southeast Asian e-commerce report "
+       "is the main published source of country-level platform transaction estimates for this market, and Indonesian "
+       "revenue is estimated using Sea's Group service monetization rate:")
 w.eq("Indonesia revenue = Indonesia transaction value × Group monetization rate")
 w.para("Both constructions remain explicitly labeled wherever they are used.")
 w.h2("4.4 Evidence Beyond Platform Accounts")
@@ -344,6 +380,8 @@ w.table([
     ["Platform companies outside Indonesia", "Matched transaction and revenue measures",
      "Test whether the same boundary appears elsewhere"],
 ])
+w.para("Table 4 gives each source a single role. The modules answer different questions, so they are reported "
+       "separately rather than pooled into one estimate.")
 w.para("For H2, national e-commerce value is expressed as:")
 w.eq("V = N × A")
 w.para("where N is the estimated number of e-commerce businesses and A is implied nominal transaction value per "
@@ -369,9 +407,7 @@ w.para("The evidence assembled so far is sufficient to establish that the propos
        "show the scale and movement of the transaction-revenue boundary, then examine whether the wider Indonesian "
        "evidence tells the same story.")
 w.h2("5.1 Platform Scale and Movement")
-w.para("The 2023 fiscal year provides a common comparison across Grab, Tokopedia, and Shopee. It is used as a "
-       "common-year illustration rather than as the entire dataset or an estimate of Indonesia's whole digital "
-       "economy.")
+w.para("The 2023 fiscal year provides a common comparison across Grab, Tokopedia, and Shopee.")
 w.caption("Table 5. Indonesia-focused 2023 platform comparison, US$ billions.")
 w.table([
     ["Case", "Transaction value V", "Revenue R", "Wedge W", "Ecosystem Ratio E", "Evidence"],
@@ -380,9 +416,10 @@ w.table([
     ["Shopee Indonesia", "21.520", "2.152", "19.368", "9.000x", "Transaction value and revenue estimated"],
     ["Selected cases", "43.233", "3.162", "40.070", "12.671x", "Sum of three cases, not national total"],
 ])
-w.para("Across the three cases, US$43.23 billion of transaction value corresponds to US$3.16 billion of recognized "
-       "platform revenue, leaving a US$40.07 billion wedge. Transaction value is therefore approximately 13.7 times "
-       "recognized revenue in this common-year comparison.")
+w.para("Table 5 reports that cross-section. Across the three cases, US$43.23 billion of transaction value corresponds "
+       "to US$3.16 billion of recognized platform revenue, leaving a US$40.07 billion wedge, so transaction value is "
+       "approximately 13.7 times recognized revenue. For scale, that wedge is equivalent in magnitude to about 2.9 "
+       "percent of Indonesia's 2023 nominal GDP of US$1.371 trillion.")
 # EDIT: the one assumption an examiner will test first, with its preliminary sensitivity
 w.para("Shopee's ratio of 9.0 follows from the Group monetization rate used to estimate its Indonesian revenue. In "
        "preliminary checks, rates between 9 and 11 percent move the combined wedge only between US$39.86 billion "
@@ -434,11 +471,11 @@ w.para("A separate comparison of eight platform businesses outside Indonesia pro
        "added to the Indonesian sample.")
 # EDIT: implementation date and the regime's coverage, a design fact rather than an outcome
 w.para("Indonesia's marketplace reporting regime provides an institutional application of the same distinction. PMK "
-       "37/2025 shows how seller-linked transaction records can enter reporting and withholding, but implementation "
+       "37/2025, administered by the Directorate General of Taxes (DJP), shows how seller-linked transaction records "
+       "can enter reporting and withholding, but implementation "
        "begins only on 1 November 2026, so post-implementation outcomes are not yet available. Because the regime "
        "designates marketplace operators, its reach is bounded by the marketplace channel, which carried 15.8 percent "
-       "of 2024 e-commerce value and 1.5 percent of 2023-2024 growth. The regulation is therefore not used as "
-       "evidence of unpaid tax or a completed compliance effect.")
+       "of 2024 e-commerce value and 1.5 percent of 2023-2024 growth.")
 w.para("At this stage, the preliminary results establish that the proposed measurement can be constructed, followed "
        "through time, connected to disclosed accounting changes, and compared with independent records of Indonesian "
        "digital activity. The remaining analysis tests how robust those conclusions are to alternative evidence and "
@@ -457,7 +494,8 @@ w.para("Administrative use is a separate question. Platform-held transaction rec
 w.para("The thesis therefore treats measurement and administrative visibility as related but distinct problems.")
 
 w.h1("7. Limitations and Robustness")
-w.para("The evidence supports several conclusions, but the interpretation of each result is deliberately bounded.")
+w.para("The evidence supports several conclusions, but the interpretation of each result is deliberately bounded. "
+       "Table 7 pairs each supported conclusion with what it does not establish.")
 w.caption("Table 7. Main inference boundaries.")
 w.table([
     ["Evidence supports", "Does not by itself establish"],
@@ -476,14 +514,10 @@ w.para("Robustness analysis tests whether the main findings depend on one prefer
        "results are compared under narrower evidence-admission rules, alternative revenue definitions, different "
        "publication versions, and alternative assumptions for reconstructed country measures. These checks are "
        "reported as sensitivity analyses rather than statistical confidence intervals.")
-w.para("Evidence from platform companies outside Indonesia is used only to test whether the transaction-revenue "
-       "boundary recurs under other business models. It is kept separate from the Indonesian analysis and does not "
-       "enlarge the main sample.")
-
 w.h1("8. Next Steps")
 w.para("The main data and empirical framework are already assembled. The remaining work is to complete the robustness "
        "checks, finalize the treatment of the different evidence types, verify source consistency, and develop the "
-       "preliminary results into the full thesis analysis.")
+       "preliminary results into the full thesis analysis. Table 8 sets out that schedule.")
 w.caption("Table 8. Planned work toward the final thesis.")
 w.table([
     ["Period", "Planned work"],
@@ -516,7 +550,11 @@ w.table([
     ["External corroboration", "Eight platform businesses", "Issuer transaction measures", "Issuer revenue measures"],
     ["Regulatory", "PMK 37/2025; DJP", "Ministry of Finance / Directorate General of Taxes", "Institutional architecture only"],
 ])
-w.para("Every figure used in this proposal traces to a named file and locator in the accompanying data package.")
+w.para("Table A1 traces each evidence type to its sources. Every figure used in this proposal traces to a named file "
+       "and locator in the accompanying data package.")
 
+add_footnotes(doc, ["Sea Limited and Blibli report GMV, Grab reports GMV for deliveries and TPV for financial "
+                    "services, and GoTo reports GTV. The labels describe the same quantity, the value of "
+                    "transactions processed through the platform, and GTV is used throughout this proposal."])
 doc.save(OUT)
 print("wrote", OUT)
