@@ -335,9 +335,9 @@ w.para("When transaction value and revenue move sharply apart, disclosed changes
        "permit. These reconciliations are arithmetic accounting explanations rather than estimates of causal "
        "effects.")
 gtv = w.para("Companies use different names for transaction activity, including gross transaction value (GTV), gross "
-             "merchandise value (GMV), and total payment volume (TPV). This proposal uses GTV as its common label "
-             "for the value of transactions processed through a platform, and each issuer's own label and definition "
-             "are retained and checked rather than assumed to be identical.")
+             "merchandise value (GMV), and total payment volume (TPV). Transaction value, V, is the umbrella concept "
+             "in this proposal and GTV is the label used for it, while each issuer's own label and definition are "
+             "retained and checked rather than assumed to be identical.")
 footnote_ref(gtv, 2)
 w.para("A separate comparison uses the 2023 fiscal year (FY2023) because it provides the most useful common year "
        "across the principal platform cases. It shows the scale of the transaction-revenue difference among the "
@@ -468,8 +468,8 @@ w.para("The evidence nevertheless shows why measurement choice matters. Recent e
        "differently depending on whether the analyst looks at marketplace activity, national e-commerce statistics, "
        "or payment records.")
 w.h2("5.3 Feasibility and Scope of the Preliminary Findings")
-w.para("The preliminary evidence is sufficient to motivate the full analysis. H1 is supported by substantial movement "
-       "between transaction value and revenue within platforms. H2 and H3 can be examined using national and "
+w.para("The preliminary evidence is sufficient to motivate the full analysis. It supports H1, through the substantial "
+       "movement between transaction value and revenue within platforms. H2 and H3 can be examined using national and "
        "business-level BPS evidence, while the contrast between platform, e-commerce, and payment records provides a "
        "direct test of H4.")
 # EDIT: implementation date and the regime's coverage, a design fact rather than an outcome
@@ -534,8 +534,22 @@ w.para("The proposed study begins from a simple distinction between the value a 
        "time, and produces different conclusions when compared with other records of digital activity. The final "
        "thesis will test how robust those conclusions remain under alternative evidence and measurement choices.")
 
-w.h1("Appendix A - Data Sources by Evidence Type")
-w.caption("Table A1. Source lineage by evidence type.")
+w.h1("Appendix A - Variables and Data Sources")
+w.caption("Table A1. Variable definitions and sources.")
+w.table([
+    ["Variable", "Definition", "Source"],
+    ["V", "Transaction value processed through the platform in the period",
+     "Issuer disclosure, or reconstruction as set out in Table 3"],
+    ["R", "Revenue the platform recognizes for the same period and business scope",
+     "Issuer disclosure, or derived as set out in Table 3"],
+    ["W = V - R", "Absolute invisible wedge: transaction value outside recognized revenue", "Computed"],
+    ["E = (V - R) / R", "Ecosystem Ratio: wedge per unit of platform revenue; constructed for this study", "Computed"],
+    ["D = g(V) - g(R)", "Annual growth divergence between transaction value and revenue",
+     "Computed from consecutive years"],
+])
+w.para("Table A1 defines each variable and says where it comes from. Table A2 traces each evidence type to the "
+       "filings and publications behind it.")
+w.caption("Table A2. Source lineage by evidence type.")
 w.table([
     ["Evidence type", "Platform / source", "Transaction-value source", "Revenue / comparison source"],
     ["Direct Indonesia-aligned", "Tokopedia e-commerce", "GoTo annual report, e-commerce segment metrics",
@@ -553,8 +567,7 @@ w.table([
     ["External corroboration", "Eight platform businesses", "Issuer transaction measures", "Issuer revenue measures"],
     ["Regulatory", "PMK 37/2025; DJP", "Ministry of Finance / Directorate General of Taxes", "Institutional architecture only"],
 ])
-w.para("Table A1 traces each evidence type to its sources. Every figure used in this proposal traces to a named file "
-       "and locator in the accompanying data package.")
+w.para("Every figure used in this proposal traces to a named file and locator in the accompanying data package.")
 
 add_footnotes(doc, ["Issuer labels differ. GoTo reports GTV and Sea Limited reports GMV for Shopee; for these the "
                     "label differs but the measure is the same. Blibli and Bukalapak report TPV for the segments "

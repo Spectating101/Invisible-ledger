@@ -2,7 +2,7 @@
 # Invisible Ledger proposal — canonical searchable text
 
 Generated from `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-Source DOCX SHA-256: `2c3a0bbad34f4eeaadca9f37041c8633ee391352a48b4ec3977542d306739d09`.
+Source DOCX SHA-256: `b33ec0076ae9122a48874780e4ecb3dbd18bfbe809d62772e1ae285fa965e7a8`.
 
 > **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.
 
@@ -173,7 +173,7 @@ Changes through time are examined mainly by comparing each platform with itself.
 
 When transaction value and revenue move sharply apart, disclosed changes in monetization, customer incentives, revenue recognition, and business scope are used to reconcile the movement where the filings permit. These reconciliations are arithmetic accounting explanations rather than estimates of causal effects.
 
-Companies use different names for transaction activity, including gross transaction value (GTV), gross merchandise value (GMV), and total payment volume (TPV). This proposal uses GTV as its common label for the value of transactions processed through a platform, and each issuer's own label and definition are retained and checked rather than assumed to be identical.
+Companies use different names for transaction activity, including gross transaction value (GTV), gross merchandise value (GMV), and total payment volume (TPV). Transaction value, V, is the umbrella concept in this proposal and GTV is the label used for it, while each issuer's own label and definition are retained and checked rather than assumed to be identical.
 
 A separate comparison uses the 2023 fiscal year (FY2023) because it provides the most useful common year across the principal platform cases. It shows the scale of the transaction-revenue difference among the selected cases, not the size of Indonesia's entire digital economy. Market-share estimates describe transaction-value coverage only, not wider representativeness.
 
@@ -278,7 +278,7 @@ The evidence nevertheless shows why measurement choice matters. Recent e-commerc
 
 ### 5.3 Feasibility and Scope of the Preliminary Findings
 
-The preliminary evidence is sufficient to motivate the full analysis. H1 is supported by substantial movement between transaction value and revenue within platforms. H2 and H3 can be examined using national and business-level BPS evidence, while the contrast between platform, e-commerce, and payment records provides a direct test of H4.
+The preliminary evidence is sufficient to motivate the full analysis. It supports H1, through the substantial movement between transaction value and revenue within platforms. H2 and H3 can be examined using national and business-level BPS evidence, while the contrast between platform, e-commerce, and payment records provides a direct test of H4.
 
 Indonesia's marketplace reporting regime provides an institutional application of the same distinction. PMK 37/2025, administered by the Directorate General of Taxes (DJP), shows how seller-linked transaction records can enter reporting and withholding, but implementation begins only on 1 November 2026, so post-implementation outcomes are not yet available. Because the regime designates marketplace operators, its reach is bounded by the marketplace channel, which carried 15.8 percent of 2024 e-commerce value and 1.5 percent of 2023-2024 growth. The regulation is therefore examined as institutional architecture, not as evidence of unpaid tax or of a completed compliance effect.
 
@@ -322,9 +322,21 @@ Table 8. Planned work toward the final thesis.
 
 The proposed study begins from a simple distinction between the value a platform processes and the revenue it recognizes. The preliminary evidence indicates that this boundary is economically large, changes through time, and produces different conclusions when compared with other records of digital activity. The final thesis will test how robust those conclusions remain under alternative evidence and measurement choices.
 
-## Appendix A - Data Sources by Evidence Type
+## Appendix A - Variables and Data Sources
 
-Table A1. Source lineage by evidence type.
+Table A1. Variable definitions and sources.
+
+| Variable | Definition | Source |
+| --- | --- | --- |
+| V | Transaction value processed through the platform in the period | Issuer disclosure, or reconstruction as set out in Table 3 |
+| R | Revenue the platform recognizes for the same period and business scope | Issuer disclosure, or derived as set out in Table 3 |
+| W = V - R | Absolute invisible wedge: transaction value outside recognized revenue | Computed |
+| E = (V - R) / R | Ecosystem Ratio: wedge per unit of platform revenue; constructed for this study | Computed |
+| D = g(V) - g(R) | Annual growth divergence between transaction value and revenue | Computed from consecutive years |
+
+Table A1 defines each variable and says where it comes from. Table A2 traces each evidence type to the filings and publications behind it.
+
+Table A2. Source lineage by evidence type.
 
 | Evidence type | Platform / source | Transaction-value source | Revenue / comparison source |
 | --- | --- | --- | --- |
@@ -338,7 +350,7 @@ Table A1. Source lineage by evidence type.
 | External corroboration | Eight platform businesses | Issuer transaction measures | Issuer revenue measures |
 | Regulatory | PMK 37/2025; DJP | Ministry of Finance / Directorate General of Taxes | Institutional architecture only |
 
-Table A1 traces each evidence type to its sources. Every figure used in this proposal traces to a named file and locator in the accompanying data package.
+Every figure used in this proposal traces to a named file and locator in the accompanying data package.
 
 ## References
 

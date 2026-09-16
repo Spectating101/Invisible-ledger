@@ -175,6 +175,7 @@ WIDTHS = {
     "Evidence supports": [4500, 5047],
     "Period":           [2232, 7315],
     "Evidence type":    [2000, 2100, 2900, 2547],
+    "Variable":         [1500, 4900, 3147],
 }
 MARGIN_LR = {"Case": 35, "Type of evidence": 35}
 
