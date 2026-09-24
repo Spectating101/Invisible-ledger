@@ -19,8 +19,8 @@ Historical paths at that snapshot:
 
 For current proposal content, use only:
 
-- canonical source: `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`
-- canonical render: `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf`
+- active source: `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx`
+- active render: `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf`
 - searchable mirror: `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`
 
 See `/CANONICAL_ARTIFACTS.md` for the repository-wide authority rules.

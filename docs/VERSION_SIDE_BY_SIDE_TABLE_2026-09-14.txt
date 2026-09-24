@@ -1,8 +1,8 @@
 HISTORICAL SNAPSHOT ONLY — the label "current" in the former table referred to the 2026-09-14 snapshot and is no longer valid.
 
 Use papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md for searchable current proposal content.
-Canonical DOCX: papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-Canonical PDF: papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+Canonical DOCX: papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
+Canonical PDF: papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf
 
 The complete side-by-side table is preserved at commit 72d49ef50af8f9b60d4d8bbefe99b29c85b548b9.
 See docs/archive/PROPOSAL_HISTORY_INDEX_2026-09-15.md and CANONICAL_ARTIFACTS.md.

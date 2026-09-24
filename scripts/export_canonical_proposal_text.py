@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Export a searchable Markdown mirror from the canonical proposal DOCX.
 
-The FINAL DOCX is the proposal source of truth. This script exists only so code-search
+The active DOCX is the proposal source of truth. This script exists only so code-search
 and agents can retrieve current proposal text without consulting stale Markdown drafts.
 Do not edit the generated Markdown by hand and do not rebuild the proposal from it.
 """
@@ -19,7 +19,7 @@ from docx.table import Table
 from docx.text.paragraph import Paragraph
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx"
+SOURCE = ROOT / "papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx"
 OUTPUT = ROOT / "papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md"
 
 
@@ -49,13 +49,13 @@ def main() -> None:
     doc = Document(SOURCE)
 
     lines: list[str] = [
-        "<!-- GENERATED FILE: DO NOT EDIT. SOURCE OF TRUTH IS THE FINAL DOCX. -->",
+        "<!-- GENERATED FILE: DO NOT EDIT. SOURCE OF TRUTH IS THE ACTIVE DOCX. -->",
         "# Invisible Ledger proposal — canonical searchable text",
         "",
         f"Generated from `{SOURCE.relative_to(ROOT)}`.",
         f"Source DOCX SHA-256: `{source_sha}`.",
         "",
-        "> **Authority rule:** this file mirrors the current FINAL DOCX for search/review only. "
+        "> **Authority rule:** this file mirrors the active DOCX for search/review only. "
         "If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.",
         "",
     ]

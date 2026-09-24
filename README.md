@@ -14,7 +14,9 @@ For the integrated explanation of how the issuer, BPS, ASEAN, and global evidenc
 
 For the closest-literature map, evidence-to-claim matrix, and complete section-by-section manuscript architecture, read [the literature–empirical integration](docs/LITERATURE_EMPIRICAL_INTEGRATION_2026-09-11.md).
 
-The first full manuscript rebuilt on that integrated architecture is available as [the editable Word draft](papers/current/Invisible_Ledger_Integrated_Manuscript_2026-09-11.docx), with its [version-controlled manuscript source](papers/current/Invisible_Ledger_Integrated_Manuscript_2026-09-11.md).
+The proposal currently in use is the [September 24 Word file](papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx), with a [matching PDF](papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf) and [searchable text mirror](papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md). The [oral deck](papers/current/IL_Oral_Deck_v1.pptx) and [preview](papers/current/IL_Oral_Deck_v1_preview.pdf) were saved on September 25. See [the artifact map](CANONICAL_ARTIFACTS.md) for the active paths and update rule.
+
+The generated thesis manuscript is a separate, earlier work stream; see [the current manuscript source](papers/current/Invisible_Ledger_Thesis_Manuscript.md). The September 11 integrated manuscript is historical.
 
 Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
 

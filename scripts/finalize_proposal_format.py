@@ -5,7 +5,9 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 import sys
 
-DOCX = sys.argv[1] if len(sys.argv) > 1 else "papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx"
+if len(sys.argv) != 2:
+    raise SystemExit("usage: finalize_proposal_format.py <explicit-docx-path>")
+DOCX = sys.argv[1]
 
 
 def set_run_font(run, size=None, bold=None):
