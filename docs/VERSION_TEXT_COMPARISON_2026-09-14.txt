@@ -1,8 +1,8 @@
 HISTORICAL SNAPSHOT ONLY — current proposal text is not stored here.
 
 Current proposal authority:
-- papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
-- papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf
+- papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
+- papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf
 - papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md
 
 The full historical comparison formerly stored here is preserved at commit:

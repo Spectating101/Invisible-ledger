@@ -2,7 +2,7 @@
 """Legacy candidate-builder support without a second proposal text source.
 
 The canonical proposal is edited directly at:
-  papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx
+  papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
 
 Historically this module duplicated the complete proposal body and abstract. That made
 obsolete prose searchable and caused agents/builders to treat an old iteration as current.
@@ -14,7 +14,7 @@ from pathlib import Path
 from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
-CANONICAL = ROOT / "papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx"
+CANONICAL = ROOT / "papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx"
 
 # Explicitly empty: current proposal prose must come from the canonical DOCX, never here.
 ABSTRACT = None

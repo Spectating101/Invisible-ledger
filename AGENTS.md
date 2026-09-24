@@ -11,9 +11,10 @@ Read these files before changing this repository:
 
 ## Canonical proposal rule
 
-- The only editable canonical proposal is `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`.
-- The canonical committee render is the same path with `.pdf`.
-- For search/review, use `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`, which is generated from the FINAL DOCX.
+- The active proposal is `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx`.
+- Its matching PDF and generated searchable text are listed in `CANONICAL_ARTIFACTS.md`.
+- The active oral deck is `papers/current/IL_Oral_Deck_v1.pptx`; its preview PDF is in the same directory.
+- Check the artifact map and file timestamps together. A newer draft does not silently become active: reconcile its content, source, and intended use before changing the map.
 - Never infer current proposal text from `PROPOSAL_*_CANDIDATE*`, `VERSION_*COMPARISON*`, `scripts/surgery/*`, or historical proposal generators.
 - Never call a historical snapshot `current` without an explicit commit SHA and path.
 
@@ -37,5 +38,5 @@ Read these files before changing this repository:
 - Keep original currency and units; convert only through a documented period-specific FX rule.
 - Missing data stay missing. No interpolation or annual-total division by four.
 - Before manuscript changes, verify that the proposed table can be reproduced from repository data.
-- Before proposal comparisons or rewrites, read the canonical searchable text mirror or the FINAL DOCX; do not retrieve a historical candidate by keyword and treat it as current.
+- Before proposal comparisons or rewrites, read the active searchable text mirror or September 24 DOCX; do not retrieve a historical candidate by keyword and treat it as current.
 - Update `docs/CURRENT_STATUS.md` when a sample decision is actually approved or rejected.

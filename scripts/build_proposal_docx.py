@@ -18,12 +18,10 @@ REPO='/home/phyrexian/Downloads/Invisible-ledger/'
 TPL=REPO+'papers/reference/Invisible_Ledger_Proposal_FLASHPOINT_GRAFT_PLAIN_FINAL_2026-09-13.docx'
 OUT=(_sys.argv[2] if len(_sys.argv)>2 else
      REPO+'papers/candidates/Proposal_built_from_markdown.docx')
-# Guard: since 2026-09-15 the FINAL proposal is edited directly as a DOCX and the markdown
-# candidates are stale. Rebuilding into the FINAL path would silently discard every later edit.
+# Historical Markdown candidates cannot write into papers/current/.
 import os as _os
-if _os.path.abspath(OUT)==_os.path.abspath(REPO+'papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx') \
-        and not _os.environ.get('ALLOW_FINAL_OVERWRITE'):
-    _sys.exit('refusing to overwrite the FINAL proposal from markdown; set ALLOW_FINAL_OVERWRITE=1 if intended')
+if _os.path.commonpath([_os.path.abspath(OUT), _os.path.abspath(REPO+'papers/current')]) == _os.path.abspath(REPO+'papers/current'):
+    _sys.exit('refusing to write a historical Markdown build into papers/current/')
 _os.makedirs(_os.path.dirname(OUT), exist_ok=True)
 TITLE_ZH="隱形帳簿：量化印尼平台經濟中的隱形楔子"
 TITLE_EN="The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia's Platform Economy"

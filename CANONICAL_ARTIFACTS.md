@@ -1,50 +1,38 @@
-# Canonical thesis artifacts
+# Current thesis artifacts
 
-This file is the source-of-truth map for the Invisible Ledger repository. If any older candidate, comparison file, build script, or local duplicate disagrees with this map, this map wins.
+Updated 25 September 2026. This map identifies the files currently in use. Check both this map and file timestamps when new work arrives; update the map when a newer version is adopted.
 
 ## Proposal
 
-**Authoritative content source**
+- Editable source: `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx`
+- Render of that source: `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf`
+- Generated search text: `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`
 
-`papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.docx`
+The September 24 DOCX is the active proposal. The PDF was rendered from that exact DOCX on 25 September; the text mirror records its SHA-256. Edit the DOCX directly, then regenerate the PDF and mirror. Never rebuild it from historical Markdown or proposal surgery scripts.
 
-The FINAL DOCX is the only editable canonical proposal. Since 2026-09-15 the proposal has been edited directly in DOCX form. Do not reconstruct current proposal content from historical Markdown candidates, surgery scripts, comparison files, or `scripts/proposal_content/`.
+The file `papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.*` was the former proposal path. It is historical and recoverable from Git commit `b8f35576f30f6ab9518409c8f7510d1ad019ddf6`. The September 17 and September 23 DOCXs in Downloads or other folders are earlier drafts. Identical copies outside the repository are not separate authorities.
 
-**Authoritative render**
+## Oral presentation
 
-`papers/current/Invisible_Ledger_Thesis_Proposal_FINAL_2026-09-14.pdf`
+- Editable deck: `papers/current/IL_Oral_Deck_v1.pptx`
+- Matching preview: `papers/current/IL_Oral_Deck_v1_preview.pdf`
 
-The PDF is the committee/render artifact. It must be regenerated from the canonical DOCX after content or layout changes.
-
-**Authoritative searchable text mirror**
-
-`papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`
-
-This file is generated automatically from the canonical DOCX by `scripts/export_canonical_proposal_text.py`. It exists so GitHub/code-search agents can retrieve the current proposal without falling back to stale Markdown. Never hand-edit it and never build the proposal from it.
+The deck was last saved on 25 September and follows the September 24 proposal. Update its preview after deck changes. The deck is a presentation of the proposal, not a source for research data or result values.
 
 ## Manuscript
 
-The current manuscript pipeline remains generated/reproducible rather than DOCX-first:
+The manuscript is a separate, earlier work stream:
 
 - generator: `scripts/build_thesis_manuscript.py`
 - searchable manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.md`
 - rendered manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.docx` and `.pdf`
 
-Do not use the older `Invisible_Ledger_Integrated_Manuscript_2026-09-11.*` as the current manuscript.
+Do not infer proposal wording from the manuscript or from historical candidate, comparison, or surgery files.
 
-## Historical proposal material
+## Authority and update rule
 
-Files named `PROPOSAL_*_CANDIDATE*`, `VERSION_*COMPARISON*`, `scripts/surgery/*`, and the old `scripts/proposal_content/content.py` are historical development artifacts. They are not current proposal sources. Historical full text remains recoverable from Git history; the live tree should contain only stubs/pointers where practical so obsolete prose cannot win code-search retrieval.
-
-## Build rules
-
-1. Never overwrite the FINAL proposal from Markdown or a historical generator.
-2. Any proposal content edit must modify the canonical FINAL DOCX.
-3. Any proposal format-only pass must preserve paragraph/table text and figure aspect ratio, then regenerate the PDF.
-4. After any canonical proposal DOCX change, regenerate `Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md` from that DOCX.
-5. For comparisons, always identify both artifacts by commit SHA and path. Never label a historical snapshot simply `current`.
-6. If a local file outside this repository has the same filename, it is not authoritative unless its hash matches the repository canonical artifact.
-
-## Current lineage note
-
-The claim-first proposal rewrite entered the canonical proposal at commit `92f166114067fa71c00bbbe744ad2d0c0eb28849`. Subsequent commits repaired tooling and typography without intentionally reverting to the earlier Markdown proposal. Use Git history for provenance; use the canonical paths above for current content.
+1. For the current proposal, use the September 24 DOCX. The PDF and searchable text are derived from it.
+2. For empirical results, use `docs/RESULT_AUTHORITY_MAP_2026-09-12.md` and the underlying source chain. A proposal or slide is not the authority for a data value.
+3. A filename containing `FINAL` does not establish current status. Compare timestamps, content, and provenance; record a successor here when one is adopted.
+4. For historical comparisons, identify each artifact by date, path, and commit SHA where available. Do not label an old snapshot simply `current`.
+5. Preserve research boundaries in `AGENTS.md`, `docs/METHODOLOGY.md`, and `docs/KNOWN_LIMITATIONS.md`.
