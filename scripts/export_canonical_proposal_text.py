@@ -1,94 +1,48 @@
 #!/usr/bin/env python3
-"""Export a searchable Markdown mirror from the canonical proposal DOCX.
+"""Export a searchable text mirror of the active proposal PDF.
 
-The active DOCX is the proposal source of truth. This script exists only so code-search
-and agents can retrieve current proposal text without consulting stale Markdown drafts.
-Do not edit the generated Markdown by hand and do not rebuild the proposal from it.
+The active proposal is the 27 September 2026 PDF; no editable source has been located.
+This script exists so code-search and agents can read current proposal text without
+consulting stale drafts. Do not edit the generated Markdown by hand and do not rebuild
+the proposal from it. The text follows the PDF's line breaks; table cells may be out of order.
 """
 
 from __future__ import annotations
 
 import hashlib
+import re
+import subprocess
 from pathlib import Path
 
-from docx import Document
-from docx.document import Document as _Document
-from docx.oxml.table import CT_Tbl
-from docx.oxml.text.paragraph import CT_P
-from docx.table import Table
-from docx.text.paragraph import Paragraph
-
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx"
+SOURCE = ROOT / "papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf"
 OUTPUT = ROOT / "papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md"
-
-
-def iter_blocks(parent: _Document):
-    body = parent.element.body
-    for child in body.iterchildren():
-        if isinstance(child, CT_P):
-            yield Paragraph(child, parent)
-        elif isinstance(child, CT_Tbl):
-            yield Table(child, parent)
-
-
-def clean(text: str) -> str:
-    return " ".join(text.replace("\u00a0", " ").split())
-
-
-def esc_cell(text: str) -> str:
-    return clean(text).replace("|", "\\|")
+FOOTER = re.compile(r"^Yuan Ze University \| .*\| \d+\s*$")
 
 
 def main() -> None:
     if not SOURCE.exists():
-        raise SystemExit(f"canonical proposal not found: {SOURCE}")
+        raise SystemExit(f"active proposal not found: {SOURCE}")
 
-    source_bytes = SOURCE.read_bytes()
-    source_sha = hashlib.sha256(source_bytes).hexdigest()
-    doc = Document(SOURCE)
+    source_sha = hashlib.sha256(SOURCE.read_bytes()).hexdigest()
+    raw = subprocess.check_output(["pdftotext", str(SOURCE), "-"], text=True)
+    lines = [ln.rstrip() for ln in raw.replace("\f", "\n").splitlines() if not FOOTER.match(ln)]
+    body = re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
 
-    lines: list[str] = [
-        "<!-- GENERATED FILE: DO NOT EDIT. SOURCE OF TRUTH IS THE ACTIVE DOCX. -->",
+    header = [
+        "<!-- GENERATED FILE: DO NOT EDIT. SOURCE OF TRUTH IS THE ACTIVE PDF. -->",
         "# Invisible Ledger proposal — canonical searchable text",
         "",
         f"Generated from `{SOURCE.relative_to(ROOT)}`.",
-        f"Source DOCX SHA-256: `{source_sha}`.",
+        f"Source PDF SHA-256: `{source_sha}`.",
         "",
-        "> **Authority rule:** this file mirrors the active DOCX for search/review only. "
-        "If this file and the DOCX ever disagree, the DOCX wins and this mirror must be regenerated.",
+        "> **Authority rule:** this file mirrors the active PDF for search/review only. "
+        "If this file and the PDF ever disagree, the PDF wins and this mirror must be regenerated.",
         "",
     ]
-
-    for block in iter_blocks(doc):
-        if isinstance(block, Paragraph):
-            text = clean(block.text)
-            if not text:
-                continue
-            style = block.style.name if block.style is not None else ""
-            if style == "Heading 1":
-                lines.extend([f"## {text}", ""])
-            elif style == "Heading 2":
-                lines.extend([f"### {text}", ""])
-            else:
-                lines.extend([text, ""])
-        else:
-            rows = [[esc_cell(c.text) for c in row.cells] for row in block.rows]
-            if not rows:
-                continue
-            width = max(len(r) for r in rows)
-            rows = [r + [""] * (width - len(r)) for r in rows]
-            lines.append("| " + " | ".join(rows[0]) + " |")
-            lines.append("| " + " | ".join(["---"] * width) + " |")
-            for row in rows[1:]:
-                lines.append("| " + " | ".join(row) + " |")
-            lines.append("")
-
-    rendered = "\n".join(lines).rstrip() + "\n"
-    OUTPUT.write_text(rendered, encoding="utf-8")
+    OUTPUT.write_text("\n".join(header) + body + "\n", encoding="utf-8")
     print(f"wrote {OUTPUT.relative_to(ROOT)}")
     print(f"source sha256 {source_sha}")
-    print(f"paragraphs {len(doc.paragraphs)} tables {len(doc.tables)}")
 
 
 if __name__ == "__main__":

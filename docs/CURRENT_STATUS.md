@@ -1,8 +1,8 @@
 # Current status — 10 September 2026
 
-## Document status update — 25 September 2026
+## Document status update — 1 October 2026
 
-The active proposal file is `papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx`; its matching PDF and searchable text are listed in `CANONICAL_ARTIFACTS.md`. The active oral deck is `papers/current/IL_Oral_Deck_v1.pptx`. These artifact choices update document routing only. They do not, by themselves, record an advisor decision on the final empirical sample. The research-decision notes below remain provisional until an approval or rejection is documented.
+The active proposal is the 27 September 2026 PDF, `papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf`. It was examined and passed on 1 October 2026. Its search text and the superseded 24 September files are listed in `CANONICAL_ARTIFACTS.md`. The presented deck is the latest `IL_Proposal_Oral_Deck_v4.x` in the repository root. These artifact choices update document routing only. They do not, by themselves, record an advisor decision on the final empirical sample. The research-decision notes below remain provisional until an approval or rejection is documented.
 
 ## Advisor-facing decision state
 
