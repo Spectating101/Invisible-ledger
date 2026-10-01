@@ -1,3 +1,5 @@
+> **HISTORICAL (17 September 2026). Do not use for current status.** It describes an earlier draft and names a "stale main"; the active proposal is now the 27 September PDF listed in `CANONICAL_ARTIFACTS.md`. Its list of the researcher's standing decisions and of Prof. Kong's comment themes is still useful background.
+
 # Handoff: Invisible Ledger proposal revision (16–17 September 2026)
 
 Written by Claude (supervisor role) for Codex (editing role). Read fully before touching any file.

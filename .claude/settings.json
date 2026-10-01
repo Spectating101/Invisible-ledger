@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/session_context.py\" 2>/dev/null || true",
+            "timeout": 60,
+            "statusMessage": "Loading the active thesis artifact map..."
+          }
+        ]
+      }
+    ]
+  }
+}
