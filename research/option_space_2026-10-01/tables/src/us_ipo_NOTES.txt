@@ -1,0 +1,10 @@
+Lyft never uses the words "Gross Bookings"; annual table is labeled Bookings ($1,904.7 / $4,586.7 / $8,054.4 million for 2016-2018); quarterly Bookings are not stated.
+Uber Driver incentives classified as reduction of revenue are not given as period totals; only Ridesharing year-over-year increases ($327 million in 2017; $0.3 billion in 2018) and Excess Driver incentives in cost of revenue ($507 / $530 / $837 million).
+Uber 2018 consumer discounts, promotions, refunds, and credits are printed only as $1.4 billion (not millions); 2016-2017 amounts are $618 million and $949 million in sales and marketing.
+Uber S-1A (2019) has no sentence about a UK business-model or principal/agent change affecting revenue; Instacart describes current agent (net) presentation without a dated accounting-change amount.
+DoorDash promotions are stated only for FY2018 and FY2019 ($60 million and $182 million, primarily contra-revenue); nine-month 2019/2020 promotion dollars are not stated; Dasher peak-pay/incentive dollars are not broken out from Dasher payout.
+Instacart does not state period totals for customer incentives, promotions, or shopper incentives; the ~$500 million figure is a 2022 vs 2019 increase in combined customer acquisition costs (marketing expense plus incentives/promotions).
+Lyft driver referral and targeted rider incentive programs in sales and marketing are $195.5 / $155.6 / $296.6 million (2016-2018); driver incentives that reduce revenue have no dollar totals.
+Uber consumer discounts/promotions/refunds/credits in sales and marketing mix promotions with refunds and credits; market-wide promotions recorded as reduction of revenue have no separate dollar amount.
+Instacart 2020 GTV $20,736 million and revenue $1,477 million appear in the same table as 2021-2022 but were omitted because the spec asked only 2021, 2022, and six months of 2022/2023.
+DoorDash and Instacart quarterly revenue tables exist but were not extracted because the spec listed annual/stub periods only for those issuers (Lyft quarters were extracted as requested).

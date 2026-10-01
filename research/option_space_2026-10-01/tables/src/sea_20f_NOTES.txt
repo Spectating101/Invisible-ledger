@@ -1,0 +1,12 @@
+Annual GMV and gross_orders are not stated as fiscal-year totals in any of these 20-Fs; only quarterly tables appear, and those quarters were not summed.
+Marketplace-only revenue is not a standalone dollar line; the 20-F “e-commerce and other services” caption mixes marketplace services with digital financial services and other services, so marketplace_revenue is left blank.
+ecommerce_adjusted_revenue is never named as a 20-F metric; adjusted figures in these filings are group adjusted net loss, not Shopee adjusted revenue.
+E-commerce segment sales-and-marketing dollars are not stated; 2017–2019 give only the e-commerce share of group S&M (79.8%, 85.5%, 79.0%), which was not converted into dollars.
+E-commerce reportable-segment revenue tables are labeled US$ thousands; values were recorded in USD_m using only that thousand-to-million scale so the unit field matches the spec.
+FY2017 sales of goods of US$1.6 million is printed as including “sales of goods in our other businesses,” so it is not purely Shopee.
+The only sales-incentives dollar amount is Note 18 in the 2018 20-F (US$8,683 thousand of incentives against 2017 commission income under Revenue—Others); later years describe policy only.
+FY2022 excess sales incentive is stated as about 12% of total revenue (and less than 5% in 4Q22), not as a dollar amount.
+FY2021–FY2022 sales of goods are given in MD&A as US$1.1 billion; the revenue table in thousands is more precise (1,070,560 and 1,109,369) but those table units are thousands, so the MD&A wording was used.
+Indonesia/Taiwan country GMV shares are not stated except FY2018 SEA ~70% of GMV; the 2018 20-F Q4 2017 mix is by orders, not GMV, so it was not used as a GMV geography_note.
+The 2018 20-F does not state a FY2017 sales-of-goods dollar amount (direct sales is described only as a strategy).
+Later 20-Fs round group total revenue to billions (US$2.2 / 4.4 / 10.0 / 12.4) while earlier filings use million precision (US$2,175.4 / 4,375.7); both printings are kept as separate source_file rows.

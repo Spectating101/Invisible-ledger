@@ -1,0 +1,141 @@
+entity,period,field,value,unit,source_file,quote,note
+Bukalapak Group,2022,tpv,153.7,IDR_tn,bukalapak_ar2022_mirror.txt,"2022, TPV grew by 25% YoY to Rp153.7 trillion.",Company TPV FY2022 as printed in performance highlight
+Bukalapak Group,2022,tpv,153.739,IDR_tn,bukalapak_ar2022_mirror.txt,TPV                                                   153.739    170.000 - 180.000       39% to 47%       12% lebih rendah dari target,"Same FY2022 TPV, more digits, actual vs guidance table; unit inferred as trillion from adjacent Rp153.7 trillion"
+Bukalapak Group,2021,tpv,122.6,IDR_tn,bukalapak_ar2021_mirror.txt,"In 2021, TPV increased by 44% YoY to Rp122.6 trillion.",Company TPV FY2021
+Mitra,2021,tpv,56.2,IDR_tn,bukalapak_ar2021_mirror.txt,"Mitra TPV in 2021 increased by 146% to Rp56.2 trillion,",Mitra TPV FY2021 in AR2021
+Bukalapak Group,2024,tpv,,IDR_m,bukalapak_sr2024_mirror.txt,"The TPV figure for 2024 covers the period that ended on September 30th, 2024. Starting Q4 2024, the Company no longer reports TPV in",FY2024 TPV printed as 124.076.664 million Rp (9M to 30 Sep) in table; value left empty so as not to convert three-dot grouping; AR2024 does not report TPV
+Bukalapak Group,2023,tpv,,IDR_m,bukalapak_sr2024_mirror.txt,Total Processing Value (TPV)                     Million Rp,FY2023 TPV printed as 164.380.065 million Rp in SR2024 table; value left empty so as not to convert three-dot grouping; AR2023 gives Mitra share of TPV (47%) but not group TPV in trillion form
+Bukalapak Group,2023,revenue,4.4,IDR_tn,bukalapak_ar2023_mirror.txt,"The Company’s net revenues reached Rp4.4 trillion on 31 December 2023, representing a 23% growth compared to the previous year's figure of Rp3.6 trillion.",Net revenues FY2023
+Bukalapak Group,2023,revenue,4438,IDR_bn,bukalapak_ar2023_mirror.txt,"reaching Rp4,438 billion",Same FY2023 net revenues in billion
+Bukalapak Group,2022,revenue,3.6,IDR_tn,bukalapak_ar2023_mirror.txt,"The Company’s net revenues reached Rp4.4 trillion on 31 December 2023, representing a 23% growth compared to the previous year's figure of Rp3.6 trillion.",Net revenues FY2022 comparative in AR2023
+Marketplace,2021,revenue_line,958644,IDR_m,bukalapak_ar2022_mirror.txt,"Pendapatan neto Marketplace                                        1.622.483               958.644           663.839                        69,2%",Marketplace
+Marketplace,2021,revenue_line,959,IDR_bn,bukalapak_ar2021_mirror.txt,marketplace amounted to Rp959 billion in 2021.,Marketplace
+Marketplace,2021,revenue_line,958644,IDR_m,bukalapak_ar2021_mirror.txt,"Pendapatan neto
+                                                             958.644        1.031.982          (73.338)              (7%)",Marketplace
+Mitra,2022,revenue_line,1969,IDR_bn,bukalapak_ar2022_mirror.txt,"Mitra Bukalapak's revenue grew rapidly by 141% to Rp1,969 billion in 2022, accounting for 54% to the Company's total revenue.",Mitra
+Mitra,2021,revenue_line,817634,IDR_m,bukalapak_ar2021_mirror.txt,"Pendapatan neto
+                                                                  817.634       198.830           618.804             311%",Mitra
+Mitra,2020,revenue_line,198830,IDR_m,bukalapak_ar2021_mirror.txt,"Pendapatan neto
+                                                                  817.634       198.830           618.804             311%",Mitra
+BukaPengadaan,2022,revenue_line,135603,IDR_m,bukalapak_ar2022_mirror.txt,"Pendapatan neto                                135.603                   111.410                      24.193                                  21,7%",BukaPengadaan
+BukaPengadaan,2021,revenue_line,111410,IDR_m,bukalapak_ar2022_mirror.txt,"Pendapatan neto                                135.603                   111.410                      24.193                                  21,7%",BukaPengadaan
+BukaPengadaan,2021,revenue_line,111410,IDR_m,bukalapak_ar2021_mirror.txt,"Pendapatan neto
+                                                                 111.410       128.294           (16.885)             (13%)",BukaPengadaan
+BukaPengadaan,2020,revenue_line,128294,IDR_m,bukalapak_ar2021_mirror.txt,"Pendapatan neto
+                                                                 111.410       128.294           (16.885)             (13%)",BukaPengadaan
+Marketplace,2024,revenue_line,131972,IDR_m,bukalapak_ar2024_mirror.txt,"Pendapatan neto Marketplace
+                                                            2.513.669            2.381.697            131.972          6%",Marketplace net revenues increase amount FY2024 vs 2023 (MDA); headline totals use three-dot grouping
+Bukalapak Group,2024,promo_expense,328435,IDR_m,bukalapak_ar2024_mirror.txt,"Total Beban Penjualan dan Pemasaran | Total Selling and
+                                                             328.435         518.432         (189.997)         (37%)",Selling and Marketing Expenses
+Bukalapak Group,2023,promo_expense,518432,IDR_m,bukalapak_ar2024_mirror.txt,"Total Beban Penjualan dan Pemasaran | Total Selling and
+                                                             328.435         518.432         (189.997)         (37%)",Selling and Marketing Expenses
+Bukalapak Group,2023,promo_expense,518432,IDR_m,bukalapak_ar2023_mirror.txt,Total Selling and Marketing Expenses            518.432      1.027.865       (509.435)                    -50%,Selling and Marketing Expenses
+Bukalapak Group,2024,promo_expense,5144,IDR_m,bukalapak_ar2024_mirror.txt,Vouchers | Vouchers                                           5.144          56.827          (51.683)         (91%),Vouchers
+Bukalapak Group,2023,promo_expense,56827,IDR_m,bukalapak_ar2024_mirror.txt,Vouchers | Vouchers                                           5.144          56.827          (51.683)         (91%),Vouchers
+Bukalapak Group,2024,promo_expense,38098,IDR_m,bukalapak_ar2024_mirror.txt,Subsidi Fitur | Feature Subsidy                             38.098           77.159          (39.061)         (51%),Feature Subsidy
+Bukalapak Group,2023,promo_expense,77159,IDR_m,bukalapak_ar2024_mirror.txt,Subsidi Fitur | Feature Subsidy                             38.098           77.159          (39.061)         (51%),Feature Subsidy
+Bukalapak Group,2024,promo_expense,41968,IDR_m,bukalapak_ar2024_mirror.txt,Iklan Daring | Online Advertising                            41.968         49.584            (7.616)         (15%),Online Advertising
+Bukalapak Group,2023,promo_expense,49584,IDR_m,bukalapak_ar2024_mirror.txt,Iklan Daring | Online Advertising                            41.968         49.584            (7.616)         (15%),Online Advertising
+Bukalapak Group,2024,promo_expense,35745,IDR_m,bukalapak_ar2024_mirror.txt,Iklan Luring | Offline Advertising                           35.745          18.395           17.350           94%,Offline Advertising
+Bukalapak Group,2023,promo_expense,18395,IDR_m,bukalapak_ar2024_mirror.txt,Iklan Luring | Offline Advertising                           35.745          18.395           17.350           94%,Offline Advertising
+Bukalapak Group,2024,promo_expense,97247,IDR_m,bukalapak_ar2024_mirror.txt,Saluran Pembayaran | Payment Channel                         97.247         140.471         (43.224)          (31%),Payment Channel
+Bukalapak Group,2023,promo_expense,140471,IDR_m,bukalapak_ar2024_mirror.txt,Saluran Pembayaran | Payment Channel                         97.247         140.471         (43.224)          (31%),Payment Channel
+Bukalapak Group,2024,promo_expense,56954,IDR_m,bukalapak_ar2024_mirror.txt,Online to Offline | Online to Offline                        56.954         143.851         (86.897)          (60%),Online to Offline (O2O marketing expenses)
+Bukalapak Group,2023,promo_expense,143851,IDR_m,bukalapak_ar2024_mirror.txt,Online to Offline | Online to Offline                        56.954         143.851         (86.897)          (60%),Online to Offline (O2O marketing expenses)
+Bukalapak Group,2023,promo_expense,56827,IDR_m,bukalapak_ar2023_mirror.txt,Vouchers                                         56.827        105.869         (49.042)                   -46%,Vouchers
+Bukalapak Group,2022,promo_expense,105869,IDR_m,bukalapak_ar2023_mirror.txt,Vouchers                                         56.827        105.869         (49.042)                   -46%,Vouchers
+Bukalapak Group,2023,promo_expense,77159,IDR_m,bukalapak_ar2023_mirror.txt,Feature Subsidy                                  77.159        163.572          (86.413)                  -53%,Feature Subsidy
+Bukalapak Group,2022,promo_expense,163572,IDR_m,bukalapak_ar2023_mirror.txt,Feature Subsidy                                  77.159        163.572          (86.413)                  -53%,Feature Subsidy
+Bukalapak Group,2022,promo_expense,105869,IDR_m,bukalapak_ar2022_mirror.txt,Vouchers                                                               105.869               203.525            (97.656)                      (48%),Vouchers
+Bukalapak Group,2021,promo_expense,203525,IDR_m,bukalapak_ar2022_mirror.txt,Vouchers                                                               105.869               203.525            (97.656)                      (48%),Vouchers
+Bukalapak Group,2021,promo_expense,203525,IDR_m,bukalapak_ar2021_mirror.txt,"Voucher
+                                                            203.525         438.071       (234.546)            (54%)",Vouchers
+Bukalapak Group,2020,promo_expense,438071,IDR_m,bukalapak_ar2021_mirror.txt,"Voucher
+                                                            203.525         438.071       (234.546)            (54%)",Vouchers
+Bukalapak Group,2021,promo_expense,353308,IDR_m,bukalapak_ar2021_mirror.txt,"Subsidi fitur
+                                                            353.308        291.049           62.259                21%",Feature subsidy
+Bukalapak Group,2020,promo_expense,291049,IDR_m,bukalapak_ar2021_mirror.txt,"Subsidi fitur
+                                                            353.308        291.049           62.259                21%",Feature subsidy
+Mitra,2021,promo_expense,679794,IDR_m,bukalapak_ar2021_mirror.txt,"Mitra
+                                                            679.794        430.387          249.407                58%",Selling and marketing expenses / Online to Offline
+Mitra,2020,promo_expense,430387,IDR_m,bukalapak_ar2021_mirror.txt,"Mitra
+                                                            679.794        430.387          249.407                58%",Selling and marketing expenses / Online to Offline
+Mitra,2022,promo_expense,380883,IDR_m,bukalapak_ar2022_mirror.txt,Mitra                                                                  380.883               679.794         (298.912)                        (44%),Selling and marketing expenses / Online to Offline
+Mitra,2023,promo_expense,164376,IDR_m,bukalapak_ar2023_mirror.txt,Mitra Bukalapak selling and marketing expenses              (164.376)      (437.096)            272.720          (62%),Mitra Bukalapak selling and marketing expenses
+Mitra,2022,promo_expense,437096,IDR_m,bukalapak_ar2023_mirror.txt,Mitra Bukalapak selling and marketing expenses              (164.376)      (437.096)            272.720          (62%),Mitra Bukalapak selling and marketing expenses
+Mitra,2024,promo_expense,83341,IDR_m,bukalapak_ar2024_mirror.txt,"(83.341)        (164.376)           81.034       (49%)
+Selling and Marketing Expenses - Mitra Bukalapak",Selling and Marketing Expenses - Mitra Bukalapak
+Marketplace,2022,promo_expense,616168,IDR_m,bukalapak_ar2022_mirror.txt,"Beban penjualan dan pemasaran Marketplace                           (616.168)              (867.121)         250.953                      (28,9%)",Marketplace selling and marketing expenses
+Marketplace,2021,promo_expense,867121,IDR_m,bukalapak_ar2022_mirror.txt,"Beban penjualan dan pemasaran Marketplace                           (616.168)              (867.121)         250.953                      (28,9%)",Marketplace selling and marketing expenses
+Bukalapak Group,2021,cost_of_revenue,441425,IDR_m,bukalapak_ar2021_mirror.txt,"Beban Pokok Pendapatan
+                                                                           (441.425)          (123.260)            (318.165)             258%",Cost of Revenues
+Bukalapak Group,2020,cost_of_revenue,123260,IDR_m,bukalapak_ar2021_mirror.txt,"Beban Pokok Pendapatan
+                                                                           (441.425)          (123.260)            (318.165)             258%",Cost of Revenues
+Bukalapak Group,2021,cost_of_revenue,441245,IDR_m,bukalapak_ar2023_mirror.txt,Beban Pokok Pendapatan | Cost of Revenues                           (3.387.569)       (2.559.910)      (441.245),Cost of Revenues FY2021 restated/rounded in AR2023 highlights vs 441.425 in AR2021-AR2022
+Marketplace,2022,cost_of_revenue,669407,IDR_m,bukalapak_ar2022_mirror.txt,"Beban pokok pendapatan Marketplace                                 (669.407)               (33.798)      (635.609)                      1.880,6%",Marketplace cost of revenues
+Marketplace,2021,cost_of_revenue,33798,IDR_m,bukalapak_ar2022_mirror.txt,"Beban pokok pendapatan Marketplace                                 (669.407)               (33.798)      (635.609)                      1.880,6%",Marketplace cost of revenues
+BukaPengadaan,2021,cost_of_revenue,103466,IDR_m,bukalapak_ar2021_mirror.txt,"Beban pokok pendapatan
+                                                            (103.466)          (121.917)           18.451             (15%)",BukaPengadaan cost of revenues
+BukaPengadaan,2020,cost_of_revenue,121917,IDR_m,bukalapak_ar2021_mirror.txt,"Beban pokok pendapatan
+                                                            (103.466)          (121.917)           18.451             (15%)",BukaPengadaan cost of revenues
+Bukalapak Group,2024,gross_profit,716683,IDR_m,bukalapak_ar2024_mirror.txt,Laba Bruto | Gross Profit                                                          716.683       1.050.700       1.058.456,Gross profit FY2024; 2023/2022 columns use three-dot grouping so not copied as values
+Bukalapak Group,2024,note_text,,,bukalapak_sr2024_mirror.txt,"The TPV figure for 2024 covers the period that ended on September 30th, 2024. Starting Q4 2024, the Company no longer reports TPV in line with the Corporate policy.",Stopped reporting TPV from Q4 2024; 2024 TPV is 9M to 30 Sep
+Bukalapak Group,2021,note_text,,,bukalapak_sr2021_mirror.txt,"TPV is Total Processing Value or total processing value, namely the volume of Rupiah from paid purchases facilitated by the Company’s platform, including physical and virtual products",TPV definition
+Bukalapak Group,2022,geography_note,75,pct,bukalapak_ar2022_mirror.txt,"75% of the Company's TPV is generated from areas outside the Tier 1 regions in Indonesia, where all-commerce penetration",Not country mix: share of TPV from non-Tier-1 Indonesia
+Marketplace,2022,tpv,80.1,IDR_tn,bukalapak_ar2022_mirror.txt,"In 2022, TPV of Marketplace reached Rp80.1 trillion, up 21%",Marketplace TPV FY2022
+Marketplace,2021,tpv,66.4,IDR_tn,bukalapak_ar2022_mirror.txt,from Rp66.4 trillion in 2021,Marketplace TPV FY2021 comparative in AR2022
+Marketplace,2021,tpv,66.4,IDR_tn,bukalapak_ar2021_mirror.txt,"In 2021, TPV Marketplace amounted to Rp66.4 trillion,",Marketplace TPV FY2021
+Marketplace,2020,tpv,62.2,IDR_tn,bukalapak_ar2021_mirror.txt,or an increase of 7% from Rp62.2 trillion compared,Marketplace TPV FY2020 comparative in AR2021
+Mitra,2022,tpv,73.6,IDR_tn,bukalapak_ar2022_mirror.txt,"Mitra increased by 31% to Rp73.6 trillion, from Rp56.2 trillion",Mitra TPV FY2022
+Mitra,2021,tpv,56.2,IDR_tn,bukalapak_ar2022_mirror.txt,"Mitra increased by 31% to Rp73.6 trillion, from Rp56.2 trillion",Mitra TPV FY2021 comparative in AR2022
+Mitra,2021,tpv,56.2,IDR_tn,bukalapak_sr2021_mirror.txt,2021 to Rp56.2 trillion from last year,Mitra TPV FY2021 in SR2021
+Bukalapak Group,2021,tpv,122.6,IDR_tn,bukalapak_sr2021_mirror.txt,Rp122.6 trillion at the,Company TPV FY2021 in SR2021
+Bukalapak Group,2020,tpv,85.08,IDR_tn,bukalapak_sr2021_mirror.txt,has grown significantly from Rp85.08 trillion,Company TPV FY2020 in SR2021
+Mitra,2019,tpv,10373,IDR_bn,bukalapak_sr2021_mirror.txt,"                        10,373",Mitra yearly TPV chart 2018-2021 IDR bn; second bar = 2019
+Mitra,2020,tpv,22882,IDR_bn,bukalapak_sr2021_mirror.txt,"                                         22,882",Mitra yearly TPV chart 2018-2021 IDR bn; third bar = 2020
+Mitra,2021,tpv,56201,IDR_bn,bukalapak_sr2021_mirror.txt,"                                                          56,201",Mitra yearly TPV chart 2018-2021 IDR bn; fourth bar = 2021 (+146% YoY)
+Bukalapak Group,2024,revenue,4.5,IDR_tn,bukalapak_ar2024_mirror.txt,"In 2024, the Company recorded net revenues of Rp4.5",Net revenues FY2024
+Bukalapak Group,2023,revenue,4.4,IDR_tn,bukalapak_ar2024_mirror.txt,an increase of Rp22 billion compared to Rp4.4,Net revenues FY2023 comparative in AR2024
+Bukalapak Group,2024,revenue,4.5,IDR_tn,bukalapak_sr2024_mirror.txt,"In 2024, the Company achieved Rp4.5 trillion in",Net revenues FY2024 in SR2024
+Bukalapak Group,2022,revenue,3.62,IDR_tn,bukalapak_ar2022_mirror.txt,"Net revenue reached Rp3.62 trillion, up 94%",Net revenues FY2022
+Bukalapak Group,2021,revenue,1.87,IDR_tn,bukalapak_ar2022_mirror.txt,from Rp1.87 trillion in 2021,Net revenues FY2021 comparative in AR2022
+Bukalapak Group,2021,revenue,1.9,IDR_tn,bukalapak_ar2021_mirror.txt,"Rp1.9 trillion, an increase of 38% from Rp1.4 trillion last",Net revenues FY2021 narrative
+Bukalapak Group,2020,revenue,1.4,IDR_tn,bukalapak_ar2021_mirror.txt,"Rp1.9 trillion, an increase of 38% from Rp1.4 trillion last",Net revenues FY2020 comparative narrative
+Marketplace,2024,revenue_line,2.5,IDR_tn,bukalapak_ar2024_mirror.txt,trillion in 2023 to Rp2.5 trillion in 2024,Marketplace
+Marketplace,2023,revenue_line,2.4,IDR_tn,bukalapak_ar2024_mirror.txt,Marketplace segment revenue from Rp2.4,Marketplace
+Mitra,2023,revenue_line,2.2,IDR_tn,bukalapak_ar2023_mirror.txt,reaching Rp2.2 trillion.,Mitra Bukalapak
+BukaPengadaan,2021,revenue_line,111,IDR_bn,bukalapak_ar2021_mirror.txt,net revenues declined to Rp111 billion in 2021 from Rp128,BukaPengadaan
+BukaPengadaan,2020,revenue_line,128,IDR_bn,bukalapak_ar2021_mirror.txt,net revenues declined to Rp111 billion in 2021 from Rp128,BukaPengadaan
+Bukalapak Group,2023,promo_expense,518.4,IDR_bn,bukalapak_ar2023_mirror.txt,in 2022 to Rp518.4,Selling and Marketing Expenses
+Marketplace,2021,promo_expense,867,IDR_bn,bukalapak_ar2021_mirror.txt,were recorded at Rp867,Marketplace selling and marketing expenses
+Bukalapak Group,2021,promo_expense,1.64,IDR_tn,bukalapak_ar2021_mirror.txt,"to Rp1.64 trillion, an increase of 8% compared to the",Selling and Marketing Expenses
+Bukalapak Group,2020,promo_expense,1.52,IDR_tn,bukalapak_ar2021_mirror.txt,previous year of Rp1.52 trillion,Selling and Marketing Expenses
+Bukalapak Group,2024,cost_of_revenue,3.7,IDR_tn,bukalapak_ar2024_mirror.txt,The Company reported a cost of revenues of Rp3.7 trillion,Cost of Revenues
+Bukalapak Group,2023,cost_of_revenue,3.4,IDR_tn,bukalapak_ar2024_mirror.txt,from Rp3.4 trillion in the previous year,Cost of Revenues FY2023 comparative in AR2024
+Bukalapak Group,2023,cost_of_revenue,3.3,IDR_tn,bukalapak_ar2023_mirror.txt,"Rp3.3 trillion, representing a 32% increase from the",Cost of Revenues FY2023 narrative in AR2023 (rounded)
+Bukalapak Group,2022,cost_of_revenue,2.6,IDR_tn,bukalapak_ar2023_mirror.txt,previous year's Rp2.6 trillion,Cost of Revenues FY2022 comparative in AR2023
+Bukalapak Group,2021,cost_of_revenue,441,IDR_bn,bukalapak_ar2021_mirror.txt,"in 2021 is Rp441 billion,",Cost of Revenues
+Bukalapak Group,2020,cost_of_revenue,123,IDR_bn,bukalapak_ar2021_mirror.txt,previous year of Rp123 billion,Cost of Revenues
+BukaPengadaan,2021,cost_of_revenue,103,IDR_bn,bukalapak_ar2021_mirror.txt,declined to Rp103 billion in 2021 from Rp122 billion in,BukaPengadaan cost of revenues
+BukaPengadaan,2020,cost_of_revenue,122,IDR_bn,bukalapak_ar2021_mirror.txt,declined to Rp103 billion in 2021 from Rp122 billion in,BukaPengadaan cost of revenues
+Bukalapak Group,2021,geography_note,73,pct,bukalapak_ar2021_mirror.txt,73% of the Company’s TPV comes from,"Share of TPV from outside Tier 1 areas in Indonesia, not country mix"
+Mitra,2024,revenue_line,2.1,IDR_tn,bukalapak_ar2024_mirror.txt,from Rp2.2 trillion to Rp2.1 trillion.,Mitra Bukalapak / O2O
+Mitra,2023,revenue_line,2.2,IDR_tn,bukalapak_ar2024_mirror.txt,from Rp2.2 trillion to Rp2.1 trillion.,Mitra Bukalapak / O2O
+Bukalapak Group,2024,geography_note,,,bukalapak_ar2024_mirror.txt,"Singapore, the Philippines, Australia, and South Korea.",Countries of operation via subsidiaries; Indonesia share of revenue/TPV not printed as a percentage
+Bukalapak Group,2024,geography_note,,,bukalapak_ar2024_mirror.txt,"territory of Indonesia. In addition, Bukalapak, through its",Operations cover all of Indonesia
+Bukalapak Group,2023,geography_note,,,bukalapak_ar2023_mirror.txt,"in Singapore, the Philippines, Australia, and",Countries of operation via subsidiaries
+Bukalapak Group,2023,geography_note,,,bukalapak_ar2023_mirror.txt,cover the entire territory of Indonesia.,Operations cover all of Indonesia
+Bukalapak Group,2022,geography_note,,,bukalapak_ar2022_mirror.txt,operates throughout the entire,Operations cover all of Indonesia
+Bukalapak Group,2022,geography_note,,,bukalapak_ar2022_mirror.txt,territory of Indonesia.,Operations cover all of Indonesia
+Bukalapak Group,2021,geography_note,,,bukalapak_ar2021_mirror.txt,entire territory of Indonesia.,Operations cover all of Indonesia
+Bukalapak Group,2021,geography_note,,,bukalapak_sr2021_mirror.txt,entire territory of Indonesia.,Operations cover all of Indonesia (SR2021)
+Bukalapak Group,2024,geography_note,,,bukalapak_sr2024_mirror.txt,"Philippines, Australia and South Korea.",Overseas operational areas in SR2024
+Bukalapak Group,2024,note_text,,,bukalapak_ar2024_mirror.txt,91% drop in vouchers-related,Reduced voucher/promotion spend FY2024
+Bukalapak Group,2023,note_text,,,bukalapak_ar2023_mirror.txt,"feature subsidies, vouchers, and online and offline",Reduced promotions/subsidies/vouchers FY2023
+Mitra,2022,note_text,,,bukalapak_ar2022_mirror.txt,"reduced selling and marketing expenses, which driven the",Mitra reduced S&M expenses FY2022
+Marketplace,2022,note_text,,,bukalapak_ar2022_mirror.txt,reducing marketplace segment's,Marketplace reduced S&M FY2022
+Bukalapak Group,2022,note_text,,,bukalapak_ar2022_mirror.txt,focus on profitability instead of TPV growth.,Shift away from TPV-led growth
+Bukalapak Group,2022,note_text,,,bukalapak_ar2022_mirror.txt,Company focused on increasing the TPV on high take rate,Changed TPV mix toward high take-rate products
+Bukalapak Group,2019,revenue,,IDR_m,bukalapak_ar2021_mirror.txt,1.869.122            1.351.664            1.076.604,Net Revenues FY2019 printed as 1.076.604 million Rp in AR2021 highlights (rightmost year); value empty to avoid converting three-dot grouping
+Bukalapak Group,2019,promo_expense,,IDR_m,bukalapak_ar2021_mirror.txt,(1.639.533)            (1.519.718)         (2.322.630),Selling and Marketing Expenses FY2019 printed as (2.322.630) million Rp; value empty to avoid converting three-dot grouping
+Bukalapak Group,2019,cost_of_revenue,267876,IDR_m,bukalapak_ar2021_mirror.txt,(441.425)             (123.260)             (267.876),Cost of Revenues FY2019
