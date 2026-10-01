@@ -6,8 +6,8 @@ on:
     paths:
       - papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf
       - papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md
-      - papers/current/IL_Oral_Deck_v1.pptx
-      - papers/current/IL_Oral_Deck_v1_preview.pdf
+      - papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx
+      - papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko_preview.pdf
       - scripts/export_canonical_proposal_text.py
       - scripts/validate_current_artifacts.py
       - .github/workflows/verify-current-artifacts.yml

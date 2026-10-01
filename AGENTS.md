@@ -14,7 +14,7 @@ Read these files before changing this repository:
 - The active proposal is `papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf` (the version examined on 1 October 2026). It has no editable source in this repository.
 - Its generated searchable text is `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`; the artifact map is `CANONICAL_ARTIFACTS.md`.
 - The 24 September DOCX and PDF are superseded (`papers/current/archive/`), even though their names say `FINAL`.
-- The presented oral deck is the latest `IL_Proposal_Oral_Deck_v4.x` in the repository root, not `papers/current/IL_Oral_Deck_v1.pptx`. Confirm with the researcher before relying on it.
+- The presented oral deck is `papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx` (v4.10, confirmed by the researcher on 1 October 2026). `IL_Oral_Deck_v1` is not the presented deck and is archived.
 - This map has been wrong before. **Before any diagnosis, comparison or rewrite, ask which file is final if the researcher has mentioned a version, and believe the researcher over this file.** A newer draft does not silently become active, and an older map does not silently stay active.
 - Never infer current proposal text from `PROPOSAL_*_CANDIDATE*`, `VERSION_*COMPARISON*`, `scripts/surgery/*`, or historical proposal generators.
 - Never call a historical snapshot `current` without an explicit commit SHA and path.
@@ -37,7 +37,7 @@ The thesis executes the 27 September proposal. It is not a new concept. Do not c
 
 **Advisor feedback pattern (Prof. Kong).** Define every term at first use. Use one term and one currency (GTV, USD). Explain every table in the text. State the geographic and business scope of every sample. Say whether a measure is the author's own. Explain unusual sources. Cite finance work. Give findings at economic scale. Her comments were written on whole thesis drafts: apply the concern behind a comment, not its literal wording, and treat "make it easier to read" as the main request.
 
-**Open items.** The reference list has not been checked against the 27 September text (eight references were once supplied from general knowledge). The YZU thesis template has never been seen. Which oral deck was presented is unconfirmed (the latest `IL_Proposal_Oral_Deck_v4.x` in the repository root is the best candidate).
+**Open items.** The reference list has not been checked against the 27 September text (eight references were once supplied from general knowledge). The YZU thesis template has never been seen.
 
 ## Research boundaries
 
