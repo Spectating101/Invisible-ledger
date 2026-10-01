@@ -65,7 +65,7 @@ for _, r in mm.iterrows():
 
 # ---- OUT of sample
 # Blibli 3P Retail, annual, IDR bn; incentives PROXY = GPBD - net revenue (GPBD adds back discounts and subsidies, but also direct costs)
-b = pd.read_csv(T + "src/blibli_extraction_snapshot.csv")
+b = pd.read_csv(T + "src/blibli_extraction.csv")
 b = b[b.value.notna() & (b.entity == "3P Retail") & (b.unit == "IDR_bn") & b.period.str.match(r"^FY202[2-5]$")]
 order = ["fy2022", "q12023", "q32023", "fy2023", "q22024", "q32024", "fy2024", "q12025", "q22025", "fy2025"]
 b = b.assign(v=b.source_file.str.extract(r"blibli_(\w+?)(?:_linked_0)?\.txt")[0].map({k: i for i, k in enumerate(order)}))

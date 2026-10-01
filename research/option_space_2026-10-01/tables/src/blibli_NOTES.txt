@@ -1,0 +1,13 @@
+No segment line is labelled Others; releases use Physical Stores as the fourth segment (mapped as entity Physical Stores).
+Period labels for non-quarter cumulatives follow the release (9M2023, 1H2024) because the spec only exemplified 2022Q4 / 2023Q1 / FY2022.
+blibli_fy2023_linked_0.txt, blibli_q22024_linked_0.txt, blibli_q32024_linked_0.txt, blibli_q12025_linked_0.txt and blibli_q22025_linked_0.txt are empty PDF extracts; those vintages are taken from the HTML files.
+FY2023 HTML is Indonesian-only; 1P FY2023 net revenue is Rp6.387 miliar vs 6,386 in the FY2024 English table, and 3P FY2023 TPV is Rp49.917 miliar vs 49,912 in FY2024.
+FY2025 restates 4Q24/FY24 vs the FY2024 release (Group 4Q24 TPV 21,044 vs 21,144; 1P 1,423 vs 1,429; 3P 14,630 vs 14,625; Institutions 3,341 vs 3,440); both vintages are kept.
+Dekoruma sits in Physical Stores in Q2/Q3 2024 write-ups, then FY2024/FY2025 attribute Dekoruma contributions to 1P Retail (experience centres still mentioned under 1P).
+FY2025 Physical Stores scope adds home-appliances stores and a fashion & sports store; AOV/YTU footnotes also widen from Blibli and tiket.com to online / any platform in the ecosystem.
+Prospectus TPV/GPBD/net revenue/gross profit are in Rp juta (unit IDR_mn, not converted to IDR_bn). Multi-dot Indonesian thousands (e.g. 2.128.057) and comma-decimal take rates (4,2%) cannot be verified by check_rows and were omitted.
+gross_profit is stated by segment only in the prospectus (laba bruto); later earnings releases print GPBD, not IFAS gross profit, by segment.
+Q2 2025 states 1P/3P/Institutions/Physical Stores TPV and net revenue only as growth rates for 2Q25/1H25, not absolute amounts, so those cells are not filled.
+3P Retail 4Q21 net revenue is printed as (0) in the FY2022 table.
+Segment take rate is rarely printed; exceptions include Group tables plus 1P Retail 23.0% in 1H25 and 25.5% in 4Q25.
+Ranch Market is fully consolidated only from FY2022 (acquired end-September 2021); tiket.com is inside 3P Retail throughout.

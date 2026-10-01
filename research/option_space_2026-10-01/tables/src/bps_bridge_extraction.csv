@@ -1,0 +1,169 @@
+entity,period,field,value,unit,source_file,quote,note
+eConomy,2022,ecommerce_gmv,58,USD_bn,economy_sea_2024_indonesia.txt,58           59            65               8           7           9,estimate:e-Conomy SEA 2024 Indonesia country report chart; e-commerce column 2022
+eConomy,2023,ecommerce_gmv,59,USD_bn,economy_sea_2024_indonesia.txt,58           59            65               8           7           9,estimate:e-Conomy SEA 2024 Indonesia country report chart; e-commerce column 2023
+eConomy,2024,ecommerce_gmv,65,USD_bn,economy_sea_2024_indonesia.txt,58           59            65               8           7           9,estimate:e-Conomy SEA 2024 Indonesia country report chart; e-commerce column 2024
+eConomy,2024,ecommerce_gmv,65,USD_bn,google_economy_sea_2024.txt,"Sektor e-commerce, yang masih menjadi kontributor terbesar bagi ekonomi digital, tumbuh 11% menjadi GMV $65 miliar pada tahun 2024",estimate:Google official e-Conomy SEA 2024 Indonesia blog
+eConomy,2022,ecommerce_gmv,58,USD_bn,economy_sea_2023_indonesia.txt,48           58           62,estimate:e-Conomy SEA 2023 Indonesia country report chart; e-commerce 2022
+eConomy,2023,ecommerce_gmv,62,USD_bn,economy_sea_2023_indonesia.txt,48           58           62,estimate:e-Conomy SEA 2023 Indonesia country report chart; 2023 as printed in 2023 vintage (later revised)
+eConomy,2023,ecommerce_gmv,59,USD_bn,economy_sea_2025_indonesia.txt,59           62                        8,estimate:e-Conomy SEA 2025 Indonesia country report chart; ecommerce 2023
+eConomy,2024,ecommerce_gmv,62,USD_bn,economy_sea_2025_indonesia.txt,59           62                        8,estimate:e-Conomy SEA 2025 Indonesia country report chart; ecommerce 2024 revised vs 2024 report
+eConomy,2025,ecommerce_gmv,71,USD_bn,economy_sea_2025_indonesia.txt,71                           9        10,estimate:e-Conomy SEA 2025 Indonesia country report chart; ecommerce 2025
+eConomy,2024,digital_economy_gmv,90,USD_bn,google_economy_sea_2024.txt,"ekonomi digital Indonesia akan mencapai Gross Merchandise Value (GMV) sebesar $90 miliar pada tahun 2024, naik 13% dibandingkan tahun 2023",estimate:Google e-Conomy SEA 2024 blog; overall digital economy not e-commerce
+eConomy,2024,digital_economy_gmv,90,USD_bn,economy_sea_2024_indonesia.txt,"Growth doubles, bringing GMV to $90B in 2024",estimate:e-Conomy SEA 2024 Indonesia report headline; overall digital economy
+eConomy,,definition,,,economy_sea_2024_indonesia.txt,Note: Only OTAs are included in “Travel”.,"e-commerce is charted as its own sector, separate from Transport and food, Online travel, and Online media"
+eConomy,,definition,,,economy_sea_2024.txt,Notes: GMV = gross merchandise value; AI = artificial intelligence; IPO = initial public offering,GMV expansion given; report does not say whether shipping/returns are in e-commerce GMV
+eConomy,2024,video_commerce_share,20,pct,economy_sea_2024.txt,by video commerce – which now accounts for 20% of,SEA-wide; two-column PDF so quote is the left-column fragment
+BI,2024,ecommerce_value,487,IDR_tn,bi_cerita_umkm.txt,"nilai transaksi e-commerce di Indonesia meningkat dari sekitar Rp 205,5 triliun pada 2019 menjadi sekitar Rp 487 triliun pada 2024",company-style BI narrative page; rounded 'sekitar'
+BI,2025,ecommerce_value,738,IDR_tn,bi_cerita_umkm.txt,pasar e-commerce Indonesia diproyeksikan akan terus tumbuh menuju sekitar Rp 738 triliun pada 2025,"BI projection, not a realized 2025 outturn"
+BI,2024,ecommerce_value,65,USD_bn,bi_lpi_2024.txt,65 miliar dolar AS dan diprakirakan akan,"BI LPI 2024 citing e-Conomy SEA 2024, not BI payment-system series"
+BI,2024,digital_economy_gmv,90,USD_bn,bi_lpi_2024.txt,Value (GMV) sebesar 90 miliar dolar AS pada,BI LPI quoting e-Conomy SEA 2024
+BI,2022,ecommerce_value,,,bi_cerita_umkm.txt,,"Tried BI LPI 2024, LPI Bab 7, Cerita BI UMKM, PTBI 2025 PDF, BSPI 2030; no printed 2022 IDR e-commerce outturn on those pages"
+BI,2023,ecommerce_value,,,bi_cerita_umkm.txt,,"Tried same BI PDFs/pages; 2023 IDR e-commerce value appears in news only, not in saved BI texts"
+BI,2022,transactions,,,bi_lpi_2024.txt,,Tried LPI 2024 and Bab 7; no annual e-commerce transaction count for 2022
+BI,2023,transactions,,,bi_lpi_2024.txt,,Tried LPI 2024 and Bab 7; no annual e-commerce transaction count for 2023
+BI,2024,transactions,,,bi_lpi_2024.txt,,Tried LPI 2024 and Bab 7; CAGR given but not 2024 transaction count
+BI,,definition,,,bi_lpi_2024_bab7.txt,e-commerce mencatat pertumbuhan rata-rata,Closest contiguous BI fragment on the e-commerce series; two-column PDF. No fuller scope definition found.
+Tokopedia,2023,GTV,248836,IDR_bn,goto_fy2023.txt,"GTV3
+
+65,317
+
+70,789
+
+-8%
+
+248,836
+
+273,146
+
+-9%","company; GoTo FY2023 e-commerce segment full-year GTV, table in billions of Rupiah"
+Tokopedia,2022,GTV,273146,IDR_bn,goto_fy2023.txt,"GTV3
+
+65,317
+
+70,789
+
+-8%
+
+248,836
+
+273,146
+
+-9%",company; GoTo FY2023 release comparative e-commerce GTV
+Tokopedia,2023,GTV_q4,65.3,IDR_tn,goto_fy2023.txt,"E-commerce GTV therefore improved by 5% QoQ and declined 8% YoY in 4Q23, reaching Rp 65.3 trillion",company; 4Q23 only
+GoTo,2024,GTV,519784,IDR_bn,goto_fy2024.txt,"GTV3
+
+144,464
+
+109,073
+
+32%
+
+519,784
+
+402,117
+
+29%",company; Group GTV FY2024 (not Tokopedia standalone; Tokopedia deconsolidated Feb 2024)
+GoTo,2023,GTV,402117,IDR_bn,goto_fy2024.txt,"GTV3
+
+144,464
+
+109,073
+
+32%
+
+519,784
+
+402,117
+
+29%",company; Group GTV FY2023 comparative
+GoTo,2024,core_GTV,268165,IDR_bn,goto_fy2024.txt,"Core GTV6
+
+79,223
+
+47,804
+
+66%
+
+268,165
+
+169,938
+
+58%",company; Core GTV FY2024
+Tokopedia,2024,GTV,,,goto_fy2024.txt,,"Tried GoTo FY2024 earnings page; Tokopedia deconsolidated 1 Feb 2024, no standalone 2024 Indonesia GTV printed"
+GoTo,,definition,,,goto_fy2023.txt,the sum of the value of the product and services recorded on our E-commerce Segment.,company GTV e-commerce definition FY2023 (includes Tokopedia)
+GoTo,,definition,,,goto_fy2024.txt,"the sum of the value of the product and services recorded on our remaining E-commerce platforms, excluding Tokopedia.",company GTV definition after Tokopedia deconsolidation
+Tokopedia,,definition,,,goto_fy2023.txt,"GTV means gross transaction value, an operating measure representing:",company; GTV label for Tokopedia-era e-commerce segment
+Shopee,,definition,,,sea_20f_2024.txt,“gross merchandise value” or “GMV” refers to the value of orders of products and services on our Shopee marketplace. Our calculation of GMV for our e-commerce platform includes shipping and other charges;,"company; Sea Limited 20-F FY2024; group definition, not Indonesia-only"
+Shopee,2024,GMV,100.5,USD_bn,sea_20f_2024.txt,"Our GMV for the year ended December 31, 2024 was US$100.5 billion and gross orders totaled 10.9 billion.","company; Shopee group GMV, Indonesia not broken out"
+Shopee,2024,orders,10.9,bn,sea_20f_2024.txt,"Our GMV for the year ended December 31, 2024 was US$100.5 billion and gross orders totaled 10.9 billion.",company; Shopee group orders
+Shopee,2023,GMV,78.5,USD_bn,sea_20f_2024.txt,GMV grew 28.0% from US$78.5 billion in 2023 to US$100.5 billion in 2024,company; Shopee group GMV
+Shopee Indonesia,2022,GMV,,,sea_20f_2024.txt,,Tried Sea 20-F FY2024; no Indonesia-country GMV
+Shopee Indonesia,2023,GMV,,,sea_20f_2024.txt,,Tried Sea 20-F FY2024; no Indonesia-country GMV
+Shopee Indonesia,2024,GMV,,,sea_20f_2024.txt,,Tried Sea 20-F FY2024; no Indonesia-country GMV. Momentum Works report is paywalled and was not downloaded
+Bukalapak,2022,TPV,,IDR_mn,bukalapak_sr2024.txt,Total NIlai Pemrosesan (TPV)                      Rp Juta,Printed TPV 2022=153.738.958 2023=164.380.065 2024=124.076.664 (Rp juta); 2024 is 9M only. Value left empty because dotted thousands cannot be verified as a single number.
+Bukalapak,2023,TPV,,IDR_mn,bukalapak_sr2024.txt,Total NIlai Pemrosesan (TPV)                      Rp Juta,Printed TPV 2022=153.738.958 2023=164.380.065 2024=124.076.664 (Rp juta); 2024 is 9M only. Value left empty because dotted thousands cannot be verified as a single number.
+Bukalapak,2024,TPV,,IDR_mn,bukalapak_sr2024.txt,Total NIlai Pemrosesan (TPV)                      Rp Juta,Printed TPV 2022=153.738.958 2023=164.380.065 2024=124.076.664 (Rp juta); 2024 is 9M only. Value left empty because dotted thousands cannot be verified as a single number.
+Blibli,2022,TPV,61401,IDR_bn,blibli_ar2024.txt,"72,136
+                      77,410
+                                                                                                                                  6.9
+                                                                                                                                                                                                                                                                     STOCK HIGHLIGHTS
+                                                                           16,716
+61,401","company; AR2024 TPV chart 2022=61,401 billion Rupiah"
+Blibli,2023,TPV,72136,IDR_bn,blibli_ar2024.txt,"72,136
+                      77,410",company; AR2024 TPV chart 2023
+Blibli,2024,TPV,77410,IDR_bn,blibli_ar2024.txt,"72,136
+                      77,410",company; AR2024 TPV chart 2024
+Blibli,,definition,,,blibli_ar2024.txt,Total Processing Value (TPV) is the total value of paid and delivered products and/or services to customers during the relevant period/year.,company TPV definition
+Lazada Indonesia,2022,GMV,,,economy_sea_2024_indonesia.txt,,"Tried e-Conomy SEA 2023-2025 ID reports, Sea 20-F, GoTo releases; no Lazada Indonesia GMV in those first-hand files"
+Lazada Indonesia,2023,GMV,,,economy_sea_2024_indonesia.txt,,Same search; not printed
+Lazada Indonesia,2024,GMV,,,economy_sea_2024_indonesia.txt,,Same search; not printed
+TikTok Shop Indonesia,2022,GMV,,,economy_sea_2024_indonesia.txt,,Tried e-Conomy ID reports and company filings listed; no TikTok Shop Indonesia GMV
+TikTok Shop Indonesia,2023,GMV,,,economy_sea_2024_indonesia.txt,,Same; not printed
+TikTok Shop Indonesia,2024,GMV,,,economy_sea_2024_indonesia.txt,,Same; Momentum Works paywalled
+Grab,2022,GMV,,,economy_sea_2024_indonesia.txt,,Tried e-Conomy ID reports; Grab not broken out as Indonesia e-commerce GMV
+Grab,2023,GMV,,,economy_sea_2024_indonesia.txt,,Same
+Grab,2024,GMV,,,economy_sea_2024_indonesia.txt,,Same
+BPS,2022,total_value,,,sulut_ecom_2023.txt,,"Tried bps.go.id Statistik E-Commerce 2022, 2022/2023, 2023, 2024 pages (Cloudflare 403), web-api provincial PDFs, BPS 2019 PDF. National 2022 sales value not in saved texts"
+BPS,2023,total_value,,,sulut_ecom_2023.txt,,National Statistik E-Commerce 2023 PDF not downloaded (bps.go.id Cloudflare). Provincial Sulut PDF is Sulut only
+BPS,2024,total_value,,,sulut_ecom_2023.txt,,National Statistik E-Commerce 2024 PDF not downloaded (bps.go.id Cloudflare)
+BPS,2022,n_businesses,,,bali_ecom_2022_2023.txt,,"National count not in saved files; Bali PDF gives Bali 86,156 only"
+BPS,2023,n_businesses,,,sulut_ecom_2023.txt,,National count not in saved files
+BPS,2024,n_businesses,,,sulut_ecom_2023.txt,,National count not in saved files
+BPS,2022,value_marketplace,,,sulut_ecom_2023.txt,,National medium breakdown not in saved files
+BPS,2023,value_marketplace,,,sulut_ecom_2023.txt,,National medium breakdown not in saved files
+BPS,2024,value_marketplace,,,sulut_ecom_2023.txt,,National medium breakdown not in saved files
+BPS,2022,value_website,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2023,value_website,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2024,value_website,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2022,value_social,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2023,value_social,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2024,value_social,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2022,value_messaging,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2023,value_messaging,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2024,value_messaging,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2022,value_other,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2023,value_other,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2024,value_other,,,sulut_ecom_2023.txt,,Not in saved files
+BPS,2022,orders,,,sulut_ecom_2023.txt,,Total orders not stated in saved BPS texts
+BPS,2023,orders,,,sulut_ecom_2023.txt,,Total orders not stated in saved BPS texts
+BPS,2024,orders,,,sulut_ecom_2023.txt,,Total orders not stated in saved BPS texts
+BPS,,definition,,,sulut_ecom_2023.txt,Usaha/perusahaan yang dicakup dalam survei ini adalah usaha yang menggunakan internet untuk menerima pesanan atau melakukan penjualan barang dan/atau jasa dan terdapat transaksi penjualan melalui internet di tahun 2023.,Unit is usaha/perusahaan; 2023 activity; Sulut 2024 survey pub
+BPS,,definition,,,sulut_ecom_2023.txt,"Terkait     pemetaan    eCommerce      di   Indonesia,    BPS",Lead-in to household-and-company frame; watermark splits the rest of the sentence.
+BPS,,definition,,,sulut_ecom_2023.txt,Development (OECD) 2009 mendefinisikan Electronic,OECD 2009 order-based definition used by BPS (contiguous fragment).
+BPS,,definition,,,sulut_ecom_2023.txt,"Barang atau    jasa   dipesan   dengan    metode   tersebut,     tetapi pembayaran dan pengiriman utama barang atau jasa tidak",Payment and main delivery need not be online
+BPS,,definition,,,sulut_ecom_2023.txt,"Transaksi eCommerce dapat terjadi antar usaha, rumah tangga, individu, pemerintah, dan organisasi swasta atau publik lainnya.","B2B, household, individual, government in conceptual scope"
+BPS,,definition,,,sulut_ecom_2023.txt,"Termasuk: pemesanan melalui halaman website, ekstranet maupun EDI (Electronic Data Interchange), email otomatis, media sosial (Facebook, Instagram, dan lainnya), serta pesan instan atau instant messaging (WhatsApp, Line, dan lainnya).","Media in scope: website, EDI, social, messaging"
+BPS,,definition,,,sulut_ecom_2023.txt,Tidak termasuk: pemesanan yang dibuat melalui,Phone/manual-email/fax exclusion; rest of sentence split by watermark.
+BPS,,definition,,,sulut_ecom_2023.txt,Marketplace adalah sebuah lokasi jual beli produk dimana,Marketplace = third-party platform stall; rest of sentence split by watermark.
+BPS,,definition,,,sulut_ecom_2023.txt,"KBLI hanya mengelompokkan unit produksi menurut kegiatan ekonomi, tidak membedakan unit produksi menurut kepemilikan, jenis badan hukum, formal atau informal.",Formal and informal establishments not distinguished in KBLI frame
+BPS,,definition,,,sulut_ecom_2023.txt,"Survei eCommerce Provinsi Sulawesi Utara tahun 2024 dilaksanakan di 8 kabupaten/kota, mencakup 171 blok sensus.","Sampling: this sentence is Sulut sample, not national frame"
+BPS,,definition,,,bali_ecom_2022_2023.txt,dari responden yang berupa rumah tangga dan,Respondents are households and companies (Bali pub).
+eConomy,2022,digital_economy_gmv,76,USD_bn,economy_sea_2024_indonesia.txt,76          80,estimate:e-Conomy SEA 2024 ID report; overall digital economy 2022 (not e-commerce)
+eConomy,2023,digital_economy_gmv,80,USD_bn,economy_sea_2024_indonesia.txt,76          80,estimate:e-Conomy SEA 2024 ID report; overall digital economy 2023
+eConomy,2024,online_travel_gmv,9,USD_bn,economy_sea_2024_indonesia.txt,7             9               6           7           8,"estimate:e-Conomy SEA 2024 ID report; online travel 2024 (context, not e-commerce)"
+Shopee,2023,orders,8.2,bn,sea_20f_2024.txt,orders volume grew 33.0% from 8.2 billion in 2023 to 10.9 billion in 2024,company; Shopee group orders
+Shopee,2022,orders,7.6,bn,sea_20f_2024.txt,orders volume grew 8.8% from 7.6 billion in 2022 to 8.2 billion in 2023,company; Shopee group orders
+GoTo,2024,tokopedia_service_fee,690,IDR_bn,goto_fy2024.txt,"For the year, it was Rp690 billion, or net Rp622 billion, excluding VAT, which reflects 11 months of service fees.","company; e-commerce service fee from Tokopedia, not GTV"
+GoTo,2024,tokopedia_service_fee_net,622,IDR_bn,goto_fy2024.txt,"For the year, it was Rp690 billion, or net Rp622 billion, excluding VAT, which reflects 11 months of service fees.",company; net of VAT
+Blibli,2024,net_revenue,16716,IDR_bn,blibli_ar2024.txt,"16,716",company AR2024 net revenues 2024 in billion Rupiah
+Blibli,2023,net_revenue,14718,IDR_bn,blibli_ar2024.txt,"14,718",company AR2024 net revenues 2023
