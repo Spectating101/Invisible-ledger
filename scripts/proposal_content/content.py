@@ -1,22 +1,24 @@
 # -*- coding: utf-8 -*-
 """Legacy candidate-builder support without a second proposal text source.
 
-The canonical proposal is edited directly at:
-  papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
+The active proposal is the 27 September 2026 PDF (papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf).
+No editable source for it has been located. This legacy module only reads the reference list from the
+superseded 24 September DOCX, now kept at:
+  papers/current/archive/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
 
 Historically this module duplicated the complete proposal body and abstract. That made
 obsolete prose searchable and caused agents/builders to treat an old iteration as current.
 The body copy is deliberately removed. Candidate builds may reuse the reference list from
-the canonical DOCX, but no current proposal prose lives here.
+the archived DOCX, but no current proposal prose lives here.
 """
 
 from pathlib import Path
 from docx import Document
 
 ROOT = Path(__file__).resolve().parents[2]
-CANONICAL = ROOT / "papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx"
+CANONICAL = ROOT / "papers/current/archive/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx"
 
-# Explicitly empty: current proposal prose must come from the canonical DOCX, never here.
+# Explicitly empty: current proposal prose must come from the active proposal, never here.
 ABSTRACT = None
 BODY = []
 
