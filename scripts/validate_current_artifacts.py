@@ -48,6 +48,18 @@ def main() -> None:
         for suffix in (".docx", ".pdf"):
             assert not (CURRENT / f"{old}{suffix}").exists(), f"superseded proposal still in papers/current: {old}{suffix}"
 
+    # Rule files must name the active proposal, and may mention the archived 24 September files only as superseded.
+    for rel in ("AGENTS.md", "CANONICAL_ARTIFACTS.md", "README.md", "docs/CURRENT_STATUS.md"):
+        text = (ROOT / rel).read_text(encoding="utf-8")
+        assert PDF.name in text, f"{rel} does not name the active proposal {PDF.name}"
+        for line in text.splitlines():
+            if "KONG_MASTER_FINAL_2026-09-24" in line:
+                assert any(w in line.lower() for w in ("superseded", "archive")), f"{rel} names the 24 September file without saying it is superseded: {line[:90]}"
+
+    # Exactly one proposal file may sit in papers/current (older proposals live in archive/).
+    proposals = sorted(p.name for p in CURRENT.glob("Invisible_Ledger*Proposal*") if p.suffix in (".docx", ".pdf"))
+    assert proposals == [PDF.name], f"unexpected proposal files in papers/current: {proposals}"
+
     print(f"Active proposal: {PDF.name}, SHA-256 {source_hash}, {pages(PDF)} PDF pages")
     print(f"Active deck: {slide_count} slides, {pages(DECK_PDF)} preview pages")
 
