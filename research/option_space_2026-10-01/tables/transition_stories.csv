@@ -1,0 +1,53 @@
+set,firm,y0,y1,gV,gR,D_pp,dlnm,m0_pct,m1_pct,story
+EXT_clean,Etsy,2019,2020,106.658,110.859,4.201,0.02,16.45,16.784,tracks (|dlnm|<=0.10)
+EXT_clean,Etsy,2021,2022,-1.285,10.175,11.461,0.11,17.263,19.267,"V down, R up"
+EXT_clean,Etsy,2023,2024,-4.363,2.181,6.545,0.066,20.882,22.311,"V down, R up"
+EXT_clean,Jumia,2021,2022,5.754,24.699,18.945,0.165,17.962,21.18,R outruns V
+EXT_clean,Jumia,2022,2023,-28.427,-15.99,12.436,0.16,21.18,24.86,R outruns V
+EXT_clean,Jumia,2024,2025,13.6,12.786,-0.814,-0.007,23.243,23.076,tracks (|dlnm|<=0.10)
+EXT_clean,Mercado Libre,2021,2022,21.127,25.307,4.181,0.034,16.32,16.884,tracks (|dlnm|<=0.10)
+EXT_clean,Mercado Libre,2022,2023,30.084,41.202,11.117,0.082,16.884,18.327,tracks (|dlnm|<=0.10)
+EXT_clean,Rakuten,2024,2025,3.914,5.791,1.877,0.018,15.837,16.123,tracks (|dlnm|<=0.10)
+EXT_clean,Sea / Shopee,2017,2018,149.928,2884.038,2734.11,2.48,0.22,2.623,R outruns V
+EXT_clean,Sea / Shopee,2018,2019,70.986,209.482,138.496,0.593,2.623,4.747,R outruns V
+EXT_clean,Sea / Shopee,2019,2020,101.409,159.758,58.349,0.254,4.747,6.122,R outruns V
+EXT_clean,Sea / Shopee,2020,2021,76.836,136.392,59.555,0.29,6.122,8.184,R outruns V
+EXT_clean,Sea / Shopee,2022,2023,6.803,23.288,16.485,0.144,9.932,11.465,R outruns V
+EXT_clean,Sea / Shopee,2023,2024,28.025,37.778,9.752,0.073,11.465,12.338,tracks (|dlnm|<=0.10)
+EXT_clean,Sea / Shopee,2024,2025,26.766,33.871,7.105,0.055,12.338,13.03,tracks (|dlnm|<=0.10)
+EXT_clean,Shopify,2019,2020,95.745,85.646,-10.098,-0.053,2.583,2.449,tracks (|dlnm|<=0.10)
+EXT_clean,Shopify,2020,2021,46.624,57.428,10.805,0.071,2.449,2.63,tracks (|dlnm|<=0.10)
+EXT_clean,Shopify,2021,2022,12.434,21.423,8.989,0.077,2.63,2.84,tracks (|dlnm|<=0.10)
+EXT_clean,Shopify,2023,2024,23.893,25.779,1.886,0.015,2.993,3.038,tracks (|dlnm|<=0.10)
+EXT_clean,Shopify,2024,2025,29.481,30.135,0.654,0.005,3.038,3.054,tracks (|dlnm|<=0.10)
+EXT_clean,Zalando,2020,2021,34.001,29.717,-4.284,-0.032,74.626,72.24,tracks (|dlnm|<=0.10)
+EXT_clean,Zalando,2021,2022,3.182,-0.089,-3.27,-0.032,72.24,69.951,"V up, R down"
+EXT_clean,Zalando,2022,2023,-1.066,-1.95,-0.883,-0.009,69.951,69.326,tracks (|dlnm|<=0.10)
+EXT_clean,Zalando,2023,2024,4.65,4.233,-0.416,-0.004,69.326,69.05,tracks (|dlnm|<=0.10)
+EXT_clean,eBay,2021,2022,-15.446,-5.998,9.448,0.106,11.922,13.254,R outruns V
+EXT_clean,eBay,2022,2023,-0.947,3.236,4.184,0.041,13.254,13.814,"V down, R up"
+EXT_clean,eBay,2023,2024,2.049,1.691,-0.358,-0.004,13.814,13.766,tracks (|dlnm|<=0.10)
+EXT_clean,eBay,2024,2025,6.56,7.945,1.386,0.013,13.766,13.945,tracks (|dlnm|<=0.10)
+EXT_unclean,Etsy,2020,2021,31.229,34.972,3.743,0.028,16.784,17.263,tracks (|dlnm|<=0.10)
+EXT_unclean,Etsy,2022,2023,-1.18,7.103,8.283,0.08,19.267,20.882,"V down, R up"
+EXT_unclean,Etsy,2024,2025,-5.323,2.677,8.0,0.081,22.311,24.197,"V down, R up"
+EXT_unclean,Jumia,2023,2024,-3.894,-10.148,-6.254,-0.067,24.86,23.243,tracks (|dlnm|<=0.10)
+EXT_unclean,Mercado Libre,2023,2024,15.013,48.262,33.25,0.254,18.327,23.625,R outruns V
+EXT_unclean,Mercado Libre,2024,2025,26.366,34.008,7.641,0.059,23.625,25.053,tracks (|dlnm|<=0.10)
+EXT_unclean,Rakuten,2023,2024,-1.548,3.755,5.303,0.052,15.027,15.837,"V down, R up"
+EXT_unclean,Sea / Shopee,2021,2022,17.412,42.496,25.084,0.194,8.184,9.932,R outruns V
+EXT_unclean,Shopify,2022,2023,19.65,26.074,6.425,0.052,2.84,2.993,tracks (|dlnm|<=0.10)
+EXT_unclean,Zalando,2024,2025,14.688,16.776,2.088,0.018,69.05,70.307,tracks (|dlnm|<=0.10)
+EXT_unclean,eBay,2020,2021,-12.6,1.451,14.051,0.149,10.271,11.922,"V down, R up"
+IDN_constructed,Grab,2021,2022,103.54,248.101,144.561,0.537,4.203,7.188,R outruns V
+IDN_constructed,Grab,2022,2023,40.653,120.0,79.347,0.447,7.188,11.242,R outruns V
+IDN_constructed,Shopee,2022,2023,15.179,37.118,21.939,0.174,8.4,10.0,R outruns V
+IDN_constructed,Shopee,2023,2024,20.771,30.433,9.662,0.077,10.0,10.8,tracks (|dlnm|<=0.10)
+IDN_main,Blibli 3P Retail,2021,2022,135.298,63.115,-72.183,-0.366,0.775,0.537,R lags V
+IDN_main,Blibli 3P Retail,2022,2023,34.715,465.327,430.611,1.434,0.537,2.254,R outruns V
+IDN_main,Blibli 3P Retail,2023,2024,8.611,23.022,14.411,0.125,2.254,2.553,R outruns V
+IDN_main,Blibli 3P Retail,2024,2025,-1.887,12.066,13.954,0.133,2.553,2.916,"V down, R up"
+IDN_main,Bukalapak Group,2020,2021,44.119,38.283,-5.836,-0.041,1.589,1.524,tracks (|dlnm|<=0.10)
+IDN_main,Bukalapak Group,2021,2022,25.38,93.586,68.207,0.434,1.524,2.354,R outruns V
+IDN_main,Bukalapak Group,2022,2023,6.922,22.659,15.738,0.137,2.354,2.7,R outruns V
+IDN_main,Tokopedia e-commerce segment,2022,2023,-8.9,53.196,62.096,0.52,1.476,2.482,"V down, R up"

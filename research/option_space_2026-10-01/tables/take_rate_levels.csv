@@ -1,0 +1,66 @@
+firm,year,transaction_value,revenue_value,monetization_rate_pct,evidence_tier,E
+Grab,2021,1.8797,0.079,4.2027,conditional_country_reconstruction,22.7941
+Grab,2022,3.826,0.275,7.1876,conditional_country_reconstruction,12.9128
+Grab,2023,5.3814,0.605,11.2424,conditional_country_reconstruction,7.8949
+Shopee,2022,18.684,1.5695,8.4,conditional_country_reconstruction,10.9048
+Shopee,2023,21.52,2.152,10.0,conditional_country_reconstruction,9.0
+Shopee,2024,25.99,2.8069,10.8,conditional_country_reconstruction,8.2593
+Tokopedia e-commerce segment,2022,273146166.0,4030919.0,1.4757,direct_indonesia_aligned_segment,66.7628
+Tokopedia e-commerce segment,2023,248836156.0,6175190.0,2.4816,direct_indonesia_aligned_segment,39.2961
+Blibli 3P Retail,2021,15746.0,122.0,0.7748,direct_issuer_scope_pending,128.0656
+Blibli 3P Retail,2022,37050.0,199.0,0.5371,direct_issuer_scope_pending,185.1809
+Blibli 3P Retail,2023,49912.0,1125.0,2.254,direct_issuer_scope_pending,43.3662
+Blibli 3P Retail,2024,54210.0,1384.0,2.553,direct_issuer_scope_pending,38.1691
+Blibli 3P Retail,2025,53187.0,1551.0,2.9161,direct_issuer_scope_pending,33.2921
+Bukalapak Group,2020,85081843.0,1351664.0,1.5887,direct_issuer_scope_pending,61.946
+Bukalapak Group,2021,122618794.0,1869122.0,1.5243,direct_issuer_scope_pending,64.6023
+Bukalapak Group,2022,153738958.0,3618366.0,2.3536,direct_issuer_scope_pending,41.4885
+Bukalapak Group,2023,164380065.0,4438269.0,2.7,direct_issuer_scope_pending,36.037
+Etsy,2019,4974.944,818.379,16.45,external,5.079
+Etsy,2020,10281.101,1725.625,16.7844,external,4.9579
+Etsy,2021,13491.828,2329.114,17.2631,external,4.7927
+Etsy,2022,13318.396,2566.111,19.2674,external,4.1901
+Etsy,2023,13161.196,2748.377,20.8824,external,3.7887
+Etsy,2024,12586.952,2808.332,22.3115,external,3.482
+Etsy,2025,11916.9,2883.501,24.1967,external,3.1328
+Jumia,2021,990.6,177.934,17.9622,external,4.5672
+Jumia,2022,1047.6,221.882,21.18,external,3.7214
+Jumia,2023,749.8,186.402,24.8602,external,3.0225
+Jumia,2024,720.6,167.486,23.2426,external,3.3024
+Jumia,2025,818.6,188.9,23.076,external,3.3335
+Mercado Libre,2021,28400.0,4635.0,16.3204,external,5.1273
+Mercado Libre,2022,34400.0,5808.0,16.8837,external,4.9229
+Mercado Libre,2023,44749.0,8201.0,18.3267,external,4.4565
+Mercado Libre,2024,51467.0,12159.0,23.6248,external,3.2328
+Mercado Libre,2025,65037.0,16294.0,25.0534,external,2.9915
+Rakuten,2023,6202000.0,932000.0,15.0274,external,5.6545
+Rakuten,2024,6106000.0,967000.0,15.8369,external,5.3144
+Rakuten,2025,6345000.0,1023000.0,16.1229,external,5.2023
+Sea / Shopee,2017,4112.9,9.034,0.2197,external,454.269
+Sea / Shopee,2018,10279.3,269.578,2.6225,external,37.1311
+Sea / Shopee,2019,17576.2,834.295,4.7467,external,20.0671
+Sea / Shopee,2020,35400.0,2167.149,6.1219,external,15.3348
+Sea / Shopee,2021,62600.0,5122.959,8.1836,external,11.2195
+Sea / Shopee,2022,73500.0,7300.0,9.932,external,9.0685
+Sea / Shopee,2023,78500.0,9000.0,11.465,external,7.7222
+Sea / Shopee,2024,100500.0,12400.0,12.3383,external,7.1048
+Sea / Shopee,2025,127400.0,16600.0,13.0298,external,6.6747
+Shopify,2019,61100.0,1578.0,2.5827,external,37.7199
+Shopify,2020,119600.0,2929.5,2.4494,external,39.8261
+Shopify,2021,175361.814,4611.856,2.6299,external,37.0241
+Shopify,2022,197166.882,5599.864,2.8402,external,34.2092
+Shopify,2023,235910.0,7060.0,2.9927,external,32.415
+Shopify,2024,292275.0,8880.0,3.0382,external,31.9139
+Shopify,2025,378441.0,11556.0,3.0536,external,31.7484
+Zalando,2020,10696.0,7982.0,74.626,external,0.34
+Zalando,2021,14332.7,10354.0,72.2404,external,0.3843
+Zalando,2022,14788.7,10344.8,69.9507,external,0.4296
+Zalando,2023,14631.0,10143.1,69.3261,external,0.4425
+Zalando,2024,15311.3,10572.5,69.0503,external,0.4482
+Zalando,2025,17560.2,12346.1,70.3073,external,0.4223
+eBay,2020,100000.0,10271.0,10.271,external,8.7362
+eBay,2021,87400.0,10420.0,11.9222,external,7.3877
+eBay,2022,73900.0,9795.0,13.2544,external,6.5447
+eBay,2023,73200.0,10112.0,13.8142,external,6.2389
+eBay,2024,74700.0,10283.0,13.7657,external,6.2644
+eBay,2025,79600.0,11100.0,13.9447,external,6.1712

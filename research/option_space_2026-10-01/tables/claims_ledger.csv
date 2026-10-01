@@ -1,0 +1,56 @@
+id,where,claim,stated,recomputed,status
+C01,proposal/deck,Main sample median |D| (pp),38.92,38.916763,PASS
+C02,proposal/deck,Main sample transitions,8.0,8.0,PASS
+C03,proposal/deck,Revenue grew faster in (of 8),6.0,6.0,PASS
+C04,proposal/deck,Opposite-direction transitions (main),2.0,2.0,PASS
+C05,proposal,"Median signed D, main (pp) [handoff: 15.07]",15.07,15.074503,PASS
+C06,proposal,Drop largest: transitions,7.0,7.0,PASS
+C07,proposal,Drop largest: revenue faster in,5.0,5.0,PASS
+C08,proposal,Drop largest: median |D| (pp),15.74,15.73794,PASS
+C09,proposal,All five platforms: transitions,12.0,12.0,PASS
+C10,proposal,All five: revenue faster in,10.0,10.0,PASS
+C11,proposal,All five: median |D| (pp),42.02,42.017199,PASS
+C12,proposal,Tokopedia V growth 2022-23 (%),-8.9,-8.9,PASS
+C13,proposal,Tokopedia net revenue growth 2022-23 (%),53.2,53.195586,PASS
+C14,proposal,Tokopedia D (pp),62.1,62.095587,PASS
+C15,proposal,Tokopedia: incentive share of net revenue change (%),60.6,60.561422,PASS
+C16,proposal,Tokopedia: gross revenue share (%),39.4,39.438578,PASS
+C17,proposal,External: matched observations,48.0,48.0,PASS
+C18,proposal,External: clean transitions,29.0,29.0,PASS
+C19,proposal,External: revenue faster in (of 29),22.0,22.0,PASS
+C20,proposal,External: opposite direction (clean),4.0,4.0,PASS
+C21,proposal,External median |D| (pp),7.1,7.104799,PASS
+C22,proposal,BPS total growth 2023-24 (%),17.08,17.082853,PASS
+C23,proposal,BPS marketplace growth (%),1.45,1.445087,PASS
+C24,proposal,BPS non-marketplace growth (%),20.57,20.568991,PASS
+C25,proposal,Share of increase outside marketplace (%),98.46,98.457939,PASS
+C26,proposal,BPS businesses growth 2023-24 (%),15.31,15.306792,PASS
+C27,proposal,BPS sales per business growth (%),1.54,1.540291,PASS
+C28,proposal,Count share of increase 2023-24 (%),90.29,90.293333,PASS
+C29,proposal,"Count share, alt 2023 count (%)",70.95,70.946665,PASS
+C30,deck,Count share 2022-23 (%),71.0,70.978766,PASS
+C31,deck,BPS 2022-23 total growth (%),40.6,40.596424,PASS
+C32,proposal,BPS marketplace share 2023 (%),18.2,18.229219,PASS
+C33,deck,BPS marketplace USD bn 2023,13.2,13.170675,PASS
+C34,proposal,FY2023 total V (US$ bn),43.23,43.232567,PASS
+C35,proposal,FY2023 total R (US$ bn),3.16,3.162279,PASS
+C36,proposal,FY2023 wedge (US$ bn),40.07,40.070288,PASS
+C37,proposal,FY2023 V/R,13.7,13.671332,PASS
+C38,proposal,FY2023 E,12.7,12.671332,PASS
+C39,handoff,Wedge as % of Indonesia 2023 GDP,2.92,2.922349,PASS
+C40,proposal,Blibli 2023 E,43.4,43.366222,PASS
+C41,proposal,Bukalapak 2023 E,36.0,36.036977,PASS
+C42,proposal,Tokopedia E 2023,39.3,39.296113,PASS
+C43,proposal,Every issuer-reported E ends below its start (count of 3),3.0,3.0,PASS
+C44,deck,"Mann-Whitney one-sided p, |D|, main vs external clean",0.002,0.002162,PASS
+C45,deck,MW p drop largest,0.006,0.00614,PASS
+C46,deck,MW p excluding Sea (<0.001),0.001,4.4e-05,PASS
+C47,deck,MW p one median per firm (3 vs 8),0.024,0.024242,PASS
+C48,deck,"Growth correlation, Indonesia main",0.1,0.103852,PASS
+C49,deck,"Growth correlation, external excl. Sea",0.98,0.978189,PASS
+C50,proposal,Payments growth e-money shopping (%) matched row: electronic_money_shopping_value,30.47,30.47001,PASS
+C51,proposal,e-money shopping multiple of BPS growth,1.78,1.783661,PASS
+C52,proposal,Payments growth mobile banking (%) matched row: mobile_banking_payment_purchase_value,82.84,82.84422,PASS
+C53,proposal,mobile banking multiple of BPS growth,4.85,4.849554,PASS
+C54,proposal,Payments growth QRIS (%) matched row: qris_transaction_value,186.98,186.980344,PASS
+C55,proposal,QRIS multiple of BPS growth,10.95,10.945499,PASS
