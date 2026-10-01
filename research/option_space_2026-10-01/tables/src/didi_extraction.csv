@@ -1,0 +1,615 @@
+entity,period,field,value,unit,source_file,quote,note
+China Mobility,2018,gtv,204461,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 204,461 
+ 202,367 
+ 189,002",China Mobility key metrics table; RMB millions
+China Mobility,2019,gtv,202367,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 204,461 
+ 202,367 
+ 189,002",China Mobility key metrics table; RMB millions
+China Mobility,2020,gtv,189002,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 204,461 
+ 202,367 
+ 189,002",China Mobility key metrics table; RMB millions
+China Mobility,2019,gtv,202367,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 202,367 
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ |",China Mobility key metrics table
+China Mobility,2020,gtv,189002,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 202,367 
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ |",China Mobility key metrics table
+China Mobility,2021,gtv,233845,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 202,367 
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ |",China Mobility key metrics table
+China Mobility,2020,gtv,189002,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ | 
+ | 186,174 
+ |",China Mobility key metrics table
+China Mobility,2021,gtv,233845,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ | 
+ | 186,174 
+ |",China Mobility key metrics table
+China Mobility,2022,gtv,186174,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 189,002 
+ | 
+ | 233,845 
+ | 
+ | 186,174 
+ |",China Mobility key metrics table
+China Mobility,2022,gtv,186174,RMB_m,DIDI_20-F_2024-04-15.txt,"GTV (in RMB millions)
+ | 
+ | 186,174 
+ | 
+ | 270,721 
+ |",China Mobility key metrics table
+China Mobility,2023,gtv,270721,RMB_m,DIDI_20-F_2024-04-15.txt,"GTV (in RMB millions)
+ | 
+ | 186,174 
+ | 
+ | 270,721 
+ |",China Mobility key metrics table
+China Mobility,2022,gtv,186174,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 186,174 
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ |",China Mobility key metrics table
+China Mobility,2023,gtv,270721,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 186,174 
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ |",China Mobility key metrics table
+China Mobility,2024,gtv,301436,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 186,174 
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ |",China Mobility key metrics table
+China Mobility,2023,gtv,270721,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ | 
+ | 333,759 
+ |",China Mobility key metrics table
+China Mobility,2024,gtv,301436,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ | 
+ | 333,759 
+ |",China Mobility key metrics table
+China Mobility,2025,gtv,333759,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 270,721 
+ | 
+ | 301,436 
+ | 
+ | 333,759 
+ |",China Mobility key metrics table
+China Mobility,2018,revenue,133207,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 133,207 
+ 147,940 
+ 133,645",China Mobility key metrics table; RMB millions
+China Mobility,2019,revenue,147940,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 133,207 
+ 147,940 
+ 133,645",China Mobility key metrics table; RMB millions
+China Mobility,2020,revenue,133645,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 133,207 
+ 147,940 
+ 133,645",China Mobility key metrics table; RMB millions
+China Mobility,2019,revenue,147940,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 147,940 
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ |",China Mobility key metrics table
+China Mobility,2020,revenue,133645,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 147,940 
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ |",China Mobility key metrics table
+China Mobility,2021,revenue,160521,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 147,940 
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ |",China Mobility key metrics table
+China Mobility,2020,revenue,133645,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ | 
+ | 125,931 
+ |",China Mobility key metrics table
+China Mobility,2021,revenue,160521,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ | 
+ | 125,931 
+ |",China Mobility key metrics table
+China Mobility,2022,revenue,125931,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 133,645 
+ | 
+ | 160,521 
+ | 
+ | 125,931 
+ |",China Mobility key metrics table
+China Mobility,2022,revenue,125931,RMB_m,DIDI_20-F_2024-04-15.txt,"Revenues (in RMB millions)
+ | 
+ | 125,931 
+ | 
+ | 175,034 
+ |",China Mobility key metrics table
+China Mobility,2023,revenue,175034,RMB_m,DIDI_20-F_2024-04-15.txt,"Revenues (in RMB millions)
+ | 
+ | 125,931 
+ | 
+ | 175,034 
+ |",China Mobility key metrics table
+China Mobility,2022,revenue,125931,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 125,931 
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ |",China Mobility key metrics table
+China Mobility,2023,revenue,175034,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 125,931 
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ |",China Mobility key metrics table
+China Mobility,2024,revenue,185741,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 125,931 
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ |",China Mobility key metrics table
+China Mobility,2023,revenue,175034,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ | 
+ | 201,915 
+ |",China Mobility key metrics table
+China Mobility,2024,revenue,185741,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ | 
+ | 201,915 
+ |",China Mobility key metrics table
+China Mobility,2025,revenue,201915,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 175,034 
+ | 
+ | 185,741 
+ | 
+ | 201,915 
+ |",China Mobility key metrics table
+International,2018,gtv,7917,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 7,917 
+ 22,956 
+ 25,584",International key metrics table; RMB millions
+International,2019,gtv,22956,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 7,917 
+ 22,956 
+ 25,584",International key metrics table; RMB millions
+International,2020,gtv,25584,RMB_m,DIDI_F-1A_2021-06-28.txt,"GTV 
+ 7,917 
+ 22,956 
+ 25,584",International key metrics table; RMB millions
+International,2019,gtv,22956,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 22,956 
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ |",International key metrics table
+International,2020,gtv,25584,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 22,956 
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ |",International key metrics table
+International,2021,gtv,37700,RMB_m,DIDI_20-F_2022-05-02.txt,"GTV (in RMB millions)
+ | 
+ | 22,956 
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ |",International key metrics table
+International,2020,gtv,25584,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ | 
+ | 49,821 
+ |",International key metrics table
+International,2021,gtv,37700,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ | 
+ | 49,821 
+ |",International key metrics table
+International,2022,gtv,49821,RMB_m,DIDI_20-F_2023-05-01.txt,"GTV (in RMB millions)
+ | 
+ | 25,584 
+ | 
+ | 37,700 
+ | 
+ | 49,821 
+ |",International key metrics table
+International,2022,gtv,49821,RMB_m,DIDI_20-F_2024-04-15.txt,"49,821 
+ | 
+ | 70,629 
+ |",International key metrics table; GTV in RMB millions
+International,2023,gtv,70629,RMB_m,DIDI_20-F_2024-04-15.txt,"49,821 
+ | 
+ | 70,629 
+ |",International key metrics table; GTV in RMB millions
+International,2022,gtv,49821,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 49,821 
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ |",International key metrics table
+International,2023,gtv,70629,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 49,821 
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ |",International key metrics table
+International,2024,gtv,91258,RMB_m,DIDI_20-F_2025-04-18.txt,"GTV (in RMB millions)
+ | 
+ | 49,821 
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ |",International key metrics table
+International,2023,gtv,70629,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ | 
+ | 116,997 
+ |",International key metrics table
+International,2024,gtv,91258,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ | 
+ | 116,997 
+ |",International key metrics table
+International,2025,gtv,116997,RMB_m,DIDI_20-F_2026-04-13.txt,"GTV (in RMB millions)
+ | 
+ | 70,629 
+ | 
+ | 91,258 
+ | 
+ | 116,997 
+ |",International key metrics table
+International,2018,revenue,411,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 411 
+ 1,975 
+ 2,333",International key metrics table; RMB millions
+International,2019,revenue,1975,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 411 
+ 1,975 
+ 2,333",International key metrics table; RMB millions
+International,2020,revenue,2333,RMB_m,DIDI_F-1A_2021-06-28.txt,"Revenues 
+ 411 
+ 1,975 
+ 2,333",International key metrics table; RMB millions
+International,2019,revenue,1975,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 1,975 
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ |",International key metrics table
+International,2020,revenue,2333,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 1,975 
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ |",International key metrics table
+International,2021,revenue,3622,RMB_m,DIDI_20-F_2022-05-02.txt,"Revenues (in RMB millions)
+ | 
+ | 1,975 
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ |",International key metrics table
+International,2020,revenue,2333,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ | 
+ | 5,863 
+ |",International key metrics table
+International,2021,revenue,3622,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ | 
+ | 5,863 
+ |",International key metrics table
+International,2022,revenue,5863,RMB_m,DIDI_20-F_2023-05-01.txt,"Revenues (in RMB millions)
+ | 
+ | 2,333 
+ | 
+ | 3,622 
+ | 
+ | 5,863 
+ |",International key metrics table
+International,2022,revenue,5863,RMB_m,DIDI_20-F_2024-04-15.txt,"5,863 
+ | 
+ | 7,842 
+ |",International key metrics table; revenues in RMB millions
+International,2023,revenue,7842,RMB_m,DIDI_20-F_2024-04-15.txt,"5,863 
+ | 
+ | 7,842 
+ |",International key metrics table; revenues in RMB millions
+International,2022,revenue,5863,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 5,863 
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ |",International key metrics table
+International,2023,revenue,7842,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 5,863 
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ |",International key metrics table
+International,2024,revenue,11043,RMB_m,DIDI_20-F_2025-04-18.txt,"Revenues (in RMB millions)
+ | 
+ | 5,863 
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ |",International key metrics table
+International,2023,revenue,7842,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ | 
+ | 14,947 
+ |",International key metrics table
+International,2024,revenue,11043,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ | 
+ | 14,947 
+ |",International key metrics table
+International,2025,revenue,14947,RMB_m,DIDI_20-F_2026-04-13.txt,"Revenues (in RMB millions)
+ | 
+ | 7,842 
+ | 
+ | 11,043 
+ | 
+ | 14,947 
+ |",International key metrics table
+Core Platform,2018,gtv,212.4,RMB_bn,DIDI_F-1A_2021-06-28.txt,"was RMB212.4 billion, RMB225.3 billion and RMB214.6 billion (US$32.8 billion) in 2018, 2019 and 2020",Core Platform GTV defined as China Mobility plus International
+Core Platform,2019,gtv,225.3,RMB_bn,DIDI_F-1A_2021-06-28.txt,"was RMB212.4 billion, RMB225.3 billion and RMB214.6 billion (US$32.8 billion) in 2018, 2019 and 2020",Core Platform GTV defined as China Mobility plus International
+Core Platform,2020,gtv,214.6,RMB_bn,DIDI_F-1A_2021-06-28.txt,"was RMB212.4 billion, RMB225.3 billion and RMB214.6 billion (US$32.8 billion) in 2018, 2019 and 2020",Core Platform GTV defined as China Mobility plus International
+Core Platform,2020,gtv,32.8,USD_bn,DIDI_F-1A_2021-06-28.txt,"was RMB212.4 billion, RMB225.3 billion and RMB214.6 billion (US$32.8 billion) in 2018, 2019 and 2020",Convenience translation printed next to 2020 Core Platform GTV
+Core Platform,2019,gtv,225.3,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our Core Platform GTV was RMB225.3 billion, RMB214.6 billion and RMB271.5 billion (US$42.6 billion) in 2019, 2020 and 2021, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2020,gtv,214.6,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our Core Platform GTV was RMB225.3 billion, RMB214.6 billion and RMB271.5 billion (US$42.6 billion) in 2019, 2020 and 2021, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2021,gtv,271.5,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our Core Platform GTV was RMB225.3 billion, RMB214.6 billion and RMB271.5 billion (US$42.6 billion) in 2019, 2020 and 2021, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2021,gtv,42.6,USD_bn,DIDI_20-F_2022-05-02.txt,"Our Core Platform GTV was RMB225.3 billion, RMB214.6 billion and RMB271.5 billion (US$42.6 billion) in 2019, 2020 and 2021, respectively.",Convenience translation printed next to 2021 Core Platform GTV
+Core Platform,2020,gtv,214.6,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our Core Platform GTV was RMB214.6 billion, RMB271.5 billion and RMB236.0 billion (US$34.2 billion) in 2020, 2021 and 2022, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2021,gtv,271.5,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our Core Platform GTV was RMB214.6 billion, RMB271.5 billion and RMB236.0 billion (US$34.2 billion) in 2020, 2021 and 2022, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2022,gtv,236.0,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our Core Platform GTV was RMB214.6 billion, RMB271.5 billion and RMB236.0 billion (US$34.2 billion) in 2020, 2021 and 2022, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2022,gtv,34.2,USD_bn,DIDI_20-F_2023-05-01.txt,"Our Core Platform GTV was RMB214.6 billion, RMB271.5 billion and RMB236.0 billion (US$34.2 billion) in 2020, 2021 and 2022, respectively.",Convenience translation printed next to 2022 Core Platform GTV
+Core Platform,2022,gtv,236.0,RMB_bn,DIDI_20-F_2024-04-15.txt,"Our Core Platform GTV was RMB236.0 billion and RMB341.4 billion (US$48.1 billion) in 2022 and 2023, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2023,gtv,341.4,RMB_bn,DIDI_20-F_2024-04-15.txt,"Our Core Platform GTV was RMB236.0 billion and RMB341.4 billion (US$48.1 billion) in 2022 and 2023, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2023,gtv,48.1,USD_bn,DIDI_20-F_2024-04-15.txt,"Our Core Platform GTV was RMB236.0 billion and RMB341.4 billion (US$48.1 billion) in 2022 and 2023, respectively.",Convenience translation printed next to 2023 Core Platform GTV
+Core Platform,2022,gtv,236.0,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our Core Platform GTV was RMB236.0 billion, RMB341.4 billion and RMB392.7 billion (US$53.8 billion) in 2022, 2023 and 2024, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2023,gtv,341.4,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our Core Platform GTV was RMB236.0 billion, RMB341.4 billion and RMB392.7 billion (US$53.8 billion) in 2022, 2023 and 2024, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2024,gtv,392.7,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our Core Platform GTV was RMB236.0 billion, RMB341.4 billion and RMB392.7 billion (US$53.8 billion) in 2022, 2023 and 2024, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2024,gtv,53.8,USD_bn,DIDI_20-F_2025-04-18.txt,"Our Core Platform GTV was RMB236.0 billion, RMB341.4 billion and RMB392.7 billion (US$53.8 billion) in 2022, 2023 and 2024, respectively.",Convenience translation printed next to 2024 Core Platform GTV
+Core Platform,2023,gtv,341.4,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our Core Platform GTV was RMB341.4 billion, RMB392.7 billion and RMB450.8 billion (US$64.5 billion) in 2023, 2024 and 2025, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2024,gtv,392.7,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our Core Platform GTV was RMB341.4 billion, RMB392.7 billion and RMB450.8 billion (US$64.5 billion) in 2023, 2024 and 2025, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2025,gtv,450.8,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our Core Platform GTV was RMB341.4 billion, RMB392.7 billion and RMB450.8 billion (US$64.5 billion) in 2023, 2024 and 2025, respectively.",Core Platform GTV = China Mobility + International
+Core Platform,2025,gtv,64.5,USD_bn,DIDI_20-F_2026-04-13.txt,"Our Core Platform GTV was RMB341.4 billion, RMB392.7 billion and RMB450.8 billion (US$64.5 billion) in 2023, 2024 and 2025, respectively.",Convenience translation printed next to 2025 Core Platform GTV
+Group,2018,revenue,135288,RMB_m,DIDI_F-1A_2021-06-28.txt,"Total revenues 
+ 135,288 
+ 100.0 
+ 154,786 
+ 100.0 
+ 141,736",Consolidated total revenues table; RMB millions
+Group,2019,revenue,154786,RMB_m,DIDI_F-1A_2021-06-28.txt,"Total revenues 
+ 135,288 
+ 100.0 
+ 154,786 
+ 100.0 
+ 141,736",Consolidated total revenues table; RMB millions
+Group,2020,revenue,141736,RMB_m,DIDI_F-1A_2021-06-28.txt,"Total revenues 
+ 135,288 
+ 100.0 
+ 154,786 
+ 100.0 
+ 141,736",Consolidated total revenues table; RMB millions
+Group,2019,revenue,154.8,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our revenues were RMB154.8 billion, RMB141.7 billion and RMB173.8 billion (US$27.3 billion) in 2019, 2020 and 2021, respectively.",Consolidated revenues as printed in MD&A
+Group,2020,revenue,141.7,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our revenues were RMB154.8 billion, RMB141.7 billion and RMB173.8 billion (US$27.3 billion) in 2019, 2020 and 2021, respectively.",Consolidated revenues as printed in MD&A
+Group,2021,revenue,173.8,RMB_bn,DIDI_20-F_2022-05-02.txt,"Our revenues were RMB154.8 billion, RMB141.7 billion and RMB173.8 billion (US$27.3 billion) in 2019, 2020 and 2021, respectively.",Consolidated revenues as printed in MD&A
+Group,2020,revenue,141.7,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our revenues were RMB141.7 billion, RMB173.8 billion and RMB140.8 billion (US$20.4 billion) in 2020, 2021 and 2022, respectively.",Consolidated revenues as printed in MD&A
+Group,2021,revenue,173.8,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our revenues were RMB141.7 billion, RMB173.8 billion and RMB140.8 billion (US$20.4 billion) in 2020, 2021 and 2022, respectively.",Consolidated revenues as printed in MD&A
+Group,2022,revenue,140.8,RMB_bn,DIDI_20-F_2023-05-01.txt,"Our revenues were RMB141.7 billion, RMB173.8 billion and RMB140.8 billion (US$20.4 billion) in 2020, 2021 and 2022, respectively.",Consolidated revenues as printed in MD&A
+Group,2021,revenue,173.8,RMB_bn,DIDI_20-F_2024-04-15.txt,"Our revenues were RMB173.8 billion, RMB140.8 billion and RMB192.4 billion (US$27.1 billion) in 2021, 2022 and 2023, respectively.",Consolidated revenues as printed in Item 4 overview
+Group,2022,revenue,140.8,RMB_bn,DIDI_20-F_2024-04-15.txt,"Our revenues were RMB173.8 billion, RMB140.8 billion and RMB192.4 billion (US$27.1 billion) in 2021, 2022 and 2023, respectively.",Consolidated revenues as printed in Item 4 overview
+Group,2023,revenue,192.4,RMB_bn,DIDI_20-F_2024-04-15.txt,"Our revenues were RMB173.8 billion, RMB140.8 billion and RMB192.4 billion (US$27.1 billion) in 2021, 2022 and 2023, respectively.",Consolidated revenues as printed in Item 4 overview
+Group,2022,revenue,140.8,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our revenues were RMB140.8 billion, RMB192.4 billion and RMB206.8 billion (US$28.3 billion) in 2022, 2023 and 2024, respectively.",Consolidated revenues as printed in MD&A
+Group,2023,revenue,192.4,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our revenues were RMB140.8 billion, RMB192.4 billion and RMB206.8 billion (US$28.3 billion) in 2022, 2023 and 2024, respectively.",Consolidated revenues as printed in MD&A
+Group,2024,revenue,206.8,RMB_bn,DIDI_20-F_2025-04-18.txt,"Our revenues were RMB140.8 billion, RMB192.4 billion and RMB206.8 billion (US$28.3 billion) in 2022, 2023 and 2024, respectively.",Consolidated revenues as printed in MD&A
+Group,2023,revenue,192.4,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our revenues were RMB192.4 billion, RMB206.8 billion and RMB226.7 billion (US$32.4 billion) in 2023, 2024 and 2025, respectively.",Consolidated revenues as printed in MD&A
+Group,2024,revenue,206.8,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our revenues were RMB192.4 billion, RMB206.8 billion and RMB226.7 billion (US$32.4 billion) in 2023, 2024 and 2025, respectively.",Consolidated revenues as printed in MD&A
+Group,2025,revenue,226.7,RMB_bn,DIDI_20-F_2026-04-13.txt,"Our revenues were RMB192.4 billion, RMB206.8 billion and RMB226.7 billion (US$32.4 billion) in 2023, 2024 and 2025, respectively.",Consolidated revenues as printed in MD&A
+Group,2018,incentives_consumer,1457544,RMB_thousand,DIDI_F-1A_2021-06-28.txt,"Incentives provided to consumers amounted to RMB1,457,544, RMB1,083,868, and RMB2,100,671 for the years ended",Notes in thousands; S&M incentives to consumers not considered customers; ride-hailing consumer incentives that reduce revenue are not in this line
+Group,2019,incentives_consumer,1083868,RMB_thousand,DIDI_F-1A_2021-06-28.txt,"Incentives provided to consumers amounted to RMB1,457,544, RMB1,083,868, and RMB2,100,671 for the years ended",Notes in thousands; S&M incentives to consumers not considered customers; ride-hailing consumer incentives that reduce revenue are not in this line
+Group,2020,incentives_consumer,2100671,RMB_thousand,DIDI_F-1A_2021-06-28.txt,"Incentives provided to consumers amounted to RMB1,457,544, RMB1,083,868, and RMB2,100,671 for the years ended",Notes in thousands; S&M incentives to consumers not considered customers; ride-hailing consumer incentives that reduce revenue are not in this line
+Group,2019,incentives_consumer,1083868,RMB_thousand,DIDI_20-F_2022-05-02.txt,"Incentives provided to consumers amounted to RMB 1,083,868 , RMB 2,100,671 and RMB 7,465,226 for the years ended December 31, 2019, 2020 and 2021, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2020,incentives_consumer,2100671,RMB_thousand,DIDI_20-F_2022-05-02.txt,"Incentives provided to consumers amounted to RMB 1,083,868 , RMB 2,100,671 and RMB 7,465,226 for the years ended December 31, 2019, 2020 and 2021, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2021,incentives_consumer,7465226,RMB_thousand,DIDI_20-F_2022-05-02.txt,"Incentives provided to consumers amounted to RMB 1,083,868 , RMB 2,100,671 and RMB 7,465,226 for the years ended December 31, 2019, 2020 and 2021, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2020,incentives_consumer,2100671,RMB_thousand,DIDI_20-F_2023-05-01.txt,"Incentives provided to consumers amounted to RMB 2,100,671 , RMB 7,465,226 and RMB 2,778,465 for the years ended December 31, 2020, 2021 and 2022, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2021,incentives_consumer,7465226,RMB_thousand,DIDI_20-F_2023-05-01.txt,"Incentives provided to consumers amounted to RMB 2,100,671 , RMB 7,465,226 and RMB 2,778,465 for the years ended December 31, 2020, 2021 and 2022, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2022,incentives_consumer,2778465,RMB_thousand,DIDI_20-F_2023-05-01.txt,"Incentives provided to consumers amounted to RMB 2,100,671 , RMB 7,465,226 and RMB 2,778,465 for the years ended December 31, 2020, 2021 and 2022, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2021,incentives_consumer,7465226,RMB_thousand,DIDI_20-F_2024-04-15.txt,"Incentives provided to consumers amounted to RMB 7,465,226 , RMB 2,778,465 and RMB 3,403,793 for the years ended December 31, 2021, 2022 and 2023, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2022,incentives_consumer,2778465,RMB_thousand,DIDI_20-F_2024-04-15.txt,"Incentives provided to consumers amounted to RMB 7,465,226 , RMB 2,778,465 and RMB 3,403,793 for the years ended December 31, 2021, 2022 and 2023, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2023,incentives_consumer,3403793,RMB_thousand,DIDI_20-F_2024-04-15.txt,"Incentives provided to consumers amounted to RMB 7,465,226 , RMB 2,778,465 and RMB 3,403,793 for the years ended December 31, 2021, 2022 and 2023, respectively.",Notes in thousands; S&M incentives to consumers not considered customers
+Group,2024,incentives_consumer,,,DIDI_20-F_2025-04-18.txt,,"Not stated as a standalone amount; 2025 20-F expense-by-nature line is combined Promotion, advertising and consumer incentives"
+Group,2025,incentives_consumer,,,DIDI_20-F_2026-04-13.txt,,"Not stated as a standalone amount; 2026 20-F expense-by-nature line is combined Promotion, advertising and incentives"
+China Mobility,2018,incentives_driver,,,DIDI_F-1A_2021-06-28.txt,,CoR consists primarily of combined driver earnings and driver incentives (RMB127.8/139.7/125.8 billion totals); 2019 YoY cites driver earnings only.
+China Mobility,2019,incentives_driver,,,DIDI_F-1A_2021-06-28.txt,,Filing does not isolate driver incentives from driver earnings.
+China Mobility,2020,incentives_driver,,,DIDI_F-1A_2021-06-28.txt,,2020 CoR decrease attributed to RMB16.9 billion drop in combined driver earnings and driver incentives.
+China Mobility,2021,incentives_driver,,,DIDI_20-F_2022-05-02.txt,,CoR increase attributed to RMB24.2 billion in combined driver earnings and driver incentives; not isolated.
+China Mobility,2022,incentives_driver,,,DIDI_20-F_2023-05-01.txt,,CoR decrease attributed to RMB34.8 billion drop in combined driver earnings and driver incentives; not isolated.
+China Mobility,2023,incentives_driver,,,DIDI_20-F_2024-04-15.txt,,CoR increase attributed to RMB45.5 billion in combined driver earnings and driver incentives; not isolated.
+China Mobility,2024,incentives_driver,,,DIDI_20-F_2025-04-18.txt,,Filing states driver earnings and incentives are charged to cost of revenues but does not print a driver-incentives amount.
+China Mobility,2025,incentives_driver,,,DIDI_20-F_2026-04-13.txt,,Filing states driver earnings and incentives are charged to cost of revenues but does not print a driver-incentives amount.
+China Mobility,2020,incentives_total,,,DIDI_F-1A_2021-06-28.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2020,take_rate_stated,,,DIDI_F-1A_2021-06-28.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2021,incentives_total,,,DIDI_20-F_2022-05-02.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2021,take_rate_stated,,,DIDI_20-F_2022-05-02.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2022,incentives_total,,,DIDI_20-F_2023-05-01.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2022,take_rate_stated,,,DIDI_20-F_2023-05-01.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2023,incentives_total,,,DIDI_20-F_2024-04-15.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2023,take_rate_stated,,,DIDI_20-F_2024-04-15.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2024,incentives_total,,,DIDI_20-F_2025-04-18.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2024,take_rate_stated,,,DIDI_20-F_2025-04-18.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2025,incentives_total,,,DIDI_20-F_2026-04-13.txt,,Filing does not print a total of driver plus consumer incentives.
+China Mobility,2025,take_rate_stated,,,DIDI_20-F_2026-04-13.txt,,"Filing does not print a revenue/GTV or take-rate percentage. F-1 3.1% is adjusted EBITA/GTV for China ride hailing, not take rate."
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Our revenues are equal to GTV less (i) tolls, fees and taxes and (ii) consumer incentives. Our revenues from ride hailing presented on a gross basis",Ride hailing principal/gross; consumer incentives reduce revenue
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Driver
+earnings and incentives are charged to cost of revenues.",Driver incentives in cost of revenues for China ride hailing
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Our revenues are equal to GTV less
+(i) tolls, fees and taxes and (ii) driver or partner earnings and incentives. Consumer incentives are charged to sales and marketing expenses.",Taxi/chauffeur/hitch agent/net; consumer incentives in S&M
+International,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Our revenues for our International business are equal to GTV less (i) tolls,
+fees and taxes and (ii) driver and partner earnings and incentives. Consumer incentives are generally charged to sales and marketing expenses.",International agent/net
+Group,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Incentives
+provided to customers are recorded as a reduction of revenue if we do not receive a distinct service or cannot reasonably estimate the fair value of the service received.",Critical accounting: customer incentives as contra-revenue
+Group,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"The Group records the cost of these discounts and promotions to such consumers as
+sales and marketing expenses at the time they are redeemed by the consumers.",Non-customer consumer discounts recorded in S&M
+Group,2018,note_text,,,DIDI_F-1A_2021-06-28.txt,"""GTV,"" which stands for gross transaction value, refers to the total dollar value, including any applicable taxes, tolls and fees, of completed
+Transactions on our platform without any adjustment for consumer incentives or for earnings and incentives paid to drivers for mobility services, merchant or delivery partners for food delivery",GTV definition; no deduction for incentives
+China Mobility,2019,note_text,,,DIDI_F-1A_2021-06-28.txt,"Our sales and marketing expenses decreased by 1.4% from RMB7.6 billion in 2018 to RMB7.5 billion in 2019. This decrease was
+primarily due to a decrease in incentives for consumers.",Consumer incentives reduced in 2019 vs 2018; incentive amount not stated
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"This
+decrease was primarily due to a decrease of RMB16.9 billion in driver earnings and driver incentives for our ride hailing business in China, driven primarily by the impact of the COVID-19",Combined earnings and incentives fell in 2020 due to COVID-19
+China Mobility,2019,note_text,,,DIDI_F-1A_2021-06-28.txt,"loss from operations increased significantly in the fourth quarters of 2019 and 2020, primarily due to our increased cost of revenue driven by increased driver incentives for ride",Q4 2019 and 2020: driver incentives increased
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"Specifically, we recognize revenues for our ride hailing service in China on a gross basis as we consider ourselves as
+the ride service provider in accordance with the service agreements and the regulations in China.",Principal vs agent: China ride hailing gross
+China Mobility,2020,note_text,,,DIDI_F-1A_2021-06-28.txt,"We consider ourselves as the agent for taxi hailing,
+chauffeur and hitch services, and recognize agency revenues earned from the service providers, such as the taxi drivers, the chauffeur service providers and the car owners from our hitch service.",Agent presentation for taxi/chauffeur/hitch
+China Mobility,2021,note_text,,,DIDI_20-F_2022-05-02.txt,Driver earnings and incentives are charged to cost of revenues.,China ride hailing driver incentives in CoR
+China Mobility,2021,note_text,,,DIDI_20-F_2022-05-02.txt,"Our revenues are equal to GTV less (i) tolls, fees and taxes and (ii) driver or partner earnings and incentives. Consumer incentives are charged to sales and marketing expenses.",Taxi/chauffeur/hitch net; consumer incentives in S&M
+International,2021,note_text,,,DIDI_20-F_2022-05-02.txt,"Our revenues for our International business are equal to GTV less (i) tolls, fees and taxes and (ii) driver and partner earnings and incentives. Consumer incentives are generally charged to sales and marketing expenses.",International net; consumer incentives generally S&M
+China Mobility,2021,note_text,,,DIDI_20-F_2022-05-02.txt,"This increase was primarily due to an increase of RMB24.2 billion in driver earnings and driver incentives for our ride hailing business in China, driven primarily by the resumption of normal operations",Combined earnings and incentives increased in 2021 as operations resumed
+Group,2021,note_text,,,DIDI_20-F_2022-05-02.txt,"The increase was due primarily to a RMB5.4 billion increase in incentives provided to consumers which were mainly related to new initiatives we launched in 2020, our charging and refueling business, and our international business.",Consumer incentives increased in 2021; mainly Other Initiatives and International
+Group,2021,note_text,,,DIDI_20-F_2022-05-02.txt,certain incentives paid to consumers not considered as customers from an accounting perspective,S&M includes non-customer consumer incentives
+Group,2022,note_text,,,DIDI_20-F_2023-05-01.txt,The decrease was due primarily to a RMB4.7 billion decrease in incentives provided to consumers which were mainly related to the Other Initiatives and International segments.,Consumer incentives reduced in 2022 vs 2021
+China Mobility,2022,note_text,,,DIDI_20-F_2023-05-01.txt,"This decrease was primarily due to a decrease of RMB34.8 billion in driver earnings and driver incentives for our ride hailing business in China, driven primarily by the decline in volume of China ride hailing transactions",Combined earnings and incentives fell in 2022 with lower China ride-hailing volume
+International,2022,note_text,,,DIDI_20-F_2023-05-01.txt,The increase in International segment revenue was primarily due to the growth of GTV and improved incentives efficiencies with our customers.,International 2022: improved incentive efficiency cited as revenue driver
+China Mobility,2021,note_text,,,DIDI_20-F_2022-05-02.txt,"Our China Mobility segment mainly comprises our ride hailing, taxi hailing, chauffeur and hitch services.","China Mobility includes taxi hailing, chauffeur and hitch"
+China Mobility,2022,note_text,,,DIDI_20-F_2023-05-01.txt,"Our China Mobility segment mainly comprises our ride hailing, taxi hailing and chauffeur services.",Hitch dropped from the China Mobility composition sentence vs 2022 20-F
+China Mobility,2023,note_text,,,DIDI_20-F_2024-04-15.txt,"Our China Mobility segment mainly comprises our ride hailing, online taxi and chauffeur services.",Wording change: taxi hailing renamed online taxi; hitch omitted from this sentence
+China Mobility,2023,note_text,,,DIDI_20-F_2024-04-15.txt,"For online taxi and chauffeur, we act as an agent by facilitating drivers or partners who provide online taxi and chauffeur services to consumers who need such services.",Agent services described as online taxi and chauffeur
+China Mobility,2023,note_text,,,DIDI_20-F_2024-04-15.txt,"This increase was primarily due to an increase of RMB45.5 billion in driver earnings and driver incentives for our ride hailing business in China, which in turn was driven primarily by the increase in the number of ride hailing transactions in China.",Combined earnings and incentives increased in 2023 with transaction growth
+China Mobility,2023,note_text,,,DIDI_20-F_2024-04-15.txt,The increase was also attributable to a RMB0.6 billion increase in incentives provided to consumers which were mainly related to the China Mobility segments,"Consumer incentives increased in 2023, mainly China Mobility"
+China Mobility,2023,note_text,,,DIDI_20-F_2024-04-15.txt,Driver earnings and incentives are charged to cost of revenues.,Driver incentives in CoR
+International,2023,note_text,,,DIDI_20-F_2024-04-15.txt,"Our revenues for our International ride hailing and food delivery business are equal to GTV less (i) tolls, fees and taxes and (ii) driver and partner earnings and incentives. Consumer incentives are generally charged to sales and marketing expenses.",International still generally books consumer incentives in S&M
+International,2024,note_text,,,DIDI_20-F_2025-04-18.txt,"Our revenues for our International ride hailing and food delivery business are generally equal to GTV less (i) tolls, fees and taxes, and (ii) driver and partner earnings and incentives and (iii) certain consumer incentives. Consumer incentives are recorded as a reduction of revenue if (i) they are payments to customers from an accounting perspective and there is no exchange of a distinct good or",International revenue formula now subtracts certain consumer incentives
+China Mobility,2024,note_text,,,DIDI_20-F_2025-04-18.txt,"For chauffeur, hitch and online taxi, we act as an agent by facilitating drivers or partners who provide online taxi and chauffeur services to consumers who need such services.",Hitch restored in agent list with online taxi
+China Mobility,2024,note_text,,,DIDI_20-F_2025-04-18.txt,The increase was also attributable to a RMB0.8 billion increase in incentives provided to consumers which were mainly related to the International segment and the China Mobility segment,"Consumer incentives increased in 2024, International and China Mobility"
+China Mobility,2024,note_text,,,DIDI_20-F_2025-04-18.txt,The increase in Adjusted EBITA for our China Mobility segment in 2024 as compared to 2023 was primarily driven by the increase of Platform Sales and partially offset by the increase of consumer incentives attributable to the growth of business for the China Mobility segment.,China Mobility consumer incentives increased with business growth in 2024
+Group,2024,note_text,,,DIDI_20-F_2025-04-18.txt,"When incentives provided to consumers that are considered as customers from an accounting perspective, the incentives are recorded as a reduction of revenue if there is no exchange of a distinct good or service to the Group or the fair value of the good or service received cannot be reasonably estimated. Incentives provided to consumers that are not considered as customers from an accounting persp",IFRS notes: customer consumer incentives as reduction of revenue
+China Mobility,2023,note_text,,,DIDI_20-F_2025-04-18.txt,a RMB0.6 billion increase in incentives provided to consumers which were mainly related to the China Mobility segment,"2023 vs 2022 consumer incentives increase, mainly China Mobility"
+China Mobility,2025,note_text,,,DIDI_20-F_2026-04-13.txt,"Our revenues are equal to GTV less (i) tolls, fees and taxes, (ii) driver or partner earnings and incentives and (iii) certain consumer incentives. Consumer incentives are recorded as a reduction of revenue if (i) they are payments to customers from an accounting perspective and there is no exchange of a distinct good or service to us or the fair value of the good or service received cannot be rea",China Mobility agent services: certain consumer incentives now reduce revenue
+China Mobility,2025,note_text,,,DIDI_20-F_2026-04-13.txt,Driver earnings and incentives are charged to cost of revenues.,Ride hailing driver incentives still in CoR
+International,2025,note_text,,,DIDI_20-F_2026-04-13.txt,primarily due to an increase of RMB2.8 billion in incentives provided to consumers and other partners which were mainly related to the International segment.,"Consumer/partner incentives increased in 2025, mainly International"
+China Mobility,2025,note_text,,,DIDI_20-F_2026-04-13.txt,partially offset by the increase of consumer incentives and higher costs and expenses attributable to the growth of business for the China Mobility segment.,China Mobility 2025: consumer incentives increased with growth
+Core Platform,2025,note_text,,,DIDI_20-F_2026-04-13.txt,"We define Platform Sales as GTV less all of the earnings and incentives paid to drivers and partners, tolls, fees, taxes and others, calculated separately for each business in each country (subject to a floor of zero for each separate result) and then aggregated. Platform Sales enables us to compare the performance of our China Mobility and International segments on a like-for-like basis. | 
+ ● |",Platform Sales definition tightened with per-business floor of zero; GTV still unadjusted for incentives
+Group,2025,note_text,,,DIDI_20-F_2026-04-13.txt,"“Driver incentives” refers to payments that we make to drivers, which are separate from and in addition to the driver earnings.",Defined separately from driver earnings; no isolated annual amount printed
