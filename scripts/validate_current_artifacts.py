@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check that the active proposal (27 Sep 2026 PDF) and the preview deck have their declared companions."""
+"""Check that the active proposal (27 Sep 2026 PDF) and the presented oral deck (v4.10) have their declared companions."""
 
 from __future__ import annotations
 
@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CURRENT = ROOT / "papers/current"
 PDF = CURRENT / "Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf"
 MIRROR = CURRENT / "Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md"
-DECK = CURRENT / "IL_Oral_Deck_v1.pptx"
-DECK_PDF = CURRENT / "IL_Oral_Deck_v1_preview.pdf"
+DECK = CURRENT / "IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx"
+DECK_PDF = CURRENT / "IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko_preview.pdf"
 
 
 def pages(path: Path) -> int:
@@ -52,6 +52,10 @@ def main() -> None:
     for rel in ("AGENTS.md", "CANONICAL_ARTIFACTS.md", "README.md", "docs/CURRENT_STATUS.md"):
         text = (ROOT / rel).read_text(encoding="utf-8")
         assert PDF.name in text, f"{rel} does not name the active proposal {PDF.name}"
+        assert "v4.10" in text, f"{rel} does not name the presented deck v4.10"
+        for line in text.splitlines():
+            if "IL_Oral_Deck_v1" in line:
+                assert any(w in line.lower() for w in ("not", "archive", "superseded")), f"{rel} names the old v1 deck without saying it is not the presented deck: {line[:90]}"
         for line in text.splitlines():
             if "KONG_MASTER_FINAL_2026-09-24" in line:
                 assert any(w in line.lower() for w in ("superseded", "archive")), f"{rel} names the 24 September file without saying it is superseded: {line[:90]}"
@@ -61,7 +65,7 @@ def main() -> None:
     assert proposals == [PDF.name], f"unexpected proposal files in papers/current: {proposals}"
 
     print(f"Active proposal: {PDF.name}, SHA-256 {source_hash}, {pages(PDF)} PDF pages")
-    print(f"Active deck: {slide_count} slides, {pages(DECK_PDF)} preview pages")
+    print(f"Presented deck: {DECK.name}, {slide_count} slides, {pages(DECK_PDF)} preview pages")
 
 
 if __name__ == "__main__":

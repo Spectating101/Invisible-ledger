@@ -22,7 +22,7 @@ These were seen by the advisor and the committee. The thesis builds on them and 
 
 ## Oral presentation
 
-The presented deck is **not** `papers/current/IL_Oral_Deck_v1.pptx` (a 25 September file with 23 slides). The presented deck is the latest `IL_Proposal_Oral_Deck_v4.x` in the repository root (`v4.10`, 18 slides, as of 1 October 2026; these files are untracked). Confirm with the researcher before relying on it. The deck is a presentation of the proposal, not a source for research data or result values.
+The presented deck (confirmed by the researcher on 1 October 2026) is `papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx`, with its preview PDF alongside (18 slides). The old `IL_Oral_Deck_v1` files (25 September, 23 slides) are not the presented deck and are in `papers/current/archive/`. Earlier v1 to v4.9 decks in the repository root are untracked drafts. The deck is a presentation of the proposal, not a source for research data or result values.
 
 ## Manuscript
 

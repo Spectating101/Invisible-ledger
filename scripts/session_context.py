@@ -33,7 +33,7 @@ def main() -> None:
         "INVISIBLE LEDGER, read first. "
         f"The active thesis proposal is papers/current/{name} (the version examined and passed on 1 October 2026; {status}). "
         "It has NO editable source here. Files named FINAL are not automatically current: the 24 September files are superseded and archived. "
-        "The thesis executes this proposal: same title, research question and two hypotheses (H1 revenue to platform, H2 platform to national growth). "
+        "The presented oral deck is v4.10 (papers/current). The thesis executes this proposal: same title, research question and two hypotheses (H1 revenue to platform, H2 platform to national growth). "
         "Do not pivot the concept. Writing must be plain (see AGENTS.md, 'Thesis story and writing standard'). "
         "If the researcher names a version or file, believe the researcher over this repository and update CANONICAL_ARTIFACTS.md. "
         "Before any diagnosis or rewrite, read AGENTS.md and CANONICAL_ARTIFACTS.md."
