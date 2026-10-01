@@ -1,0 +1,245 @@
+entity,period,field,value,unit,source_file,quote,note
+Jumia,FY2019,gmv,1.1,EUR_bn,JMIA_20F_2020-04-03.txt,"Our GMV was €1.1 billion, up from €828.2 million in 2018.","Headline GMV printed as €1.1 billion; KPI table prints €1,097.6 million."
+Jumia,FY2019,gmv,1097.6,EUR_m,JMIA_20F_2020-04-03.txt,"€ | 1,097.6",KPI table figure for year ended 31 Dec 2019.
+Jumia,FY2019,revenue,160.4,EUR_m,JMIA_20F_2020-04-03.txt,"Our revenue was €160.4 million in 2019, up from €129.1 million in 2018.",Total revenue as printed in Item 4 narrative.
+Jumia,FY2019,Marketplace revenue,78.5,EUR_m,JMIA_20F_2020-04-03.txt,Marketplace revenue increased by 69.9% from €46.2 million in 2018 to €78.5 million in 2019 driven by strong increases in commissions and fulfillment revenue.,Marketplace revenue = commissions + fulfillment + marketing and advertising + value-added services.
+Jumia,FY2019,First-party / product revenue,81.2,EUR_m,JMIA_20F_2020-04-03.txt,"Contributions from sales of goods, i.e., revenue from first-party sales, remained nearly unchanged at €81.2 million in 2019 compared to €81.3 million in 2018.",Label in filing: sales of goods / first-party sales.
+Jumia,FY2019,gross_profit,75.9,EUR_m,JMIA_20F_2020-04-03.txt,"Gross profit increased by 71.7% from €44.2 million in 2018 to €75.9 million in 2019, primarily due to increased platform monetization with respect to marketplace revenue as well as enhanced promotional discipline and reduced emphasis on consumer incentives which supported margins.",Gross profit; filing attributes margin support to reduced consumer incentives but does not print an incentive amount.
+Jumia,FY2019,orders,26.5,million,JMIA_20F_2020-04-03.txt,26.5 | ​ | ​ | n/a,KPI table Orders for year ended 31 Dec 2019 (in millions). Adjacent table cells also contain 14.4; this 26.5 is the 2019 column.
+Jumia,FY2019,customer_incentives,,,JMIA_20F_2020-04-03.txt,,Not stated as a dollar/euro amount. Filing discusses reduced promotional intensity and reclassification of vouchers from sales and advertising to a reduction of revenue.
+Jumia,FY2019,JumiaPay revenue,,,JMIA_20F_2020-04-03.txt,,"Not stated. JumiaPay is reported via TPV and JumiaPay Transactions, not as a separate revenue line."
+Jumia,FY2019,Services revenue,,,JMIA_20F_2020-04-03.txt,,"Not stated under that label. Closest printed splits are commissions, fulfillment, value added services, marketing and advertising."
+Jumia,FY2019,note_text,,,JMIA_20F_2020-04-03.txt,"2017 and 2018 periods have been restated to reflect the impact of the reclassification of certain types of vouchers, consumer and partner incentives from Sales & Advertising expense to Revenue.",Change in how incentives are presented: moved from S&A expense to reduction of revenue (IFRS 15).
+Jumia,FY2019,note_text,,,JMIA_20F_2020-04-03.txt,"The vouchers are consideration payable to a customer in accordance with IFRS 15, and are hence accounted for as a reduction of revenue.",Where incentives/vouchers are recorded.
+Jumia,FY2019,note_text,,,JMIA_20F_2020-04-03.txt,"GMV (Gross Merchandise Value) corresponds to the total value of orders for products and services, including shipping fees, value added tax, and before deductions of any discounts or vouchers, irrespective of cancellations or returns for the relevant period.",GMV definition.
+Jumia,FY2019,note_text,,,JMIA_20F_2020-04-03.txt,"Shifts in the relative proportion of third-party and first-party sales do not have an impact on GMV, orders or Annual Active Consumers.",First-party vs marketplace presentation: mix does not affect GMV.
+Jumia,FY2019,note_text,,,JMIA_20F_2020-04-03.txt,"However, these shifts trigger substantial variations in our revenue, as we record the full sales price net of returns and VAT as revenue for first-party sales and only a percentage of the sales price (commission) net of returns and VAT as revenue for third-party sales.",Why revenue can move independently of GMV.
+Jumia,2019Q1,gmv,240.2,EUR_m,JMIA_20F_2020-04-03.txt,GMV | | 240.2 | | 280.9 | | 275.3 | | 301.2 |,"Quarterly GMV table, First Quarter 2019, unaudited, in EUR millions."
+Jumia,2019Q2,gmv,280.9,EUR_m,JMIA_20F_2020-04-03.txt,GMV | | 240.2 | | 280.9 | | 275.3 | | 301.2 |,"Quarterly GMV table, Second Quarter 2019, unaudited, in EUR millions."
+Jumia,2019Q3,gmv,275.3,EUR_m,JMIA_20F_2020-04-03.txt,GMV | | 240.2 | | 280.9 | | 275.3 | | 301.2 |,"Quarterly GMV table, Third Quarter 2019, unaudited, in EUR millions."
+Jumia,2019Q4,gmv,301.2,EUR_m,JMIA_20F_2020-04-03.txt,GMV | | 240.2 | | 280.9 | | 275.3 | | 301.2 |,"Quarterly GMV table, Fourth Quarter 2019, unaudited, in EUR millions."
+Jumia,2019Q1,revenue,31.8,EUR_m,JMIA_20F_2020-04-03.txt,Revenue | | 31.8 | | 39.2 | | 40.1 | | 49.3 |,"Quarterly revenue table, First Quarter 2019."
+Jumia,2019Q2,revenue,39.2,EUR_m,JMIA_20F_2020-04-03.txt,Revenue | | 31.8 | | 39.2 | | 40.1 | | 49.3 |,"Quarterly revenue table, Second Quarter 2019."
+Jumia,2019Q3,revenue,40.1,EUR_m,JMIA_20F_2020-04-03.txt,Revenue | | 31.8 | | 39.2 | | 40.1 | | 49.3 |,"Quarterly revenue table, Third Quarter 2019."
+Jumia,2019Q4,revenue,49.3,EUR_m,JMIA_20F_2020-04-03.txt,Revenue | | 31.8 | | 39.2 | | 40.1 | | 49.3 |,"Quarterly revenue table, Fourth Quarter 2019."
+Jumia,2019Q1,gross_profit,15.7,EUR_m,JMIA_20F_2020-04-03.txt,Gross profit | | 15.7 | | 17.3 | | 18.1 | | 24.8 |,"Quarterly gross profit table, First Quarter 2019."
+Jumia,2019Q2,gross_profit,17.3,EUR_m,JMIA_20F_2020-04-03.txt,Gross profit | | 15.7 | | 17.3 | | 18.1 | | 24.8 |,"Quarterly gross profit table, Second Quarter 2019."
+Jumia,2019Q3,gross_profit,18.1,EUR_m,JMIA_20F_2020-04-03.txt,Gross profit | | 15.7 | | 17.3 | | 18.1 | | 24.8 |,"Quarterly gross profit table, Third Quarter 2019."
+Jumia,2019Q4,gross_profit,24.8,EUR_m,JMIA_20F_2020-04-03.txt,Gross profit | | 15.7 | | 17.3 | | 18.1 | | 24.8 |,"Quarterly gross profit table, Fourth Quarter 2019."
+Jumia,2019Q1,gmv,240,EUR_m,JMIA_6K_2019-05-13_d748250dex991.htm.txt,"GMV increased by 57.6% from €152 million in the first quarter of 2018 to €240 million in the first quarter of 2019, on the back of strong growth of both Active Consumers and spend per Active Consumer.",Press-release rounding of quarterly GMV.
+Jumia,2019Q4,gmv,301,EUR_m,JMIA_6K_2020-02-25_d856124dex991.htm.txt,"GMV was €301 million, a year-over-year decrease of 3%.",Q4 2019 GMV as printed in earnings release.
+Jumia,FY2020,gmv,836.5,EUR_m,JMIA_20F_2021-03-12.txt,Our GMV was €836.5 million in 2020 compared to €1.0 billion in 2019.,As reported in FY2020 20-F (EUR reporting). Later USD restatements exist.
+Jumia,FY2020,orders,27.9,million,JMIA_20F_2021-03-12.txt,Our Orders increased from 26.5 million in 2019 to 27.9 million in 2020.,Total orders irrespective of cancellations or returns.
+Jumia,FY2020,gross_profit,92.8,EUR_m,JMIA_20F_2021-03-12.txt,"Gross profit increased by 22.3% from €75.9 million in 2019 to €92.8 million in 2020, primarily due to the increase in marketplace revenue.",
+Jumia,FY2020,revenue,139.6,EUR_m,JMIA_20F_2021-03-12.txt,Total revenue | | ​ | 129.1 | ​ | 160.4 | ​ | 139.6 |,"Income-statement comparison table, year ended 31 Dec 2020, EUR millions."
+Jumia,FY2020,Marketplace revenue,93.8,EUR_m,JMIA_20F_2021-03-12.txt,Marketplace revenue increased by 19.6% from €78.5 million in 2019 to €93.8 million in 2020 due to an increase in revenue from commissions by 38.5% and an increase in revenue from fulfillment by 20.7% in 2020 compared 2019.,
+Jumia,FY2020,First-party / product revenue,44.2,EUR_m,JMIA_20F_2021-03-12.txt,"Contributions from sales of goods, i.e., revenue from first-party sales, decreased by 45.6% from €81.2 million in 2019 to €44.2 million in 2020.",Label: sales of goods / first-party sales.
+Jumia,FY2020,note_text,,,JMIA_20F_2021-03-12.txt,"Adjusted for perimeter changes and improper sales practices, our gross merchandise value (“GMV”) decreased from €1,030.9 million in 2019 to €836.5 million in 2020.",GMV after perimeter/improper-sales adjustment.
+Jumia,FY2020,gmv,955.5,USD_m,JMIA_20F_2022-04-29.txt,"GMV | | $ | 1,154.1 | ​ | $ | 955.5 | ​ | $ | 990.6 |",USD KPI table in FY2021 20-F; 2020 column is 955.5.
+Jumia,FY2020,revenue,159.4,USD_m,JMIA_20F_2022-04-29.txt,Revenue increased by 11.7% from $159.4 million in 2020 to $177.9 million in 2021.,USD presentation after reporting-currency change.
+Jumia,FY2020,First-party / product revenue,50.4,USD_m,JMIA_20F_2022-04-29.txt,"This increase was driven by strong growth in first-party revenue, which increased by 29.2% from $50.4 million in 2020 to $65.1 million in 2021.",
+Jumia,FY2020,gross_profit,106.0,USD_m,JMIA_20F_2022-04-29.txt,Gross profit increased by 4.3% from $106.0 million in 2020 to $110.5 million in 2021.,
+Jumia,FY2020,customer_incentives,8.5,USD_m,JMIA_20F_2022-04-29.txt,We increased investments in consumer adoption deploying a higher amount of consumer incentives which increased from $8.5 million in 2020 to $25.2 million in 2021,Label: consumer incentives; recorded as revenue deductions (see same filing).
+Jumia,FY2020,note_text,,,JMIA_20F_2022-04-29.txt,"Gross profit is net of consumer incentives, which increased from $8.5 million in 2020 to $25.2 million in 2021.",Incentives recorded as a reduction of gross profit/revenue.
+Jumia,FY2020,Marketplace revenue,107.1,USD_m,JMIA_20F_2023-05-16.txt,Marketplace revenue (2) | 107.1 | | | 108.2 | | | 130.5 |,USD millions; 2020 column. Marketplace = commissions + fulfillment + marketing and advertising + VAS.
+Jumia,FY2021,gmv,990.6,USD_m,JMIA_20F_2022-04-29.txt,"GMV | | $ | 1,154.1 | ​ | $ | 955.5 | ​ | $ | 990.6 |",KPI table year ended 31 Dec 2021.
+Jumia,FY2021,orders,34.0,million,JMIA_20F_2022-04-29.txt,"Orders reached 34.0 million in 2021 up 22% year-over-year, compared to 5% year-over-year",
+Jumia,FY2021,revenue,177.9,USD_m,JMIA_20F_2022-04-29.txt,Revenue increased by 11.7% from $159.4 million in 2020 to $177.9 million in 2021.,Total revenue.
+Jumia,FY2021,First-party / product revenue,65.1,USD_m,JMIA_20F_2022-04-29.txt,"This increase was driven by strong growth in first-party revenue, which increased by 29.2% from $50.4 million in 2020 to $65.1 million in 2021.",Label: first-party revenue.
+Jumia,FY2021,gross_profit,110.5,USD_m,JMIA_20F_2022-04-29.txt,Gross profit increased by 4.3% from $106.0 million in 2020 to $110.5 million in 2021.,Gross profit is net of consumer incentives.
+Jumia,FY2021,customer_incentives,25.2,USD_m,JMIA_20F_2022-04-29.txt,We increased investments in consumer adoption deploying a higher amount of consumer incentives which increased from $8.5 million in 2020 to $25.2 million in 2021,Label: consumer incentives; accounted for as revenue deductions.
+Jumia,FY2021,Marketplace revenue,108.2,USD_m,JMIA_20F_2023-05-16.txt,Marketplace revenue increased by 20.6% from $108.2 million in 2021 to $130.5 million in 2022.,As reported before food-delivery restatement.
+Jumia,FY2021,note_text,,,JMIA_20F_2022-04-29.txt,"We grant incentives to end consumers and subsidies to marketplace vendors. Incentives to end consumers, which include discounts or vouchers, and marketplace subsidies to vendors are consideration payable to a customer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,FY2021,note_text,,,JMIA_20F_2023-05-16.txt,Revenue from commissions increased by 35.3% in 2022 compared to 2021 as a result of the commission take rate increase implemented in 2022.,Why take rate / commission revenue changed.
+Jumia,FY2021,gmv,902.0,USD_m,JMIA_20F_2024-03-28.txt,GMV | $ | 902.0 | $ | 932.5 | $ | 749.8 |,Restated; all periods adjusted for exclusion of food delivery operations in 2023.
+Jumia,FY2021,orders,26.1,million,JMIA_20F_2024-03-28.txt,Orders | 26.1 | 27.5 | 21.3 |,Restated excluding food delivery.
+Jumia,FY2021,revenue,167.6,USD_m,JMIA_20F_2024-03-28.txt,Total revenue | 167.6 | 203.3 | 186.4 |,Restated excluding food delivery.
+Jumia,FY2021,Marketplace revenue,97.9,USD_m,JMIA_20F_2024-03-28.txt,Marketplace revenue (2) | 97.9 | 115.1 | 97.8 |,Restated excluding food delivery.
+Jumia,FY2021,First-party / product revenue,65.1,USD_m,JMIA_20F_2024-03-28.txt,First-party sales (3) | 65.1 | 81.7 | 86.4 |,Restated excluding food delivery; label: First-party sales.
+Jumia,FY2021,gross_profit,101.5,USD_m,JMIA_20F_2024-03-28.txt,Gross profit | 101.5 | 118.2 | 107.1 |,Restated excluding food delivery.
+Jumia,FY2021,note_text,,,JMIA_20F_2024-03-28.txt,(1) All periods adjusted for the exclusion of food delivery operations in 2023.,Perimeter change: food delivery excluded from KPI/revenue comparatives.
+Jumia,FY2022,gmv,1047.6,USD_m,JMIA_20F_2023-05-16.txt,"GMV | $ | 955.5 | | | $ | 990.6 | | | $ | 1,047.6 |",As reported in FY2022 20-F (includes food delivery).
+Jumia,FY2022,orders,38.9,million,JMIA_20F_2023-05-16.txt,Orders | 27.9 | | | 34.0 | | | 38.9 |,As reported in FY2022 20-F.
+Jumia,FY2022,revenue,221.9,USD_m,JMIA_20F_2023-05-16.txt,Total revenue | 159.4 | | | 177.9 | | | 221.9 |,As reported in FY2022 20-F.
+Jumia,FY2022,Marketplace revenue,130.5,USD_m,JMIA_20F_2023-05-16.txt,Marketplace revenue increased by 20.6% from $108.2 million in 2021 to $130.5 million in 2022.,
+Jumia,FY2022,First-party / product revenue,85.0,USD_m,JMIA_20F_2023-05-16.txt,First-party revenue (3) | 50.4 | | | 65.1 | | | 85.0 |,Label: First-party revenue / sales of goods.
+Jumia,FY2022,gross_profit,130.4,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 107.8 | | | 110.1 | | | 130.4 |,As reported; 2020-2021 GP restated for logistics cost reclass.
+Jumia,FY2022,customer_incentives,,,JMIA_20F_2023-05-16.txt,,Not stated as a full-year amount. Quarterly incentive dollars printed only through 2022Q2 in 6-Ks.
+Jumia,FY2022,note_text,,,JMIA_20F_2023-05-16.txt,"We grant incentives to our end consumers and subsidies to our marketplace vendors. Incentives to end consumers, which include discounts or vouchers, and marketplace subsidies to vendors are consideration payable to a consumer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,FY2022,note_text,,,JMIA_20F_2023-05-16.txt,Revenue from fulfillment decreased 12.7% in 2022 compared to 2021 due to the deployment of next day free shipping.,Why fulfillment/take-rate mix changed.
+Jumia,FY2022,gmv,932.5,USD_m,JMIA_20F_2025-03-07.txt,GMV | $ | 932.5 | $ | 749.8 | $ | 720.6 |,Later 20-F KPI table (2022 column); food-delivery perimeter restated in prior year.
+Jumia,FY2022,orders,27.5,million,JMIA_20F_2025-03-07.txt,Orders | 27.5 | 21.3 | 22.7 |,
+Jumia,FY2022,revenue,203.3,USD_m,JMIA_20F_2025-03-07.txt,Total revenue | 203.3 | 186.4 | 167.5 |,
+Jumia,FY2022,Marketplace revenue,115.1,USD_m,JMIA_20F_2025-03-07.txt,Marketplace revenue (2) | 115.1 | 97.8 | 89.4 |,Marketplace = third-party sales + marketing and advertising + VAS after 2024 presentation change.
+Jumia,FY2022,First-party / product revenue,81.7,USD_m,JMIA_20F_2025-03-07.txt,First-party sales | 81.7 | 86.4 | 76.5 |,
+Jumia,FY2022,gross_profit,118.2,USD_m,JMIA_20F_2025-03-07.txt,Gross profit | 118.2 | 107.1 | 99.5 |,
+Jumia,FY2022,note_text,,,JMIA_20F_2025-03-07.txt,"Third-party sales and Value-added services for 2022 and 2023 have been reclassified to reflect the impact of an accounting policy change reclassifying all third-party sales presented as ""Commissions"", ""Fulfillment"" and ""Value-added services"" in prior periods to ""Third-party sales"" starting from 2024",Change in marketplace revenue presentation.
+Jumia,FY2023,gmv,749.8,USD_m,JMIA_20F_2026-02-24.txt,GMV | $ | 749.8 | $ | 720.6 | $ | 818.6 |,KPI table years 2023-2025.
+Jumia,FY2023,orders,21.3,million,JMIA_20F_2026-02-24.txt,Orders | 21.3 | 22.7 | 23.3 |,
+Jumia,FY2023,revenue,186.4,USD_m,JMIA_20F_2026-02-24.txt,Total revenue | 186.4 | 167.5 | 188.9 |,
+Jumia,FY2023,Marketplace revenue,97.8,USD_m,JMIA_20F_2026-02-24.txt,Marketplace revenue (1) | 97.8 | 89.4 | 92.1 |,"Marketplace revenue is the sum of third-party sales, marketing and advertising and value-added services."
+Jumia,FY2023,First-party / product revenue,86.4,USD_m,JMIA_20F_2026-02-24.txt,First-party sales | 86.4 | 76.5 | 95.1 |,
+Jumia,FY2023,gross_profit,107.1,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 107.1 | 99.5 | 101.8 |,
+Jumia,FY2023,customer_incentives,,,JMIA_20F_2024-03-28.txt,,Not stated as an amount. Filing says gross profit % of GMV was supported by reduced spending on customer incentives and promotions.
+Jumia,FY2023,note_text,,,JMIA_20F_2024-03-28.txt,"Gross Profit as a percentage of GMV reached 14.3% compared to 12.7% in 2022, supported by improved first-party sales margins and reduced spending on customer incentives and promotions.",Why take rate (GP/GMV) changed.
+Jumia,FY2023,note_text,,,JMIA_20F_2024-03-28.txt,"We grant incentives to our end consumers and subsidies to our sellers. Incentives to end consumers, which include discounts or vouchers, and marketplace subsidies to sellers are consideration payable to a customer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,FY2024,gmv,720.6,USD_m,JMIA_20F_2026-02-24.txt,GMV | $ | 749.8 | $ | 720.6 | $ | 818.6 |,
+Jumia,FY2024,orders,22.7,million,JMIA_20F_2026-02-24.txt,Orders | 21.3 | 22.7 | 23.3 |,
+Jumia,FY2024,revenue,167.5,USD_m,JMIA_20F_2026-02-24.txt,Total revenue | 186.4 | 167.5 | 188.9 |,
+Jumia,FY2024,Marketplace revenue,89.4,USD_m,JMIA_20F_2026-02-24.txt,Marketplace revenue (1) | 97.8 | 89.4 | 92.1 |,
+Jumia,FY2024,First-party / product revenue,76.5,USD_m,JMIA_20F_2026-02-24.txt,First-party sales | 86.4 | 76.5 | 95.1 |,
+Jumia,FY2024,gross_profit,99.5,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 107.1 | 99.5 | 101.8 |,
+Jumia,FY2024,customer_incentives,,,JMIA_20F_2025-03-07.txt,,Not stated as an amount. Narrative cites lower spending on customer incentives and promotions as a driver of active-customer decline.
+Jumia,FY2024,note_text,,,JMIA_20F_2025-03-07.txt,"This decline reflects our strategic shift toward categories with more favorable unit economics, reduced reliance on less profitable high-usage categories like fast-moving consumer goods, and lower spending on customer incentives and promotions .",Incentives/promotions reduced; qualitative only.
+Jumia,FY2024,note_text,,,JMIA_20F_2025-03-07.txt,Gross Profit as a percentage of GMV decreased slightly to 13.8% in 2024 compared to 14.3% in 2023.,Take rate (GP/GMV) change.
+Jumia,FY2025,gmv,818.6,USD_m,JMIA_20F_2026-02-24.txt,"GMV reached $818.6 million in 2025, an increase of 14% compared to 2024.",Total GMV (physical goods + remaining digital). Filing does not print a separate physical-goods GMV total for the year.
+Jumia,FY2025,orders,23.3,million,JMIA_20F_2026-02-24.txt,"Orders reached 23.3 million in 2025, an increase of 3% compared to 2024.",Total orders. Orders Physical Goods printed separately as 22.6 million.
+Jumia,FY2025,orders,22.6,million,JMIA_20F_2026-02-24.txt,Orders Physical Goods | 17.2 | 18.2 | 22.6 |,"Physical-goods orders, not total orders."
+Jumia,FY2025,revenue,188.9,USD_m,JMIA_20F_2026-02-24.txt,Revenue increased by 12.8 % from USD 167.5 million in 2024 to USD 188.9 million in 2025.,Total revenue.
+Jumia,FY2025,Marketplace revenue,92.1,USD_m,JMIA_20F_2026-02-24.txt,Marketplace revenue (1) | 97.8 | 89.4 | 92.1 |,
+Jumia,FY2025,First-party / product revenue,95.1,USD_m,JMIA_20F_2026-02-24.txt,First-party sales | 86.4 | 76.5 | 95.1 |,
+Jumia,FY2025,gross_profit,101.8,USD_m,JMIA_20F_2026-02-24.txt,"Gross profit increased by 2.3% from $99.5 million in 2024 to $101.8 million in 2025, mainly driven by the increase of Revenue, which was partially offset by the higher Cost of Revenue.",
+Jumia,FY2025,customer_incentives,,,JMIA_20F_2026-02-24.txt,,Not stated as an amount for 2025. Accounting policy still records incentives as a reduction of revenue.
+Jumia,FY2025,JumiaPay revenue,,,JMIA_20F_2026-02-24.txt,,"Not stated. Filing reports TPV $232.2 million and Jumia Payment Gateways Transactions, not JumiaPay revenue."
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"We grant incentives to our end consumers and subsidies to our sellers. Incentives to end consumers, which include discounts or vouchers, and marketplace subsidies to sellers are consideration payable to a customer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"The Group grants incentives to its end customers and subsidies to its marketplace sellers. Incentives to end customers, which include discounts or vouchers, and marketplace subsidies to sellers are consideration payable to a customer and are recognized as a reduction of revenue.",Accounting-policy note: Customer incentives and subsidies.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"GMV (Gross Merchandise Value) corresponds to the total value of orders for products and services, including shipping fees, value-added tax, and before deductions of any discounts or vouchers, irrespective of cancellations or returns for the relevant period.",GMV definition.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"Take Rate corresponds to Gross Profit divided by GMV, expressed as a percentage.",Take-rate definition.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"Gross Profit as a percentage of GMV decreased to 12.4% in 2025 compared to 13.8% in 2024, primarily driven by lower corporate sales in Egypt.",Why take rate changed.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"Jumia Payment Gateways Transactions (previously JumiaPay Transactions ) corresponds to the total number of orders for products and services on our marketplace for which Jumia payment gateways were used, irrespective of cancellations or returns for the relevant period.",JumiaPay naming/definition change; methodology unchanged.
+Jumia,FY2025,note_text,,,JMIA_20F_2026-02-24.txt,"Shifts in the relative proportion of third-party and first-party sales do not have a meaningful impact on GMV. However, these shifts trigger variations in our revenue, as we record the full sales price net of returns and VAT as revenue for first-party sales and only a percentage of the sales price (commission) net of returns and VAT as revenue for third-party sales.",First-party vs marketplace presentation.
+Jumia,2020Q1,gmv,209.5,USD_m,JMIA_20F_2023-05-16.txt,GMV | 209.5 | | | 251.1 | | | 220.4 | | | 274.6 |,2020 quarterly GMV row.
+Jumia,2020Q2,gmv,251.1,USD_m,JMIA_20F_2023-05-16.txt,GMV | 209.5 | | | 251.1 | | | 220.4 | | | 274.6 |,
+Jumia,2020Q3,gmv,220.4,USD_m,JMIA_20F_2023-05-16.txt,GMV | 209.5 | | | 251.1 | | | 220.4 | | | 274.6 |,
+Jumia,2020Q4,gmv,274.6,USD_m,JMIA_20F_2023-05-16.txt,GMV | 209.5 | | | 251.1 | | | 220.4 | | | 274.6 |,
+Jumia,2020Q1,revenue,32.3,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 32.3 | | | 38.5 | | | 39.3 | | | 49.3 |,
+Jumia,2020Q2,revenue,38.5,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 32.3 | | | 38.5 | | | 39.3 | | | 49.3 |,
+Jumia,2020Q3,revenue,39.3,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 32.3 | | | 38.5 | | | 39.3 | | | 49.3 |,
+Jumia,2020Q4,revenue,49.3,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 32.3 | | | 38.5 | | | 39.3 | | | 49.3 |,
+Jumia,2020Q1,gross_profit,20.7,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 20.7 | | | 26.3 | | | 27.5 | | | 33.4 |,
+Jumia,2020Q2,gross_profit,26.3,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 20.7 | | | 26.3 | | | 27.5 | | | 33.4 |,
+Jumia,2020Q3,gross_profit,27.5,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 20.7 | | | 26.3 | | | 27.5 | | | 33.4 |,
+Jumia,2020Q4,gross_profit,33.4,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 20.7 | | | 26.3 | | | 27.5 | | | 33.4 |,
+Jumia,2021Q1,gmv,198.9,USD_m,JMIA_20F_2023-05-16.txt,GMV | 198.9 | | | 223.5 | | | 238.1 | | | 330.1 |,
+Jumia,2021Q2,gmv,223.5,USD_m,JMIA_20F_2023-05-16.txt,GMV | 198.9 | | | 223.5 | | | 238.1 | | | 330.1 |,
+Jumia,2021Q3,gmv,238.1,USD_m,JMIA_20F_2023-05-16.txt,GMV | 198.9 | | | 223.5 | | | 238.1 | | | 330.1 |,
+Jumia,2021Q4,gmv,330.1,USD_m,JMIA_20F_2023-05-16.txt,GMV | 198.9 | | | 223.5 | | | 238.1 | | | 330.1 |,
+Jumia,2021Q1,revenue,33.0,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 33.0 | | | 40.2 | | | 42.7 | | | 62.0 |,
+Jumia,2021Q2,revenue,40.2,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 33.0 | | | 40.2 | | | 42.7 | | | 62.0 |,
+Jumia,2021Q3,revenue,42.7,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 33.0 | | | 40.2 | | | 42.7 | | | 62.0 |,
+Jumia,2021Q4,revenue,62.0,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 33.0 | | | 40.2 | | | 42.7 | | | 62.0 |,
+Jumia,2021Q1,gross_profit,24.6,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 24.6 | | | 26.6 | | | 25.3 | | | 33.6 |,
+Jumia,2021Q2,gross_profit,26.6,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 24.6 | | | 26.6 | | | 25.3 | | | 33.6 |,
+Jumia,2021Q3,gross_profit,25.3,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 24.6 | | | 26.6 | | | 25.3 | | | 33.6 |,
+Jumia,2021Q4,gross_profit,33.6,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 24.6 | | | 26.6 | | | 25.3 | | | 33.6 |,
+Jumia,2022Q1,gmv,252.7,USD_m,JMIA_20F_2023-05-16.txt,GMV | 252.7 | | | 271.1 | | | 240.7 | | | 283.1 |,
+Jumia,2022Q2,gmv,271.1,USD_m,JMIA_20F_2023-05-16.txt,GMV | 252.7 | | | 271.1 | | | 240.7 | | | 283.1 |,
+Jumia,2022Q3,gmv,240.7,USD_m,JMIA_20F_2023-05-16.txt,GMV | 252.7 | | | 271.1 | | | 240.7 | | | 283.1 |,
+Jumia,2022Q4,gmv,283.1,USD_m,JMIA_20F_2023-05-16.txt,GMV | 252.7 | | | 271.1 | | | 240.7 | | | 283.1 |,
+Jumia,2022Q1,revenue,47.6,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 47.6 | | | 57.3 | | | 50.5 | | | 66.5 |,
+Jumia,2022Q2,revenue,57.3,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 47.6 | | | 57.3 | | | 50.5 | | | 66.5 |,
+Jumia,2022Q3,revenue,50.5,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 47.6 | | | 57.3 | | | 50.5 | | | 66.5 |,
+Jumia,2022Q4,revenue,66.5,USD_m,JMIA_20F_2023-05-16.txt,Revenue | 47.6 | | | 57.3 | | | 50.5 | | | 66.5 |,
+Jumia,2022Q1,gross_profit,27.2,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 27.2 | | | 29.9 | | | 32.4 | | | 40.8 |,
+Jumia,2022Q2,gross_profit,29.9,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 27.2 | | | 29.9 | | | 32.4 | | | 40.8 |,
+Jumia,2022Q3,gross_profit,32.4,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 27.2 | | | 29.9 | | | 32.4 | | | 40.8 |,
+Jumia,2022Q4,gross_profit,40.8,USD_m,JMIA_20F_2023-05-16.txt,Gross profit | 27.2 | | | 29.9 | | | 32.4 | | | 40.8 |,
+Jumia,2023Q1,gmv,173.2,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 173.2 | 179.2 | 164.1 | 233.3 |,2023 quarterly table.
+Jumia,2023Q2,gmv,179.2,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 173.2 | 179.2 | 164.1 | 233.3 |,
+Jumia,2023Q3,gmv,164.1,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 173.2 | 179.2 | 164.1 | 233.3 |,
+Jumia,2023Q4,gmv,233.3,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 173.2 | 179.2 | 164.1 | 233.3 |,
+Jumia,2023Q1,orders,4.5,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.5 | 4.5 | 5.7 | 6.6 |,2023 quarterly orders.
+Jumia,2023Q2,orders,4.5,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.5 | 4.5 | 5.7 | 6.6 |,
+Jumia,2023Q3,orders,5.7,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.5 | 4.5 | 5.7 | 6.6 |,
+Jumia,2023Q4,orders,6.6,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.5 | 4.5 | 5.7 | 6.6 |,
+Jumia,2023Q1,revenue,41.2,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 41.2 | 44.0 | 41.7 | 59.4 |,
+Jumia,2023Q2,revenue,44.0,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 41.2 | 44.0 | 41.7 | 59.4 |,
+Jumia,2023Q3,revenue,41.7,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 41.2 | 44.0 | 41.7 | 59.4 |,
+Jumia,2023Q4,revenue,59.4,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 41.2 | 44.0 | 41.7 | 59.4 |,
+Jumia,2023Q1,gross_profit,24.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 24.9 | 22.9 | 22.2 | 37.1 |,2023 quarterly GP; same 24.9 also appears in 2022 restated tables.
+Jumia,2023Q2,gross_profit,22.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 24.9 | 22.9 | 22.2 | 37.1 |,
+Jumia,2023Q3,gross_profit,22.2,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 24.9 | 22.9 | 22.2 | 37.1 |,
+Jumia,2023Q4,gross_profit,37.1,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 24.9 | 22.9 | 22.2 | 37.1 |,
+Jumia,2024Q1,gmv,181.5,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 181.5 | 170.1 | 162.9 | 206.1 |,
+Jumia,2024Q2,gmv,170.1,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 181.5 | 170.1 | 162.9 | 206.1 |,
+Jumia,2024Q3,gmv,162.9,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 181.5 | 170.1 | 162.9 | 206.1 |,
+Jumia,2024Q4,gmv,206.1,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 181.5 | 170.1 | 162.9 | 206.1 |,
+Jumia,2024Q1,orders,4.6,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.6 | 4.8 | 5.9 | 7.4 |,
+Jumia,2024Q2,orders,4.8,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.6 | 4.8 | 5.9 | 7.4 |,
+Jumia,2024Q3,orders,5.9,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.6 | 4.8 | 5.9 | 7.4 |,
+Jumia,2024Q4,orders,7.4,million,JMIA_20F_2026-02-24.txt,Orders (2) | 4.6 | 4.8 | 5.9 | 7.4 |,
+Jumia,2024Q1,revenue,48.9,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 48.9 | 36.5 | 36.4 | 45.7 |,
+Jumia,2024Q2,revenue,36.5,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 48.9 | 36.5 | 36.4 | 45.7 |,
+Jumia,2024Q3,revenue,36.4,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 48.9 | 36.5 | 36.4 | 45.7 |,
+Jumia,2024Q4,revenue,45.7,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 48.9 | 36.5 | 36.4 | 45.7 |,
+Jumia,2024Q1,gross_profit,31.2,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 31.2 | 21.6 | 22.9 | 23.9 |,2024 quarterly GP.
+Jumia,2024Q2,gross_profit,21.6,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 31.2 | 21.6 | 22.9 | 23.9 |,
+Jumia,2024Q3,gross_profit,22.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 31.2 | 21.6 | 22.9 | 23.9 |,
+Jumia,2024Q4,gross_profit,23.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 31.2 | 21.6 | 22.9 | 23.9 |,
+Jumia,2025Q1,gmv,161.7,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 161.7 | 180.2 | 197.2 | 279.5 |,
+Jumia,2025Q2,gmv,180.2,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 161.7 | 180.2 | 197.2 | 279.5 |,
+Jumia,2025Q3,gmv,197.2,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 161.7 | 180.2 | 197.2 | 279.5 |,
+Jumia,2025Q4,gmv,279.5,USD_m,JMIA_20F_2026-02-24.txt,GMV (2) | 161.7 | 180.2 | 197.2 | 279.5 |,
+Jumia,2025Q1,orders,5.1,million,JMIA_20F_2026-02-24.txt,Orders (2) | 5.1 | 5.0 | 5.6 | 7.5 |,
+Jumia,2025Q2,orders,5.0,million,JMIA_20F_2026-02-24.txt,Orders (2) | 5.1 | 5.0 | 5.6 | 7.5 |,
+Jumia,2025Q3,orders,5.6,million,JMIA_20F_2026-02-24.txt,Orders (2) | 5.1 | 5.0 | 5.6 | 7.5 |,
+Jumia,2025Q4,orders,7.5,million,JMIA_20F_2026-02-24.txt,Orders (2) | 5.1 | 5.0 | 5.6 | 7.5 |,
+Jumia,2025Q1,revenue,36.3,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 36.3 | 45.6 | 45.6 | 61.4 |,
+Jumia,2025Q2,revenue,45.6,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 36.3 | 45.6 | 45.6 | 61.4 |,
+Jumia,2025Q3,revenue,45.6,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 36.3 | 45.6 | 45.6 | 61.4 |,
+Jumia,2025Q4,revenue,61.4,USD_m,JMIA_20F_2026-02-24.txt,Revenue | 36.3 | 45.6 | 45.6 | 61.4 |,
+Jumia,2025Q1,gross_profit,19.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 19.9 | 23.9 | 23.8 | 34.2 |,
+Jumia,2025Q2,gross_profit,23.9,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 19.9 | 23.9 | 23.8 | 34.2 |,
+Jumia,2025Q3,gross_profit,23.8,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 19.9 | 23.9 | 23.8 | 34.2 |,
+Jumia,2025Q4,gross_profit,34.2,USD_m,JMIA_20F_2026-02-24.txt,Gross profit | 19.9 | 23.9 | 23.8 | 34.2 |,
+Jumia,2020Q3,customer_incentives,2.0,USD_m,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,"Gross profit is net of consumer incentives, which we consider as growth investments and which increased from $2.0 million in the third quarter of 2020 to $7.5 million in the third quarter of 2021.",Label: consumer incentives; recorded as net of gross profit / revenue deductions.
+Jumia,2021Q3,customer_incentives,7.5,USD_m,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,"Gross profit is net of consumer incentives, which we consider as growth investments and which increased from $2.0 million in the third quarter of 2020 to $7.5 million in the third quarter of 2021.",Label: consumer incentives; reduction of revenue.
+Jumia,2021Q3,revenue,16.2,USD_m,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,"First Party revenue reached $16.2 million, accelerating by 41% in the third quarter of 2021 compared to the third quarter of 2020.","First-party split, not total revenue."
+Jumia,2021Q3,First-party / product revenue,16.2,USD_m,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,"First Party revenue reached $16.2 million, accelerating by 41% in the third quarter of 2021 compared to the third quarter of 2020.",
+Jumia,2021Q3,gross_profit,25.5,USD_m,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,Gross profit decreased by 6% from $27.1 million in the third quarter of 2020 to $25.5 million in the third quarter of 2021.,
+Jumia,2021Q3,note_text,,,JMIA_6K_2021-11-16_jmia-20211116xex99d1.htm.txt,"Commission revenue is net of consumer incentives in the form of promotional discounts, which increased from $0.9 million in the third quarter of 2020 to $5.1 million in the third quarter of 2021.",Incentives recorded as deduction from commission revenue.
+Jumia,2020Q4,customer_incentives,3.2,USD_m,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $11.1 million in the fourth quarter of 2021 compared to $3.2 million in the fourth quarter of 2020.",Recorded as revenue deductions.
+Jumia,2021Q4,customer_incentives,11.1,USD_m,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $11.1 million in the fourth quarter of 2021 compared to $3.2 million in the fourth quarter of 2020.",Recorded as revenue deductions.
+Jumia,2021Q4,Marketplace revenue,32.4,USD_m,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Marketplace revenue reached $32.4 million in the fourth quarter of 2021, down 1% on a year-over-year basis.",
+Jumia,2021Q4,gross_profit,33.7,USD_m,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Gross profit reached $33.7 million in the fourth quarter of 2021, up 2% year-over-year.",
+Jumia,2021Q4,gmv,330,USD_m,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Quarterly Active Consumers, Orders and GMV reached all-time highs of 3.8 million, 11.3 million and $330 million respectively",Press-release rounding.
+Jumia,2021Q4,orders,11.3,million,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"Quarterly Active Consumers, Orders and GMV reached all-time highs of 3.8 million, 11.3 million and $330 million respectively",
+Jumia,2021Q4,note_text,,,JMIA_6K_2022-02-23_jmia-20220223xex99d1.htm.txt,"To support usage growth, we deployed more consumer incentives in the form of promotional discounts which are accounted for as revenue deductions.",Where incentives are recorded.
+Jumia,2021Q1,customer_incentives,2.1,USD_m,JMIA_6K_2022-05-17_jmia-20220517xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $7.2 million in the first quarter of 2022 compared to $2.1 million in the first quarter of 2021.",Recorded as revenue deductions.
+Jumia,2022Q1,customer_incentives,7.2,USD_m,JMIA_6K_2022-05-17_jmia-20220517xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $7.2 million in the first quarter of 2022 compared to $2.1 million in the first quarter of 2021.",Recorded as revenue deductions.
+Jumia,2022Q1,gross_profit,27.7,USD_m,JMIA_6K_2022-05-17_jmia-20220517xex99d1.htm.txt,"Gross profit reached $27.7 million in the first quarter of 2022, up 13% year-over-year and up 19% on a constant currency basis, supported by the marketplace revenue growth.",
+Jumia,2022Q1,note_text,,,JMIA_6K_2022-05-17_jmia-20220517xex99d1.htm.txt,"To support usage growth, we deployed more consumer incentives in the form of promotional discounts, which are accounted for as revenue deductions.",Where incentives are recorded.
+Jumia,2022Q1,note_text,,,JMIA_6K_2022-05-17_jmia-20220517xex99d1.htm.txt,The ratio of consumer incentives as a percentage of revenue improved sequentially from 18% in the third and fourth quarters of 2021 to 15% in the first quarter of 2022.,Incentive intensity vs revenue.
+Jumia,2021Q2,customer_incentives,4.5,USD_m,JMIA_6K_2022-08-10_jmia-20220810xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $8.2 million in the second quarter of 2022 compared to $4.5 million in the second quarter of 2021.",Recorded as revenue deductions.
+Jumia,2022Q2,customer_incentives,8.2,USD_m,JMIA_6K_2022-08-10_jmia-20220810xex99d1.htm.txt,"Revenue is presented net of consumer incentives, which reached $8.2 million in the second quarter of 2022 compared to $4.5 million in the second quarter of 2021.",Recorded as revenue deductions.
+Jumia,2022Q2,gross_profit,30.4,USD_m,JMIA_6K_2022-08-10_jmia-20220810xex99d1.htm.txt,"Gross profit reached $30.4 million in the second quarter of 2022, up 14% year-over-year, the fastest growth rate in the past 5 quarters, supported by the marketplace revenue growth.",
+Jumia,2022Q2,note_text,,,JMIA_6K_2022-08-10_jmia-20220810xex99d1.htm.txt,The ratio of consumer incentives as a percentage of revenue has been improving sequentially from 18% in the fourth quarter of 2021 to 15% in the first quarter of 2022 and 14% in the second quarter of 2022.,Incentive intensity vs revenue.
+Jumia,2022Q2,note_text,,,JMIA_6K_2022-08-10_jmia-20220810xex99d1.htm.txt,"Despite the continued increase in relevant consumer incentives from $2.7 million in the second quarter of 2021 to $4.0 million in the second of quarter of 2022, commission revenue growth was supported by selected take-rate increases implemented starting in May 2022.",Why take rate / commission revenue changed.
+Jumia,2023Q3,gross_profit,25.1,USD_m,JMIA_6K_2023-11-15_jumia-ex991q32023.htm.txt,"Gross profit reached $25.1 million in the third quarter of 2023, down 23% year-over-year and up 2% on a constant currency basis.",6-K figure; 20-F later prints 22.2 for 2023Q3 after restatement/perimeter.
+Jumia,2023Q3,note_text,,,JMIA_6K_2023-11-15_jumia-ex991q32023.htm.txt,"Gross Profit margin as a percentage of GMV reached 13.9% compared to 13.5% in the third quarter of 2022, supported by improved retail margins and reduced spending on consumer incentives and promotions.",Why take rate changed; incentives qualitative only.
+Jumia,2023Q4,gross_profit,37.1,USD_m,JMIA_6K_2024-02-15_jumia-ex991q42023.htm.txt,"Gross profit reached $37.1 million in the fourth quarter of 2023, down 1% year-over-year and up 36% on a constant currency basis.",
+Jumia,2023Q4,note_text,,,JMIA_6K_2024-02-15_jumia-ex991q42023.htm.txt,"Along with our strategic focus to improve supply in priority categories, we have deliberately reduced our Sales and Advertising expense by 68% in the full year of 2023 (and 63% in the fourth quarter of 2023) and cut customer incentives such as vouchers and free shipping.",Incentives cut; no amount printed.
+Jumia,2024Q1,gmv,181.5,USD_m,JMIA_6K_2024-05-07_jumia-ex991q12024.htm.txt,GMV increased by 5% year-over-year to $181.5 million and Orders increased by 2% year-over-year.,
+Jumia,2024Q1,note_text,,,JMIA_6K_2024-05-07_jumia-ex991q12024.htm.txt,"Gross profit as a percentage of GMV was 17% compared to 14% in the first quarter of 2023, driven by corporate sales, improved marketplace margins and a reduction in spending on customer incentives and promotions.",Why take rate changed.
+Jumia,2024Q2,note_text,,,JMIA_6K_2024-08-06_jumia-ex991q22024.htm.txt,"Customer Incentives corresponds to incentives that we grant to our end customers, which include discounts and vouchers. These incentives are consideration payable to a customer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,2024Q2,note_text,,,JMIA_6K_2024-08-06_jumia-ex991q22024.htm.txt,The percentage of orders of physical goods benefiting from customer incentives decreased from 31% in the second quarter of 2023 to 28% in the second quarter of 2024.,Incentive coverage; not an amount.
+Jumia,2024Q3,note_text,,,JMIA_6K_2024-11-07_jumia-ex991q32024.htm.txt,"Customer Incentives corresponds to incentives that we grant to our end customers, which include discounts and vouchers. These incentives are consideration payable to a customer and are recognized as a reduction of revenue.",Where incentives are recorded.
+Jumia,2026Q1,gmv,211.2,USD_m,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"GMV of $211.2 million compared to $161.7 million in the first quarter of 2025, up 31% year-over-year, and up 18% in constant currency.",
+Jumia,2026Q1,revenue,50.6,USD_m,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"Revenue of $50.6 million compared to $36.3 million in the first quarter of 2025, up 39% year-over-year, and up 28% in constant currency.",
+Jumia,2026Q1,Marketplace revenue,27.0,USD_m,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"Marketplace revenue, comprised of third-party sales, marketing and advertising revenue, and value-added services, was $27.0 million, up 50% year-over-year or up 35% year-over-year on a constant currency basis.",
+Jumia,2026Q1,First-party / product revenue,23.1,USD_m,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"First-party sales revenue was $23.1 million, up 30% year-over-year or up 21% year-over-year on a constant currency basis, reflecting strong demand and continued momentum with key international brands.",
+Jumia,2026Q1,gross_profit,29.4,USD_m,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"Gross profit was $29.4 million, up 48% year-over-year or up 33% year-over-year on a constant currency basis.",
+Jumia,2026Q1,orders,5.9,million,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,GMV increased by 31% year-over-year to $211.2 million and physical goods Orders grew by 30% year-over-year to 5.9 million.,"Physical goods Orders, not total orders."
+Jumia,2026Q1,note_text,,,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,"Gross profit as a percentage of GMV was 13.9% in the first quarter of 2026, compared to 12.3% in the first quarter of 2025.",Take rate (GP/GMV).
+Jumia,2026Q1,customer_incentives,,,JMIA_6K_2026-05-07_os-jumiaxex991q12026.htm.txt,,Not stated as an amount.
+Jumia,2026Q2,gmv,216.3,USD_m,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"GMV of $216.3 million compared to $180.2 million in the second quarter of 2025, up 20% year-over-year, and up 15% in constant currency.",
+Jumia,2026Q2,revenue,52.0,USD_m,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"Revenue of $52.0 million compared to $45.6 million in the second quarter of 2025, up 14% year-over-year, and up 15% in constant currency, amid a shift from first-party to third-party sales.",
+Jumia,2026Q2,Marketplace revenue,28.8,USD_m,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"Marketplace revenue, comprised of third-party sales, marketing and advertising revenue, and value-added services, was $28.8 million, up 34% year-over-year or up 36% year-over-year on a constant currency basis.",
+Jumia,2026Q2,First-party / product revenue,22.8,USD_m,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"First-party sales revenue was $22.8 million, down 3% year-over-year or down 4% year-over-year on a constant currency basis, consistent with supply and demand headwinds in higher value electronic items, alongside the strong pace of marketplace growth.",
+Jumia,2026Q2,gross_profit,30.7,USD_m,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"Gross profit was $30.7 million, up 28% year-over-year or up 31% year-over-year on a constant currency basis.",
+Jumia,2026Q2,orders,6.3,million,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,GMV increased by 20% year-over-year to $216.3 million and physical goods Orders grew by 26% year-over-year to 6.3 million in the second quarter of 2026.,Physical goods Orders.
+Jumia,2026Q2,note_text,,,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"This improvement reflects a shift in the mix toward higher take rate revenue streams, and our disciplined strategy of prioritizing attractive category economics and take rates rather than pursuing discount-driven volume growth.",Why take rate changed.
+Jumia,2026Q2,note_text,,,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,The average order value for physical goods Orders decreased in the second quarter of 2026 compared to the second quarter of 2025. This reflects the category mix shift toward categories with lower average item value but higher take rates.,Why revenue per order / take rate mix changed.
+Jumia,2026Q2,note_text,,,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,"Shifts in the relative proportion of first-party and third-party sales trigger variations in revenue, as we record the full sales price as revenue for first-party sales and only a percentage of the sales price (commission) for third-party sales, both net of returns and VAT.",First-party vs marketplace presentation.
+Jumia,2026Q2,customer_incentives,,,JMIA_6K_2026-08-12_os-jumiaxex991q22026.htm.txt,,Not stated as an amount.
+Jumia,FY2019,gmv,1154.1,USD_m,JMIA_20F_2022-04-29.txt,"GMV | | $ | 1,154.1 | ​ | $ | 955.5 | ​ | $ | 990.6 |",USD translation of 2019 GMV in FY2021 20-F KPI table; do not treat as a conversion we computed.
