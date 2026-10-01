@@ -32,6 +32,19 @@ Shopee,E-commerce,2017,4112.9,9.034,8.683,out,Sea 20-F 2018 note 18,incentives 8
 Shopee,E-commerce,2018,10279.3,269.578,,out,take_rate_levels.csv,incentive amount not disclosed; includes 1P product revenue,0.026225326627299525,,
 DoorDash,Marketplace,2018,2812.0,291.0,60.0,out,DASH S-1A,promotions primarily contra-revenue,0.1034850640113798,0.021337126600284494,0.20618556701030927
 DoorDash,Marketplace,2019,8039.0,885.0,182.0,out,DASH S-1A,promotions primarily contra-revenue,0.11008831944271676,0.02263963179499938,0.20564971751412428
+GoTo Group,Group,2020,330176.0,4820.0,7030.0,out,GoTo FY2021 results deck,IDR bn; incentives = Promotion to Customers (demand side only); same firm as GoTo on-demand,0.01459827485946889,0.02129167474316728,1.45850622406639
+GoTo Group,Group,2021,461602.0,5156.0,11851.0,out,GoTo FY2021 results deck,IDR bn; incentives = Promotion to Customers (demand side only); same firm as GoTo on-demand,0.011169795624802319,0.025673632263291755,2.298487199379364
+Lyft,Rides,2021,9745.7,3208.3,1300.0,out,Lyft 10-Ks,USD m; incentives printed in bn for 2021-23 (rounded),0.3292015966015781,0.13339216269739473,0.40519901505470185
+Lyft,Rides,2022,12057.3,4095.1,1400.0,out,Lyft 10-Ks,USD m; incentives printed in bn for 2021-23 (rounded),0.3396365687177063,0.11611223076476491,0.34187199335791557
+Lyft,Rides,2023,13775.2,4403.6,1100.0,out,Lyft 10-Ks,USD m; incentives printed in bn for 2021-23 (rounded),0.3196759393693014,0.079853650037749,0.24979562176401124
+Lyft,Rides,2024,16099.4,5786.0,777.4,out,Lyft 10-Ks,USD m; incentives printed in bn for 2021-23 (rounded),0.35939227548852754,0.04828751382039082,0.1343587970964397
+Meituan,Group,2015,161100000000.0,4018959000.0,98122000.0,out,Meituan IPO prospectus,RMB; mix shift into food delivery drove the take rate (prospectus),0.024946983240223465,0.0006090751086281813,0.024414780046275664
+Meituan,Group,2016,236600000000.0,12988077000.0,544831000.0,out,Meituan IPO prospectus,RMB; mix shift into food delivery drove the take rate (prospectus),0.054894661876584955,0.0023027514792899407,0.04194855019723089
+Meituan,Group,2017,357200000000.0,33927987000.0,2172266000.0,out,Meituan IPO prospectus,RMB; mix shift into food delivery drove the take rate (prospectus),0.09498316629339305,0.006081371780515117,0.06402578496625809
+Talabat,AED,2022,18991.8,6310.279038,195.7,out,Talabat IOM / annual report 2025,AED m,0.3322633472340694,0.010304447182468222,0.031012891636250966
+Talabat,AED,2023,22263.8,7987.738908,270.1,out,Talabat IOM / annual report 2025,AED m,0.358776979132044,0.012131801399581385,0.03381432506882334
+Talabat,USD,2024,7428.0,2872.0,87.0,out,Talabat IOM / annual report 2025,USD m,0.386645126548196,0.011712439418416801,0.030292479108635098
+Talabat,USD,2025,9421.0,3756.0,120.0,out,Talabat IOM / annual report 2025,USD m,0.3986837915295616,0.012737501326823055,0.03194888178913738
 Delivery Hero,Group,2020,12360.9,2472.1,364.1,out,DH annual reports,TSR is before vouchers; R = TSR - vouchers,0.19999352797935424,0.02945578396395085,0.147283685935035
 Delivery Hero,Group,2021,32518.9,5615.2,774.6,out,DH annual reports,TSR is before vouchers; R = TSR - vouchers,0.1726749674804498,0.02381999391123316,0.13794700099729307
 Delivery Hero,Group,2022,42826.8,8424.1,794.8,out,DH annual reports,TSR is before vouchers; R = TSR - vouchers,0.19670159806476317,0.018558472732027608,0.09434835768806163

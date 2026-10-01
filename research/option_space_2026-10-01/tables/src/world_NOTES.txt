@@ -1,0 +1,33 @@
+Access date for all sources: 2 October 2026.
+
+Sources (URL -> saved text file)
+- Meituan Dianping IPO prospectus (7 Sep 2018): https://www1.hkexnews.hk/listedco/listconews/sehk/2018/0907/ltn20180907011.pdf -> meituan_ipo.txt
+- Meituan Annual Report 2019: https://www.hkexnews.hk/listedco/listconews/sehk/2020/0417/2020041700013.pdf -> meituan_ar2019.txt (checked; Transacting User incentives shown as expenses by nature, not a reduction-of-revenue table)
+- Meituan Annual Report 2022: https://media-meituan.todayir.com/202304252152521735786604_en.pdf -> meituan_ar2022.txt (checked; discusses Transacting User incentives, no full-year amount)
+- Meituan Annual Report 2024: https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0428/2025042800235.pdf -> meituan_ar2024.txt (checked; discusses Transacting User incentives as % of revenues, no full-year amount)
+- Talabat International Offering Memorandum (Nov 2024): https://ir.talabat.com/wp-content/uploads/2024/11/Talabat-Holding-plc_International-Offering-Memorandum.pdf -> talabat_iom.txt
+- Talabat local IPO prospectus (11 Nov 2024): https://ipo.emiratesnbd.com/-/media/ipo/files/talabat/talabat-holding-plc-prospectus-e.pdf -> talabat_ipo.txt (Delivery Hero FZ-LLC 2022-2023 vouchers also printed; GMV/revenue for the listed perimeter taken from IOM)
+- Talabat Integrated Annual Report 2024: https://ir.talabat.com/wp-content/uploads/2025/04/20250404_Talabat-Annual-Report-2024-En.pdf -> talabat_ar2024.txt
+- Talabat Annual Report 2025: https://ir.talabat.com/wp-content/uploads/2026/03/20260331_talabat-Annual-Report-2025-En-Interactive.pdf -> talabat_ar2025.txt
+- Deliveroo Holdings plc IPO prospectus (22 Mar 2021): https://data.fca.org.uk/artefacts/NSM/Portal/NI-000022020/NI-000022020.pdf -> deliveroo_ipo.txt
+- Just Eat Takeaway.com Annual Report 2024: https://www.lobbyregister.bundestag.de/media/12/40/776936/AR2024_JET-com.pdf -> jet_ar2024.txt
+- Jumia Technologies AG Form 20-F year ended 31 Dec 2023: https://www.sec.gov/Archives/edgar/data/1756708/000175670824000011/jmia-20231231.htm -> jumia_20f_2023.txt
+- Ozon Holdings PLC Form 20-F year ended 31 Dec 2022: https://www.sec.gov/Archives/edgar/data/1822829/000119312523115002/d445088d20f.htm -> ozon_20f_2022.txt
+- MercadoLibre, Inc. Form 10-K year ended 31 Dec 2022: https://www.sec.gov/Archives/edgar/data/1099590/000109959023000007/meli-20221231.htm -> meli_10k_2022.txt
+- Farfetch Limited Form 20-F year ended 31 Dec 2022: https://www.sec.gov/Archives/edgar/data/1740915/000095017023006698/ftch-20221231.htm -> farfetch_20f_2022.txt
+- ContextLogic Inc. Form 10-K year ended 31 Dec 2022: https://www.sec.gov/Archives/edgar/data/1822250/000095017023004711/wish-20221231.htm -> wish_10k_2022.txt
+- Alibaba Group Holding Limited Form 20-F year ended 31 Mar 2024: https://www.sec.gov/Archives/edgar/data/1577552/000095017024063767/baba-20240331.htm -> baba_20f_2024.txt
+- Coupang, Inc. Form 10-K year ended 31 Dec 2025: https://www.sec.gov/Archives/edgar/data/1834584/000183458426000024/cpng-20251231.htm -> coupang_10k_2025.txt
+
+Per company
+- Meituan: discloses amount yes; netted from revenue yes (IPO table “Reduction of revenue”; excess incentives also booked as selling and marketing expenses); years covered FY2015, FY2016, FY2017, 4M2017, 4M2018 from IPO. Later HKEX ARs 2019/2022/2024 discuss Transacting User incentives without restoring the netted-amount table (2019 Note 7 shows S&M Transacting User incentives RMB 8,149,976 thousand / 5,400,781 thousand for 2019/2018).
+- Talabat: discloses amount yes; netted from revenue yes; years covered FY2022, FY2023, 9M2023, 9M2024 (IOM, AED) and FY2024, FY2025 (AR 2025, USD).
+- Deliveroo: discloses amount no; netted from revenue unclear (incentives described; GTV defined net of discounts; no voucher amount); years checked IPO 2021.
+- Just Eat Takeaway.com: discloses amount no; netted from revenue yes (discount vouchers recognised as a reduction to revenue when redeemed); years checked FY2024 AR (policy, no amount).
+- Jumia: discloses amount no in the 20-F; netted from revenue yes (consumer incentives and marketplace subsidies recognised as a reduction of revenue); years checked FY2023 20-F. Quarterly earnings exhibits print Customer Incentives dollars but were not used because the spec asked for the 20-F.
+- Ozon: discloses amount no; netted from revenue unclear (GMV stated net of discounts; no separate incentive line vs revenue); years checked FY2022 20-F.
+- Mercado Libre: discloses amount no; netted from revenue unclear (shipping subsidies described; no amount); years checked FY2022 10-K.
+- Farfetch: discloses amount no; netted from revenue yes (fulfilment revenue net of Farfetch-funded promotional incentives); years checked FY2022 20-F.
+- Wish/ContextLogic: discloses amount no; netted from revenue yes (incentive discounts recorded as a reduction of revenue when redeemed); years checked FY2022 10-K.
+- Lazada/Alibaba: discloses amount no; netted from revenue yes when consumer incentives are payments to customers under ASC 606, otherwise selling and marketing; years checked FY2024 20-F (year ended 31 Mar 2024). Lazada named as subsidiary; no Lazada-specific incentive amount.
+- Coupang: discloses amount no; netted from revenue yes (promotional discounts reduce selling price and revenue); years checked FY2025 10-K.

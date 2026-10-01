@@ -1,0 +1,273 @@
+entity,period,field,value,unit,source_file,quote,note
+Group,FY2021,gtv,461.6,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth           461.6     Growth           17.0
+Financial                             330.2                       11.9",pro forma
+Group,FY2021,gross_revenue,17.0,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth           461.6     Growth           17.0
+Financial                             330.2                       11.9",pro forma
+Group,FY2020,gtv,330.2,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth           461.6     Growth           17.0
+Financial                             330.2                       11.9",pro forma
+Group,FY2020,gross_revenue,11.9,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth           461.6     Growth           17.0
+Financial                             330.2                       11.9",pro forma
+Group,FY2020,take_rate_gross,3.6,pct,goto_fy2021_1q22_deck.txt,FY 2020     FY 2021          3.6%       3.7%     Rate,pro forma
+Group,FY2021,take_rate_gross,3.7,pct,goto_fy2021_1q22_deck.txt,FY 2020     FY 2021          3.6%       3.7%     Rate,pro forma
+Group,1Q22,gtv,140.0,IDR_tn,goto_fy2021_1q22_deck.txt,"140.0
+                                       96.2                        3.4",actual
+Group,1Q21,gtv,96.2,IDR_tn,goto_fy2021_1q22_deck.txt,"140.0
+                                       96.2                        3.4",pro forma
+Group,1Q21,gross_revenue,3.4,IDR_tn,goto_fy2021_1q22_deck.txt,"140.0
+                                       96.2                        3.4",pro forma
+Group,1Q22,gross_revenue,5.2,IDR_tn,goto_fy2021_1q22_deck.txt,"Quarterly Year    5.2
+                                 on Year Growth             on Year Growth",actual
+Group,1Q21,take_rate_gross,3.5,pct,goto_fy2021_1q22_deck.txt,"3.5%       3.7%
+                                                                                       Rate",pro forma
+Group,1Q22,take_rate_gross,3.7,pct,goto_fy2021_1q22_deck.txt,"3.5%       3.7%
+                                                                                       Rate",actual
+Group,1Q21,take_rate_gross,3.5,pct,goto_fy2021_1q22_deck.txt,Group                    3.5%        3.7%          53%            46%,pro forma
+Group,1Q22,take_rate_gross,3.7,pct,goto_fy2021_1q22_deck.txt,Group                    3.5%        3.7%          53%            46%,actual
+Group,FY2021,gtv,461602,IDR_bn,goto_fy2021_1q22_deck.txt,"Group GTV                                               461,602                  330,176     139,998        96,209",pro forma
+Group,FY2020,gtv,330176,IDR_bn,goto_fy2021_1q22_deck.txt,"Group GTV                                               461,602                  330,176     139,998        96,209",pro forma
+Group,1Q22,gtv,139998,IDR_bn,goto_fy2021_1q22_deck.txt,"Group GTV                                               461,602                  330,176     139,998        96,209",actual
+Group,1Q21,gtv,96209,IDR_bn,goto_fy2021_1q22_deck.txt,"Group GTV                                               461,602                  330,176     139,998        96,209",pro forma
+Group,FY2021,take_rate_gross,3.7,pct,goto_fy2021_1q22_deck.txt,Take Rate                                                   3.7%                     3.6%          3.7%          3.5%,pro forma
+Group,FY2020,take_rate_gross,3.6,pct,goto_fy2021_1q22_deck.txt,Take Rate                                                   3.7%                     3.6%          3.7%          3.5%,pro forma
+Group,1Q22,take_rate_gross,3.7,pct,goto_fy2021_1q22_deck.txt,Take Rate                                                   3.7%                     3.6%          3.7%          3.5%,actual
+Group,1Q21,take_rate_gross,3.5,pct,goto_fy2021_1q22_deck.txt,Take Rate                                                   3.7%                     3.6%          3.7%          3.5%,pro forma
+Group,FY2021,incentives,-11851,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers                                     (11,851)                 (7,030)      (3,734)        (1,990)",pro forma; table row labelled Promotion to Customers
+Group,FY2020,incentives,-7030,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers                                     (11,851)                 (7,030)      (3,734)        (1,990)",pro forma; table row labelled Promotion to Customers
+Group,1Q22,incentives,-3734,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers                                     (11,851)                 (7,030)      (3,734)        (1,990)",actual; table row labelled Promotion to Customers
+Group,1Q21,incentives,-1990,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers                                     (11,851)                 (7,030)      (3,734)        (1,990)",pro forma; table row labelled Promotion to Customers
+Group,FY2021,net_revenue,5156,IDR_bn,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",pro forma
+Group,FY2020,net_revenue,4820,IDR_bn,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",pro forma
+Group,1Q22,net_revenue,1497,IDR_bn,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",actual
+Group,1Q21,net_revenue,1418,IDR_bn,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",pro forma
+Group,FY2021,contribution_margin,-9992,IDR_bn,goto_fy2021_1q22_deck.txt,"Contribution Margin                                        (9,992)                  (3,340)      (3,021)        (1,167)",pro forma
+Group,FY2020,contribution_margin,-3340,IDR_bn,goto_fy2021_1q22_deck.txt,"Contribution Margin                                        (9,992)                  (3,340)      (3,021)        (1,167)",pro forma
+Group,1Q22,contribution_margin,-3021,IDR_bn,goto_fy2021_1q22_deck.txt,"Contribution Margin                                        (9,992)                  (3,340)      (3,021)        (1,167)",actual
+Group,1Q21,contribution_margin,-1167,IDR_bn,goto_fy2021_1q22_deck.txt,"Contribution Margin                                        (9,992)                  (3,340)      (3,021)        (1,167)",pro forma
+Group,FY2021,contribution_margin,59,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,As Percent of Gross Revenues                                 59%                      28%          58%            34%,pro forma; unsigned in table
+Group,FY2020,contribution_margin,28,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,As Percent of Gross Revenues                                 59%                      28%          58%            34%,pro forma; unsigned in table
+Group,1Q22,contribution_margin,58,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,As Percent of Gross Revenues                                 59%                      28%          58%            34%,actual; unsigned in table
+Group,1Q21,contribution_margin,34,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,As Percent of Gross Revenues                                 59%                      28%          58%            34%,pro forma; unsigned in table
+Group,FY2020,contribution_margin,-3.3,IDR_tn,goto_fy2021_1q22_deck.txt,"FY 2020                                  FY 2021
+                                 (3.3)
+                                                                      (10.0)",pro forma
+Group,FY2021,contribution_margin,-10.0,IDR_tn,goto_fy2021_1q22_deck.txt,"FY 2020                                  FY 2021
+                                 (3.3)
+                                                                      (10.0)",pro forma
+Group,FY2020,contribution_margin,-28,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,"(28%)
+                                                                          (59%)",pro forma
+Group,FY2021,contribution_margin,-59,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,"(28%)
+                                                                          (59%)",pro forma
+Group,1Q21,contribution_margin,-1.2,IDR_tn,goto_fy2021_1q22_deck.txt,"(1.2)
+                                                                      (3.0)
+
+                         (34%)",pro forma
+Group,1Q22,contribution_margin,-3.0,IDR_tn,goto_fy2021_1q22_deck.txt,"(1.2)
+                                                                      (3.0)
+
+                         (34%)",actual
+Group,1Q21,contribution_margin,-34,pct_of_gross_revenue,goto_fy2021_1q22_deck.txt,"(1.2)
+                                                                      (3.0)
+
+                         (34%)",pro forma
+Group,FY2021,gross_revenue,17007,IDR_bn,goto_fy2021_1q22_deck.txt,"Gross Revenues                  17,007            11,851            5,231         3,408",pro forma
+Group,FY2020,gross_revenue,11851,IDR_bn,goto_fy2021_1q22_deck.txt,"Gross Revenues                  17,007            11,851            5,231         3,408",pro forma
+Group,1Q22,gross_revenue,5231,IDR_bn,goto_fy2021_1q22_deck.txt,"Gross Revenues                  17,007            11,851            5,231         3,408",actual
+Group,1Q21,gross_revenue,3408,IDR_bn,goto_fy2021_1q22_deck.txt,"Gross Revenues                  17,007            11,851            5,231         3,408",pro forma
+Group,FY2021,incentives,11851,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers          11,851             7,031            3,734         1,990",pro forma; recon add-back labelled Promotion to Customers
+Group,FY2020,incentives,7031,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers          11,851             7,031            3,734         1,990","pro forma; recon add-back; summary table shows (7,030)"
+Group,1Q22,incentives,3734,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers          11,851             7,031            3,734         1,990",actual; recon add-back labelled Promotion to Customers
+Group,1Q21,incentives,1990,IDR_bn,goto_fy2021_1q22_deck.txt,"Promotion to Customers          11,851             7,031            3,734         1,990",pro forma; recon add-back labelled Promotion to Customers
+On-Demand Services,FY2021,gtv,50.3,IDR_tn,goto_fy2021_1q22_deck.txt,"IDR in Trillions                                                  Growth
+                                                                                             50.3
+                                                                          40.2",pro forma; pre intercompany elimination
+On-Demand Services,FY2020,gtv,40.2,IDR_tn,goto_fy2021_1q22_deck.txt,"IDR in Trillions                                                  Growth
+                                                                                             50.3
+                                                                          40.2",pro forma; pre intercompany elimination
+On-Demand Services,1Q22,gtv,14.9,IDR_tn,goto_fy2021_1q22_deck.txt,"14.9
+                                                                                                       •   Protect+ in Indonesia",pre intercompany elimination
+On-Demand Services,1Q21,gtv,10.4,IDR_tn,goto_fy2021_1q22_deck.txt,"10.4
+                                                                                                       •   XL and Premium in Singapore",pro forma; pre intercompany elimination
+On-Demand Services,FY2020,gross_revenue,7.5,IDR_tn,goto_fy2021_1q22_deck.txt,7.5                10.3,pro forma; pre intercompany elimination
+On-Demand Services,FY2021,gross_revenue,10.3,IDR_tn,goto_fy2021_1q22_deck.txt,7.5                10.3,pro forma; pre intercompany elimination
+On-Demand Services,FY2020,take_rate_gross,18.6,pct,goto_fy2021_1q22_deck.txt,18.6%               20.4%,pro forma; pre intercompany elimination
+On-Demand Services,FY2021,take_rate_gross,20.4,pct,goto_fy2021_1q22_deck.txt,18.6%               20.4%,pro forma; pre intercompany elimination
+On-Demand Services,1Q21,take_rate_gross,19.2,pct,goto_fy2021_1q22_deck.txt,On-Demand Services      19.2%      21.0%           58%            44%,pro forma
+On-Demand Services,1Q22,take_rate_gross,21.0,pct,goto_fy2021_1q22_deck.txt,On-Demand Services      19.2%      21.0%           58%            44%,actual
+On-Demand Services,FY2021,gross_revenue,10270,IDR_bn,goto_fy2021_1q22_deck.txt,"On-Demand Services                                         10,270                    7,483        3,127          1,985",pro forma
+On-Demand Services,FY2020,gross_revenue,7483,IDR_bn,goto_fy2021_1q22_deck.txt,"On-Demand Services                                         10,270                    7,483        3,127          1,985",pro forma
+On-Demand Services,1Q22,gross_revenue,3127,IDR_bn,goto_fy2021_1q22_deck.txt,"On-Demand Services                                         10,270                    7,483        3,127          1,985",actual
+On-Demand Services,1Q21,gross_revenue,1985,IDR_bn,goto_fy2021_1q22_deck.txt,"On-Demand Services                                         10,270                    7,483        3,127          1,985",pro forma
+On-Demand Services,1Q22,gross_revenue,3.1,IDR_tn,goto_fy2021_1q22_deck.txt,on Year Growth               3.1      Better personalization & ads,pre intercompany elimination
+On-Demand Services,1Q21,take_rate_gross,19.2,pct,goto_fy2021_1q22_deck.txt,Rate            19.2%               21.0%,pro forma; pre intercompany elimination
+On-Demand Services,1Q22,take_rate_gross,21.0,pct,goto_fy2021_1q22_deck.txt,Rate            19.2%               21.0%,pre intercompany elimination
+E-commerce,FY2021,gtv,230.6,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth                         230.6
+
+                                                                     158.1",pro forma; pre intercompany elimination
+E-commerce,FY2020,gtv,158.1,IDR_tn,goto_fy2021_1q22_deck.txt,"Growth                         230.6
+
+                                                                     158.1",pro forma; pre intercompany elimination
+E-commerce,1Q22,gtv,65.1,IDR_tn,goto_fy2021_1q22_deck.txt,"65.1
+                                                                      51.0                             categories",pre intercompany elimination
+E-commerce,1Q21,gtv,51.0,IDR_tn,goto_fy2021_1q22_deck.txt,"65.1
+                                                                      51.0                             categories",pro forma; pre intercompany elimination
+E-commerce,FY2021,gross_revenue,6.3,IDR_tn,goto_fy2021_1q22_deck.txt,Growth                           6.3,pro forma; pre intercompany elimination
+E-commerce,FY2020,gross_revenue,3.5,IDR_tn,goto_fy2021_1q22_deck.txt,"Increase in merchant
+                                                                      3.5",pro forma; pre intercompany elimination
+E-commerce,FY2020,take_rate_gross,2.2,pct,goto_fy2021_1q22_deck.txt,2.2%                    2.7%,pro forma; pre intercompany elimination
+E-commerce,FY2021,take_rate_gross,2.7,pct,goto_fy2021_1q22_deck.txt,2.2%                    2.7%,pro forma; pre intercompany elimination
+E-commerce,1Q21,take_rate_gross,2.5,pct,goto_fy2021_1q22_deck.txt,E-Commerce               2.5%        2.9%          53%            28%,pro forma
+E-commerce,1Q22,take_rate_gross,2.9,pct,goto_fy2021_1q22_deck.txt,E-Commerce               2.5%        2.9%          53%            28%,actual
+E-commerce,1Q22,gross_revenue,1.9,IDR_tn,goto_fy2021_1q22_deck.txt,"                                                                                              1.9
+                                                                                                       fulfilment offerings
+                                                                      1.3",pre intercompany elimination
+E-commerce,1Q21,gross_revenue,1.3,IDR_tn,goto_fy2021_1q22_deck.txt,"                                                                                              1.9
+                                                                                                       fulfilment offerings
+                                                                      1.3",pro forma; pre intercompany elimination
+E-commerce,1Q21,take_rate_gross,2.5,pct,goto_fy2021_1q22_deck.txt,2.5%                    2.9%,pro forma; pre intercompany elimination
+E-commerce,1Q22,take_rate_gross,2.9,pct,goto_fy2021_1q22_deck.txt,2.5%                    2.9%,pre intercompany elimination
+E-commerce,FY2021,gross_revenue,6264,IDR_bn,goto_fy2021_1q22_deck.txt,"6,264
+                                                                                          1,161",pro forma
+Financial Technology,FY2021,gross_revenue,1161,IDR_bn,goto_fy2021_1q22_deck.txt,"6,264
+                                                                                          1,161",pro forma
+Financial Technology,FY2021,gtv,214.9,IDR_tn,goto_fy2021_1q22_deck.txt,80%                                       214.9,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,FY2020,gtv,119.2,IDR_tn,goto_fy2021_1q22_deck.txt,"119.2
+IDR in Trillions",pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,1Q22,gtv,77.5,IDR_tn,goto_fy2021_1q22_deck.txt,"77.5
+
+                                                                     40.5",pre intercompany elimination
+Financial Technology,1Q21,gtv,40.5,IDR_tn,goto_fy2021_1q22_deck.txt,"77.5
+
+                                                                     40.5",pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,FY2020,gross_revenue,1.0,IDR_tn,goto_fy2021_1q22_deck.txt,Services.                                                           1.0                                 1.1,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,FY2021,gross_revenue,1.1,IDR_tn,goto_fy2021_1q22_deck.txt,Services.                                                           1.0                                 1.1,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,FY2020,take_rate_gross,0.8,pct,goto_fy2021_1q22_deck.txt,0.8%                               0.5%,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,FY2021,take_rate_gross,0.5,pct,goto_fy2021_1q22_deck.txt,0.8%                               0.5%,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,1Q21,take_rate_gross,0.6,pct,goto_fy2021_1q22_deck.txt,0.6%                               0.5%,pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Financial Technology,1Q22,take_rate_gross,0.5,pct,goto_fy2021_1q22_deck.txt,0.6%                               0.5%,pre intercompany elimination
+Financial Technology,1Q22,gross_revenue,0.4,IDR_tn,goto_fy2021_1q22_deck.txt,"on Year Growth1                              0.4
+                                                                     0.2",pre intercompany elimination
+Financial Technology,1Q21,gross_revenue,0.2,IDR_tn,goto_fy2021_1q22_deck.txt,"on Year Growth1                              0.4
+                                                                     0.2",pro forma; pre intercompany elimination; excludes divested/spun-off businesses
+Group,1Q22,gtv,140,IDR_tn,goto_fy2021_transcript.txt,"Our overall GTV
+grew 46% year-on-year to Rp140 trillion.",pro forma basis stated on the call
+Group,1Q22,gross_revenue,5,IDR_tn,goto_fy2021_transcript.txt,"gross revenue growth of 53% to Rp5 trillion, which outpaced GTV growth.",rounded; call also states Rp5.2 trillion
+Group,1Q22,gross_revenue,5.2,IDR_tn,goto_fy2021_transcript.txt,"GoTo gross revenue grew faster by 53% year-on-year
+to Rp5.2 trillion.",pro forma basis stated on the call
+Group,1Q21,take_rate_gross,3.5,pct,goto_fy2021_transcript.txt,GoTo Group’s take rate increased from 3.5% to 3.7% year-on-year.,pro forma
+Group,1Q22,take_rate_gross,3.7,pct,goto_fy2021_transcript.txt,GoTo Group’s take rate increased from 3.5% to 3.7% year-on-year.,
+On-Demand Services,1Q22,gtv,14.9,IDR_tn,goto_fy2021_transcript.txt,"Our on-
+demand services GTV grew 44% year-on-year to Rp14.9 trillion.",
+On-Demand Services,1Q22,gross_revenue,3.1,IDR_tn,goto_fy2021_transcript.txt,"Our Q1 2022
+gross revenue for on-demand services was Rp3.1 trillion, up 58% year-on-year.",
+E-commerce,1Q22,gtv,65.1,IDR_tn,goto_fy2021_transcript.txt,"first quarter GTV from
+our market leading e-commerce platform was Rp65.1 trillion, up 28% year-on-year",
+E-commerce,1Q22,gross_revenue,1.9,IDR_tn,goto_fy2021_transcript.txt,"The e-commerce segment’s Q1 2022 gross revenue was Rp1.9 trillion, up 53% year-on-year.",
+E-commerce,1Q21,take_rate_gross,2.5,pct,goto_fy2021_transcript.txt,Take rates also improved from 2.5% in Q1 last year to 2.9% in Q1 this year.,pro forma
+E-commerce,1Q22,take_rate_gross,2.9,pct,goto_fy2021_transcript.txt,Take rates also improved from 2.5% in Q1 last year to 2.9% in Q1 this year.,
+Financial Technology,1Q22,gtv,77.5,IDR_tn,goto_fy2021_transcript.txt,"GoTo Financial’s Q1 2022 GTV was
+Rp77.5 trillion this year, which grew 91% year-on-year.",
+Financial Technology,1Q22,gross_revenue,358,IDR_bn,goto_fy2021_transcript.txt,"Fintech's Q1 2022 gross revenue was Rp358 billion, up 47% year-on-year, while take rate
+remained stable.",
+On-Demand Services,1Q22,take_rate_gross,21,pct,goto_fy2021_transcript.txt,"increase in on-demand services and e-commerce take rate to 21% and 2.9%, respectively.",rounded vs 21.0% on the deck
+E-commerce,1Q22,take_rate_gross,2.9,pct,goto_fy2021_transcript.txt,"increase in on-demand services and e-commerce take rate to 21% and 2.9%, respectively.",
+Group,2Q22,gtv,150.5,IDR_tn,goto_2q22_release.txt,2Q22 GTV up 39% year on year to Rp150.5 trillion,actual
+Group,2Q22,gross_revenue,5.5,IDR_tn,goto_2q22_release.txt,2Q22 gross revenue up 45% year on year to Rp5.5 trillion,actual
+Group,1H22,gtv,290.5,IDR_tn,goto_2q22_release.txt,GTV grew 42% year on year to Rp290.5 trillion.,actual
+Group,1H22,gross_revenue,10.7,IDR_tn,goto_2q22_release.txt,Gross revenue grew 49% year on year to Rp10.7 trillion.,actual
+Group,2Q22,gtv,150536495,IDR_mn,goto_2q22_release.txt,"GTV                                                 150,536,495               108,044,156            290,534,777             204,252,894",actual; Rp in millions
+Group,1H22,gtv,290534777,IDR_mn,goto_2q22_release.txt,"GTV                                                 150,536,495               108,044,156            290,534,777             204,252,894",actual; Rp in millions
+On-Demand Services,2Q22,gtv,14940661,IDR_mn,goto_2q22_release.txt,"- On-demand Services                                  14,940,661               11,525,206             29,828,317               21,882,484",actual; Rp in millions
+On-Demand Services,1H22,gtv,29828317,IDR_mn,goto_2q22_release.txt,"- On-demand Services                                  14,940,661               11,525,206             29,828,317               21,882,484",actual; Rp in millions
+E-commerce,2Q22,gtv,67343402,IDR_mn,goto_2q22_release.txt,"- E-commerce                                         67,343,402                55,952,675            132,478,307              106,972,685",actual; Rp in millions
+E-commerce,1H22,gtv,132478307,IDR_mn,goto_2q22_release.txt,"- E-commerce                                         67,343,402                55,952,675            132,478,307              106,972,685",actual; Rp in millions
+Financial Technology,2Q22,gtv,87317367,IDR_mn,goto_2q22_release.txt,"Services                                            87,317,367               46,761,075            164,767,670              87,298,650",actual; Rp in millions
+Financial Technology,1H22,gtv,164767670,IDR_mn,goto_2q22_release.txt,"Services                                            87,317,367               46,761,075            164,767,670              87,298,650",actual; Rp in millions
+Group,2Q22,gross_revenue,5506983,IDR_mn,goto_2q22_release.txt,"Gross Revenue                                         5,506,983                 3,786,694             10,738,427                 7,193,010",actual; Rp in millions
+Group,1H22,gross_revenue,10738427,IDR_mn,goto_2q22_release.txt,"Gross Revenue                                         5,506,983                 3,786,694             10,738,427                 7,193,010",actual; Rp in millions
+On-Demand Services,2Q22,gross_revenue,3228665,IDR_mn,goto_2q22_release.txt,"- On-demand Services                                  3,228,665                 2,291,493             6,355,859                4,326,265",actual; Rp in millions
+On-Demand Services,1H22,gross_revenue,6355859,IDR_mn,goto_2q22_release.txt,"- On-demand Services                                  3,228,665                 2,291,493             6,355,859                4,326,265",actual; Rp in millions
+E-commerce,2Q22,gross_revenue,2098277,IDR_mn,goto_2q22_release.txt,"- E-commerce                                          2,098,277                  1,315,543              4,011,268               2,569,633",actual; Rp in millions
+E-commerce,1H22,gross_revenue,4011268,IDR_mn,goto_2q22_release.txt,"- E-commerce                                          2,098,277                  1,315,543              4,011,268               2,569,633",actual; Rp in millions
+Financial Technology,2Q22,gross_revenue,401321,IDR_mn,goto_2q22_release.txt,"Services                                               401,321                  260,039                759,438                  501,222",actual; Rp in millions
+Financial Technology,1H22,gross_revenue,759438,IDR_mn,goto_2q22_release.txt,"Services                                               401,321                  260,039                759,438                  501,222",actual; Rp in millions
+Group,2Q22,net_revenue,1902617,IDR_mn,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",actual; Rp in millions
+Group,1H22,net_revenue,3399988,IDR_mn,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",actual; Rp in millions
+Group,2Q22,contribution_margin,-2023415,IDR_mn,goto_2q22_release.txt,"Contribution Margin7                                 (2,023,415)                (2,160,782)          (4,560,086)               (2,751,629)",actual; Rp in millions
+Group,1H22,contribution_margin,-4560086,IDR_mn,goto_2q22_release.txt,"Contribution Margin7                                 (2,023,415)                (2,160,782)          (4,560,086)               (2,751,629)",actual; Rp in millions
+On-Demand Services,2Q22,gtv,14.9,IDR_tn,goto_2q22_release.txt,GTV                         14.9                      11.5                       30%,actual
+On-Demand Services,2Q22,gross_revenue,3.2,IDR_tn,goto_2q22_release.txt,Gross Revenue               3.2                       2.3                        41%,actual
+E-commerce,2Q22,gtv,67.3,IDR_tn,goto_2q22_release.txt,GTV                         67.3                      56.0                        20%,actual
+E-commerce,2Q22,gross_revenue,2.1,IDR_tn,goto_2q22_release.txt,Gross Revenue               2.1                       1.3                         59%,actual
+Financial Technology,2Q22,gtv,87.3,IDR_tn,goto_2q22_release.txt,GTV                         87.3                      46.8                       87%,actual
+Financial Technology,2Q22,gross_revenue,0.4,IDR_tn,goto_2q22_release.txt,Gross Revenue               0.4                       0.3                        54%,actual
+E-commerce,2Q22,take_rate_gross,3.1,pct,goto_2q22_release.txt,take rate improvements of 18 basis points and 60 basis points to 3.1% and 21.6% respectively.,actual
+On-Demand Services,2Q22,take_rate_gross,21.6,pct,goto_2q22_release.txt,take rate improvements of 18 basis points and 60 basis points to 3.1% and 21.6% respectively.,actual
+E-commerce,2Q22,take_rate_gross,3.1,pct,goto_2q22_release.txt,We saw take rates improve by 76 basis points year on year from 2.4% to 3.1% in 2Q22,actual
+Group,2Q22,incentives_pct_of_gtv,-3.5,pct_of_GTV,goto_2q22_release.txt,"Reduction in total incentives as a percentage of GTV by 52 basis points quarter on quarter to
+       -3.5%, supported by our continued focus on driving quality growth.",actual
+On-Demand Services,2Q22,gtv,14.9,IDR_tn,goto_2q22_release.txt,"On-demand services GTV grew to Rp 14.9 trillion in Q2, an increase of 30% year on year.",actual
+On-Demand Services,2Q22,gross_revenue,3.2,IDR_tn,goto_2q22_release.txt,"Second quarter gross revenue was Rp3.2 trillion, up 41% year on year.",actual
+Group,2Q22,gtv,150.5,IDR_tn,goto_2q22_release.txt,"Group GTV grew 39% year on year to Rp 150.5 trillion. Gross revenue continued to grow
+faster than GTV, up 45% year on year to Rp 5.5trillion.",actual
+Group,2Q22,gross_revenue,5.5,IDR_tn,goto_2q22_release.txt,"Group GTV grew 39% year on year to Rp 150.5 trillion. Gross revenue continued to grow
+faster than GTV, up 45% year on year to Rp 5.5trillion.",actual
+Group,FY2021,note_text,,,goto_fy2021_1q22_deck.txt,Total incentives include value of (i) discounts & promotions for consumers (demand incentives); and (ii) incentives for driver-partners & merchants (supply incentives).,definition of demand vs supply incentives
+Group,FY2021,note_text,,,goto_fy2021_1q22_deck.txt,"Contribution margin equals net revenue less cost of revenues, and sales & marketing expenses.",CM after net revenue
+Group,FY2021,note_text,,,goto_fy2021_1q22_deck.txt,"Note: Contribution Margin is calculated by deducting revenue with cost of revenue, incentive and sales & marketing cost",incentives included in CM calculation
+Group,2Q22,note_text,,,goto_2q22_release.txt,"Gross revenue represents the total Rupiah value attributable to GoTo Group from each transaction, without any adjustments for
+incentives paid to driver-partners and merchant partners or promotions to end-users, over the period of measurement.",gross is before incentives; incentives/promotions are the adjustment toward net
+Group,2Q22,note_text,,,goto_2q22_release.txt,"Our strategic move
+away from subsidy-driven incentives towards product-led differentiation is working.",why incentives changed
+Group,2Q22,note_text,,,goto_2q22_release.txt,"We reduced incentives quarter on quarter which, combined with stronger monetization, led to Group
+contribution margin improving 47 basis points and Adjusted EBITDA margin improving by 69 basis points
+quarter on quarter as a percentage of GTV, accelerating our path to profitability.",why incentives and margins changed
+Group,2Q22,note_text,,,goto_2q22_release.txt,"Reduction in total incentives as a percentage of GTV by 52 basis points quarter on quarter to
+       -3.5%, supported by our continued focus on driving quality growth.",why incentives changed
+E-commerce,2Q22,note_text,,,goto_2q22_release.txt,"This
+       was driven by changes in our ecommerce merchant take rate and the introduction of platform fees.",why take rate changed
+On-Demand Services,2Q22,note_text,,,goto_2q22_release.txt,"Gross
+revenue grew faster than GTV and was driven by a higher take rate, which was up 173 basis points year on
+year compared with 2Q21.",why take rate changed
+E-commerce,2Q22,note_text,,,goto_2q22_release.txt,"We saw take rates improve by 76 basis points year on year from 2.4% to 3.1% in 2Q22
+driven by our upgraded commission scheme for C2C merchants, introduced in June 2022.",why take rate changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"we continue to increase monetization and reduce incentives, to optimize the
+efficiency of our core products.",why incentives changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"We have reduced both incentives to
+customers, as well as sales and marketing expenses, as a percentage of GTV by 90 basis points
+and 40 basis points quarter-on-quarter respectively.",why incentives changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"GoTo Group’s take rate increased from 3.5% to 3.7% year-on-year. This is driven by the
+increase in on-demand services and e-commerce take rate to 21% and 2.9%, respectively.",why take rate changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"This could be
+attributed to monetization initiatives such as higher take rates, platform fees, and the release of
+new premium product offerings.",why take rate changed
+On-Demand Services,1Q22,note_text,,,goto_fy2021_transcript.txt,"This is primarily
+attributed to the increase in merchant commissions bundled with value-added services, additional
+platform fees, and strength of our logistics business. As a result, take rate for on-demand was up
+180 basis points year-on-year.",why take rate changed
+E-commerce,1Q22,note_text,,,goto_fy2021_transcript.txt,"Take rates also improved from 2.5% in Q1 last year to 2.9% in Q1 this year. This was driven by
+our continued focus on monetization initiatives, especially value-added services.",why take rate changed
+Group,FY2021,note_text,,,goto_fy2021_transcript.txt,"ahead of the formation of GoTo Group in May 2021, we made a conscious
+decision to suppress incentives and subsidies in order to deploy these for our cross-platform
+growth initiatives upon the launch of the Group.",why incentives changed
+Group,FY2021,note_text,,,goto_fy2021_transcript.txt,"In the second half of 2021, we accelerated
+investments in incentives and subsidies to increase cross-pollination and expand our cross-
+platform user base.",why incentives changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"Heading into Q1 2022, we saw sequential improvement in our contribution
+margin, as we continue to focus on incentives rationalization with the rollout of spending cap
+across Food & Mobility, as well as eliminating the spend on cohorts of unprofitable users.",why incentives changed
+Group,1Q22,note_text,,,goto_fy2021_transcript.txt,"And we also leveraged our consolidated consumer data with machine-learning
+technology to more efficiently allocate incentives and subsidies.",why incentives changed
+Group,2Q22,take_rate_net,,,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",not stated as % of GTV
+On-Demand Services,2Q22,net_revenue,,,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",segment net revenue not printed
+E-commerce,2Q22,net_revenue,,,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",segment net revenue not printed
+Financial Technology,2Q22,net_revenue,,,goto_2q22_release.txt,"Net Revenues                                           1,902,617                 1,164,393             3,399,988               2,582,324",segment net revenue not printed
+Financial Technology,2Q22,take_rate_gross,,,goto_2q22_release.txt,"increasing by 54% year on year, while take rate remained stable.",2Q22 fintech take rate level not printed
+Group,2Q22,take_rate_gross,,,goto_2q22_release.txt,"Gross revenue continued to grow
+faster than GTV, up 45% year on year to Rp 5.5trillion.",group 2Q22 take rate as % of GTV not printed
+On-Demand Services,FY2021,net_revenue,,,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",segment net revenue not printed
+E-commerce,FY2021,net_revenue,,,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",segment net revenue not printed
+Financial Technology,FY2021,net_revenue,,,goto_fy2021_1q22_deck.txt,"Group Net Revenues                                          5,156                    4,820        1,497          1,418",segment net revenue not printed
+On-Demand Services,2Q22,contribution_margin,,,goto_2q22_release.txt,"positive contribution margin
+for overall on-demand services in Indonesia for the second quarter.",positive stated; amount not printed
+Group,1Q22,incentives_pct_of_gtv,,,goto_fy2021_1q22_deck.txt,"90 bps                                                                                          100 bps
+                                   4Q21 vs 1Q22",level not printed; only 90 bps 4Q21 vs 1Q22 change

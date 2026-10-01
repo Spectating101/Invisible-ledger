@@ -1,0 +1,10 @@
+goto_fy2021_press_release.txt is stored in a custom/garbled encoding (plus ROT13 footnotes), so numeric rows were not taken from it.
+Promotion to Customers is the only printed incentive amount; the deck never labels a row “incentives”, and FY2020 recon 7,031 vs table (7,030) disagree by 1.
+Contribution margin “As Percent of Gross Revenues” is unsigned in the summary table (59/28/58/34) while the chart prints (59%)/(28%)/(58%)/(34%).
+Segment GTV and gross revenue on the deck charts are labelled pre intercompany elimination; group figures are after eliminations.
+Fintech FY2020, FY2021 and 1Q21 GTV/gross revenue exclude businesses divested or spun off in FY2021.
+take_rate_net (net revenue as % of GTV) is not printed for any entity/period.
+Segment net revenue and segment contribution-margin amounts are not printed (ODS Indonesia 2Q22 CM is only called “positive”).
+1Q22 incentives as % of GTV is not printed as a level, only a 90 bps 4Q21 vs 1Q22 change.
+2Q21 figures appear in the 2Q22 release but that period is outside the allowed period list.
+Deck CM notes conflict: one includes incentive in the CM formula, another is net revenue less cost of revenues and sales & marketing.

@@ -83,6 +83,40 @@ add("Shopee", "E-commerce", 2018, se.loc[2018, "transaction_value"], se.loc[2018
 add("DoorDash", "Marketplace", 2018, 2812.0, 291.0, 60.0, "out", "DASH S-1A", "promotions primarily contra-revenue")
 add("DoorDash", "Marketplace", 2019, 8039.0, 885.0, 182.0, "out", "DASH S-1A", "promotions primarily contra-revenue")
 
+# GoTo Group FY2020 -> FY2021 (group-level 'Promotion to Customers' = demand-side incentives only; same firm as the in-sample on-demand rows)
+gt = pd.read_csv(T + "src/goto_2021_extraction.csv")
+gt = gt[gt.value.notna() & (gt.entity == "Group") & gt.period.isin(["FY2020", "FY2021"])]
+for y in (2020, 2021):
+    q = gt[(gt.period == f"FY{y}") & (gt.unit == "IDR_bn")].drop_duplicates("field").set_index("field").value
+    add("GoTo Group", "Group", y, q["gtv"], q["net_revenue"], -q["incentives"], "out", "GoTo FY2021 results deck", "IDR bn; incentives = Promotion to Customers (demand side only); same firm as GoTo on-demand")
+
+# Lyft FY2021-FY2024 (10-K: incentives recorded as a reduction to revenue; Gross Bookings printed from FY2021; bn figures are as printed, rounded)
+ly = pd.read_csv(T + "src/us_10k_extraction.csv")
+ly = ly[ly.value.notna() & (ly.entity == "LYFT")]
+def lval(field, y):
+    s = ly[(ly.field == field) & (ly.period == f"FY{y}")].drop_duplicates("field")
+    v = float(s.value.iloc[0]); return v * 1000 if s.unit.iloc[0] == "USD_bn" else v
+for y in (2021, 2022, 2023, 2024):
+    add("Lyft", "Rides", y, lval("gross_volume", y), lval("revenue", y), lval("incentive_level", y), "out", "Lyft 10-Ks", "USD m; incentives printed in bn for 2021-23 (rounded)")
+
+# Meituan 2015-2017 (IPO prospectus: incentives to Transacting Users recorded as a reduction of revenue). CAUTION: take rate rose on a food-delivery mix shift
+wd = pd.read_csv(T + "src/world_extraction.csv")
+wd = wd[wd.value.notna() & ~wd.field.isin(["note_text", "disclosure_check"])]
+def wval(ent, field, per):
+    s = wd[(wd.entity == ent) & (wd.field == field) & (wd.period == per)]
+    return float(s.value.iloc[0])
+for y in (2015, 2016, 2017):
+    p = f"FY{y}"
+    add("Meituan", "Group", y, wval("Meituan", "gross_volume", p) * 1e9, wval("Meituan", "revenue", p) * 1e3, wval("Meituan", "incentives", p) * 1e3, "out", "Meituan IPO prospectus", "RMB; mix shift into food delivery drove the take rate (prospectus)")
+
+# Talabat: vouchers and other discounts deducted from revenue. AED for FY2022-23, USD for FY2024-25 (separate series; no cross-currency transition)
+tb = {("AED", 2022): (wval("Talabat", "gross_volume", "FY2022"), wval("Talabat", "revenue", "FY2022") / 1e6, wval("Talabat", "incentives", "FY2022")),
+      ("AED", 2023): (wval("Talabat", "gross_volume", "FY2023"), wval("Talabat", "revenue", "FY2023") / 1e6, wval("Talabat", "incentives", "FY2023")),
+      ("USD", 2024): (wval("Talabat", "gross_volume", "FY2024"), wval("Talabat", "revenue", "FY2024"), wval("Talabat", "incentives", "FY2024")),
+      ("USD", 2025): (wval("Talabat", "gross_volume", "FY2025"), wval("Talabat", "revenue", "FY2025"), wval("Talabat", "incentives", "FY2025"))}
+for (cur, y), (V_, R_, I_) in tb.items():
+    add("Talabat", cur, y, V_, R_, I_, "out", "Talabat IOM / annual report 2025", f"{cur} m")
+
 # Delivery Hero FY2020-FY2025: R = Total Segment Revenue (before vouchers) - vouchers; GMV in EUR m.  2019 excluded (basis restated in 2020).
 dh = pd.read_csv(T + "delivery_hero_vouchers.csv")
 dh = dh[dh.period.str.match(r"^20(2[0-5])FY$")]
@@ -164,3 +198,20 @@ if __name__ == "__main__":
     print("\nP2 (L>=1, m rising): iota share of the rise\n", hi[["firm", "seg", "year", "sample", "L", "d_m_pp", "d_iota_pp", "d_tau_pp", "iota_share_of_rise", "p2_pass"]].round(2).to_string())
     print("\nrank test\n", rk.round(3).to_string())
     print(R[R.eps == 0.20].round(2).to_string())
+
+
+def big_moves(eps=0.20):
+    """EXPLORATORY (formed after seeing the data, not pre-registered): for every transition with |dlnm| > eps and a known change in
+    incentives, was the move discount-driven (incentive change accounts for more than half of the move in m)?  and what was L before it?"""
+    Z = X[X.dlnm.notna() & X.d_iota_pp.notna() & (X.dlnm.abs() > eps)].copy()
+    Z["iota_share_of_move"] = np.where(Z.d_m_pp != 0, -Z.d_iota_pp / Z.d_m_pp, np.nan)
+    Z["kind"] = np.where(Z.iota_share_of_move > 0.5, "discount-driven", "fee / mix / other")
+    return Z[["firm", "seg", "year", "sample", "L", "dlnm", "d_m_pp", "d_iota_pp", "iota_share_of_move", "kind"]]
+
+
+if __name__ == "__main__":
+    Bm = big_moves()
+    Bm.to_csv(T + "l_big_moves.csv", index=False)
+    print("\nBIG MOVES (|dlnm|>0.20), exploratory\n", Bm.round(2).to_string())
+    low = X[(X.dlnm.notna()) & (X.L < 1)]
+    print(f"\ntransitions with L<1: {len(low)}; with |dlnm|>0.20: {(low.dlnm.abs() > 0.2).sum()}")
