@@ -4,11 +4,10 @@ on:
   push:
     branches: [main, proposal/integrated-2026-09-16]
     paths:
-      - papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx
-      - papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf
+      - papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf
       - papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md
-      - papers/current/IL_Oral_Deck_v1.pptx
-      - papers/current/IL_Oral_Deck_v1_preview.pdf
+      - papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx
+      - papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko_preview.pdf
       - scripts/export_canonical_proposal_text.py
       - scripts/validate_current_artifacts.py
       - .github/workflows/verify-current-artifacts.yml
@@ -28,10 +27,5 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
-          python -m pip install python-docx
       - name: Check active files and hashes
         run: python scripts/validate_current_artifacts.py
-      - name: Check generated text is reproducible
-        run: |
-          python scripts/export_canonical_proposal_text.py
-          git diff --exit-code -- papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md

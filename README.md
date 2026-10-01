@@ -14,7 +14,7 @@ For the integrated explanation of how the issuer, BPS, ASEAN, and global evidenc
 
 For the closest-literature map, evidence-to-claim matrix, and complete section-by-section manuscript architecture, read [the literature–empirical integration](docs/LITERATURE_EMPIRICAL_INTEGRATION_2026-09-11.md).
 
-The proposal currently in use is the [September 24 Word file](papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.docx), with a [matching PDF](papers/current/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.pdf) and [searchable text mirror](papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md). The [oral deck](papers/current/IL_Oral_Deck_v1.pptx) and [preview](papers/current/IL_Oral_Deck_v1_preview.pdf) were saved on September 25. See [the artifact map](CANONICAL_ARTIFACTS.md) for the active paths and update rule.
+The proposal currently in use is the [27 September 2026 PDF](papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf) (examined 1 October 2026), with a [searchable text mirror](papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md). No editable source for it has been located. The earlier 24 September files are superseded. The deck presented at the oral is [v4.10](papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx) (the old `IL_Oral_Deck_v1` is not the presented deck and is archived). See [the artifact map](CANONICAL_ARTIFACTS.md) for the active paths and update rule.
 
 The generated thesis manuscript is a separate, earlier work stream; see [the current manuscript source](papers/current/Invisible_Ledger_Thesis_Manuscript.md). The September 11 integrated manuscript is historical.
 
