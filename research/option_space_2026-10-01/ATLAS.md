@@ -1,4 +1,4 @@
-> **READ FIRST (1 Oct 2026).** This atlas is a research reference, not the thesis plan. Its frames F1 to F10 and the "pivot map" were options explored before the researcher ruled out a concept pivot; the thesis executes the 27 September proposal (see `AGENTS.md`). Use it for the recomputed numbers, the audit erratum and the data-source notes only.
+> **READ FIRST (1 Oct 2026).** This atlas is a research reference, not the thesis plan. Its frames F1 to F10 and the "pivot map" were options explored before the researcher ruled out a concept pivot; the thesis executes the 27 September proposal (see `AGENTS.md`). Use it for the recomputed numbers, the audit erratum and the data-source notes only. **Update 2 Oct 2026:** later research is indexed in `README.md` (this folder); pre-registered tests are in `PREREGISTRATION.md`; the cap's legal basis is unverified as 'Perpres 27/2026' (GoTo cites Ministerial Decree 532/2026).
 
 # Invisible Ledger: thesis option-space atlas
 

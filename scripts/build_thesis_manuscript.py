@@ -18,7 +18,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def P(*a): return os.path.join(REPO, *a)
 
 BOUNDARY = sys.argv[1] if len(sys.argv) > 1 else 'direct_plus_scope_pending'
-OUT      = sys.argv[2] if len(sys.argv) > 2 else P('papers/current/Invisible_Ledger_Thesis_Manuscript.md')
+OUT      = sys.argv[2] if len(sys.argv) > 2 else P('papers/current/archive/manuscripts_2026-09/Invisible_Ledger_Thesis_Manuscript.md')
 
 TIERS = {
     'direct_only':                ['direct_indonesia_aligned_segment'],

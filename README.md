@@ -16,7 +16,7 @@ For the closest-literature map, evidence-to-claim matrix, and complete section-b
 
 The proposal currently in use is the [27 September 2026 PDF](papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf) (examined 1 October 2026), with a [searchable text mirror](papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md). No editable source for it has been located. The earlier 24 September files are superseded. The deck presented at the oral is [v4.10](papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx) (the old `IL_Oral_Deck_v1` is not the presented deck and is archived). See [the artifact map](CANONICAL_ARTIFACTS.md) for the active paths and update rule.
 
-The generated thesis manuscript is a separate, earlier work stream; see [the current manuscript source](papers/current/Invisible_Ledger_Thesis_Manuscript.md). The September 11 integrated manuscript is historical.
+There is no current manuscript: the September manuscripts are archived in `papers/current/archive/manuscripts_2026-09/` and are stale. The October 2026 research is indexed in [research/option_space_2026-10-01/README.md](research/option_space_2026-10-01/README.md); its pre-registered tests are in [PREREGISTRATION.md](research/option_space_2026-10-01/PREREGISTRATION.md).
 
 Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
 
@@ -56,7 +56,7 @@ Invisible-ledger/
 ├── AGENTS.md
 ├── docs/                       # research history, method, status, limitations
 ├── papers/
-│   ├── current/                # current working manuscript
+│   ├── current/                # active proposal PDF, text mirror, presented deck (manuscripts archived)
 │   ├── milestones/             # representative historical versions
 │   └── proposals/              # proposal versions; not all are current
 ├── data/

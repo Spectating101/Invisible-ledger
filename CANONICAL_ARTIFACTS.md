@@ -26,11 +26,11 @@ The presented deck (confirmed by the researcher on 1 October 2026) is `papers/cu
 
 ## Manuscript
 
-The manuscript is a separate, earlier work stream:
+There is no current manuscript. The September manuscripts are archived and stale (they predate the 27 September proposal and the October research):
 
-- generator: `scripts/build_thesis_manuscript.py`
-- searchable manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.md`
-- rendered manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.docx` and `.pdf`
+- archived in `papers/current/archive/manuscripts_2026-09/` (Thesis_Manuscript, Integrated_Manuscript_2026-09-11, Working_Manuscript_2026-09-09)
+- generator: `scripts/build_thesis_manuscript.py` (its default output now points at that archive folder)
+- the October 2026 research that the thesis will draw on is indexed in `research/option_space_2026-10-01/README.md`; the pre-registered tests are in `research/option_space_2026-10-01/PREREGISTRATION.md`
 
 Do not infer proposal wording from the manuscript or from historical candidate, comparison, or surgery files.
 

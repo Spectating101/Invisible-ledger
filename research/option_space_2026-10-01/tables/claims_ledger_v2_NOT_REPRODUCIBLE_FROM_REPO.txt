@@ -1,0 +1,4 @@
+analyst extrapolation (analyst_extrapolation.py): needs licensed LSEG consensus
+market value scaling (multiples_dispersion.py): needs licensed LSEG market caps
+timing_table.py Nasdaq drawdown column: needs licensed LSEG index prices
+v_definition_map.py: quotes read from scratch copies of filings (paths inside)
