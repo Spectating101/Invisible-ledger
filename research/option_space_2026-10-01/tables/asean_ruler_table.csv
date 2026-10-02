@@ -1,0 +1,14 @@
+country,year,series,usd_bn,econ_usd_bn,ratio_to_econ
+Indonesia,2023,"BPS total (all channels, businesses)",72.25,59,1.22
+Indonesia,2024,BPS total,81.29,65,1.25
+Indonesia,2024,Bank Indonesia e-commerce value,30.71,65,0.47
+Malaysia,2023,"DOSM e-commerce income, total",259.64,13,19.97
+Malaysia,2023,DOSM B2C,73.81,13,5.68
+Malaysia,2024,"DOSM e-commerce income, total",281.46,16,17.59
+Malaysia,2024,DOSM B2C,81.88,16,5.12
+Thailand,2023,"ETDA total ex e-Auction, incl. B2G",167.1,22,7.6
+Thailand,2023,ETDA B2C,83.47,22,3.79
+Thailand,2024,ETDA B2C (forecast),88.08,26,3.39
+Vietnam,2023,IDEA B2C,20.5,19,1.08
+Vietnam,2023,VECOM total,25.0,19,1.32
+Vietnam,2024,VECOM total,32.0,22,1.45
