@@ -1,0 +1,45 @@
+Access date for all URLs below: 2026-10-02.
+
+1) https://idea.gov.vn/?page=document and https://idea.gov.vn/file/<id>
+   IDEA / Vietnam E-commerce and Digital Economy Agency (Ministry of Industry and Trade), Ấn phẩm.
+   Downloaded PDFs, pdftotext -layout -> idea_wb_2018.txt through idea_wb_2023.txt.
+   Posted dates on IDEA: 2018-09-10, 2019-09-20, 2020-07-24, 2021-07-14, 2022-09-09, 2023-07-25.
+   EXIST: ecommerce_value B2C (tỷ USD) 2018-2023; ecommerce_share_of_retail 2018-2023; ecommerce_businesses as MOIT portal accounts / notified and registered website-apps (clear 2023 counts; earlier years in charts); sample_or_census (survey n); definition of B2C (goods+services via e-commerce channel, excluding finance/banking/credit/insurance/online games). Release: Sách trắng / Thương mại điện tử Việt Nam yearly.
+   DO NOT EXIST here: 2024 or 2025 White Book (page 1 lists through 2023 only; page 2 has 2018 and older). No GMV split by marketplace / social / own site / livestream (only consumer channel preference). No foreign-supplier tax or platform withholding collections. White Book 2018 covers 2015-2017 B2C, not 2018.
+
+2) https://vecom.vn/bao-cao-chi-so-thuong-mai-dien-tu-viet-nam-2025
+   PDF: https://cdn.hstatic.net/files/200001086672/file/bao-cao-chi-so-thuong-mai-dien-tu-ebi-2025-vietnamese.pdf
+   -> vecom_ebi_2025.txt. VECOM E-Business Index 2025, listed 2025-04-27.
+   EXIST: 2024 total e-commerce 32 tỷ USD; online goods retail 22,5 tỷ USD; share of retail+services ~12% (and 10% for 2023 in the same sentence); survey of thousands of firms; % of surveyed firms on marketplaces by year. Quotes IDEA saying 2024 e-commerce “trên 25 tỷ USD” without a goods-retail split.
+   DO NOT EXIST: census of all sellers; official GDT tax totals; 2025 full-year official B2C from IDEA.
+
+3) https://vecom.vn/bao-cao-chi-so-thuong-mai-dien-tu-viet-nam-ebi-2024
+   PDF used: https://sct.dongnai.gov.vn/uploads/sct/news/2024/05/bao-cao-ebi-2024-vn.pdf (Dong Nai Department of Industry and Trade host of the VECOM 2024 report; VECOM page itself did not expose a direct PDF in this session).
+   -> vecom_ebi_2024.txt. Listed 2024-04-23.
+   EXIST: 2023 VECOM total 25 tỷ USD; goods retail 17,3; share ~10% vs 8,5% in 2022.
+   DO NOT EXIST: IDEA-consistent 20,5 figure (VECOM and IDEA differ for 2023).
+
+4) https://www.nso.gov.vn/du-lieu-dac-ta/2023/11/htcttkqg-so-thuong-nhan-co-giao-dich-thuong-mai-dien-tu/
+   NSO / GSO metadata, posted 2023-01-01. Saved as gso_ecom_merchants.txt.
+   EXIST: definition of “số thương nhân có giao dịch thương mại điện tử”; publication cycle 2 years; compiling agency Bộ Công Thương.
+   DO NOT EXIST: any yearly count on that page.
+
+5) https://www.nso.gov.vn/tin-tuc-thong-ke/2026/01/thong-cao-bao-chi-ty-trong-gia-tri-tang-them-cua-kinh-te-so-trong-gdp-grdp-giai-doan-2021-2025/
+   NSO press release 2026-01-05. Saved as gso_digital_economy_2025.txt.
+   EXIST: digital-economy VA in GDP 2021-2025; sentence that wholesale/retail digitalization (e-commerce) is about 11,8% of digital-economy VA in 2025 — not B2C GMV and not share of retail sales.
+   DO NOT EXIST: B2C e-commerce revenue or share of total retail.
+
+6) Tax — General Department of Taxation / Ministry of Finance / eTax
+   Tried: https://www.gdt.gov.vn/ ; provincial gdt.gov.vn; https://portal.mof.gov.vn/ ; https://etaxvn.gdt.gov.vn mentioned in rules; https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-117-2025-nd-cp-45045.htm ; https://vanban.chinhphu.vn/?docid=213883&pageid=27160 ; MOF DVC pages on platform withholding (Nghị định 117/2025/NĐ-CP, 09/06/2025, effective 01/07/2025).
+   EXIST as rules only: foreign suppliers register/declare/pay via eTax portal (Thông tư 80/2021/TT-BTC); platform withholding for household/individual sellers from 01/07/2025 (Decree 117/2025).
+   DO NOT EXIST on those official pages (this access): yearly VND collections from foreign digital suppliers; yearly platform-withholding collections; official registered-foreign-supplier count. News articles citing 8.687 tỷ / 20.261 tỷ / 116-123 suppliers were skipped.
+
+7) SBV / NAPAS
+   Tried: https://sbv.gov.vn/ annual report 2024 page; SBV cashless-payment articles; NAPAS figures only as reprinted on SBV news.
+   EXIST: cashless / NAPAS transaction counts and values (not e-commerce GMV).
+   DO NOT EXIST: official e-commerce payment GMV series tied to B2C retail.
+
+8) e-Conomy SEA
+   Printed inside VECOM EBI 2025 (36 tỷ USD / 22 tỷ USD goods). Not used as a row because official IDEA/VECOM figures exist for those years.
+
+Business COUNTS and VALUE for the same years: VALUE (B2C tỷ USD and share of retail) exists for 2018-2024 from IDEA White Books (2018-2023) and VECOM EBI (2023-2024). Comparable official COUNTS of all e-commerce businesses/sellers do not exist for those same years; IDEA publishes MOIT portal account and website-app notification/registration counts (clear for 2023), and VECOM publishes survey percentages of firms using each channel, not a census of sellers.

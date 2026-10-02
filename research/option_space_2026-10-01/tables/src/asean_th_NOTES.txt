@@ -1,0 +1,42 @@
+Access date for all URLs below: 2026-10-02.
+
+ETDA — Value of e-Commerce Survey (primary)
+- https://opendata.etda.or.th/dataset/dataset_25_01 and CKAN API package_show id=dataset_25_01 (official statistics; last_year 2567; metadata_modified 2025-07-04). Saved: etda_opendata_catalog.txt, etda_value_industry.txt, etda_value_channel.txt, etda_pct_b2x.txt.
+- EXISTS: ecommerce_value by industry and total, 2557–2566 actual + 2567 forecast, million baht, EXCLUDING e-Auction. B2B/B2C/B2G shares 2557–2567. Channel-value CSV 2558–2566 exists but columns are sparse/inconsistent, so channel shares were taken from the 2567 report instead of that CSV.
+- DOES NOT EXIST in the CSVs: operator headcounts; absolute B2B/B2C/B2G values (shares only); a published sample size.
+- https://www.etda.or.th/th/Useful-Resource/publications/e-Commerce-Survey-in-Thailand-2023.aspx and .../e-Commerce-Survey-in-Thailand-2023_TH.aspx — Value of e-Commerce Survey in Thailand 2023 (English mini-report used). PDF: getattachment/44c8ac6d-.../mini-report-ecommerce-66-Ebook.pdf.aspx. Saved: etda_ecom_2023_en.txt.
+- EXISTS: 2021–2022 actual and 2023F totals INCLUDING government procurement; B2B/B2C/B2G values and shares; industry values; OECD definition; B2G = CGD e-market + e-bidding only; Yamane sample design (about 3,200 / 3,312 / 400 per industry).
+- https://www.etda.or.th/th/Useful-Resource/publications/value_ecom67.aspx — รายงานผลการสำรวจมูลค่าพาณิชย์อิเล็กทรอนิกส์ ในประเทศไทย ปี 2567. PDF: getattachment/375a66fe-.../2025_ETDA24_E-commerce_Report_A5_20250609.pdf.aspx. Saved: etda_ecom_2024.txt.
+- EXISTS: 2566 actual 5,815,362 million baht and 2567F 6,131,008; B2B/B2C/B2G values; retail 3,028,979; channel shares (e-Marketplaces 34.46%, own site 20.11%, social 16.72%, e-Tailer 9.48%).
+- https://www.etda.or.th/th/Useful-Resource/publications/ValueThailand2021.aspx — 2021 report PDF downloaded for coverage; figures for 2018–2020 were taken from the later official CSV instead of re-quoted from the older report.
+- https://www.etda.or.th/th/Useful-Resource/documents-for-download.aspx?group=1 lists “Thailand E-Commerce Value Survey Report 2025: Business Sector” but no direct PDF URL was exposed in the HTML; 2025 business-sector totals were not extracted.
+- DOES NOT EXIST: a published yearly count of e-commerce operators in the ETDA reports/CSVs used.
+
+NSO — establishment ICT (primary)
+- https://www.nso.go.th/nsoweb/nso/survey_detail/NH and https://www.nso.go.th/nsoweb/storage/survey_detail/2024/20231004084135_87842.pdf (also catalogapi.nso.go.th copy). Saved: nso_ict_est_2022.txt, nso_ict_est_2022_summary.txt.
+- EXISTS: 2022 frame 2,555,699 establishments (rounded 2.56 million); sample 281,254; 18.7% sold via internet; 22.2% purchased via internet; definition (website / social / marketplace / EDI / email; payment/delivery any channel). Scope is establishments in selected activities, not an e-commerce operator register; includes micro (1–10 workers are 95.1% in the summary).
+- DOES NOT EXIST in this 2022 report: e-commerce GMV; a time series of seller counts for 2018–2025.
+- NSO “Survey of e-Commerce Status in Thailand” page (survey_detail/wl) only lists 2007–2014 editions — outside the 2018–2025 window.
+- Household ICT (survey_detail/jJ): 2569 Q1 one-pager downloaded (24.8 million households; 86,880-household sample) but year 2569 is outside 2018–2025 and the sheet has no e-commerce GMV/seller count. Older year PDFs were not in the static HTML (appear to load by year tab).
+
+Revenue Department — VES and platforms (primary)
+- https://www.rd.go.th/fileadmin/user_upload/news/2565thai/news7_2565.pdf (ปชส.7/2565, 12 Nov 2021). Saved: rd_ves_news7_2565.txt. EXISTS: Oct 2021 VAT 686.57 million baht; tax base 9,808.15; 106 registrants; online-goods VAT 209.58.
+- https://www.rd.go.th/fileadmin/user_upload/news/2565thai/news19_2565.pdf (ปชส.19/2565, 18 Mar 2022). Saved: rd_ves_news19_2565.txt. EXISTS: 5-month figures but many digits are Thai numerals, so those rows were not used in extraction.csv.
+- https://www.rd.go.th/fileadmin/user_upload/news/2565thai/news25_2565.pdf (ปชส.25/2565, 29 Apr 2022). Saved: rd_ves_news25_2565.txt. EXISTS: Oct 2021–Mar 2022 VAT 4,261.25 million baht; tax base 60,874.98; 127 registrants; online-goods VAT 1,113.29; advertising VAT 2,689.51. FY2565 full-year figure is only a forecast (“ใกล้เคียงหนึ่งหมื่นล้านบาท”), not used as an actual.
+- https://rd.go.th/fileadmin/download/eService.pdf — official VES guide. Saved: rd_ves_guide.txt. EXISTS: definitions; 1.8 million baht registration threshold; output-tax-only rule from 1 Sep 2021. DOES NOT EXIST: annual collection table.
+- https://www.rd.go.th/fileadmin/user_upload/kormor/newlaw/p53.pdf — Revenue Code Amendment Act (No. 53). Saved: rd_ves_act53.txt. Law only; no statistics.
+- https://efiling.rd.go.th/rd-cms/platform — special account for electronic platforms from accounting periods starting 1 Jan 2024; 1,000 million baht revenue threshold. Saved: rd_platform_special_account.txt. Reporting rule, not VAT collections.
+- https://eservice.rd.go.th/rd-ves-web/search/company — registrant name search; no published total count.
+- https://data.rd.go.th/dataset/ds_taxsumyea — monthly tax by type (VAT 005 is all VAT, not VES).
+- news25_2566.pdf and news25_2567.pdf on rd.go.th are unrelated (Shopee payment MOU; auditor conduct).
+- DOES NOT EXIST on rd.go.th as of this access: official VES collections or registrant totals for 2023, 2024 or 2025.
+
+DBD / Ministry of Finance / Thai e-Business registration
+- https://dbdregistered.dbd.go.th/ and https://www.dbd.go.th — mark and forms exist. opendata.dbd.go.th has juristic-person counts, not an e-commerce operator series.
+- DOES NOT EXIST as a primary statistical table used here: yearly registered e-commerce operator counts. A 122,225 “DBD Registered” shops figure appeared only in news media (mgronline) and was skipped.
+
+Bank of Thailand
+- Payment tables (PS_PT_003, Payment Data Indicators) are e-payment / card / e-money, not e-commerce GMV. Not used, because official ETDA e-commerce values exist. e-Conomy SEA was not used for the same reason.
+
+Business COUNTS and VALUE for the same years:
+- VALUE exists for 2018–2024 (ETDA). A national business COUNT that is specifically “e-commerce operators” does not exist for those years in the official files used; NSO 2022 gives the share of all establishments selling online (18.7% of 2.56 million) for 2022 only, so count and value are not both published as matched e-commerce-operator series.

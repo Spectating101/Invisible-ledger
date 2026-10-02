@@ -1,0 +1,77 @@
+Access date for all sources: 2 October 2026.
+
+DOSM — Usage of ICT and E-Commerce by Establishment 2025 (ICTEC 2025), reference year 2024
+URL: https://www.dosm.gov.my/uploads/release-content/file_20260701151045.pdf
+Text: ictec_2025.txt (pdftotext -layout)
+Exists: 2024 and revised 2023 e-commerce income total; B2B/B2C/B2G; domestic/international; sector splits; web-presence channel shares (own website / e-marketplace / social media) as percentages of establishments; OECD definition; annual survey sample size 14,137; registered-establishment scope.
+Does not exist: count of establishments selling online for 2023 or 2024; marketplace or website transaction VALUE; 2018–2022 annual totals in this book (2023–2024 only); response-rate percentage.
+
+DOSM — ICTEC 2025 media statement
+URL: https://www.dosm.gov.my/uploads/release-content/file_20260630095843.pdf
+Text: ictec_2025_media.txt
+Exists: same 2024 income headline figures; release date 30 June 2026.
+Does not exist: establishment counts.
+
+DOSM — Malaysia Digital Economy 2025 press
+URL: https://www.dosm.gov.my/uploads/release-content/file_20260327194100.pdf
+Text: de_2025_press.txt
+Exists: 2025 Q1–Q3 income RM937.5 billion; Q2 RM313.8 billion; Q3 RM312.6 billion; 2023 B2B/B2C/B2G recap; release 26 November 2025.
+Does not exist: full-year 2025; business counts.
+
+DOSM — Malaysia Digital Economy 2024 press
+URL: https://www.dosm.gov.my/uploads/release-content/file_20241219110012.pdf
+Text: de_2024.txt
+Exists: 2022 census recap — 78,236 e-commerce establishments, income RM1,126.9 billion, B2B/B2C/B2G; 2024 nine-month RM918.2 billion; release 19 December 2024.
+Does not exist: 2023 establishment count.
+
+DOSM — Malaysia Digital Economy 2023 publication
+URL: https://storage.dosm.gov.my/gdp/digitaleconomy_2022.pdf
+Text: de_2023.txt
+Exists: 2015, 2017, 2019, 2020, 2021, 2022 (quarterly compilation RM1,099.721 million units = RM1,099.7 billion) income in Table 28; 2019 and 2021 B2B/B2C/B2G in Table 25; published November 2023.
+Does not exist: 2018 annual income (series skips 2016 and 2018); 2020 B2B/B2C/B2G in the narrative tables I used; establishment counts.
+
+DOSM — Economic Census 2023 ICTEC release page
+URL: https://www.dosm.gov.my/portal-main/release-content/economic-census-2023-usage-of-ict-and-e-commerce-by-establishment
+Text: dosm_ec2023_ictec.txt
+Exists: 2022 census — 78,236 e-commerce establishments of 1,091,867 total; 2015 47,556 e-commerce establishments; income RM1,126.9 billion (2022) and RM398.2 billion (2015); B2B/B2C/B2G; latest release 29 November 2024.
+Does not exist: linked publication PDFs (document-log IDs 12443–12453 redirected to 404 on 2 Oct 2026).
+
+DOSM — Q1 2021 / ICTEC 2020 release page
+URL: https://www.dosm.gov.my/portal-main/release-content/income-of-e-commerce-transactions-surged-30.0-per-cent-in-the-first-quarter-2021
+Text: dosm_q1_2021.txt
+Exists: 2019 RM675.4 billion (and 2019 B2B/B2C/B2G in the overview); 2020 RM896.4 billion; Q1 2021 RM254.6 billion; released 6 July 2021.
+Does not exist: 2018.
+
+Royal Malaysian Customs — Guide on Digital Service by FSP
+URL: https://mystods.customs.gov.my/storage/app/media/pdf/guide/Guide%20on%20Digital%20Service%20by%20FSP_Appendix1.pdf
+Text: stods_guide.txt
+Exists: SToDS from 1 January 2020; RM500,000 threshold; platform operator (OPO) must count marketplace sales toward the operator’s threshold, not the underlying FSP.
+Does not exist: collections or registrant counts.
+
+Royal Malaysian Customs — MySToDS about page
+URL: https://mystods.customs.gov.my/about-mystods
+Text: mystods_about.txt
+Exists: legal definition of SToDS / FRP / consumer / threshold.
+Does not exist: collections or number of FRPs (public FRP search has no aggregate).
+
+MOF — Fiscal Outlook 2026, Federal Government Revenue section 2
+URL: https://belanjawan.mof.gov.my/pdf/belanjawan2026/revenue/section2.pdf
+Text: mof_section2.txt
+Exists: SToDS introduced 1 January 2020, B2C on foreign registered persons; LVG 10% from January 2024 on imports below RM500 via e-commerce platforms, RM500,000 seller registration.
+Does not exist: SToDS or LVG collection time series.
+
+Dewan Rakyat Hansard, 25 November 2025 (MOF II oral answer)
+URL: http://parlimen.gov.my/files/hindex/pdf/DR-25112025.pdf
+Text: hansard_25112025.txt
+Exists: SToDS collections 2021 RM802 million, 2022 RM999 million, 2023 RM1.15 billion, 2024 RM1.62 billion; LVG 2024 RM476 million; 493 e-Dagang registrants (not labelled SToDS FRP).
+Does not exist: 2020 or 2025 SToDS collections; official FRP register total.
+
+Bank Negara Malaysia — Annual Report 2025, payments chapter
+URL: https://www.bnm.gov.my/documents/20124/21185005/ar2025_en_ch1e.pdf
+Text: bnm_ar2025_ch1e.txt
+Exists: retail e-payment value 2025 RM831 billion, 2024 RM698.2 billion (cards, e-money, FPX, DuitNow OBW).
+Does not exist: a standalone “e-commerce payments” table equal to DOSM income.
+
+Tried and not used as figures: MOF press pages (mof.gov.my/portal/.../akhbar and press-citations) returned HTTP 500 “blocked”; news articles with the same SToDS numbers skipped per spec; e-Conomy SEA not used because official DOSM income exists; ICTEC 2024 technical notes PDF and Annual E-Commerce Survey 2025 questionnaire downloaded for method only (ictec_2024_notes.pdf, ecommerce_survey_guide.pdf); Economic Census PDF files 404.
+
+COUNTS and VALUE for the same years: both exist only for census years 2015 and 2022 (47,556 / RM398.2 billion; 78,236 / RM1,126.9 billion). For 2019–2021 and 2023–2025, official VALUE exists but no official COUNT of e-commerce establishments, so growth cannot be split into more businesses versus more sales per business.

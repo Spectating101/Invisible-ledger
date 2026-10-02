@@ -1,0 +1,138 @@
+entity,period,field,value,unit,source_file,quote,note
+Thailand,2018,ecommerce_value,3211720.00,million_THB,etda_value_industry.txt,""",""2,267,020.00"",""3,211,720.00"",""3,431,300.00"",""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2561."
+Thailand,2019,ecommerce_value,3431300.00,million_THB,etda_value_industry.txt,""",""3,211,720.00"",""3,431,300.00"",""3,007,900.00"",""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2562."
+Thailand,2020,ecommerce_value,3007900.00,million_THB,etda_value_industry.txt,""",""3,431,300.00"",""3,007,900.00"",""4,417,528.20"",""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2563."
+Thailand,2021,ecommerce_value,4417528.20,million_THB,etda_value_industry.txt,""",""3,007,900.00"",""4,417,528.20"",""4,865,826.19"",""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2564."
+Thailand,2022,ecommerce_value,4865826.19,million_THB,etda_value_industry.txt,""",""4,417,528.20"",""4,865,826.19"",""5,189,244.24"",""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2565."
+Thailand,2023,ecommerce_value,5189244.24,million_THB,etda_value_industry.txt,""",""4,865,826.19"",""5,189,244.24"",""5,512,632.16""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2566."
+Thailand,2024,ecommerce_value,5512632.16,million_THB,etda_value_industry.txt,""",""5,189,244.24"",""5,512,632.16""","Official ETDA open-data CSV, million baht, excludes e-Auction. 2567 is a forecast. BE 2567."
+Thailand,2018,ecommerce_value,1256980.00,million_THB,etda_value_industry.txt,""",""660,630.00"",""1,256,980.00"",""1,319,800.00""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2019,ecommerce_value,1319800.00,million_THB,etda_value_industry.txt,"""1,256,980.00"",""1,319,800.00"",""1,434,700.00""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2020,ecommerce_value,1434700.00,million_THB,etda_value_industry.txt,"""1,319,800.00"",""1,434,700.00"",""2,601,316.42""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2021,ecommerce_value,2601316.42,million_THB,etda_value_industry.txt,"""1,434,700.00"",""2,601,316.42"",""2,832,410.11""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2022,ecommerce_value,2832410.11,million_THB,etda_value_industry.txt,"""2,601,316.42"",""2,832,410.11"",""3,028,979.15""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2023,ecommerce_value,3028979.15,million_THB,etda_value_industry.txt,"""2,832,410.11"",""3,028,979.15"",""3,234,658.16""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2024,ecommerce_value,3234658.16,million_THB,etda_value_industry.txt,"""3,028,979.15"",""3,234,658.16""",Retail and wholesale; official CSV excludes e-Auction.
+Thailand,2022,ecommerce_value,5434826,million_THB,etda_ecom_2023_en.txt,"nted to 5,434,826 million baht. This is an increase of
+5.05% from 2021",2023 survey report; includes government procurement.
+Thailand,2023,ecommerce_value,5964965,million_THB,etda_ecom_2023_en.txt,"5,964,965 million baht in 2023F, an increase of
+9.7",2023F forecast in 2023 report.
+Thailand,2021,ecommerce_value,5173528,million_THB,etda_ecom_2023_en.txt,"alue of 5,173,528 million baht. This is partly a r",2021 total including government procurement.
+Thailand,2022,ecommerce_value,2809387,million_THB,etda_ecom_2023_en.txt,"alue of 2,809,387 million
+    baht. This is a",B2C 2022.
+Thailand,2021,ecommerce_value,2461004,million_THB,etda_ecom_2023_en.txt,"2,461,004 million baht in 2021. One f",B2C 2021.
+Thailand,2022,ecommerce_value,2056438,million_THB,etda_ecom_2023_en.txt,"his was 2,056,438 million baht, an increase of 5.11% fr",B2B 2022.
+Thailand,2021,ecommerce_value,1956523,million_THB,etda_ecom_2023_en.txt,"1,956,523 million baht in 2021, in li",B2B 2021.
+Thailand,2022,ecommerce_value,569000,million_THB,etda_ecom_2023_en.txt,"lued at 569 billion baht, a decrease of 24.74% from 756,000
+    ",B2G 2022 printed as 569 billion.
+Thailand,2021,ecommerce_value,756000,million_THB,etda_ecom_2023_en.txt,".74% from 756,000
+     million baht in 2021.[6]",B2G 2021.
+Thailand,2022,ecommerce_value,51.7,percent,etda_ecom_2023_en.txt,"largest at 51.7%,
+    followed by the B2B sector at 37.8",B2C share 2022 including government procurement.
+Thailand,2022,ecommerce_value,37.8,percent,etda_ecom_2023_en.txt,"B2B sector at 37.8%, and finally the B2G sector a",B2B share 2022.
+Thailand,2022,ecommerce_value,10.5,percent,etda_ecom_2023_en.txt,"B2G sector at 10.5%.
+      ",B2G share 2022.
+Thailand,2022,ecommerce_value,2832410,million_THB,etda_ecom_2023_en.txt,"lued at 2,832,410 million baht, or 58.21%, due
+to ",Retail and wholesale 2022.
+Thailand,2022,ecommerce_value,699557,million_THB,etda_ecom_2023_en.txt,"699,557 million baht or 14.38%. Accordin",Manufacturing 2022.
+Thailand,2022,ecommerce_value,552995,million_THB,etda_ecom_2023_en.txt,"552,995 million baht, or 9.83%. Land
+tra",Transportation 2022.
+Thailand,2022,sample_or_census,3312,respondents,etda_ecom_2023_en.txt,"                                        3,312
+                       Population      ",Target sample in 2023 survey methodology.
+Thailand,2022,sample_or_census,3200,respondents,etda_ecom_2023_en.txt,"       ≈            3,200
+        N = To",Yamane minimum sample at 95% / 5% error.
+Thailand,2022,sample_or_census,400,respondents,etda_ecom_2023_en.txt,"sample of 400         8 industry
+     ",Per industry group.
+Thailand,2022,sample_or_census,100000,operators,etda_ecom_2023_en.txt,"lation is more than 100,000,
+                                      ","Yamane illustration population 100,000."
+Thailand,2022,definition,,,etda_ecom_2023_en.txt,"The sale by businesses of goods or services to customers via the internet,
+ or the sending by customers of purchase orders for goods or services via the
+ internet (through a website or by email) with payment and delivery by any
+ channel. This includes purchase orders receiv",ETDA e-commerce definition (OECD).
+Thailand,2022,definition,,,etda_ecom_2023_en.txt,"excludes purchase orders received by telephone,
+ fax or general email correspondence without a purchase order for goods and
+ se","Excludes telephone, fax or general email without a purchase order."
+Thailand,2022,definition,,,etda_ecom_2023_en.txt,"ets (e-markets) and electronic bidding (e-bidding) only, referring to
+          data from the C",B2G is CGD e-markets and e-bidding only.
+Thailand,2022,definition,,,etda_ecom_2023_en.txt,"Payment and delivery may be by any channel.)
+☐ S",Payment/delivery channel does not change classification.
+Thailand,2023,ecommerce_value,5815362,million_THB,etda_ecom_2024.txt,"                         ู ่า 5,815,362 ล้้านบาท และคาดการณ์์ว่่าปีี 2567 จะมีีมูลค่     ",2567 survey report; 2566 actual including B2G.
+Thailand,2024,ecommerce_value,6131008,million_THB,etda_ecom_2024.txt,"67 จะมีีมูลค่            ู ่า 6,131,008 ล้้านบาท
+         ข",2567F forecast.
+Thailand,2023,ecommerce_value,2284223,million_THB,etda_ecom_2024.txt,"บ B2B มีีมูู ลค่่ า 2,284,223 ล้้ าน บาท เติิ บ โตร้้อยล ะ 11.08",B2B 2566.
+Thailand,2023,ecommerce_value,2905021,million_THB,etda_ecom_2024.txt,"ีี 2566 มีีมููลค่่า 2,905,021 ล้้านบาท เติิบโตร้้อยละ 3.40 และคา",B2C 2566.
+Thailand,2023,ecommerce_value,626117,million_THB,etda_ecom_2024.txt,"          ู ่า 626,117 ล้้านบาท ขยายตััวร้้อยละ 10.0",B2G 2566.
+Thailand,2024,ecommerce_value,2404071,million_THB,etda_ecom_2024.txt,"     ู า่ 2,404,071 ล้้านบาท สอดคล้้องก",B2B 2567F.
+Thailand,2024,ecommerce_value,3108562,million_THB,etda_ecom_2024.txt,"     ู ่า 3,108,562 ล้้านบาท จากการขยาย",B2C 2567F.
+Thailand,2024,ecommerce_value,618376,million_THB,etda_ecom_2024.txt,"วมของ B2G 618,376 ล้้านบาท หดตััวลงร้",B2G 2567F.
+Thailand,2023,ecommerce_value,3028979,million_THB,etda_ecom_2024.txt,"่าทั้้�งสิ้้�น 3,028,979 ล้้านบาท คิิดเป็็นร้้อยล",Retail and wholesale 2566.
+Thailand,2023,ecommerce_value_channel,34.46,percent,etda_ecom_2024.txt,34.46%                                   ,e-Marketplaces share of channel value.
+Thailand,2023,ecommerce_value_channel,20.11,percent,etda_ecom_2024.txt,20.11%                             สัดส่วนของม,Own website/app share.
+Thailand,2023,ecommerce_value_channel,16.72,percent,etda_ecom_2024.txt,"16.72%
+             20.11%                         ",Social media of the business share.
+Thailand,2023,ecommerce_value_channel,9.48,percent,etda_ecom_2024.txt,"9.48%
+                       e-Mark",e-Tailer share.
+Thailand,2022,ecommerce_businesses,2555699,establishments,nso_ict_est_2022.txt,"54 แห่ง จากทั้งสิ้น 2,555,699 แห่ง ซึ่งกระจายไปตามภาค
+และขน",NSO 2022 ICT establishment frame; not e-commerce-only.
+Thailand,2022,sample_or_census,281254,establishments,nso_ict_est_2022.txt,"าร
+ตัวอย่างทั้งสิ้น 281,254 แห่ง จากทั้งสิ้น 2,555,699 แห่ง ซึ",Stratified systematic sample.
+Thailand,2022,ecommerce_businesses,2.56,million_establishments,nso_ict_est_2022.txt,"ประเทศมีประมาณ 2.56 ล้านแห่ง
+      เมื ่อพิจ ารณ",Rounded national total.
+Thailand,2022,ecommerce_businesses,18.7,percent,nso_ict_est_2022.txt,"ทางอินเทอร์เน็ตมีร้อยละ 18.7
+ของสถานประกอบการทัง้ สิน",Share of establishments selling via internet.
+Thailand,2022,ecommerce_businesses,22.2,percent,nso_ict_est_2022.txt,มีร้อยละ 22.2 สำหรับการขายสินค้าหรือบริการทางอินเทอร์เน็ตมีร้อยละ ,Share purchasing via internet.
+Thailand,2022,definition,,,nso_ict_est_2022.txt,"ในการสำรวจครั้งนี้ หมายถึง สถานประกอบการที่มีการขายสินค้า
+หรือบริการให้ลูกค้าผ่านทางอินเทอร์เน็ต หรือหมายถึง การให้ลูกค้าสั่งซื้อสั่งจอง
+สิน ค้าหรื อบริการผ่านทางอิน เทอร์เ น็ต (ผ่านทางหน้าเว็บ ไซต์ Social Network
+ตลาดกลางออนไลน์ Social Media Extranet EDI ห","NSO definition: website, social, marketplace, EDI or email."
+Thailand,2021-10,ves_collections,686.57,million_THB,rd_ves_news7_2565.txt,"          686.57
+หมายเหตุ: ตารา","RD ปชส.7/2565, 12 Nov 2021; October 2021 VAT."
+Thailand,2021-10,ves_collections,9808.15,million_THB,rd_ves_news7_2565.txt,"        9,808.15           686.57
+หม",October 2021 electronic-service value (tax base).
+Thailand,2021-10,ves_registrants,106,registrants,rd_ves_news7_2565.txt,เบียนแล้วจานวน 106 ราย และมียอดค่าบริการอิเล็กทรอนิกส์รวมกว่า,VES registrants after first month.
+Thailand,2021-10,platform_collections,209.58,million_THB,rd_ves_news7_2565.txt," 2,993.96           209.58
+ บริการสม",October 2021 VAT on foreign online-goods platforms.
+Thailand,2021-10/2022-03,ves_collections,4261.25,million_THB,rd_ves_news25_2565.txt,"น เงิ น ทั้ ง สิ้ น 4,261.25 ล้ า นบาท ทั้ ง นี้ คาดว","RD ปชส.25/2565, 29 Apr 2022; Oct 2021–Mar 2022 VAT."
+Thailand,2021-10/2022-03,ves_collections,60874.98,million_THB,rd_ves_news25_2565.txt,"กทรอนิ กส์ รวม 60,874.98 ล้ านบาท คิ ดเป็ นภาษี มู ลค่",Electronic-service value Oct 2021–Mar 2022.
+Thailand,2022-04,ves_registrants,127,registrants,rd_ves_news25_2565.txt,"ะเบียน VES รวม 127 ราย และมียอด
+มู ลค่ าบริ การอิ เล",Foreign VES registrants as of 25 Apr 2022.
+Thailand,2021-10/2022-03,platform_collections,1113.29,million_THB,rd_ves_news25_2565.txt,"       15,904.13    1,113.29
+  บริการส","VAT on foreign online-goods platforms, 6 months."
+Thailand,2021-10/2022-03,platform_collections,2689.51,million_THB,rd_ves_news25_2565.txt,"  38,421.59    2,689.51
+  บริการข","VAT on foreign online advertising, 6 months."
+Thailand,2021,definition,,,rd_ves_guide.txt,"Electronic service refers to service including incorporeal property which is delivered over the
+Internet or any other electronic network and the nature of which renders their service
+essentially automated and impossible to ensure in the absence of information technology.1
+Examples of such elect",Official RD VES guide.
+Thailand,2021,definition,,,rd_ves_guide.txt,"Electronic platform refers to market, channel, or any other procedure that many service
+providers use to provide their services to the service recipients.2 (Electronic platform acts as an
+intermediary between service providers and service recipien",Platform as intermediary.
+Thailand,2021,ves_registrants,1.8,million_THB_threshold,rd_ves_guide.txt,more than 1.8 million baht per year from providing electronic services to non-VAT reg,Registration threshold for non-resident providers.
+Thailand,2021,platform_collections,,,rd_ves_guide.txt,"output tax without input tax deduction starting from 1 September 2021.5
+The e",Collection rule: output tax only. No later-year VES amounts found.
+Thailand,2024,platform_collections,1000,million_THB,rd_platform_special_account.txt,"ยะเวลาบัญชี มากกว่า 1,000 ล้านบาท
+
+ หน",Special-account filing threshold from 1 Jan 2024; not a collection amount.
+Thailand,2024,definition,,,rd_platform_special_account.txt,"หมายถึง ผู้ให้บริการผ่านสื่อกลางทางอิเล็กทรอนิกส์ที่มีการบริหารจัดการข้อมูล
+ เพื่อให้เกิดการเชื่อมต่อกันระหว่างผู้ประกอบการกับผู้บริโภค
+ เพื่อให้เกิดธุรกรร",RD special-account definition of electronic platform.
+Thailand,2023,release_note,2023,year,etda_ecom_2023_en.txt,"Value of e-Commerce Survey in Thailand 2023
+
+
+
+Subm",ETDA Data Analytics Center English edition; 2022 actual + 2023F.
+Thailand,2024,release_note,,,etda_ecom_2024.txt,"รายงานผลการสํารวจมูลค่าพาณิชย์อิเล็กทรอนิกส์
+ในประเท",Thai 2567 report; ETDA PDF dated 20250609.
+Thailand,2025,release_note,2025,year,etda_opendata_catalog.txt,"2025-07-04T00:02:59.817221
+url: htt",ETDA Data Catalog official statistics last modified 4 July 2025.
+Thailand,2022,release_note,2565,year_be,nso_ict_est_2022.txt,"สถานประกอบการ พ.ศ. 2565
+The 2022 Establishm",NSO 2022 Establishment ICT survey full report.
+Thailand,2022,release_note,2565,year_be,rd_ves_news25_2565.txt,"ปชส.๒๕/๒๕๖๕
+วันที่แถลงข่าว ๒๙ เมษายน",RD official press ปชส.25/2565 dated 29 April 2565.
+Thailand,2023,ves_collections,,,rd_ves_news25_2565.txt,No official RD VES collection total published after April 2022.,"Tried rd.go.th news25_2566/2567 (not VES), data.rd.go.th ds_taxsumyea (VAT not split to VES)."
+Thailand,2024,ves_collections,,,rd_ves_news25_2565.txt,No official RD VES collection total for FY2567 found.,Same search as 2023.
+Thailand,2025,ves_collections,,,rd_ves_news25_2565.txt,No official RD VES collection total for 2025 found.,Only FY2022 first-half figures on rd.go.th.
+Thailand,2023,ves_registrants,,,rd_ves_news25_2565.txt,No official published VES registrant count after 25 April 2022.,VES name search exists but no published total.
+Thailand,2018-2025,ecommerce_businesses,,,etda_opendata_catalog.txt,"ETDA open data has values and shares, not operator headcounts by year.",Reports describe DBD lists plus unregistered operators; no yearly count published.
+Thailand,2018-2025,ecommerce_businesses,,,etda_opendata_catalog.txt,No official DBD statistical table of e-commerce operators used.,dbd.go.th / dbdregistered / opendata.dbd.go.th checked; news-only counts skipped.
+Thailand,2018-2025,ecommerce_value,,,etda_opendata_catalog.txt,BOT e-payment tables were not used as e-commerce GMV.,"Official ETDA value series exists, so e-Conomy SEA was not used."
