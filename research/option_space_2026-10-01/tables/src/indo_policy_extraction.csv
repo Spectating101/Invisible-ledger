@@ -1,0 +1,50 @@
+entity,period,field,value,unit,source_file,quote,note
+DJP,2020,pmse_vat_collected,2020,year,djp_pmse_2024.txt,"Rp731,4 miliar setoran tahun 2020","printed Rp731,4 miliar"
+DJP,2021,pmse_vat_collected,2021,year,djp_pmse_2024.txt,"Rp3,90 triliun setoran tahun 2021","printed Rp3,90 triliun"
+DJP,2022,pmse_vat_collected,2022,year,djp_pmse_2024.txt,"Rp5,51 triliun setoran tahun 2022","printed Rp5,51 triliun"
+DJP,2023,pmse_vat_collected,2023,year,djp_pmse_2024.txt,"Rp6,76 triliun setoran tahun 2023","printed Rp6,76 triliun"
+DJP,2024,pmse_vat_collected,2024,year,djp_pmse_2024.txt,"Rp8,44 triliun setoran tahun 2024","printed Rp8,44 triliun"
+DJP,cumulative to 31 Dec 2024,pmse_vat_collected,174,count-adjacent,djp_pmse_2024.txt,"174 PMSE telah melakukan pemungutan dan penyetoran PPN PMSE sebesar Rp25,35 triliun","printed cumulative Rp25,35 triliun"
+DJP,cumulative to 31 Dec 2024,pmse_collectors,211,count,djp_pmse_2024.txt,sampai dengan Desember 2024 pemerintah telah menunjuk 211 pelaku usaha PMSE menjadi pemungut Pajak Pertambahan Nilai (PPN),appointed collectors
+DJP,cumulative to 31 Dec 2024,pmse_collectors,174,count,djp_pmse_2024.txt,"174 PMSE telah melakukan pemungutan dan penyetoran PPN PMSE sebesar Rp25,35 triliun",collectors that remitted
+DJP,cumulative to 30 Nov 2025,pmse_vat_collected,215,count-adjacent,djp_pmse_2025nov.txt,"sebanyak 215 PMSE telah melakukan pemungutan dan penyetoran PPN PMSE dengan total sebesar Rp34,54 triliun","printed cumulative Rp34,54 triliun"
+DJP,2025,pmse_vat_collected,2025,year,djp_pmse_2025nov.txt,"serta Rp9,19 triliun hingga 2025","printed Rp9,19 triliun through Nov 2025"
+DJP,cumulative to 30 Nov 2025,pmse_collectors,254,count,djp_pmse_2025nov.txt,"Sampai dengan November 2025, pemerintah telah menunjuk 254 perusahaan sebagai pemungut PPN PMSE",appointed collectors
+DJP,cumulative to 30 Nov 2025,pmse_collectors,215,count,djp_pmse_2025nov.txt,"sebanyak 215 PMSE telah melakukan pemungutan dan penyetoran PPN PMSE dengan total sebesar Rp34,54 triliun",collectors that remitted
+DJP,cumulative to 31 Dec 2024,digital_tax_collected,2024,year,djp_pmse_2024.txt,"Hingga 31 Desember 2024, pemerintah mencatat penerimaan dari sektor usaha ekonomi digital sebesar Rp32,32 triliun","printed Rp32,32 triliun"
+DJP,cumulative to 30 Nov 2025,digital_tax_collected,2025,year,djp_pmse_2025nov.txt,"Hingga 30 November 2025, pemerintah mencatat penerimaan dari sektor usaha ekonomi digital sebesar Rp44,55 triliun","printed Rp44,55 triliun"
+DJP,2025,rate,0.5,percent,djp_pmk37_start_20261001.txt,"marketplace yang telah ditunjuk melakukan pemungutan PPh Pasal 22 sebesar 0,5 persen dari peredaran bruto atau omzet, tidak termasuk Pajak Pertambahan Nilai (PPN) dan Pajak Penjualan atas Barang Mewah (PPnBM). DJP juga menegaskan bahwa pemerintah tetap memberikan kemudahan bagi pelaku usaha kecil. Wajib Pajak orang pribadi dengan omzet sampai dengan Rp500 juta","printed 0,5 persen; 500 juta in same quote"
+DJP,2025,threshold,500,IDR million,djp_pmk37_start_20261001.txt,Wajib Pajak orang pribadi dengan omzet sampai dengan Rp500 juta dalam satu tahun pajak tidak dikenai pemungutan PPh Pasal 22,UMKM threshold
+DJP,2025,start_date,2025,year,djp_pmk37_sp_20250716.txt,PMK ini ditetapkan pada 11 Juni 2025 dan berlaku mulai 14 Juli 2025,statutory start as promulgated
+Kemenkeu,2025,start_date,2025,year,jdih_kemenkeu_pmk37.txt,Tanggal Berlaku 14 Jul 2025 - s.d. Dicabut,JDIH effective date
+Kemenkeu,2025,regulation_reference,37,number,jdih_kemenkeu_pmk37.txt,Kode PMK 37 TAHUN 2025,PMK 37/2025
+DJP,2025,rate,22,article,djp_pmk37_faq.txt,"Besaran Pemungutan PPh Pasal 22 adalah 0,5% dari Peredaran Bruto yang diterima atau diperoleh pedagang yang tercantum dalam tagihan (tidak termasuk PPN dan PPnBM)","Pasal 22; printed rate 0,5%"
+DJP,2025,start_date,2025,year,pmk_37_2025.txt,Ditetapkan di Jakarta pada tanggal 11 Juni 2025,issue date
+DJP,cumulative to 31 Oct 2026,deferral,2026,year,djp_peng46_2026.txt,ditunda sampai dengan 31 Oktober 2026. Pemungutan PPh Pasal 22 berdasarkan ketentuan tersebut mulai berlaku pada 1 November 2026,PENG-46/PJ.09/2026
+DJP,2026,start_date,2026,year,djp_pmk37_start_20261001.txt,pemungutan Pajak Penghasilan (PPh) Pasal 22 atas penghasilan pedagang dalam negeri melalui marketplace mulai dilaksanakan pada 1 Oktober 2026,implementation after deferral review
+Kemenhub,2019,cap_rate,20,percent,kemenhub_ojol_2019.txt,Biaya tidak langsung adalah biaya jasa yang ada di dalam pihak aplikator sebanyak maksimal 20%,PM 12/2019 implementation statement
+Kemenhub,2019,cap_scope,,,kemenhub_ojol_2019.txt,Peraturan Menteri Perhubungan Nomor 12 Tahun 2019 tentang Perlindungan Keselamatan Pengguna Sepeda Motor Yang Digunakan Untuk Kepentingan Masyarakat,two-wheel via application
+Kemenhub,2019,effective_date,,,kemenhub_ojol_2019.txt,"Mulai tanggal 1 Mei 2019, Peraturan Menteri Perhubungan Nomor 12 Tahun 2019 tentang Perlindungan Keselamatan Pengguna Sepeda Motor Yang Digunakan Untuk Kepentingan Masyarakat",official effective statement
+Kemenhub,2019,regulation_reference,12,number,kemenhub_ojol_2019.txt,Peraturan Menteri Perhubungan Nomor 12 Tahun 2019 tentang Perlindungan Keselamatan Pengguna Sepeda Motor Yang Digunakan Untuk Kepentingan Masyarakat,PM 12/2019
+Kemenhub,2025,cap_rate,20,percent,kemenhub_dudy_2025.txt,Menhub mengkonfirmasi kepada para aplikator bahwa potongan aplikasi tidak lebih dari 20%,ministerial confirmation of KP 1001 cap
+Kemenhub,2022,regulation_reference,1001,number,kemenhub_dudy_2025.txt,Besaran potongan sudah sesuai dengan Kepmenhub No. KP 1001 Tahun 2022 tentang Pedoman Perhitungan Biaya Jasa Penggunaan Sepeda Motor yang Digunakan untuk Kepentingan Masyarakat yang Dilakukan dengan Aplikasi,KP 1001/2022
+Kemenhub,2022,effective_date,,,jdih_kp667_2022.txt,Tanggal Berlaku Efektif 7 September 2022 s.d Dicabut,KP 667/2022 JDIH
+Kemenhub,2022,regulation_reference,667,number,jdih_kp667_2022.txt,Nomor Peraturan 667,KP 667/2022
+Kemenhub,2022,effective_date,,,jdih_kp1001_2022.txt,Tanggal Berlaku Efektif 22 November 2022 s.d Dicabut,KP 1001/2022 JDIH
+Kemenhub,2022,regulation_reference,1001,number,jdih_kp1001_2022.txt,Nomor Peraturan 1001,KP 1001/2022
+Kemenhub,2019,start_date,2019,year,pm12_2019.txt,Diundangkan di Jakarta pada tanggal 11 Maret 2019,PM 12/2019 promulgation
+Kemenhub,2019,regulation_reference,12,number,pm12_2019.txt,NOMOR PM 12 TAHUN 2019,PM 12/2019 full text
+Kemendag,2019,start_date,2019,year,pp_80_2019.txt,Diundangkan di Jakarta pada tanggal 25 November 2019,PP 80/2019 effective on promulgation
+Kemendag,2019,regulation_reference,80,number,pp_80_2019.txt,NOMOR 80 TAHUN 2019,PP 80/2019
+Kemendag,2020,start_date,2020,year,permendag_50_2020.txt,Diundangkan di Jakarta pada tanggal 19 Mei 2020,Permendag 50/2020 promulgation
+Kemendag,2020,deferral,6,month,permendag_50_2020.txt,Peraturan Menteri ini mulai berlaku setelah 6 (enam) bulan terhitung sejak tanggal diundangkan,6-month delayed start
+Kemendag,2020,regulation_reference,50,number,permendag_50_2020.txt,NOMOR 50 TAHUN 2020,Permendag 50/2020
+Bank Indonesia,2024,bi_ecommerce_value,487,IDR tn,bi_cerita_umkm_2025.txt,"nilai transaksi e-commerce di Indonesia meningkat dari sekitar Rp 205,5 triliun pada 2019 menjadi sekitar Rp 487 triliun pada 2024",BI 2024 figure
+Bank Indonesia,2019,bi_ecommerce_value,2019,year,bi_cerita_umkm_2025.txt,"nilai transaksi e-commerce di Indonesia meningkat dari sekitar Rp 205,5 triliun pada 2019 menjadi sekitar Rp 487 triliun pada 2024","printed Rp 205,5 triliun"
+Bank Indonesia,2025,bi_ecommerce_value,738,IDR tn,bi_cerita_umkm_2025.txt,pasar e-commerce Indonesia diproyeksikan akan terus tumbuh menuju sekitar Rp 738 triliun pada 2025,projection on BI page
+Bank Indonesia,2024,bi_ecommerce_value,487,IDR tn,bi_ptbi_2023.txt,"Transaksi e-commerce juga akan terus tumbuh 2,8% menjadi Rp487 triliun pada 2024 dan 3,3% menjadi Rp503 triliun pada 2025",PTBI 2023 forecast
+Bank Indonesia,2025,bi_ecommerce_value,503,IDR tn,bi_ptbi_2023.txt,"Transaksi e-commerce juga akan terus tumbuh 2,8% menjadi Rp487 triliun pada 2024 dan 3,3% menjadi Rp503 triliun pada 2025",PTBI 2023 forecast
+Bank Indonesia,2022,bi_ecommerce_value,476,IDR tn,bi_lpi_2022.txt,"transaksi e-commerce juga berkembang pesat, yang tumbuh 18,7% mencapai Rp476 triliun pada 2022 dan kemudian naik 11,8% menjadi Rp533 triliun pada 2023",LPI 2022
+Bank Indonesia,2023,bi_ecommerce_value,533,IDR tn,bi_lpi_2022.txt,"tumbuh 18,7% mencapai Rp476 triliun pada 2022 dan kemudian naik 11,8% menjadi Rp533 triliun pada 2023",LPI 2022
+Bank Indonesia,2019-2024,definition,2019,year,bi_lpi_2024_bab7.txt,"tahun 2019 hingga Desember 2024, transaksi",BI e-commerce window in LPI 2024
+Bank Indonesia,2019-2024,bi_ecommerce_transactions,34493,million,bi_lpi_2024_bab7.txt,mencapai 34.493 juta transaksi dengan nilai,printed 34.493 juta in LPI 2024 digital-payment paragraph beside e-commerce

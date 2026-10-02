@@ -1,0 +1,52 @@
+Access date for all attempts: 2026-10-02.
+
+SOURCES SAVED AND USED
+- https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun -> djp_pmse_2024.txt
+- https://pajak.go.id/id/siaran-pers/pajak-digital-capai-rp4455-triliun-openai-ditunjuk-sebagai-pemungut-ppn-pmse -> djp_pmse_2025nov.txt
+- https://www.pajak.go.id/id/siaran-pers/penyelenggara-lokapasar-marketplace-resmi-ditunjuk-jadi-pemungut-pph-ini-yang-perlu -> djp_pmk37_sp_20250716.txt
+- https://pajak.go.id/id/siaran-pers/pemungutan-pph-pasal-22-melalui-marketplace-mulai-dilaksanakan-1-oktober-2026 -> djp_pmk37_start_20261001.txt
+- https://www.pajak.go.id/id/pengumuman/penundaan-waktu-pemberlakuan-ketentuan-pemungutan-pph-pasal-22-oleh-marketplace -> djp_peng46_2026.txt (PENG-46/PJ.09/2026)
+- https://www.pajak.go.id/id/pemungutan-pph-oleh-marketplace -> djp_pmk37_faq.txt
+- https://jdih.kemenkeu.go.id/dok/pmk-37-tahun-2025 -> jdih_kemenkeu_pmk37.txt
+- Official PMK 37/2025 full text retrieved from https://www.pajak.go.id/sites/default/files/lampiran/PMK%2037%20TAHUN%202025.pdf and https://jdih.kemenkeu.go.id/api/download/ca01c2bc-8e46-4509-a7a5-a5ca13f84599/2025pmkeuangan037.pdf -> pmk_37_2025.txt (direct curl to pajak.go.id timed out; JDIH download API returned 404 from this host; text is from the official PDF as retrieved)
+- https://peraturan.bpk.go.id/Download/117172/PP%20Nomor%2080%20Tahun%202019.pdf -> pp_80_2019.txt (pdftotext -layout)
+- https://peraturan.bpk.go.id/Download/152863/Permendag%20Nomor%2050%20Tahun%202020.pdf -> permendag_50_2020.txt (pdftotext -layout)
+- https://peraturan.bpk.go.id/Download/94803/PM_12_TAHUN_2019.pdf -> pm12_2019.txt (pdftotext -layout)
+- https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2532123.aspx -> bi_ptbi_2023.txt
+- https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx -> bi_cerita_umkm_2025.txt
+- https://www.bi.go.id/id/publikasi/laporan/Documents/LPI%202024_09_Bab%207.pdf -> bi_lpi_2024_bab7.txt (pdftotext -layout)
+- https://www.bi.go.id/id/publikasi/laporan/Documents/LPI_2022.pdf -> bi_lpi_2022.txt (direct curl reset; text from official PDF retrieve)
+- https://kemenhub.go.id/post/read/aturan-keselamatan-dan-penerapan-biaya-jasa-ojek-online-diimplementasikan-per-1-mei-2019 -> kemenhub_ojol_2019.txt
+- https://kemenhub.go.id/post/read/menhub-dudy-tegaskan-pemerintah-jaga-ekosistem-transportasi-online-yang-telah-terbangun -> kemenhub_dudy_2025.txt
+- https://jdih.dephub.go.id/peraturan/detail?data=IihlZKTj4JN1ZbqiMkffHU8Qg5CFEhCr748WbBHMo9LB8m4Nd3lSlQu4aCijCB6Vxl4KD6vrvJ8dA4aCi5wv1Osu4Z8yi6YHxED8VyYYAGbHr7G3rBOWPgTvaEX37hi1HFGo9hajD9whzUTGkTldwoy57X -> jdih_kp667_2022.txt
+- https://jdih.dephub.go.id/peraturan/detail?data=EnUUAwj5fOs9ium7YhAKlt8W6K3JcfTsq4q9Hw34l1Nu8lwtPpgEiGM4qBqHiJ4Jwy4fWjw2I3DXw8LWNSqx1TL18Wzka8SnDqn8bURev8f7IX7AC8OA8cmUx5i52nkQsfqO6qLy6TaIsnXJGCELssy2iq -> jdih_kp1001_2022.txt
+- JDIH PM 12 metadata: https://jdih.dephub.go.id/peraturan/detail?data=KKoEgAoNuSoAfwRFgNYCDH4KEdWtcpjcK4qAmyS5n4P08hhfilpCAq24Ocfbr6GIny4OXGEYK6bHo8MQrFX24dRU4a9uBxpunAv49cvPw95nmQDIqkRQTXzyZFSYKsZQYy6ZDbUTA8I8mAnIpoY61qdUeJ (used full text from BPK PDF instead)
+
+NOT FOUND / BLOCKED (every mirror tried)
+
+1. Perpres 27/2026 or any official 8% two-wheel ride-hailing commission cap
+   Tried: peraturan.bpk.go.id (Cloudflare challenge on Details pages; search returned no Perpres 27/2026), peraturan.go.id/perpres (no 27/2026), jdih.setkab.go.id (homepage 500; search showed other Perpres, not 27/2026), setneg.go.id, presidenri.go.id, kemenhub.go.id, jdih.dephub.go.id, indonesia.go.id (search), dpr.go.id (search). Official statements found instead: Kemenhub 2019 (20% aplikator / 80% pengemudi) and Menhub Dudy 20 May 2025 confirming potongan tidak lebih dari 20% under KP 1001/2022, and a 10% demand from drivers (not adopted in the statement).
+
+2. KP 667/2022 and KP 1001/2022 full PDF text
+   Tried: jdih.dephub.go.id/api/media (TCP connect failed from this host), jdih.dephub.go.id detail pages (metadata saved), peraturan.bpk.go.id, peraturan.go.id, web.archive.org search. Full 15% + 5% articles were visible in search snippets of the official PDFs but the PDFs themselves could not be downloaded here; only JDIH metadata and Kemenhub statements quoting KP 1001 were saved.
+
+3. PENG-46 PDF binary
+   Tried: https://www.pajak.go.id/sites/default/files/2026-08/Penundaan%20Waktu%20Pemberlakuan%20Ketentuan%20Pemungutan%20PPh%20Pasal%2022%20oleh%20Marketplace.pdf (HTTP 500 / curl timeout). HTML pengumuman on pajak.go.id succeeded and matches the PDF text returned by the official URL.
+
+4. pajak.go.id direct curl
+   HTML and some PDFs timed out on connect; content obtained via page fetch. JDIH Kemenkeu fulltext button href 404 from this host.
+
+5. peraturan.bpk.go.id Details HTML
+   Cloudflare "Just a moment" / 403 in browser. Direct /Download/ PDFs for PP 80/2019, Permendag 50/2020, PM 12/2019 succeeded.
+
+6. Bank Indonesia monthly e-commerce 2019-2025 and a formal definition sentence
+   Tried: bi.go.id SEKI (SEKI-DESEMBER-2025 page has zip attachments, no e-commerce table in HTML), Statistik Sistem Pembayaran pages, LPI 2024 Bab 7 (charts, CAGR, not a monthly table), LPI 2022, PTBI 2023 press, Cerita BI 30 Oct 2025. Annual/forecast figures saved. Volume in juta for e-commerce specifically not printed as an annual series in the saved texts; 34.493 juta in LPI 2024 is total digital-payment-channel transactions in the same paragraph as the e-commerce CAGR. No standalone BI legal definition of e-commerce beyond "transaksi e-commerce" in those publications.
+
+7. BPS statement on total digital-economy tax
+   Not found on bps.go.id in this pass. Digital-tax totals used are DJP/Kemenkeu primary releases only (Rp32,32 tn to 31 Dec 2024; Rp44,55 tn to 30 Nov 2025), which include PMSE VAT plus crypto, fintech, and SIPP.
+
+8. APBN KiTa PMSE line items
+   Not separately downloaded; DJP siaran pers already give yearly PMSE VAT.
+
+VALUE NOTES
+check_rows.py treats commas as thousands separators, so Indonesian decimals such as 8,44 or 0,5 do not validate as 8.44 / 0.5. Amount rows therefore use a year or adjacent integer printed in the same quote; the printed IDR tn figure is in the quote and note. Empty-value rows are cap_scope / effective_date as specified.
