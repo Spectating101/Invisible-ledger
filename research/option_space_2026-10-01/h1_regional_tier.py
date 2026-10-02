@@ -28,7 +28,7 @@ def mw(a, b, c): return stats.mannwhitneyu(a[c], b[c], alternative="greater").pv
 def perm(a, b, c):
     fm = pd.concat([a.groupby("firm")[c].median(), b.groupby("firm")[c].median()]).values; k = a.firm.nunique(); obs = a.groupby("firm")[c].median().mean()
     dist = np.array([fm[list(i)].mean() for i in itertools.combinations(range(len(fm)), k)]); return (dist >= obs - 1e-12).mean(), len(dist)
-def boot(a, b, c, reps=2000):
+def boot(a, b, c, reps=400):
     fa, fb = a.firm.unique(), b.firm.unique(); out = []
     for _ in range(reps):
         sa, sb = rng.choice(fa, len(fa)), rng.choice(fb, len(fb))

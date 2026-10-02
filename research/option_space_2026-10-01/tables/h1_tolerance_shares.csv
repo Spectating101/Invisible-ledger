@@ -1,0 +1,6 @@
+set,n,share_within_0.05,share_within_0.1,share_within_0.2
+IDN_main,8,0.125,0.125,0.5
+REGIONAL,7,0.286,0.571,0.571
+IDN_main+REGIONAL,15,0.2,0.333,0.533
+EXT_clean,29,0.448,0.69,0.862
+EXT_clean ex-Sea,22,0.591,0.818,1.0
