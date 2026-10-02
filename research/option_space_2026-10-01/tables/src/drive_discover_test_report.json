@@ -1,0 +1,1382 @@
+{
+  "environment": {
+    "python": "/usr/bin/python3",
+    "instantiation": "ok",
+    "notes": "create_stack() (drive/tests/test_discover_search_routing.py) was not used: bootstrap.create_stack builds ProcurementMemory, CampaignStore, and YzuOrchestrator, each of which mkdir + sqlite CREATE TABLE under data_lake/procurement_memory and data_lake/yzu_cluster/jobs. Those directories do not exist in this worktree; calling create_stack would write a database, which the spec forbids. | Instantiated ResearchToolHandlers the same way tests do (ResearchToolHandlers(stack-with-gateway)), but built ResearchDataGateway via __new__ + ResearchQueryEngine/SearchService so JobStore/Campaign sqlite is never opened. registry=/home/phyrexian/.local/state/grok-muscle/worktrees/Sharpe-Renaissance-1002-174343-84d7/config/research_query_registry.json research_discover_search(..., include_lab=True) raised AttributeError on thin catalog hits (needs b/d/e) because ResearchDataGateway was constructed without AgentOrchestrator; those three calls were rerun with include_lab=False (catalog-only). research_web_discover returned Zenodo/DataCite hits; Tavily/DuckDuckGo were not needed once five Zenodo rows filled the cap. research_search_catalog returned 0 rows for all five needs. No BPS/silastik, platform-GMV, PMSE VAT, BI payments, or WBES-Indonesia holdings appeared in the Discover catalog."
+  },
+  "calls": [
+    {
+      "need": "a",
+      "function": "research_discover_search",
+      "query": "BPS Survei E-Commerce Indonesia microdata silastik.bps.go.id",
+      "n_results": 9,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Google Drive vault",
+          "id": "gdrive_vault",
+          "access_mode": "",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "CRSP MOVEit Cloud",
+          "id": "crsp_moveit",
+          "access_mode": "materialized_bulk",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Google BigQuery (public datasets)",
+          "id": "bigquery_public",
+          "access_mode": "live_connector",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "NFT marketplace metadata (example reference)",
+          "id": "nft_opensea",
+          "access_mode": "catalog_reference",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "SEC EDGAR",
+          "id": "sec_edgar",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "TWSE Open API",
+          "id": "twse_official",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Taiwan MOPS / governance procured",
+          "id": "mops_taiwan",
+          "access_mode": "procurement_catalog",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_search",
+      "query": "Indonesian official e-commerce survey BPS microdata priced silastik",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "TWSE Open API",
+          "id": "twse_official",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_plan_sources",
+      "query": "BPS Survei E-Commerce Indonesia microdata silastik.bps.go.id",
+      "n_results": 7,
+      "top": [
+        {
+          "title": "Refinitiv company fundamentals snapshot",
+          "id": "refinitiv_fundamentals_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Refinitiv ESG Pillar Snapshot",
+          "id": "refinitiv_esg_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Indonesia market/news panel, not BPS e-commerce survey microdata."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Indonesia market/news panel, not BPS e-commerce survey microdata."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Fama-French 3 Factors (Daily)",
+          "id": "public_macro_ff_factors_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_search_catalog",
+      "query": "Indonesian official e-commerce survey BPS microdata priced silastik",
+      "n_results": 0,
+      "top": []
+    },
+    {
+      "need": "a",
+      "function": "research_list_datasets",
+      "query": "BPS Survei E-Commerce Indonesia microdata silastik.bps.go.id",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Indonesia market/news panel, not BPS e-commerce survey microdata."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Indonesia market/news panel, not BPS e-commerce survey microdata."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "StraitsX Indonesian Rupiah stablecoin — CoinGecko catalog snapshot",
+          "id": "coingecko_straitsx_idr",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_web_discover",
+      "query": "Indonesian official e-commerce survey BPS microdata priced silastik",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "Access to social science data: research, election results, official statistics",
+          "id": "10.5281/zenodo.18610511",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18610511",
+          "relevance": "partly",
+          "why": "About official-statistics microdata access in general, not the Indonesian e-commerce survey file."
+        },
+        {
+          "title": "Survey on Access to African Government Microdata for Social Science Research",
+          "id": "10.5281/zenodo.3781807",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/3781807",
+          "relevance": "partly",
+          "why": "About official-statistics microdata access in general, not the Indonesian e-commerce survey file."
+        },
+        {
+          "title": "AI Personalization, Platform Trust, and Purchase Intention Survey Dataset (Indonesia, 2025)",
+          "id": "10.5281/zenodo.21838598",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/21838598",
+          "relevance": "partly",
+          "why": "Indonesia e-commerce survey (n=248 academic sample), not official BPS Survei E-Commerce microdata on silastik."
+        },
+        {
+          "title": "Implementation of Fuzzy Possibilistic C-Means with Optimal Membership of Fuzzy C-Means for Stunting Management in Central Java Province",
+          "id": "10.5281/zenodo.15524233",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/15524233",
+          "relevance": "no",
+          "why": "Not BPS Survei E-Commerce microdata and not silastik.bps.go.id."
+        },
+        {
+          "title": "The Indonesian District Life Expectancy and Social Determinants Panel (IDLES): a constant-boundary panel of life expectancy and social determinants for Indonesia's districts, 2010–2024, with a population-weighted pemekaran crosswalk",
+          "id": "10.5281/zenodo.21185889",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/21185889",
+          "relevance": "partly",
+          "why": "Compiled from official BPS series, but district life expectancy — not Survei E-Commerce microdata."
+        }
+      ]
+    },
+    {
+      "need": "b",
+      "function": "research_discover_search",
+      "query": "Shopee Indonesia Tokopedia Lazada TikTok Shop GMV by country",
+      "n_results": 3,
+      "top": [
+        {
+          "title": "GDELT news graph",
+          "id": "gdelt",
+          "access_mode": "materialized_bulk",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "partly",
+          "why": "Licensed market-data seat that might hold listed-parent filings, not country-level marketplace GMV series."
+        },
+        {
+          "title": "WRDS — CRSP + Compustat (+ CCM)",
+          "id": "wrds_crsp_compustat",
+          "access_mode": "planned",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        }
+      ],
+      "note": "Reran research_discover_search(include_lab=False) after include_lab=True raised AttributeError: gateway has no agent (lab supplement path)."
+    },
+    {
+      "need": "b",
+      "function": "research_discover_source_search",
+      "query": "platform transaction value estimates e-commerce Indonesia GMV",
+      "n_results": 2,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "partly",
+          "why": "Licensed market-data seat that might hold listed-parent filings, not country-level marketplace GMV series."
+        },
+        {
+          "title": "Investment / ops platform JSON snapshots",
+          "id": "ops_investment_platform",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        }
+      ]
+    },
+    {
+      "need": "b",
+      "function": "research_plan_sources",
+      "query": "Shopee Indonesia Tokopedia Lazada TikTok Shop GMV by country",
+      "n_results": 10,
+      "top": [
+        {
+          "title": "Cross-asset country-week research panel",
+          "id": "cross_asset_fused_primary_panel",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Country-week news/market panel, not marketplace transaction-value estimates."
+        },
+        {
+          "title": "Weekly Country Broadcast News-Market Panel",
+          "id": "ticker_week_country_broadcast_panel",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Refinitiv company fundamentals snapshot",
+          "id": "refinitiv_fundamentals_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Licensed market-data seat that might hold listed-parent filings, not country-level marketplace GMV series."
+        },
+        {
+          "title": "Refinitiv ESG Pillar Snapshot",
+          "id": "refinitiv_esg_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Licensed market-data seat that might hold listed-parent filings, not country-level marketplace GMV series."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Asia weekly news and market panel by country",
+          "id": "asia_country_week_news_market_primary",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Country-week news/market panel, not marketplace transaction-value estimates."
+        }
+      ]
+    },
+    {
+      "need": "b",
+      "function": "research_search_catalog",
+      "query": "platform transaction value estimates e-commerce Indonesia GMV",
+      "n_results": 0,
+      "top": []
+    },
+    {
+      "need": "b",
+      "function": "research_list_datasets",
+      "query": "Shopee Indonesia Tokopedia Lazada TikTok Shop GMV by country",
+      "n_results": 11,
+      "top": [
+        {
+          "title": "Asia weekly news and market panel by country",
+          "id": "asia_country_week_news_market_primary",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Country-week news/market panel, not marketplace transaction-value estimates."
+        },
+        {
+          "title": "Cross-asset country-week research panel",
+          "id": "cross_asset_fused_primary_panel",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Country-week news/market panel, not marketplace transaction-value estimates."
+        },
+        {
+          "title": "Mexico Earthquake Catalog (1787–2018) Metadata",
+          "id": "datacite_mexico_earthquake",
+          "access_mode": "local_file",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Daily news shock panel for Asian countries (GDELT)",
+          "id": "gdelt_asia_news_shock",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        }
+      ]
+    },
+    {
+      "need": "b",
+      "function": "research_web_discover",
+      "query": "platform transaction value estimates e-commerce Indonesia GMV",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "FORTRESS: A framework for fault-tolerant transaction processing in multi-cloud E-commerce ecosystems",
+          "id": "10.5281/zenodo.17318167",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/17318167",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Impact of AI on E-commerce Revenue Growth",
+          "id": "10.5281/zenodo.12805469",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/12805469",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Mechanisms Linking E-Commerce Digital Contracts Access to Household Welfare in Kenya: Multilevel Causal Mediation Analysis",
+          "id": "10.5281/zenodo.22599003",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/22599003",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        },
+        {
+          "title": "Juridical Study on Investigation of Fraud Crime Cases in E-Commerce in Indonesia",
+          "id": "10.5281/zenodo.11653601",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/11653601",
+          "relevance": "partly",
+          "why": "Indonesia e-commerce topic but not platform GMV/GTV by country."
+        },
+        {
+          "title": "METHODOLOGYFORMANAGINGACOMPLEXOFINFORMATIONSERVICESINE-COMMERCE",
+          "id": "10.5281/zenodo.18444015",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18444015",
+          "relevance": "no",
+          "why": "Does not provide Shopee/Tokopedia/Lazada/TikTok Shop GMV by country."
+        }
+      ]
+    },
+    {
+      "need": "c",
+      "function": "research_discover_search",
+      "query": "analyst consensus GMV GTV Sea Limited Shopee Tokopedia platform KPIs",
+      "n_results": 10,
+      "top": [
+        {
+          "title": "Investment / ops platform JSON snapshots",
+          "id": "ops_investment_platform",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "OpenAlex",
+          "id": "openalex",
+          "access_mode": "live_connector",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "BigQuery on-chain (seat / craft target)",
+          "id": "ethereum_onchain",
+          "access_mode": "live_connector",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "DataCite metadata harvest (operator bulk)",
+          "id": "datacite_harvest",
+          "access_mode": "materialized_bulk",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "Hugging Face datasets",
+          "id": "huggingface",
+          "access_mode": "live_connector",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "partly",
+          "why": "LSEG/Refinitiv can carry estimates for listed parents (e.g. Sea Ltd) but this hit is not a GMV/GTV KPI extract."
+        },
+        {
+          "title": "NFT marketplace metadata (example reference)",
+          "id": "nft_opensea",
+          "access_mode": "catalog_reference",
+          "url": "",
+          "relevance": "no",
+          "why": "Academic paper on digital platforms/MSMEs, not sell-side KPI consensus."
+        },
+        {
+          "title": "Public crypto market API (example / craft target)",
+          "id": "coingecko",
+          "access_mode": "catalog_reference",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        }
+      ]
+    },
+    {
+      "need": "c",
+      "function": "research_discover_source_search",
+      "query": "sell-side consensus estimates platform GMV GTV Indonesia digital platforms",
+      "n_results": 2,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "partly",
+          "why": "LSEG/Refinitiv can carry estimates for listed parents (e.g. Sea Ltd) but this hit is not a GMV/GTV KPI extract."
+        },
+        {
+          "title": "Investment / ops platform JSON snapshots",
+          "id": "ops_investment_platform",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        }
+      ]
+    },
+    {
+      "need": "c",
+      "function": "research_plan_sources",
+      "query": "analyst consensus GMV GTV Sea Limited Shopee Tokopedia platform KPIs",
+      "n_results": 9,
+      "top": [
+        {
+          "title": "Cross-asset country-week research panel",
+          "id": "cross_asset_fused_primary_panel",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "Refinitiv Daily EPS Estimate Revisions",
+          "id": "refinitiv_estimate_revisions_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "Refinitiv company fundamentals snapshot",
+          "id": "refinitiv_fundamentals_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "LSEG/Refinitiv can carry estimates for listed parents (e.g. Sea Ltd) but this hit is not a GMV/GTV KPI extract."
+        },
+        {
+          "title": "Refinitiv Analyst Consensus Snapshot",
+          "id": "refinitiv_analyst_consensus_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Refinitiv consensus (ratings/targets/EPS), not GMV/GTV platform KPIs."
+        },
+        {
+          "title": "Refinitiv ESG Pillar Snapshot",
+          "id": "refinitiv_esg_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "LSEG/Refinitiv can carry estimates for listed parents (e.g. Sea Ltd) but this hit is not a GMV/GTV KPI extract."
+        },
+        {
+          "title": "Refinitiv Analyst Estimate Revisions by Instrument-Day",
+          "id": "refinitiv_estimate_revision_panel",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "Point-in-time index and revision momentum panel",
+          "id": "pit_index_revision_momentum",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        }
+      ]
+    },
+    {
+      "need": "c",
+      "function": "research_search_catalog",
+      "query": "sell-side consensus estimates platform GMV GTV Indonesia digital platforms",
+      "n_results": 0,
+      "top": []
+    },
+    {
+      "need": "c",
+      "function": "research_list_datasets",
+      "query": "analyst consensus GMV GTV Sea Limited Shopee Tokopedia platform KPIs",
+      "n_results": 42,
+      "top": [
+        {
+          "title": "Cross-asset country-week research panel",
+          "id": "cross_asset_fused_primary_panel",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "Point-in-time index and revision momentum panel",
+          "id": "pit_index_revision_momentum",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "Refinitiv Analyst Consensus Snapshot",
+          "id": "refinitiv_analyst_consensus_snapshot",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "partly",
+          "why": "Refinitiv consensus (ratings/targets/EPS), not GMV/GTV platform KPIs."
+        },
+        {
+          "title": "Refinitiv Analyst Estimate Revisions by Instrument-Day",
+          "id": "refinitiv_estimate_revision_panel",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "Refinitiv Daily EPS Estimate Revisions",
+          "id": "refinitiv_estimate_revisions_daily",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "partly",
+          "why": "Analyst estimate revisions are EPS-centric, not marketplace GMV/GTV consensus."
+        },
+        {
+          "title": "Weekly stock-news entity market panel",
+          "id": "ticker_week_entity_news_panel",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "Asia weekly news and market panel by country",
+          "id": "asia_country_week_news_market_primary",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        }
+      ]
+    },
+    {
+      "need": "c",
+      "function": "research_web_discover",
+      "query": "sell-side consensus estimates platform GMV GTV Indonesia digital platforms",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "GROWTH PATTERNS OF MSMEs THROUGH THE USE OF DIGITAL PLATFORMS: A CASE STUDY OF MARKETPLACE ADOPTION IN THE FASHION SECTOR",
+          "id": "10.5281/zenodo.22005958",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/22005958",
+          "relevance": "no",
+          "why": "Academic paper on digital platforms/MSMEs, not sell-side KPI consensus."
+        },
+        {
+          "title": "Associations of white matter hyperintensities with networks of gray matter blood flow and volume in midlife adults: A coronary artery risk development in young adults magnetic resonance imaging substudy",
+          "id": "10.1002/hbm.25876",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/17147546",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "Digital platforms and their application in the aviation industry",
+          "id": "10.46783/smart-scm/2020-3-8",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/4256814",
+          "relevance": "no",
+          "why": "Academic paper on digital platforms/MSMEs, not sell-side KPI consensus."
+        },
+        {
+          "title": "The use of short video platforms for digital communication of MSMEs in Indonesia",
+          "id": "10.5281/zenodo.14970048",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/14970048",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        },
+        {
+          "title": "JustWind4All: Eastern Slovenia regional report",
+          "id": "10.5281/zenodo.12201349",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/12201349",
+          "relevance": "no",
+          "why": "Not analyst consensus for platform GMV/GTV KPIs."
+        }
+      ]
+    },
+    {
+      "need": "d",
+      "function": "research_discover_search",
+      "query": "Indonesia PMSE VAT digital services tax collections",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not Indonesian tax or BI payment publications."
+        }
+      ],
+      "note": "Reran research_discover_search(include_lab=False) after include_lab=True raised AttributeError: gateway has no agent (lab supplement path)."
+    },
+    {
+      "need": "d",
+      "function": "research_discover_source_search",
+      "query": "Bank Indonesia e-commerce payment statistics PMSE",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not Indonesian tax or BI payment publications."
+        }
+      ]
+    },
+    {
+      "need": "d",
+      "function": "research_plan_sources",
+      "query": "Indonesia PMSE VAT digital services tax collections",
+      "n_results": 7,
+      "top": [
+        {
+          "title": "Refinitiv company fundamentals snapshot",
+          "id": "refinitiv_fundamentals_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Refinitiv ESG Pillar Snapshot",
+          "id": "refinitiv_esg_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not Indonesian tax or BI payment publications."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Fama-French 3 Factors (Daily)",
+          "id": "public_macro_ff_factors_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        }
+      ]
+    },
+    {
+      "need": "d",
+      "function": "research_search_catalog",
+      "query": "Bank Indonesia e-commerce payment statistics PMSE",
+      "n_results": 0,
+      "top": []
+    },
+    {
+      "need": "d",
+      "function": "research_list_datasets",
+      "query": "Indonesia PMSE VAT digital services tax collections",
+      "n_results": 11,
+      "top": [
+        {
+          "title": "Mauna Loa Monthly CO₂ Concentrations",
+          "id": "craft_raw_githubuserconten_2eb2f7cf1f",
+          "access_mode": "local_file",
+          "url": "",
+          "relevance": "no",
+          "why": "False token match (VAT/collections vs CO2 record)."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "Mauna Loa Monthly CO₂ Record",
+          "id": "keeling_mlo_monthly_clean",
+          "access_mode": "query_ready",
+          "url": "",
+          "relevance": "no",
+          "why": "False token match (VAT/collections vs CO2 record)."
+        },
+        {
+          "title": "Taiwan listed-company governance misconduct events (MOPS)",
+          "id": "mops_taiwan",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "OpenSea NFT collection metadata snapshot",
+          "id": "nft_opensea",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        }
+      ]
+    },
+    {
+      "need": "d",
+      "function": "research_web_discover",
+      "query": "Bank Indonesia e-commerce payment statistics PMSE",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "Payment Trends and E-commerce Growth in Indonesia: Insights from Public Analytics",
+          "id": "10.5281/zenodo.17828127",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/17828127",
+          "relevance": "partly",
+          "why": "Paper using public analytics on Indonesian payments/e-commerce, not official PMSE VAT tables or BI statistical releases."
+        },
+        {
+          "title": "IMPLEMENTATION OF QRIS-BASED PAYMENT GATEWAY IN MOBILE BANKING AND ITS IMPACT ON TRANSACTION SMOOTHNESS OF MSMES IN COASTAL TOURISM AREAS OF KUPANG CITY",
+          "id": "10.5281/zenodo.20304492",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/20304492",
+          "relevance": "partly",
+          "why": "QRIS/payment-gateway study in Indonesia, not national BI payment statistics or PMSE VAT collections."
+        },
+        {
+          "title": "ANALYSIS OF THE IMPLEMENTATION OF DIGITAL MARKETING AND MARKETPLACES ON THE DEVELOPMENT OF MSME INCOME IN MEDAN CITY",
+          "id": "10.5281/zenodo.18486206",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18486206",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "E-PAYMENTS & ITS EFFICIENCY IN INDIA",
+          "id": "10.5281/zenodo.7791206",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/7791206",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        },
+        {
+          "title": "GREEN SYARIAH ECONOMICS DIGITAL MODEL GCC-SF: PROFIT-SHARING-BASED SHARIA FINANCING IN STRENGTHENING SUSTAINABLE CONTENT CREATOR MSMEs",
+          "id": "10.5281/zenodo.23021658",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/23021658",
+          "relevance": "no",
+          "why": "Not Indonesian PMSE VAT collections or Bank Indonesia e-commerce payment statistics."
+        }
+      ]
+    },
+    {
+      "need": "e",
+      "function": "research_discover_search",
+      "query": "World Bank Enterprise Surveys Indonesia online sales",
+      "n_results": 2,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not World Bank Enterprise Surveys."
+        },
+        {
+          "title": "S&P Capital IQ / Compustat",
+          "id": "capital_iq_compustat",
+          "access_mode": "materialized_bulk",
+          "url": "",
+          "relevance": "no",
+          "why": "Listed-company fundamentals, not firm-level enterprise surveys of online sales."
+        }
+      ],
+      "note": "Reran research_discover_search(include_lab=False) after include_lab=True raised AttributeError: gateway has no agent (lab supplement path)."
+    },
+    {
+      "need": "e",
+      "function": "research_discover_source_search",
+      "query": "Indonesia firm-level survey enterprises online sales World Bank",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "materialized_instant",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not World Bank Enterprise Surveys."
+        }
+      ]
+    },
+    {
+      "need": "e",
+      "function": "research_plan_sources",
+      "query": "World Bank Enterprise Surveys Indonesia online sales",
+      "n_results": 7,
+      "top": [
+        {
+          "title": "Refinitiv company fundamentals snapshot",
+          "id": "refinitiv_fundamentals_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Refinitiv ESG Pillar Snapshot",
+          "id": "refinitiv_esg_snapshot",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Market-data seat, not World Bank Enterprise Surveys."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Fama-French 3 Factors (Daily)",
+          "id": "public_macro_ff_factors_daily",
+          "access_mode": "local_materialization_required",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        }
+      ]
+    },
+    {
+      "need": "e",
+      "function": "research_search_catalog",
+      "query": "Indonesia firm-level survey enterprises online sales World Bank",
+      "n_results": 0,
+      "top": []
+    },
+    {
+      "need": "e",
+      "function": "research_list_datasets",
+      "query": "World Bank Enterprise Surveys Indonesia online sales",
+      "n_results": 13,
+      "top": [
+        {
+          "title": "Domestic airline airfare factors dataset",
+          "id": "datacite_10.5281_zenodo.5215789",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "GDELT High-Priority News URLs",
+          "id": "gdelt_high_priority_urls",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Indonesia daily episode reward series",
+          "id": "idn_episode_reward_daily",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Indonesia FRY daily stock panel",
+          "id": "idn_fry_daily_cross_section",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Indonesia FRY episode-level GDELT features",
+          "id": "idn_fry_episode_gdelt_features",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "JKSE monthly panel: prices, trading frictions, and estimate revisions",
+          "id": "jkse_pit_idn_microstructure_revisions",
+          "access_mode": "local_derived_tables",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "OpenFlights global airline route map",
+          "id": "procured_f40544a5b9",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "OpenFlights airport directory snapshot",
+          "id": "procured_f4fd1f8a03",
+          "access_mode": "local_file_tree",
+          "url": "",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        }
+      ]
+    },
+    {
+      "need": "e",
+      "function": "research_web_discover",
+      "query": "Indonesia firm-level survey enterprises online sales World Bank",
+      "n_results": 5,
+      "top": [
+        {
+          "title": "Precision policies and Local Content targets  in resource-rich developing countries:  the case of the oil and gas sector in Mozambique",
+          "id": "10.5281/zenodo.5215867",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/5215867",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Replication Materials for Environmental, Social, and Governance Capabilities and SME Innovation in the Visegrád Four",
+          "id": "10.5281/zenodo.22922593",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/22922593",
+          "relevance": "partly",
+          "why": "Uses World Bank Enterprise Surveys, but not the Indonesia online-sales extract."
+        },
+        {
+          "title": "Climate- and climate-structural-adjusted credit risk and bankruptcy prediction models across firm size categories in developing countries: evidence from firm-level balance sheets",
+          "id": "10.5281/zenodo.18441452",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18441452",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "Climate- and climate-structural-adjusted credit risk and bankruptcy prediction models across firm size categories in developing countries: evidence from firm-level balance sheets",
+          "id": "10.5281/zenodo.18441799",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18441799",
+          "relevance": "no",
+          "why": "Not World Bank Enterprise Surveys Indonesia (or other firm-level online-sales surveys)."
+        },
+        {
+          "title": "INNOVATION MANAGEMENT AND ITS IMPACT ON ENTERPRISE PERFORMANCE IN EMERGING ECONOMIES",
+          "id": "10.5281/zenodo.18627848",
+          "access_mode": "",
+          "url": "https://zenodo.org/records/18627848",
+          "relevance": "partly",
+          "why": "Uses World Bank Enterprise Surveys, but not the Indonesia online-sales extract."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "lseg_edp",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "LSEG Workspace / EDP (YZU seat)",
+          "id": "lseg_edp",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "gdrive_vault",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "Google Drive vault",
+          "id": "gdrive_vault",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "crsp_moveit",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "CRSP MOVEit Cloud",
+          "id": "crsp_moveit",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "bigquery_public",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "Google BigQuery (public datasets)",
+          "id": "bigquery_public",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "nft_opensea",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "NFT marketplace metadata (example reference)",
+          "id": "nft_opensea",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "a",
+      "function": "research_discover_source_preview",
+      "query": "sec_edgar",
+      "n_results": 1,
+      "top": [
+        {
+          "title": "SEC EDGAR",
+          "id": "sec_edgar",
+          "access_mode": "schema_only",
+          "url": "",
+          "relevance": "no",
+          "why": "Catalog schema-only preview of a desk source; not BPS microdata, platform GMV, PMSE/BI, or WBES."
+        }
+      ]
+    },
+    {
+      "need": "e",
+      "function": "research_library_overview",
+      "query": "",
+      "n_results": 118,
+      "top": []
+    }
+  ],
+  "summary": {
+    "found_bps_microdata": false,
+    "found_platform_gmv_by_country": false,
+    "found_kpi_consensus": false,
+    "found_tax_collections": false,
+    "found_enterprise_surveys": false,
+    "overall_verdict": "Discover/source-planning did not surface the five official/commercial series the thesis needs. The Explore catalog ranked desk seats (LSEG, CRSP, TWSE, GDELT, BigQuery) instead of BPS silastik, marketplace GMV, PMSE VAT, Bank Indonesia payments, or WBES Indonesia. research_plan_sources repeatedly offered Indonesia equity/GDELT derived panels. research_search_catalog was empty on every phrasing. research_web_discover (Zenodo) found adjacent items: an academic Indonesia e-commerce user survey (not BPS microdata), a public-analytics payments paper (not official PMSE/BI tables), and WBES papers for other countries. Closest KPI path is Refinitiv analyst consensus / LSEG, which is EPS/ratings not GMV/GTV. Verdict: index miss for this procurement question; web layer only partly helpful."
+  }
+}
