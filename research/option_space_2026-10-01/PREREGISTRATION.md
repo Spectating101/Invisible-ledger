@@ -44,4 +44,4 @@ Result reporting: all four reported whatever the sign. No change to scenarios af
 Stock-return tests (null), the analyst-consensus tests (inconclusive), any size for the shadow economy, and any causal reading of the political timing table.
 
 ## Addenda
-(none yet)
+- **2 Oct 2026, evening (before any Q3 result):** LSEG Workspace shows GoTo's Q3 2026 earnings release on **27 October 2026** (not November). Workspace shows no quarterly revenue consensus for Q3 2026 for GoTo (cells read '--'), so no consensus-based test is registered. Predictions P1 to P5 are unchanged.
