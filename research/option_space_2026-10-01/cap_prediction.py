@@ -32,3 +32,20 @@ if __name__ == "__main__":
     print("P1 GoTo on-demand net take 3Q26: 2Q26 level minus 0.3 to 1.5 pt (central 0.9)")
     print("P2 Grab On-Demand net take 3Q26: within -0.6 to +0.4 pt of 2Q26 (13.3%)")
     print("P3 GoTo on-demand GTV 3Q26 YoY: between 0% and +8%")
+
+
+# ---- v2 (2 Oct 2026; see PREREGISTRATION.md section A). v1 above is superseded but kept for the record.
+BASE2 = {"goto_net_take_2q26_pct": 100 * 3.6 / 16.7, "grab_mob_take_2q26_pct": 100 * 331 / 2214, "grab_del_take_2q26_pct": 100 * 531 / 4249}
+
+def score_v2(goto_gtv_tn, goto_net_tn, goto_gtv_3q25_tn, grab_mob_gmv, grab_mob_rev, grab_del_gmv, grab_del_rev):
+    """Inputs in IDR trillion (GoTo on-demand) and US$ m (Grab). Use the published 3Q26 numbers."""
+    g = 100 * goto_net_tn / goto_gtv_tn; d1 = g - BASE2["goto_net_take_2q26_pct"]; yoy = 100 * (goto_gtv_tn / goto_gtv_3q25_tn - 1)
+    b = 100 * (grab_mob_rev + grab_del_rev) / (grab_mob_gmv + grab_del_gmv); d2 = b - 100 * (331 + 531) / (2214 + 4249)
+    did = (100 * grab_mob_rev / grab_mob_gmv - BASE2["grab_mob_take_2q26_pct"]) - (100 * grab_del_rev / grab_del_gmv - BASE2["grab_del_take_2q26_pct"])
+    res = {"P1v2 GoTo net take change (pt) in [-2.5,-0.3]": (round(d1, 2), -2.5 <= d1 <= -0.3),
+           "P2 Grab On-Demand net take change (pt) in [-0.6,+0.4]": (round(d2, 2), -0.6 <= d2 <= 0.4),
+           "P3v2 GoTo GTV YoY (%) in [0,12]": (round(yoy, 1), 0 <= yoy <= 12),
+           "P4 Grab Mobility minus Deliveries change (pt) <= +0.3 (noise sd 0.48)": (round(did, 2), did <= 0.3),
+           "P5 GoTo GTV YoY (%) >= 5 (falsified if < 2)": (round(yoy, 1), yoy >= 5)}
+    for k, (v, ok) in res.items(): print(f"{k}: {v}  -> {'CONFIRMED' if ok else 'FALSIFIED'}")
+    return res
