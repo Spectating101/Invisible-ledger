@@ -1,0 +1,8 @@
+country,firms,efile_share,published_efile,data_check_pass,efile_with_website,efile_without_website,neither_share
+Indonesia,2955,37.5,37.5,True,51.3,25.7,39.9
+Malaysia,979,86.2,86.2,True,92.2,77.2,9.1
+Viet Nam,1028,99.6,99.6,True,99.9,99.4,0.4
+Thailand,813,83.4,83.4,True,85.0,81.6,8.7
+Philippines,1002,63.3,63.3,True,67.6,55.4,16.0
+Cambodia,519,56.6,56.6,True,80.7,37.0,34.8
+Singapore,623,99.9,99.9,True,99.9,100.0,0.0
