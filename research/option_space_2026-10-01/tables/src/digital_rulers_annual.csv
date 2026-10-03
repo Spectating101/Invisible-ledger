@@ -1,0 +1,34 @@
+ruler,what_it_counts,year,value,unit,source,status
+BPS e-commerce,online sales reported by surveyed businesses (all channels incl. chat and social),2022,783,IDR tn,BPS Statistik E-Commerce (via proposal),verified
+BPS e-commerce,online sales reported by surveyed businesses (all channels incl. chat and social),2023,1100.87,IDR tn,BPS Statistik E-Commerce,verified
+BPS e-commerce,online sales reported by surveyed businesses (all channels incl. chat and social),2024,1288.93,IDR tn,BPS presentation 31 Mar 2025,verified
+Bank Indonesia e-commerce,transactions reported to BI mainly by e-commerce platforms,2022,476.3,IDR tn,BI LPI 2022,verified
+Bank Indonesia e-commerce,transactions reported to BI mainly by e-commerce platforms,2023,453.75,IDR tn,BI press conference 17 Jan 2024 (KabarBursa),news
+Bank Indonesia e-commerce,transactions reported to BI mainly by e-commerce platforms,2024,487.01,IDR tn,Kontan data infographic; BI 2025 UMKM story,verified
+Momentum Works Indonesia GMV,third-party estimate of marketplace GMV,2022,51.9,USD bn,indo_market_extraction.csv,verified quote
+Momentum Works Indonesia GMV,third-party estimate of marketplace GMV,2023,53.7,USD bn,indo_market_extraction.csv (114.6 x 46.9%),derived from verified
+Momentum Works Indonesia GMV,third-party estimate of marketplace GMV,2024,56.5,USD bn,indo_market_extraction.csv,verified quote
+Momentum Works Indonesia GMV,third-party estimate of marketplace GMV,2025,57.7,USD bn,indo_market_extraction.csv,verified quote
+e-Conomy Indonesia e-commerce,third-party estimate (2025 vintage),2023,59,USD bn,e-Conomy SEA 2025,verified quote
+e-Conomy Indonesia e-commerce,third-party estimate (2025 vintage),2024,62,USD bn,e-Conomy SEA 2025,verified quote
+e-Conomy Indonesia e-commerce,third-party estimate (2025 vintage),2025,71,USD bn,e-Conomy SEA 2025,verified quote
+GoTo on-demand GTV,rides and food delivery through Gojek (audited filings),2022,60.73,IDR tn,goto_on_demand.py (2022 estimated),verified (2022 estimate)
+GoTo on-demand GTV,rides and food delivery through Gojek (audited filings),2023,54.336,IDR tn,goto_on_demand.py,verified
+GoTo on-demand GTV,rides and food delivery through Gojek (audited filings),2024,63.057,IDR tn,goto_on_demand.py (as reported),verified
+GoTo on-demand GTV,rides and food delivery through Gojek (audited filings),2025,66.534,IDR tn,goto_on_demand.py (2025 basis),verified
+GoTo on-demand revenue,what Gojek keeps after discounts,2022,5.868,IDR tn,goto_on_demand.py (audited),verified
+GoTo on-demand revenue,what Gojek keeps after discounts,2023,5.770,IDR tn,goto_on_demand.py (audited),verified
+GoTo on-demand revenue,what Gojek keeps after discounts,2024,10.861,IDR tn,goto_on_demand.py (audited),verified
+GoTo on-demand revenue,what Gojek keeps after discounts,2025,12.361,IDR tn,goto_on_demand.py (audited),verified
+J&T Express SEA parcels,physical parcels handled in Southeast Asia (inside and outside apps),2023,3240.0,million parcels,J&T 2024 annual results (HKEX 2025030500532),read in filing
+J&T Express SEA parcels,physical parcels handled in Southeast Asia (inside and outside apps),2024,4563.2,million parcels,J&T 2024 annual results (HKEX 2025030500532),read in filing
+J&T Express SEA parcels,physical parcels handled in Southeast Asia (inside and outside apps),2025,7660,million parcels,J&T FY2025 results press release (PR Newswire 30 Mar 2026),news (company release)
+SEA express parcel market,all express parcels in Southeast Asia (Frost & Sullivan via J&T),2023,12764,million parcels,derived: 15.98bn in 2024 at +25.2%,derived from filing
+SEA express parcel market,all express parcels in Southeast Asia (Frost & Sullivan via J&T),2024,15980,million parcels,J&T 2024 annual results,read in filing
+QRIS payments,QR-code payments (mostly in-person merchants),2022,100.0,IDR tn,derived: 229.96 / 2.3001,derived from news
+QRIS payments,QR-code payments (mostly in-person merchants),2023,229.96,IDR tn,BI via Infobank (2023 +130.01%),news
+QRIS payments,QR-code payments (mostly in-person merchants),2024,659.9,IDR tn,derived: 1420.66 / 2.1527,derived from news
+QRIS payments,QR-code payments (mostly in-person merchants),2025,1420.66,IDR tn,BI via news (2025 +115.27%),news
+PMSE VAT collected,VAT on foreign digital services (Netflix-type) collected by DJP,2022,5.51,IDR tn,indo_policy_extraction.csv,verified
+PMSE VAT collected,VAT on foreign digital services (Netflix-type) collected by DJP,2023,6.76,IDR tn,indo_policy_extraction.csv,verified
+PMSE VAT collected,VAT on foreign digital services (Netflix-type) collected by DJP,2024,8.44,IDR tn,indo_policy_extraction.csv,verified
