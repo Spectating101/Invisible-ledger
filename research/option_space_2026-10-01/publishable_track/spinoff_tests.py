@@ -17,7 +17,7 @@ def to_million(v, unit):
     for k, f in SCALE.items():
         if k in u:
             return v * f
-    return np.nan
+    return v * 1e-6 if u.strip() else np.nan        # plain currency units (no scale word)
 
 
 def build_panel():
@@ -96,7 +96,7 @@ def s2(p, y0, y1):
 
 def s3(p):
     res = []
-    for e, g in p.groupby("entity"):
+    for e, g in p[p.flag_1p != "exclude"].groupby("entity"):   # sample rule applies here too (fixed after first run, see addendum)
         g = g.sort_values("year"); has = g.V.notna().values
         if has.any() and not has[-1]:                      # V reported earlier but not in the latest year
             last = g[g.V.notna()].year.max(); w = g[g.year.between(last - 2, last)]

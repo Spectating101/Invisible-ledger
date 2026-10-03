@@ -1,0 +1,4273 @@
+entity,period,field,value,unit,source_file,quote,note
+JD,FY2014,V,260.2,RMB billion,JD_20F_2015-04-17.txt,"billion in 2013 and further to RMB260.2 billion (US$41.9 billion) in 2014. We believe we are also the largest retailer in China in terms of net revenues in 2014. 
+ We believe we provide consumers an enjoyable online retail experience. Through our content-rich and user-frie",GMV
+JD,FY2015,V,446.5,RMB billion,JD_20F_2016-04-18.txt,"billion in 2014 and further to RMB446.5 billion (US$68.9 billion) in 2015. We believe we are also the largest retailer in China in terms of net revenues in 2015.
+ 49 
+ Table of Contents 
+ We believe we provide consumers an enjoyable online retail experience. Through our co",core GMV (ex-Paipai)
+JD,FY2016,V,658.2,RMB billion,JD_20F_2017-05-01.txt,"billion in 2015 and further to RMB658.2 billion (US$94.8 billion) in 2016. 
+ 52 
+ Table of Contents 
+ We believe we provide consumers an enjoyable online retail experience. Through our content-rich and user-friendly website www.jd.com and mobile apps, we offer a wide selec",GMV
+JD,FY2017,V,1294.5,RMB billion,JD_20F_2018-04-27.txt,"billion in 2016 and further to RMB1,294.5 billion (US$199.0 billion) in 2017. 
+ We believe we provide consumers an enjoyable online retail experience. Through our content-rich and user-friendly website www.jd.com and mobile apps, we offer a wide selection of authentic product",GMV
+JD,FY2018,V,1676.9,RMB billion,JD_20F_2019-04-15.txt,"billion in 2017 and further to RMB1,676.9 billion (US$243.9 billion) in 2018. 
+ We believe we provide consumers with an enjoyable online retail experience. Through our content-rich and user-friendly website www.jd.com and mobile apps, we offer a wide selection of authentic pr",GMV
+JD,FY2019,V,2085.4,RMB billion,JD_20F_2020-04-15.txt,"1,676.9 billion and RMB2,085.4 billion (US$299.5 billion) in 2017, 2018 and 2019, respectively. “GMV” are to the total value of all orders for products and services placed in our online retail business and on our online marketplaces, regardless of whether the goods are sold or de",GMV
+JD,FY2020,V,2612.5,RMB billion,JD_20F_2021-04-16.txt,"2,085.4 billion and RMB2,612.5 billion (US$400.4 billion) in 2018, 2019 and 2020, respectively. “GMV” are to the total value of all orders for products and services placed in our online retail business and on our online marketplaces, regardless of whether the goods are sold or de",GMV
+JD,FY2021,V,,,JD_20F_2022-04-28.txt,,not reported as an absolute figure; last absolute GMV was FY2020
+JD,FY2022,V,,,JD_20F_2023-04-20.txt,,not reported as an absolute figure
+JD,FY2023,V,,,JD_20F_2024-04-18.txt,,not reported; JD stopped disclosing GMV after FY2022
+JD,FY2024,V,,,JD_20F_2025-04-17.txt,,not reported
+JD,FY2025,V,,,JD_20F_2026-04-16.txt,,not reported
+JD,FY2014,revenue,115002,RMB million,JD_20F_2015-04-17.txt," million in 2010 to RMB115,002 million (US$18,535 million) in 2014, for a four-year CAGR of 91.3%. However, there is no assurance that we will be able to maintain our historical growth rates in future periods. Our revenue growth may slow or our revenues may decline ",Total net revenues
+JD,FY2014,rev_1p,108549258,RMB thousand,JD_20F_2015-04-17.txt,"7,017,977 
+ | 
+ | 
+ 108,549,258 
+ | 
+ | 
+ 17,494,965 
+ | 
+ | 
+ Services and others 
+ | 
+ | 
+ 1,045,970 
+ | 
+ | 
+ 2,321,835 
+ | 
+ | 
+ 6,453,059 
+ | 
+ | 
+ 1,040,044 
+ | 
+ | 
+ Total net revenues 
+ | 
+ | 
+ 41,380,521 
+ | 
+ | 
+ 69,339,8",Online direct sales / net product revenues
+JD,FY2015,revenue,181287,RMB million,JD_20F_2016-04-18.txt,"
+ 115,002 
+ | 
+ | 
+ 181,287 
+ | 
+ | 
+ 27,986 
+ | 
+ | 
+ Operating expenses (1) : 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (19,977 
+ | 
+ ) 
+ | 
+ (37,898 
+ | 
+ ) 
+ | 
+ (62,496 
+ | 
+ ) 
+ ",Total net revenues
+JD,FY2015,rev_1p,167721,RMB million,JD_20F_2016-04-18.txt,"
+ 108,549 
+ | 
+ | 
+ 167,721 
+ | 
+ | 
+ 25,892 
+ | 
+ | 
+ Services and others 
+ | 
+ | 
+ 241 
+ | 
+ | 
+ 1,046 
+ | 
+ | 
+ 2,322 
+ | 
+ | 
+ 6,453 
+ | 
+ | 
+ 13,566 
+ | 
+ | 
+ 2,094 
+ | 
+ | 
+ Total net revenues 
+ | 
+ | 
+ 21,129 
+ | 
+ | 
+ 4",Online direct sales
+JD,FY2016,revenue,260122,RMB million,JD_20F_2017-05-01.txt,"
+ 181,275 
+ | 
+ | 
+ 260,122 
+ | 
+ | 
+ 37,465 
+ | 
+ | 
+ Operating expenses (1)(2) : 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (37,898 
+ | 
+ ) 
+ | 
+ (62,496 
+ | 
+ ) 
+ | 
+ (101,631 
+ | 
+ ",Total net revenues
+JD,FY2016,rev_1p,237702,RMB million,JD_20F_2017-05-01.txt,"
+ 167,721 
+ | 
+ | 
+ 237,702 
+ | 
+ | 
+ 34,236 
+ | 
+ | 
+ Services and others 
+ | 
+ | 
+ 1,046 
+ | 
+ | 
+ 2,322 
+ | 
+ | 
+ 6,453 
+ | 
+ | 
+ 13,554 
+ | 
+ | 
+ 22,420 
+ | 
+ | 
+ 3,229 
+ | 
+ | 
+ Total net revenues 
+ | 
+ | 
+ 41,381 
+ | 
+ | ",Online direct sales
+JD,FY2017,revenue,362332,RMB million,JD_20F_2018-04-27.txt,"
+ 258,290 
+ | 
+ | 
+ 362,332 
+ | 
+ | 
+ 55,689 
+ | 
+ | 
+ Operating expenses (1)(2)(3) : 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (62,496 
+ | 
+ ) 
+ | 
+ (101,631 
+ | 
+ ) 
+ | 
+ (158,960 
+ ",Total net revenues
+JD,FY2017,rev_1p,331824,RMB million,JD_20F_2018-04-27.txt,"
+ 237,944 
+ | 
+ | 
+ 331,824 
+ | 
+ | 
+ 51,000 
+ | 
+ | 
+ Net service revenues (formerly known as services and others) 
+ | 
+ | 
+ 2,322 
+ | 
+ | 
+ 6,453 
+ | 
+ | 
+ 13,106 
+ | 
+ | 
+ 20,346 
+ | 
+ | 
+ 30,508 
+ | 
+ | 
+ 4,689 
+ | 
+ | 
+ To",Net product revenues
+JD,FY2018,revenue,462020,RMB million,JD_20F_2019-04-15.txt,"
+ 362,332 
+ | 
+ | 
+ 462,020 
+ | 
+ | 
+ 67,198 
+ | 
+ | 
+ Operating expenses (1)(2)(3) : 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (101,631 
+ | 
+ ) 
+ | 
+ (158,960 
+ | 
+ ) 
+ | 
+ (222,935 
+",Total net revenues
+JD,FY2018,rev_1p,416109,RMB million,JD_20F_2019-04-15.txt,"
+ 331,824 
+ | 
+ | 
+ 416,109 
+ | 
+ | 
+ 60,521 
+ | 
+ | 
+ Net service revenues (formerly known as services and others) 
+ | 
+ | 
+ 6,453 
+ | 
+ | 
+ 13,106 
+ | 
+ | 
+ 20,346 
+ | 
+ | 
+ 30,508 
+ | 
+ | 
+ 45,911 
+ | 
+ | 
+ 6,677 
+ | 
+ | 
+ T",Net product revenues
+JD,FY2019,revenue,576888,RMB million,JD_20F_2020-04-15.txt," million in 2018 to RMB576,888 million (US$82,865 million) in 2019, with increases in both categories of net revenues. Net product revenues increased by 22.7% from RMB416,109 million in 2018 to RMB510,734 million (US$73,362 million) in 2019. Net service revenues inc",Total net revenues
+JD,FY2019,rev_1p,510734,RMB million,JD_20F_2020-04-15.txt,"9 
+ | 
+ | 
+ | 
+ | 
+ 510,734 
+ | 
+ | 
+ | 
+ | 
+ 73,362 
+ | 
+ | 
+ Net service revenues 
+ | 
+ | 
+ | 
+ 13,106 
+ | 
+ | 
+ | 
+ | 
+ 20,346 
+ | 
+ | 
+ | 
+ | 
+ 30,508 
+ | 
+ | 
+ | 
+ | 
+ 45,911 
+ | 
+ | 
+ | 
+ | 
+ 66,154 
+ | 
+ | 
+ | 
+ | 
+ 9,50",Net product revenues
+JD,FY2020,revenue,745802,RMB million,JD_20F_2021-04-16.txt," million in 2019 to RMB745,802 million (US$114,299 million) in 2020, with increases in both categories of net revenues. Net product revenues increased by 27.6% from RMB510,734 million in 2019 to RMB651,879 million (US$99,905 million) in 2020. Net service revenues inc",Total net revenues
+JD,FY2020,rev_1p,651879,RMB million,JD_20F_2021-04-16.txt,"734 | 
+ | 
+ | 
+ | 
+ 651,879 | 
+ | 
+ | 
+ | 
+ 99,905 | 
+ | 
+ Net service revenues
+ | 
+ | 
+ | 
+ 20,346 | 
+ | 
+ | 
+ | 
+ 30,508 | 
+ | 
+ | 
+ | 
+ 45,911 | 
+ | 
+ | 
+ | 
+ 66,154 | 
+ | 
+ | 
+ | 
+ 93,923 | 
+ | 
+ | 
+ | 
+ 14,394 | 
+ | 
+ | 
+ ",Net product revenues
+JD,FY2021,revenue,951592,RMB million,JD_20F_2022-04-28.txt," million in 2020 to RMB951,592 million (US$149,326 million) in 2021, with increases in both categories of net revenues. Net product revenues increased by 25.1% from RMB651,879 million in 2020 to RMB815,655 million (US$127,994 million) in 2021. Net service revenues in",Total net revenues
+JD,FY2021,rev_1p,815655,RMB million,JD_20F_2022-04-28.txt,"879 | 
+ | 
+ | 
+ | 
+ 815,655 | 
+ | 
+ | 
+ | 
+ 127,994 | 
+ | 
+ Net service revenues
+ | 
+ | 
+ | 
+ 30,508 | 
+ | 
+ | 
+ | 
+ 45,911 | 
+ | 
+ | 
+ | 
+ 66,154 | 
+ | 
+ | 
+ | 
+ 93,923 | 
+ | 
+ | 
+ | 
+ 135,937 | 
+ | 
+ | 
+ | 
+ 21,332 | 
+ | 
+ | ",Net product revenues
+JD,FY2022,revenue,1046236,RMB million,JD_20F_2023-04-20.txt," million in 2021 to RMB1,046,236 million (US$151,690 million) in 2022, with increases in both categories of net revenues. Net product revenues increased by 6.1% from RMB815,655 million in 2021 to RMB865,062 million (US$125,422 million) in 2022. Net service revenues inc",Total net revenues
+JD,FY2022,rev_1p,865062,RMB million,JD_20F_2023-04-20.txt,"655 | 
+ | 
+ | 
+ | 
+ 865,062 | 
+ | 
+ | 
+ | 
+ 125,422 | 
+ | 
+ Net service revenues
+ | 
+ | 
+ | 
+ 45,911 | 
+ | 
+ | 
+ | 
+ 66,154 | 
+ | 
+ | 
+ | 
+ 93,923 | 
+ | 
+ | 
+ | 
+ 135,937 | 
+ | 
+ | 
+ | 
+ 181,174 | 
+ | 
+ | 
+ | 
+ 26,268 | 
+ | 
+ |",Net product revenues
+JD,FY2023,revenue,1084662,RMB million,JD_20F_2024-04-18.txt," million in 2022 to RMB1,084,662 million (US$152,771 million) in 2023. Net product revenues increased by 0.7% from RMB865,062 million in 2022 to RMB871,224 million (US$122,709 million) in 2023. Net service revenues increased by 17.8% from RMB181,174 million in 2022 to ",Total net revenues
+JD,FY2023,rev_1p,871224,RMB million,JD_20F_2024-04-18.txt,"062 | 
+ | 
+ | 
+ | 
+ 871,224 | 
+ | 
+ | 
+ | 
+ 122,709 | 
+ | 
+ Net service revenues
+ | 
+ | 
+ | 
+ 66,154 | 
+ | 
+ | 
+ | 
+ 93,923 | 
+ | 
+ | 
+ | 
+ 135,937 | 
+ | 
+ | 
+ | 
+ 181,174 | 
+ | 
+ | 
+ | 
+ 213,438 | 
+ | 
+ | 
+ | 
+ 30,062 | 
+ | 
+ ",Net product revenues
+JD,FY2024,revenue,1158819,RMB million,JD_20F_2025-04-17.txt," million in 2023 to RMB1,158,819 million (US$158,758 million) in 2024. 
+ Net revenues from JD Retail increased by 7.5% to RMB1,015,948 million (US$139,184 million) in 2024 from RMB945,343 million in 2023. The increase was primarily driven by the enhancement in our uniq",Total net revenues
+JD,FY2024,rev_1p,928007,RMB million,JD_20F_2025-04-17.txt,"224 | 
+ | 
+ | 
+ | 
+ 928,007 | 
+ | 
+ | 
+ | 
+ 127,136 | 
+ | 
+ Net service revenues
+ | 
+ | 
+ | 
+ 93,923 | 
+ | 
+ | 
+ | 
+ 135,937 | 
+ | 
+ | 
+ | 
+ 181,174 | 
+ | 
+ | 
+ | 
+ 213,438 | 
+ | 
+ | 
+ | 
+ 230,812 | 
+ | 
+ | 
+ | 
+ 31,622 | 
+ | 
+",Net product revenues
+JD,FY2025,revenue,1309085,RMB million,JD_20F_2026-04-16.txt," million in 2024 to RMB1,309,085 million (US$187,197 million) in 2025. 
+ Net revenues from JD Retail increased by 10.9% to RMB1,126,399 million (US$161,073 million) in 2025 from RMB1,015,948 million in 2024. The increase was primarily driven by the enhancement in our u",Total net revenues
+JD,FY2025,rev_1p,1023.8,RMB billion,JD_20F_2026-04-16.txt,"MB928.0 billion and RMB1,023.8 billion (US$146.4 billion) in 2023, 2024 and 2025, respectively. In addition, our marketplace and marketing, logistics and other services generated net service revenues of RMB213.4 billion, RMB230.8 billion and RMB285.3 billio",Net product revenues
+JD,FY2014,ocf,1015,RMB million,JD_20F_2015-04-17.txt,"| 
+ 3,570 
+ | 
+ | 
+ 1,015 
+ | 
+ | 
+ 164 
+ | 
+ | 
+ Net cash used in investing activities 
+ | 
+ | 
+ (107 
+ | 
+ ) 
+ | 
+ (624 
+ | 
+ ) 
+ | 
+ (3,369 
+ | 
+ ) 
+ | 
+ (2,671 
+ | 
+ ) 
+ | 
+ (13,203 
+ | 
+ ) 
+ | 
+ (2,128 
+ | 
+ ) 
+ | 
+ Net ",Net cash provided by operating activities
+JD,FY2014,capex,-1424534,RMB thousand,JD_20F_2015-04-17.txt,"9,881 
+ | 
+ ) 
+ | 
+ (1,424,534 
+ | 
+ ) 
+ | 
+ (229,593 
+ | 
+ ) 
+ | 
+ Cash paid for construction in progress 
+ | 
+ | 
+ (136,122 
+ | 
+ ) 
+ | 
+ (737,411 
+ | 
+ ) 
+ | 
+ (1,036,513 
+ | 
+ ) 
+ | 
+ (167,056 
+ | 
+ ) 
+ | 
+ Purchase of intangi","Purchase of property, equipment and software"
+JD,FY2014,capex_sw,-17935,RMB thousand,JD_20F_2015-04-17.txt,"0,237 
+ | 
+ ) 
+ | 
+ (17,935 
+ | 
+ ) 
+ | 
+ (2,891 
+ | 
+ ) 
+ | 
+ Purchase of land use rights 
+ | 
+ | 
+ (369,001 
+ | 
+ ) 
+ | 
+ (104,552 
+ | 
+ ) 
+ | 
+ (423,084 
+ | 
+ ) 
+ | 
+ (68,189 
+ | 
+ ) 
+ | 
+ Cash (paid for)/received from busin",Purchase of intangible assets
+JD,FY2015,ocf,-1811551,RMB thousand,JD_20F_2016-04-18.txt,"1,015,016 
+ | 
+ | 
+ (1,811,551 
+ | 
+ ) 
+ | 
+ (279,655 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchase of short-term investments 
+ | 
+ |",Net cash provided by/(used in) operating activities; later restated
+JD,FY2015,capex,-2826830,RMB thousand,JD_20F_2016-04-18.txt,"4,534 
+ | 
+ ) 
+ | 
+ (2,826,830 
+ | 
+ ) 
+ | 
+ (436,387 
+ | 
+ ) 
+ | 
+ Cash paid for construction in progress 
+ | 
+ | 
+ (737,411 
+ | 
+ ) 
+ | 
+ (1,036,513 
+ | 
+ ) 
+ | 
+ (1,540,615 
+ | 
+ ) 
+ | 
+ (237,830 
+ | 
+ ) 
+ | 
+ Purchase of intan","Purchase of property, equipment and software"
+JD,FY2015,capex_sw,-6556,RMB thousand,JD_20F_2016-04-18.txt,"7,935 
+ | 
+ ) 
+ | 
+ (6,556 
+ | 
+ ) 
+ | 
+ (1,012 
+ | 
+ ) 
+ | 
+ Purchase of land use rights 
+ | 
+ | 
+ (104,552 
+ | 
+ ) 
+ | 
+ (423,084 
+ | 
+ ) 
+ | 
+ (925,758 
+ | 
+ ) 
+ | 
+ (142,912 
+ | 
+ ) 
+ | 
+ Cash received from/(paid for) busi",Purchase of intangible assets
+JD,FY2016,ocf,8767,RMB million,JD_20F_2017-05-01.txt,"| 
+ 1,696 
+ | 
+ | 
+ 8,767 
+ | 
+ | 
+ 1,263 
+ | 
+ | 
+ Net cash used in investing activities (5) 
+ | 
+ | 
+ (3,369 
+ | 
+ ) 
+ | 
+ (2,671 
+ | 
+ ) 
+ | 
+ (13,478 
+ | 
+ ) 
+ | 
+ (5,791 
+ | 
+ ) 
+ | 
+ (48,269 
+ | 
+ ) 
+ | 
+ (6,952 
+ | 
+ )",Net cash provided by operating activities
+JD,FY2016,capex,-2372035,RMB thousand,JD_20F_2017-05-01.txt,"6,830 
+ | 
+ ) 
+ | 
+ (2,372,035 
+ | 
+ ) 
+ | 
+ (341,644 
+ | 
+ ) 
+ | 
+ Cash paid for construction in progress 
+ | 
+ | 
+ (1,036,513 
+ | 
+ ) 
+ | 
+ (1,540,615 
+ | 
+ ) 
+ | 
+ (1,359,364 
+ | 
+ ) 
+ | 
+ (195,789 
+ | 
+ ) 
+ | 
+ Purchase of int","Purchase of property, equipment and software"
+JD,FY2016,capex_sw,-50438,RMB thousand,JD_20F_2017-05-01.txt,"6,556 
+ | 
+ ) 
+ | 
+ (50,438 
+ | 
+ ) 
+ | 
+ (7,265 
+ | 
+ ) 
+ | 
+ Purchase of land use rights 
+ | 
+ | 
+ (423,084 
+ | 
+ ) 
+ | 
+ (925,758 
+ | 
+ ) 
+ | 
+ (678,328 
+ | 
+ ) 
+ | 
+ (97,700 
+ | 
+ ) 
+ | 
+ Cash received from/(paid for) busin",Purchase of intangible assets
+JD,FY2017,ocf,27307,RMB million,JD_20F_2018-04-27.txt,"ivities in 2017 was RMB27,307 million (US$4,197 million). In 2017, the principal items accounting for the difference between our net cash provided by operating activities and our net loss were certain non-cash expenses, principally depreciation and amortiz",Net cash provided by operating activities in 2017
+JD,FY2017,capex,-3294286,RMB thousand,JD_20F_2018-04-27.txt,"0,802 
+ | 
+ ) 
+ | 
+ (3,294,286 
+ | 
+ ) 
+ | 
+ (506,322 
+ | 
+ ) 
+ | 
+ Cash paid for construction in progress 
+ | 
+ | 
+ (1,540,615 
+ | 
+ ) 
+ | 
+ (1,359,364 
+ | 
+ ) 
+ | 
+ (3,267,277 
+ | 
+ ) 
+ | 
+ (502,171 
+ | 
+ ) 
+ | 
+ Purchase of int","Purchase of property, equipment and software"
+JD,FY2018,ocf,20881,RMB million,JD_20F_2019-04-15.txt,"ivities in 2018 was RMB20,881 million (US$3,037 million). In 2018, the principal items accounting for the difference between our net cash provided by operating activities and our net loss were certain non-cash expenses, principally depre",Net cash provided by operating activities in 2018
+JD,FY2018,capex,-9743453,RMB thousand,JD_20F_2019-04-15.txt,"4,286 
+ | 
+ ) 
+ | 
+ (9,743,453 
+ | 
+ ) 
+ | 
+ (1,417,126 
+ | 
+ ) 
+ | 
+ Cash paid for construction in progress 
+ | 
+ | 
+ (1,359,364 
+ | 
+ ) 
+ | 
+ (3,267,277 
+ | 
+ ) 
+ | 
+ (7,358,939 
+ | 
+ ) 
+ | 
+ (1,070,313 
+ | 
+ ) 
+ | 
+ Purchase of","Purchase of property, equipment and software"
+JD,FY2018,capex_sw,-130797,RMB thousand,JD_20F_2019-04-15.txt,"8,774 
+ | 
+ ) 
+ | 
+ (130,797 
+ | 
+ ) 
+ | 
+ (19,024 
+ | 
+ ) 
+ | 
+ Purchase of land use rights 
+ | 
+ | 
+ (678,328 
+ | 
+ ) 
+ | 
+ (4,785,538 
+ | 
+ ) 
+ | 
+ (4,136,305 
+ | 
+ ) 
+ | 
+ (601,601 
+ | 
+ ) 
+ | 
+ Cash paid for business combin",Purchase of intangible assets
+JD,FY2019,ocf,24781,RMB million,JD_20F_2020-04-15.txt,"ivities in 2019 was RMB24,781 million (US$3,560 million). In 2019, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash 
+ expenses, principally d",Net cash provided by operating activities in 2019
+JD,FY2019,capex,-2597069,RMB thousand,JD_20F_2020-04-15.txt,"
+ | 
+ ) | 
+ | 
+ | 
+ ( 2,597,069 
+ | 
+ ) | 
+ | 
+ | 
+ ( 373,045 
+ | 
+ ) | 
+ Purchase of intangible assets 
+ | 
+ | 
+ | 
+ ( 8,774 
+ | 
+ ) | 
+ | 
+ | 
+ ( 130,797 
+ | 
+ ) | 
+ | 
+ | 
+ ( 41,449 
+ | 
+ ) | 
+ | 
+ | 
+ ( 5,954 
+ | 
+ ) | 
+ Purcha","Purchase of property, equipment and software"
+JD,FY2019,capex_sw,-41449,RMB thousand,JD_20F_2020-04-15.txt,"
+ | 
+ ) | 
+ | 
+ | 
+ ( 41,449 
+ | 
+ ) | 
+ | 
+ | 
+ ( 5,954 
+ | 
+ ) | 
+ Purchase of land use rights 
+ | 
+ | 
+ | 
+ ( 4,785,538 
+ | 
+ ) | 
+ | 
+ | 
+ ( 4,136,305 
+ | 
+ ) | 
+ | 
+ | 
+ ( 1,039,106 
+ | 
+ ) | 
+ | 
+ | 
+ ( 149,258 
+ | 
+ ) | 
+",Purchase of intangible assets
+JD,FY2020,ocf,42544,RMB million,JD_20F_2021-04-16.txt,"ivities in 2020 was RMB42,544 million (US$6,520 million). In 2020, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash
+ expenses, principally ga",Net cash provided by operating activities in 2020
+JD,FY2020,capex,-3370165,RMB thousand,JD_20F_2021-04-16.txt,"9 | 
+ ) | 
+ | 
+ | 
+ ( 3,370,165 | 
+ ) | 
+ | 
+ | 
+ ( 516,500 | 
+ ) | 
+ Purchase of intangible assets
+ | 
+ | 
+ | 
+ ( 130,797 | 
+ ) | 
+ | 
+ | 
+ ( 41,449 | 
+ ) | 
+ | 
+ | 
+ ( 19,361 | 
+ ) | 
+ | 
+ | 
+ ( 2,967 | 
+ ) | 
+ Purchase of land u","Purchase of property, equipment and software"
+JD,FY2020,capex_sw,-19361,RMB thousand,JD_20F_2021-04-16.txt,"9 | 
+ ) | 
+ | 
+ | 
+ ( 19,361 | 
+ ) | 
+ | 
+ | 
+ ( 2,967 | 
+ ) | 
+ Purchase of land use rights
+ | 
+ | 
+ | 
+ ( 4,136,305 | 
+ ) | 
+ | 
+ | 
+ ( 1,039,106 | 
+ ) | 
+ | 
+ | 
+ ( 1,518,259 | 
+ ) | 
+ | 
+ | 
+ ( 232,683 | 
+ ) | 
+ Cash paid fo",Purchase of intangible assets
+JD,FY2021,ocf,42301,RMB million,JD_20F_2022-04-28.txt,"ivities in 2021 was RMB42,301 million (US$6,638 million). In 2021, the principal items accounting for the difference between our net cash provided by operating activities and our net income were non-cash
+ expenses, principally share-based compensation of R",Net cash provided by operating activities in 2021
+JD,FY2021,capex,-3370,RMB million,JD_20F_2022-04-28.txt,"7 | 
+ ) | 
+ | 
+ | 
+ ( 3,370 | 
+ ) | 
+ | 
+ | 
+ ( 5,562 | 
+ ) | 
+ | 
+ | 
+ ( 873 | 
+ ) | 
+ Disposal of equipment and other assets (Note 6)
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ 1,765 | 
+ | 
+ | 
+ | 
+ 277 | 
+ | 
+ Purchase","Purchase of property, equipment and software"
+JD,FY2022,ocf,57819,RMB million,JD_20F_2023-04-20.txt,"ivities in 2022 was RMB57,819 million (US$8,383 million). In 2022, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash expenses, principally sha",Net cash provided by operating activities in 2022
+JD,FY2022,capex,-5495,RMB million,JD_20F_2023-04-20.txt,"2 | 
+ ) | 
+ | 
+ | 
+ ( 5,495 | 
+ ) | 
+ | 
+ | 
+ ( 797 | 
+ ) | 
+ Disposal of equipment and other assets
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ 1,765 | 
+ | 
+ | 
+ | 
+ 1,418 | 
+ | 
+ | 
+ | 
+ 206 | 
+ | 
+ Purchase of intangible assets
+ | 
+ | 
+ ","Purchase of property, equipment and software"
+JD,FY2022,capex_sw,-10,RMB million,JD_20F_2023-04-20.txt,"| 
+ | 
+ 206 | 
+ | 
+ Purchase of intangible assets
+ | 
+ | 
+ | 
+ ( 19 | 
+ ) | 
+ | 
+ | 
+ ( 23 | 
+ ) | 
+ | 
+ | 
+ ( 10 | 
+ ) | 
+ | 
+ | 
+ ( 1 | 
+ ) | 
+ Cash paid for asset acquisitions, net of cash acquired
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ ( 1,603 | 
+ ) | 
+",Purchase of intangible assets
+JD,FY2023,ocf,59521,RMB million,JD_20F_2024-04-18.txt,"ivities in 2023 was RMB59,521 million (US$8,383 million). In 2023, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash expenses, principally dep",Net cash provided by operating activities in 2023
+JD,FY2023,capex,-4025,RMB million,JD_20F_2024-04-18.txt,"5 | 
+ ) | 
+ | 
+ | 
+ ( 4,025 | 
+ ) | 
+ | 
+ | 
+ ( 567 | 
+ ) | 
+ Disposal of equipment and other assets
+ | 
+ | 
+ | 
+ 1,765 | 
+ | 
+ | 
+ | 
+ 1,418 | 
+ | 
+ | 
+ | 
+ 130 | 
+ | 
+ | 
+ | 
+ 18 | 
+ | 
+ Purchase of intangible assets
+ | 
+ | 
+","Purchase of property, equipment and software"
+JD,FY2024,ocf,58095,RMB million,JD_20F_2025-04-17.txt,"ivities in 2024 was RMB58,095 million (US$7,959 million). In 2024, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash expenses, principally depreciation and amort",Net cash provided by operating activities in 2024
+JD,FY2024,capex,-5353,RMB million,JD_20F_2025-04-17.txt,"8 | 
+ ) | 
+ | 
+ | 
+ ( 5,353 | 
+ ) | 
+ | 
+ | 
+ ( 733 | 
+ ) | 
+ Disposal of equipment and other assets
+ | 
+ | 
+ | 
+ 1,418 | 
+ | 
+ | 
+ | 
+ 130 | 
+ | 
+ | 
+ | 
+ 81 | 
+ | 
+ | 
+ | 
+ 11 | 
+ | 
+ Cash paid for asset acquisitions, net of ","Purchase of property, equipment and software and intangible assets"
+JD,FY2025,ocf,18991,RMB million,JD_20F_2026-04-16.txt,"ivities in 2025 was RMB18,991 million (US$2,716 million). In 2025, the principal items accounting for the difference between our net cash provided by operating activities and our net income were certain non-cash expenses, principally depreciation and amort",Net cash provided by operating activities in 2025
+PDD,FY2016,V,,,PDD_20F_2019-04-24.txt,,not reported as a meaningful GMV
+PDD,FY2017,V,141.2,RMB billion,PDD_20F_2019-04-24.txt,"er of total orders. Our GMV in 2017 and 2018 was RMB141.2 billion and RMB471.6 billion (US$68.6 billion), respectively. In 2017 and 2018, the number of total orders placed on our Pinduoduo mobile platform reached 4.3 billion and 11.1 billion, respectively. 
+ 52 
+ T",GMV
+PDD,FY2018,V,471.6,RMB billion,PDD_20F_2019-04-24.txt,"MB141.2 billion and RMB471.6 billion (US$68.6 billion), respectively. In 2017 and 2018, the number of total orders placed on our Pinduoduo mobile platform reached 4.3 billion and 11.1 billion, respectively. 
+ 52 
+ Table of Contents 
+ We pioneered an innovative “team p",GMV
+PDD,FY2019,V,1006.6,RMB billion,PDD_20F_2020-04-24.txt,"MB471.6 billion and RMB1,006.6 billion (US$144.6 billion), respectively. In 2017, 2018 and 2019, the number of total orders placed on our Pinduoduo mobile platform reached 4.3 billion, 11.1 billion and 19.7 billion, respectively.
+ 60
+ Table of Contents 
+ We pioneered an ",GMV
+PDD,FY2020,V,1667.6,RMB billion,PDD_20F_2021-04-30.txt,"1,006.6 billion and RMB1,667.6 billion (US$255.6 billion), respectively. In 2018, 2019 and 2020, the number of total orders placed on our Pinduoduo mobile platform reached 11.1 billion, 19.7 billion and 38.3 billion, respectively. 
+ 59
+ Table of Contents 
+ We pioneered a",GMV
+PDD,FY2021,V,2441.0,RMB billion,PDD_20F_2022-04-25.txt,"1,667.6 billion and RMB2,441.0 billion (US$383.0 billion), respectively. In 2019, 2020 and 2021, the number of total orders placed on our Pinduoduo mobile platform was 19.7 billion, 38.3 billion and 61.0 billion, respectively. 
+ We pioneered an innovative “team purchase”",GMV
+PDD,FY2022,V,,,PDD_20F_2023-04-26.txt,,not reported; PDD stopped disclosing GMV after FY2021
+PDD,FY2023,V,,,PDD_20F_2024-04-25.txt,,not reported
+PDD,FY2024,V,,,PDD_20F_2025-04-28.txt,,not reported
+PDD,FY2025,V,,,PDD_20F_2026-04-29.txt,,not reported
+PDD,FY2016,revenue,504864,RMB thousand,PDD_20F_2019-04-24.txt," revenues 
+ | 
+ | 
+ 504,864 
+ | 
+ | 
+ 1,744,076 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+ 1,908,223 
+ | 
+ | 
+ Costs of revenue s (1) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Costs of online marketplace services 
+ | 
+ | 
+ (93,551 
+ | 
+ ) ",Total revenues
+PDD,FY2016,rev_1p,456588,RMB thousand,PDD_20F_2019-04-24.txt,"ise sales 
+ | 
+ | 
+ 456,588 
+ | 
+ | 
+ 3,385 
+ | 
+ | 
+ — 
+ | 
+ | 
+ — 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 504,864 
+ | 
+ | 
+ 1,744,076 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+ 1,908,223 
+ | 
+ | 
+ Costs of revenue s (1) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ",Merchandise sales
+PDD,FY2017,revenue,1744076,RMB thousand,PDD_20F_2019-04-24.txt,"
+ 504,864 
+ | 
+ | 
+ 1,744,076 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+ 1,908,223 
+ | 
+ | 
+ Costs of revenue s (1) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Costs of online marketplace services 
+ | 
+ | 
+ (93,551 
+ | 
+ ) 
+ | 
+ (719,778 
+ | 
+",Total revenues
+PDD,FY2017,rev_1p,3385,RMB thousand,PDD_20F_2019-04-24.txt,"
+ 456,588 
+ | 
+ | 
+ 3,385 
+ | 
+ | 
+ — 
+ | 
+ | 
+ — 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 504,864 
+ | 
+ | 
+ 1,744,076 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+ 1,908,223 
+ | 
+ | 
+ Costs of revenue s (1) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ",Merchandise sales
+PDD,FY2018,revenue,13119990,RMB thousand,PDD_20F_2019-04-24.txt,"1,740,691 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+ 1,908,223 
+ | 
+ | 
+ Merchandise sales 
+ | 
+ | 
+ 456,588 
+ | 
+ | 
+ 3,385 
+ | 
+ | 
+ — 
+ | 
+ | 
+ — 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 504,864 
+ | 
+ | 
+ 1,744,076 
+ | 
+ | 
+ 13,119,990 
+ | 
+ | 
+",Total revenues
+PDD,FY2019,revenue,30141886,RMB thousand,PDD_20F_2020-04-24.txt,"3,119,990 
+ | ​ 
+ | 30,141,886 
+ | 
+ | 4,329,611 
+ | 
+ Merchandise sales
+ | ​ 
+ | 456,588 
+ | 
+ | 3,385 
+ | 
+ | —
+ | ​ 
+ | —
+ | 
+ | — 
+ | 
+ Total revenues 
+ | ​ 
+ | 504,864 
+ | 
+ | 1,744,076 
+ | 
+ | 13,119,990 
+ | ​ 
+ | 30,141,886",Total revenues
+PDD,FY2020,revenue,59491865,RMB thousand,PDD_20F_2021-04-30.txt,"0,141,886 
+ | ​ 
+ | 59,491,865 
+ | 
+ | 9,117,527 
+ | 
+ Costs of revenues (1) 
+ | ​ 
+ | (577,870) 
+ | 
+ | (722,830) 
+ | 
+ | (2,905,249) 
+ | ​ 
+ | (6,338,778) 
+ | ​ 
+ | (19,278,641) 
+ | 
+ | (2,954,581) 
+ | 
+ Gross (loss)/profit 
+ | ",Total revenues
+PDD,FY2020,rev_1p,5750671,RMB thousand,PDD_20F_2021-04-30.txt," | ​ 
+ | —
+ | ​ 
+ | 5,750,671 
+ | 
+ | 881,329 
+ | 
+ Total revenues 
+ | ​ 
+ | 504,864 
+ | 
+ | 1,744,076 
+ | 
+ | 13,119,990 
+ | ​ 
+ | 30,141,886 
+ | ​ 
+ | 59,491,865 
+ | 
+ | 9,117,527 
+ | 
+ Costs of revenues (1) 
+ | ​ 
+ | (577,870)",Merchandise sales
+PDD,FY2021,revenue,93949939,RMB thousand,PDD_20F_2022-04-25.txt,"36,683,514) 
+ | 
+ | 93,949,939 
+ | 
+ Net income/ (loss) 
+ | 
+ | 7,768,670 
+ | 
+ | (5,589,442) 
+ | 
+ | 15,169,180 
+ | 
+ | (9,579,738) 
+ | 
+ | 7,768,670 
+ | 
+ ​ 
+ ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | 
+ ​",Total revenues
+PDD,FY2021,rev_1p,7246088,RMB thousand,PDD_20F_2022-04-25.txt,"​ 
+ | 9.7 
+ | ​ 
+ | 7,246,088 
+ | 
+ | 1,137,069 
+ | 
+ | 7.7 
+ | 
+ Total revenues 
+ | 
+ | 30,141,886 
+ | ​ 
+ | 100.0 
+ | 
+ | 59,491,865 
+ | ​ 
+ | 100.0 
+ | ​ 
+ | 93,949,939 
+ | 
+ | 14,742,796 
+ | 
+ | 100.0 
+ | 
+ ​ 
+ 84
+ Table of C",Merchandise sales
+PDD,FY2022,revenue,130557589,RMB thousand,PDD_20F_2023-04-26.txt,",682,820) 
+ | ​ 
+ | 130,557,589 
+ | 
+ Total costs and operating expenses 
+ | ​ 
+ | (660,216) 
+ | 
+ | (803,066) 
+ | 
+ | (68,152,664) 
+ | 
+ | (71,222,542) 
+ | 
+ | 40,682,820 
+ | ​ 
+ | (100,155,668) 
+ | 
+ Share of profit from subsidia",Total revenues
+PDD,FY2022,rev_1p,209171,RMB thousand,PDD_20F_2023-04-26.txt,"​ 
+ | 7.7 
+ | ​ 
+ | 209,171 
+ | 
+ | 30,327 
+ | 
+ | 0.1 
+ | 
+ Total revenues 
+ | 
+ | 59,491,865 
+ | ​ 
+ | 100.0 
+ | 
+ | 93,949,939 
+ | ​ 
+ | 100.0 
+ | ​ 
+ | 130,557,589 
+ | 
+ | 18,929,071 
+ | 
+ | 100.0 
+ | 
+ ​ 
+ Online marketing",Merchandise sales
+PDD,FY2023,revenue,247639205,RMB thousand,PDD_20F_2024-04-25.txt,",150,695) 
+ | ​ 
+ | 247,639,205 
+ | 
+ Total costs and operating expenses 
+ | ​ 
+ | (156,391) 
+ | 
+ | (835,691) 
+ | 
+ | (110,080,065) 
+ | 
+ | (157,018,991) 
+ | 
+ | 79,150,695 
+ | ​ 
+ | (188,940,443) 
+ | 
+ Share of profit from subsid",Total revenues
+PDD,FY2024,revenue,393836097,RMB thousand,PDD_20F_2025-04-28.txt,",128,104) 
+ | ​ 
+ | 393,836,097 
+ | 
+ Total costs and operating expenses
+ | ​ 
+ | (47,546) 
+ | 
+ | (638,421) 
+ | 
+ | (100,393,074) 
+ | 
+ | (255,462,298) 
+ | 
+ | 71,128,104 
+ | ​ 
+ | (285,413,235) 
+ | 
+ Share of profit from subsidia",Total revenues
+PDD,FY2025,revenue,431845713,RMB thousand,PDD_20F_2026-04-29.txt,",627,537) 
+ | ​ 
+ | 431,845,713 
+ | 
+ Total costs and operating expenses
+ | ​ 
+ | (154,054) 
+ | 
+ | (529,119) 
+ | 
+ | (94,052,721) 
+ | 
+ | (337,635,225) 
+ | 
+ | 93,627,537 
+ | ​ 
+ | (338,743,582) 
+ | 
+ Share of profit from subsidia",Total revenues
+PDD,FY2016,ocf,879777,RMB thousand,PDD_20F_2019-04-24.txt,"ctivities 
+ | 
+ | 
+ 879,777 
+ | 
+ | 
+ 9,686,328 
+ | 
+ | 
+ 7,767,927 
+ | 
+ | 
+ 1,129,798 
+ | 
+ | 
+ Net cash (used in)/generated from investing activities 
+ | 
+ | 
+ (307,301 
+ | 
+ ) 
+ | 
+ 71,651 
+ | 
+ | 
+ (7,548,509 
+ | 
+ ) 
+ | 
+",operating activities
+PDD,FY2016,capex,-2301,RMB thousand,PDD_20F_2019-04-24.txt,"equipment 
+ | 
+ | 
+ (2,301 
+ | 
+ ) 
+ | 
+ (8,921 
+ | 
+ ) 
+ | 
+ (27,331 
+ | 
+ ) 
+ | 
+ (3,975 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ — 
+ | 
+ | 
+ 362 
+ | 
+ | 
+ 39 
+ | 
+ | 
+ 6 
+ | 
+ | 
+ Loan to a r",Purchase of property and equipment
+PDD,FY2017,ocf,9686328,RMB thousand,PDD_20F_2019-04-24.txt,"
+ 879,777 
+ | 
+ | 
+ 9,686,328 
+ | 
+ | 
+ 7,767,927 
+ | 
+ | 
+ 1,129,798 
+ | 
+ | 
+ Net cash (used in)/generated from investing activities 
+ | 
+ | 
+ (307,301 
+ | 
+ ) 
+ | 
+ 71,651 
+ | 
+ | 
+ (7,548,509 
+ | 
+ ) 
+ | 
+ (1,097,885 
+ | 
+ ) ",operating activities
+PDD,FY2017,capex,-8921,RMB thousand,PDD_20F_2019-04-24.txt,"2,301 
+ | 
+ ) 
+ | 
+ (8,921 
+ | 
+ ) 
+ | 
+ (27,331 
+ | 
+ ) 
+ | 
+ (3,975 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ — 
+ | 
+ | 
+ 362 
+ | 
+ | 
+ 39 
+ | 
+ | 
+ 6 
+ | 
+ | 
+ Loan to a related party 
+ | 
+ | ",Purchase of property and equipment
+PDD,FY2018,ocf,7767927,RMB thousand,PDD_20F_2019-04-24.txt,"9,686,328 
+ | 
+ | 
+ 7,767,927 
+ | 
+ | 
+ 1,129,798 
+ | 
+ | 
+ Net cash (used in)/generated from investing activities 
+ | 
+ | 
+ (307,301 
+ | 
+ ) 
+ | 
+ 71,651 
+ | 
+ | 
+ (7,548,509 
+ | 
+ ) 
+ | 
+ (1,097,885 
+ | 
+ ) 
+ | 
+ Net cash gener",operating activities
+PDD,FY2018,capex,-27331,RMB thousand,PDD_20F_2019-04-24.txt,"8,921 
+ | 
+ ) 
+ | 
+ (27,331 
+ | 
+ ) 
+ | 
+ (3,975 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ — 
+ | 
+ | 
+ 362 
+ | 
+ | 
+ 39 
+ | 
+ | 
+ 6 
+ | 
+ | 
+ Loan to a related party 
+ | 
+ | 
+ — 
+ | 
+ | 
+ (159,790",Purchase of property and equipment
+PDD,FY2019,ocf,14820976,RMB thousand,PDD_20F_2020-04-24.txt,"7,767,927 
+ | ​ 
+ | 14,820,976 
+ | 
+ | 2,128,900 
+ | 
+ Net cash (used in)/generated from investing activities
+ | ​ 
+ | (307,301) 
+ | 
+ | 71,651 
+ | 
+ | (7,548,509) 
+ | ​ 
+ | (28,319,678) 
+ | 
+ | (4,067,867) 
+ | 
+ Net cash generate",Net cash provided by operating activities
+PDD,FY2020,ocf,28196627,RMB thousand,PDD_20F_2021-04-30.txt,"4,820,976 
+ | ​ 
+ | 28,196,627 
+ | 
+ | 4,321,323 
+ | 
+ Net cash (used in)/generated from investing activities
+ | ​ 
+ | (307,301) 
+ | 
+ | 71,651 
+ | 
+ | (7,548,509) 
+ | ​ 
+ | (28,319,678) 
+ | ​ 
+ | (38,357,901) 
+ | 
+ | (5,878,606) ",Net cash provided by operating activities
+PDD,FY2021,ocf,28783011,RMB thousand,PDD_20F_2022-04-25.txt,"| ​ 
+ | — 
+ | ​ 
+ | 28,783,011 
+ | 
+ | 
+ Net cash used in investing activities
+ | ​ 
+ | (91,170) 
+ | ​ 
+ | (32,639,884) 
+ | ​ 
+ | (26,828,581) 
+ | ​ 
+ | 23,997,270 
+ | ​ 
+ | (35,562,365) 
+ | ​ 
+ | 
+ Net cash generated from/(used i",Net cash provided by operating activities
+PDD,FY2022,ocf,48507.9,RMB million,PDD_20F_2023-04-26.txt,"ivities in 2022 was RMB48,507.9 million (US$7,033.0 million), as compared to net income of RMB31,538.1 million (US$4,572.6 million) in the same period. The difference was primarily due to the increase of RMB1,480.7 million (US$214.7 million) in merchant deposi",Net cash generated from operating activities in 2022
+PDD,FY2023,ocf,94162531,RMB thousand,PDD_20F_2024-04-25.txt,"| ​ 
+ | — 
+ | ​ 
+ | 94,162,531 
+ | 
+ Net cash generated from/(used in) investing activities
+ | ​ 
+ | 8,816,124 
+ | ​ 
+ | (254,396) 
+ | ​ 
+ | (43,637,362) 
+ | ​ 
+ | (50,505,975) 
+ | ​ 
+ | 30,150,331 
+ | ​ 
+ | (55,431,278) 
+ | 
+ Net",operating activities
+PDD,FY2024,ocf,121929292,RMB thousand,PDD_20F_2025-04-28.txt," | ​ 
+ | —
+ | ​ 
+ | 121,929,292 
+ | 
+ Net cash generated from/(used in) investing activities
+ | ​ 
+ | 44,546 
+ | ​ 
+ | (925,796) 
+ | ​ 
+ | (36,090,803) 
+ | ​ 
+ | (105,414,779) 
+ | ​ 
+ | 24,030,796 
+ | ​ 
+ | (118,356,036) 
+ | 
+ Net ",operating activities
+PDD,FY2025,ocf,106938690,RMB thousand,PDD_20F_2026-04-29.txt," | ​ 
+ | —
+ | ​ 
+ | 106,938,690 
+ | 
+ Net cash generated from/(used in) investing activities
+ | ​ 
+ | 5,183,163 
+ | ​ 
+ | (122,766) 
+ | ​ 
+ | (62,690,562) 
+ | ​ 
+ | (30,846,053) 
+ | ​ 
+ | 45,052,982 
+ | ​ 
+ | (43,423,236) 
+ | 
+ Net",operating activities
+VIPS,FY2014,V,,,VIPS_20F_2015-04-24.txt,,not reported
+VIPS,FY2015,V,,,VIPS_20F_2016-04-22.txt,,not reported
+VIPS,FY2016,V,,,VIPS_20F_2017-04-14.txt,,not reported
+VIPS,FY2017,V,108.4,RMB billion,VIPS_20F_2020-04-27.txt,"GMV for 2017, 2018, and 2019 was RMB108.4 billion, RMB131.0 billion, and RMB148.2 billion, respectively.",GMV; first disclosed as comparative in 2020 20-F
+VIPS,FY2018,V,131.0,RMB billion,VIPS_20F_2020-04-27.txt,"GMV for 2017, 2018, and 2019 was RMB108.4 billion, RMB131.0 billion, and RMB148.2 billion, respectively.",GMV; first disclosed as comparative in 2020 20-F
+VIPS,FY2019,V,148.2,RMB billion,VIPS_20F_2020-04-27.txt,"ion), respectively. GMV for 2017, 2018, and 2019 was RMB108.4 billion, RMB131.0 billion, and RMB148.2 billion, respectively.
+ Our Flash Sales Model 
+ Flash sales embody characteristics of value, quality, and convenience that are well suited to brand-conscious consumers in China s",GMV
+VIPS,FY2020,V,165.0,RMB billion,VIPS_20F_2021-04-16.txt," increased by 11.3% from RMB148.2 billion in the 2019 to RMB165.0 billion in 2020. 
+ With our dedicated operations in the discount retail industry and through our continuous innovations to stimulate customers’ excitement in their shopping experience, we have accumulated a large n",GMV
+VIPS,FY2021,V,191.5,RMB billion,VIPS_20F_2022-04-27.txt," increased by 16.1% from 165.0 billion in the 2020 to 191.5 billion in 2021. 
+ With our dedicated operations in the discount retail industry and through our continuous innovations to stimulate customers’ excitement in their shopping experience, we have accumulated a large nu",GMV
+VIPS,FY2022,V,175.2,RMB billion,VIPS_20F_2023-04-19.txt,"ternational brands. Our GMV was RMB175.2 billion in 2022, as compared with RMB191.5 billion in 2021. 
+ With our dedicated operations in the discount retail industry and through our continuous innovations to stimulate customers’ excitement in their shopping",GMV
+VIPS,FY2023,V,208.0,RMB billion,VIPS_20F_2024-04-18.txt," increased by 18.7% from RMB175.2 billion in 2022 to RMB208.0 billion in 2023. 
+ With our dedicated operations in the discount retail industry and through our continuous innovations to stimulate customers’ excitement in their shopping experience, we have accumulated a large nu",GMV
+VIPS,FY2024,V,209.3,RMB billion,VIPS_20F_2025-04-17.txt,"V increased by 0.6% from RMB208.0 billion in 2023 to RMB209.3 billion in 2024. 
+ With our dedicated operations in the discount retail industry and through our continuous innovations to stimulate customers’ excitement in their shopping experience, we have accumulated a large nu",GMV
+VIPS,FY2025,V,213.5,RMB billion,VIPS_20F_2026-04-16.txt,"illion in 2024, and further increased to RMB213.5 billion in 2025. The total orders were 812.3 million, 757.5 million and 732.4 million in 2023, 2024 and 2025, respectively.
+ With our dedicated operations in the off-price retailer industry and through our continuou",GMV
+VIPS,FY2014,revenue,3773657545,USD,VIPS_20F_2015-04-24.txt,"6,672,735 
+ 100.0 
+ 3,773,657,545 
+ 100.0 
+ Cost of goods sold (1) 
+ (29,374,315 
+ ) 
+ (90.2 
+ ) 
+ (183,801,334 
+ ) 
+ (80.9 
+ ) 
+ (537,637,860 
+ ) 
+ (77.7 
+ ) 
+ (1,288,900,456 
+ ) 
+ (76.0 
+ ) 
+ (2,835,310,592 
+ ) 
+ (75.1 
+ ) 
+ ​ 
+ ​ ",Total net revenues (selected data in US$)
+VIPS,FY2014,rev_1p,3701183875,USD,VIPS_20F_2015-04-24.txt,"80,560,853 
+ 99.1 
+ 3,701,183,875 
+ 98.1 
+ Other revenue 
+ — 
+ — 
+ 851,153 
+ 0.4 
+ 2,055,715 
+ 0.3 
+ 16,111,882 
+ 0.9 
+ 72,473,670 
+ 1.9 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ",Product revenues
+VIPS,FY2015,revenue,40203212,RMB thousand,VIPS_20F_2016-04-22.txt,"3,129,313 
+ 100.0 
+ 40,203,212 
+ 6,206,307 
+ 100.0 
+ Cost of goods sold (1) 
+ (1,184,958 
+ ) 
+ (80.9 
+ ) 
+ (3,366,688 
+ ) 
+ (77.7 
+ ) 
+ (7,916,298 
+ ) 
+ (76.0 
+ ) 
+ (17,378,044 
+ ) 
+ (75.1 
+ ) 
+ (30,306,723 
+ ) 
+ (4,678,552 
+ ) 
+ ",Total net revenues
+VIPS,FY2015,rev_1p,39409961,RMB thousand,VIPS_20F_2016-04-22.txt,"22,685,111 
+ 98.1 
+ 39,409,961 
+ 6,083,850 
+ 98.0 
+ Other revenue 
+ 5,487 
+ 0.4 
+ 12,873 
+ 0.3 
+ 98,958 
+ 0.9 
+ 444,202 
+ 1.9 
+ 793,251 
+ 122,457 
+ 2.0 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ ",Product revenues
+VIPS,FY2015,ocf,-1363805,RMB thousand,VIPS_20F_2016-04-22.txt,"0,276 
+ 1,052,069 
+ (1,363,805 
+ ) 
+ Net cash (used in) provided by investing activities 
+ (1,474,294 
+ ) 
+ (890,327 
+ ) 
+ 1,018,250 
+ Net cash provided by financing activities 
+ — 
+ 12,665 
+ 809,740 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ",Net cash provided by (used in) operating activities
+VIPS,FY2016,revenue,56591302,RMB thousand,VIPS_20F_2017-04-14.txt,"0,203,212 
+ 100.0 
+ 56,591,302 
+ 8,150,843 
+ 100.0 
+ Cost of goods sold (1) 
+ (3,366,688 
+ ) 
+ (77.7 
+ ) 
+ (7,916,298 
+ ) 
+ (76.0 
+ ) 
+ (17,378,044 
+ ) 
+ (75.1 
+ ) 
+ (30,306,723 
+ ) 
+ (75.4 
+ ) 
+ (42,994,688 
+ ) 
+ (6,192,523 
+ ) 
+",Total net revenues
+VIPS,FY2017,revenue,72912313,RMB thousand,VIPS_20F_2018-04-19.txt,"6,591,302 
+ 100.0 
+ 72,912,313 
+ 11,206,418 
+ 100.0 
+ Cost of revenues (1) 
+ (7,916,298 
+ ) 
+ (76.0 
+ ) 
+ (17,378,044 
+ ) 
+ (75.1 
+ ) 
+ (30,306,723 
+ ) 
+ (75.4 
+ ) 
+ (42,994,688 
+ ) 
+ (76.0 
+ ) 
+ (56,618,471 
+ ) 
+ (8,702,100 
+ ) 
+",Total net revenues
+VIPS,FY2017,ocf,-801931,RMB thousand,VIPS_20F_2018-04-19.txt," 
+ (1,192,894 
+ ) 
+ (801,931 
+ ) 
+ Net cash provided by investing activities 
+ 1,018,250 
+ 626,798 
+ 1,435,001 
+ Net cash provided by (used in) financing activities 
+ 809,740 
+ (108,779 
+ ) 
+ 1,144,728 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ",Net cash used in operating activities
+VIPS,FY2017,capex,-2197773,RMB thousand,VIPS_20F_2018-04-19.txt," 
+ (1,967,645 
+ ) 
+ (2,197,773 
+ ) 
+ (337,792 
+ ) 
+ Purchases of land use rights 
+ (118,256 
+ ) 
+ (199,642 
+ ) 
+ (275,810 
+ ) 
+ (42,391 
+ ) 
+ Government subsidies received for land use rights 
+ 19,550 
+ 240,069 
+ 117,825 
+ 18,109 ",Purchases of property and equipment
+VIPS,FY2018,revenue,84523948,RMB thousand,VIPS_20F_2019-04-18.txt,"2,912,313 
+ 100.0 
+ 84,523,948 
+ 12,293,499 
+ 100.0 
+ Cost of revenues (1) 
+ (17,378,044 
+ ) 
+ (75.1 
+ ) 
+ (30,306,723 
+ ) 
+ (75.4 
+ ) 
+ (42,994,688 
+ ) 
+ (76.0 
+ ) 
+ (56,618,471 
+ ) 
+ (77.7 
+ ) 
+ (67,454,981 
+ ) 
+ (9,810,920 
+ ) ",Total net revenues
+VIPS,FY2018,ocf,-294853,RMB thousand,VIPS_20F_2019-04-18.txt," ) 
+ (801,931 
+ ) 
+ (294,853 
+ ) 
+ Net cash provided by (used in) investing activities 
+ 626,798 
+ 1,435,001 
+ (48,162 
+ ) 
+ Net cash (used in) provided by financing activities 
+ (108,779 
+ ) 
+ 1,144,728 
+ (17,698 
+ ) 
+ ​ 
+ ​ 
+ ",Net cash used in operating activities
+VIPS,FY2018,capex,-2519673,RMB thousand,VIPS_20F_2019-04-18.txt," 
+ (2,197,773 
+ ) 
+ (2,519,673 
+ ) 
+ (366,471 
+ ) 
+ Purchases of land use rights 
+ (199,642 
+ ) 
+ (275,810 
+ ) 
+ (1,073,370 
+ ) 
+ (156,115 
+ ) 
+ Government subsidies received for land use rights 
+ 240,069 
+ 117,825 
+ 52,300 
+ 7,60",Purchases of property and equipment
+VIPS,FY2019,revenue,92994418,RMB thousand,VIPS_20F_2020-04-27.txt,"8 
+ | 
+ | 
+ | 
+ | 
+ 92,994,418 
+ | 
+ | 
+ | 
+ | 
+ 13,357,812 
+ | 
+ | 
+ Cost of revenues (1)
+ | 
+ | 
+ | 
+ (30,306,723
+ | 
+ ) | 
+ | 
+ | 
+ (42,994,688
+ | 
+ ) | 
+ | 
+ | 
+ (56,618,471
+ | 
+ ) | 
+ | 
+ | 
+ (67,454,981
+ | 
+ ) | 
+ | 
+ | 
+ (7",Total net revenues
+VIPS,FY2019,rev_1p,88721311,RMB thousand,VIPS_20F_2020-04-27.txt,"5 
+ | 
+ | 
+ | 
+ | 
+ 88,721,311 
+ | 
+ | 
+ | 
+ | 
+ 12,744,019 
+ | 
+ | 
+ Other revenues 
+ | 
+ | 
+ | 
+ 793,251 
+ | 
+ | 
+ | 
+ | 
+ 1,309,402 
+ | 
+ | 
+ | 
+ | 
+ 1,740,660 
+ | 
+ | 
+ | 
+ | 
+ 3,013,673 
+ | 
+ | 
+ | 
+ | 
+ 4,273,107 
+ | 
+ | 
+ |",Product revenues
+VIPS,FY2019,capex,-3303176,RMB thousand,VIPS_20F_2020-04-27.txt,"
+ | 
+ ) | 
+ | 
+ | 
+ ( 3,303,176 
+ | 
+ ) | 
+ | 
+ | 
+ ( 474,472 
+ | 
+ ) | 
+ Purchases of land use rights
+ | 
+ | 
+ | 
+ ( 275,810 
+ | 
+ ) | 
+ | 
+ | 
+ ( 1,073,370 
+ | 
+ ) | 
+ | 
+ | 
+ ( 974,497 
+ | 
+ ) | 
+ | 
+ | 
+ ( 139,978 
+ | 
+ ) | 
+ G",Purchases of property and equipment
+VIPS,FY2020,revenue,101858489,RMB thousand,VIPS_20F_2021-04-16.txt,"418 | 
+ | 
+ | 
+ | 
+ 101,858,489 | 
+ | 
+ | 
+ | 
+ 15,610,497 | 
+ | 
+ Cost of revenues (1)
+ | 
+ | 
+ | 
+ (42,994,688 | 
+ ) | 
+ | 
+ | 
+ (56,618,471 | 
+ ) | 
+ | 
+ | 
+ (67,454,981 | 
+ ) | 
+ | 
+ | 
+ (72,314,190 | 
+ ) | 
+ | 
+ | 
+ (80,573,18",Total net revenues
+VIPS,FY2020,capex,-2237257,RMB thousand,VIPS_20F_2021-04-16.txt,"6 | 
+ ) | 
+ | 
+ | 
+ ( 2,237,257 | 
+ ) | 
+ | 
+ | 
+ ( 342,875 | 
+ ) | 
+ Purchases of land use rights
+ | 
+ | 
+ | 
+ ( 1,073,370 | 
+ ) | 
+ | 
+ | 
+ ( 974,497 | 
+ ) | 
+ | 
+ | 
+ ( 34,638 | 
+ ) | 
+ | 
+ | 
+ ( 5,309 | 
+ ) | 
+ Government subsi",Purchases of property and equipment
+VIPS,FY2021,revenue,117059678,RMB thousand,VIPS_20F_2022-04-27.txt,"5 | 
+ ) | 
+ | 
+ | 
+ 117,059,678 | 
+ | 
+ Share of gain from subsidiaries and consolidated affiliated entities
+ | 
+ | 
+ | 
+ 4,686,284 | 
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ (4,686,284 | 
+ ) | 
+ | 
+ | 
+ — | 
+ | 
+ Net inco",Total net revenues
+VIPS,FY2022,revenue,103152489,RMB thousand,VIPS_20F_2023-04-19.txt,"4 | 
+ ) | 
+ | 
+ | 
+ 103,152,489 | 
+ | 
+ Share of gain from subsidiaries and consolidated variable interest entities
+ | 
+ | 
+ | 
+ 6,317,707 | 
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ (6,317,707 | 
+ ) | 
+ | 
+ | 
+ — | 
+ | 
+ N",Total net revenues
+VIPS,FY2023,revenue,112856020,RMB thousand,VIPS_20F_2024-04-18.txt,"2 | 
+ ) | 
+ | 
+ | 
+ 112,856,020 | 
+ | 
+ Share of gain from subsidiaries and consolidated variable interest entities
+ | 
+ | 
+ | 
+    8,090,266 | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ (8,090,266 | 
+ ) | 
+ | 
+ | 
+ —  | 
+",Total net revenues
+VIPS,FY2023,capex,-2167178,RMB thousand,VIPS_20F_2024-04-18.txt,"3 | 
+ ) | 
+ | 
+ | 
+ ( 2,167,178 | 
+ ) | 
+ | 
+ | 
+ ( 305,241 | 
+ ) | 
+ Purchases of land use rights
+ | 
+ | 
+ | 
+ ( 846,246 | 
+ ) | 
+ | 
+ | 
+ ( 671,816 | 
+ ) | 
+ | 
+ | 
+ ( 3,063,559 | 
+ ) | 
+ | 
+ | 
+ ( 431,493 | 
+ ) | 
+ Government su",Purchases of property and equipment and other long-term assets
+VIPS,FY2024,revenue,108420832,RMB thousand,VIPS_20F_2025-04-17.txt,"3 | 
+ ) | 
+ | 
+ | 
+ 108,420,832 | 
+ | 
+ Share of gain from subsidiaries and consolidated variable interest entities
+ | 
+ | 
+ | 
+    7,757,671 | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ (7,757,671 | 
+ ) | 
+ | 
+ | 
+ —  | 
+",Total net revenues
+VIPS,FY2024,ocf,9128983,RMB thousand,VIPS_20F_2025-04-17.txt," —  | 
+ | 
+ | 
+ | 
+ 9,128,983 | 
+ | 
+ Loans to group companies (1) 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ (1,884,299 | 
+ ) | 
+ | 
+ | 
+ 1,884,299 | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ Repayments from Group Companies (1) 
+ | 
+ | ",Net cash provided by operating activities
+VIPS,FY2024,capex,-2723247,RMB thousand,VIPS_20F_2025-04-17.txt,"8 | 
+ ) | 
+ | 
+ | 
+ ( 2,723,247 | 
+ ) | 
+ | 
+ | 
+ ( 373,083 | 
+ ) | 
+ Purchases of land use rights
+ | 
+ | 
+ | 
+ ( 671,816 | 
+ ) | 
+ | 
+ | 
+ ( 3,063,559 | 
+ ) | 
+ | 
+ | 
+ ( 839,339 | 
+ ) | 
+ | 
+ | 
+ ( 114,989 | 
+ ) | 
+ Government su",Purchases of property and equipment and other long-term assets
+VIPS,FY2025,revenue,105919546,RMB thousand,VIPS_20F_2026-04-16.txt,"(1,533,954) 
+ | 
+ | 105,919,546 
+ | 
+ Share of gain from subsidiaries and consolidated variable interest entities
+ | 
+ | 7,204,058 
+ | 
+ | — 
+ | 
+ | — 
+ | 
+ | (7,204,058) 
+ | 
+ | — 
+ | 
+ Net income
+ | 
+ | 7,242,490 
+ | 
+ | 6,875,75",Total net revenues
+VIPS,FY2025,rev_1p,97398826,RMB thousand,VIPS_20F_2026-04-16.txt," | 
+ | 92.9 
+ | 
+ | 97,398,826 
+ | 
+ | 13,927,847 
+ | 
+ | 92.0 
+ | 
+ Other revenues (1) 
+ | 
+ | 7,242,535 
+ | 
+ | 6.4 
+ | 
+ | 7,686,282 
+ | 
+ | 7.1 
+ | 
+ | 8,520,720 
+ | 
+ | 1,218,447 
+ | 
+ | 8.0 
+ | 
+ Total net revenues 
+ | 
+ | 1",Product revenues
+Jumei,FY2014,V,1.07,USD billion,Jumei_20F_2015-04-29.txt,"million in 2013 and US$1.07 billion in 2014. 
+ Sales in the traditional retail industry are
+significantly higher in the fourth quarter of each calendar year than in the preceding three quarters. E-commerce companies in
+China, including us, hol",net GMV
+Jumei,FY2015,V,8.9,RMB billion,Jumei_20F_2016-04-29.txt,"billion in 2014 and RMB8.9 billion (US$1.4 billion) in 2015. 
+ Sales in the traditional retail industry
+are significantly higher in the fourth quarter of each calendar year than in the preceding three quarters. E-commerce companies
+in China, including us, hol",net GMV
+Jumei,FY2016,V,7.3,RMB billion,Jumei_20F_2017-05-01.txt,"billion in 2015 and RMB7.3 billion (US$1.1 billion) in 2016.
+ Sales in the traditional retail industry are significantly higher in the fourth quarter of each calendar year than in the preceding three quarters. E-commerce companies in China, including us, hold",net GMV
+Jumei,FY2017,V,6.6,RMB billion,Jumei_20F_2018-04-30.txt,"billion
+in 2016 and RMB6.6 billion (US$1.0 billion) in 2017. 
+ 76 
+ Sales in the traditional retail industry
+are significantly higher in the fourth quarter of each calendar year than in the preceding three quarters. E-commerce companies
+in China, including us",net GMV
+Jumei,FY2018,V,4.6,RMB billion,Jumei_20F_2019-04-30.txt,"billion in 2017 and RMB4.6 billion
+(US$670.0 million) in 2018. 
+ Sales in the traditional retail industry
+are significantly higher in the fourth quarter of each calendar year than in the preceding three quarters. E-commerce companies
+",net GMV
+Jumei,FY2014,revenue,632919,USD thousand,Jumei_20F_2015-04-29.txt,"233,224 
+ 482,996 
+ 632,919 
+ Cost of revenues 
+ (2,788 ) 
+ (148,541 ) 
+ (283,317 ) 
+ (382,719 ) 
+ Gross profit 
+ 19,000 
+ 84,683 
+ 199,679 
+ 250,200 
+ Operating expenses 
+ Fulfillment expenses 
+ (11,842 ) 
+ (28,884 ) 
+ (59,228",Total net revenues
+Jumei,FY2014,rev_1p,546384,USD thousand,Jumei_20F_2015-04-29.txt,"209,059 
+ 413,050 
+ 546,384 
+ Marketplace services 
+ 18,481 
+ 24,165 
+ 69,946 
+ 86,535 
+ Total net revenues 
+ 21,788 
+ 233,224 
+ 482,996 
+ 632,919 
+ Cost of revenues 
+ (2,788 ) 
+ (148,541 ) 
+ (283,317 ) 
+ (382,719 ) 
+ Gross pro",Merchandise sales
+Jumei,FY2014,ocf,68711,USD thousand,Jumei_20F_2015-04-29.txt,"
+ 27,360 
+ 84,806 
+ 68,711 
+ Net cash used in investing activities 
+ (2,027 ) 
+ (6,601 ) 
+ (4,643 ) 
+ (418,208 ) 
+ Net cash provided by/(used in) financing activities 
+ 10,140 
+ - 
+ (833 ) 
+ 403,778 
+ Effect of exchange rate c",Net cash provided by operating activities
+Jumei,FY2015,revenue,7342959,RMB thousand,Jumei_20F_2016-04-29.txt,"1,116 
+ 3,887,531 
+ 7,342,959 
+ 1,133,558 
+ Cost of revenues 
+ (18,009 ) 
+ (937,660 ) 
+ (1,754,539 ) 
+ (2,350,702 ) 
+ (5,225,669 ) 
+ (806,704 ) 
+ Gross profit 
+ 122,721 
+ 534,560 
+ 1,236,577 
+ 1,536,829 
+ 2,117,290 
+ 326,854 
+ Op",Total net revenues
+Jumei,FY2015,rev_1p,7113278,RMB thousand,Jumei_20F_2016-04-29.txt,"6,139 
+ 3,355,914 
+ 7,113,278 
+ 1,098,101 
+ Marketplace services 
+ 119,369 
+ 152,539 
+ 434,977 
+ 531,617 
+ 229,681 
+ 35,457 
+ Total net revenues 
+ 140,730 
+ 1,472,220 
+ 2,991,116 
+ 3,887,531 
+ 7,342,959 
+ 1,133,558 
+ Cost of reve",Merchandise sales
+Jumei,FY2015,ocf,151497,RMB thousand,Jumei_20F_2016-04-29.txt,"524,750 
+ 422,444 
+ 151,497 
+ 23,386 
+ Net cash provided by (used in) investing activities 
+ (13,042 ) 
+ (41,665 ) 
+ (28,753 ) 
+ (2,575,715 ) 
+ 1,383,691 
+ 213,605 
+ Net cash provided by/(used in) financing activities 
+ 65,220 ",Net cash provided by operating activities
+Jumei,FY2016,revenue,6277183,RMB thousand,Jumei_20F_2017-05-01.txt,"7,342,959 
+ | 
+ | 
+ 6,277,183 
+ | 
+ | 
+ 904,102 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (937,660 
+ | 
+ ) 
+ | 
+ (1,754,539 
+ | 
+ ) 
+ | 
+ (2,350,702 
+ | 
+ ) 
+ | 
+ (5,225,669 
+ | 
+ ) 
+ | 
+ (4,524,897 
+ | 
+ ) 
+ | 
+ (651,721 
+ | 
+ ) 
+ | ",Total net revenues
+Jumei,FY2016,rev_1p,6174721,RMB thousand,Jumei_20F_2017-05-01.txt,"7,113,278 
+ | 
+ | 
+ 6,174,721 
+ | 
+ | 
+ 889,345 
+ | 
+ | 
+ Marketplace services 
+ | 
+ | 
+ 152,539 
+ | 
+ | 
+ 434,977 
+ | 
+ | 
+ 531,617 
+ | 
+ | 
+ 229,681 
+ | 
+ | 
+ 102,462 
+ | 
+ | 
+ 14,757 
+ | 
+ | 
+ Total net revenues 
+ | 
+ | 
+ 1,47",Merchandise sales
+Jumei,FY2016,ocf,83518,RMB thousand,Jumei_20F_2017-05-01.txt,"
+ 151,497 
+ | 
+ | 
+ 83,518 
+ | 
+ | 
+ 12,029 
+ | 
+ | 
+ Net cash provided by/(used in) investing activities 
+ | 
+ | 
+ (41,665 
+ | 
+ ) 
+ | 
+ (28,753 
+ | 
+ ) 
+ | 
+ (2,575,715 
+ | 
+ ) 
+ | 
+ 1,383,691 
+ | 
+ | 
+ (440,461 
+ | 
+ ) 
+ | ",Net cash provided by operating activities
+Jumei,FY2017,revenue,5816832,RMB thousand,Jumei_20F_2018-04-30.txt,"2,959 
+ 6,277,183 
+ 5,816,832 
+ 894,031 
+ Cost of revenues 
+ (1,754,539 ) 
+ (2,350,702 ) 
+ (5,225,669 ) 
+ (4,524,897 ) 
+ (4,527,284 ) 
+ (695,831 ) 
+ Gross profit 
+ 1,236,577 
+ 1,536,829 
+ 2,117,290 
+ 1,752,286 
+ 1,289,548 
+ 198,2",Total net revenues
+Jumei,FY2017,rev_1p,5634156,RMB thousand,Jumei_20F_2018-04-30.txt,"3,278 
+ 6,174,721 
+ 5,634,156 
+ 865,954 
+ Marketplace and other
+ services 
+ 434,977 
+ 531,617 
+ 229,681 
+ 102,462 
+ 182,676 
+ 28,077 
+ Total net revenues 
+ 2,991,116 
+ 3,887,531 
+ 7,342,959 
+ 6,277,183 
+ 5,816,832 
+ 894,031 
+ Cos",Merchandise sales
+Jumei,FY2017,ocf,-440.5,RMB million,Jumei_20F_2018-04-30.txt,"ivities amounted
+to RMB440.5 million (US$67.7 million) in 2017, which was primarily attributable to a net loss of RMB37.0 million (US$5.7 million),
+adjusted for non-cash items of RMB204.0 million (US$31.3 million) and a net decrease of RMB119.5 million (US$18.4 ",Net cash used in operating activities
+Jumei,FY2018,revenue,4288868,RMB thousand,Jumei_20F_2019-04-30.txt,"7,183 
+ 5,816,832 
+ 4,288,868 
+ 623,791 
+ Cost of revenues 
+ (2,350,702 ) 
+ (5,225,669 ) 
+ (4,524,897 ) 
+ (4,527,284 ) 
+ (3,198,195 ) 
+ (465,158 ) 
+ Gross profit 
+ 1,536,829 
+ 2,117,290 
+ 1,752,286 
+ 1,289,548 
+ 1,090,673 
+ 158,6",Total net revenues
+Jumei,FY2018,rev_1p,3359241,RMB thousand,Jumei_20F_2019-04-30.txt,"4,721 
+ 5,634,156 
+ 3,359,241 
+ 488,581 
+ Services and others 
+ 531,617 
+ 229,681 
+ 102,462 
+ 182,676 
+ 929,627 
+ 135,210 
+ Total net revenues 
+ 3,887,531 
+ 7,342,959 
+ 6,277,183 
+ 5,816,832 
+ 4,288,868 
+ 623,791 
+ Cost of revenu",Merchandise sales
+Jumei,FY2018,ocf,-19.9,RMB million,Jumei_20F_2019-04-30.txt,"ivities amounted
+to RMB19.9 million (US$2.9 million) in 2018, which was primarily attributable to a net income of RMB117.5 million (US$17.1 million),
+adjusted for non-cash items of RMB4.7 million (US$0.7 million) and a net decrease of RMB132.6 million (US$19.3",Net cash used in operating activities
+DDL,FY2019,V,4709.7,RMB million,DDL_20F_2022-05-02.txt,"total GMV has grown from RMB4,709.7 million in 2019 to RMB13,032.2 million in 2020 and RMB22,704.1 million (US$3,562.8 million) in 2021, representing a CAGR of 119.6%. We had net loss of RMB1,873.4 million in 2019 and RMB3,176.9 million in 2020 and RMB6,429.1 million (US$1,",GMV
+DDL,FY2020,V,13032.2,RMB million,DDL_20F_2022-05-02.txt,"d our GMV grew from RMB13,032.2 million in 2020 to RMB22,704.1 million (US$3,562.8 million) in 2021. We had net loss of RMB1,873.4 million in 2019, RMB3,176.9 million in 2020 and RMB6,429.1 million (US$1,008.9 million) in 2021, and non-GAAP
+ net loss of RMB1,871.4 milli",GMV
+DDL,FY2021,V,22704.1,RMB million,DDL_20F_2022-05-02.txt," million in 2020 to RMB22,704.1 million (US$3,562.8 million) in 2021. We had net loss of RMB1,873.4 million in 2019, RMB3,176.9 million in 2020 and RMB6,429.1 million (US$1,008.9 million) in 2021, and non-GAAP
+ net loss of RMB1,871.4 million in 2019, RMB 3,023.8 milli",GMV
+DDL,FY2022,V,26247.9,RMB million,DDL_20F_2023-03-22.txt,"and further grew to RMB26,247.9 million (US$3,805.6 million) in 2022. However, we recorded net loss of RMB3,176.9 million, RMB6,429.1 million and RMB806.9 million (US$117.0 million) in 2020, 2021 and 2022, respectively, and non-GAAP net loss of RMB3,023.8 million, RMB",GMV
+DDL,FY2023,V,21969.3,RMB million,DDL_20F_2024-04-19.txt,"million in 2022 and declined to RMB21,969.3 million (US$3,094.3 million) in 2023. We recorded net loss of RMB6,429.1 million, RMB806.9 million and RMB91.3 million (US$12.9 million) in 2021, 2022 and 2023, respectively, and non-GAAP net loss of RMB6,113.7 million, RMB571.0 million",GMV
+DDL,FY2024,V,25557.4,RMB million,DDL_20F_2025-04-21.txt,"million in 2023 and grew to RMB25,557.4 million (US$3,501.4 million) in 2024. We recorded net loss of RMB806.9 million and RMB91.3 million in 2022 and 2023 and net income of RMB304.4 million (US$41.7 million) in 2024, respectively, and non-GAAP net loss of RMB571.0 million in",GMV
+DDL,FY2025,V,26436.2,RMB million,DDL_20F_2026-04-24.txt,"illion in 2024, and further increased to RMB26,436.2 million (US$3,780.3 million) in 2025. Starting from the third quarter of 2021, we strategically shifted our focus to “efficiency first with due consideration of scale”, aiming to achieve profitability to maximize our investors’",GMV
+DDL,FY2019,revenue,3880112,RMB thousand,DDL_20F_2022-05-02.txt,"venues
+ | 
+ | 
+ | 
+ 3,880,112
+ | 
+ | 
+ | 
+ | 
+ 11,335,787
+ | 
+ | 
+ | 
+ | 
+ 20,121,126
+ | 
+ | 
+ | 
+ | 
+ 3,157,444
+ | 
+ | 
+ Operating costs and expenses:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of ",Total revenues
+DDL,FY2019,rev_1p,3848094,RMB thousand,DDL_20F_2022-05-02.txt,"venues
+ | 
+ | 
+ | 
+ 3,848,094 | 
+ | 
+ | 
+ | 
+ 11,207,178 | 
+ | 
+ | 
+ | 
+ 19,896,725 | 
+ | 
+ | 
+ | 
+ 3,122,230 | 
+ | 
+ Service revenues
+ | 
+ | 
+ | 
+ 32,018 | 
+ | 
+ | 
+ | 
+ 128,609 | 
+ | 
+ | 
+ | 
+ 224,401 | 
+ | 
+ | 
+ | 
+ 35,214 | 
+",Product revenues
+DDL,FY2019,ocf,-964275,RMB thousand,DDL_20F_2022-05-02.txt,"vities
+ | 
+ | 
+ | 
+ (964,275 | 
+ ) | 
+ | 
+ | 
+ (2,055,697 | 
+ ) | 
+ | 
+ | 
+ (5,666,538 | 
+ ) | 
+ | 
+ | 
+ (889,203 | 
+ ) | 
+ Net cash used in investing activities
+ | 
+ | 
+ | 
+ (185,629 | 
+ ) | 
+ | 
+ | 
+ (1,021,219 | 
+ ) | 
+ | 
+ |",Net cash used in operating activities
+DDL,FY2019,capex,-124812,RMB thousand,DDL_20F_2022-05-02.txt,"ipment
+ | 
+ | 
+ | 
+ ( 124,812 | 
+ ) | 
+ | 
+ | 
+ ( 248,476 | 
+ ) | 
+ | 
+ | 
+ ( 451,608 | 
+ ) | 
+ | 
+ | 
+ ( 70,867 | 
+ ) | 
+ Proceeds from disposal of property and equipment
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ 1,165 | 
+ | 
+ | 
+ | 
+ 547 ",Purchases of property and equipment
+DDL,FY2020,revenue,11335787,RMB thousand,DDL_20F_2022-05-02.txt,"12
+ | 
+ | 
+ | 
+ | 
+ 11,335,787
+ | 
+ | 
+ | 
+ | 
+ 20,121,126
+ | 
+ | 
+ | 
+ | 
+ 3,157,444
+ | 
+ | 
+ Operating costs and expenses:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold
+ | 
+ | 
+ | 
+ (3,2",Total revenues
+DDL,FY2020,rev_1p,11207178,RMB thousand,DDL_20F_2022-05-02.txt,"094 | 
+ | 
+ | 
+ | 
+ 11,207,178 | 
+ | 
+ | 
+ | 
+ 19,896,725 | 
+ | 
+ | 
+ | 
+ 3,122,230 | 
+ | 
+ Service revenues
+ | 
+ | 
+ | 
+ 32,018 | 
+ | 
+ | 
+ | 
+ 128,609 | 
+ | 
+ | 
+ | 
+ 224,401 | 
+ | 
+ | 
+ | 
+ 35,214 | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",Product revenues
+DDL,FY2020,ocf,-2055697,RMB thousand,DDL_20F_2022-05-02.txt,"5 | 
+ ) | 
+ | 
+ | 
+ (2,055,697 | 
+ ) | 
+ | 
+ | 
+ (5,666,538 | 
+ ) | 
+ | 
+ | 
+ (889,203 | 
+ ) | 
+ Net cash used in investing activities
+ | 
+ | 
+ | 
+ (185,629 | 
+ ) | 
+ | 
+ | 
+ (1,021,219 | 
+ ) | 
+ | 
+ | 
+ (4,065,340 | 
+ ) | 
+ | 
+ |",Net cash used in operating activities
+DDL,FY2020,capex,-248476,RMB thousand,DDL_20F_2022-05-02.txt,"2 | 
+ ) | 
+ | 
+ | 
+ ( 248,476 | 
+ ) | 
+ | 
+ | 
+ ( 451,608 | 
+ ) | 
+ | 
+ | 
+ ( 70,867 | 
+ ) | 
+ Proceeds from disposal of property and equipment
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ 1,165 | 
+ | 
+ | 
+ | 
+ 547 | 
+ | 
+ | 
+ | 
+ 86 | 
+ | 
+ P",Purchases of property and equipment
+DDL,FY2021,revenue,20121126,RMB thousand,DDL_20F_2022-05-02.txt,"87
+ | 
+ | 
+ | 
+ | 
+ 20,121,126
+ | 
+ | 
+ | 
+ | 
+ 3,157,444
+ | 
+ | 
+ Operating costs and expenses:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold
+ | 
+ | 
+ | 
+ (3,215,175 | 
+ ) | 
+ | 
+ | 
+ (9,",Total revenues
+DDL,FY2021,rev_1p,19896725,RMB thousand,DDL_20F_2022-05-02.txt,"178 | 
+ | 
+ | 
+ | 
+ 19,896,725 | 
+ | 
+ | 
+ | 
+ 3,122,230 | 
+ | 
+ Service revenues
+ | 
+ | 
+ | 
+ 32,018 | 
+ | 
+ | 
+ | 
+ 128,609 | 
+ | 
+ | 
+ | 
+ 224,401 | 
+ | 
+ | 
+ | 
+ 35,214 | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |",Product revenues
+DDL,FY2021,ocf,-5666538,RMB thousand,DDL_20F_2022-05-02.txt,"7 | 
+ ) | 
+ | 
+ | 
+ (5,666,538 | 
+ ) | 
+ | 
+ | 
+ (889,203 | 
+ ) | 
+ Net cash used in investing activities
+ | 
+ | 
+ | 
+ (185,629 | 
+ ) | 
+ | 
+ | 
+ (1,021,219 | 
+ ) | 
+ | 
+ | 
+ (4,065,340 | 
+ ) | 
+ | 
+ | 
+ (637,941 | 
+ ) | 
+ Net cas",Net cash used in operating activities
+DDL,FY2021,capex,-451608,RMB thousand,DDL_20F_2022-05-02.txt,"6 | 
+ ) | 
+ | 
+ | 
+ ( 451,608 | 
+ ) | 
+ | 
+ | 
+ ( 70,867 | 
+ ) | 
+ Proceeds from disposal of property and equipment
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ 1,165 | 
+ | 
+ | 
+ | 
+ 547 | 
+ | 
+ | 
+ | 
+ 86 | 
+ | 
+ Purchases of short-term inves",Purchases of property and equipment
+DDL,FY2022,revenue,24221233,RMB thousand,DDL_20F_2023-03-22.txt,"6 
+ | 
+ | 
+ | 
+ | 
+ 24,221,233 
+ | 
+ | 
+ | 
+ | 
+ 3,511,749 
+ | 
+ | 
+ Operating costs and expenses: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold 
+ | 
+ | 
+ | 
+ (9,105,294 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (16,076,178",Total revenues
+DDL,FY2022,rev_1p,23939480,RMB thousand,DDL_20F_2023-03-22.txt,"5 
+ | 
+ | 
+ | 
+ | 
+ 23,939,480 
+ | 
+ | 
+ | 
+ | 
+ 3,470,898 
+ | 
+ | 
+ Service revenues 
+ | 
+ | 
+ | 
+ 128,609 
+ | 
+ | 
+ | 
+ | 
+ 224,401 
+ | 
+ | 
+ | 
+ | 
+ 281,753 
+ | 
+ | 
+ | 
+ | 
+ 40,851 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ | 
+ 11,335",Product revenues
+DDL,FY2022,capex,-126887,RMB thousand,DDL_20F_2023-03-22.txt,"| 
+ ) 
+ | 
+ | 
+ | 
+ ( 126,887 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 18,397 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ | 
+ 1,165 
+ | 
+ | 
+ | 
+ | 
+ 547 
+ | 
+ | 
+ | 
+ | 
+ 5,785 
+ | 
+ | 
+ | 
+ | 
+ 839 
+ | 
+ | 
+ Purchas",Purchases of property and equipment
+DDL,FY2023,revenue,19971219,RMB thousand,DDL_20F_2024-04-19.txt,"3 
+ | 
+ | 
+ | 
+ | 
+ 19,971,219 
+ | 
+ | 
+ | 
+ | 
+ 2,812,887 
+ | 
+ | 
+ Operating costs and expenses: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold 
+ | 
+ | 
+ | 
+ (16,076,178 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (16,735,64",Total revenues
+DDL,FY2023,rev_1p,19721428,RMB thousand,DDL_20F_2024-04-19.txt,"0 
+ | 
+ | 
+ | 
+ | 
+ 19,721,428 
+ | 
+ | 
+ | 
+ | 
+ 2,777,705 
+ | 
+ | 
+ Service revenues 
+ | 
+ | 
+ | 
+ 224,401 
+ | 
+ | 
+ | 
+ | 
+ 281,753 
+ | 
+ | 
+ | 
+ | 
+ 249,791 
+ | 
+ | 
+ | 
+ | 
+ 35,182 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ | 
+ 20,121",Product revenues
+DDL,FY2023,capex,-83326,RMB thousand,DDL_20F_2024-04-19.txt,"| 
+ ) 
+ | 
+ | 
+ | 
+ ( 83,326 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 11,736 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ | 
+ 547 
+ | 
+ | 
+ | 
+ | 
+ 5,785 
+ | 
+ | 
+ | 
+ | 
+ 26,241 
+ | 
+ | 
+ | 
+ | 
+ 3,696 
+ | 
+ | 
+ Purc",Purchases of property and equipment
+DDL,FY2024,revenue,23066254,RMB thousand,DDL_20F_2025-04-21.txt,"9 
+ | 
+ | 
+ | 
+ | 
+ 23,066,254 
+ | 
+ | 
+ | 
+ | 
+ 3,160,064 
+ | 
+ | 
+ Operating costs and expenses: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold 
+ | 
+ | 
+ | 
+ (16,735,643 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (13,847,94",Total revenues
+DDL,FY2024,rev_1p,22743113,RMB thousand,DDL_20F_2025-04-21.txt,"8 
+ | 
+ | 
+ | 
+ | 
+ 22,743,113 
+ | 
+ | 
+ | 
+ | 
+ 3,115,794 
+ | 
+ | 
+ Service revenues 
+ | 
+ | 
+ | 
+ 281,753 
+ | 
+ | 
+ | 
+ | 
+ 249,791 
+ | 
+ | 
+ | 
+ | 
+ 323,141 
+ | 
+ | 
+ | 
+ | 
+ 44,270 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ | 
+ 24,221",Product revenues
+DDL,FY2024,capex,-98176,RMB thousand,DDL_20F_2025-04-21.txt,"| 
+ ) 
+ | 
+ | 
+ | 
+ ( 98,176 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 13,450 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ | 
+ 5,785 
+ | 
+ | 
+ | 
+ | 
+ 26,241 
+ | 
+ | 
+ | 
+ | 
+ 5,098 
+ | 
+ | 
+ | 
+ | 
+ 698 
+ | 
+ | 
+ Purc",Purchases of property and equipment
+DDL,FY2025,revenue,24359888,RMB thousand,DDL_20F_2026-04-24.txt,"4 
+ | 
+ | 
+ | 
+ | 
+ 24,359,888 
+ | 
+ | 
+ | 
+ | 
+ 3,483,417 
+ | 
+ | 
+ Operating costs and expenses: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of goods sold 
+ | 
+ | 
+ | 
+ (13,847,949 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (16,120,36",Total revenues
+DDL,FY2025,rev_1p,24017888,RMB thousand,DDL_20F_2026-04-24.txt,"3 
+ | 
+ | 
+ | 
+ | 
+ 24,017,888 
+ | 
+ | 
+ | 
+ | 
+ 3,434,512 
+ | 
+ | 
+ Service revenues 
+ | 
+ | 
+ | 
+ 249,791 
+ | 
+ | 
+ | 
+ | 
+ 323,141 
+ | 
+ | 
+ | 
+ | 
+ 342,000 
+ | 
+ | 
+ | 
+ | 
+ 48,905 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ | 
+ 19,971",Product revenues
+DDL,FY2025,capex,-177764,RMB thousand,DDL_20F_2026-04-24.txt,"| 
+ ) 
+ | 
+ | 
+ | 
+ ( 177,764 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 25,420 
+ | 
+ ) 
+ | 
+ Proceeds from disposal of property and equipment 
+ | 
+ | 
+ | 
+ 26,241 
+ | 
+ | 
+ | 
+ | 
+ 5,098 
+ | 
+ | 
+ | 
+ | 
+ 3,079 
+ | 
+ | 
+ | 
+ | 
+ 440 
+ | 
+ | 
+ Purc",Purchases of property and equipment
+NEGG,FY2021,V,2.4,USD billion,NEGG_20F_2022-04-28.txt,"B2C Platforms.” Our B2C operations generated GMV of $2.4 billion and $2.3 billion for
+the years ended December 31, 2021 and 2020, respectively. 
+ B2B 
+ Although
+business customers have been able to shop on our Newegg.com platform since its launch in 2001, we did n",B2C GMV (majority of business)
+NEGG,FY2022,V,1.7,USD billion,NEGG_20F_2023-04-27.txt,"perations generated
+GMV of $1.7 billion and $2.4 billion for the years ended December 31, 2022 and 2021, respectively.
+ B2B 
+ With a focus on providing office and IT equipment, NeweggBusiness.com
+offers our B2B customers access to our extensive product ass",B2C GMV
+NEGG,FY2023,V,1.4,USD billion,NEGG_20F_2024-04-24.txt,"B2C Platforms.” Our B2C operations generated GMV of $1.4 billion and $1.7 billion for the
+years ended December 31, 2023 and 2022, respectively. 
+ B2B 
+ With
+a focus on providing office and IT equipment, NeweggBusiness.com offers our B2B customers access to our extensive product a",B2C GMV
+NEGG,FY2024,V,1.2,USD billion,NEGG_20F_2025-04-28.txt," Our B2C operations
+generated GMV of $1.2 billion and $1.4 billion for the years ended December 31, 2024 and 2023, respectively.
+ 36 
+ | 
+ B2B 
+ With a focus on providing office and IT equipment,
+NeweggBusiness.com offers our B2B customers access to our extensive pr",B2C GMV
+NEGG,FY2025,V,1.4,USD billion,NEGG_20F_2026-04-28.txt,"ng the same period,
+B2C operations generated GMV of $1.4 billion and $1.2 billion, respectively.
+ 31 
+ B2B 
+ With a focus on providing office and IT equipment,
+NeweggBusiness.com offers our B2B customers access to our extensive product assortment and account managers with experti",B2C GMV
+NEGG,FY2021,ocf,-53.3,USD million,NEGG_20F_2023-04-27.txt,"ting activities was $53.3 million in 2021.
+Net income was $36.3 million for the period. The adjustments for non-cash expenses are primarily comprised of (i) $10.8 million
+of depreciation and amortization that was associated with property and",Net cash used in operating activities
+NEGG,FY2022,revenue,1720.3,USD million,NEGG_20F_2023-04-27.txt,"9 | | 
+ Total | | 
+ $ | 1,720.3 | | | 
+ | 100.0 | | | 
+ $ | 2,376.2 | | | 
+ | 100.0 | | | 
+ $ | 2,114.9 | | | 
+ | 100.0 | | 
+ Cost of Sales 
+ The largest component of our cost of sales is the purchase price of
+goods that we directl",Total net sales
+NEGG,FY2022,rev_1p,1607.0,USD million,NEGG_20F_2023-04-27.txt,"ales revenues | | 
+ $ | 1,607.0 | | | 
+ | 93.4 | | | 
+ $ | 2,243.4 | | | 
+ | 94.4 | | | 
+ $ | 1,974.9 | | | 
+ | 93.4 | | 
+ Marketplace revenues | | 
+ | 47.0 | | | 
+ | 2.7 | | | 
+ | 63.5 | | | 
+ | 2.7 | | | 
+ | 57.6 | | | 
+ | 2.7 | ",Direct sales revenues
+NEGG,FY2022,ocf,20.5,USD million,NEGG_20F_2023-04-27.txt,"ting activities was $20.5 million in
+2022. Net loss was $57.4 million for the period. The adjustments for non-cash expenses are primarily comprised of (i) $11.0 million
+of depreciation and amortization that was associated with property ",Net cash provided by operating activities
+NEGG,FY2023,revenue,1496963,USD thousand,NEGG_20F_2024-04-24.txt,"Net sales | | 
+ $ | 1,496,963 | | | 
+ $ | 1,720,273 | | | 
+ $ | 2,376,225 | | 
+ Cost of sales | | 
+ | 1,329,406 | | | 
+ | 1,503,647 | | | 
+ | 2,050,249 | | 
+ Gross profit | | 
+ | 167,557 | | | 
+ | 216,626 | | | 
+ | 325,976 | | 
+ ",Net sales
+NEGG,FY2023,ocf,-3.8,USD million,NEGG_20F_2024-04-24.txt,"ting activities was $3.8 million
+for the year ended December 31, 2023. Net loss was $59.0 million for the period. The adjustments for non-cash expenses are primarily
+comprised of (i) $13.4 million of depreciation and amortization th",Net cash used in operating activities
+NEGG,FY2024,revenue,1235.6,USD million,NEGG_20F_2025-04-28.txt,"9 | | 
+ Total | | 
+ $ | 1,235.6 | | | 
+ | 100.0 | | | 
+ $ | 1,497.0 | | | 
+ | 100.0 | | | 
+ $ | 1,720.3 | | | 
+ | 100.0 | | 
+ Cost of Sales 
+ The largest component of our cost of sales is
+the purchase price of goods that we directl",Total net sales
+NEGG,FY2024,rev_1p,1123.5,USD million,NEGG_20F_2025-04-28.txt,"ales revenues | | 
+ $ | 1,123.5 | | | 
+ | 91.0 | | | 
+ $ | 1,396.6 | | | 
+ | 93.3 | | | 
+ $ | 1,607.0 | | | 
+ | 93.4 | | 
+ Marketplace revenues | | 
+ | 25.2 | | | 
+ | 2.0 | | | 
+ | 32.3 | | | 
+ | 2.2 | | | 
+ | 47.0 | | | 
+ | 2.7 | ",Direct sales revenues
+NEGG,FY2024,ocf,-0.8,USD million,NEGG_20F_2025-04-28.txt,"ting activities was $0.8 million
+for the year ended December 31, 2024. Net loss was $43.3 million for the period. The adjustments for non-cash expenses are primarily
+comprised of (i) $10.7 million of depreciation and amortization th",Net cash used in operating activities
+NEGG,FY2025,revenue,1444.5,USD million,NEGG_20F_2026-04-28.txt,"5 | | 
+ Total | | 
+ $ | 1,444.5 | | | 
+ | 100.0 | | | 
+ $ | 1,235.6 | | | 
+ | 100.0 | | | 
+ $ | 1,497.0 | | | 
+ | 100.0 | | 
+ Cost of Sales 
+ The largest component of our cost of sales is
+the purchase price of goods that we directl",Total net sales
+NEGG,FY2025,rev_1p,1394.8,USD million,NEGG_20F_2026-04-28.txt,"ales revenues | | 
+ $ | 1,394.8 | | | 
+ | 96.5 | | | 
+ $ | 1,123.5 | | | 
+ | 91.0 | | | 
+ $ | 1,396.6 | | | 
+ | 93.3 | | 
+ Marketplace revenues | | 
+ | 28.6 | | | 
+ | 2.0 | | | 
+ | 25.2 | | | 
+ | 2.0 | | | 
+ | 32.3 | | | 
+ | 2.2 | ",Direct sales revenues
+NEGG,FY2025,ocf,-27.0,USD million,NEGG_20F_2026-04-28.txt,"ng activities | | 
+ $ | (27.0 | ) | | 
+ $ | (0.8 | ) | | 
+ $ | (3.8 | ) | 
+ Net cash provided by (used in) investing activities | | 
+ | 0.1 | | | 
+ | 2.4 | | | 
+ | (14.3 | ) | 
+ Net cash provided by (used in) financing activities",Net cash used in operating activities
+VIPS,FY2016,rev_1p,55281900,RMB thousand,VIPS_20F_2017-04-14.txt,"Product revenues 
+ 22,685,111 
+ 98.1 
+ 39,409,961 
+ 98.0 
+ 55,281,900 
+",Product revenues
+VIPS,FY2017,rev_1p,71171653,RMB thousand,VIPS_20F_2018-04-19.txt,"Product revenues 
+ 39,409,961 
+ 98.0 
+ 55,281,900 
+ 97.7 
+ 71,171,653 
+",Product revenues
+VIPS,FY2018,rev_1p,81510275,RMB thousand,VIPS_20F_2019-04-18.txt,"Product revenues 
+ 55,281,900 
+ 97.7 
+ 71,171,653 
+ 97.6 
+ 81,510,275 
+",Product revenues
+VIPS,FY2020,rev_1p,97449712,RMB thousand,VIPS_20F_2021-04-16.txt,"Product revenues
+ | 
+ | 
+ | 
+ 81,510,275 | 
+ | 
+ | 
+ | 
+ 88,721,311 | 
+ | 
+ | 
+ | 
+ 97,449,712 | 
+ | 
+ | 
+ | 
+ 14,934,822 ",Product revenues
+VIPS,FY2021,rev_1p,111256902,RMB thousand,VIPS_20F_2022-04-27.txt,"Product revenues
+ | 
+ | 
+ | 
+ 88,721,311 | 
+ | 
+ | 
+ | 
+ 97,449,712 | 
+ | 
+ | 
+ | 
+ 111,256,902 | 
+ | 
+ | 
+ | 
+ 17,458,636",Product revenues
+VIPS,FY2022,rev_1p,97250078,RMB thousand,VIPS_20F_2023-04-19.txt,"Product revenues
+ | 
+ | 
+ | 
+ 97,449,712 | 
+ | 
+ | 
+ | 
+ 111,256,902 | 
+ | 
+ | 
+ | 
+ 97,250,078 | 
+ | 
+ | 
+ | 
+ 14,099,936",Product revenues
+VIPS,FY2023,rev_1p,105613485,RMB thousand,VIPS_20F_2024-04-18.txt,"Product revenues
+ | 
+ | 
+ | 
+ 111,256,902 | 
+ | 
+ | 
+ | 
+ 97,250,078 | 
+ | 
+ | 
+ | 
+ 105,613,485 | 
+ | 
+ | 
+ | 
+ 14,875,348",Product revenues
+VIPS,FY2024,rev_1p,100734550,RMB thousand,VIPS_20F_2025-04-17.txt," 
+ | 
+ | 
+ 105,613,485
+ | 
+ | 
+ | 
+ | 
+ 100,734,550
+ | 
+ | 
+ | 
+ | 
+ 13",Product revenues
+NEGG,FY2021,revenue,2376.2,USD million,NEGG_20F_2022-04-28.txt,"Total | | 
+ $ | 2,376.2 | | | 
+ | 100.0 | | | 
+ $",Net sales
+NEGG,FY2021,rev_1p,2243.4,USD million,NEGG_20F_2022-04-28.txt,"Direct
+ sales revenues | | 
+ $ | 2,243.4 | | | 
+ | 94.4 ",Direct sales revenues
+NEGG,FY2023,rev_1p,1396.6,USD million,NEGG_20F_2024-04-24.txt,"Direct sales revenues | | 
+ $ | 1,396.6 | | | 
+ | 93.3 ",Direct sales revenues
+NEGG,FY2021,capex,-13839,USD thousand,NEGG_20F_2022-04-28.txt,"Payments
+ to acquire property and equipment | | 
+ | ( 13,839 | ) | | 
+ | ( 6,156 | ) | | 
+ | (",Payments to acquire property and equipment
+NEGG,FY2022,capex,9.2,USD million,NEGG_20F_2023-04-27.txt,"Our capital expenditures were $9.2 million, $13.8 million, and $6.2
+million for the years ended December 31, 2022, 20",capital expenditures
+NEGG,FY2023,capex,30.3,USD million,NEGG_20F_2024-04-24.txt,"Our capital expenditures were $30.3 million, $9.2 million,
+and $13.8 million for the years ended December 31",capital expenditures
+NEGG,FY2024,capex,3.6,USD million,NEGG_20F_2025-04-28.txt,"Our capital expenditures were $3.6 million, $30.3 million,
+and $9.2 million for the years ended December 31,",capital expenditures
+NEGG,FY2025,capex,2.7,USD million,NEGG_20F_2026-04-28.txt,"Our capital expenditures were $2.7 million, $3.6 million,
+and $30.3 million for the years ended December 31",capital expenditures
+Jumei,FY2014,capex,6.5,USD million,Jumei_20F_2015-04-29.txt,"Our capital expenditures amounted to US$2.1
+million, US$4.6 million and US$6.5 million in 2012, 2013 and 2014, respectively.",capital expenditures
+Jumei,FY2015,capex,36.5,RMB million,Jumei_20F_2016-04-29.txt,"Our capital expenditures amounted to RMB28.8
+million, RMB40.1 million and RMB36.5 million (US$5.6 million) in 2013, 2014 and 2015, respectively.",capital expenditures
+Jumei,FY2016,capex,130.2,RMB million,Jumei_20F_2017-05-01.txt,"Our capital expenditures amounted to RMB40.1 million, RMB36.5 million and RMB130.2 million (US$18.7 million) in 2014, 2015 and 2016, respectively.",capital expenditures
+Jumei,FY2017,capex,586.3,RMB million,Jumei_20F_2018-04-30.txt,"Our capital expenditures amounted to RMB36.5
+million, RMB130.2 million and RMB586.3 million (US$90.1 million) in 2015, 2016 and 2017, respectively.",capital expenditures
+Jumei,FY2018,capex,574.9,RMB million,Jumei_20F_2019-04-30.txt,"Our capital expenditures amounted to RMB130.2
+million, RMB586.3 million and RMB574.9 million (US$83.6 million) in 2016, 2017 and 2018, respectively.",capital expenditures

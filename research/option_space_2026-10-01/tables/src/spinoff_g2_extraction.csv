@@ -1,0 +1,593 @@
+entity,period,field,value,unit,source_file,quote,note
+FVRR,FY2017,V,,,FVRR_20F_2020-03-31.txt,,not reported
+FVRR,FY2017,revenue,52112,USD thousand,FVRR_20F_2020-03-31.txt,"Revenue 
+ $ 107,073 
+ $ 75,503 
+ $ 52,112",Total revenue
+FVRR,FY2017,ocf,-5263,USD thousand,FVRR_20F_2020-03-31.txt,"Net cash used in operating activities 
+ $ (13,944 ) 
+ $ (51,676 ) 
+ $ (5,263 )",
+FVRR,FY2017,capex,-2198,USD thousand,FVRR_20F_2020-03-31.txt,"Purchase of property and equipment 
+ (1,016 ) 
+ (767 ) 
+ (2,198 )",
+FVRR,FY2017,capex_sw,-1199,USD thousand,FVRR_20F_2020-03-31.txt,"Capitalization of internal-use software 
+ (739 ) 
+ (830 ) 
+ (1,199 )",
+FVRR,FY2018,V,293.5,USD million,FVRR_20F_2020-03-31.txt,"Our GMV for the years ended December 31, 2019 and 2018 was $401.0 million and $293.5 million",GMV (Gross Merchandise Value)
+FVRR,FY2018,revenue,75.5,USD million,FVRR_20F_2020-03-31.txt,"Our revenue for the years ended December 31, 2019 and 2018 was $107.1 million and $75.5 million",
+FVRR,FY2018,ocf,-51676,USD thousand,FVRR_20F_2020-03-31.txt,"Net cash used in operating activities 
+ $ (13,944 ) 
+ $ (51,676 ) 
+ $ (5,263 )",
+FVRR,FY2018,capex,-767,USD thousand,FVRR_20F_2020-03-31.txt,"Purchase of property and equipment 
+ (1,016 ) 
+ (767 ) 
+ (2,198 )",
+FVRR,FY2018,capex_sw,-830,USD thousand,FVRR_20F_2020-03-31.txt,"Capitalization of internal-use software 
+ (739 ) 
+ (830 ) 
+ (1,199 )",
+FVRR,FY2019,V,401.0,USD million,FVRR_20F_2020-03-31.txt,"Our GMV for the years ended December 31, 2019 and 2018 was $401.0 million and $293.5 million",GMV (Gross Merchandise Value)
+FVRR,FY2019,revenue,107.1,USD million,FVRR_20F_2020-03-31.txt,"Our revenue for the years ended December 31, 2019 and 2018 was $107.1 million and $75.5 million",
+FVRR,FY2019,ocf,-13944,USD thousand,FVRR_20F_2020-03-31.txt,"Net cash used in operating activities 
+ $ (13,944 ) 
+ $ (51,676 ) 
+ $ (5,263 )",
+FVRR,FY2019,capex,-1016,USD thousand,FVRR_20F_2020-03-31.txt,"Purchase of property and equipment 
+ (1,016 ) 
+ (767 ) 
+ (2,198 )",
+FVRR,FY2019,capex_sw,-739,USD thousand,FVRR_20F_2020-03-31.txt,"Capitalization of internal-use software 
+ (739 ) 
+ (830 ) 
+ (1,199 )",
+FVRR,FY2020,V,699.3,USD million,FVRR_20F_2021-02-18.txt,"Our GMV for the years ended December 31, 2020 and 2019 was $699.3 million and $401.0 million",GMV (Gross Merchandise Value)
+FVRR,FY2020,revenue,189.5,USD million,FVRR_20F_2021-02-18.txt,"Our revenue for the years ended December 31, 2020 and 2019 was $189.5 million and $107.1 million",
+FVRR,FY2020,ocf,17.1,USD million,FVRR_20F_2021-02-18.txt,"Net cash provided by operating activities was $17.1 million for the year ended December 31, 2020",
+FVRR,FY2020,capex,-2094,USD thousand,FVRR_20F_2021-02-18.txt,"Purchase of property and equipment 
+ | 
+ | 
+ | 
+ ( 2,094",
+FVRR,FY2020,capex_sw,-711,USD thousand,FVRR_20F_2021-02-18.txt,"Capitalization of internal-use software 
+ | 
+ | 
+ | 
+ ( 711",
+FVRR,FY2021,V,1018.7,USD million,FVRR_20F_2022-02-17.txt,"Our GMV for the years ended December 31, 2021, 2020 and 2019 was $1,018.7 million",GMV (Gross Merchandise Value)
+FVRR,FY2021,revenue,297.7,USD million,FVRR_20F_2022-02-17.txt,"For the years ended December 31, 2021, 2020 and 2019, our revenue was $297.7 million",
+FVRR,FY2021,ocf,38.0,USD million,FVRR_20F_2022-02-17.txt,"Net cash provided by operating activities was $38.0 million for the year ended December 31, 2021",
+FVRR,FY2021,capex,-1684,USD thousand,FVRR_20F_2022-02-17.txt,"Purchase of property and equipment
+ | 
+ | 
+ | 
+ ( 1,684",
+FVRR,FY2021,capex_sw,-894,USD thousand,FVRR_20F_2022-02-17.txt,"Capitalization of internal-use software
+ | 
+ | 
+ | 
+ ( 894",
+FVRR,FY2022,V,1118.3,USD million,FVRR_20F_2023-03-30.txt,"Our GMV for the years ended December 31, 2022, 2021 and 2020 was $1,118.3 million",GMV (Gross Merchandise Value)
+FVRR,FY2022,revenue,337.4,USD million,FVRR_20F_2023-03-30.txt,"For the years ended December 31, 2022, 2021
+and 2020, our revenue was $337.4 million",
+FVRR,FY2022,ocf,30.1,USD million,FVRR_20F_2023-03-30.txt,"Net cash provided by operating activities
+was $30.1 million for the year ended December 31, 2022",
+FVRR,FY2022,capex,-1198,USD thousand,FVRR_20F_2023-03-30.txt,"Purchase of property and equipment
+ | 
+ | 
+ | 
+ ( 1,198",
+FVRR,FY2022,capex_sw,-1000,USD thousand,FVRR_20F_2023-03-30.txt,"Capitalization of internal-use software and other 
+ | 
+ | 
+ | 
+ ( 1,000",
+FVRR,FY2023,V,1134.7,USD million,FVRR_20F_2024-02-22.txt,"Our GMV for the years
+ended December 31, 2023, 2022 and 2021 was $1,134.7 million",GMV (Gross Merchandise Value)
+FVRR,FY2023,revenue,361.4,USD million,FVRR_20F_2024-02-22.txt,"For the years ended December 31, 2023, 2022 and 2021, our revenue was $361.4 million",
+FVRR,FY2023,ocf,83186,USD thousand,FVRR_20F_2024-02-22.txt,"Net cash provided by operating activities
+ | 
+ | 
+ $
+ | 
+ 83,186",
+FVRR,FY2023,capex,-1053,USD thousand,FVRR_20F_2024-02-22.txt,"Purchase of property and equipment 
+ | 
+ | 
+ | 
+ ( 1,053",
+FVRR,FY2023,capex_sw,-60,USD thousand,FVRR_20F_2024-02-22.txt,"Capitalization of internal-use software and other 
+ | 
+ | 
+ | 
+ ( 60",
+FVRR,FY2024,V,1097.6,USD million,FVRR_20F_2025-02-19.txt,"marketplace enabled a total transaction value, or marketplace GMV, of $1,097.6 million",marketplace GMV
+FVRR,FY2024,revenue,391.5,USD million,FVRR_20F_2025-02-19.txt,"Our revenue for the year ended December 31, 2024 was $391.5 million",
+FVRR,FY2024,ocf,83.1,USD million,FVRR_20F_2025-02-19.txt,Net cash provided by operating activities was $83.1 million for the year ended December,
+FVRR,FY2024,capex,-1303,USD thousand,FVRR_20F_2025-02-19.txt,"Purchase of property and equipment 
+ | 
+ | 
+ | 
+ ( 1,303",
+FVRR,FY2024,capex_sw,-103,USD thousand,FVRR_20F_2025-02-19.txt,"Capitalization of internal-use software 
+ | 
+ | 
+ | 
+ ( 103",
+FVRR,FY2025,V,1073.0,USD million,FVRR_20F_2026-03-12.txt,"marketplace enabled a total transaction value, or marketplace GMV, of $1,073.0 million",marketplace GMV
+FVRR,FY2025,revenue,430.9,USD million,FVRR_20F_2026-03-12.txt,"Our revenue for the year ended December 31, 2025, was $430.9 million",
+FVRR,FY2025,ocf,104.6,USD million,FVRR_20F_2026-03-12.txt,Net cash provided by operating activities was $104.6 million for the year ended December,
+FVRR,FY2025,capex,-647,USD thousand,FVRR_20F_2026-03-12.txt,"Purchase of property and equipment 
+ | 
+ | 
+ | 
+ ( 647",
+FVRR,FY2025,capex_sw,-661,USD thousand,FVRR_20F_2026-03-12.txt,"Capitalization of internal-use software 
+ | 
+ | 
+ | 
+ ( 661",
+UPWK,FY2017,V,1373161,USD thousand,UPWK_10K_2019-03-07.txt,"1,373,161 
+ | 
+ | 
+ | $ 
+ | 1,148,363 
+ ",GSV (gross services volume)
+UPWK,FY2017,revenue,202.6,USD million,UPWK_10K_2019-03-07.txt,"Total revenue increased by $38.1 million, or 23%, to $202.6 million in 2017",
+UPWK,FY2017,ocf,-4.0,USD million,UPWK_10K_2019-03-07.txt,Net cash used in operating activities during 2017 was $4.0 million,
+UPWK,FY2017,capex,-1.8,USD million,UPWK_10K_2019-03-07.txt,purchases of property and equipment of $1.8 million and capitalized internal-use software,
+UPWK,FY2017,capex_sw,-0.5,USD million,UPWK_10K_2019-03-07.txt,capitalized internal-use software and platform development costs of $0.5 million,Internal-use software and platform development costs
+UPWK,FY2018,V,1756289,USD thousand,UPWK_10K_2019-03-07.txt,"GSV (5) 
+ | $ 
+ | 1,756,289 
+ | 
+ | 
+ | ",GSV (gross services volume)
+UPWK,FY2018,revenue,253.4,USD million,UPWK_10K_2019-03-07.txt,"our total revenue was $253.4 million, representing an increase of 25% over the prior year",
+UPWK,FY2018,ocf,13.7,USD million,UPWK_10K_2019-03-07.txt,Net cash provided by operating activities during 2018 was $13.7 million,
+UPWK,FY2018,capex,-3.0,USD million,UPWK_10K_2019-03-07.txt,purchases of property and equipment of $3.0 million primarily for leasehold improvements,
+UPWK,FY2018,capex_sw,-3.8,USD million,UPWK_10K_2019-03-07.txt,capitalized internal-use software and platform development costs of $3.8 million,Internal-use software and platform development costs
+UPWK,FY2019,V,2087055,USD thousand,UPWK_10K_2020-03-02.txt,"GSV | $ | 2,087,055 | | | $ | 1,756,289 ",GSV (gross services volume)
+UPWK,FY2019,revenue,300.6,USD million,UPWK_10K_2020-03-02.txt,"our total revenue was $300.6 million, representing an increase of 19% over the prior year",
+UPWK,FY2019,ocf,1.1,USD million,UPWK_10K_2020-03-02.txt,Net cash provided by operating activities during 2019 was $1.1 million,
+UPWK,FY2019,capex,-10752,USD thousand,UPWK_10K_2020-03-02.txt,"Purchases of property and equipment | ( 10,752 )",
+UPWK,FY2019,capex_sw,-5886,USD thousand,UPWK_10K_2020-03-02.txt,"Internal-use software and platform development costs | ( 5,886 )",Internal-use software and platform development costs
+UPWK,FY2020,V,2523649,USD thousand,UPWK_10K_2021-02-24.txt,"GSV | $ | 2,523,649 | | | $ | 2,087,055 ",GSV (gross services volume)
+UPWK,FY2020,revenue,373.6,USD million,UPWK_10K_2021-02-24.txt,We generated revenue of $373.6 million in 2020,
+UPWK,FY2020,ocf,22.4,USD million,UPWK_10K_2021-02-24.txt,Net cash provided by operating activities during 2020 was $22.4 million,
+UPWK,FY2020,capex,-6320,USD thousand,UPWK_10K_2021-02-24.txt,"Purchases of property and equipment | ( 6,320 )",
+UPWK,FY2020,capex_sw,-8045,USD thousand,UPWK_10K_2021-02-24.txt,"Internal-use software and platform development costs | ( 8,045 )",Internal-use software and platform development costs
+UPWK,FY2021,V,3546774,USD thousand,UPWK_10K_2022-02-15.txt,"GSV | $ | 3,546,774 | | | 41 | % | | $ |",GSV (gross services volume)
+UPWK,FY2021,revenue,502797,USD thousand,UPWK_10K_2022-02-15.txt,"Total revenue | 502,797 | | | 373,628 | ",
+UPWK,FY2021,ocf,10.8,USD million,UPWK_10K_2022-02-15.txt,Net cash provided by operating activities during 2021 was $10.8 million,
+UPWK,FY2021,capex,-1027,USD thousand,UPWK_10K_2022-02-15.txt,"Purchases of property and equipment | ( 1,027 )",
+UPWK,FY2021,capex_sw,-5.1,USD million,UPWK_10K_2022-02-15.txt,$5.1 million of internal-use software and platform development costs that we paid during the period,Internal-use software and platform development costs
+UPWK,FY2022,V,4104891,USD thousand,UPWK_10K_2023-02-16.txt,"GSV | $ | 4,104,891 | | | 16 | % | | $ |",GSV (gross services volume)
+UPWK,FY2022,revenue,618318,USD thousand,UPWK_10K_2023-02-16.txt,"Total revenue | 618,318 | | | 502,797 | ",
+UPWK,FY2022,ocf,6.6,USD million,UPWK_10K_2023-02-16.txt,Net cash provided by operating activities during 2022 was $6.6 million,
+UPWK,FY2022,capex,-1248,USD thousand,UPWK_10K_2023-02-16.txt,"Purchases of property and equipment | ( 1,248 )",
+UPWK,FY2022,capex_sw,-7.5,USD million,UPWK_10K_2023-02-16.txt,$7.5 million of internal-use software and platform development costs that we paid during the period,Internal-use software and platform development costs
+UPWK,FY2023,V,4142252,USD thousand,UPWK_10K_2024-02-15.txt,"GSV | $ | 4,142,252 | 1 | % | $ | 4,104,",GSV (gross services volume)
+UPWK,FY2023,revenue,689136,USD thousand,UPWK_10K_2024-02-15.txt,"Total revenue | 689,136 | 618,318 | 502,",
+UPWK,FY2023,ocf,27.2,USD million,UPWK_10K_2024-02-15.txt,Net cash provided by operating activities during 2023 was $27.2 million,
+UPWK,FY2023,ocf_restated,52708,USD thousand,UPWK_10K_2025-02-13.txt,"Net cash provided by operating activities | 153,563 | 52,708 | 11,497 |","restated vs 27,221 first reported"
+UPWK,FY2023,capex,-692,USD thousand,UPWK_10K_2024-02-15.txt,Purchases of property and equipment | ( 692 ),
+UPWK,FY2023,capex_sw,-12.7,USD million,UPWK_10K_2024-02-15.txt,$12.7 million of internal-use software and platform development costs that we paid during the period,Internal-use software and platform development costs
+UPWK,FY2024,V,4008107,USD thousand,UPWK_10K_2025-02-13.txt,"GSV | $ | 4,008,107 | (3) | % | $ | 4,14",GSV (gross services volume)
+UPWK,FY2024,revenue,769325,USD thousand,UPWK_10K_2025-02-13.txt,"Total revenue | 769,325 | 689,136 | 618,",
+UPWK,FY2024,ocf,153563,USD thousand,UPWK_10K_2025-02-13.txt,"Net cash provided by operating activities | 153,563",
+UPWK,FY2024,capex,-3528,USD thousand,UPWK_10K_2025-02-13.txt,"Purchases of property and equipment | ( 3,528 )",
+UPWK,FY2024,capex_sw,-10.9,USD million,UPWK_10K_2025-02-13.txt,$10.9 million of internal-use software and platform development costs that we paid during the period,Internal-use software and platform development costs
+UPWK,FY2025,V,4028386,USD thousand,UPWK_10K_2026-02-13.txt,"GSV | $ | 4,028,386 | 1 | % | $ | 4,008,",GSV (gross services volume)
+UPWK,FY2025,revenue,787784,USD thousand,UPWK_10K_2026-02-13.txt,"Total revenue | 787,784 | 769,325 | 689,",
+UPWK,FY2025,ocf,248259,USD thousand,UPWK_10K_2026-02-13.txt,"Net cash provided by operating activities | 248,259",
+UPWK,FY2025,capex,-5790,USD thousand,UPWK_10K_2026-02-13.txt,"Purchases of property and equipment | ( 5,790 )",
+UPWK,FY2025,capex_sw,-19.3,USD million,UPWK_10K_2026-02-13.txt,$19.3 million of internal-use software and platform development costs,Internal-use software and platform development costs
+SEAT,FY2019,V,2279.8,USD million,SEAT_10K_2022-03-15.txt,"Marketplace Gross Order Value (""Marketplace GOV"") was $2,399.1 million, $347.3 million, and $2,279.8 million",Marketplace GOV
+SEAT,FY2019,revenue,468.9,USD million,SEAT_10K_2022-03-15.txt,"our revenues were $443.0 million, $35.1 million, and $468.9 million, respectively",
+SEAT,FY2019,ocf,76.5,USD million,SEAT_10K_2022-03-15.txt,"Net cash provided by operating activities was $76.5 million for the year ended December 31, 2019",
+SEAT,FY2019,capex,,,SEAT_10K_2022-03-15.txt,,not reported as a distinct FY2019 capex figure in the first 10-K cash-flow excerpt used
+SEAT,FY2020,V,347.3,USD million,SEAT_10K_2022-03-15.txt,"Marketplace Gross Order Value (""Marketplace GOV"") was $2,399.1 million, $347.3 million, and $2,279.8 million",Marketplace GOV
+SEAT,FY2020,revenue,35.1,USD million,SEAT_10K_2022-03-15.txt,"our revenues were $443.0 million, $35.1 million, and $468.9 million, respectively",
+SEAT,FY2020,ocf,-33.9,USD million,SEAT_10K_2022-03-15.txt,"Net cash used in operating activities was $33.9 million for the year ended December 31, 2020",
+SEAT,FY2020,capex,-341,USD thousand,SEAT_10K_2022-03-15.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 1,132 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 341",
+SEAT,FY2021,V,2399.1,USD million,SEAT_10K_2022-03-15.txt,"Marketplace Gross Order Value (""Marketplace GOV"") was $2,399.1 million, $347.3 million, and $2,279.8 million",Marketplace GOV
+SEAT,FY2021,revenue,443.0,USD million,SEAT_10K_2022-03-15.txt,"our revenues were $443.0 million, $35.1 million, and $468.9 million, respectively",
+SEAT,FY2021,ocf,219.9,USD million,SEAT_10K_2022-03-15.txt,"Net cash provided by operating activities was $219.9 million for the year ended December 31, 2021",
+SEAT,FY2021,ocf_restated,175.8,USD million,SEAT_10K_2023-03-07.txt,"Net cash provided by operating activities was $175.8 million for the year ended December 31, 2021",restated vs 219.9 first reported
+SEAT,FY2021,capex,-1132,USD thousand,SEAT_10K_2022-03-15.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 1,132",
+SEAT,FY2022,V,3184.8,USD million,SEAT_10K_2023-03-07.txt,"Marketplace Gross Order Value (""Marketplace GOV"") was $3,184.8 million, $2,399.1 million, and $347.3 million",Marketplace GOV
+SEAT,FY2022,revenue,600.3,USD million,SEAT_10K_2023-03-07.txt,"our revenues were $600.3 million, $443.0 million, and $35.1 million, respectively",
+SEAT,FY2022,ocf,14.4,USD million,SEAT_10K_2023-03-07.txt,"Net cash provided by operating activities was $14.4 million for the year ended December 31, 2022",
+SEAT,FY2022,capex,-3558,USD thousand,SEAT_10K_2023-03-07.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 3,558",
+SEAT,FY2023,V,3920526,USD thousand,SEAT_10K_2024-03-08.txt,"Marketplace GOV* 
+ | 
+ | 
+ $ 
+ | 
+ 3,920,526",Marketplace GOV
+SEAT,FY2023,revenue,712879,USD thousand,SEAT_10K_2024-03-08.txt,"Revenues 
+ | 
+ | 
+ | 
+ 712,879 
+ | 
+ | 
+",
+SEAT,FY2023,ocf,147.3,USD million,SEAT_10K_2024-03-08.txt,"Net cash provided by operating activities was $147.3 million for the year ended December 31, 2023",
+SEAT,FY2023,capex,-895,USD thousand,SEAT_10K_2024-03-08.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 895",
+SEAT,FY2024,V,3892645,USD thousand,SEAT_10K_2025-03-12.txt,"Marketplace GOV* 
+ | 
+ | 
+ $ 
+ | 
+ 3,892,645",Marketplace GOV
+SEAT,FY2024,revenue,775586,USD thousand,SEAT_10K_2025-03-12.txt,"Revenues 
+ | 
+ | 
+ | 
+ 775,586 
+ | 
+ | 
+",
+SEAT,FY2024,ocf,53.9,USD million,SEAT_10K_2025-03-12.txt,"Net cash provided by operating activities was $53.9 million for the year ended December 31, 2024",
+SEAT,FY2024,capex,-4227,USD thousand,SEAT_10K_2025-03-12.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 4,227",
+SEAT,FY2025,V,2704573,USD thousand,SEAT_10K_2026-03-12.txt,"Marketplace GOV* 
+ | 
+ | 
+ $ 
+ | 
+ 2,704,573",Marketplace GOV
+SEAT,FY2025,revenue,570776,USD thousand,SEAT_10K_2026-03-12.txt,"Revenues 
+ | 
+ | 
+ | 
+ 570,776 
+ | 
+ | 
+",
+SEAT,FY2025,ocf,-91.6,USD million,SEAT_10K_2026-03-12.txt,"Net cash used in operating activities during the year ended December 31, 2025 was $91.6 million",
+SEAT,FY2025,capex,-2164,USD thousand,SEAT_10K_2026-03-12.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 2,164",
+RBA,FY2014,V,4212641,USD thousand,RBA_10K_2016-02-25.txt,"GAP 
+ $ 4,247,635 
+ $ 4,212,641 
+ $ 3,817,769",GAP (gross auction proceeds); FY2014 40-F text omits financial exhibits
+RBA,FY2014,revenue,481097,USD thousand,RBA_10K_2016-02-25.txt,"Revenues 
+ $ 515,875 
+ $ 481,097 
+ $ 467,403",
+RBA,FY2014,ocf,171366,USD thousand,RBA_10K_2016-02-25.txt,"Net cash provided by operating activities 
+ 196,357 
+ 171,366 
+ 146,639",
+RBA,FY2014,capex,-24990,USD thousand,RBA_10K_2016-02-25.txt,"Property, plant and equipment additions 
+ (22,055 ) 
+ (24,990 )",
+RBA,FY2014,capex_sw,-13935,USD thousand,RBA_10K_2016-02-25.txt,"Intangible asset additions 
+ (8,764 ) 
+ (13,935 ) 
+ (15,662 )",intangible asset additions (cash-flow statement)
+RBA,FY2015,V,4247635,USD thousand,RBA_10K_2016-02-25.txt,"GAP 
+ $ 4,247,635 
+ $ 4,212,641 
+ $ 3,817,769",GAP (gross auction proceeds)
+RBA,FY2015,revenue,515875,USD thousand,RBA_10K_2016-02-25.txt,"Revenues 
+ $ 515,875 
+ $ 481,097 
+ $ 467,403",
+RBA,FY2015,ocf,196357,USD thousand,RBA_10K_2016-02-25.txt,"Net cash provided by operating activities 
+ 196,357 
+ 171,366 
+ 146,639",
+RBA,FY2015,capex,-22055,USD thousand,RBA_10K_2016-02-25.txt,"Property, plant and equipment additions 
+ (22,055 ) 
+ (24,990 )",
+RBA,FY2015,capex_sw,-8764,USD thousand,RBA_10K_2016-02-25.txt,"Intangible asset additions 
+ (8,764 ) 
+ (13,935 ) 
+ (15,662 )",intangible asset additions (cash-flow statement)
+RBA,FY2016,V,4334815,USD thousand,RBA_10K_2017-02-21.txt,"GAP 
+ $ 4,334,815 
+ $ 4,247,635 
+ $ 4,212,641",GAP (gross auction proceeds)
+RBA,FY2016,revenue,566395,USD thousand,RBA_10K_2017-02-21.txt,"Revenues 
+ $ 566,395 
+ $ 515,875 
+ $ 481,097",
+RBA,FY2016,ocf,177558,USD thousand,RBA_10K_2017-02-21.txt,"Net cash provided by operating activities 
+ 177,558 
+ 196,459",
+RBA,FY2016,capex,-18918,USD thousand,RBA_10K_2017-02-21.txt,"Property, plant and equipment additions 
+ (18,918 ) 
+ (22,055 ) 
+ (24,990 )",PPE additions (cash-flow statement)
+RBA,FY2016,capex_sw,-17558,USD thousand,RBA_10K_2017-02-21.txt,"Intangible asset additions 
+ (17,558 ) 
+ (8,764 ) 
+ (13,935 )",intangible asset additions (cash-flow statement)
+RBA,FY2017,V,4467982,USD thousand,RBA_10K_2018-02-26.txt,"GTV 
+ $ 4,467,982 
+ $ 4,334,815 
+ $ 4,247,635",GTV (gross transaction value); label changed from GAP
+RBA,FY2017,revenue,610.5,USD million,RBA_10K_2018-02-26.txt,Revenues of $610.5 million; an increase of 8% versus $566.4 million,
+RBA,FY2017,ocf,146266,USD thousand,RBA_10K_2018-02-26.txt,"Net cash provided by operating activities 
+ 146,266 
+ 177,558 
+ 196,459",
+RBA,FY2017,capex,-10812,USD thousand,RBA_10K_2018-02-26.txt,"Property, plant and equipment additions 
+ (10,812 ) 
+ (18,918 ) 
+ (22,055 )",PPE additions (cash-flow statement)
+RBA,FY2017,capex_sw,-28584,USD thousand,RBA_10K_2018-02-26.txt,"Intangible asset additions 
+ (28,584 ) 
+ (17,558 ) 
+ (8,764 )",intangible asset additions (cash-flow statement)
+RBA,FY2018,V,4964165,USD thousand,RBA_10K_2019-02-28.txt,"GTV 
+ $ 4,964,165 
+ $ 4,467,982 
+ $ 4,334,815",GTV (gross transaction value)
+RBA,FY2018,revenue,1.17,USD billion,RBA_10K_2019-02-28.txt,Total revenues of $1.17 billion increased 20% from $971.2 million,
+RBA,FY2018,rev_1p,420511,USD thousand,RBA_10K_2019-02-28.txt,"Revenue from inventory sales 
+ 420,511 
+ 346,774 
+ 571,134",inventory sales revenue (labeled Revenue from inventory sales)
+RBA,FY2018,ocf,144280,USD thousand,RBA_10K_2019-02-28.txt,"Net cash provided by operating activities 
+ 144,280 
+ 147,568",
+RBA,FY2018,capex,-16860,USD thousand,RBA_10K_2019-02-28.txt,"Property, plant and equipment additions 
+ (16,860 ) 
+ (10,812 ) 
+ (18,918 )",PPE additions (cash-flow statement)
+RBA,FY2018,capex_sw,-26152,USD thousand,RBA_10K_2019-02-28.txt,"Intangible asset additions 
+ (26,152 ) 
+ (28,584 ) 
+ (17,558 )",intangible asset additions (cash-flow statement)
+RBA,FY2019,V,5140587,USD thousand,RBA_10K_2020-02-27.txt,"Total GTV
+ | ​ 
+ | ​ 
+ | 5,140,587 
+ | ​",GTV (gross transaction value)
+RBA,FY2019,revenue,1.3,USD billion,RBA_10K_2020-02-27.txt,Total revenue increased 13% to $1.3 billion as compared to 2018,
+RBA,FY2019,rev_1p,514617,USD thousand,RBA_10K_2020-02-27.txt,"514,617 
+ | ​ 
+ | 
+ | 420,511 
+ | ​ 
+ | ",inventory sales revenue
+RBA,FY2019,ocf,332793,USD thousand,RBA_10K_2020-02-27.txt,"Net cash provided by operating activities
+ | ​ 
+ | 
+ | 332,793",
+RBA,FY2019,capex,-13589,USD thousand,RBA_10K_2020-02-27.txt,"Property, plant and equipment additions
+ | ​ 
+ | 
+ | ( 13,589 )",PPE additions (cash-flow statement)
+RBA,FY2019,capex_sw,-27415,USD thousand,RBA_10K_2020-02-27.txt,"Intangible asset additions
+ | ​ 
+ | 
+ | ( 27,415 )",intangible asset additions (cash-flow statement)
+RBA,FY2020,capex,-14263,USD thousand,RBA_10K_2021-02-18.txt,"Property, plant and equipment additions
+ | ​ 
+ | 
+ | ( 14,263 )",PPE additions (cash-flow statement)
+RBA,FY2020,capex_sw,-28873,USD thousand,RBA_10K_2021-02-18.txt,"Intangible asset additions
+ | ​ 
+ | 
+ | ( 28,873 )",intangible asset additions (cash-flow statement)
+RBA,FY2020,V,5411218,USD thousand,RBA_10K_2021-02-18.txt,"5,411,218 
+ | ​ 
+ | ​ 
+ | 5,140,587 
+ | ",GTV (gross transaction value)
+RBA,FY2020,revenue,1.4,USD billion,RBA_10K_2021-02-18.txt,Total revenue increased 4% to $1.4 billion as compared to 2019,
+RBA,FY2020,rev_1p,505664,USD thousand,RBA_10K_2021-02-18.txt,"505,664 
+ | ​ 
+ | 
+ | 514,617 
+ | ​ 
+ | ",inventory sales revenue
+RBA,FY2020,ocf,257872,USD thousand,RBA_10K_2021-02-18.txt,"257,872 
+ | ​ 
+ | $ 
+ | 332,793 
+ | ​ 
+ ",
+RBA,FY2021,V,5533931,USD thousand,RBA_10K_2022-02-17.txt,"5,533,931 
+ | ​ 
+ | ​ 
+ | 5,411,218 
+ | ",GTV (gross transaction value)
+RBA,FY2021,revenue,1.4,USD billion,RBA_10K_2022-02-17.txt,Total revenue increased 3% to $1.4 billion as compared to 2020,
+RBA,FY2021,rev_1p,499212,USD thousand,RBA_10K_2022-02-17.txt,"499,212 
+ | ​ 
+ | ​ 
+ | 505,664 
+ | ​ 
+ ",inventory sales revenue
+RBA,FY2021,ocf,317586,USD thousand,RBA_10K_2022-02-17.txt,"Net cash provided by operating activities
+ | ​ 
+ | 
+ | 317,586 
+ | ​ 
+ | 
+ | 257,872",
+RBA,FY2021,capex,-9816,USD thousand,RBA_10K_2022-02-17.txt,"Property, plant and equipment additions
+ | ​ 
+ | 
+ | ( 9,816 )",PPE additions (cash-flow statement)
+RBA,FY2021,capex_sw,-33671,USD thousand,RBA_10K_2022-02-17.txt,"Intangible asset additions
+ | ​ 
+ | 
+ | ( 33,671 )",intangible asset additions (cash-flow statement)
+RBA,FY2022,V,6025889,USD thousand,RBA_10K_2023-02-21.txt,"6,025,889 
+ | ​ 
+ | ​ 
+ | 5,533,931 
+ | ",GTV (gross transaction value)
+RBA,FY2022,revenue,1.7,USD billion,RBA_10K_2023-02-21.txt,Total revenue increased 22% to $1.7 billion as compared to 2021,
+RBA,FY2022,rev_1p,683.2,USD million,RBA_10K_2023-02-21.txt,Inventory sales revenue increased 37% to $683.2 million,inventory sales revenue
+RBA,FY2022,ocf,463055,USD thousand,RBA_10K_2023-02-21.txt,"463,055 
+ | ​ 
+ | $ 
+ | 317,586 
+ | $ 
+ ",
+RBA,FY2022,capex,-31972,USD thousand,RBA_10K_2023-02-21.txt,"Property, plant and equipment additions
+ | ​ 
+ | 
+ | ( 31,972 )",PPE additions (cash-flow statement)
+RBA,FY2022,capex_sw,-39965,USD thousand,RBA_10K_2023-02-21.txt,"Intangible asset additions
+ | ​ 
+ | 
+ | ( 39,965 )",intangible asset additions (cash-flow statement)
+RBA,FY2023,V,13.9,USD billion,RBA_10K_2024-02-28.txt,Total GTV increased 131% to $13.9 billion,GTV (gross transaction value)
+RBA,FY2023,revenue,3679.6,USD million,RBA_10K_2024-02-28.txt,"Total revenue | 3,679.6 | 1,733.8 | 1,417.0",
+RBA,FY2023,rev_1p,947.1,USD million,RBA_10K_2024-02-28.txt,Inventory sales revenue increased 39% to $947.1 million,inventory sales revenue
+RBA,FY2023,ocf,544.0,USD million,RBA_10K_2024-02-28.txt,Net cash provided by operating activities was $544.0 million in 2023,
+RBA,FY2023,capex,-227.9,USD million,RBA_10K_2024-02-28.txt,"Property, plant and equipment additions | (227.9) | (32.0) | (9.8)",
+RBA,FY2023,capex_sw,-118.3,USD million,RBA_10K_2024-02-28.txt,Intangible asset additions | ( 118.3 ) | ( 40.0 ) | ( 33.7 ) |,intangible asset additions (cash-flow statement)
+RBA,FY2024,V,15904.8,USD million,RBA_10K_2025-02-26.txt,"Total GTV | $ | 15,904.8 | $ | 13,930.6 ",GTV (gross transaction value)
+RBA,FY2024,revenue,4.3,USD billion,RBA_10K_2025-02-26.txt,Total revenue increased 16% to $4.3 billion in 2024 as compared to 2023,
+RBA,FY2024,rev_1p,920.6,USD million,RBA_10K_2025-02-26.txt,Inventory sales revenue decreased 3% to $920.6 million,inventory sales revenue
+RBA,FY2024,ocf,932.0,USD million,RBA_10K_2025-02-26.txt,Net cash provided by operating activities was $932.0 million in 2024,
+RBA,FY2024,capex,-167.4,USD million,RBA_10K_2025-02-26.txt,"Property, plant and equipment additions | ( 167.4 ) | ( 227.9 ) | ( 32.0 ) |",
+RBA,FY2024,capex_sw,-109.5,USD million,RBA_10K_2025-02-26.txt,Intangible asset additions | ( 109.5 ) | ( 118.3 ) | ( 40.0 ) |,intangible asset additions (cash-flow statement)
+RBA,FY2025,V,16201.9,USD million,RBA_10K_2026-02-25.txt,"Total GTV | $ | 16,201.9 | $ | 15,904.8 ",GTV (gross transaction value)
+RBA,FY2025,revenue,4590.7,USD million,RBA_10K_2026-02-25.txt,"Total revenue | 4,590.7 | 4,284.2 | 7 | ",
+RBA,FY2025,rev_1p,1088.5,USD million,RBA_10K_2026-02-25.txt,"Inventory sales revenue | 1,088.5 | 920.6",inventory sales revenue
+RBA,FY2025,ocf,978.2,USD million,RBA_10K_2026-02-25.txt,Net cash provided by operating activities | 978.2 | 932.0 | 544.0 |,
+RBA,FY2025,capex,-259.0,USD million,RBA_10K_2026-02-25.txt,"Property, plant and equipment additions | ( 259.0 ) | ( 167.4 ) | ( 227.9 ) |",
+RBA,FY2025,capex_sw,-116.5,USD million,RBA_10K_2026-02-25.txt,Intangible asset additions | ( 116.5 ) | ( 109.5 ) | ( 118.3 ) |,intangible asset additions (cash-flow statement)
+ACVA,FY2020,V,3.3,USD billion,ACVA_10K_2022-02-23.txt,"Marketplace GMV, of $7.9 billion and $3.3 billion, for the year ended December 31, 2021 and 2020",Marketplace GMV (gross merchandise value); rounded in source
+ACVA,FY2020,revenue,208.4,USD million,ACVA_10K_2022-02-23.txt,we generated revenue of $358.4 million and $208.4 million,
+ACVA,FY2020,ocf,10368,USD thousand,ACVA_10K_2022-02-23.txt,"Net cash provided by (used in) operating activities 
+ | 
+ | 
+ $ 
+ | 
+ 85,290 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 10,368",
+ACVA,FY2020,capex,-3503,USD thousand,ACVA_10K_2022-02-23.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 2,569 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 3,503",
+ACVA,FY2020,capex_sw,-5382,USD thousand,ACVA_10K_2022-02-23.txt,"Capitalization of software costs 
+ | 
+ | 
+ | 
+ ( 11,460 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 5,382",
+ACVA,FY2021,V,7.9,USD billion,ACVA_10K_2022-02-23.txt,"Marketplace GMV, of $7.9 billion and $3.3 billion, for the year ended December 31, 2021 and 2020",Marketplace GMV (gross merchandise value); rounded in source
+ACVA,FY2021,revenue,358.4,USD million,ACVA_10K_2022-02-23.txt,we generated revenue of $358.4 million and $208.4 million,
+ACVA,FY2021,ocf,85290,USD thousand,ACVA_10K_2022-02-23.txt,"Net cash provided by (used in) operating activities 
+ | 
+ | 
+ $ 
+ | 
+ 85,290",
+ACVA,FY2021,capex,-2569,USD thousand,ACVA_10K_2022-02-23.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 2,569",
+ACVA,FY2021,capex_sw,-11460,USD thousand,ACVA_10K_2022-02-23.txt,"Capitalization of software costs 
+ | 
+ | 
+ | 
+ ( 11,460",
+ACVA,FY2022,V,9.0,USD billion,ACVA_10K_2023-03-01.txt,"Marketplace GMV, of $9.0 billion and $7.9 billion, for the years ended December 31, 2022 and 2021",Marketplace GMV (gross merchandise value); rounded in source
+ACVA,FY2022,revenue,421.5,USD million,ACVA_10K_2023-03-01.txt,we generated revenue of $421.5 million and $358.4 million,
+ACVA,FY2022,ocf,-75175,USD thousand,ACVA_10K_2023-03-01.txt,"Net cash provided by (used in) operating activities 
+ | 
+ | 
+ $ 
+ | 
+ (75,175",
+ACVA,FY2022,capex,-3211,USD thousand,ACVA_10K_2023-03-01.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 3,211",
+ACVA,FY2022,capex_sw,-20185,USD thousand,ACVA_10K_2023-03-01.txt,"Capitalization of software costs 
+ | 
+ | 
+ | 
+ ( 20,185",
+ACVA,FY2023,V,8.8,USD billion,ACVA_10K_2024-02-21.txt,"Marketplace GMV, of $8.8 billion and $9.0 billion, for the years ended December 31, 2023 and 2022",Marketplace GMV (gross merchandise value); rounded in source
+ACVA,FY2023,revenue,481.2,USD million,ACVA_10K_2024-02-21.txt,we generated revenue of $481.2 million and $421.5 million,
+ACVA,FY2023,ocf,-17885,USD thousand,ACVA_10K_2024-02-21.txt,"Net cash provided by (used in) operating activities 
+ | 
+ | 
+ $ 
+ | 
+ (17,885",
+ACVA,FY2023,capex,-2330,USD thousand,ACVA_10K_2024-02-21.txt,"Purchases of property and equipment 
+ | 
+ | 
+ | 
+ ( 2,330",
+ACVA,FY2023,capex_sw,-25840,USD thousand,ACVA_10K_2024-02-21.txt,"Capitalization of software costs 
+ | 
+ | 
+ | 
+ ( 25,840",
+ACVA,FY2024,V,9.5,USD billion,ACVA_10K_2025-02-19.txt,"generating $9.5 billion Marketplace GMV,",Marketplace GMV (gross merchandise value)
+ACVA,FY2024,revenue,637156,USD thousand,ACVA_10K_2025-02-19.txt,"Total revenue | 637,156 | 100 | % | 481,",
+ACVA,FY2024,ocf,65.4,USD million,ACVA_10K_2025-02-19.txt,net cash provided by (used in) operating activities was $65.4 million and $(17.9) million,
+ACVA,FY2024,capex,-4539,USD thousand,ACVA_10K_2025-02-19.txt,"Purchases of property and equipment | ( 4,539 )",
+ACVA,FY2024,capex_sw,-29702,USD thousand,ACVA_10K_2025-02-19.txt,"Capitalization of software costs | ( 29,702",
+ACVA,FY2025,V,10.4,USD billion,ACVA_10K_2026-02-23.txt,generating $10.4 billion Marketplace GMV,Marketplace GMV (gross merchandise value)
+ACVA,FY2025,revenue,759606,USD thousand,ACVA_10K_2026-02-23.txt,"Total revenue | 759,606 | 100 | % | 637,",
+ACVA,FY2025,ocf,78232,USD thousand,ACVA_10K_2026-02-23.txt,"Net cash provided by (used in) operating activities | 78,232",
+ACVA,FY2025,capex,-9098,USD thousand,ACVA_10K_2026-02-23.txt,"Purchases of property and equipment | ( 9,098 )",
+ACVA,FY2025,capex_sw,-35555,USD thousand,ACVA_10K_2026-02-23.txt,"Capitalization of software costs | ( 35,555 )",

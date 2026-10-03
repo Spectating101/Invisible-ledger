@@ -1,0 +1,223 @@
+{
+ "S1": {
+  "b": [
+   0.1460874978793397,
+   0.14619096335763784,
+   0.181679501178243
+  ],
+  "diff": -0.035488537820605154,
+  "se": 0.1675742704701707,
+  "t": -0.21177796400982896,
+  "p_one_sided": 0.5405405405405406,
+  "n": 111,
+  "firms": 18
+ },
+ "S1_ranks": {
+  "b": [
+   0.18586052693138483,
+   0.4475021555515631,
+   0.1840957285665847
+  ],
+  "diff": 0.2634064269849784,
+  "se": 0.11831878809933978,
+  "t": 2.2262434497201227,
+  "p_one_sided": 0.013013013013013013,
+  "n": 111,
+  "firms": 18
+ },
+ "S1_no_flagged": {
+  "b": [
+   0.14740846775451444,
+   0.14467470778536073,
+   0.1896854239677971
+  ],
+  "diff": -0.04501071618243638,
+  "se": 0.17977086583468593,
+  "t": -0.25037825775299666,
+  "p_one_sided": 0.5565565565565566,
+  "n": 102,
+  "firms": 18
+ },
+ "S2_main_2021_2023": {
+  "firms": 13,
+  "rows": [
+   {
+    "entity": "ACVA",
+    "fcf_margin": 0.1988,
+    "dlnm": 0.1867
+   },
+   {
+    "entity": "DESP",
+    "fcf_margin": -0.184,
+    "dlnm": -0.0325
+   },
+   {
+    "entity": "DIBS",
+    "fcf_margin": -0.0646,
+    "dlnm": 0.0179
+   },
+   {
+    "entity": "EXPE",
+    "fcf_margin": 0.3576,
+    "dlnm": 0.0384
+   },
+   {
+    "entity": "FVRR",
+    "fcf_margin": 0.119,
+    "dlnm": 0.0861
+   },
+   {
+    "entity": "HEPS",
+    "fcf_margin": -0.0166,
+    "dlnm": 0.0564
+   },
+   {
+    "entity": "KSPI",
+    "fcf_margin": 0.0514,
+    "dlnm": -0.0425
+   },
+   {
+    "entity": "RBA",
+    "fcf_margin": 0.1958,
+    "dlnm": 0.0453
+   },
+   {
+    "entity": "REAL",
+    "fcf_margin": -0.4054,
+    "dlnm": 0.0087
+   },
+   {
+    "entity": "SEAT",
+    "fcf_margin": 0.4938,
+    "dlnm": -0.0154
+   },
+   {
+    "entity": "UPWK",
+    "fcf_margin": 0.0093,
+    "dlnm": 0.1601
+   },
+   {
+    "entity": "VCSA",
+    "fcf_margin": 0.0585,
+    "dlnm": 0.0416
+   },
+   {
+    "entity": "YTRA",
+    "fcf_margin": 0.54,
+    "dlnm": -0.4201
+   }
+  ],
+  "mannwhitney_p_neg_greater": 0.7482517482517482,
+  "spearman": -0.016483516483516484
+ },
+ "S2_placebo_2017_2019": {
+  "firms": 11,
+  "rows": [
+   {
+    "entity": "ASAPQ",
+    "fcf_margin": -0.6235,
+    "dlnm": 0.4225
+   },
+   {
+    "entity": "BABA",
+    "fcf_margin": 0.4303,
+    "dlnm": 0.4486
+   },
+   {
+    "entity": "DESP",
+    "fcf_margin": 0.0755,
+    "dlnm": -0.0591
+   },
+   {
+    "entity": "EXPE",
+    "fcf_margin": 0.1082,
+    "dlnm": -0.017
+   },
+   {
+    "entity": "GrubHub",
+    "fcf_margin": 0.1646,
+    "dlnm": 0.2063
+   },
+   {
+    "entity": "MOGU",
+    "fcf_margin": -0.7714,
+    "dlnm": -0.421
+   },
+   {
+    "entity": "PDD",
+    "fcf_margin": 5.5487,
+    "dlnm": 0.8855
+   },
+   {
+    "entity": "RBA",
+    "fcf_margin": 0.1751,
+    "dlnm": 0.6156
+   },
+   {
+    "entity": "REAL",
+    "fcf_margin": -0.3832,
+    "dlnm": 0.1212
+   },
+   {
+    "entity": "UPWK",
+    "fcf_margin": -0.0311,
+    "dlnm": -0.0241
+   },
+   {
+    "entity": "YTRA",
+    "fcf_margin": -0.2208,
+    "dlnm": -0.4746
+   }
+  ],
+  "mannwhitney_p_neg_greater": 0.9588744588744589,
+  "spearman": 0.6727272727272727
+ },
+ "S3": {
+  "firms": [
+   {
+    "entity": "BABA",
+    "last_year_with_V": 2021,
+    "share_from_cut": 0.5822078715245605
+   },
+   {
+    "entity": "PDD",
+    "last_year_with_V": 2021,
+    "share_from_cut": 0.2208010284903112
+   }
+  ],
+  "share_above_half": "1 of 2",
+  "prediction_holds": true
+ },
+ "firms": [
+  "ACVA",
+  "ASAPQ",
+  "BABA",
+  "DDL",
+  "DESP",
+  "DIBS",
+  "EXPE",
+  "FVRR",
+  "GrubHub",
+  "HEPS",
+  "JD",
+  "Jumei",
+  "KSPI",
+  "LQDT",
+  "MOGU",
+  "NBIS",
+  "NEGG",
+  "Ozon",
+  "PDD",
+  "RBA",
+  "REAL",
+  "SEAT",
+  "TCOM",
+  "TOUR",
+  "UPWK",
+  "UXIN",
+  "VCSA",
+  "VIPS",
+  "YTRA"
+ ],
+ "excluded_1p_firm_years": 61
+}

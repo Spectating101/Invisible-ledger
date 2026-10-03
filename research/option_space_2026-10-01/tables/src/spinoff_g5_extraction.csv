@@ -1,0 +1,3402 @@
+entity,period,field,value,unit,source_file,quote,note
+GrubHub,FY2014,V,1787.4,USD million,GrubHub_10K_2015-03-05.txt,",000
+ | 
+ | 
+ | 
+ | 
+ 45,700
+ | 
+ | 
+ Gross Food Sales (in millions) (e) 
+ | 
+ | 
+ $
+ | 
+ 1,787.4
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,014.9
+ | 
+ | 
+ | 
+ $
+ | 
+ 568.8
+ | 
+ | 
+ | 
+ $
+ | 
+ 412.20
+ | 
+ | 
+",Gross Food Sales
+GrubHub,FY2014,revenue,253873,USD thousand,GrubHub_10K_2015-03-05.txt," 
+ | 
+ | 
+ | 
+ 2014
+ | 
+ | 
+ | 
+ 2013
+ | 
+ | 
+ | 
+ 2012
+ | 
+ | 
+ Revenues
+ | 
+ | 
+ $
+ | 
+ 253,873
+ | 
+ | 
+ | 
+ $
+ | 
+ 137,143
+ | 
+ | 
+ | 
+ $
+ | 
+ 82,299
+ | 
+ | 
+ Costs and expenses:
+ | 
+ ",Total revenues
+GrubHub,FY2014,ocf,72904,USD thousand,GrubHub_10K_2015-03-05.txt," )
+ | 
+ | 
+ | 
+ (2,410
+ | 
+ )
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 72,904
+ | 
+ | 
+ | 
+ | 
+ 40,819
+ | 
+ | 
+ | 
+ | 
+ 29,578
+ | 
+ | 
+ CASH FLOWS FROM INVESTING ACTIVI",Net cash provided by operating activities
+GrubHub,FY2014,capex,-3653,USD thousand,GrubHub_10K_2015-03-05.txt,"
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,280
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (3,653
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,429
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,417
+ | 
+ )
+ | 
+ Cash acquired in merger",Purchases of property and equipment
+GrubHub,FY2014,capex_sw,-3431,USD thousand,GrubHub_10K_2015-03-05.txt,"| 
+ —
+ | 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ (3,431
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,592
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,280
+ | 
+ )
+ | 
+ Purchases of property a",Capitalized website and development costs
+GrubHub,FY2015,V,2353.6,USD million,GrubHub_10K_2016-02-26.txt,",000
+ | 
+ | 
+ | 
+ | 
+ 45,700
+ | 
+ | 
+ Gross Food Sales (in millions) (d) 
+ | 
+ | 
+ $
+ | 
+ 2,353.6
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,787.4
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,014.9
+ | 
+ | 
+ | 
+ $
+ | 
+ 568.8
+ | 
+ | ",Gross Food Sales
+GrubHub,FY2015,revenue,361825,USD thousand,GrubHub_10K_2016-02-26.txt," 
+ | 
+ | 
+ | 
+ 2015
+ | 
+ | 
+ | 
+ 2014
+ | 
+ | 
+ | 
+ 2013
+ | 
+ | 
+ Revenues
+ | 
+ | 
+ $
+ | 
+ 361,825
+ | 
+ | 
+ | 
+ $
+ | 
+ 253,873
+ | 
+ | 
+ | 
+ $
+ | 
+ 137,143
+ | 
+ | 
+ Costs and expenses:
+ | 
+",Total revenues
+GrubHub,FY2015,ocf,44755,USD thousand,GrubHub_10K_2016-02-26.txt,"
+ | 
+ | 
+ | 
+ | 
+ (244
+ | 
+ )
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 44,755
+ | 
+ | 
+ | 
+ | 
+ 72,904
+ | 
+ | 
+ | 
+ | 
+ 40,819
+ | 
+ | 
+ CASH FLOWS FROM INVESTING ACTIVI",Net cash provided by operating activities
+GrubHub,FY2015,capex,-4150,USD thousand,GrubHub_10K_2016-02-26.txt,"
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,592
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (4,150
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,653
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,429
+ | 
+ )
+ | 
+ Acquisitions of busines",Purchases of property and equipment
+GrubHub,FY2015,capex_sw,-7137,USD thousand,GrubHub_10K_2016-02-26.txt,"1,500
+ | 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ (7,137
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,431
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,592
+ | 
+ )
+ | 
+ Purchases of property a",Capitalized website and development costs
+GrubHub,FY2016,V,2998.1,USD million,GrubHub_10K_2017-02-28.txt,",900
+ | 
+ | 
+ | 
+ | 
+ 62,000
+ | 
+ | 
+ Gross Food Sales (in millions) (d) 
+ | 
+ | 
+ $
+ | 
+ 2,998.1
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,353.6
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,787.4
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,014.9
+ | 
+ ",Gross Food Sales
+GrubHub,FY2016,revenue,493331,USD thousand,GrubHub_10K_2017-02-28.txt,"r 31,
+ | 
+ | 
+ | 
+ 2016
+ | 
+ | 
+ | 
+ 2015
+ | 
+ | 
+ | 
+ 2014
+ | 
+ | 
+ Revenues
+ | 
+ $
+ | 
+ 493,331
+ | 
+ | 
+ | 
+ $
+ | 
+ 361,825
+ | 
+ | 
+ | 
+ $
+ | 
+ 253,873
+ | 
+ | 
+ Costs and expenses:
+ | 
+",Total revenues
+GrubHub,FY2016,ocf,97678,USD thousand,GrubHub_10K_2017-02-28.txt," | 
+ )
+ | 
+ | 
+ | 
+ 3,038
+ | 
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 97,678
+ | 
+ | 
+ | 
+ | 
+ 44,755
+ | 
+ | 
+ | 
+ | 
+ 72,904
+ | 
+ | 
+ CASH FLOWS FROM INVESTING ACTIVI",Net cash provided by operating activities
+GrubHub,FY2016,capex,-24087,USD thousand,GrubHub_10K_2017-02-28.txt,"
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,431
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (24,087
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,150
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,653
+ | 
+ )
+ | 
+ Acquisitions of busines",Purchases of property and equipment
+GrubHub,FY2016,capex_sw,-12809,USD thousand,GrubHub_10K_2017-02-28.txt,"2
+ | 
+ | 
+ | 
+ | 
+ 1,500
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ (12,809
+ | 
+ )
+ | 
+ | 
+ | 
+ (7,137
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,431
+ | 
+ )
+ | 
+ Purchases of property a",Capitalized website and development costs
+GrubHub,FY2017,V,3783.7,USD million,GrubHub_10K_2018-02-28.txt,"800
+ | 
+ | 
+ | 
+ | 
+ 107,900
+ | 
+ | 
+ Gross Food Sales (in millions) (d) 
+ | 
+ | 
+ $
+ | 
+ 3,783.7
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,998.1
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,353.6
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,787.4
+ | 
+ ",Gross Food Sales
+GrubHub,FY2017,revenue,683067,USD thousand,GrubHub_10K_2018-02-28.txt,"r 31,
+ | 
+ | 
+ | 
+ 2017
+ | 
+ | 
+ | 
+ 2016
+ | 
+ | 
+ | 
+ 2015
+ | 
+ | 
+ Revenues
+ | 
+ $
+ | 
+ 683,067
+ | 
+ | 
+ | 
+ $
+ | 
+ 493,331
+ | 
+ | 
+ | 
+ $
+ | 
+ 361,825
+ | 
+ | 
+ Costs and expenses:
+ | 
+",Total revenues
+GrubHub,FY2017,ocf,152740,USD thousand,GrubHub_10K_2018-02-28.txt,"| 
+ )
+ | 
+ | 
+ | 
+ (80
+ | 
+ )
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 152,740
+ | 
+ | 
+ | 
+ | 
+ 97,678
+ | 
+ | 
+ | 
+ | 
+ 44,755
+ | 
+ | 
+ CASH FLOWS FROM INVESTING ACTIVI",Net cash provided by operating activities
+GrubHub,FY2017,capex,-18971,USD thousand,GrubHub_10K_2018-02-28.txt,"
+ | 
+ )
+ | 
+ | 
+ | 
+ (7,137
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (18,971
+ | 
+ )
+ | 
+ | 
+ | 
+ (24,087
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,150
+ | 
+ )
+ | 
+ Acquisitions of busine",Purchases of property and equipment
+GrubHub,FY2017,capex_sw,-21325,USD thousand,GrubHub_10K_2018-02-28.txt," | 
+ | 
+ | 
+ | 
+ 189,872
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ (21,325
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,809
+ | 
+ )
+ | 
+ | 
+ | 
+ (7,137
+ | 
+ )
+ | 
+ Purchases of property ",Capitalized website and development costs
+GrubHub,FY2018,V,5056.8,USD million,GrubHub_10K_2019-02-28.txt,"100
+ | 
+ | 
+ | 
+ | 
+ 182,800
+ | 
+ | 
+ Gross Food Sales (in millions) (c) 
+ | 
+ | 
+ $
+ | 
+ 5,056.8
+ | 
+ | 
+ | 
+ $
+ | 
+ 3,783.7
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,998.1
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,353.6
+ | 
+ ",Gross Food Sales
+GrubHub,FY2018,revenue,1007257,USD thousand,GrubHub_10K_2019-02-28.txt,"r 31,
+ | 
+ | 
+ | 
+ 2018
+ | 
+ | 
+ | 
+ 2017
+ | 
+ | 
+ | 
+ 2016
+ | 
+ | 
+ Revenues
+ | 
+ $
+ | 
+ 1,007,257
+ | 
+ | 
+ | 
+ $
+ | 
+ 683,067
+ | 
+ | 
+ | 
+ $
+ | 
+ 493,331
+ | 
+ | 
+ Costs and expenses:
+ | 
+",Total revenues
+GrubHub,FY2018,ocf,225527,USD thousand,GrubHub_10K_2019-02-28.txt,"| 
+ | 
+ | 
+ | 
+ (2,453
+ | 
+ )
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 225,527
+ | 
+ | 
+ | 
+ | 
+ 154,144
+ | 
+ | 
+ | 
+ | 
+ 97,780
+ | 
+ | 
+ CASH FLOWS FROM INVESTING ACTIV",Net cash provided by operating activities
+GrubHub,FY2018,capex,-43033,USD thousand,GrubHub_10K_2019-02-28.txt," | 
+ )
+ | 
+ | 
+ | 
+ (12,809
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (43,033
+ | 
+ )
+ | 
+ | 
+ | 
+ (18,971
+ | 
+ )
+ | 
+ | 
+ | 
+ (24,087
+ | 
+ )
+ | 
+ Acquisition of other ",Purchases of property and equipment
+GrubHub,FY2018,capex_sw,-31180,USD thousand,GrubHub_10K_2019-02-28.txt," | 
+ | 
+ | 
+ | 
+ 284,662
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ (31,180
+ | 
+ )
+ | 
+ | 
+ | 
+ (21,325
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,809
+ | 
+ )
+ | 
+ Purchases of property",Capitalized website and development costs
+GrubHub,FY2019,V,5913.6,USD million,GrubHub_10K_2020-02-28.txt,"800
+ | 
+ | 
+ | 
+ | 
+ 227,100
+ | 
+ | 
+ Gross Food Sales (in millions) (c) 
+ | 
+ | 
+ $
+ | 
+ 5,913.6
+ | 
+ | 
+ | 
+ $
+ | 
+ 5,056.8
+ | 
+ | 
+ | 
+ $
+ | 
+ 3,783.7
+ | 
+ | 
+ | 
+ $
+ | 
+ 2,998.1
+ | 
+ ",Gross Food Sales
+GrubHub,FY2019,revenue,1312151,USD thousand,GrubHub_10K_2020-02-28.txt,"r 31,
+ | 
+ | 
+ | 
+ 2019
+ | 
+ | 
+ | 
+ 2018
+ | 
+ | 
+ | 
+ 2017
+ | 
+ | 
+ Revenues
+ | 
+ $
+ | 
+ 1,312,151 
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,007,257 
+ | 
+ | 
+ | 
+ $
+ | 
+ 683,067 
+ | 
+ | 
+ Costs and expenses:",Total revenues
+GrubHub,FY2019,ocf,182622,USD thousand,GrubHub_10K_2020-02-28.txt,"
+ | 
+ | 
+ | 
+ | 
+ 11,735 
+ | 
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 182,622 
+ | 
+ | 
+ | 
+ | 
+ 225,527 
+ | 
+ | 
+ | 
+ | 
+ 154,144 
+ | 
+ | 
+ CASH FLOWS FROM INVESTING A",Net cash provided by operating activities
+GrubHub,FY2019,capex,-55167,USD thousand,GrubHub_10K_2020-02-28.txt,"
+ )
+ | 
+ | 
+ | 
+ ( 21,325 
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ ( 55,167 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 43,033 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 18,971 
+ | 
+ )
+ | 
+ Acquisition of o",Purchases of property and equipment
+GrubHub,FY2019,capex_sw,-48524,USD thousand,GrubHub_10K_2020-02-28.txt," 
+ | 
+ | 
+ | 
+ 215,983 
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ ( 48,524 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 31,180 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 21,325 
+ | 
+ )
+ | 
+ Purchases of pro",Capitalized website and development costs
+GrubHub,FY2020,V,8668.9,USD million,GrubHub_10K_2021-03-01.txt," | 
+ 26
+ | 
+ %
+ | 
+ | 
+ | 
+ 13
+ | 
+ %
+ | 
+ Gross Food Sales (in millions)
+ | 
+ | 
+ $
+ | 
+ 8,668.9
+ | 
+ | 
+ | 
+ $
+ | 
+ 5,913.6
+ | 
+ | 
+ | 
+ $
+ | 
+ 5,056.8
+ | 
+ | 
+ | 
+ | 
+ 47
+ | 
+ %
+ | 
+ |",Gross Food Sales
+GrubHub,FY2020,revenue,1819982,USD thousand,GrubHub_10K_2021-03-01.txt,"r 31,
+ | 
+ | 
+ | 
+ 2020
+ | 
+ | 
+ | 
+ 2019
+ | 
+ | 
+ | 
+ 2018
+ | 
+ | 
+ Revenues
+ | 
+ $
+ | 
+ 1,819,982 
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,312,151 
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,007,257 
+ | 
+ | 
+ Costs and expense",Total revenues
+GrubHub,FY2020,ocf,134994,USD thousand,GrubHub_10K_2021-03-01.txt," 
+ | 
+ | 
+ | 
+ | 
+ 4,585 
+ | 
+ | 
+ Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 134,994 
+ | 
+ | 
+ | 
+ | 
+ 182,622 
+ | 
+ | 
+ | 
+ | 
+ 225,527 
+ | 
+ | 
+ CASH FLOWS FROM INVESTING A",Net cash provided by operating activities
+GrubHub,FY2020,capex,-62999,USD thousand,GrubHub_10K_2021-03-01.txt,"
+ )
+ | 
+ | 
+ | 
+ ( 31,180 
+ | 
+ )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ ( 62,999 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 55,167 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 43,033 
+ | 
+ )
+ | 
+ Acquisition of o",Purchases of property and equipment
+GrubHub,FY2020,capex_sw,-57179,USD thousand,GrubHub_10K_2021-03-01.txt,"| 
+ | 
+ | 
+ | 
+ 67,166 
+ | 
+ | 
+ Capitalized website and development costs
+ | 
+ | 
+ | 
+ ( 57,179 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 48,524 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 31,180 
+ | 
+ )
+ | 
+ Purchases of pro",Capitalized website and development costs
+ASAPQ,FY2016,V,31430,USD thousand,ASAPQ_10K_2019-03-15.txt,"ars in thousands)
+ | 
+ | 
+ $
+ | 
+ 278,833
+ | 
+ | 
+ | 
+ $
+ | 
+ 121,081
+ | 
+ | 
+ | 
+ $
+ | 
+ 31,430
+ | 
+ | 
+ Average Order Size
+ | 
+ | 
+ $
+ | 
+ 34.95
+ | 
+ | 
+ | 
+ $
+ | 
+ 35.61
+ | 
+ | 
+ | 
+ ",Gross Food Sales
+ASAPQ,FY2016,revenue,5650,USD thousand,ASAPQ_10K_2019-03-15.txt,"| 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 22,911
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 5,650
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ Costs and expenses:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Revenue
+ASAPQ,FY2016,ocf,-4497,USD thousand,ASAPQ_10K_2019-03-15.txt,"perating activities
+ | 
+ | 
+ | 
+ (15,842
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,411
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,497
+ | 
+ )
+ | 
+ Cash flows from investing activities:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",Net cash used in operating activities
+ASAPQ,FY2016,capex,-596,USD thousand,ASAPQ_10K_2019-03-15.txt,"roperty and equipment
+ | 
+ | 
+ | 
+ (3,750
+ | 
+ )
+ | 
+ | 
+ | 
+ (1,769
+ | 
+ )
+ | 
+ | 
+ | 
+ (596
+ | 
+ )
+ | 
+ Acquisition of Requested, net of cash acquired
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ | 
+ | ",Purchases of property and equipment
+ASAPQ,FY2016,capex_sw,-208,USD thousand,ASAPQ_10K_2019-03-15.txt,"
+ Internally developed software
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ | 
+ | 
+ (105
+ | 
+ )
+ | 
+ | 
+ | 
+ (208
+ | 
+ )
+ | 
+ Consideration paid for IndiePlate asset acquisition
+ | 
+ | 
+ | 
+ (11
+ | 
+ )
+ ",Internally developed software
+ASAPQ,FY2017,V,121081,USD thousand,ASAPQ_10K_2019-03-15.txt,"
+ | 
+ Gross Food Sales (dollars in thousands)
+ | 
+ | 
+ $
+ | 
+ 278,833
+ | 
+ | 
+ | 
+ $
+ | 
+ 121,081
+ | 
+ | 
+ | 
+ $
+ | 
+ 31,430
+ | 
+ | 
+ Average Order Size
+ | 
+ | 
+ $
+ | 
+ 34.95
+ | 
+ | 
+ | 
+",Gross Food Sales
+ASAPQ,FY2017,revenue,22911,USD thousand,ASAPQ_10K_2019-03-15.txt,"venue
+ | 
+ | 
+ Revenue
+ | 
+ | 
+ $
+ | 
+ 69,273
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 22,911
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 5,650
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ Costs ",Revenue
+ASAPQ,FY2017,ocf,-12411,USD thousand,ASAPQ_10K_2019-03-15.txt,"
+ | 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (15,842
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,411
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,497
+ | 
+ )
+ | 
+ Cash flows from investing activities:
+ | 
+ | 
+ | 
+",Net cash used in operating activities
+ASAPQ,FY2017,capex,-1769,USD thousand,ASAPQ_10K_2019-03-15.txt," | 
+ | 
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (3,750
+ | 
+ )
+ | 
+ | 
+ | 
+ (1,769
+ | 
+ )
+ | 
+ | 
+ | 
+ (596
+ | 
+ )
+ | 
+ Acquisition of Requested, net of cash acquired
+ | 
+ ",Purchases of property and equipment
+ASAPQ,FY2017,capex_sw,-105,USD thousand,ASAPQ_10K_2019-03-15.txt," 
+ | 
+ | 
+ (22
+ | 
+ )
+ | 
+ Internally developed software
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ | 
+ | 
+ (105
+ | 
+ )
+ | 
+ | 
+ | 
+ (208
+ | 
+ )
+ | 
+ Consideration paid for IndiePlate asset acquisition
+",Internally developed software
+ASAPQ,FY2018,V,278833,USD thousand,ASAPQ_10K_2019-03-15.txt,"5
+ | 
+ | 
+ | 
+ | 
+ 2,395
+ | 
+ | 
+ Gross Food Sales (dollars in thousands)
+ | 
+ | 
+ $
+ | 
+ 278,833
+ | 
+ | 
+ | 
+ $
+ | 
+ 121,081
+ | 
+ | 
+ | 
+ $
+ | 
+ 31,430
+ | 
+ | 
+ Average Order Size
+ | 
+ |",Gross Food Sales
+ASAPQ,FY2018,revenue,69273,USD thousand,ASAPQ_10K_2019-03-15.txt,"of
+ Revenue
+ | 
+ | 
+ | 
+ 2016
+ | 
+ | 
+ | 
+ % of
+ Revenue
+ | 
+ | 
+ Revenue
+ | 
+ | 
+ $
+ | 
+ 69,273
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 22,911
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $",Revenue
+ASAPQ,FY2018,ocf,-15842,USD thousand,ASAPQ_10K_2019-03-15.txt,"| 
+ | 
+ —
+ | 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (15,842
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,411
+ | 
+ )
+ | 
+ | 
+ | 
+ (4,497
+ | 
+ )
+ | 
+ Cash flows from invest",Net cash used in operating activities
+ASAPQ,FY2018,capex,-3750,USD thousand,ASAPQ_10K_2019-03-15.txt,"| 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (3,750
+ | 
+ )
+ | 
+ | 
+ | 
+ (1,769
+ | 
+ )
+ | 
+ | 
+ | 
+ (596
+ | 
+ )
+ | 
+ Acquisition of Requested,",Purchases of property and equipment
+ASAPQ,FY2019,V,663919,USD thousand,ASAPQ_10K_2020-03-16.txt,"0
+ | 
+ | 
+ | 
+ | 
+ 9,315
+ | 
+ | 
+ Gross Food Sales (dollars in thousands)
+ | 
+ | 
+ $
+ | 
+ 663,919
+ | 
+ | 
+ | 
+ $
+ | 
+ 278,833
+ | 
+ | 
+ | 
+ $
+ | 
+ 121,081
+ | 
+ | 
+ Average Order Size (in d",Gross Food Sales
+ASAPQ,FY2019,revenue,191675,USD thousand,ASAPQ_10K_2020-03-16.txt,"of
+ Revenue
+ | 
+ | 
+ | 
+ 2017
+ | 
+ | 
+ | 
+ % of
+ Revenue
+ | 
+ | 
+ Revenue
+ | 
+ | 
+ $
+ | 
+ 191,675
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 69,273
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $",Revenue
+ASAPQ,FY2019,ocf,-73477,USD thousand,ASAPQ_10K_2020-03-16.txt,"
+ | 
+ 130
+ | 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (73,477
+ | 
+ )
+ | 
+ | 
+ | 
+ (15,842
+ | 
+ )
+ | 
+ | 
+ | 
+ (12,411
+ | 
+ )
+ | 
+ Cash flows from inves",Net cash used in operating activities
+ASAPQ,FY2019,capex,-1636,USD thousand,ASAPQ_10K_2020-03-16.txt,"| 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (1,636
+ | 
+ )
+ | 
+ | 
+ | 
+ (3,750
+ | 
+ )
+ | 
+ | 
+ | 
+ (1,769
+ | 
+ )
+ | 
+ Acquisition of Bite Squ",Purchases of property and equipment
+ASAPQ,FY2019,capex_sw,-1805,USD thousand,ASAPQ_10K_2020-03-16.txt,"| 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ Internally developed software
+ | 
+ | 
+ | 
+ (1,805
+ | 
+ )
+ | 
+ | 
+ | 
+ —
+ | 
+ | 
+ | 
+ | 
+ (105
+ | 
+ )
+ | 
+ Proceeds from sale of property an",Internally developed software
+ASAPQ,FY2020,V,598616,USD thousand,ASAPQ_10K_2021-03-08.txt,"
+ | 
+ | 
+ | 
+ | 
+ 21,860
+ | 
+ | 
+ Gross Food Sales (dollars in thousands)
+ | 
+ | 
+ $
+ | 
+ 598,616
+ | 
+ | 
+ | 
+ $
+ | 
+ 663,919
+ | 
+ | 
+ | 
+ $
+ | 
+ 278,833
+ | 
+ | 
+ Average Order Size (in d",Gross Food Sales
+ASAPQ,FY2020,revenue,204328,USD thousand,ASAPQ_10K_2021-03-08.txt,"evenue
+ | 
+ | 
+ | 
+ 2018 (2) 
+ | 
+ | 
+ | 
+ % of
+ Revenue
+ | 
+ | 
+ Revenue
+ | 
+ | 
+ $
+ | 
+ 204,328
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ $
+ | 
+ 191,675
+ | 
+ | 
+ | 
+ | 
+ 100
+ | 
+ %
+ | 
+ | 
+ ",Revenue
+ASAPQ,FY2020,ocf,38445,USD thousand,ASAPQ_10K_2021-03-08.txt," 
+ | 
+ | 
+ 130 
+ | 
+ | 
+ Net cash provided by (used in) operating activities
+ | 
+ | 
+ | 
+ 38,445 
+ | 
+ | 
+ | 
+ | 
+ ( 73,477 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 15,842 
+ | 
+ )
+ | 
+ Cash flows from inv",Net cash provided by (used in) operating activities
+ASAPQ,FY2020,capex,-1555,USD thousand,ASAPQ_10K_2021-03-08.txt," 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ ( 1,555 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 1,636 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 3,750 
+ | 
+ )
+ | 
+ Internally develop",Purchases of property and equipment
+ASAPQ,FY2020,capex_sw,-3982,USD thousand,ASAPQ_10K_2021-03-08.txt,"36 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 3,750 
+ | 
+ )
+ | 
+ Internally developed software
+ | 
+ | 
+ | 
+ ( 3,982 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 1,805 
+ | 
+ )
+ | 
+ | 
+ | 
+ — 
+ | 
+ | 
+ Acquisition of Bite Squad, ",Internally developed software
+ASAPQ,FY2021,V,542447,USD thousand,ASAPQ_10K_2022-03-11.txt,"rs | 32,859 | | | 39,071 | | | 51,156 | | 
+ Gross Food Sales (dollars in thousands) | $ | 542,447 | | | $ | 598,616 | | | $ | 663,919 | | 
+ Average Order Size (in dollars) | $ | 45.23 | |",Gross Food Sales
+ASAPQ,FY2021,revenue,182194,USD thousand,ASAPQ_10K_2022-03-11.txt,"
+ Revenue 
+ | | 2020 | | % of 
+ Revenue 
+ | | 2019 | | % of 
+ Revenue 
+ | 
+ Revenue | $ | 182,194 | | | 100 | % | | $ | 204,328 | | | 100 | % | | $ | 191,675 | | | 100 | % | 
+ Costs and e",Revenue
+ASAPQ,FY2021,ocf,-2341,USD thousand,ASAPQ_10K_2022-03-11.txt,"796 ) | | | 2,147 | | | 129 | | 
+ Net cash provided by (used in) operating activities | ( 2,341 ) | | | 38,445 | | | ( 73,477 ) | | 
+ Cash flows from investing activities: | | | | | | 
+",Net cash provided by (used in) operating activities
+ASAPQ,FY2021,capex,-767,USD thousand,ASAPQ_10K_2022-03-11.txt,"sh flows from investing activities: | | | | | | 
+ Purchases of property and equipment | ( 767 ) | | | ( 1,555 ) | | | ( 1,636 ) | | 
+ Internally developed software | ( 8,752 ) | | | (",Purchases of property and equipment
+ASAPQ,FY2021,capex_sw,-8752,USD thousand,ASAPQ_10K_2022-03-11.txt,"uipment | ( 767 ) | | | ( 1,555 ) | | | ( 1,636 ) | | 
+ Internally developed software | ( 8,752 ) | | | ( 3,982 ) | | | ( 1,805 ) | | 
+ Purchase of domain names | ( 3,006 ) | | | — | | ",Internally developed software
+ASAPQ,FY2022,V,316521,USD thousand,ASAPQ_10K_2023-04-17.txt,"aily Orders | 16,559 | | | 32,859 | | | | 
+ Gross Food Sales (dollars in thousands) | $ | 316,521 | | | $ | 542,447 | | | | 
+ Average Order Size (in dollars) | $ | 52.37 | | | $ | 45.23 |",Gross Food Sales
+ASAPQ,FY2022,revenue,111801,USD thousand,ASAPQ_10K_2023-04-17.txt,") ) 
+ | 2022 | | % of 
+ Revenue 
+ | | 2021 | | % of 
+ Revenue 
+ | | | | | 
+ Revenue | $ | 111,801 | | | 100 | % | | $ | 182,194 | | | 100 | % | | | | | 
+ Costs and expenses: | | | | | | |",Revenue
+ASAPQ,FY2022,ocf,-28716,USD thousand,ASAPQ_10K_2023-04-17.txt,"ent liabilities | 2,223 | | | ( 796 ) | | | | 
+ Net cash used in operating activities | ( 28,716 ) | | | ( 2,341 ) | | | | 
+ Cash flows from investing activities: | | | | | | 
+ Purchases",Net cash used in operating activities
+ASAPQ,FY2022,capex,-284,USD thousand,ASAPQ_10K_2023-04-17.txt,"sh flows from investing activities: | | | | | | 
+ Purchases of property and equipment | ( 284 ) | | | ( 767 ) | | | | 
+ Internally developed software | ( 7,439 ) | | | ( 8,752 ) | | |",Purchases of property and equipment
+ASAPQ,FY2022,capex_sw,-7439,USD thousand,ASAPQ_10K_2023-04-17.txt,"roperty and equipment | ( 284 ) | | | ( 767 ) | | | | 
+ Internally developed software | ( 7,439 ) | | | ( 8,752 ) | | | | 
+ Purchase of domain names | ( 26 ) | | | ( 3,006 ) | | | | 
+ |",Internally developed software
+Ozon,FY2018,V,41888,RUB million,Ozon_20F_2021-03-30.txt,"ear ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ GMV incl. services (1) 
+ 197,414 
+ 80,815 
+ 41,888 
+ Share of Marketplace GMV, % (1) 
+ 47.8 
+ 17.4 
+ 0.9 
+ Gross profit 
+ 31,491 
+ 11,259 
+ ",GMV incl. services
+Ozon,FY2018,revenue,37220,RUB million,Ozon_20F_2021-03-30.txt," 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ 60,104 
+ 37,220 
+ Operating expenses: 
+ Cost of sales 
+ (72,859 
+ ) 
+ (48,845 
+ ) 
+ (27,662 
+ ) 
+ Fulfill",Total revenue
+Ozon,FY2018,rev_1p,33920,RUB million,Ozon_20F_2021-03-30.txt,"r ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ Revenue: 
+ Sales of goods 
+ 81,414 
+ 53,487 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ 60,104 
+ 37,220 
+ ",Sales of goods
+Ozon,FY2018,ocf,-3599,RUB million,Ozon_20F_2021-03-30.txt," 
+ 2018 
+ Net cash generated from/(used in) operating activities 
+ 6,570 
+ (14,312 
+ ) 
+ (3,599 
+ ) 
+ Net cash used in investing activities 
+ (6,580 
+ ) 
+ (4,539 
+ ) 
+ (2,863 
+ ) 
+ Net ",Net cash generated from/(used in) operating activities
+Ozon,FY2018,capex,-2472,RUB million,Ozon_20F_2021-03-30.txt,"
+ ) 
+ (3,599 
+ ) 
+ Purchase of property, plant and equipment 
+ (6,714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 
+ ) 
+ Payment of the princ","Purchase of property, plant and equipment"
+Ozon,FY2018,capex_sw,-93,RUB million,Ozon_20F_2021-03-30.txt,"714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 
+ ) 
+ Payment of the principal portion of lease liabilities 
+ (2,296 
+ ) 
+ (867 
+ ) 
+ (39",Purchase of intangible assets
+Ozon,FY2019,V,80815,RUB million,Ozon_20F_2021-03-30.txt,"For the year ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ GMV incl. services (1) 
+ 197,414 
+ 80,815 
+ 41,888 
+ Share of Marketplace GMV, % (1) 
+ 47.8 
+ 17.4 
+ 0.9 
+ Gross profit 
+ 31,491 
+ ",GMV incl. services
+Ozon,FY2019,revenue,60104,RUB million,Ozon_20F_2021-03-30.txt," 
+ 53,487 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ 60,104 
+ 37,220 
+ Operating expenses: 
+ Cost of sales 
+ (72,859 
+ ) 
+ (48,845 
+ ) 
+ (27,662 
+ ) ",Total revenue
+Ozon,FY2019,rev_1p,53487,RUB million,Ozon_20F_2021-03-30.txt,"r the year ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ Revenue: 
+ Sales of goods 
+ 81,414 
+ 53,487 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ 60,104 
+ ",Sales of goods
+Ozon,FY2019,ocf,-14312,RUB million,Ozon_20F_2021-03-30.txt," 
+ 2020 
+ 2019 
+ 2018 
+ Net cash generated from/(used in) operating activities 
+ 6,570 
+ (14,312 
+ ) 
+ (3,599 
+ ) 
+ Net cash used in investing activities 
+ (6,580 
+ ) 
+ (4,539 
+ ) 
+ (2,8",Net cash generated from/(used in) operating activities
+Ozon,FY2019,capex,-4742,RUB million,Ozon_20F_2021-03-30.txt,"70 
+ (14,312 
+ ) 
+ (3,599 
+ ) 
+ Purchase of property, plant and equipment 
+ (6,714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 
+ ) 
+ Payment","Purchase of property, plant and equipment"
+Ozon,FY2019,capex_sw,-26,RUB million,Ozon_20F_2021-03-30.txt," and equipment 
+ (6,714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 
+ ) 
+ Payment of the principal portion of lease liabilities 
+ (2,296 ",Purchase of intangible assets
+Ozon,FY2020,V,197414,RUB million,Ozon_20F_2021-03-30.txt,"erwise) 
+ For the year ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ GMV incl. services (1) 
+ 197,414 
+ 80,815 
+ 41,888 
+ Share of Marketplace GMV, % (1) 
+ 47.8 
+ 17.4 
+ 0.9 
+ Gross profit 
+ ",GMV incl. services
+Ozon,FY2020,revenue,104350,RUB million,Ozon_20F_2021-03-30.txt,"s 
+ 81,414 
+ 53,487 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ 60,104 
+ 37,220 
+ Operating expenses: 
+ Cost of sales 
+ (72,859 
+ ) 
+ (48,845 
+ ) 
+ (27",Total revenue
+Ozon,FY2020,rev_1p,81414,RUB million,Ozon_20F_2021-03-30.txt,"ons) 
+ For the year ended December 31, 
+ 2020 
+ 2019 
+ 2018 
+ Revenue: 
+ Sales of goods 
+ 81,414 
+ 53,487 
+ 33,920 
+ Service revenue 
+ 22,936 
+ 6,617 
+ 3,300 
+ Total revenue 
+ 104,350 
+ ",Sales of goods
+Ozon,FY2020,ocf,6570,RUB million,Ozon_20F_2021-03-30.txt,"ember 31, 
+ 2020 
+ 2019 
+ 2018 
+ Net cash generated from/(used in) operating activities 
+ 6,570 
+ (14,312 
+ ) 
+ (3,599 
+ ) 
+ Net cash used in investing activities 
+ (6,580 
+ ) 
+ (4,539 ",Net cash generated from/(used in) operating activities
+Ozon,FY2020,capex,-6714,RUB million,Ozon_20F_2021-03-30.txt,"ivities 
+ 6,570 
+ (14,312 
+ ) 
+ (3,599 
+ ) 
+ Purchase of property, plant and equipment 
+ (6,714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 ","Purchase of property, plant and equipment"
+Ozon,FY2020,capex_sw,-126,RUB million,Ozon_20F_2021-03-30.txt,"t and equipment 
+ (6,714 
+ ) 
+ (4,742 
+ ) 
+ (2,472 
+ ) 
+ Purchase of intangible assets 
+ (126 
+ ) 
+ (26 
+ ) 
+ (93 
+ ) 
+ Payment of the principal portion of lease liabilities 
+ (2,296 ",Purchase of intangible assets
+Ozon,FY2021,V,448260,RUB million,Ozon_20F_2022-05-02.txt,"| 
+ 2021
+ | 
+ | 
+ | 
+ 2020
+ | 
+ | 
+ | 
+ 2019
+ | 
+ | 
+ GMV incl. services (1)
+ | 
+ | 
+ | 
+ 448,260 | 
+ | 
+ | 
+ | 
+ 197,414 | 
+ | 
+ | 
+ | 
+ 80,815 | 
+ | 
+ Share of Marketplace GMV, % (2)
+ |",GMV incl. services
+Ozon,FY2021,revenue,178215,RUB million,Ozon_20F_2022-05-02.txt,"| 
+ | 
+ 64.8 | 
+ | 
+ | 
+ | 
+ 47.8 | 
+ | 
+ | 
+ | 
+ 17.4 | 
+ | 
+ Total revenue
+ | 
+ | 
+ | 
+ 178,215 | 
+ | 
+ | 
+ | 
+ 104,350 | 
+ | 
+ | 
+ | 
+ 60,104 | 
+ | 
+ Gross profit (3)
+ | 
+ | 
+ | 
+ 65,6",Total revenue
+Ozon,FY2021,rev_1p,120792,RUB million,Ozon_20F_2022-05-02.txt,"
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Sales of goods
+ | 
+ | 
+ | 
+ 120,792
+ | 
+ | 
+ | 
+ | 
+ 68
+ | 
+ | 
+ | 
+ | 
+ 81,414
+ | 
+ | 
+ | 
+ | 
+ 78
+ | 
+ | 
+ | 
+ | 
+ 53,487
+ ",Sales of goods
+Ozon,FY2021,ocf,-13626,RUB million,Ozon_20F_2022-05-02.txt," 
+ | 
+ 2019
+ | 
+ | 
+ Net cash (used in)/generated from operating activities
+ | 
+ | 
+ | 
+ (13,626 | 
+ ) | 
+ | 
+ | 
+ 6,570 | 
+ | 
+ | 
+ | 
+ (14,312 | 
+ ) | 
+ Purchase of property, plant and",Net cash (used in)/generated from operating activities
+Ozon,FY2021,capex,-18680,RUB million,Ozon_20F_2022-05-02.txt,"| 
+ | 
+ | 
+ | 
+ (14,312 | 
+ ) | 
+ Purchase of property, plant and equipment
+ | 
+ | 
+ | 
+ (18,680 | 
+ ) | 
+ | 
+ | 
+ (6,714 | 
+ ) | 
+ | 
+ | 
+ (4,742 | 
+ ) | 
+ Purchase of intangible assets","Purchase of property, plant and equipment"
+Ozon,FY2021,capex_sw,-661,RUB million,Ozon_20F_2022-05-02.txt,"| 
+ (6,714 | 
+ ) | 
+ | 
+ | 
+ (4,742 | 
+ ) | 
+ Purchase of intangible assets
+ | 
+ | 
+ | 
+ (661 | 
+ ) | 
+ | 
+ | 
+ (126 | 
+ ) | 
+ | 
+ | 
+ (26 | 
+ ) | 
+ Payment of the principal portion o",Purchase of intangible assets
+Ozon,FY2022,V,832240,RUB million,Ozon_20F_2023-04-25.txt,"
+ | 
+ 2022 | 
+ | 
+ | 
+ 2021 | 
+ | 
+ | 
+ 2020 | 
+ | 
+ GMV incl. services (1) 
+ | 
+ | 
+ | 
+ 832,240 | 
+ | 
+ | 
+ | 
+ 448,260 | 
+ | 
+ | 
+ | 
+ 197,414 | 
+ | 
+ Share of Marketplace GMV, % (2) 
+",GMV incl. services
+Ozon,FY2022,revenue,277115,RUB million,Ozon_20F_2023-04-25.txt,"| 
+ | 
+ 76.2 | 
+ | 
+ | 
+ | 
+ 64.8 | 
+ | 
+ | 
+ | 
+ 47.8 | 
+ | 
+ Total revenue
+ | 
+ | 
+ | 
+ 277,115 | 
+ | 
+ | 
+ | 
+ 178,215 | 
+ | 
+ | 
+ | 
+ 104,350 | 
+ | 
+ Net cash (used in)/ generated fro",Total revenue
+Ozon,FY2022,rev_1p,135278,RUB million,Ozon_20F_2023-04-25.txt,"
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Sales of goods
+ | 
+ | 
+ | 
+ 135,278 | 
+ | 
+ | 
+ | 
+ 49 | 
+ | 
+ | 
+ | 
+ 120,792 | 
+ | 
+ | 
+ | 
+ 68 | 
+ | 
+ | 
+ | 
+ 81,414 | 
+ ",Sales of goods
+Ozon,FY2022,ocf,-18753,RUB million,Ozon_20F_2023-04-25.txt,"| 
+ 104,350 | 
+ | 
+ Net cash (used in)/ generated from operating activities
+ | 
+ | 
+ | 
+ (18,753 | 
+ ) | 
+ | 
+ | 
+ (13,626 | 
+ ) | 
+ | 
+ | 
+ 6,570 | 
+ | 
+ Loss for the year
+ | 
+ | 
+ | 
+ ",Net cash (used in)/ generated from operating activities
+Ozon,FY2022,capex,-35422,RUB million,Ozon_20F_2023-04-25.txt,"
+ | 
+ | 
+ 260 
+ | 
+ | 
+ Purchase of property and equipment
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ( 35,422 )
+ | 
+ | 
+ | 
+ | 
+ ( 18,680 )
+ | 
+ | 
+ | 
+ | 
+ ( 6,714 )
+ | 
+ | 
+ Purchase of intangible ",Purchase of property and equipment
+Ozon,FY2022,capex_sw,-391,RUB million,Ozon_20F_2023-04-25.txt,"
+ | 
+ | 
+ ( 6,714 )
+ | 
+ | 
+ Purchase of intangible assets
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ( 391 )
+ | 
+ | 
+ | 
+ | 
+ ( 661 )
+ | 
+ | 
+ | 
+ | 
+ ( 126 )
+ | 
+ | 
+ Proceeds from disposal of pr",Purchase of intangible assets
+NBIS,FY2014,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2014,revenue,50767,RUB million,NBIS_20F_2015-04-30.txt,"
+ ) 
+ (511 
+ ) 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenues 
+ 28,767 
+ 39,502 
+ 50,767 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​",Total revenues
+NBIS,FY2014,ocf,15546,RUB million,NBIS_20F_2015-04-30.txt," ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Net cash provided by operating activities 
+ 11,529 
+ 14,705 
+ 15,546 
+ 276.3 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ CASH FLOWS USED IN INVE",Net cash provided by operating activities
+NBIS,FY2014,capex,-9679,RUB million,NBIS_20F_2015-04-30.txt,"N INVESTING ACTIVITIES: 
+ Purchase of property and equipment 
+ (3,984 
+ ) 
+ (4,936 
+ ) 
+ (9,679 
+ ) 
+ (172.0 
+ ) 
+ Proceeds from sale of property and equipment 
+ — 
+ — 
+ 132 
+ 2.3 
+ Acq",Purchase of property and equipment
+NBIS,FY2015,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2015,revenue,59792,RUB million,NBIS_20F_2016-03-22.txt,") 
+ (1,832 
+ ) 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenues 
+ 39,502 
+ 50,767 
+ 59,792 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​",Total revenues
+NBIS,FY2015,ocf,19576,RUB million,NBIS_20F_2016-03-22.txt," ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Net cash provided by operating activities 
+ 14,705 
+ 15,546 
+ 19,576 
+ 268.6 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ CASH FLOWS USED IN INVE",Net cash provided by operating activities
+NBIS,FY2015,capex,-13045,RUB million,NBIS_20F_2016-03-22.txt," INVESTING ACTIVITIES: 
+ Purchases of property and equipment 
+ (4,936 
+ ) 
+ (9,679 
+ ) 
+ (13,045 
+ ) 
+ (179.0 
+ ) 
+ Proceeds from sale of property and equipment 
+ — 
+ 132 
+ 95 
+ 1.3 
+ Ac",Purchases of property and equipment
+NBIS,FY2016,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2016,revenue,75925,RUB million,NBIS_20F_2017-03-22.txt,"| 
+(1,832)
+ | 
+ | 
+(2,496)
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+50,767
+ | 
+ | 
+59,792
+ | 
+ | 
+75,925
+ | 
+ | 
+ Operating costs and expenses 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Search and Portal",Total revenues
+NBIS,FY2016,ocf,25449,RUB million,NBIS_20F_2017-03-22.txt," | 
+ | 
+ Net cash provided by operating activities 
+ | 
+ | 
+15,546
+ | 
+ | 
+19,576
+ | 
+ | 
+25,449
+ | 
+ | 
+ Net cash used in investing activities 
+ | 
+ | 
+(28,589)
+ | 
+ | 
+(11,676)
+ | 
+ | ",Net cash provided by operating activities
+NBIS,FY2016,capex,-9625,RUB million,NBIS_20F_2017-03-22.txt,"ty and equipment and intangible assets 
+ | 
+ | 
+ | 
+ | 
+(9,679)
+ | 
+ | 
+(13,045)
+ | 
+ | 
+(9,625)
+ | 
+ | 
+(158.7)
+ | 
+ | 
+ Proceeds from sale of property and equipment 
+ | 
+ | 
+ | 
+ | 
+1",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2017,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2017,revenue,94054,RUB million,NBIS_20F_2018-03-27.txt,"6) 
+ | 
+ | 
+ (3,520) 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 59,792 
+ | 
+ | 
+ 75,925 
+ | 
+ | 
+ 94,054 
+ | 
+ | 
+ Operating costs and expenses 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Search and Porta",Total revenues
+NBIS,FY2017,ocf,23772,RUB million,NBIS_20F_2018-03-27.txt,"| 
+ Net cash provided by operating activities 
+ | 
+ | 
+ 19,375 
+ | 
+ | 
+ 25,286 
+ | 
+ | 
+ 23,772 
+ | 
+ | 
+ Net cash used in investing activities 
+ | 
+ | 
+ (11,734) 
+ | 
+ | 
+ (13,106) 
+ |",Net cash provided by operating activities
+NBIS,FY2017,capex,-12389,RUB million,NBIS_20F_2018-03-27.txt,"d equipment and intangible assets 
+ | 
+ | 
+ | 
+ | 
+ (13,045) 
+ | 
+ | 
+ (9,625) 
+ | 
+ | 
+ (12,389) 
+ | 
+ | 
+ (215.1) 
+ | 
+ | 
+ Proceeds from sale of property and equipment 
+ | 
+ | 
+ | 
+ |",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2018,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2018,revenue,127657,RUB million,NBIS_20F_2019-04-19.txt,"5) 
+ | 
+ | 
+ (6,528) 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 75,925 
+ | 
+ | 
+ 94,054 
+ | 
+ | 
+ 127,657 
+ | 
+ | 
+ Adjusted operating costs and expenses 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Search ",Total revenues
+NBIS,FY2018,ocf,28212,RUB million,NBIS_20F_2019-04-19.txt,"| 
+ Net cash provided by operating activities 
+ | 
+ | 
+ 25,286 
+ | 
+ | 
+ 23,772 
+ | 
+ | 
+ 28,212 
+ | 
+ | 
+ Net cash (used in)/provided by investing activities 
+ | 
+ | 
+ (13,106) 
+ | 
+ | ",Net cash provided by operating activities
+NBIS,FY2018,capex,-28323,RUB million,NBIS_20F_2019-04-19.txt,"d equipment and intangible assets 
+ | 
+ | 
+ | 
+ | 
+ (9,625) 
+ | 
+ | 
+ (12,389) 
+ | 
+ | 
+ (28,323) 
+ | 
+ | 
+ (407.7) 
+ | 
+ | 
+ Proceeds from sale of property and equipment 
+ | 
+ | 
+ | 
+ |",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2019,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported"
+NBIS,FY2019,revenue,175391,RUB million,NBIS_20F_2020-04-02.txt,") 
+ | 
+ | 
+ (8,827) 
+ | 
+ | 
+ Total revenues 
+ | 
+ | 
+ 94,054 
+ | 
+ | 
+ 127,657 
+ | 
+ | 
+ 175,391 
+ | 
+ | 
+ Adjusted operating costs and expenses 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Search ",Total revenues
+NBIS,FY2019,ocf,44379,RUB million,NBIS_20F_2020-04-02.txt,"| 
+ Net cash provided by operating activities 
+ | 
+ | 
+ 23,772 
+ | 
+ | 
+ 28,212 
+ | 
+ | 
+ 44,379 
+ | 
+ | 
+ Net cash (used in)/provided by investing activities 
+ | 
+ | 
+ (7,788) 
+ | 
+ | 
+",Net cash provided by operating activities
+NBIS,FY2019,capex,-20543,RUB million,NBIS_20F_2020-04-02.txt," equipment and intangible assets 
+ | 
+ | 
+ | 
+ | 
+ (12,389) 
+ | 
+ | 
+ (28,323) 
+ | 
+ | 
+ (20,543) 
+ | 
+ | 
+ (260.5) 
+ | 
+ | 
+ Proceeds from sale of property and equipment 
+ | 
+ | 
+ | 
+ |",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2020,V_partial,56,RUB billion,NBIS_20F_2021-04-01.txt,"d GMV of deliveries from grocery stores on Yandex.Eats grew threefold in 2020 and reached 56 billion rubles (on a pro-forma basis, including Yandex.Market for the full year 2020). In additio","Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). combined e-commerce GMV (pro-forma, incl. Yandex.Market full year); largest consolidated labelled e-commerce GMV"
+NBIS,FY2020,V_ecommerce,56,RUB billion,NBIS_20F_2021-04-01.txt,"d GMV of deliveries from grocery stores on Yandex.Eats grew threefold in 2020 and reached 56 billion rubles (on a pro-forma basis, including Yandex.Market for the full year 2020). In additio",combined e-commerce GMV (Yandex.Market + Lavka + Eats grocery)
+NBIS,FY2020,V_price_comparison,220,RUB billion,NBIS_20F_2021-04-01.txt," In addition to that, our Yandex.Market price comparison platform generated approximately 220 billion rubles of GMV in the full year 2020. 
+ 44
+ Table of Contents 
+ The assortment on Yandex.M",Yandex.Market price comparison platform GMV
+NBIS,FY2020,V_taxi,,,,,not reported
+NBIS,FY2020,revenue,218344,RUB million,NBIS_20F_2021-04-01.txt," (8,877) 
+ | ​ 
+ | (13,235) 
+ | 
+ Total revenues
+ | 
+ | 127,657 
+ | 
+ | 175,391 
+ | ​ 
+ | 218,344 
+ | 
+ Adjusted operating costs and expenses
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | 
+ Sear",Total revenues
+NBIS,FY2020,rev_1p,20145,RUB million,NBIS_20F_2021-04-01.txt,"
+ | 778.5 
+ | 
+ Revenues related to sales of goods
+ | ​ 
+ | 417 
+ | ​ 
+ | 2,145 
+ | ​ 
+ | 20,145 
+ | ​ 
+ | 272.7 
+ | 
+ Other revenues
+ | ​ 
+ | 3,939 
+ | ​ 
+ | 6,872 
+ | ​ 
+ | 14,233 
+ | ",Revenues related to sales of goods
+NBIS,FY2020,ocf,32604,RUB million,NBIS_20F_2021-04-01.txt," | 
+ Net cash from operating activities 
+ | ​ 
+ | ​ 
+ | 
+ | 28,212 
+ | 
+ | 44,379 
+ | 
+ | 32,604 
+ | ​ 
+ | 441.3 
+ | 
+ CASH FLOWS PROVIDED BY/(USED IN) INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ ",Net cash from operating activities
+NBIS,FY2020,capex,-24551,RUB million,NBIS_20F_2021-04-01.txt," equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | ( 28,323 )
+ | 
+ | ( 20,543 )
+ | 
+ | ( 24,551 )
+ | ​ 
+ | ( 332.3 )
+ | 
+ Proceeds from sale of property and equipment
+ | ​ 
+ | ​ 
+ | ​ 
+",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2021,V_partial,160,RUB billion,NBIS_20F_2022-04-20.txt,"f deliveries from grocery stores on Yandex Eats grew almost threefold in 2021 and reached 160 billion rubles.
+ The assortment on Yandex Market marketplace expanded more than elevenfold during","Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). combined e-commerce GMV; largest consolidated labelled e-commerce GMV"
+NBIS,FY2021,V_ecommerce,160,RUB billion,NBIS_20F_2022-04-20.txt,"f deliveries from grocery stores on Yandex Eats grew almost threefold in 2021 and reached 160 billion rubles.
+ The assortment on Yandex Market marketplace expanded more than elevenfold during",combined e-commerce GMV (Market + Lavka + Eats grocery)
+NBIS,FY2021,V_taxi,,,,,not reported
+NBIS,FY2021,revenue,356171,RUB million,NBIS_20F_2022-04-20.txt,"13) 
+ | ​ 
+ | (30,955) 
+ | 
+ Total revenues 
+ | ​ 
+ | 175,391 
+ | ​ 
+ | 218,344 
+ | ​ 
+ | 356,171 
+ | 
+ The table below presents information about the adjusted EBITDA our reportable segme",Total revenues
+NBIS,FY2021,rev_1p,55910,RUB million,NBIS_20F_2022-04-20.txt,"ed to sales of goods
+ | ​ 
+ | 2,145
+ | ​ 
+ | 1.2 
+ | ​ 
+ | 20,145 
+ | ​ 
+ | 9.2 
+ | ​ 
+ | 55,910 
+ | ​ 
+ | 15.7 
+ | ​ 
+ | 
+ Other revenues
+ | 
+ | 6,872 
+ | ​ 
+ | 4.0 
+ | ​ 
+ | 14,233 
+ |",Revenues related to sales of goods
+NBIS,FY2021,ocf,9293,RUB million,NBIS_20F_2022-04-20.txt,"t cash provided by operating activities 
+ | ​ 
+ | ​ 
+ | 
+ | 44,379 
+ | 
+ | 32,604 
+ | 
+ | 9,293 
+ | ​ 
+ | 125.1 
+ | 
+ CASH FLOWS (USED IN)/PROVIDED BY INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ ",Net cash provided by operating activities
+NBIS,FY2021,capex,-44621,RUB million,NBIS_20F_2022-04-20.txt," equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | ( 20,543 )
+ | 
+ | ( 24,551 )
+ | 
+ | ( 44,621 )
+ | ​ 
+ | ( 600.6 )
+ | 
+ Proceeds from sale of property and equipment
+ | ​ 
+ | ​ 
+ | ​ 
+",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2022,V_partial,308,RUB billion,NBIS_20F_2023-04-20.txt,"ats and Delivery Club. Our combined e-commerce GMV almost doubled during 2022 and reached 308 billion rubles. In 2022, the share of our third-party business (3P) increased to 82% of the marke","Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). combined e-commerce GMV; largest consolidated labelled e-commerce GMV"
+NBIS,FY2022,V_ecommerce,308,RUB billion,NBIS_20F_2023-04-20.txt,"ats and Delivery Club. Our combined e-commerce GMV almost doubled during 2022 and reached 308 billion rubles. In 2022, the share of our third-party business (3P) increased to 82% of the marke",combined e-commerce GMV
+NBIS,FY2022,V_taxi,,,,,not reported
+NBIS,FY2022,revenue,521699,RUB million,NBIS_20F_2023-04-20.txt,"60) 
+ | ​ 
+ | (53,074) 
+ | 
+ Total revenues 
+ | ​ 
+ | 218,344 
+ | ​ 
+ | 356,171 
+ | ​ 
+ | 521,699 
+ | 
+ 66
+ Table of Contents 
+ The table below presents information about the adjusted EBI",Total revenues
+NBIS,FY2022,rev_1p,91998,RUB million,NBIS_20F_2023-04-20.txt,"clude revenues related to sales of goods in the amount of RUB 20,145 , RUB 55,910 and RUB 91,998 ($ 1,308.0 ) for the years ended December 31, 2020, 2021 and 2022 respectively.
+ Reclassi",Revenues related to sales of goods
+NBIS,FY2022,ocf,41688,RUB million,NBIS_20F_2023-04-20.txt,"et cash provided by operating activities 
+ | ​ 
+ | ​ 
+ | 
+ | 32,604 
+ | 
+ | 9,293 
+ | 
+ | 41,688 
+ | 
+ | 592.8 
+ | 
+ CASH FLOWS PROVIDED BY/(USED IN) INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ 
+ ",Net cash provided by operating activities
+NBIS,FY2022,capex,-50544,RUB million,NBIS_20F_2023-04-20.txt," equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | ( 24,551 )
+ | 
+ | ( 44,621 )
+ | 
+ | ( 50,544 )
+ | 
+ | ( 718.6 )
+ | 
+ Purchase of assets to be leased
+ | ​ 
+ | ​ 
+ | ​ 
+ | —
+ | 
+ | —
+ ",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2023,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported; 20-F gives GMV growth rates only, no labelled absolute GMV"
+NBIS,FY2023,V_ecommerce,,,,,not reported as an absolute labelled GMV
+NBIS,FY2023,V_taxi,,,,,not reported as an absolute labelled GMV
+NBIS,FY2023,revenue,800125,RUB million,NBIS_20F_2024-04-26.txt,"2) 
+ | ​ 
+ | (131,949) 
+ | 
+ Total revenues 
+ | ​ 
+ | 356,171 
+ | ​ 
+ | 521,699 
+ | ​ 
+ | 800,125 
+ | 
+ The table below presents information about the adjusted EBITDA of the reportable se",Total revenues
+NBIS,FY2023,rev_1p,142060,RUB million,NBIS_20F_2024-04-26.txt,"clude revenues related to sales of goods in the amount of RUB 55,910 , RUB 91,998 and RUB 142,060 ( $ 1,583.9 ) for the years ended December 31, 2021, 2022 and 2023 respectively .
+ Reallo",Revenues related to sales of goods
+NBIS,FY2023,ocf,70282,RUB million,NBIS_20F_2024-04-26.txt,"et cash provided by operating activities 
+ | ​ 
+ | ​ 
+ | 
+ | 9,293 
+ | 
+ | 41,688 
+ | 
+ | 70,282 
+ | 
+ | 783.4 
+ | 
+ CASH FLOWS PROVIDED BY/(USED IN) INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ 
+ ",Net cash provided by operating activities
+NBIS,FY2023,capex,-90641,RUB million,NBIS_20F_2024-04-26.txt," equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | ( 44,621 )
+ | 
+ | ( 50,544 )
+ | 
+ | ( 90,641 )
+ | 
+ | ( 1,010.6 )
+ | 
+ Purchase of assets to be leased
+ | ​ 
+ | ​ 
+ | ​ 
+ | —
+ | 
+ | (",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2024,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported; e-commerce/Taxi businesses divested"
+NBIS,FY2024,revenue,117.5,USD million,NBIS_20F_2025-04-30.txt," ​ 
+ | n/m
+ | ​ 
+ | n/m
+ | ​ 
+ | 
+ Total revenues 
+ | ​ 
+ | 13.5 
+ | ​ 
+ | 20.9 
+ | ​ 
+ | 117.5 
+ | ​ 
+ | 55 
+ | %
+ | 462 
+ | %
+ | 
+ 42
+ Table of Contents 
+ Eliminations represent the e",Total revenues (continuing operations after divestment)
+NBIS,FY2024,ocf,245.6,USD million,NBIS_20F_2025-04-30.txt,"vided by operating activities 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | 697.0 
+ | ​ 
+ | 829.8 
+ | ​ 
+ | 245.6 
+ | 
+ CASH FLOWS PROVIDED BY/(USED IN) INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ",Net cash provided by operating activities (consolidated)
+NBIS,FY2024,capex,-807.7,USD million,NBIS_20F_2025-04-30.txt," equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | 
+ | ( 14.6 )
+ | 
+ | ( 83.4 )
+ | 
+ | ( 807.7 )
+ | 
+ Proceeds from Divestment, net of cash of discontinued operations sold
+ | ​ 
+ | 3
+ ",Purchases of property and equipment and intangible assets (combined line)
+NBIS,FY2025,V_partial,,,,,"Yandex e-commerce GMV covers a small part of group revenue (search, taxi, ads), so it is not the firm's V (one-V rule). not reported; e-commerce/Taxi businesses divested"
+NBIS,FY2025,revenue,529.8,USD million,NBIS_20F_2026-04-30.txt," | ​ 
+ | (26)
+ | %
+ | — 
+ | ​ 
+ | 
+ Total revenues 
+ | ​ 
+ | 9.8 
+ | ​ 
+ | 91.5 
+ | ​ 
+ | 529.8 
+ | ​ 
+ | 834 
+ | % 
+ | 479 
+ | % 
+ | 
+ Eliminations represent the elimination of transac",Total revenues
+NBIS,FY2025,ocf,384.8,USD million,NBIS_20F_2026-04-30.txt,"used in) operating activities 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | 829.8 
+ | ​ 
+ | 245.6 
+ | ​ 
+ | 384.8 
+ | 
+ CASH FLOWS PROVIDED BY/(USED IN) INVESTING ACTIVITIES: 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ​ 
+ | ",Net cash provided by operating activities
+NBIS,FY2025,capex,-4066.0,USD million,NBIS_20F_2026-04-30.txt,"equipment and intangible assets
+ | ​ 
+ | ​ 
+ | 
+ | 
+ | ( 82.9 )
+ | 
+ | ( 807.5 )
+ | 
+ | ( 4,066.0 )
+ | 
+ Proceeds from Divestment, net of cash of discontinued operations sold
+ | ​ 
+ | 3
+ ",Purchases of property and equipment and intangible assets (combined line)
