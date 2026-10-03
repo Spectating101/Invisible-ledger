@@ -24,7 +24,9 @@ def score(goto_gtv_bn, goto_net_bn, grab_mob_gmv, grab_mob_rev, grab_del_gmv, gr
     d1 = g - BASE["goto_net_take_2q26_pct"]; d2 = b - BASE["grab_net_take_2q26_pct"]; yoy = 100 * (goto_gtv_bn / goto_gtv_3q25_bn - 1)
     res = {"P1 GoTo net take change vs 2Q26 (pt)": (round(d1, 2), -1.5 <= d1 <= -0.3), "P2 Grab net take change vs 2Q26 (pt)": (round(d2, 2), -0.6 <= d2 <= 0.4),
            "P3 GoTo on-demand GTV YoY (%)": (round(yoy, 1), 0 <= yoy <= 8)}
-    for k, (v, ok) in res.items(): print(f"{k}: {v}  -> {'CONFIRMED' if ok else 'FALSIFIED'}")
+    # P5 is three-way as registered: confirmed if >= 5, falsified only if < 2, otherwise neither
+    res["P5 GoTo GTV YoY (%) >= 5 (falsified if < 2)"] = (round(yoy, 1), True if yoy >= 5 else (False if yoy < 2 else None))
+    for k, (v, ok) in res.items(): print(f"{k}: {v}  -> {'CONFIRMED' if ok else ('NEITHER' if ok is None else 'FALSIFIED')}")
     return res
 
 if __name__ == "__main__":
@@ -47,5 +49,7 @@ def score_v2(goto_gtv_tn, goto_net_tn, goto_gtv_3q25_tn, grab_mob_gmv, grab_mob_
            "P3v2 GoTo GTV YoY (%) in [0,12]": (round(yoy, 1), 0 <= yoy <= 12),
            "P4 Grab Mobility minus Deliveries change (pt) <= +0.3 (noise sd 0.48)": (round(did, 2), did <= 0.3),
            "P5 GoTo GTV YoY (%) >= 5 (falsified if < 2)": (round(yoy, 1), yoy >= 5)}
-    for k, (v, ok) in res.items(): print(f"{k}: {v}  -> {'CONFIRMED' if ok else 'FALSIFIED'}")
+    # P5 is three-way as registered: confirmed if >= 5, falsified only if < 2, otherwise neither
+    res["P5 GoTo GTV YoY (%) >= 5 (falsified if < 2)"] = (round(yoy, 1), True if yoy >= 5 else (False if yoy < 2 else None))
+    for k, (v, ok) in res.items(): print(f"{k}: {v}  -> {'CONFIRMED' if ok else ('NEITHER' if ok is None else 'FALSIFIED')}")
     return res
