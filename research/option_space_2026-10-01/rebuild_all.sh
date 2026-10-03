@@ -20,9 +20,13 @@ step h2_malaysia.py
 step repricing_split.py
 step grab_quarterly.py
 step goto_on_demand.py
-step claims_ledger_v2.py       # recomputes the new headline numbers; prints any CHECK rows
+step claims_ledger_v2.py       # recomputes the 2 Oct headline numbers; prints any CHECK rows
+step three_rulers.py           # official household spending vs platform sales vs revenue, by quarter
+step yardsticks.py             # Bank Indonesia vs BPS e-commerce
+step tax_base_rulers.py        # marketplace tax base under four rulers
+step claims_ledger_v3.py       # recomputes the 3 Oct numbers
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

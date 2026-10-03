@@ -1,0 +1,80 @@
+firm,ticker,listing,tier,group,kpi,first_year,last_year,n_years_mentioned,verified_rows_already
+"1stdibs.com, Inc.",DIBS,SEC,core,marketplace,GMV,2021,2025,5,no
+ACV Auctions Inc.,ACVA,SEC,core,marketplace,GMV,2021,2023,3,no
+Alibaba Group Holding Ltd,BABA,SEC,core,marketplace,GMV,2015,2026,9,yes
+Allegro,,WSE,core,marketplace,GMV,,,,no
+Blibli,,IDX,core,marketplace,TPV,,,,yes
+Bukalapak,,IDX,core,marketplace,TPV,,,,yes
+Coupang,,NYSE (no GMV KPI),core,marketplace,none,,,,no
+D-MARKET Electronic Services & Trading,HEPS,SEC,core,marketplace,GMV,2021,2025,5,no
+EBAY INC,EBAY,SEC,core,marketplace,GMV,2000,2025,26,yes
+ETSY INC,ETSY,SEC,core,marketplace,GMS,2015,2025,11,no
+Farfetch Ltd,FTCHQ,SEC,core,marketplace,GMV,2018,2022,5,yes
+"JD.com, Inc.",JD,SEC,core,marketplace,GMV,2020,2025,6,no
+Joint Stock Co Kaspi.kz,KSPI,SEC,core,marketplace,GMV,2023,2025,3,no
+Jumei International Holding Ltd,,SEC,core,marketplace,GMV,2014,2018,5,no
+Jumia Technologies AG,JMIA,SEC,core,marketplace,GMV,2019,2025,7,yes
+LIQUIDITY SERVICES INC,LQDT,SEC,core,marketplace,GMV,2006,2025,20,no
+MERCADOLIBRE INC,MELI,SEC,core,marketplace,GMV,2007,2025,19,yes
+MOGU Inc.,MOGU,SEC,core,marketplace,GMV,2019,2026,8,no
+Mercari,,TSE,core,marketplace,GMV,,,,no
+"Newegg Commerce, Inc.",NEGG,SEC,core,marketplace,GMV,2021,2025,5,no
+Nykaa (FSN),,NSE,core,marketplace,GMV,,,,no
+Ozon (post-2022),,MOEX,core,marketplace,GMV,,,,yes
+Ozon Holdings PLC,,SEC,core,marketplace,GMV,2020,2022,3,no
+Pinduoduo/PDD,,SEC (GMV dropped),core,marketplace,GMV,,,,no
+RITCHIE BROS AUCTIONEERS INC,RBA,SEC,core,marketplace,GTV,2013,2025,13,no
+Rakuten,,TSE,core,marketplace,Domestic EC GMS,,,,no
+Sea Ltd,SE,SEC,core,marketplace,GMV,2017,2025,9,yes
+"TheRealReal, Inc.",REAL,SEC,core,marketplace,GMV,2019,2025,7,no
+Uxin Ltd,UXIN,SEC,core,marketplace,GMV,2018,2025,8,no
+Vipshop Holdings Ltd,VIPS,SEC,core,marketplace,GMV,2019,2025,7,no
+Vivid Seats Inc.,SEAT,SEC,core,marketplace,GOV,2021,2025,5,no
+Zalando,,XETRA,core,marketplace,GMV,,,,no
+Dada Nexus Ltd,DADA,SEC,core,mobility/delivery,GMV,2020,2024,5,yes
+Deliveroo,,LSE,core,mobility/delivery,GTV,,,,yes
+Delivery Hero,,XETRA,core,mobility/delivery,GMV,,,,yes
+DiDi Global Inc.,DIDIY,SEC,core,mobility/delivery,GTV,2021,2025,5,yes
+"DoorDash, Inc.",DASH,SEC,core,mobility/delivery,Marketplace GOV,2020,2025,6,yes
+Eternal (Zomato),,NSE,core,mobility/delivery,GOV,,,,yes
+GoTo,,IDX,core,mobility/delivery,GTV,,,,yes
+Grab Holdings Ltd,GRAB,SEC,core,mobility/delivery,GMV,2021,2025,5,yes
+GrubHub Inc.,,SEC,core,mobility/delivery,Gross Food Sales,2014,2020,7,no
+Just Eat Takeaway.com,,Euronext,core,mobility/delivery,GTV,,,,yes
+"Lyft, Inc.",LYFT,SEC,core,mobility/delivery,Gross Bookings,2023,2025,3,yes
+Maplebear Inc.,CART,SEC,core,mobility/delivery,GTV,2023,2025,3,yes
+Meituan,,HKEX,core,mobility/delivery,GTV (food delivery),,,,yes
+Swiggy,,NSE,core,mobility/delivery,GOV,,,,yes
+Talabat,,DFM,core,mobility/delivery,GMV,,,,yes
+"Uber Technologies, Inc",UBER,SEC,core,mobility/delivery,Gross Bookings,2019,2025,7,yes
+Waitr Holdings Inc.,ASAPQ,SEC,core,mobility/delivery,Gross Food Sales,2018,2022,5,no
+Yandex N.V.,NBIS,SEC,core,mobility/delivery,GMV/GBV (Yandex),2017,2023,7,yes
+Fiverr International Ltd.,FVRR,SEC,core,services marketplace,GMV,2019,2025,7,no
+Upwork Inc.,UPWK,SEC,core,services marketplace,GSV,2018,2025,8,no
+"Airbnb, Inc.",ABNB,SEC,core,travel,GBV,2020,2025,6,no
+CTRIP COM INTERNATIONAL LTD,TCOM,SEC,core,travel,GMV,2003,2025,8,no
+"Despegar.com, Corp.",DESP,SEC,core,travel,Gross Bookings,2017,2024,8,no
+"Expedia Group, Inc.",EXPE,SEC,core,travel,Gross Bookings,2005,2025,21,no
+MakeMyTrip Ltd,MMYT,SEC,core,travel,Gross Bookings,2011,2026,16,yes
+"Orbitz Worldwide, Inc.",,SEC,core,travel,Gross Bookings,2007,2014,8,no
+PRICELINE COM INC,BKNG,SEC,core,travel,Gross Bookings,2004,2025,22,no
+Tuniu Corp,TOUR,SEC,core,travel,GMV,2014,2022,9,no
+"Vacasa, Inc.",VCSA,SEC,core,travel,GBV,2021,2024,4,no
+"Yatra Online, Inc.",YTRA,SEC,core,travel,Gross Bookings,2017,2026,10,no
+"Affirm Holdings, Inc.",AFRM,SEC,extension,payments/merchant software,GMV,2021,2026,6,no
+Baozun Inc.,BZUN,SEC,extension,payments/merchant software,GMV,2015,2025,11,no
+"BigCommerce Holdings, Inc.",BIGC,SEC,extension,payments/merchant software,GMV,2020,2025,6,no
+"Block, Inc.",XYZ,SEC,extension,payments/merchant software,GPV,2015,2025,11,no
+Flywire Corp,FLYW,SEC,extension,payments/merchant software,TPV,2021,2025,5,no
+Global-E Online Ltd.,GLBE,SEC,extension,payments/merchant software,GMV,2021,2025,5,no
+Lightspeed Commerce Inc.,LSPD,SEC,extension,payments/merchant software,GPV,2021,2026,6,no
+Olo Inc.,OLO,SEC,extension,payments/merchant software,GMV,2021,2024,4,no
+PagSeguro Digital Ltd.,PAGS,SEC,extension,payments/merchant software,TPV,2017,2025,9,no
+"PayPal Holdings, Inc.",PYPL,SEC,extension,payments/merchant software,TPV,2015,2025,11,no
+SHOPIFY INC.,SHOP,SEC,extension,payments/merchant software,GMV,2015,2025,11,no
+"Squarespace, Inc.",SQSP,SEC,extension,payments/merchant software,GMV,2021,2023,3,no
+StoneCo Ltd.,STNE,SEC,extension,payments/merchant software,TPV,2018,2025,8,no
+"Toast, Inc.",TOST,SEC,extension,payments/merchant software,GPV,2021,2025,5,no
+VTEX,VTEX,SEC,extension,payments/merchant software,GMV,2021,2025,5,no
+Wix.com Ltd.,WIX,SEC,extension,payments/merchant software,GPV,2020,2025,6,no
+dLocal Ltd,DLO,SEC,extension,payments/merchant software,TPV,2022,2025,4,no
