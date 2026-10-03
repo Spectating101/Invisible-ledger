@@ -1,0 +1,30 @@
+{
+ "n_informal": 5352,
+ "W1_records_social_media": 29.90728620020725,
+ "W2_digital_receipt_social_media": 11.51132431562839,
+ "W3_mean_annual_sales_Rp_social_media": 111390712.20687382,
+ "W3_median_annual_sales_Rp_social_media": 60000000.0,
+ "W1_records_no_social_media": 12.320517646099095,
+ "W2_digital_receipt_no_social_media": 2.6512508477349934,
+ "W3_mean_annual_sales_Rp_no_social_media": 90769647.9003133,
+ "W3_median_annual_sales_Rp_no_social_media": 60000000.0,
+ "share_social_media_weighted": 27.257891881146357,
+ "n_formal": 2955,
+ "F1_epay_sales_share_website": 44.011073564332285,
+ "F2_efile_any_website": 51.32215783530447,
+ "F2_efile_fully_website": 39.70324706298476,
+ "F1_epay_sales_share_no_website": 32.82110275562716,
+ "F2_efile_any_no_website": 25.680360329706875,
+ "F2_efile_fully_no_website": 16.568558791772098,
+ "check_efile_fully_all_firms": 27.264968254740623,
+ "check_efile_any_all_firms": 37.53686090218217,
+ "F3_no_website_no_efile_share": 39.865470587658805,
+ "verdicts": {
+  "W1 (records higher with social media)": true,
+  "W2 (digital receipt higher with social media)": true,
+  "W3 (social-media sellers' mean annual sales < Rp100m)": false,
+  "F1 (e-pay share higher with website)": true,
+  "F2 (e-filing, fully or partially, higher with website)": true,
+  "F3 (no website and no e-filing > 1/3)": true
+ }
+}
