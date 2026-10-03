@@ -1,0 +1,133 @@
+{
+ "A_vs_proposal8": {
+  "label": "Indonesia+regional vs proposal's 8",
+  "firms_a": 5,
+  "firms_b": 8,
+  "median_a": 0.2011112997330038,
+  "median_b": 0.055468705405266605,
+  "mannwhitney_p": 0.022533022533022536,
+  "permutation_p": 0.0497
+ },
+ "A_vs_new": {
+  "label": "Indonesia+regional vs new foreign firms",
+  "firms_a": 5,
+  "firms_b": 19,
+  "median_a": 0.2011112997330038,
+  "median_b": 0.0697367482680566,
+  "mannwhitney_p": 0.004634857895727461,
+  "permutation_p": 0.0175
+ },
+ "A_vs_all_foreign": {
+  "label": "Indonesia+regional vs all foreign",
+  "firms_a": 5,
+  "firms_b": 27,
+  "median_a": 0.2011112997330038,
+  "median_b": 0.0615229845641427,
+  "mannwhitney_p": 0.0038187271571587474,
+  "permutation_p": 0.0221
+ },
+ "share_within_010": {
+  "Foreign (new)": 0.674,
+  "Foreign (proposal 8)": 0.69,
+  "Indonesia": 0.333
+ },
+ "B_exploratory_market_income": {
+  "young (<=5y listed)": {
+   "firm_stage_cells_emerging": 15,
+   "high": 11,
+   "median_emerging": 0.16249862632153733,
+   "median_high": 0.04585205872188265,
+   "mannwhitney_p": 0.004061711652136748
+  },
+  "older": {
+   "firm_stage_cells_emerging": 7,
+   "high": 11,
+   "median_emerging": 0.0736862995357394,
+   "median_high": 0.0431059271803669,
+   "mannwhitney_p": 0.0754462041226747
+  },
+  "all": {
+   "firm_stage_cells_emerging": 22,
+   "high": 22,
+   "median_emerging": 0.1314125901182272,
+   "median_high": 0.04455215110865522,
+   "mannwhitney_p": 0.0003471824786606917
+  },
+  "young (<=5y listed) ex-Indonesia": {
+   "emerging": 10,
+   "high": 11,
+   "median_emerging": 0.14400352181946038,
+   "median_high": 0.04585205872188265,
+   "mannwhitney_p": 0.031015520907682056
+  },
+  "older ex-Indonesia": {
+   "emerging": 7,
+   "high": 11,
+   "median_emerging": 0.0736862995357394,
+   "median_high": 0.0431059271803669,
+   "mannwhitney_p": 0.0754462041226747
+  },
+  "discount_to_revenue_L_firm_medians": [
+   {
+    "firm": "Blibli",
+    "market": "emerging",
+    "L": 0.821
+   },
+   {
+    "firm": "Delivery Hero",
+    "market": "mixed",
+    "L": 0.091
+   },
+   {
+    "firm": "DoorDash",
+    "market": "high-income",
+    "L": 0.206
+   },
+   {
+    "firm": "GoTo",
+    "market": "emerging",
+    "L": 0.625
+   },
+   {
+    "firm": "GoTo Group",
+    "market": "emerging",
+    "L": 1.878
+   },
+   {
+    "firm": "Grab",
+    "market": "emerging",
+    "L": 0.882
+   },
+   {
+    "firm": "Lyft",
+    "market": "high-income",
+    "L": 0.296
+   },
+   {
+    "firm": "MakeMyTrip",
+    "market": "emerging",
+    "L": 0.347
+   },
+   {
+    "firm": "Meituan",
+    "market": "emerging",
+    "L": 0.042
+   },
+   {
+    "firm": "Shopee",
+    "market": "emerging",
+    "L": 0.961
+   },
+   {
+    "firm": "Talabat",
+    "market": "high-income",
+    "L": 0.031
+   },
+   {
+    "firm": "Tokopedia",
+    "market": "emerging",
+    "L": 0.738
+   }
+  ]
+ }
+}
