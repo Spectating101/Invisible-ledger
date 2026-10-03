@@ -2,7 +2,8 @@
 # Rebuilds every committed table from committed inputs, then checks the claims ledgers.  Run from anywhere: bash research/option_space_2026-10-01/rebuild_all.sh
 # Needs pandas, numpy, scipy, statsmodels (set PYTHONPATH if they live outside the system python).  Takes about 3 minutes (bootstrap steps).
 # NOT rebuilt here (licensed or scratch inputs, see tables/claims_ledger_v2_NOT_REPRODUCIBLE_FROM_REPO.txt): analyst_extrapolation.py, multiples_dispersion.py,
-# event_study*.py, v_definition_map.py, timing_table.py's market column.  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
+# event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py and wb_crosscountry.py and bps_microdata_tests.py
+# (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
 set -euo pipefail
 cd "$(dirname "$0")"
 PY="${PYTHON:-python3}"
@@ -25,8 +26,13 @@ step three_rulers.py           # official household spending vs platform sales v
 step yardsticks.py             # Bank Indonesia vs BPS e-commerce
 step tax_base_rulers.py        # marketplace tax base under four rulers
 step claims_ledger_v3.py       # recomputes the 3 Oct numbers
+step publishable_track/spinoff_tests.py   # 29-firm panel (quote-checked extractions) and the spin-off tests
+step h1_extended.py            # H1 vs 27 foreign firms, D measure, leave-one-out, exploratory market-income pattern
+step consistency_grid.py       # eleven rulers of the online economy
+step exhibits.py               # draft exhibits, one per story layer (exhibits/*.png)
+step claims_ledger_v4.py       # recomputes the 3-4 Oct numbers (World Bank results from committed aggregates)
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

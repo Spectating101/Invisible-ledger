@@ -129,5 +129,41 @@
     "L": 0.738
    }
   ]
+ },
+ "robust_D_measure": {
+  "median_abs_D_indonesia_pp": 26.980937195675537,
+  "median_abs_D_foreign_pp": 6.471417157153364,
+  "firms": [
+   5,
+   26
+  ],
+  "mannwhitney_p": 0.005491110051732966
+ },
+ "robust_leave_one_out": {
+  "Blibli 3P Retail": {
+   "median_indonesia": 0.1692,
+   "mannwhitney_p": 0.0137,
+   "permutation_p": 0.0364
+  },
+  "Bukalapak Group": {
+   "median_indonesia": 0.2254,
+   "mannwhitney_p": 0.0049,
+   "permutation_p": 0.007
+  },
+  "GoTo on-demand": {
+   "median_indonesia": 0.2254,
+   "mannwhitney_p": 0.003,
+   "permutation_p": 0.0071
+  },
+  "Grab on-demand": {
+   "median_indonesia": 0.1935,
+   "mannwhitney_p": 0.0094,
+   "permutation_p": 0.0166
+  },
+  "Tokopedia e-commerce segment": {
+   "median_indonesia": 0.1692,
+   "mannwhitney_p": 0.0164,
+   "permutation_p": 0.0409
+  }
  }
 }

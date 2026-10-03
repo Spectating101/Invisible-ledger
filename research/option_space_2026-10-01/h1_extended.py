@@ -78,6 +78,25 @@ LM = {"Grab": "emerging", "GoTo": "emerging", "Tokopedia": "emerging", "MakeMyTr
 Lf = P.dropna(subset=["L"]).assign(market=lambda d: d.firm.map(LM)).groupby(["firm", "market"]).L.median().reset_index()
 B["discount_to_revenue_L_firm_medians"] = Lf.round(3).to_dict("records")
 res["B_exploratory_market_income"] = B
+# ---- robustness (added 4 Oct 2026, after the main result): the proposal's D measure, and leave-one-Indonesian-firm-out ----
+def d_pp(df, firm_col="firm", V="V", R="R"):
+    df = df.sort_values([firm_col, "year"]).copy(); c = df.groupby(firm_col).year.diff() == 1
+    gV = 100 * (df[V] / df.groupby(firm_col)[V].shift() - 1); gR = 100 * (df[R] / df.groupby(firm_col)[R].shift() - 1)
+    return df.assign(D_pp=np.where(c, gR - gV, np.nan)).dropna(subset=["D_pp"])[[firm_col, "year", "D_pp"]].rename(columns={firm_col: "firm"})
+Dt = pd.concat([T[T.set.isin(["IDN_main", "EXT_clean"])].rename(columns={"y1": "year"})[["firm", "year", "D_pp"]],
+                d_pp(pd.concat([grab, goto])[lambda d: d.R > 0]),
+                d_pp(S[S.flag_1p != "exclude"].rename(columns={"entity": "firm", "revenue": "R"}))], ignore_index=True)
+Dt["absD"] = Dt.D_pp.abs()
+fD = Dt.groupby("firm").absD.median()
+xa, xb = fD[fD.index.isin(IDN)].values, fD[fD.index.isin(OLD + NEW)].values
+res["robust_D_measure"] = {"median_abs_D_indonesia_pp": float(np.median(xa)), "median_abs_D_foreign_pp": float(np.median(xb)),
+                           "firms": [len(xa), len(xb)], "mannwhitney_p": float(stats.mannwhitneyu(xa, xb, alternative="greater").pvalue)}
+loo = {}
+for f in IDN:
+    keep = [x for x in IDN if x != f]
+    r = compare(keep, OLD + NEW, f"without {f}")
+    loo[f] = {"median_indonesia": round(r["median_a"], 4), "mannwhitney_p": round(r["mannwhitney_p"], 4), "permutation_p": r["permutation_p"]}
+res["robust_leave_one_out"] = loo
 firm.round(4).to_csv("tables/h1_extended_firms.csv", index=False)
 json.dump(res, open("tables/h1_extended_results.json", "w"), indent=1)
 print(json.dumps(res, indent=1))
