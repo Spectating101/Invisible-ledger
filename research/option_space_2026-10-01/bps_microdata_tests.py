@@ -13,6 +13,7 @@ import numpy as np
 
 SCEN = {"low": [100e6, 300e6, 2.5e9, 50e9], "mid": [150e6, 1.4e9, 26.25e9, 100e9], "high": [290e6, 2.4e9, 49e9, 500e9]}
 BPS_2022_TOTAL = 783e12           # published e-commerce value, 2022 (Rp)
+BI_2022 = 476.3e12                # Bank Indonesia e-commerce value, 2022 (Rp)
 N_2020, N_2022, N_2023, N_2023_ALT = 2_361_423, 2_995_879, 3_816_750, 3_934_981
 
 
@@ -85,6 +86,13 @@ def file2023(c):
         res[f"E1_{s}"] = float(100 * np.nansum(online[nobooks]) / np.nansum(online))
         res[f"E2_{s}"] = float(100 * np.nansum(mval) / np.nansum(online))
     res["E1_count_share_nobooks"] = wshare(nobooks, w)
+    # Reconciliation with Bank Indonesia (2022): how much of BPS's online value is marketplace, and marketplace sold to final consumers
+    b2c = num(c["r314a"])
+    for s in SCEN:
+        rv = bracket_value(cat, s, p_ == "monthly") * w
+        online = float(np.nansum(rv * (100 - off) / 100)); mk = float(np.nansum(rv * mkt / 100)); mk_b2c = float(np.nansum(rv * mkt / 100 * b2c / 100))
+        res[f"recon_{s}"] = {"online_tn": online / 1e12, "marketplace_tn": mk / 1e12, "marketplace_b2c_tn": mk_b2c / 1e12,
+                             "marketplace_over_BI": mk / BI_2022, "marketplace_b2c_over_BI": mk_b2c / BI_2022, "online_over_BI": online / BI_2022}
     # top-bracket calibration (sensitivity): top value X such that the mid total equals Rp783tn
     lo = bracket_value(cat, "mid", p_ == "monthly"); top = cat == 4
     rest = float(np.nansum((lo * (100 - off) / 100 * w)[~top])); top_mass = float(np.nansum(((100 - off) / 100 * w)[top]))
@@ -142,6 +150,7 @@ def verdicts(r21, r23, r24):
     if r23:
         v["E1 (mid share < 84.81%)"] = r23["E1_mid"] < 84.81 if r23["validation_passed"] else "range only"
         v["E2 (mid share > 18.23%)"] = r23["E2_mid"] > 18.23 if r23["validation_passed"] else "range only"
+        v["RBI (marketplace B2C slice below BI 2022)"] = r23["recon_mid"]["marketplace_b2c_over_BI"] < 1
         v["E2b (2022 users >= 17.23%)"] = _ge(r23["E2b_marketplace_users_2022"], 17.23)
         v["E4 2022 (entrants >= earlier)"] = _ge(r23["E4_2022_social_or_chat_entrants_since2020"], r23["E4_2022_social_or_chat_before2020"])
     if r24:
