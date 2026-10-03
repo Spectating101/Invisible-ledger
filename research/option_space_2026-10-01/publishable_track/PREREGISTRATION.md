@@ -21,3 +21,6 @@ m = R / V (the platform's cut). Growth of revenue splits exactly: g_R = g_V + g_
 
 ## Not registered
 Stock-return and analyst-forecast tests (earlier thesis attempts were null or inconclusive); any test of a cross-country tax rule (to be registered separately, before any outcome series is opened).
+
+## Addenda
+- **3 Oct 2026, evening.** Analysis code `spinoff_tests.py` written and committed while five extraction batches were still running; only the Liquidity Services and Alibaba rows (first batch, quality check) had been looked at. Operational choices fixed by the code: values converted to millions within each firm's own currency; free cash flow = operating cash flow minus the absolute value of capex and capitalised software; a firm-year is "excluded" when first-party revenue is above 50% of revenue and "flagged" at 20-50%; S1 uses a wild cluster bootstrap that imposes b1 = b2; S3 uses the two years up to the last year with V. A change of V scope is entered as a separate field (V_alt) and does not continue the V series.
