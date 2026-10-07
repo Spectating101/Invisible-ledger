@@ -1,0 +1,22 @@
+"""Claims ledger v8 (8 Oct 2026): linking checks (gel_checks.py, licensed data; national totals committed in tables/gel_checks.json).
+Run: python3 claims_ledger_v8.py -> tables/claims_ledger_v8.csv"""
+import json
+import pandas as pd
+T = "tables/"; g = json.load(open(T + "gel_checks.json"))
+v = g["value_increase_split_pct"]; e = g["existing_sellers_reported_change_2023"]; m = g["bps_marketplace_value_tn"]["growth_2022_2023_pct_by_scenario"]
+claims = [
+ ("L01", "Main obstacle 2023: lack of demand (% of sellers)", 41.3, g["main_obstacle_2023_pct"]["lack of demand"], 0.05),
+ ("L02", "Main obstacle 2023 among existing sellers whose revenue fell: lack of demand (%)", 58.2, g["main_obstacle_2023_existing_sellers_revenue_down_pct"]["lack of demand"], 0.05),
+ ("L03", "Off-marketplace sellers wanting to join a marketplace (%)", 13.5, g["non_marketplace_sellers_wanting_to_join_pct"], 0.05),
+ ("L04", "BPS marketplace value growth 2022-23, mid scenario (%)", 0.2, m["mid"], 0.05),
+ ("L05", "BPS marketplace value growth 2022-23, low scenario (%)", 13.2, m["low"], 0.05),
+ ("L06", "Online sellers on marketplaces with Rp300m+ revenue (% of all online sellers)", 5.4, g["share_of_all_online_sellers_marketplace_and_300m_plus_pct"], 0.05),
+ ("L07", "BPS 2023 value increase from newly counted sellers, mid (%)", 15.4, v["mid"]["newly_counted"], 0.05),
+ ("L08", "BPS 2023 value increase from entrants, mid (%)", 25.5, v["mid"]["entrants"], 0.05),
+ ("L09", "BPS 2023 value increase left for existing sellers, mid (%)", 59.1, v["mid"]["rest (existing sellers and other)"], 0.05),
+ ("L10", "Existing sellers' reported change in online revenue 2023, mean (%)", -4.3, e["all"]["mean_pct"], 0.05),
+ ("L11", "Existing sellers with 20+ workers, mean reported change (%)", 1.4, e["20+ workers"]["mean_pct"], 0.05),
+ ("L12", "Existing sellers with 1 worker, mean reported change (%)", -6.3, e["1 worker"]["mean_pct"], 0.05),
+]
+L = pd.DataFrame([dict(id=i, claim=x, stated=s, recomputed=round(float(val), 6), status="PASS" if abs(float(val) - s) <= tol else "CHECK") for i, x, s, val, tol in claims])
+L.to_csv(T + "claims_ledger_v8.csv", index=False); print(L.to_string(index=False)); print(L.status.value_counts().to_dict())

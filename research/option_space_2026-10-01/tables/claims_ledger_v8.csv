@@ -1,0 +1,13 @@
+id,claim,stated,recomputed,status
+L01,Main obstacle 2023: lack of demand (% of sellers),41.3,41.251749,PASS
+L02,Main obstacle 2023 among existing sellers whose revenue fell: lack of demand (%),58.2,58.160879,PASS
+L03,Off-marketplace sellers wanting to join a marketplace (%),13.5,13.498577,PASS
+L04,"BPS marketplace value growth 2022-23, mid scenario (%)",0.2,0.231967,PASS
+L05,"BPS marketplace value growth 2022-23, low scenario (%)",13.2,13.16219,PASS
+L06,Online sellers on marketplaces with Rp300m+ revenue (% of all online sellers),5.4,5.417282,PASS
+L07,"BPS 2023 value increase from newly counted sellers, mid (%)",15.4,15.440416,PASS
+L08,"BPS 2023 value increase from entrants, mid (%)",25.5,25.46153,PASS
+L09,"BPS 2023 value increase left for existing sellers, mid (%)",59.1,59.098053,PASS
+L10,"Existing sellers' reported change in online revenue 2023, mean (%)",-4.3,-4.314186,PASS
+L11,"Existing sellers with 20+ workers, mean reported change (%)",1.4,1.415594,PASS
+L12,"Existing sellers with 1 worker, mean reported change (%)",-6.3,-6.343226,PASS

@@ -1,0 +1,125 @@
+{
+ "main_obstacle_2023_pct": {
+  "lack of capital": 29.04216105806118,
+  "lack of skilled workers": 11.481890335007746,
+  "limited internet": 2.1230774712461495,
+  "fraud": 2.2630358826785004,
+  "lack of demand": 41.25174938909617,
+  "limited delivery": 3.801334636885633,
+  "other": 10.036751227024618
+ },
+ "main_obstacle_2023_existing_sellers_revenue_down_pct": {
+  "lack of capital": 21.778189604047835,
+  "lack of skilled workers": 7.97538361980129,
+  "limited internet": 1.4051612020518953,
+  "fraud": 1.7205395907908,
+  "lack of demand": 58.16087916755303,
+  "limited delivery": 1.961214067912349,
+  "other": 6.998632747842803
+ },
+ "non_marketplace_sellers_wanting_to_join_pct": 13.498577045776749,
+ "non_marketplace_share_answered_pct": 100.0,
+ "bps_marketplace_value_tn": {
+  "2022_by_scenario": {
+   "low": 177.34598595243892,
+   "mid": 200.22414612336212,
+   "high": 195.21034281659
+  },
+  "2023_published": 200.68860099999998,
+  "growth_2022_2023_pct_by_scenario": {
+   "low": 13.162189672463832,
+   "mid": 0.2319674652784931,
+   "high": 2.806336029314327
+  },
+  "growth_2023_2024_pct_published": 1.45
+ },
+ "platform_indicators_growth_pct": {
+  "Bank Indonesia 2023": -4.7,
+  "Momentum Works 2023": 3.5,
+  "Bank Indonesia 2024": 7.3,
+  "Momentum Works 2024": 5.2,
+  "e-Conomy 2024": 5.1
+ },
+ "bps_total_growth_pct": {
+  "2023": 40.6,
+  "2024": 17.1
+ },
+ "share_of_all_online_sellers_marketplace_and_300m_plus_pct": 5.417281855641095,
+ "share_of_all_online_sellers_on_marketplaces_pct": 19.752403007948036,
+ "newly_counted_value_scenarios": {
+  "low": {
+   "chat_only_avg_relative_to_all": 0.6658742201934648,
+   "value_added_tn": 53.18299832869418
+  },
+  "mid": {
+   "chat_only_avg_relative_to_all": 0.6145085495735072,
+   "value_added_tn": 49.08045119308084
+  },
+  "high": {
+   "chat_only_avg_relative_to_all": 0.580225054089141,
+   "value_added_tn": 46.34224774901735
+  }
+ },
+ "entrants_value_scenarios": {
+  "low": {
+   "new_seller_avg_relative_to_all": 0.7071023139704632,
+   "value_added_tn": 94.84702668439455
+  },
+  "mid": {
+   "new_seller_avg_relative_to_all": 0.6033823232020431,
+   "value_added_tn": 80.93456658102056
+  },
+  "high": {
+   "new_seller_avg_relative_to_all": 0.6162951453441982,
+   "value_added_tn": 82.66662538225789
+  }
+ },
+ "published_value_increase_2022_2023_tn": 317.8699999999999,
+ "value_increase_split_pct": {
+  "low": {
+   "newly_counted": 16.731053049578193,
+   "entrants": 29.83830707031006,
+   "rest (existing sellers and other)": 53.43063988011175
+  },
+  "mid": {
+   "newly_counted": 15.44041626862581,
+   "entrants": 25.461530368081476,
+   "rest (existing sellers and other)": 59.09805336329271
+  },
+  "high": {
+   "newly_counted": 14.578993849377849,
+   "entrants": 26.006425703041472,
+   "rest (existing sellers and other)": 59.41458044758068
+  }
+ },
+ "existing_sellers_reported_change_2023": {
+  "all": {
+   "mean_pct": -4.314186389500481,
+   "median_pct": 0.0
+  },
+  "1 worker": {
+   "share_pct": 57.183212290280196,
+   "mean_pct": -6.343225717057868,
+   "up_pct": 21.74890149696917,
+   "down_pct": 34.4250305606597
+  },
+  "2-4 workers": {
+   "share_pct": 30.842389791890017,
+   "mean_pct": -2.5972322430398886,
+   "up_pct": 26.129550795785033,
+   "down_pct": 30.14579956312506
+  },
+  "5-19 workers": {
+   "share_pct": 10.099274041226952,
+   "mean_pct": 0.8671732077077303,
+   "up_pct": 31.824457882167202,
+   "down_pct": 24.208477662537657
+  },
+  "20+ workers": {
+   "share_pct": 1.8751238766028342,
+   "mean_pct": 1.4155935086788103,
+   "up_pct": 41.29471310622816,
+   "down_pct": 27.188446652029697
+  }
+ }
+}

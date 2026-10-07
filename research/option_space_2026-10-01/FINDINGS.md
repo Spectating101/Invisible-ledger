@@ -11,7 +11,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 ## The verdict for 2023 (the year of the official boom)
 
-5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while its own survey answers allow at most about +15.5% more sellers from entry and show the typical existing seller flat. Details and limits: `PART3_H1_GROUNDWORK.md` (`h1_groundwork.py`, ledger v6).
+5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while its own survey answers allow at most about +15.5% more sellers from entry and show the typical existing seller flat. Sellers themselves named lack of demand as their main obstacle in 2023 (41%; 58% among those whose online revenue fell). On BPS's value figure: newly counted sellers account for about 15-17% of the published increase and entrants about 25-30% (scenarios); the remaining 53-59% would have to come from existing sellers, who reported a mean change of -4.3% in online revenue. Where indicators measure the same slice (marketplaces), they roughly agree on slow growth; the disagreement sits outside marketplaces. Details and limits: `PART3_H1_GROUNDWORK.md`, `PART4_H2_GROUNDWORK.md` (`h1_groundwork.py`, `gel_checks.py`, ledgers v6-v8).
 
 ## The answer in five sentences
 
