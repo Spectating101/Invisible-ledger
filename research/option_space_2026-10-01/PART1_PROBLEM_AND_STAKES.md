@@ -89,3 +89,6 @@ That anyone made a bad decision; any effect of the policies (no causal claims); 
 - Trueman, B., M. H. F. Wong and X.-J. Zhang (2001). Back to basics: Forecasting the revenues of Internet firms. Review of Accounting Studies 6(2-3), 305-329.
 - U.S. SEC (2020). Commission Guidance on Management's Discussion and Analysis (Release 33-10751).
 - Primary legal texts and official documents: see `../../sources/policy_primary/MANIFEST.md`; BPS Statistik E-Commerce publications; SILASTIK survey pages.
+
+## Dated notes
+- **8 Oct 2026.** Gaps updated: KPPU's conditional approval of TikTok-Tokopedia was decided on 17 Jun 2025 (investigator's assessment 27 May 2025; separate Rp15 billion fine for late notification); the decision document itself is not online, so status remains news-sourced. Sensus Ekonomi 2026 confirmed (door to door 15 Jun to 31 Aug 2026; covers online sellers, affiliates and influencers; results not yet released). Nota Keuangan RAPBN 2026: kemenkeu.go.id loads its documents by script, not retrievable from here; content known via news (Book II names retail trade, food and drink, gold and fisheries as shadow-economy targets).

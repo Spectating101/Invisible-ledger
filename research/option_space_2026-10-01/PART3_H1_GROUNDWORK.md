@@ -67,3 +67,10 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 
 - Same: verdict, test, main sample, 60.6% for Tokopedia.
 - Added: the 5-vs-27 comparison carries the weight; the strict platform-level test reported; cause per platform (Grab pricing, Tokopedia two views, Blibli partly mix); the 2021-23 time boundary; the general pattern and its limits; the 2023 verdict on buying vs revenue and the official count.
+
+## Dated notes
+- **8 Oct 2026 (cheap checks; exploratory).**
+  - When: the repricing period is **2022-24**, not 2021-23. GoTo on-demand's big change came in 2024 (incentives 11.3% to 5.0% of transaction value; gross fees flat), after Grab's and Blibli's in 2022-23. Grab flat since 2023; GoTo and Blibli rising in smaller steps after their jumps.
+  - Why (sharpened): the 2022-24 swings were concentrated in all 4 Indonesian and regional platforms, but not in foreign platforms in lower-income markets (1 of 7) or high-income markets (5 of 14) (`timing_check.py`). So "the end of cheap money worldwide" does not explain it on its own. What the four share: all listed in 2021-22 (Bukalapak Aug 2021, Grab Dec 2021, GoTo Apr 2022, Blibli Nov 2022) and repriced soon after, while incentives were still large. An observation on four firms, not a test.
+  - Mix: GoTo reports only the whole on-demand segment, so rides vs food cannot be separated (as for Blibli and Bukalapak). Only Grab can be split; it was mostly repricing.
+  - Verdict support: the BPS cohort check (Part 2 note) shows 306 thousand pre-2023 sellers counted in 2023 beyond the whole 2022 count (37% of the rise): the seller "surge" was largely sellers found, not sellers new.

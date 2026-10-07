@@ -5,7 +5,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 **Read with** `PART1_PROBLEM_AND_STAKES.md` (problem and why it matters) and `PART2_FRAMEWORK.md` (the framework: what each indicator covers and how it counts; frozen 7 Oct 2026).
 
-**The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2021-23, much of the movement in platform revenue and in the official count of online sellers came from how they count, not from the activity.
+**The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2022-24, much of the movement in platform revenue, and in 2023 much of the rise in the official count of online sellers, came from how they count, not from the activity.
 
 **Words used once and kept.** V = transaction value, everything sold through a platform (the firm's GMV, GTV, TPV or bookings). R = revenue, what the platform keeps. m = R / V, the platform's cut. W = V - R, the wedge: the part of the sales that revenue does not show. E = W / R. D = growth of R minus growth of V.
 
@@ -34,7 +34,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - Bigger benchmark (5 Indonesian and regional firms vs 27 foreign firms): the typical yearly swing in the cut is 0.20 vs 0.06 (log points), firm-level p = 0.004 (`h1_extended.py`).
 - Same on the proposal's D measure: 27.0 vs 6.5 points, p = 0.005. Dropping any one Indonesian firm: worst p = 0.016.
 - Revenue tracks sales (cut moves less than 0.10) in 12.5% of Indonesian comparisons vs 69% abroad (Fisher p = 0.012).
-- Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the big repricing jumps: Grab's cut was flat from 2023, while GoTo's and Blibli's kept rising, but in smaller steps. So the large swings are concentrated in 2021-2023; the cut has not been fully stable since.
+- Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the big repricing jumps: Grab's cut was flat from 2023, while GoTo's and Blibli's kept rising, but in smaller steps. So the large swings are concentrated in 2022-2024 (GoTo's incentive cut came in 2024); the cut has not been fully stable since. The 2022-24 swings are specific to the Indonesian and regional platforms (all listed in 2021-22), not seen in foreign platforms in lower-income or high-income markets (exploratory, `timing_check.py`).
 - **Verdict: H1 is rejected.** Revenue did not grow in proportion to sales in Indonesia's platforms during 2020-2025. The weight rests on the 5-vs-27 platform comparison; the main sample alone gives p = 0.06 under the strictest platform-shuffle test (0.03 for the take-rate change). Grab's 2022-23 rise was mostly repricing (+3.5 of +3.9 points); Blibli's was partly travel mix.
 - Why Indonesia (exploratory, formed after seeing data): young platforms in lower-income, price-sensitive markets swing more (0.16 vs 0.05; holds without Indonesia, p = 0.03). It is not a worldwide law: the spin-off tests S1 and S2 were falsified.
 
@@ -64,6 +64,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - BPS's own answers (microdata, 7 Oct; exhibit 5):
   - Only 13.4% of 2023 sellers started selling online in 2023. Even if nobody quit, that explains at most +15.5% seller growth, against the published +27.4% (E5 falsified). In growth terms, at least 40% of the published rise is not explained by entry (a lower bound).
   - Sellers already online had a median change of 0% in online revenue: 24% up, 44% same, 32% down (E6 holds).
+  - Same cohorts across surveys (exploratory, `bps_cohort_check.py`): sellers who started selling online by 2020 shrank 9.9% between the 2020 and 2022 surveys (as they should), then grew 6.0% between the 2022 and 2023 surveys. The 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count: 37% of the published rise, net of exits. Direct evidence that the 2023 survey counted existing sellers it had not counted before.
 - **What this means for H2:** the 2022-2023 "more businesses" is largely more businesses counted, not more businesses selling. H2 still holds as arithmetic on BPS's numbers. Its meaning changes: national growth on paper came from wider counting more than from new sellers or existing sellers growing. The thesis states this plainly, as registered.
 
 ## 6. Channels and records (the proposal's two additional analyses)

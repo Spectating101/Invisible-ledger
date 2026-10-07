@@ -114,3 +114,6 @@ Third-quarter 2026 scoring: GoTo 27 Oct (P1-P5, R1, R2); marketplace tax start 1
 - World Bank Enterprise Surveys: Indonesia 2023 (formal), Indonesia Informal Sector Enterprise Survey 2023; latest formal surveys for Malaysia, Thailand, Viet Nam, Philippines, Cambodia, Singapore.
 - From the proposal's reference list (to be re-checked in the reference review): Hagiu and Wright (2015); Evans and Schmalensee (2016); Hummels and Klenow (2005).
 - Primary legal texts: `../../sources/policy_primary/MANIFEST.md`.
+
+## Dated notes
+- **8 Oct 2026.** Level 2 gains a second, independent check (`bps_cohort_check.py`, exploratory): start-year cohorts of online sellers shrank between the 2020 and 2022 surveys, as they should, but grew between the 2022 and 2023 surveys; the 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count (37% of the published rise, net of exits). This agrees with the entry bound (at least 40%) and is direct evidence that the 2023 survey counted existing sellers it had not counted before. Level 1 timing corrected: the repricing period is 2022-24 (GoTo's incentive cut came in 2024), and it is specific to Indonesian and regional platforms (`timing_check.py`).

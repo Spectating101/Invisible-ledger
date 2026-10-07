@@ -1,0 +1,28 @@
+"""Claims ledger v7 (8 Oct 2026): cheap exploratory checks (timing of take-rate swings; BPS start-year cohorts; GoTo's 2024 incentive cut).
+bps_cohort_check.py uses licensed microdata (not rebuilt); its national totals are committed in tables/bps_cohort_check.json.
+Run from this folder: python3 claims_ledger_v7.py -> tables/claims_ledger_v7.csv"""
+import json
+import pandas as pd
+T = "tables/"
+t = json.load(open(T + "timing_check.json")); c = json.load(open(T + "bps_cohort_check.json")); g = pd.read_csv(T + "goto_ondemand_annual.csv", index_col=0)
+w = t["2022-24"]
+claims = [
+ ("T01", "2022-24 window: Indonesia and region, firms swinging more than in other years (of 4)", 4, w["Indonesia and region"]["firms_larger_in_window"], 0),
+ ("T02", "2022-24 window: Indonesia and region median swing", 0.32, w["Indonesia and region"]["median_in_window"], 0.005),
+ ("T03", "2022-24 window: Indonesia and region median swing, other years", 0.06, w["Indonesia and region"]["median_other_years"], 0.005),
+ ("T04", "2022-24 window: foreign lower-income firms swinging more (of 7)", 1, w["Foreign, lower-income markets"]["firms_larger_in_window"], 0),
+ ("T05", "2022-23 window: foreign lower-income firms swinging more (of 7)", 2, t["2022-23"]["Foreign, lower-income markets"]["firms_larger_in_window"], 0),
+ ("T06", "2022-23 window: foreign high-income Wilcoxon p", 0.62, t["2022-23"]["Foreign, high-income markets"]["wilcoxon_one_sided_p"], 0.005),
+ ("C01", "Sellers started online by 2021: 2022 survey (thousands)", 2559, c["started_by"]["2021"]["2022"], 1),
+ ("C02", "Sellers started online by 2021: 2023 survey (thousands)", 2689, c["started_by"]["2021"]["2023"], 1),
+ ("C03", "Sellers started by 2020: change 2020 to 2022 survey (%)", -9.9, c["started_by"]["2020"]["change_2020_to_2022_pct"], 0.1),
+ ("C04", "Sellers started by 2020: change 2022 to 2023 survey (%)", 6.0, c["started_by"]["2020"]["change_2022_to_2023_pct"], 0.1),
+ ("C05", "Pre-2023 sellers counted in 2023 beyond the 2022 count (thousands)", 306, c["rise_2022_to_2023"]["pre_2023_sellers_more_than_counted_before_k"], 1),
+ ("C06", "Share of the 2023 rise from pre-2023 sellers not counted before (%)", 37.3, c["rise_2022_to_2023"]["share_of_rise_from_pre_2023_sellers_pct"], 0.1),
+ ("C07", "Started selling online in 2022: 2022 survey (thousands)", 437, c["cohort_counts_thousands"]["2022"]["2022"], 1),
+ ("C08", "Started selling online in 2022: 2023 survey (thousands)", 612, c["cohort_counts_thousands"]["2022"]["2023"], 1),
+ ("O01", "GoTo on-demand incentives as % of GTV, 2023", 11.3, g.loc[2023, "incentives_pct_of_gtv"], 0.05),
+ ("O02", "GoTo on-demand incentives as % of GTV, 2024", 5.0, g.loc[2024, "incentives_pct_of_gtv"], 0.05),
+]
+L = pd.DataFrame([dict(id=i, claim=x, stated=s, recomputed=round(float(v), 6), status="PASS" if abs(float(v) - s) <= tol else "CHECK") for i, x, s, v, tol in claims])
+L.to_csv(T + "claims_ledger_v7.csv", index=False); print(L.to_string(index=False)); print(L.status.value_counts().to_dict())

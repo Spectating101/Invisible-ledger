@@ -1,0 +1,17 @@
+id,claim,stated,recomputed,status
+T01,"2022-24 window: Indonesia and region, firms swinging more than in other years (of 4)",4.0,4.0,PASS
+T02,2022-24 window: Indonesia and region median swing,0.32,0.322134,PASS
+T03,"2022-24 window: Indonesia and region median swing, other years",0.06,0.061357,PASS
+T04,2022-24 window: foreign lower-income firms swinging more (of 7),1.0,1.0,PASS
+T05,2022-23 window: foreign lower-income firms swinging more (of 7),2.0,2.0,PASS
+T06,2022-23 window: foreign high-income Wilcoxon p,0.62,0.619568,PASS
+C01,Sellers started online by 2021: 2022 survey (thousands),2559.0,2559.167428,PASS
+C02,Sellers started online by 2021: 2023 survey (thousands),2689.0,2689.382515,PASS
+C03,Sellers started by 2020: change 2020 to 2022 survey (%),-9.9,-9.917897,PASS
+C04,Sellers started by 2020: change 2022 to 2023 survey (%),6.0,6.042427,PASS
+C05,Pre-2023 sellers counted in 2023 beyond the 2022 count (thousands),306.0,305.592804,PASS
+C06,Share of the 2023 rise from pre-2023 sellers not counted before (%),37.3,37.321428,PASS
+C07,Started selling online in 2022: 2022 survey (thousands),437.0,436.818572,PASS
+C08,Started selling online in 2022: 2023 survey (thousands),612.0,612.196289,PASS
+O01,"GoTo on-demand incentives as % of GTV, 2023",11.3,11.3,PASS
+O02,"GoTo on-demand incentives as % of GTV, 2024",5.0,5.0,PASS

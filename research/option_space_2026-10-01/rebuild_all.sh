@@ -2,7 +2,7 @@
 # Rebuilds every committed table from committed inputs, then checks the claims ledgers.  Run from anywhere: bash research/option_space_2026-10-01/rebuild_all.sh
 # Needs pandas, numpy, scipy, statsmodels (set PYTHONPATH if they live outside the system python).  Takes about 3 minutes (bootstrap steps).
 # NOT rebuilt here (licensed or scratch inputs, see tables/claims_ledger_v2_NOT_REPRODUCIBLE_FROM_REPO.txt): analyst_extrapolation.py, multiples_dispersion.py,
-# event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py and wb_crosscountry.py and bps_microdata_tests.py
+# event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py, wb_crosscountry.py, bps_microdata_tests.py, bps_descriptives.py, bps_frame_check.py and bps_cohort_check.py
 # (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -36,8 +36,10 @@ step wedge_split.py            # wedge changes: volume part vs monetization part
 step claims_ledger_v5.py       # BPS microdata aggregates, quarterly H1, wedge split
 step h1_groundwork.py          # Part 3 groundwork: Grab pricing vs mix, Tokopedia two views, 2023 verdict
 step claims_ledger_v6.py       # Part 3 groundwork numbers
+step timing_check.py           # exploratory: were 2022-24 swings specific to Indonesian platforms?
+step claims_ledger_v7.py       # cheap checks of 8 Oct (timing; BPS cohorts from committed totals; GoTo 2024)
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF
