@@ -48,9 +48,9 @@ ax.set_yticks(range(len(g)), g.index)
 for i, v in enumerate(g.values): ax.text(v + 0.6, i, f"{v:+.1f}%", va="center", fontsize=8.5, color=INK)
 ax.set_xlabel("Growth in 2024, each ruler in its own unit")
 ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=BLUE), plt.Rectangle((0, 0), 1, 1, color=ORANGE), plt.Rectangle((0, 0), 1, 1, color=GREY)],
-          labels=["Sees mainly the apps", "Sees all sellers, parcels or tax receipts", "Reference: official household spending"],
+          labels=["Sees mainly the apps", "Sees more than the apps (BPS all sellers; SEA parcels; foreign-services VAT)", "Reference: official household spending"],
           frameon=False, loc="lower right")
-finish(fig, ax, "Apps vs the nation: rulers that see only the apps grow slowest",
+finish(fig, ax, "Apps vs the nation: rulers that see only the apps grow slowest (2024)",
        "Source: consistency_grid.py. Parcels are Southeast Asia-wide; digital-services VAT taxes foreign services; QR payments (+187%, mostly in-person) and GoTo (rides and food, not online selling) omitted.", "2_two_camps.png")
 
 # 3. Outside the records: formal firms with neither a website nor online tax filing
