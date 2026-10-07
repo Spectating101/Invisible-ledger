@@ -1,7 +1,7 @@
 """Claims ledger v5 (7 Oct 2026): BPS microdata results, quarterly H1, and the wedge split, recomputed from committed outputs.
 The BPS microdata is licensed and not committed; its aggregates (bps_microdata_results.json, bps_descriptives.json) are.
 Run from this folder: python3 claims_ledger_v5.py -> tables/claims_ledger_v5.csv"""
-import json
+import json, math
 import pandas as pd
 T = "tables/"
 b = json.load(open(T + "bps_microdata_results.json")); d = json.load(open(T + "bps_descriptives.json"))
@@ -31,6 +31,7 @@ claims = [
  ("B21", "Shopee users among BPS marketplace sellers, 2023 (%)", 42.2, d["apps_among_marketplace_users_2023"]["Shopee"], 0.05),
  ("B22", "Tokopedia users among BPS marketplace sellers, 2023 (%)", 12.6, d["apps_among_marketplace_users_2023"]["Tokopedia"], 0.05),
  ("B23", "2020 E1, online-revenue bracket version (%)", 36.1, r21["E7_E1_2020_online_bracket"], 0.05),
+ ("B24", "Lower bound: share of 2023 business-count growth not explained by entry (%, log terms)", 40.3, 100 * (1 - math.log(1 + d["max_count_growth_from_entry_pct"] / 100) / math.log(1 + d["published_count_growth_pct"] / 100)), 0.05),
  ("Q01", "Quarterly H1: Indonesia and region median (x100)", 7.1, 100 * q["median_indonesia_region"], 0.05),
  ("Q02", "Quarterly H1: benchmark median (x100)", 4.9, 100 * q["median_benchmark"], 0.05),
  ("Q03", "Quarterly H1: Mann-Whitney p (falsified)", 0.19, q["mannwhitney_p"], 0.005),

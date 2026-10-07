@@ -1,11 +1,13 @@
 # Part 1: the problem and why it matters (consolidated 7 Oct 2026)
 
+**Status: FROZEN 7 Oct 2026** (git tag `parts-1-2-frozen-2026-10-07`). Changes only as dated notes at the end of this file. Next: `PART2_FRAMEWORK.md`.
+
 Part 1 of the thesis has two jobs: state the problem, and show why it matters. Part 1 is the approved proposal's problem, unchanged in scope, with stronger backing. Every claim below names what backs it. Claims we cannot back were removed, not propped up.
 Companion files: `FINDINGS.md` (all results), `PREREGISTRATION.md` (tests and verdicts), `../../sources/policy_primary/MANIFEST.md` (legal texts).
 
 ## A. The problem
 
-**Claim.** Indonesia's online economy is reported through several numbers that measure different things. They give different sizes and growth rates, sometimes opposite directions. So the conclusion about size and growth depends on which number you pick.
+**Claim.** Indonesia's online economy is reported through several numbers that measure different things. They give different sizes and growth rates, sometimes opposite directions. So the conclusion about size and growth depends on which number you pick. The way each number captures activity can also change over time, so part of measured growth can come from the measurement rather than the activity (Tokopedia's take rate; the opposite moves of Bank Indonesia and BPS in 2023). Part 2 builds on this.
 
 | Piece | What backs it | Where |
 |---|---|---|
@@ -13,6 +15,7 @@ Companion files: `FINDINGS.md` (all results), `PREREGISTRATION.md` (tests and ve
 | Different sizes and growth | 11 counters compared: those seeing mainly the apps grow slowly; BPS, the one Indonesia-wide count of all sellers, grows much faster (regional parcel counts point the same way, but cover all of Southeast Asia). Part of BPS's growth is survey design, so the gap is part coverage, part counting | `consistency_grid.py`; `bps_frame_check.py` |
 | Opposite directions between state offices | Bank Indonesia's figure fell while BPS's rose sharply in the same year (2023) | `yardsticks.py` |
 | Opposite directions inside one firm | Tokopedia 2022-23: revenue up, sales down, both from its own reports | proposal Table 5; filings |
+| The way of capturing can change | Tokopedia's take rate rose while transaction value fell; at least 40% of BPS's 2023 rise in the business count is not explained by entry (Part 2) | `growth_decomposition.py`; `bps_microdata_tests.py` (E5) |
 | A known measurement problem | E-commerce figures clash because definitions differ (UNCTAD); GDP counts a platform's fee, not the sales it carries (Ahmad and Schreyer 2016; OECD 2023) | references below |
 
 Removed as unproven: "people treat the numbers as the same"; "investors, statisticians and the government each draw the wrong conclusion".

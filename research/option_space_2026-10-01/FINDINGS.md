@@ -3,6 +3,10 @@
 This file gathers every result the thesis will use. It follows the order of the approved 27 September proposal: same title, same question, same H1 and H2, same measures. Nothing here changes the concept.
 Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`, all PASS) or comes from the proposal itself. Pre-registered tests and their verdicts are in `PREREGISTRATION.md`. Licensed data (BPS, World Bank, LSEG) is never committed; only weighted totals are.
 
+**Read with** `PART1_PROBLEM_AND_STAKES.md` (problem and why it matters) and `PART2_FRAMEWORK.md` (the framework: what each indicator covers and how it counts; frozen 7 Oct 2026).
+
+**The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2021-23, much of the movement in platform revenue and in the official count of online sellers came from how they count, not from the activity.
+
 **Words used once and kept.** V = transaction value, everything sold through a platform (the firm's GMV, GTV, TPV or bookings). R = revenue, what the platform keeps. m = R / V, the platform's cut. W = V - R, the wedge: the part of the sales that revenue does not show. E = W / R. D = growth of R minus growth of V.
 
 ## The answer in five sentences
@@ -54,7 +58,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - BPS's published numbers, split arithmetically (`bps_bridge.py`, `tables/bps_recompute.json`): more businesses account for 90.3% of 2023-2024 growth (71.0% under BPS's other 2023 count) and 71.0% of 2022-2023 growth.
 - **Verdict on the published numbers: H2 holds.**
 - BPS's own answers (microdata, 7 Oct; exhibit 5):
-  - Only 13.4% of 2023 sellers started selling online in 2023. Even if nobody quit, that explains at most +15.5% seller growth, against the published +27.4% (E5 falsified).
+  - Only 13.4% of 2023 sellers started selling online in 2023. Even if nobody quit, that explains at most +15.5% seller growth, against the published +27.4% (E5 falsified). In growth terms, at least 40% of the published rise is not explained by entry (a lower bound).
   - Sellers already online had a median change of 0% in online revenue: 24% up, 44% same, 32% down (E6 holds).
 - **What this means for H2:** the 2022-2023 "more businesses" is largely more businesses counted, not more businesses selling. H2 still holds as arithmetic on BPS's numbers. Its meaning changes: national growth on paper came from wider counting more than from new sellers or existing sellers growing. The thesis states this plainly, as registered.
 

@@ -22,6 +22,7 @@ B20,"Gojek users among BPS marketplace sellers, 2023 (%)",44.7,44.699465,PASS
 B21,"Shopee users among BPS marketplace sellers, 2023 (%)",42.2,42.243052,PASS
 B22,"Tokopedia users among BPS marketplace sellers, 2023 (%)",12.6,12.556611,PASS
 B23,"2020 E1, online-revenue bracket version (%)",36.1,36.058001,PASS
+B24,"Lower bound: share of 2023 business-count growth not explained by entry (%, log terms)",40.3,40.334349,PASS
 Q01,Quarterly H1: Indonesia and region median (x100),7.1,7.143466,PASS
 Q02,Quarterly H1: benchmark median (x100),4.9,4.893496,PASS
 Q03,Quarterly H1: Mann-Whitney p (falsified),0.19,0.187879,PASS
