@@ -8,8 +8,8 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 ## The answer in five sentences
 
 1. Inside the app, revenue and sales split apart about three times more in Indonesia than abroad (H1 rejected).
-2. Revenue moved mainly because platforms changed their cut, mostly by cutting discounts; the wedge itself moved with sales.
-3. Rulers that see only the apps say the online economy grew about 5% a year; rulers that see all sellers, parcels or tax receipts say 17-41%.
+2. Revenue moved mainly because platforms raised their cut, by cutting discounts and raising fees (discounts were the larger part in 4 of 7 Indonesian windows, fees in 2); the wedge itself moved with sales.
+3. Rulers that see only the apps say the online economy grew about 5% a year; BPS, the one Indonesia-wide count of all online sellers, says much faster, and regional parcel counts point the same way. Part of BPS's growth is its survey design (point 4), so the gap comes from both what each ruler sees and how it counts.
 4. National growth on paper came from "more businesses" (H2 holds on BPS's published numbers), but BPS's own survey answers show most of the 2023 jump was not new sellers: it was more sellers being counted.
 5. Most sellers keep no books and leave no digital trail, and the share keeping books is falling; the new marketplace tax can reach most of the money but few of the sellers.
 
@@ -26,7 +26,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - Bigger benchmark (5 Indonesian and regional firms vs 27 foreign firms): the typical yearly swing in the cut is 0.20 vs 0.06 (log points), firm-level p = 0.004 (`h1_extended.py`).
 - Same on the proposal's D measure: 27.0 vs 6.5 points, p = 0.005. Dropping any one Indonesian firm: worst p = 0.016.
 - Revenue tracks sales (cut moves less than 0.10) in 12.5% of Indonesian comparisons vs 69% abroad (Fisher p = 0.012).
-- Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the repricing, when the cut was steady. So the split is an episode (2021-2023), not a permanent state.
+- Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the big repricing jumps: Grab's cut was flat from 2023, while GoTo's and Blibli's kept rising, but in smaller steps. So the large swings are concentrated in 2021-2023; the cut has not been fully stable since.
 - **Verdict: H1 is rejected.** Revenue did not grow in proportion to sales in Indonesia's platforms during 2020-2025.
 - Why Indonesia (exploratory, formed after seeing data): young platforms in lower-income, price-sensitive markets swing more (0.16 vs 0.05; holds without Indonesia, p = 0.03). It is not a worldwide law: the spin-off tests S1 and S2 were falsified.
 
@@ -43,7 +43,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 ## 4. Apps vs the nation (Objective 3)
 
-- Eleven rulers of the same online economy (`consistency_grid.py`). In 2024: app-only rulers grew about 5-7% (Momentum Works 5.2%, e-Conomy 5.1%, Bank Indonesia 7.3%). Rulers that see all sellers or parcels grew 17-41% (BPS 17.1%, SEA parcels 25.2%, J&T 40.8%).
+- Eleven rulers of the same online economy (`consistency_grid.py`). In 2024: app-only rulers grew about 5-7% (Momentum Works 5.2%, e-Conomy 5.1%, Bank Indonesia 7.3%). BPS, the only Indonesia-wide count of all online sellers, grew 17.1%. Adjacent rulers point the same way but are not Indonesian e-commerce: Southeast Asia-wide parcels +25.2% (J&T's own SEA parcels +40.8%), and VAT on foreign digital services +24.9%. BPS's growth is partly survey design (section 5), so this gap is part coverage, part counting.
 - The two state offices moved in opposite directions in 2023: Bank Indonesia -4.7%, BPS +40.6% (`yardsticks.py`). BPS's level is 1.6x Bank Indonesia's in 2022 and 2.65x in 2024.
 - BPS's own microdata reconciles part of this: its marketplace-to-consumer slice for 2022 is only 0.16-0.68x Bank Indonesia's figure (RBI holds). So the gap is not about marketplaces; BPS counts much more outside them.
 - Platform sales vs official household spending, by quarter (`three_rulers.py`): GoTo's sales grew slower than nominal household spending in each of the last four quarters (2Q26: sales +2.0%, spending +8.3%), while its revenue grew 20.5%.

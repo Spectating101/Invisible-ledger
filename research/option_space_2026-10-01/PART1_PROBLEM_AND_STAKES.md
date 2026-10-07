@@ -10,7 +10,7 @@ Companion files: `FINDINGS.md` (all results), `PREREGISTRATION.md` (tests and ve
 | Piece | What backs it | Where |
 |---|---|---|
 | Several numbers, different definitions | Each source's own definition: platform sales (GMV, GTV, TPV), platform revenue, BPS survey, Bank Indonesia figure, payment data | `tables/v_definition_map.csv`; BPS and BI method notes |
-| Different sizes and growth | 11 counters compared: those seeing mainly the apps grow slowly, those seeing all sellers, parcels or tax grow fast | `consistency_grid.py` |
+| Different sizes and growth | 11 counters compared: those seeing mainly the apps grow slowly; BPS, the one Indonesia-wide count of all sellers, grows much faster (regional parcel counts point the same way, but cover all of Southeast Asia). Part of BPS's growth is survey design, so the gap is part coverage, part counting | `consistency_grid.py`; `bps_frame_check.py` |
 | Opposite directions between state offices | Bank Indonesia's figure fell while BPS's rose sharply in the same year (2023) | `yardsticks.py` |
 | Opposite directions inside one firm | Tokopedia 2022-23: revenue up, sales down, both from its own reports | proposal Table 5; filings |
 | A known measurement problem | E-commerce figures clash because definitions differ (UNCTAD); GDP counts a platform's fee, not the sales it carries (Ahmad and Schreyer 2016; OECD 2023) | references below |
