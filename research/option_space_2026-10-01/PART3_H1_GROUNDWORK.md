@@ -73,4 +73,4 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 
 ## Dated notes
 
-(none since version 2)
+- **8 Oct 2026, after version 2 (exploratory, `listing_check.py`).** The listing link tested on the foreign firms: their take rates do not swing more within 3 years of listing (median 0.070) than later (0.084; 9 of 15 larger, Wilcoxon p = 0.24). So listing alone is not a general cause. The Indonesian and regional platforms made their largest move 1 year after listing (Bukalapak 2022, Grab 2022, Tokopedia 2023, Blibli 2023) or 2 years (GoTo on-demand 2024). Neither the end of cheap money worldwide nor listing alone explains it; what is specific to them is the combination: listing at the 2021-22 peak with very large incentives, then repricing within one to two years during the 2022-23 tech winter. Descriptive, not a tested cause.

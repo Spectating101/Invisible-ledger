@@ -15,3 +15,7 @@ L13,Existing sellers 2022 vs 2021: online revenue up (%),36.9,36.880147,PASS
 L14,Existing sellers 2022 vs 2021: online revenue down (%),24.4,24.415819,PASS
 L15,Main obstacle 2022: lack of demand (%),35.3,35.263034,PASS
 L16,Main obstacle 2022: lack of capital (%),36.8,36.836089,PASS
+L17,Foreign firms: median take-rate swing within 3 years of listing,0.07,0.069737,PASS
+L18,Foreign firms: median take-rate swing later,0.084,0.083702,PASS
+L19,"Foreign firms: within-3-years vs later, Wilcoxon p",0.24,0.244354,PASS
+L20,Indonesian platforms whose largest move came 1 year after listing (of 5),4.0,4.0,PASS

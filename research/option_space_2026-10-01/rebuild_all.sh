@@ -38,6 +38,7 @@ step h1_groundwork.py          # Part 3 groundwork: Grab pricing vs mix, Tokoped
 step claims_ledger_v6.py       # Part 3 groundwork numbers
 step timing_check.py           # exploratory: were 2022-24 swings specific to Indonesian platforms?
 step bps_cohort_2024_published.py  # cohort check 2023->2024 from the published 2024 table
+step listing_check.py          # exploratory: do take rates swing more in the first years after listing?
 step claims_ledger_v7.py       # cheap checks of 8 Oct (timing; BPS cohorts from committed totals; GoTo 2024)
 step claims_ledger_v8.py       # linking checks (gel_checks.json, from licensed data)
 echo "== ledgers"; "$PY" - <<'PYEOF'
