@@ -1,0 +1,19 @@
+{
+ "provinces_compared": 34,
+ "provinces_only_in_one_file": 2,
+ "sample_rows_growth_pct": 25.255327197074774,
+ "count_growth_pct_range_across_provinces": [
+  -56.46302938489646,
+  138.8272750974936
+ ],
+ "spearman_count_growth_vs_entrant_share": [
+  0.0961038961038961,
+  0.5887344912074548
+ ],
+ "spearman_count_growth_vs_sample_growth": [
+  0.3524828113063407,
+  0.040896502088429806
+ ],
+ "provinces_growing_beyond_entry": 23,
+ "share_of_count_increase_from_those_provinces_pct": 98.48315465294525
+}
