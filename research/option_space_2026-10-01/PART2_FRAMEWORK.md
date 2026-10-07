@@ -125,4 +125,4 @@ Third-quarter 2026 scoring: GoTo 27 Oct (P1-P5, R1, R2); marketplace tax start 1
 
 ## Dated notes
 
-(none since version 2)
+- **8 Oct 2026, after version 2 (`part5_checks.py`).** Qualification: BPS's "marketplace" slice is not the same object as shopping-marketplace GMV. Only 47% of BPS's marketplace sellers use a shopping marketplace (Tokopedia, Shopee, Bukalapak, Lazada); 43% use only Gojek or Grab (food and ride merchants). So the slow growth of BPS's marketplace slice and of the platform indicators is a fact, but the slices overlap rather than match; read "where they measure the same slice" as "where they measure overlapping slices". The disagreement still sits outside marketplaces.

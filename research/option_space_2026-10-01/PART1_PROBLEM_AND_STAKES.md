@@ -93,4 +93,4 @@ That anyone made a bad decision; any effect of the policies (no causal claims); 
 
 ## Dated notes
 
-(none since version 2)
+- **8 Oct 2026, after version 2 (`part5_checks.py`).** Qualification: BPS's "marketplace" slice is not the same object as shopping-marketplace GMV. Only 47% of BPS's marketplace sellers use a shopping marketplace (Tokopedia, Shopee, Bukalapak, Lazada); 43% use only Gojek or Grab (food and ride merchants). So the slow growth of BPS's marketplace slice and of the platform indicators is a fact, but the slices overlap rather than match; read "where they measure the same slice" as "where they measure overlapping slices". Part 1's counters row is read accordingly.

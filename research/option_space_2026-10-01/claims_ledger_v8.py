@@ -2,7 +2,7 @@
 Run: python3 claims_ledger_v8.py -> tables/claims_ledger_v8.csv"""
 import json
 import pandas as pd
-T = "tables/"; g = json.load(open(T + "gel_checks.json")); lc = json.load(open(T + "listing_check.json"))
+T = "tables/"; g = json.load(open(T + "gel_checks.json")); lc = json.load(open(T + "listing_check.json")); p5 = json.load(open(T + "part5_checks.json"))
 v = g["value_increase_split_pct"]; e = g["existing_sellers_reported_change_2023"]; m = g["bps_marketplace_value_tn"]["growth_2022_2023_pct_by_scenario"]
 claims = [
  ("L01", "Main obstacle 2023: lack of demand (% of sellers)", 41.3, g["main_obstacle_2023_pct"]["lack of demand"], 0.05),
@@ -25,6 +25,11 @@ claims = [
  ("L18", "Foreign firms: median take-rate swing later", 0.084, lc["median_later"], 0.0005),
  ("L19", "Foreign firms: within-3-years vs later, Wilcoxon p", 0.24, lc["wilcoxon_one_sided_p"], 0.005),
  ("L20", "Indonesian platforms whose largest move came 1 year after listing (of 5)", 4, sum(v["years_after_listing"] == 1 for v in lc["indonesia_largest_move"].values()), 0),
+ ("P01", "BPS marketplace sellers 2022 (thousands)", 592, p5["bps_marketplace_sellers_2022_k"], 1),
+ ("P02", "BPS marketplace sellers with Rp50bn+ revenue: sample rows", 19, p5["bps_marketplace_by_size_2022"][">50bn"]["sample_rows"], 0),
+ ("P03", "BPS marketplace sellers with Rp50bn+ revenue (% of sellers)", 0.5, p5["bps_marketplace_by_size_2022"][">50bn"]["share_of_marketplace_sellers_pct"], 0.05),
+ ("P04", "BPS marketplace sellers using a shopping marketplace, 2023 (%)", 47.0, p5["bps_marketplace_sellers_by_app_2023_pct"]["shopping marketplaces (Tokopedia, Shopee, Bukalapak, Lazada)"], 0.05),
+ ("P05", "BPS marketplace sellers using only food and ride apps, 2023 (%)", 43.1, p5["bps_marketplace_sellers_by_app_2023_pct"]["only food and ride apps"], 0.05),
 ]
 L = pd.DataFrame([dict(id=i, claim=x, stated=s, recomputed=round(float(val), 6), status="PASS" if abs(float(val) - s) <= tol else "CHECK") for i, x, s, val, tol in claims])
 L.to_csv(T + "claims_ledger_v8.csv", index=False); print(L.to_string(index=False)); print(L.status.value_counts().to_dict())
