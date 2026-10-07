@@ -13,5 +13,15 @@ C05,Pre-2023 sellers counted in 2023 beyond the 2022 count (thousands),306.0,305
 C06,Share of the 2023 rise from pre-2023 sellers not counted before (%),37.3,37.321428,PASS
 C07,Started selling online in 2022: 2022 survey (thousands),437.0,436.818572,PASS
 C08,Started selling online in 2022: 2023 survey (thousands),612.0,612.196289,PASS
+C09,"2023->2024: sellers started before 2020, change (published 2024 vs 2023 survey, %)",-10.2,-10.239532,PASS
+C10,"2023->2024: sellers started 2020-22, change (%)",0.1,0.081278,PASS
+C11,2024: minimum new sellers (thousands),754.0,753.81937,PASS
+C12,2023->2024: published rise in sellers (thousands),584.0,584.222,PASS
+C13,"Sellers started by 2022, marketplace users: change 2022->2023 survey (%)",0.3,0.264572,PASS
+C14,"Sellers started by 2022, chat or social only: change 2022->2023 survey (%)",13.0,13.002123,PASS
+C15,"Financial statements, sellers started before 2020, 2022 survey (%)",23.4,23.434238,PASS
+C16,"Financial statements, sellers started before 2020, 2023 survey (%)",16.8,16.842696,PASS
+C17,Revenue under Rp300m: sellers started 2022 (%),86.5,86.45372,PASS
+C18,Revenue under Rp300m: sellers started before 2020 (%),80.7,80.663952,PASS
 O01,"GoTo on-demand incentives as % of GTV, 2023",11.3,11.3,PASS
 O02,"GoTo on-demand incentives as % of GTV, 2024",5.0,5.0,PASS

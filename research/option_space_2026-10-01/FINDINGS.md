@@ -64,7 +64,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - BPS's own answers (microdata, 7 Oct; exhibit 5):
   - Only 13.4% of 2023 sellers started selling online in 2023. Even if nobody quit, that explains at most +15.5% seller growth, against the published +27.4% (E5 falsified). In growth terms, at least 40% of the published rise is not explained by entry (a lower bound).
   - Sellers already online had a median change of 0% in online revenue: 24% up, 44% same, 32% down (E6 holds).
-  - Same cohorts across surveys (exploratory, `bps_cohort_check.py`): sellers who started selling online by 2020 shrank 9.9% between the 2020 and 2022 surveys (as they should), then grew 6.0% between the 2022 and 2023 surveys. The 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count: 37% of the published rise, net of exits. Direct evidence that the 2023 survey counted existing sellers it had not counted before.
+  - Same cohorts across surveys (exploratory, `bps_cohort_check.py`): sellers who started selling online by 2020 shrank 9.9% between the 2020 and 2022 surveys (as they should), then grew 6.0% between the 2022 and 2023 surveys. The 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count: 37% of the published rise, net of exits. Direct evidence that the 2023 survey counted existing sellers it had not counted before. The extra sellers were all off-marketplace (chat or social only +13%; marketplace users +0.3%). From 2023 to 2024 the count behaves normally (published 2024 table: pre-2020 sellers -10.2%, at least 754 thousand new sellers against a rise of 584 thousand), so 2023 was a break year, not a permanent bias. See `PART4_H2_GROUNDWORK.md`.
 - **What this means for H2:** the 2022-2023 "more businesses" is largely more businesses counted, not more businesses selling. H2 still holds as arithmetic on BPS's numbers. Its meaning changes: national growth on paper came from wider counting more than from new sellers or existing sellers growing. The thesis states this plainly, as registered.
 
 ## 6. Channels and records (the proposal's two additional analyses)
@@ -73,7 +73,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - Marketplace use fell each time it was measured: 21.6% of sellers (2020), 19.8% (2022), 17.8% (2023), 17.2% (2024, published).
 - BPS's "marketplace" is mostly food and ride apps: among its marketplace sellers in 2023, 45% use Gojek, 42% Shopee, 42% Grab, 13% Tokopedia.
 - Records: 28.6% of marketplace sellers keep complete financial statements vs 12.3% of others (published; the microdata reproduces this exactly).
-- The share keeping financial statements fell: 23.5% (2020), 20.7% (2022), 15.2% (2023).
+- The share keeping financial statements fell: 23.5% (2020), 20.7% (2022), 15.2% (2023). The 2022-23 step partly reflects who was newly counted: within the same pre-2020 cohort the share went from 23.4% to 16.8% between surveys, as chat-only sellers were added; the 2020-22 decline happened while coverage was stable.
 - Sellers without financial statements hold 30-40% of 2022 online value (E1, range consistent with BPS's own total).
 - Unregistered firms (World Bank, six cities, 2023): 27% sell through social media; their median sales are Rp60m a year; 70% keep no written records.
 - Formal firms: 39.9% in Indonesia have neither a website nor online tax filing, the highest of seven Southeast Asian countries (Malaysia 9.1%, Thailand 8.7%, Viet Nam 0.4%).

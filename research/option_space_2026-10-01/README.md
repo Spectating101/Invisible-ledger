@@ -1,11 +1,12 @@
 # October 2026 research package (index)
 
 Status: research evidence for the frozen proposal (`papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf`). It is not a plan to change the concept. `ATLAS.md` is an older options map; its spine options are superseded and its numbers are checked by `tables/claims_ledger.csv`.
-Rebuild everything: `bash research/option_space_2026-10-01/rebuild_all.sh` (about 3 minutes; deterministic; checks `claims_ledger.csv` 55/55, `claims_ledger_v2.csv` 32/32, `claims_ledger_v3.csv` 20/20, `claims_ledger_v4.csv` 29/29, `claims_ledger_v5.csv` 30/30, `claims_ledger_v6.csv` 14/14 and `claims_ledger_v7.csv` 16/16).
+Rebuild everything: `bash research/option_space_2026-10-01/rebuild_all.sh` (about 3 minutes; deterministic; checks `claims_ledger.csv` 55/55, `claims_ledger_v2.csv` 32/32, `claims_ledger_v3.csv` 20/20, `claims_ledger_v4.csv` 29/29, `claims_ledger_v5.csv` 30/30, `claims_ledger_v6.csv` 14/14 and `claims_ledger_v7.csv` 26/26).
 **All results in one place, in the proposal's order: `FINDINGS.md` (7 Oct 2026).**
 **Part 1 (problem and why it matters), evidence map and publication assessment: `PART1_PROBLEM_AND_STAKES.md` (7 Oct 2026).**
 **Part 2 (framework; one structure linking the proposal order, the four story layers and the framework levels): `PART2_FRAMEWORK.md`. Parts 1 and 2 frozen 7 Oct 2026 (tag `parts-1-2-frozen-2026-10-07`).**
 **Part 3 (H1 groundwork, 2023 verdict): `PART3_H1_GROUNDWORK.md` (frozen 7 Oct 2026, tag `part-3-groundwork-frozen-2026-10-07`).**
+**Part 4 (H2 groundwork: 2023 break year in BPS's count, newly counted chat-only sellers; records and channels): `PART4_H2_GROUNDWORK.md` (frozen 8 Oct 2026, tag `part-4-groundwork-frozen-2026-10-08`). Next: Part 5, Objective 3 (between indicators).**
 Pre-registered tests (cap, headroom flag, BPS statistics, microdata estimands): `PREREGISTRATION.md`. Do not edit it; add dated addenda only.
 
 ## Evidence map

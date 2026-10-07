@@ -37,6 +37,7 @@ step claims_ledger_v5.py       # BPS microdata aggregates, quarterly H1, wedge s
 step h1_groundwork.py          # Part 3 groundwork: Grab pricing vs mix, Tokopedia two views, 2023 verdict
 step claims_ledger_v6.py       # Part 3 groundwork numbers
 step timing_check.py           # exploratory: were 2022-24 swings specific to Indonesian platforms?
+step bps_cohort_2024_published.py  # cohort check 2023->2024 from the published 2024 table
 step claims_ledger_v7.py       # cheap checks of 8 Oct (timing; BPS cohorts from committed totals; GoTo 2024)
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
