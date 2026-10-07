@@ -1,0 +1,844 @@
+                                   BA DAN PUSAT STA TISTIK
+
+
+
+
+                      PERATURAN BADAN PUSAT STATISTIK
+
+                                 N O M O R 4 TAHUN 2 0 2 3
+
+                                          TENT ANG
+
+     PENYAMPAIAN DAN PENGELOLAAN DATA DAN/ATAU INFORMASI
+
+                PERDAGANGAN MELALUI SISTEM ELEKTRONIK
+
+
+
+                     DENGAN RAHMAT TUHAN YANG MAHA ESA
+
+
+
+                         KEPALA BADAN PUSAT STATISTIK,
+
+
+
+
+Menimbang   : bahwa         untuk     melaksanakan           ketentuan         Pasal      21     ayat   4
+
+                Peraturan        Pemerintah         Nomor         80     Tahun       2019       tentang
+
+                Perdagangan Melalui Sistem Elektronik dan untuk mendapatkan
+
+                basis data pelaku usaha perdagangan melalui sistem elektronik,
+
+                perlu    menetapkan        Peraturan         Badan       Pusat     Statistik    tentang
+
+                Penyampaian          dan        Pengelolaan        Data     dan/atau           Informasi
+
+                Perdagangan Melalui Sistem Elektronik;
+
+
+
+Mengingat   :   1.    Undang-Undang         Nomor       16   Tahun         1997    tentang      Statistik
+
+                      (Lembaran      Negara      Republik     Indonesia Tahun           1997     Nomor
+
+                      3 9 , Tambahan Lembaran Negara Republik Indonesia Nomor
+
+                      3683);
+
+
+                2.    Undang-Undang Nomor 7 Tahun 2 0 1 4 tentang Perdagangan
+
+                      (Lembaran      Negara      Republik     Indonesia Tahun           2014     Nomor
+
+                      4 5 , Tambahan Lembaran Negara Republik Indonesia Nomor
+
+                      5512);
+
+
+                3.    Undang-Undang              Nomor        27       Tahun        2022        tentang
+
+                      Perlindungan       Data      Pribadi        (Lembaran       Negara       Republik
+
+                      Indonesia     Tahun       2022    Nomor       196,    Tambahan        Lembaran
+
+                      Negara Republik Indonesia Nomor 6 8 2 0 ) ;
+
+
+                4.    Peraturan      Pemerintah         Nomor       51     Tahun      1999      tentang
+
+                      Penyelenggaraan           Statistik     (Lembaran           Negara       Republik
+
+                      Indonesia     Tahun        1999   Nomor       96,    Tambahan         Lembaran
+
+                      Negara Republik Indonesia Nomor 3 8 5 4 ) ;
+
+
+                5.    Peraturan      Pemerintah         Nomor       80     Tahun      2019      ten tang
+
+                      Perdagangan       Melalui     Sistem    Elektronik          (Lembaran      Negara
+
+                      Republik     Indonesia       Tahun      2019       Nomor     222,    Tambahan
+
+                      Lembaran Negara Republik Indonesia Nomor 6 4 2 0 ) ;
+
+
+                6.    Peraturan     Presiden      Nomor      86    Tahun    2007     tentang      Badan
+
+                      Pusat Statistik (Lembaran Negara Republik Indonesia Tahun
+
+                      2 0 0 7 Nomor 1 3 9 ) ;
+                                           - 2 -
+
+
+
+
+             7.   Peraturan Presiden Nomor 39 Tahun 2 0 1 9 tentang Satu Data
+
+                  Indonesia (Lembaran Negara Republik Indonesia Tahun 2 0 1 9
+
+                  Nomor 1 1 2 ) ;
+
+
+
+
+                                    M E M U T U S KA N :
+
+Menetapkan   PERATURAN              BADAN           PUSAT           STATISTIK            TENTANG
+
+             PENYAMPAIAN              DAN        PENGELOLAAN                DATA      DAN/ATAU
+
+             INFORMASI PERDAGANGAN MELALUI SISTEM ELEKTRONIK.
+
+
+
+                                                        BAB I
+
+                                           KETENTUAN UMUM
+
+
+
+                                                    Pasal 1
+
+             Dalam Peraturan Badan ini yang dimaksud dengan:
+
+             1.    Perdagangan adalah tatanan kegiatan yang terkait dengan
+
+                   transaksi      Barang       dan/ atau        Jasa   di   dalam     negeri    dan
+
+                   melampaui batas wilayah negara dengan tujuan pengalihan
+
+                   hak atas Barang dan/ atau Jasa untuk memperoleh imbalan
+
+                   atau kompensasi.
+
+             2.    Perdagangan         Melalui     Sistem       Elektronik     yang   selanjutnya
+
+                   disingkat     PMSE       adalah       Perdagangan        yang    transaksinya
+
+                   dilakukan        melalui    serangkaian         perangkat       dan   prosedur
+
+                   elektronik.
+
+             3.    Sistem       Elektronik       adalah     serangkaian         perangkat       dan
+
+                   prosedur         elektronik      yang        berfungsi      mempersiapkan,
+
+                   mengumpulkan,            mengolah,           menganalisis,         menyimpan,
+
+                   menampilkan,          mengumumkan,              mengirimkan,          dan/ atau
+
+                   menyebarkan Informasi Elektronik.
+
+             4.    Komunikasi         Elektronik        adalah     setiap    komunikasi        yang
+
+                   digunakan        dalam      PMSE        berupa      pernyataan,       deklarasi,
+
+                   permintaan, pemberitahuan atau permohonan, konfirmasi,
+
+                   penawaran        atau    penerimaan          terhadap     penawaran,        yang
+
+                   memuat kesepakatan para pihak untuk pembentukan atau
+
+                   pelaksanaan suatu perjanjian.
+
+             5.    Penyelenggara Perdagangan Melalui Sistem Elektronik yang
+
+                   selanjutnya        disingkat         PPMSE       adalah      Pelaku      Usaha
+
+                   penyedia      sarana     Komunikasi          Elektronik     yang    digunakan
+
+                   untuk transaksi Perdagangan.
+
+             6.    Badan     Pusat      Statistik       yang    selanjutnya      disingkat      BPS
+
+                   adalah    lem baga      yang    berwenang        dalam      penyelenggaraan
+
+                   statistik.
+
+             7.    Data     Statistik       adalah        data     berupa       angka      ten tang
+
+                   karakteristik        atau     ciri    khusus        suatu    populasi       yang
+
+                   diperoleh        dengan         cara     pengumpulan,              pengolahan,
+
+                   penyajian, dan analisis.
+
+             8.    Metadata      adalah       informasi     dalam       bentuk     struktur     dan
+
+                   format       yang       baku         untuk       menggambarkan              data,
+
+                   menjelaskan           data,      serta        memudahkan            pencarian,
+
+                   penggunaan, dan pengelolaan informasi data.
+                               - 3 -
+
+
+
+
+                                         BAB II
+
+                                RUANG LINGKUP
+
+
+
+                                        Pasal 2
+
+Ruang         lingkup     penyampaian      dan    pengelolaan      data    dan/atau
+
+informasi PMSE meliputi:
+
+      a.     penyampaian data dan/ atau informasi;
+
+      b.     pengelolaan data dan/ atau informasi;
+
+      c.     pelindungan data dan/atau informasi; dan
+
+      d.     evaluasi   penyampaian       dan     pengelolaan      data    dan/atau
+
+             informasi.
+
+
+
+                                        BAB III
+
+                PENYAMPAIAN DATA DAN/ATAU INFORMASI
+
+
+
+                                    Bagian Kesatu
+
+              Kewajiban Penyampaian Data dan/ atau Informasi
+
+
+
+                                        Pasal 3
+
+(1)    PPMSE wajib memberikan data dan/atau informasi kepada
+
+       BPS secara berkala.
+
+(2)    BPS      menyampaikan           laporan    kepada     Kementerian        yang
+
+       menyelenggarakan             urusan        pemerin tahan       di      bi dang
+
+       perdagangan         mengenai     PPMSE      yang    tidak    melaksanakan
+
+       kewajiban        sebagaimana      dimaksud     pada    ayat    (1),   melalui
+
+       sistem elektronik.
+
+(3)    Menteri     yang     menyelenggarakan        urusan        pemerintahan      di
+
+       bidang     perdagangan       sebagaimana      dimaksud       pada     ayat   (2)
+
+       mengenakan          sanksi    administratif    kepada        Pelaku    U saha
+
+       PMSE       sesuai    ketentuan     peraturan       perundang-undangan
+
+       mengenai P M S E .
+
+(4)    Data dan/atau informasi sebagaimana dimaksud pada ayat
+
+       (1)    adalah    kumpulan       angka,    huruf,   kata,    dan/atau     citra,
+
+      yang bentuknya dapat berupa surat,                  dokumen,     buku,    atau
+
+       catatan serta keterangan yang dapat memberikan petunjuk
+
+      mengenai P M S E .
+
+(5)    Data dan/atau informasi sebagaimana dimaksud pada ayat
+
+       ( 1 ) diberikan dalam format elektronik.
+
+
+
+                                    Bagian Kedua
+
+                          Jenis Data dan/ atau Informasi
+
+
+
+                                        Pasal 4
+
+(1)    Data      dan/atau     informasi     yang    wajib    disampaikan         oleh
+
+       PPMSE       sebagaimana         dimaksud     dalam     Pasal    3     ayat   (1)
+
+      meliputi:
+
+      a. keterangan umum perusahaan;
+
+      b . tenaga kerja;
+
+      c . pendapatan dan pengeluaran;
+
+      d . kategori produk;
+
+      e . kategori wilayah;
+
+      f.     transaksi;
+
+      g. metode pembayaran; dan
+
+      h . j u m l a h penjual dan pembeli.
+                                     - 4 -
+
+
+
+
+(2)    Ketentuan            rnengenai          petunjuk        teknis         dan    rincian        data
+
+       dan/atau         inforrnasi        sebagairnana           dirnaksud           pada        ayat    (1)
+
+       ditetapkan           dengan    Keputusan             Kepala B P S .
+
+(3)    BPS     dapat        rnenarnbah         dan/atau        rnengubah            data    dan/atau
+
+       inforrnasi           sebagairnana            dirnaksud         pada      ayat       (1)    sesuai
+
+
+       dengan kebutuhan               data dan/atau             inforrnasi.
+
+(4)    Dalarn         hal    jenis    data          dan/atau      inforrnasi          sebagairnana
+
+       dirnaksud        pada       ayat    (1)      tetapi    tidak    rnernenuhi          ketentuan
+
+       sebagairnana            dirnaksud            pada      ayat     (2)    rnaka     BPS        dapat
+
+       rnelakukan            pendalarnan             keterangan          untuk         rnernperjelas
+
+
+       data.
+
+(5)    Data    dan/ atau        inforrnasi          sebagairnana         dirnaksud         pada     ayat
+
+       (1)   hanya digunakan untuk kegiatan                           statistik.
+
+
+
+
+                                          Bagian       Ketiga
+
+               Waktu Penyarnpaian                    Data dan/ atau           Inforrnasi
+
+
+
+
+                                                 Pasal5
+
+  PPM SE       rnenyarnpaikan             data       dan/ atau        inforrnasi     sebagairnana
+
+  dirnaksud           dalarn Pasal 3 ayat             (1)   setiap    triwulan.
+
+
+
+
+                                        Bagian         Keernpat
+
+              Tata Cara Penyarnpaian Data dan/ atau                             lnforrnasi
+
+
+
+
+                                                    Pasal 6
+
+( 1)   Pen yarn paian           data         dan / atau          inforrnasi          se bagairnana
+
+       dirnaksud        dalarn     Pasal       3,   rnenggunakan             rnoda penyarnpaian
+
+       data dalarn          bentuk:
+
+       a.    forrnulir elektronik (e-form);
+
+       b.    unggah berkas;
+
+       c.    pertukaran            data        rnenggunakan             rnesm          (Machine           to
+
+             Machine atau            M2M);      dan/atau
+
+       d.    kunjungan ke kantor B P S .
+
+
+(2)    Penyarnpaian             data         dan/ atau           inforrnasi          sebagairnana
+
+       dirnaksud        pada ayat       ( 1)   huruf c harus disertai Metadata.
+
+(3)    BPS      dapat         rnengernbangkan                 rnoda          penyarnpaian           data
+
+       dan / atau       inforrnasi        se bagairnana          dirnaksud          pad a        ayat    ( 1)
+
+       sesuai         dengan         perkernbangan              ilrnu        pengetahuan            dan
+
+       teknologi.
+
+(4)    BPS      rnelakukan            verifikasi        dan      validasi       data        dan/atau
+
+       inforrnasi      sebagairnana dirnaksud                  pada ayat        (1).
+
+(5)    Penyarnpaian            data       dan/ atau            inforrnasi        rnelalui         portal
+
+       sebagairnana            dirnaksud            pada      ayat     (1)    tercanturn          dalarn
+
+       Larnpiran        yang       rnerupakan           bagian        tidak    terpisahkan          dari
+
+       Peraturan        Badan ini.
+
+(6)    BPS rnernberikan bukti penerirnaan data dan/ atau inforrnasi
+
+       sebagairnana dirnaksud                  pada ayat        (1)   kepada P P M S E .
+
+(7)    Dalarn     hal       data     dan/ atau         inforrnasi       yang        diterirna      tidak
+
+       lengkap,       BPS rnenyarnpaikan pernberitahuan kepada PPMSE
+
+       untuk rnelengkapi kekurangan                          data dan/ atau          inforrnasi.
+
+(8)    Dalarn hal terdapat perubahan data dan/ atau inforrnasi yang
+
+       telah    disarnpaikan           sebagairnana            dirnaksud         dalarn          Pasal     3
+
+       ayat    (1),    PPMSE       rnenyarnpaikan              perubahan         data       dan/atau
+
+       inforrnasi tersebut pada triwulan berikutnya.
+                                - 5 -
+
+
+
+
+                                         BABIV
+
+               PENGELOLAAN DATA DAN/ ATAU INFORMASI
+
+
+
+                                     Bagian Kesatu
+
+                      Pengelola Data dan/ atau Informasi
+
+
+
+                                         Pasal 7
+
+( 1 ) BPS melakukan pengelolaan data dan/atau informasi P M S E .
+
+(2) Pengelolaan data dan/ atau informasi sebagaimana dimaksud
+
+      pada ayat ( 1 ) meliputi:
+
+      a.   pengolahan data dan/ atau informasi; dan
+
+      b.   berbagi pakai data dan/ atau informasi.
+
+
+
+                                        Bagian Kedua
+
+                       Pengolahan Data dan/atau Informasi
+
+
+
+                                         Pasal 8
+
+BPS bertanggung jawab melakukan pengolahan data dan/atau
+
+informasi        yang       disampaikan        sebagaimana        dimaksud     dalam
+
+Pasal      4   ayat   (1)   untuk    menyediakan         data   dan/atau    informasi
+
+statistik yang akurat dan mutakhir.
+
+
+
+                                         Pasal 9
+
+( 1 ) Data     dan/atau       informasi      statistik    sebagaimana       dimaksud
+
+      dalam Pasal 8 disampaikan dalam bentuk data agregasi.
+
+(2) Data        agregasi      sebagaimana          dimaksud        pada      ayat    (1)
+
+      merupakan         himpunan        data   sebagaimana        dimaksud     dalam
+
+      Pasal 4 ayat ( 1 ) .
+
+
+
+                                         Bagian Ketiga
+
+                        Berbagi Pakai Data dan/ atau Informasi
+
+
+
+                                         Pasal 1 0
+
+( 1 ) BPS      melakukan        berbagi      pakai     data     dan/atau    informasi
+
+      dengan      kemen terian / lem baga         pemerin tah      nonkemen terian
+
+      dan/ atau       pemerintah         daerah      sesuai      dengan     ketentuan
+
+      peraturan perundang-undangan.
+
+( 2 ) Dalam      melakukan       berbagi       pakai   data     dan/ atau   informasi
+
+      sebagaimana dimaksud pada ayat ( 1 ) , BPS mengembangkan
+
+      tata     cara   berbagi    pakai     data      dan/ atau    informasi    sesuai
+
+      dengan perkembangan ilmu pengetahuan dan teknologi.
+
+
+
+                                             BABV
+
+                 PELINDUNGAN DATA DAN/ ATAU INFORMASI
+
+
+
+                                         Pasal 1 1
+
+(1)   BPS      memberikan           pelindungan        terhadap     data    dan/atau
+
+      informasi       yang    disampaikan         oleh    PPMSE     sesuai    dengan
+
+      ketentuan peraturan perundang-undangan.
+
+(2)   Kementerian,           lembaga     pemerintah        nonkementerian,          dan
+
+      pemerintah            daerah      yang    memperoleh         data     dan/ atau
+
+      informasi       dari    BPS    wajib     memberikan        pelindungan        data
+
+      dan/ atau        informasi      sesuai    dengan        ketentuan     peraturan
+
+      perundang-undangan.
+                        - 6 -
+
+
+
+
+                                 BAB VI
+
+      EVALUASI PENYAMPAIAN DAN PENGELOLAAN DATA
+
+                    D A N / ATAU INFORMASI
+
+
+
+                                Pasal   12
+
+BPS   melakukan   evaluasi      penyampaian    dan   pengelolaan   data
+
+dan/ atau   informasi      dengan         melibatkan    PPMSE      dan
+
+kementerian/lembaga       pemerintah         nonkementerian     terkait
+
+sesuai dengan kebutuhan.
+
+
+
+                                BAB VII
+
+                    KETENTUAN PENUTUP
+
+
+
+                                Pasal 1 3
+
+Uji coba penyampaian dan pengelolaan data dan/ atau informasi
+
+PMSE dilaksanakan paling lama 6 (enam) bulan terhitung sejak
+
+Peraturan Badan ini diundangkan.
+
+
+
+                                Pasal 1 4
+
+Peraturan Badan ini mulai berlaku pada tanggal diundangkan.
+                                                   - 7 -
+
+
+
+
+                  Agar         setiap         orang         mengetahuinya,         memerintahkan
+
+                  pengundangan          Peraturan          Badan   ini   dengan    penempatannya
+
+                  dalam Berita Negara Republik Indonesia.
+
+
+
+
+                                                           Ditetapkan di Jakarta
+
+                                                           pada tanggal 9 Maret 2 0 2 3
+
+
+
+                                                           KEPALA BADAN PUSAT STATISTIK,
+
+
+
+                                                                             ttd
+
+
+
+                                                                     MARGO YUWONO
+
+
+
+
+Diundangkan di Jakarta
+
+pada tanggal 2 0 Maret 2 0 2 3
+
+
+
+DIREKTUR JENDERAL
+
+PERATURAN PERUNDANG-UNDANGAN
+
+KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA
+
+REPUBLIK I N D O N E S I A ,
+
+
+
+        ttd
+
+
+
+ASEP N . MULYANA
+
+
+
+
+BERITA NEGARA REPUBLIK I N D O N E S I A TAHUN 2 0 2 3 N O M O R 2 5 7
+
+
+
+
+                               Salinan sesuai dengan aslinya
+
+                                 BADAN PUSAT STATISTIK
+                                        di,
+
+
+                  Kepala Biro H:uou            "   �"   asyarakat dan Hukum,
+
+
+
+
+                               r(
+                                                      LAMPI RAN
+
+                                                      PERATURAN BADAN PUSAT STATISTIK
+
+                                                      N O M O R 4 TAHUN 2 0 2 3
+
+                                                      TENT ANG
+
+                                                      PENYAMPAIAN DAN PENGELOLAAN DATA
+
+                                                      DAN/ATAUINFORMASIPERDAGANGAN
+
+                                                      MELALUI SISTEM ELEKTRONIK
+
+
+
+           PENYAMPAIAN DATA DAN/ATAU INFORMASI MELALUI PORTAL
+
+
+
+       Peraturan          Pemerintah            Nomor        80     Tahun    2019      tentang       Perdagangan
+
+Melalui       Sistem        Elektronik           memberikan            amanah         kepada         Badan    Pusat
+
+Statistik (BPS) untuk menjadi instansi yang mencatat transaksi yang terjadi
+
+secara      daring.       Untuk        menjalankan                amanah     tersebut,        BPS    menerbitkan
+
+peraturan Badan Pusat Statistik tentang Penyampaian dan Pengelolaan Data
+
+d an / atau       Informasi           Perdagangan                 melalui    Sistem      Elektronik          sebagai
+
+pedoman.         Dalam rangka memenuhi kebutuhan pencatatan transaksi yang
+
+dilaksanakan            secara       daring,       BPS      menyediakan         portal       untuk     melakukan
+
+penyampaian data dan/ atau informasi.
+
+       PPMSE         perlu       mengakses            portal       PMSE      untuk     membuat          akun     dan
+
+mendapatkan              informasi          terkait        data      dan/ atau       informasi        yang     perlu
+
+disampaikan sesuai dengan jenis kegiatan usaha PPMSE. Adapun langkah­
+
+langkah       penyampaian             data dan/atau informasi yang perlu                           dilakukan oleh
+
+PPMSE adalah sebagai berikut:
+
+ 1.   Pendaftaran Akun
+
+      a.   PPMSE             melakukan                 pendaftaran            akun            melalui        tautan
+
+           https: / / i n d a h . b p s . g o . i d / p m s e ;
+
+      b.   BPS     melakukan            verifikasi       akun       paling   lambat      1    x   24 j am    setelah
+
+           pendaftaran; dan
+
+      c.   PPMSE         akan      menerima           notifikasi       melalui       surat    elektronik      (surel)
+
+           setelah akun berhasil diverifikasi.
+
+2.    Login Akun
+
+      a.   PPMSE           melakukan             login       ke        portal       PMSE          melalui    tautan
+
+           https: / / i n d a h . b p s . g o . i d / p m s e ; dan
+
+      b.   PPMSE mengisikan usemame, password, dan captcha yang tampil di
+
+           layar, kemudian ketuk tombol masuk.
+
+3.    Pengisian Profil
+
+      a.   Jika     baru       pertama         kali     mengakses           portal    PMSE,        maka      PPMSE
+
+           diminta        melengkapi           profil.     Jika     PPMSE      sudah     pernah        melakukan
+
+           pengisian         profil,      maka        PPMSE          dapat    langsung        melakukan          alur
+
+           perekaman data dan/ atau informasi;
+
+      b.   PPMSE mengisi profil perusahan; dan
+
+      c.   PPMSE menunggu verifikasi profil.
+
+4.    Penyampaian Data dan/ atau Informasi
+
+      a.   PPMSE memilih menu Penyampaian Data;
+
+      b.   PPM SE menentukan periode penyampaian data dan/ atau informasi;
+
+      c.   PPMSE             menjawab               pertanyaan              yang        disediakan            untuk
+
+           mengidentifikasi kesesuaian profil perusahan; dan
+
+      d.   PPMSE diarahkan ke laman moda penyampaian data.
+
+5.    Pemilihan Moda Penyampaian Data
+
+      a.   Formulir Elektronik (E-Form);
+
+            e-form     memfasilitasi            PPMSE             untuk   melakukan          entri    data   sesuai
+
+           dengan jenis data yang dibutuhkan. E-form dilengkapi validasi untuk
+
+           mengecek kelengkapan                     dan     kewajaran        dari    setiap   isian.    Selain   itu,
+
+           pada        e-form         disediakan            juga       menu         unggah         data      dengan
+                                             - 2 -
+
+
+
+
+          menggunakan format yang telah ditentukan sehingga PPMSE cukup
+
+          melengkapi data yang diminta pada format tersebut dan tidak perlu
+
+          mengirimkan Metadatanya.
+
+     b.   Unggah Berkas;
+
+          PPMSE     diberikan    pilihan     melakukan unggah            berkas       menggunakan
+
+          format   data   yang    telah    ditentukan        atau    dalam      bentuk    LLA.   Jika
+
+          PPMSE     memilih      unggah      berkas     menggunakan            format    yang    telah
+
+          ditentukan maka kelengkapan data harus disesuaikan dengan jenis
+
+          data    yang   dibutuhkan.       Setiap     berkas    yang     diunggah       akan     dicek
+
+          kelengkapan      datanya oleh       sistem.       Jika PPMSE memilih           melakukan
+
+          unggah     berkas       dengan          bentuk       LLA     maka           PPMSE      perlu
+
+          mengumpulkan Metadatanya melalui proses ajudikasi Metadata yang
+
+          terdapat pada menu Ajudikasi Metadata pada portal P M S E .
+
+     c.   Pertukaran      Data    Menggunakan           Mesin       (Machine     to   Machine    atau
+
+          M2M); dan
+
+          PPMSE      melakukan          permintaan           (request)    melalui        Application
+
+          Programming         Interface     (APl)    un tuk     mendapatkan            token     yang
+
+          digunakan      untuk    penyampaian           data   dan/atau         informasi     beserta
+
+          Metadatanya.
+
+     d.   Kunjungan ke Kantor B P S .
+
+          PPMSE     melakukan          permintaan      jadwal       kunjungan         menggunakan
+
+          formulir yang       tersedia pada portal          PMSE.    PPMSE      menyiapkan         dan
+
+          mengisi   data      sesuai    format      data     yang    sudah      disediakan.      Tiket
+
+          kunjungan dan format data yang sudah diisi dibawa saat kunjungan
+
+          ke kantor B P S .
+
+6.   Bukti Penyampaian Data dan/atau Informasi
+
+     a.   PPMSE     mendapatkan           bukti     telah    melakukan         penyampaian       data
+
+          dan/ atau informasi; dan
+
+     b.   Bukti   penyampaian       data     dan/ atau       informasi    akan        dikirimkan    ke
+
+          surel yang digunakan pada saat registrasi paling lambat 3 x 24 jam.
+
+
+
+
+                                                     KEPALA BADAN PUSAT STATISTIK,
+
+
+
+                                                                         ttd
+
+
+
+                                                               MARGO YUWONO
+

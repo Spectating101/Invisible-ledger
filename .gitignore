@@ -30,3 +30,6 @@ sources/global_ecommerce/raw/**/*
 _local/
 other papers/
 .pytest_cache/
+
+# Primary legal texts: PDFs stay local (checksums and text extracts are committed)
+sources/policy_primary/*.pdf
