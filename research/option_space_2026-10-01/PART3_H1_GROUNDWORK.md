@@ -1,17 +1,17 @@
-# Part 3: H1, inside the platforms (groundwork, 7 Oct 2026)
+# Part 3: H1, inside the platforms (groundwork, version 2, 8 Oct 2026)
 
-**Status: FROZEN 7 Oct 2026** (git tag `part-3-groundwork-frozen-2026-10-07`). Groundwork only: points for the writing stage, not prose. Changes only as dated notes at the end.
-Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numbers: `h1_extended.py`, `build_numbers.py` (`test_battery.csv`), `h1_quarterly.py`, `growth_decomposition.py`, `wedge_split.py`, `h1_groundwork.py`; checked by claims ledgers v1 to v6.
+**Status: FROZEN 8 Oct 2026, version 2** (git tag `parts-1-4-v2-frozen-2026-10-08`). Version 2 folds in the dated notes of 8 Oct; version 1 is at tag `part-3-groundwork-frozen-2026-10-07`. Groundwork only: points for the writing stage. Further changes only as dated notes at the end.
+Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numbers: `h1_extended.py`, `build_numbers.py` (`test_battery.csv`), `h1_quarterly.py`, `growth_decomposition.py`, `wedge_split.py`, `goto_on_demand.py`, `h1_groundwork.py`, `timing_check.py`, `gel_checks.py`; checked by claims ledgers v1 to v8.
 
 ## Punchline and verdict
 
-- **Punchline (whole thesis, H1 is the first half):** Indonesia's two biggest online-economy growth stories, platform revenue booming and online sellers surging, were in large part about how things were counted, not about more buying or more sellers.
-- **Verdict for 2023 (the year of the official boom):**
-  - 5 of 6 Indonesia-only measures of buying through platforms grew less than ordinary household spending (+9.4% nominal), and 3 of them fell: Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia's e-commerce figure -4.7%. The others: Momentum Works +3.5%, Bukalapak +6.9%. Blibli +34.7% is the one exception.
-  - In the same year, platform revenue rose fast (Tokopedia +53%, Bukalapak +23%, Blibli 3P +465%), and BPS published +40.6% e-commerce value and +27.4% online sellers.
-  - BPS's own survey answers allow at most about +15.5% more online sellers from entry (less if any sellers stopped), and the typical seller already online did not grow (24% up, 44% unchanged, 32% down).
-  - So the boom in revenue and in the official seller count was not matched by the buying that platforms themselves record.
-- **Scope of the verdict:** Indonesia-only measures, 2023. Group-wide Grab and Sea figures grew strongly in 2024-26 but cover the region or Asia, not Indonesia. In 2024-25 Indonesian measures are mixed (most below household spending; GoTo on-demand +16.1% in 2024 and e-Conomy +14.5% in 2025 above it). No claim that total online buying in Indonesia fell.
+- **Punchline (whole thesis, H1 is the first half):** Indonesia's two biggest online-economy growth stories in 2023, platform revenue booming and the official count of online sellers surging, were in large part about how things were counted, not about more buying or more sellers.
+- **Verdict for 2023:**
+  - 5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4% nominal), and 3 fell: Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia's e-commerce figure -4.7%. Momentum Works +3.5%, Bukalapak +6.9%; Blibli +34.7% is the one exception.
+  - Platform revenue rose fast (Tokopedia +53%, Bukalapak +23%, Blibli 3P +465%), and BPS published +40.6% e-commerce value and +27.4% online sellers.
+  - Sellers' own view agrees with the buying measures: existing sellers' online revenue was net up in 2022 (37% up, 24% down) and net down in 2023 (24% up, 32% down; mean reported change -4.3%); lack of demand became the main obstacle (35% to 41%). BPS's own marketplace slice was roughly flat (0-13% across scenarios, 0.2% mid).
+  - Exhibit: `exhibits/6_verdict_2023.png` (all Indonesia-only measures, Blibli labelled as the exception).
+- **Scope:** Indonesia-only measures, 2023. Group-wide Grab and Sea figures grew strongly in 2024-26 but cover the region or Asia. In 2024-25 Indonesian measures are mixed. No claim that total online buying in Indonesia fell.
 
 ## H1 result
 
@@ -20,58 +20,57 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 
 ## Which test carries the weight
 
-- The weight sits on Indonesia and region (5 platforms, adding Grab and GoTo on-demand) vs 27 foreign platforms: Mann-Whitney p = 0.004 (one median per platform), platform shuffle p = 0.022; leave-one-out p = 0.003 to 0.016 (shuffle 0.007 to 0.041).
+- Indonesia and region (5 platforms, adding Grab and GoTo on-demand) vs 27 foreign platforms: Mann-Whitney p = 0.004 (one median per platform), platform shuffle p = 0.022; leave-one-out p = 0.003 to 0.016 (shuffle 0.007 to 0.041).
 - Main sample alone, platform shuffle (strictest): p = 0.06 for growth divergence, 0.03 for the take-rate change; without Sea in the benchmark p = 0.008 to 0.017.
-- The p = 0.002 in the proposal counts comparisons, not platforms. The writing leads with the platform-level results.
-- Sea (Shopee) is in the proposal's foreign benchmark although Indonesia is a main market; it swings like the Indonesian platforms (median 0.25). Keeping it makes the test harder; both versions are reported.
+- The proposal's p = 0.002 counts comparisons, not platforms; the writing leads with the platform-level results.
+- Sea (Shopee) sits in the proposal's foreign benchmark although Indonesia is a main market, and it swings like the Indonesian platforms (median 0.25); keeping it makes the test harder; both versions reported.
 
 ## Why it happened (per platform)
 
-- Mechanism: take rate = service fee rate minus customer incentive rate; IFRS 15 deducts incentives from revenue. Revenue can rise without more buying through incentive cuts, fee increases, or a change in business mix.
-- Grab on-demand 2022-23: take rate +3.9 points, of which +3.5 pricing within rides and deliveries (deliveries 6.8% to 11.7%; rides steady at about 16%) and +0.35 mix. Mostly repricing. (Group scope.)
+- Mechanism: take rate = service fee rate minus customer incentive rate; IFRS 15 deducts incentives from revenue. Revenue can rise without more buying through incentive cuts, fee increases or a change in business mix.
+- Grab on-demand 2022-23: take rate +3.9 points, of which +3.5 pricing within rides and deliveries (deliveries 6.8% to 11.7%; rides steady at about 16%) and +0.35 mix: mostly repricing (group scope).
 - Tokopedia 2022-23, two views that agree: of the extra Rp2.15 trillion net revenue, 60.5% came from lower incentives (the proposal's 60.6%, rounding) and 39.5% from higher gross fees; per rupiah of transaction value (which fell 8.9%), gross fees rose 21% and incentives fell 25%.
-- Blibli 2022-23: take rate 0.32% (4Q22) to 2.07% (1Q23); releases attribute the revenue rise partly to tiket.com travel and digital products inside the same segment and partly to "optimization of discounting"; no reclassification reported. Part pricing, part mix; not separable.
+- GoTo on-demand 2024: incentives fell from 11.3% to 5.0% of transaction value while gross fees stayed about 22%; reported for the whole segment, so rides vs food cannot be separated.
+- Blibli 2022-23: take rate 0.32% (4Q22) to 2.07% (1Q23); releases attribute the revenue rise partly to tiket.com travel and digital products inside the same segment and partly to "optimization of discounting"; no reclassification reported; part pricing, part mix, not separable.
 - Bukalapak: group-level reporting including Mitra (offline); mix not separable.
 - Across 7 Indonesian windows: incentive cuts the larger part in 4, fee increases in 2 (Tokopedia 2022-23, Blibli 2022-25), about equal thirds in 1 (Grab 2021-24).
 
-## When
+## When, and why then
 
-- Large take-rate changes in 2021-23. Since then: Grab on-demand flat at 13-14% (from 1Q23); GoTo on-demand 16.8% to 20.6% (2024-26); Blibli 2.3% to 3.4% (2023-25).
-- Quarterly H1 test falsified (p = 0.19): it mostly covers the calmer period. H1's rejection describes a repricing period, part of the result.
+- The large take-rate changes came in 2022-24: Grab and Blibli in 2022-23, GoTo in 2024. Since then: Grab on-demand flat at 13-14% (from 1Q23); GoTo on-demand 16.8% to 20.6% (2024-26); Blibli 2.3% to 3.4% (2023-25).
+- The quarterly H1 test was falsified (p = 0.19): it mostly covers the calmer period. H1's rejection describes a repricing period; this is part of the result.
+- The 2022-24 swings are specific to the Indonesian and regional platforms: all 4 swung more in 2022-24 than in other years (median 0.32 vs 0.06), while foreign platforms in lower-income markets did not (1 of 7) and neither did high-income ones (5 of 14) (exploratory, `timing_check.py`). So "the end of cheap money worldwide" does not explain it on its own.
+- What the four share: all listed in 2021-22 (Bukalapak 6 Aug 2021, Grab 2 Dec 2021, GoTo 11 Apr 2022, Blibli 7 Nov 2022) and repriced soon after, while incentives were still large. An observation on four firms, not a test. Literature: Jain and Kini (1994) document changes in operating performance after IPOs (context only); no academic study of platforms cutting incentives after listing was found; news reports describe the pressure on Indonesian tech firms to show profits in the 2022-23 tech winter.
 
 ## How general
 
-- Some foreign platforms swing as much (Alibaba, Mogu, Jumia, Ozon, Sea): mostly young platforms in lower-income markets. Exploratory pattern (formed after seeing data), holds without Indonesia.
+- Some foreign platforms swing as much (Alibaba, Mogu, Jumia, Ozon, Sea), mostly young platforms in lower-income markets (exploratory, formed after seeing data; holds without Indonesia).
 - Not a universal law: spin-off tests S1 and S2 falsified.
-- Indonesia is a clear case of a wider pattern among young platforms in price-sensitive markets.
+- The timing is local: the 2022-24 repricing is an Indonesian and regional episode.
 
 ## Objections and answers
 
-- Tiny take rates make changes look big: the question is whether revenue tracks transaction value, and a take rate from 1.5% to 2.5% does mean revenue grows two-thirds faster; small take rates alone do not create swings (Shopify about 3%, barely moves).
+- Tiny take rates make changes look big: the question is whether revenue tracks transaction value; a take rate from 1.5% to 2.5% does mean revenue grows two-thirds faster; small take rates alone do not create swings (Shopify about 3%, barely moves).
 - Constructed figures: Grab and Shopee kept out of the main sample; Grab enters the wider comparison as a labelled group-scope series.
 - Tokopedia has one comparison: leave-one-out shows the result does not depend on it.
-- Business mix, not pricing: Grab mostly pricing; Blibli and Bukalapak not separable, stated.
+- Business mix, not pricing: Grab mostly pricing; Blibli, Bukalapak and GoTo not separable, stated.
 
 ## What H1 does and does not conclude
 
-- Does: in 2021-23, Indonesian platform revenue was not a fair guide to the commerce platforms carried, because the take rate moved a lot, mostly through incentive cuts and fee increases.
-- Does not: that revenue is unreliable at all times; that platforms everywhere behave this way; why incentives were cut (reports point to the 2022 funding squeeze; not tested); that total online buying in Indonesia fell.
+- Does: in 2022-24, Indonesian platform revenue was not a fair guide to the commerce platforms carried, because the take rate moved a lot, mostly through incentive cuts and fee increases.
+- Does not: that revenue is unreliable at all times; that platforms everywhere behave this way; why incentives were cut (listing and the 2022-23 pressure are observations and reports, not tests); that total online buying in Indonesia fell.
 
 ## Role in the thesis
 
-- H1 is the foundation: it proves the problem on the number people quote most (company revenue), and it shows the "what it covers vs how it counts" test working where both parts are visible, before the same test is applied to BPS's seller count (the newer, more surprising finding).
-- H1 is also the live part: the ride-hailing commission cap and the discount rule act on the take rate; the pre-registered predictions are scored from 27 Oct 2026.
+- H1 is the foundation: it proves the problem on the number people quote most (company revenue) and shows the "what it covers vs how it counts" test working where both parts are visible, before the same test is applied to BPS's seller count.
+- H1 is also the live part: the ride-hailing commission cap and the discount rule act on the take rate; pre-registered predictions are scored from 27 Oct 2026.
 - In the writing: solid and short.
 
 ## Compared with the proposal
 
 - Same: verdict, test, main sample, 60.6% for Tokopedia.
-- Added: the 5-vs-27 comparison carries the weight; the strict platform-level test reported; cause per platform (Grab pricing, Tokopedia two views, Blibli partly mix); the 2021-23 time boundary; the general pattern and its limits; the 2023 verdict on buying vs revenue and the official count.
+- Added: the 5-vs-27 comparison carries the weight; the strict platform-level test reported; cause per platform (Grab pricing, Tokopedia two views, GoTo 2024, Blibli partly mix); the 2022-24 repricing period, local to Indonesian and regional platforms; the general pattern and its limits; the 2023 verdict on buying, sellers' reports, revenue and the official count.
 
 ## Dated notes
-- **8 Oct 2026 (cheap checks; exploratory).**
-  - When: the repricing period is **2022-24**, not 2021-23. GoTo on-demand's big change came in 2024 (incentives 11.3% to 5.0% of transaction value; gross fees flat), after Grab's and Blibli's in 2022-23. Grab flat since 2023; GoTo and Blibli rising in smaller steps after their jumps.
-  - Why (sharpened): the 2022-24 swings were concentrated in all 4 Indonesian and regional platforms, but not in foreign platforms in lower-income markets (1 of 7) or high-income markets (5 of 14) (`timing_check.py`). So "the end of cheap money worldwide" does not explain it on its own. What the four share: all listed in 2021-22 (Bukalapak Aug 2021, Grab Dec 2021, GoTo Apr 2022, Blibli Nov 2022) and repriced soon after, while incentives were still large. An observation on four firms, not a test.
-  - Mix: GoTo reports only the whole on-demand segment, so rides vs food cannot be separated (as for Blibli and Bukalapak). Only Grab can be split; it was mostly repricing.
-  - Verdict support: the BPS cohort check (Part 2 note) shows 306 thousand pre-2023 sellers counted in 2023 beyond the whole 2022 count (37% of the rise): the seller "surge" was largely sellers found, not sellers new.
-- **8 Oct 2026, later.** Literature on the listing link: Jain and Kini (1994, Journal of Finance 49(5)) document changes in operating performance after IPOs (declines), which is context, not direct support for platforms raising their take rate after listing; no academic study of platforms cutting incentives after going public was found. Practitioner and news reporting (e.g. the Jakarta Post on Indonesian tech firms having to prove their worth in the 2022-23 tech winter) supports the pressure; the listing link stays an observation on four firms. New exhibit `exhibits/6_verdict_2023.png`: headline numbers vs what buying and sellers show in 2023 (all Indonesia-only measures, Blibli labelled as the exception).
+
+(none since version 2)
