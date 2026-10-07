@@ -31,7 +31,7 @@ Removed as unproven: "people treat the numbers as the same"; "investors, statist
 
 ## C. Why now
 
-All in 2025-26, each acting on a number we measure: fee cap announced May, in force July 2026; discount rule June 2026 (Permendag 19/2026); economic census 15 Jun to 31 Aug 2026; marketplace tax collection from 1 Nov 2026; platform data duty to BPS (since 2024). Pre-registered predictions are scored on Q3 2026 results (GoTo 27 Oct; BPS GDP early Nov; Grab and Sea mid-Nov).
+All in 2025-26, each acting on a number we measure: ride-hailing commission cap announced May, in force July 2026 (Gojek and Grab rides only); discount rule June 2026 (Permendag 19/2026); economic census 15 Jun to 31 Aug 2026; marketplace tax collection from 1 Nov 2026; platform data duty to BPS (since 2024). Pre-registered predictions are scored on Q3 2026 results (GoTo 27 Oct; BPS GDP early Nov; Grab and Sea mid-Nov).
 
 ## D. What Part 1 does not claim
 
