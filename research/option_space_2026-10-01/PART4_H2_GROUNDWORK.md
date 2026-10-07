@@ -57,3 +57,6 @@ Pre-registered: E5 (falsified), E6 (holds). Exploratory: 2, 3, 4 (data already s
 
 - Ask BPS (pst@bps.go.id or SILASTIK) for: the sampling design by round (regencies and census blocks per province, frame source, changes between the 2023 and 2024 rounds); whether the 2025 survey microdata (2024 activity) will be released. Lead time: weeks. Would turn the exploratory checks into firm evidence and allow the 2023->2024 cohort check on microdata.
 - The 2025 survey file is not on SILASTIK as of 8 Oct 2026 (latest: 2024 survey).
+
+## Dated notes
+- **8 Oct 2026.** The researcher decided not to contact BPS. The cohort, channel and province checks therefore remain exploratory (stated as such); the 2023->2024 cohort check stays on published figures. Q3 2026 scoring (from 27 Oct) to be handled when results arrive.
