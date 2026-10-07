@@ -63,7 +63,7 @@ The proposal already applied this at platform level: growth divergence tests whe
 **Evidence.**
 - In 2024, indicators covering mainly the platforms grew about 5-7%; BPS, the only Indonesia-wide count of all online sellers, grew 17.1%. Adjacent indicators point the same way but are not Indonesian e-commerce (parcels are Southeast Asia-wide; PMSE VAT covers foreign services). `consistency_grid.py`
 - In 2023, Bank Indonesia's figure fell (-4.7%) while BPS's rose (+40.6%), in the same period in which platforms changed their take rates and BPS's coverage changed (Level 2). `yardsticks.py`
-- Where the indicators measure the same slice, they roughly agree: BPS's own marketplace slice grew about 0-13% in 2022-23 (0.2% in the mid scenario) and 1.45% in 2023-24, in line with Bank Indonesia, Momentum Works and e-Conomy. The disagreement sits outside marketplaces. `gel_checks.py`
+- Where the indicators measure overlapping slices (BPS's marketplace slice is 47% shopping-marketplace sellers and 43% only Gojek or Grab merchants; corrected 8 Oct, see dated note), they agree on slow growth: BPS's own marketplace slice grew about 0-13% in 2022-23 (0.2% in the mid scenario) and 1.45% in 2023-24, in line with Bank Indonesia, Momentum Works and e-Conomy. The disagreement sits outside marketplaces. `gel_checks.py`
 - Inside the BPS microdata, marketplace sales to final consumers are 0.16-0.68 times Bank Indonesia's 2022 figure, so BPS's larger total sits outside marketplaces (RBI, pre-registered).
 - Limit: only platform reports and the BPS microdata let us separate coverage from counting; for Bank Indonesia and the outside estimates we cannot.
 

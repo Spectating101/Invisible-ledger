@@ -30,6 +30,8 @@ claims = [
  ("P03", "BPS marketplace sellers with Rp50bn+ revenue (% of sellers)", 0.5, p5["bps_marketplace_by_size_2022"][">50bn"]["share_of_marketplace_sellers_pct"], 0.05),
  ("P04", "BPS marketplace sellers using a shopping marketplace, 2023 (%)", 47.0, p5["bps_marketplace_sellers_by_app_2023_pct"]["shopping marketplaces (Tokopedia, Shopee, Bukalapak, Lazada)"], 0.05),
  ("P05", "BPS marketplace sellers using only food and ride apps, 2023 (%)", 43.1, p5["bps_marketplace_sellers_by_app_2023_pct"]["only food and ride apps"], 0.05),
+ ("P06", "Rp50bn+ sellers' share of BPS marketplace value, low scenario (%)", 39, p5["bps_marketplace_by_size_2022"][">50bn"]["share_of_marketplace_value_pct"]["low"], 0.5),
+ ("P07", "Rp50bn+ sellers' share of BPS marketplace value, mid scenario (%)", 18, p5["bps_marketplace_by_size_2022"][">50bn"]["share_of_marketplace_value_pct"]["mid"], 0.5),
 ]
 L = pd.DataFrame([dict(id=i, claim=x, stated=s, recomputed=round(float(val), 6), status="PASS" if abs(float(val) - s) <= tol else "CHECK") for i, x, s, val, tol in claims])
 L.to_csv(T + "claims_ledger_v8.csv", index=False); print(L.to_string(index=False)); print(L.status.value_counts().to_dict())

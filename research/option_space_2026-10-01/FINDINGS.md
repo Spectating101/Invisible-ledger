@@ -1,9 +1,9 @@
-# Findings: the whole thesis evidence in one place (7 Oct 2026)
+# Findings: the whole thesis evidence in one place (updated 8 Oct 2026)
 
 This file gathers every result the thesis will use. It follows the order of the approved 27 September proposal: same title, same question, same H1 and H2, same measures. Nothing here changes the concept.
 Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`, all PASS) or comes from the proposal itself. Pre-registered tests and their verdicts are in `PREREGISTRATION.md`. Licensed data (BPS, World Bank, LSEG) is never committed; only weighted totals are.
 
-**Read with** `PART1_PROBLEM_AND_STAKES.md` (problem and why it matters) and `PART2_FRAMEWORK.md` (the framework: what each indicator covers and how it counts; frozen 7 Oct 2026).
+**Read with** the groundwork files, one per chapter: `PART1_PROBLEM_AND_STAKES.md` (problem, who uses the numbers), `PART2_FRAMEWORK.md` (what each indicator covers and how it counts), `PART3_H1_GROUNDWORK.md` (H1), `PART4_H2_GROUNDWORK.md` (H2, who is outside every indicator), `PART5_OBJ3_GROUNDWORK.md` (comparing the indicators). Chapter order: H1, H2, Objective 3, why it matters.
 
 **The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2022-24, much of the movement in platform revenue, and in 2023 much of the rise in the official count of online sellers, came from how they count, not from the activity.
 
@@ -13,13 +13,14 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while its own survey answers allow at most about +15.5% more sellers from entry and show the typical existing seller flat. Sellers themselves named lack of demand as their main obstacle in 2023 (41%, up from 35% in 2022; 58% among those whose online revenue fell), and existing sellers' own reports turned from net up in 2022 (37% up, 24% down) to net down in 2023 (24% up, 32% down). Exhibit `6_verdict_2023.png`. On BPS's value figure: newly counted sellers account for about 15-17% of the published increase and entrants about 25-30% (scenarios); the remaining 53-59% would have to come from existing sellers, who reported a mean change of -4.3% in online revenue. Where indicators measure overlapping slices (BPS's marketplace slice, which also includes Gojek and Grab food and ride merchants, vs the platform indicators), they agree on slow growth; the disagreement sits outside marketplaces. Details and limits: `PART3_H1_GROUNDWORK.md`, `PART4_H2_GROUNDWORK.md` (`h1_groundwork.py`, `gel_checks.py`, ledgers v6-v8).
 
-## The answer in five sentences
+## The answer in six sentences
 
 1. Inside the app, revenue and sales split apart about three times more in Indonesia than abroad (H1 rejected).
 2. Revenue moved mainly because platforms raised their cut, by cutting discounts and raising fees (discounts were the larger part in 4 of 7 Indonesian windows, fees in 2); the wedge itself moved with sales.
 3. Rulers that see only the apps say the online economy grew about 5% a year; BPS, the one Indonesia-wide count of all online sellers, says much faster, and regional parcel counts point the same way. Part of BPS's growth is its survey design (point 4), so the gap comes from both what each ruler sees and how it counts.
 4. National growth on paper came from "more businesses" (H2 holds on BPS's published numbers), but BPS's own survey answers show most of the 2023 jump was not new sellers: it was more sellers being counted.
-5. Most sellers keep no books and leave no digital trail, and the share keeping books is falling; the new marketplace tax can reach most of the money but few of the sellers.
+5. Most sellers keep no books and leave no digital trail (book-keeping fell 2020-22 under stable coverage); about 96% sell through chat or social media and only 13.5% of off-marketplace sellers want to join a marketplace; the new marketplace tax can reach most marketplace value but at most about 5% of online sellers.
+6. Where the indicators measure overlapping slices (BPS's marketplace slice is 47% shopping-marketplace sellers and 43% only Gojek or Grab merchants), they agree on slow growth; their sizes cannot be reconciled (platform GMV counts shipping, digital goods, travel and offline sales; BPS's survey is thin at the top, 19 rows for Rp50bn+ sellers).
 
 ## 1. How big is the wedge? (Objective 1)
 

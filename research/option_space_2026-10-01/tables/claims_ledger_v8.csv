@@ -24,3 +24,5 @@ P02,BPS marketplace sellers with Rp50bn+ revenue: sample rows,19.0,19.0,PASS
 P03,BPS marketplace sellers with Rp50bn+ revenue (% of sellers),0.5,0.533806,PASS
 P04,"BPS marketplace sellers using a shopping marketplace, 2023 (%)",47.0,47.012515,PASS
 P05,"BPS marketplace sellers using only food and ride apps, 2023 (%)",43.1,43.065227,PASS
+P06,"Rp50bn+ sellers' share of BPS marketplace value, low scenario (%)",39.0,39.429236,PASS
+P07,"Rp50bn+ sellers' share of BPS marketplace value, mid scenario (%)",18.0,18.068837,PASS
