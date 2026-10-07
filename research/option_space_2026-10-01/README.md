@@ -27,14 +27,15 @@ Pre-registered tests (cap, headroom flag, BPS statistics, microdata estimands): 
 | Eleven rulers of the online economy ("both cannot be true") | `consistency_grid.py` | `tables/consistency_grid_*.csv` | `tables/src/digital_rulers_annual.csv` (status per row) |
 | World Bank informal and formal surveys, Indonesia 2023 (W1-W3, F1-F3) | `wb_tests.py` (licensed data) | `tables/wb_tests_results.json` | WBES microdata, not committed |
 | Cross-country formal surveys, 7 countries (X2, X3) | `wb_crosscountry.py` (licensed data) | `tables/wb_crosscountry.csv` | WBES microdata, not committed |
-| BPS e-commerce microdata tests E1-E8, RBI (locked, awaiting purchase) | `bps_microdata_tests.py` | - | SILASTIK files 2021, 2023, 2024 |
+| BPS e-commerce microdata tests E1-E8, RBI (locked code, run 7 Oct 2026; E5, E7 falsified) | `bps_microdata_tests.py` | `tables/bps_microdata_results.json` | SILASTIK files 2021, 2023, 2024 (licensed, not committed) |
+| BPS microdata descriptive numbers (records, marketplace path, apps, incumbents) | `bps_descriptives.py` | `tables/bps_descriptives.json` | same files |
 | 3Q26 scoring of P1-P5 and R1-R3 | `score_q3_2026.py` | printed | GoTo 27 Oct; BPS GDP early Nov; Grab and Sea mid-Nov |
 | Draft exhibits, one per layer | `exhibits.py` | `exhibits/*.png` | tables above |
 
 ## Story spine (4 Oct 2026; thesis question, hypotheses and measures unchanged)
 1) **Inside the app (H1).** Platform revenue and sales split apart about 3x more in Indonesia than in 27 foreign firms (firm-level p 0.004; holds on the proposal's D measure and dropping any one Indonesian firm). Why: young platforms in price-sensitive markets buy growth with discounts (exploratory pattern, holds ex-Indonesia); not a worldwide law (spin-off tests S1, S2 falsified).
 2) **Apps vs the nation (objective 3).** Rulers that see mainly the apps grow about 5% a year; rulers that see all sellers, parcels or tax receipts grow 17-40%; the two state offices moved in opposite directions in 2023 (BI -4.7%, BPS +40.6%).
-3) **Outside the apps (H2 and the extra analyses).** Unregistered sellers who use social media are many and tiny (median Rp60m a year), 70% keep no books; 39.9% of Indonesia's formal firms have neither a website nor online tax filing, the highest of seven countries. BPS microdata (2020-2023) will anchor this layer.
+3) **Outside the apps (H2 and the extra analyses).** Unregistered sellers who use social media are many and tiny (median Rp60m a year), 70% keep no books; 39.9% of Indonesia's formal firms have neither a website nor online tax filing, the highest of seven countries. BPS microdata (2020-2023, 7 Oct): the share of sellers keeping financial statements fell from 23% to 15%, marketplace use fell from 22% to 18%, and the typical existing seller's online revenue was flat in 2023; entry was too small to explain BPS's published +27% seller count (E5 falsified), so part of BPS's 2023 jump is a change in who is counted.
 4) **The state (why it matters, proposal section 6).** The 8% cap, the June 2026 discount rule, the marketplace tax, the data-handover rule and the 2026 census act on numbers from layers 1-3; the tax base differs about 5x by ruler and the typical off-record seller is far below the Rp500m exemption, so the tax mostly buys records.
 Scope rule: criticise only platform-economy numbers we tested; GDP and fiscal debates (LPEM, public commentary) are one paragraph of context. No causal claims about policy. Failures are reported (S1, S2, W3; coding fixes disclosed in PREREGISTRATION.md).
 

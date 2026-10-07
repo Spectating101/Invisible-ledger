@@ -1,0 +1,102 @@
+{
+ "file2021": {
+  "weights": {
+   "sum": 2361423.000000001,
+   "target": 2361423,
+   "within_1pct": true
+  },
+  "E2c_marketplace_users_2020": 21.64081298119674,
+  "E7_E1_2020_online_bracket": 36.05800055217958,
+  "E7_E1_2020_revenue_x_share": 33.57043908732962
+ },
+ "file2023": {
+  "weights": {
+   "sum": 2995985.999999998,
+   "target": 2995879,
+   "within_1pct": true
+  },
+  "bracket_period": {
+   "mid_total_over_783tn": {
+    "annual": 1.9480216196202447,
+    "monthly": 23.376259435442932
+   },
+   "used": "annual"
+  },
+  "validation_passed": true,
+  "E1_low": 40.36025699762373,
+  "E2_low": 22.649551207208034,
+  "E1_mid": 30.22613298401612,
+  "E2_mid": 25.57141074372441,
+  "E1_high": 25.715334691865237,
+  "E2_high": 24.931078265209454,
+  "E1_count_share_nobooks": 79.2834505637984,
+  "E8_low": 77.36436026976578,
+  "E8_mid": 92.22024593162925,
+  "E8_high": 93.77743000027041,
+  "E8_count_share_marketplace_sellers_above_300m": 27.56839780446506,
+  "recon_low": {
+   "online_tn": 394.5776282058909,
+   "marketplace_tn": 89.37006195268019,
+   "marketplace_b2c_tn": 75.35864198837511,
+   "marketplace_over_BI": 0.1876339742865425,
+   "marketplace_b2c_over_BI": 0.15821675832117385,
+   "online_over_BI": 0.8284224820614967
+  },
+  "recon_mid": {
+   "online_tn": 1525.3009281626514,
+   "marketplace_tn": 390.0409654183124,
+   "marketplace_b2c_tn": 321.7505663617525,
+   "marketplace_over_BI": 0.8188976809118462,
+   "marketplace_b2c_over_BI": 0.6755208195711789,
+   "online_over_BI": 3.202395398199982
+  },
+  "recon_high": {
+   "online_tn": 3781.56854671938,
+   "marketplace_tn": 942.7858140351524,
+   "marketplace_b2c_tn": 770.9808097991703,
+   "marketplace_over_BI": 1.9793949486356337,
+   "marketplace_b2c_over_BI": 1.618687402475688,
+   "online_over_BI": 7.939467870500483
+  },
+  "top_bracket_calibrated_value": -142709969093.8129,
+  "top_bracket_below_floor": true,
+  "E2b_marketplace_users_2022": 19.752403007948033,
+  "E4_2022_social_or_chat_entrants_since2020": 96.91854112628117,
+  "E4_2022_social_or_chat_before2020": 95.84928583378388,
+  "_period": "annual"
+ },
+ "file2024": {
+  "weights": {
+   "sum": 3814799.273126,
+   "target": 3816750,
+   "within_1pct": true,
+   "alt_target": 3934981,
+   "within_1pct_alt": false
+  },
+  "books_share_marketplace_users": 28.62734278065825,
+  "books_share_others": 12.254308901170171,
+  "records_check_passed": true,
+  "E3_shopee": 7.522420545704077,
+  "E3_tokopedia": 2.236015262189724,
+  "E5_entrants_2023": 13.453406908286592,
+  "E5_threshold": 21.5,
+  "E6_incumbent_median_change": 0.0,
+  "E2b_marketplace_users_2023": 17.80747394371653,
+  "E4_2023_social_or_chat_entrants_since2020": 96.6602878665457,
+  "E4_2023_social_or_chat_before2020": 95.58160995980172
+ },
+ "verdicts": {
+  "E1 (mid share < 84.81%)": true,
+  "E2 (mid share > 18.23%)": true,
+  "E8 (>=Rp300m sellers hold > half of marketplace value, mid)": true,
+  "RBI (marketplace B2C slice below BI 2022)": true,
+  "E2b (2022 users >= 17.23%)": true,
+  "E4 2022 (entrants >= earlier)": true,
+  "E3 (Shopee >= Tokopedia)": true,
+  "E5 (entrants >= threshold)": false,
+  "E6 (median <= +10.36%)": true,
+  "E4 2023 (entrants >= earlier)": true,
+  "E2c (2020 users >= 2022 users)": true,
+  "E7 (2022 E1 >= 2020 E1 - 5)": false
+ }
+}
