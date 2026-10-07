@@ -34,8 +34,10 @@ step claims_ledger_v4.py       # recomputes the 3-4 Oct numbers (World Bank resu
 step h1_quarterly.py           # H1 with quarterly pairs (robustness; falsified)
 step wedge_split.py            # wedge changes: volume part vs monetization part
 step claims_ledger_v5.py       # BPS microdata aggregates, quarterly H1, wedge split
+step h1_groundwork.py          # Part 3 groundwork: Grab pricing vs mix, Tokopedia two views, 2023 verdict
+step claims_ledger_v6.py       # Part 3 groundwork numbers
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

@@ -9,6 +9,10 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 **Words used once and kept.** V = transaction value, everything sold through a platform (the firm's GMV, GTV, TPV or bookings). R = revenue, what the platform keeps. m = R / V, the platform's cut. W = V - R, the wedge: the part of the sales that revenue does not show. E = W / R. D = growth of R minus growth of V.
 
+## The verdict for 2023 (the year of the official boom)
+
+5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while its own survey answers allow at most about +15.5% more sellers from entry and show the typical existing seller flat. Details and limits: `PART3_H1_GROUNDWORK.md` (`h1_groundwork.py`, ledger v6).
+
 ## The answer in five sentences
 
 1. Inside the app, revenue and sales split apart about three times more in Indonesia than abroad (H1 rejected).
@@ -31,7 +35,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - Same on the proposal's D measure: 27.0 vs 6.5 points, p = 0.005. Dropping any one Indonesian firm: worst p = 0.016.
 - Revenue tracks sales (cut moves less than 0.10) in 12.5% of Indonesian comparisons vs 69% abroad (Fisher p = 0.012).
 - Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the big repricing jumps: Grab's cut was flat from 2023, while GoTo's and Blibli's kept rising, but in smaller steps. So the large swings are concentrated in 2021-2023; the cut has not been fully stable since.
-- **Verdict: H1 is rejected.** Revenue did not grow in proportion to sales in Indonesia's platforms during 2020-2025.
+- **Verdict: H1 is rejected.** Revenue did not grow in proportion to sales in Indonesia's platforms during 2020-2025. The weight rests on the 5-vs-27 platform comparison; the main sample alone gives p = 0.06 under the strictest platform-shuffle test (0.03 for the take-rate change). Grab's 2022-23 rise was mostly repricing (+3.5 of +3.9 points); Blibli's was partly travel mix.
 - Why Indonesia (exploratory, formed after seeing data): young platforms in lower-income, price-sensitive markets swing more (0.16 vs 0.05; holds without Indonesia, p = 0.03). It is not a worldwide law: the spin-off tests S1 and S2 were falsified.
 
 ## 3. Why the cut moved (Objective 2)
