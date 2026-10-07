@@ -1,0 +1,30 @@
+id,claim,stated,recomputed,status
+B01,Entrants: share of 2023 sellers who began online in 2023 (%),13.45,13.453407,PASS
+B02,"Most count growth entry can explain, no exits (%)",15.5,15.544698,PASS
+B03,"Existing sellers, online revenue median change (%)",0.0,0.0,PASS
+B04,Existing sellers with online revenue up (%),24.5,24.484065,PASS
+B05,Existing sellers with online revenue down (%),31.9,31.937721,PASS
+B06,"Share with financial statements, 2020 (%)",23.5,23.452847,PASS
+B07,"Share with financial statements, 2022 (%)",20.7,20.716549,PASS
+B08,"Share with financial statements, 2023 (%)",15.2,15.169933,PASS
+B09,"Marketplace use, 2020 (%)",21.6,21.640813,PASS
+B10,"Marketplace use, 2022 (%)",19.75,19.752403,PASS
+B11,"Marketplace use, 2023 (%)",17.8,17.807474,PASS
+B12,"Online value without financial statements, 2022, low scenario (%)",40.4,40.360257,PASS
+B13,"Online value without financial statements, 2022, mid scenario (%)",30.2,30.226133,PASS
+B14,"Marketplace value from sellers >= Rp300m, mid (%)",92.2,92.220246,PASS
+B15,"Marketplace value from sellers >= Rp300m, low (%)",77.4,77.36436,PASS
+B16,"Marketplace sellers >= Rp300m, count share (%)",27.6,27.568398,PASS
+B17,"Marketplace-to-consumer slice / BI 2022, mid",0.68,0.675521,PASS
+B18,"Marketplace-to-consumer slice / BI 2022, low",0.16,0.158217,PASS
+B19,Mid scenario total / BPS Rp783tn,1.95,1.948022,PASS
+B20,"Gojek users among BPS marketplace sellers, 2023 (%)",44.7,44.699465,PASS
+B21,"Shopee users among BPS marketplace sellers, 2023 (%)",42.2,42.243052,PASS
+B22,"Tokopedia users among BPS marketplace sellers, 2023 (%)",12.6,12.556611,PASS
+B23,"2020 E1, online-revenue bracket version (%)",36.1,36.058001,PASS
+Q01,Quarterly H1: Indonesia and region median (x100),7.1,7.143466,PASS
+Q02,Quarterly H1: benchmark median (x100),4.9,4.893496,PASS
+Q03,Quarterly H1: Mann-Whitney p (falsified),0.19,0.187879,PASS
+V01,"Wedge changes from the cut, Indonesia median (%)",4.3,4.323426,PASS
+V02,"Revenue changes from the cut, Indonesia median (%)",66.5,66.496044,PASS
+V03,"Revenue changes from the cut, benchmark median (%)",26.7,26.651973,PASS

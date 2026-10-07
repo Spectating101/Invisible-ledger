@@ -31,8 +31,11 @@ step h1_extended.py            # H1 vs 27 foreign firms, D measure, leave-one-ou
 step consistency_grid.py       # eleven rulers of the online economy
 step exhibits.py               # draft exhibits, one per story layer (exhibits/*.png)
 step claims_ledger_v4.py       # recomputes the 3-4 Oct numbers (World Bank results from committed aggregates)
+step h1_quarterly.py           # H1 with quarterly pairs (robustness; falsified)
+step wedge_split.py            # wedge changes: volume part vs monetization part
+step claims_ledger_v5.py       # BPS microdata aggregates, quarterly H1, wedge split
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

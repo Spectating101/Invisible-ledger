@@ -1,0 +1,14 @@
+{
+ "EXT_clean": {
+  "comparisons": 29,
+  "median_monetization_share_of_W_change": 0.03857737785463082,
+  "median_monetization_share_of_R_change": 0.2665197345308928,
+  "max_abs_dlnW_monetization": 0.08985777115854125
+ },
+ "IDN_main": {
+  "comparisons": 8,
+  "median_monetization_share_of_W_change": 0.04323425702351523,
+  "median_monetization_share_of_R_change": 0.6649604406162881,
+  "max_abs_dlnW_monetization": 0.017411974448151877
+ }
+}

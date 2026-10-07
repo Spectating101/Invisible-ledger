@@ -71,4 +71,22 @@ for i, (b, tax) in enumerate(zip(t.base_Rp_tn, t["tax_at_0.5pct_Rp_tn"])):
 ax.set_xlabel("Marketplace tax base, 2024 (Rp trillion)"); ax.set_xlim(0, t.base_Rp_tn.max() * 1.7)
 finish(fig, ax, "The state: the same tax rests on a base that differs about 5x",
        "Source: tax_base_rulers.py. Upper bounds before the Rp500m exemption; the largest is about 0.2% of the 2026 tax target.", "4_tax_base.png")
+# 5. BPS's own answers: the published jump in sellers is bigger than entry can explain, and existing sellers were flat
+d = json.load(open(HERE / "tables/bps_descriptives.json"))
+fig, (a1, a2) = plt.subplots(1, 2, figsize=(9, 3.2), gridspec_kw={"width_ratios": [1.15, 1]})
+vals = [d["published_count_growth_pct"], d["max_count_growth_from_entry_pct"]]
+a1.barh([1, 0], vals, color=[GREY, BLUE], height=0.6)
+a1.set_yticks([1, 0], ["Published growth in\nonline sellers", "Most that new sellers\ncan explain (no exits)"])
+for i, v in zip([1, 0], vals): a1.text(v + 0.5, i, f"+{v:.1f}%", va="center", fontsize=9, color=INK)
+a1.set_xlim(0, 34); a1.set_xlabel("2023 vs 2022 (%)")
+r = d["incumbents_2023_revenue_direction"]
+a2.barh([2, 1, 0], [r["up"], r["same"], r["down"]], color=[BLUE, GREY, ORANGE], height=0.6)
+a2.set_yticks([2, 1, 0], ["Online revenue up", "Same", "Down"])
+for i, v in zip([2, 1, 0], [r["up"], r["same"], r["down"]]): a2.text(v + 0.8, i, f"{v:.0f}%", va="center", fontsize=9, color=INK)
+a2.set_xlim(0, 55); a2.set_xlabel("Sellers already online before 2023 (%)")
+for ax in (a1, a2): ax.grid(axis="y", visible=False)
+fig.text(0.01, 1.0, "BPS's own answers: the 2023 jump is not new sellers, and existing sellers were flat", ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
+fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2024 file, year 2023), weighted; bps_microdata_tests.py (E5, E6) and bps_descriptives.py. "
+         "New sellers are 13.4% of 2023 sellers.", ha="left", va="top", fontsize=8, color=INK2, wrap=True)
+fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight"); plt.close(fig)
 print(sorted(p.name for p in OUT.glob("*.png")))
