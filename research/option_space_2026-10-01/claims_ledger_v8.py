@@ -17,6 +17,10 @@ claims = [
  ("L10", "Existing sellers' reported change in online revenue 2023, mean (%)", -4.3, e["all"]["mean_pct"], 0.05),
  ("L11", "Existing sellers with 20+ workers, mean reported change (%)", 1.4, e["20+ workers"]["mean_pct"], 0.05),
  ("L12", "Existing sellers with 1 worker, mean reported change (%)", -6.3, e["1 worker"]["mean_pct"], 0.05),
+ ("L13", "Existing sellers 2022 vs 2021: online revenue up (%)", 36.9, g["existing_sellers_direction_2022_vs_2021_pct"]["up"], 0.05),
+ ("L14", "Existing sellers 2022 vs 2021: online revenue down (%)", 24.4, g["existing_sellers_direction_2022_vs_2021_pct"]["down"], 0.05),
+ ("L15", "Main obstacle 2022: lack of demand (%)", 35.3, g["main_obstacle_2022_pct"]["lack of demand"], 0.05),
+ ("L16", "Main obstacle 2022: lack of capital (%)", 36.8, g["main_obstacle_2022_pct"]["lack of capital"], 0.05),
 ]
 L = pd.DataFrame([dict(id=i, claim=x, stated=s, recomputed=round(float(val), 6), status="PASS" if abs(float(val) - s) <= tol else "CHECK") for i, x, s, val, tol in claims])
 L.to_csv(T + "claims_ledger_v8.csv", index=False); print(L.to_string(index=False)); print(L.status.value_counts().to_dict())

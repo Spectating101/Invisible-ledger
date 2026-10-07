@@ -89,4 +89,29 @@ fig.text(0.01, 1.0, "BPS's own answers: the 2023 jump is not new sellers, and ex
 fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2024 file, year 2023), weighted; bps_microdata_tests.py (E5, E6) and bps_descriptives.py. "
          "New sellers are 13.4% of 2023 sellers.", ha="left", va="top", fontsize=8, color=INK2, wrap=True)
 fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight"); plt.close(fig)
+# 6. The 2023 verdict: headline numbers vs what buying and sellers show (growth 2023 vs 2022, each in its own unit)
+h = json.load(open(HERE / "tables/h1_groundwork.json"))["verdict_2023"]; gl = json.load(open(HERE / "tables/gel_checks.json"))
+rows = [("Tokopedia revenue", h["platform_revenue_growth_pct"]["Tokopedia"], ORANGE),
+        ("BPS e-commerce value (published)", h["BPS_value_growth_pct"], ORANGE),
+        ("BPS online sellers (published)", h["BPS_published_seller_growth_pct"], ORANGE),
+        ("Household spending (nominal, reference)", h["household_spending_nominal_growth_pct"], GREY),
+        ("Blibli 3P transaction value (the exception)", h["buying_growth_pct"]["Blibli 3P transaction value"], BLUE),
+        ("Bukalapak transaction value", h["buying_growth_pct"]["Bukalapak transaction value"], BLUE),
+        ("Momentum Works Indonesia GMV", h["buying_growth_pct"]["Momentum Works Indonesia GMV"], BLUE),
+        ("BPS marketplace slice (mid scenario)", gl["bps_marketplace_value_tn"]["growth_2022_2023_pct_by_scenario"]["mid"], BLUE),
+        ("Existing sellers' own reported change (mean)", gl["existing_sellers_reported_change_2023"]["all"]["mean_pct"], BLUE),
+        ("Bank Indonesia e-commerce", h["buying_growth_pct"]["Bank Indonesia e-commerce"], BLUE),
+        ("Tokopedia transaction value", h["buying_growth_pct"]["Tokopedia transaction value"], BLUE),
+        ("GoTo on-demand transaction value", h["buying_growth_pct"]["GoTo on-demand transaction value"], BLUE)]
+fig, ax = plt.subplots(figsize=(7.6, 5.2))
+ys = list(range(len(rows)))[::-1]
+ax.barh(ys, [r[1] for r in rows], color=[r[2] for r in rows], height=0.6)
+ax.set_yticks(ys, [r[0] for r in rows]); ax.axvline(0, color=INK2, linewidth=0.8)
+for y, (_, v, _) in zip(ys, rows): ax.text(v + (1 if v >= 0 else -1), y, f"{v:+.1f}%", va="center", ha="left" if v >= 0 else "right", fontsize=8.5, color=INK)
+ax.set_xlim(-20, 62); ax.set_xlabel("Growth in 2023 vs 2022 (%), each in its own unit")
+ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=ORANGE), plt.Rectangle((0, 0), 1, 1, color=BLUE), plt.Rectangle((0, 0), 1, 1, color=GREY)],
+          labels=["Headline numbers", "What buying and sellers show", "Reference"], frameon=False, loc="lower right", fontsize=8.5)
+finish(fig, ax, "2023: the headline numbers boomed; buying and sellers mostly did not",
+       "Sources: company filings; Bank Indonesia; Momentum Works; BPS publications and microdata (h1_groundwork.py, gel_checks.py). Indonesia-only measures. "
+       "BPS marketplace slice: range 0 to 13% across scenarios. Existing sellers: seller-weighted mean of their reported change in online revenue.", "6_verdict_2023.png")
 print(sorted(p.name for p in OUT.glob("*.png")))

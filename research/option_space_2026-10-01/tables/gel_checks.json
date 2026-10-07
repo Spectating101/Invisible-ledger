@@ -121,5 +121,19 @@
    "up_pct": 41.29471310622816,
    "down_pct": 27.188446652029697
   }
+ },
+ "existing_sellers_direction_2022_vs_2021_pct": {
+  "up": 36.88014738585384,
+  "same": 38.704034031484895,
+  "down": 24.415818582661263
+ },
+ "main_obstacle_2022_pct": {
+  "lack of capital": 36.83608940622154,
+  "lack of skilled workers": 9.976407420812865,
+  "limited internet": 2.827087334545424,
+  "fraud": 1.8016996166791373,
+  "lack of demand": 35.26303399187371,
+  "limited delivery": 2.585945101857134,
+  "other": 10.709737128010188
  }
 }

@@ -7,6 +7,7 @@
 4. Scenario: value that the newly counted pre-2023 sellers (306 thousand, net) could add, using the 2022 average online value of
    chat-or-social-only sellers relative to all sellers (bracket scenarios), scaled to BPS's published 2022 average per business.
 5. Existing sellers' own reported change in online revenue, by number of workers (seller-weighted; the 2024 file has no revenue amounts, so no value weights).
+6. The same direction and obstacle questions for 2022 (2023 file), to compare sellers' own view of 2022 with 2023.
 Run: python3 gel_checks.py --f2023 B.dbf --f2024 C.dbf -> tables/gel_checks.json"""
 import argparse, json
 import numpy as np
@@ -67,4 +68,8 @@ for lab, m in [("1 worker", tk <= 1), ("2-4 workers", (tk >= 2) & (tk <= 4)), ("
     ex[lab] = {"share_pct": 100 * float(wb[mm].sum() / wb[incs].sum()), "mean_pct": float(np.nansum(sig[mm] * wb[mm]) / wb[mm].sum()),
                "up_pct": 100 * float(wb[mm & (d == 1)].sum() / wb[mm].sum()), "down_pct": 100 * float(wb[mm & (d == 3)].sum() / wb[mm].sum())}
 out["existing_sellers_reported_change_2023"] = ex
+# 6. the same two questions one year earlier (2023 file, year 2022): online revenue vs previous year (r312) and main obstacle (r325)
+sa_, d2, o2 = num(a["r305"]), num(a["r312"]), num(a["r325"]); inc2 = (sa_ < 2022) & ~np.isnan(d2); ok2 = ~np.isnan(o2)
+out["existing_sellers_direction_2022_vs_2021_pct"] = {k: 100 * float(wa[inc2 & (d2 == c)].sum() / wa[inc2].sum()) for c, k in ((1, "up"), (2, "same"), (3, "down"))}
+out["main_obstacle_2022_pct"] = {v: 100 * float(wa[ok2 & (o2 == k)].sum() / wa[ok2].sum()) for k, v in obst.items()}
 s = json.dumps(out, indent=1); print(s); open("tables/gel_checks.json", "w").write(s)
