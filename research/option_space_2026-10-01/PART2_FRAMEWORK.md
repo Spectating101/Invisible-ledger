@@ -49,7 +49,7 @@ The proposal already applied this at platform level: growth divergence tests whe
 - Why H2 still holds on paper: when the survey finds more existing sellers, their sales come with them, so the business count and e-commerce value rise together and the split reports "more businesses".
 - The parallel with Level 1: about two thirds of platform revenue movement, and at least 40% of the 2023 rise in the official business count, came from how the indicator counts rather than from the activity.
 
-**Who is outside every administrative indicator** (where "invisible" applies most directly; the proposal's additional analyses).
+**Who is outside every administrative indicator** (sellers outside platform and tax records; the proposal's additional analyses) [term corrected 8 Oct, see dated note].
 - Most online sellers sell through chat and social media (about 96% in 2023); marketplace use fell from 21.6% of sellers (2020) to 17.2% (2024, published). BPS's "marketplace" category is mostly food and ride merchants (Gojek 45%, Shopee 42%, Grab 42%, Tokopedia 13% of its marketplace sellers).
 - The share of sellers keeping financial statements fell from 23.5% (2020) to 20.7% (2022) under stable survey coverage, and to 15.2% (2023), a step that partly reflects the newly counted chat-only sellers (same pre-2020 cohort: 23.4% to 16.8% between surveys). Sellers without statements hold 30-40% of 2022 online value (range consistent with BPS's own total).
 - Only 13.5% of off-marketplace sellers want to join a marketplace; at most about 5% of all online sellers are on marketplaces with annual revenue of Rp300m or more. `gel_checks.py`
@@ -124,5 +124,7 @@ Third-quarter 2026 scoring: GoTo 27 Oct (P1-P5, R1, R2); marketplace tax start 1
 - Primary legal texts: `../../sources/policy_primary/MANIFEST.md`.
 
 ## Dated notes
+
+- **8 Oct 2026, term discipline.** The proposal (section 1) says of the wedge: "The term refers to what a revenue-only measure excludes, not to unrecorded activity." "Invisible" and "invisible wedge" keep that meaning only. Sellers outside platform and tax records are called "unrecorded sellers" or "sellers outside platform and tax records", never "invisible". Corrected above (Level 2 heading); no other live file used "invisible" for unrecorded activity.
 
 - **8 Oct 2026, after version 2 (`part5_checks.py`).** Qualification: BPS's "marketplace" slice is not the same object as shopping-marketplace GMV. Only 47% of BPS's marketplace sellers use a shopping marketplace (Tokopedia, Shopee, Bukalapak, Lazada); 43% use only Gojek or Grab (food and ride merchants). So the slow growth of BPS's marketplace slice and of the platform indicators is a fact, but the slices overlap rather than match; read "where they measure the same slice" as "where they measure overlapping slices". The disagreement still sits outside marketplaces.
