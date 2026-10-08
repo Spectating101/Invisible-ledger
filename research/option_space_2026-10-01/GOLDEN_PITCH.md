@@ -31,4 +31,4 @@
 
 ## Dated notes
 
-(none)
+- **8 Oct 2026, open citation closed.** Market traders' complaints behind the rule: AFP, "'Regulate them': hard-up Indonesia traders urge TikTok sales ban", 25 Sep 2023 (Tanah Abang sellers blame TikTok Shop prices for falling sales and ask for it to be closed or regulated; https://techxplore.com/news/2023-09-hard-up-indonesia-traders-urge-tiktok.html); ANTARA, "Minister visits Tanah Abang Market following social commerce ban", 28 Sep 2023 (traders say income fell because they cannot compete with social-commerce sellers; the minister: transactions not allowed on social media; https://en.antaranews.com/news/294768/minister-visits-tanah-abang-market-following-social-commerce-ban). Both describe the complaints; neither measures market-wide sales, and the pitch does not claim they do.
