@@ -5,7 +5,7 @@ Order follows the proposal. Term rule: "invisible" means only what revenue or an
 
 ## The line the main text has to carry
 
-How much does a platform-based measure leave out, and when does that change the conclusion about growth? Revenue is about 7% of what passes through the platforms, and platform channels are about 16-26% of online sales value. The conclusion flips when the way of counting moves: in 2022-24 for platform revenue (pricing), in 2023 for the official seller count (about half newly counted). Everything in the main text serves that line; everything else supports it from the appendix or waits in reserve.
+How much does a platform-based measure leave out, and when does that change the conclusion about growth? Revenue is about 7% of what passes through the platforms, and platform channels are about 16-26% of online sales value. Each number is a fair stand-in only while a condition holds, and the conclusion flips when it breaks: in 2022-24 for platform revenue (the take rate moved), in 2023 for the official seller count (about half of the rise not explained by first-time entry). Everything in the main text serves that line; everything else supports it from the appendix or waits in reserve.
 
 ## Main text
 
@@ -17,9 +17,9 @@ How much does a platform-based measure leave out, and when does that change the 
 | 4 Data and method | Issuer-reported platform pairs; the 27-platform foreign benchmark; BPS microdata (three rounds); pre-registration as the discipline; claims ledgers | Parts 2-4, `PREREGISTRATION.md` |
 | 5.1 Objective 1 | Wedge size 2023 (US$40.07bn, ecosystem ratio 12.7) with its robustness; revenue about 7% of transaction value | Part 3 |
 | 5.2 H1 | Rejected: 5 vs 27 platforms (p = 0.004), main sample alone stated (p = 0.06); two thirds of revenue movement from the take rate vs a quarter abroad; cause per platform (Grab pricing, Tokopedia 60.6% from lower incentives, GoTo 2024); the 2022-24 period; Exhibit 1 | Part 3 |
-| 5.2b What markets did (added 8 Oct) | Market value moves with transaction value (M2); take-rate growth valued at about half in the point estimate, not significant (M1 falsified, stated); Indonesian revenue multiples compressed far more than value-to-transaction-value multiples | Part 3 dated note, `m1_market_value.py` |
+| 5.2b What markets did (added 8 Oct) | Market value moves with transaction value (M2, an association); take-rate growth has a smaller point estimate, not significant (M1 falsified, stated); market value is not stock return; the multiples comparison only as a denominator illustration | Part 3 dated note, `m1_market_value.py` |
 | 5.3 The 2023 verdict | Headlines boomed while Indonesia-only buying measures stalled and sellers reported a worse year; Exhibit 6 | Part 3 |
-| 5.4 H2 | Holds on the published split; E5 falsified, E6; the 2023 rise about half new sellers and half counted for the first time (37-56%), beyond sampling noise (4.6 SE); newly counted were chat-and-social-only; 2024 normal entry; Exhibit 5 | Part 4 |
+| 5.4 H2 | Holds on the published split; E5 falsified, E6; about half of the 2023 rise not explained by first-time entry (37-56%), beyond sampling noise (4.6 SE), among chat-and-social-only sellers, pointing to wider coverage; returning sellers named as the open alternative; 2024 normal entry; Exhibit 5 | Part 4 |
 | 5.5 Additional analyses | Channels: platform channels about 16-26% of online sales value, marketplace use falling, about 96% use chat or social; records: 28.6% vs 12.3%, book-keeping falling 2020-22; one sentence on formal firms (39.9%, highest of 7) | Part 4 |
 | 5.6 Objective 3 | Overlapping slices agree on slow growth; the disagreement sits outside marketplaces; sizes cannot be reconciled (one paragraph); RBI; Exhibit 2 | Part 5 |
 | 6 Why it matters | Short table of the rules and what each acts on; the marketplace tax's reach (at most about 5% of sellers, 17-24% of value, every marketplace seller identified); the cap scoped to two-wheel rides; the scheduled tests, with results added after 27 Oct and mid-Nov; Exhibit 4 | Part 6 |
@@ -31,6 +31,8 @@ How much does a platform-based measure leave out, and when does that change the 
 |---|---|
 | H1 robustness: leave-one-out, ex-Sea benchmark, growth-divergence measure, tracking shares, Fisher test, the main-sample platform shuffle | `test_battery.csv`, `h1_extended.py`, Part 3 |
 | H1 with quarterly pairs (falsified) | `h1_quarterly.py` |
+| H1 with GoTo's two segments grouped as one issuer (independent review) | `../independent_review_2026-10-08/review_checks.py` |
+| Returning-seller scenarios and the typical-seller vs total-sales example (independent review) | `../independent_review_2026-10-08/review_checks.py` |
 | Market-value regression table (main, winsorised, with segments) and the multiples by firm (added 8 Oct) | `m1_market_value.py` |
 | Wedge over time by platform (added 8 Oct; one line of it in 5.1) | `wedge_over_time.py` |
 | Revenue decomposition by window; the wedge split table; Tokopedia's two views; Grab pricing vs mix; Blibli's travel mix; GoTo 2024 incentives | `growth_decomposition.py`, `wedge_split.py`, `h1_groundwork.py` |

@@ -71,14 +71,14 @@ for i, (b, tax) in enumerate(zip(t.base_Rp_tn, t["tax_at_0.5pct_Rp_tn"])):
 ax.set_xlabel("Marketplace tax base, 2024 (Rp trillion)"); ax.set_xlim(0, t.base_Rp_tn.max() * 1.7)
 finish(fig, ax, "The state: the same tax rests on a base that differs about 5x",
        "Source: tax_base_rulers.py. Upper bounds before the Rp500m exemption; the largest is about 0.2% of the 2026 tax target.", "4_tax_base.png")
-# 5. BPS's own answers: the 2023 rise in sellers was about half new sellers, about half sellers counted for the first time; existing sellers were flat
+# 5. BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry; existing sellers were flat
 d = json.load(open(HERE / "tables/bps_descriptives.json")); ra = json.load(open(HERE / "tables/bps_rise_accounting.json"))
 fig, (a1, a2) = plt.subplots(1, 2, figsize=(9, 3.2), gridspec_kw={"width_ratios": [1.15, 1]})
 ent, lo, hi = ra["entrants_k"], ra["scenarios"]["no_exits"]["newly_counted_k"], ra["scenarios"]["reference"]["newly_counted_k"]
 a1.barh([1], [ent], color=BLUE, height=0.6)
 a1.barh([0], [lo], color=ORANGE, height=0.6)
 a1.barh([0], [hi - lo], left=[lo], color=ORANGE, alpha=0.35, height=0.6)
-a1.set_yticks([1, 0], ["Started selling\nonline in 2023", "Already selling,\ncounted for the first time"])
+a1.set_yticks([1, 0], ["Started selling\nonline in 2023", "Already selling before 2023,\nabove the 2022 count"])
 a1.text(ent + 15, 1, f"{ent:.0f}k", va="center", fontsize=9, color=INK)
 a1.text(hi + 15, 0, f"{lo:.0f}k to {hi:.0f}k", va="center", fontsize=9, color=INK)
 a1.set_xlim(0, 700); a1.set_xlabel(f"Thousand sellers (published rise: {ra['rise_k']:.0f}k)")
@@ -88,9 +88,9 @@ a2.set_yticks([2, 1, 0], ["Online revenue up", "Same", "Down"])
 for i, v in zip([2, 1, 0], [r["up"], r["same"], r["down"]]): a2.text(v + 0.8, i, f"{v:.0f}%", va="center", fontsize=9, color=INK)
 a2.set_xlim(0, 55); a2.set_xlabel("Sellers already online before 2023 (%)")
 for ax in (a1, a2): ax.grid(axis="y", visible=False)
-fig.text(0.01, 1.0, "BPS's own answers: about half of the 2023 rise in sellers was counted for the first time, and existing sellers were flat", ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
+fig.text(0.01, 1.0, "BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry, and existing sellers were flat", ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
 fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2022 and 2023 files), weighted; bps_cohort_check.py, bps_rise_accounting.py, bps_descriptives.py. "
-         "Counted for the first time: pre-2023 sellers above the whole 2022 count. Low end: no seller stopped (the bars add up to the rise). "
+         "Above the 2022 count: pre-2023 sellers in excess of the whole 2022 count, newly reached by the survey or returning after a pause. Low end: no seller stopped (the bars add up to the rise). "
          "High end: sellers stopped at the 2020-22 rate (about 5% a year, about 150k), which offsets part of the two bars.",
          ha="left", va="top", fontsize=8, color=INK2, wrap=True)
 fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight"); plt.close(fig)

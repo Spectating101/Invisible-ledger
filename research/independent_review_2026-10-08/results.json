@@ -1,0 +1,264 @@
+{
+  "review_date": "2026-10-08",
+  "reviewed_commit": "b517f8e3b9416493ca1b77295d92b26748900f23",
+  "status": "Independent exploratory review; no sample or thesis wording adopted.",
+  "input_sha256": {
+    "research/option_space_2026-10-01/tables/transitions_master.csv": "c72fb3cc332660585da421dd35467d595116b080137f33169c338418852b405b",
+    "research/option_space_2026-10-01/tables/l_panel.csv": "0a988e6a2ab68cb81ad42cb4d8204c36189dd13496e82338b5dc9ae5891ef271",
+    "research/option_space_2026-10-01/tables/spinoff_panel.csv": "5490591df793a74b2aa27464017410d00b7bda65b2396a39c9d8a700697f68b6",
+    "research/option_space_2026-10-01/tables/h1_extended_results.json": "509c987cd0b913844d087d8c369409ff759c66d1608613e109899a56bfc1bebc",
+    "research/option_space_2026-10-01/tables/bps_rise_accounting.json": "33a531aaa6ca712aaf812a1ff2fe17f18ba5e4bcd8b2194a74a9046909200d6e",
+    "research/option_space_2026-10-01/tables/gel_checks.json": "7b04ec04958195cb4945e4946031443c17969538925e12d3679e725f1b24fc31",
+    "research/option_space_2026-10-01/tables/m1_market_value_results.json": "82e0f1a9bca47229e0a49d2e32a365a3264d72adfaac9ba87dad2f49e7fced72"
+  },
+  "h1_issuer_sensitivity": {
+    "metric": "absolute annual change in log(R/V)",
+    "scope": "Indonesia-aligned main series plus regional on-demand series; not country-only observations",
+    "shared_issuer_rule": "Tokopedia and GoTo on-demand grouped as GoTo; remaining series each form one issuer unit",
+    "summary_rules": {
+      "pooled_transition_median": "median across all observed segment transitions within each issuer",
+      "equal_segment_mean": "mean of segment medians within an issuer, giving each segment equal weight"
+    },
+    "variants": {
+      "original_five_segment_labels": {
+        "units_a": 5,
+        "units_b": 27,
+        "median_a": 0.20111129973300368,
+        "median_b": 0.0615229845641427,
+        "mann_whitney_one_sided_p": 0.0038187271571587474,
+        "exact_permutation_mean_difference_p": 0.003158271094867313,
+        "exact_permutation_median_difference_p": 0.02138288574606706,
+        "allocations": 201376,
+        "values_a": {
+          "Blibli 3P Retail": 0.24968581083770106,
+          "Bukalapak Group": 0.137316762919071,
+          "GoTo on-demand": 0.09445590202062987,
+          "Grab on-demand": 0.20111129973300368,
+          "Tokopedia e-commerce segment": 0.5197576482568383
+        }
+      },
+      "four_issuers_pooled_transition_median": {
+        "units_a": 4,
+        "units_b": 27,
+        "median_a": 0.22539855528535235,
+        "median_b": 0.0615229845641427,
+        "mann_whitney_one_sided_p": 0.0029874463689814074,
+        "exact_permutation_mean_difference_p": 0.0017161925949467662,
+        "exact_permutation_median_difference_p": 0.006991895757190529,
+        "allocations": 31465,
+        "values_a": {
+          "Blibli 3P Retail": 0.24968581083770106,
+          "Bukalapak Group": 0.137316762919071,
+          "GoTo issuer": 0.289066243395411,
+          "Grab on-demand": 0.20111129973300368
+        }
+      },
+      "four_issuers_equal_segment_mean": {
+        "units_a": 4,
+        "units_b": 27,
+        "median_a": 0.22539855528535235,
+        "median_b": 0.0615229845641427,
+        "mann_whitney_one_sided_p": 0.0029874463689814074,
+        "exact_permutation_mean_difference_p": 0.0015890672175433022,
+        "exact_permutation_median_difference_p": 0.006991895757190529,
+        "allocations": 31465,
+        "values_a": {
+          "Blibli 3P Retail": 0.24968581083770106,
+          "Bukalapak Group": 0.137316762919071,
+          "GoTo issuer": 0.3071067751387341,
+          "Grab on-demand": 0.20111129973300368
+        }
+      },
+      "core_three_series_vs_expanded_benchmark": {
+        "units_a": 3,
+        "units_b": 27,
+        "median_a": 0.24968581083770106,
+        "median_b": 0.0615229845641427,
+        "mann_whitney_one_sided_p": 0.007635467980295566,
+        "exact_permutation_mean_difference_p": 0.003940886699507389,
+        "exact_permutation_median_difference_p": 0.013300492610837438,
+        "allocations": 4060,
+        "values_a": {
+          "Blibli 3P Retail": 0.24968581083770106,
+          "Bukalapak Group": 0.137316762919071,
+          "Tokopedia e-commerce segment": 0.5197576482568383
+        }
+      }
+    },
+    "limits": [
+      "Post-result sensitivity, not preregistered confirmation.",
+      "Issuer aggregation is a robustness summary, not a formally fitted dependence model.",
+      "Reporting periods, geographies and business models remain heterogeneous.",
+      "Neither permutation statistic is universally the stricter test.",
+      "GoTo on-demand's 2022 GTV is estimated in the input panel and remains labelled as such."
+    ]
+  },
+  "bps_returning_seller_sensitivity": {
+    "identity": "change in estimated active sellers = first-time entrants - exits + returning sellers + residual",
+    "observed_residual_before_exit_or_return_adjustment_k": 305.5928041780018,
+    "2022_active_count_k": 2995.9859999999985,
+    "scenarios": {
+      "no_exits": {
+        "assumed_exit_rate_pct": 0.0,
+        "returners_needed_for_zero_coverage_residual_k": 305.5928041780018,
+        "returners_needed_as_pct_of_2022_active_count": 10.200074505621922,
+        "assumption_grid": [
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 0.0,
+            "assumed_returners_k": 0.0,
+            "residual_after_returns_k": 305.5928041780018,
+            "residual_share_of_observed_rise_pct": 37.321427754991475
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 2.5,
+            "assumed_returners_k": 74.89964999999997,
+            "residual_after_returns_k": 230.69315417800186,
+            "residual_share_of_observed_rise_pct": 28.17408580802304
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 5.0,
+            "assumed_returners_k": 149.79929999999993,
+            "residual_after_returns_k": 155.79350417800188,
+            "residual_share_of_observed_rise_pct": 19.02674386105461
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 7.5,
+            "assumed_returners_k": 224.69894999999988,
+            "residual_after_returns_k": 80.89385417800193,
+            "residual_share_of_observed_rise_pct": 9.879401914086179
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 10.0,
+            "assumed_returners_k": 299.59859999999986,
+            "residual_after_returns_k": 5.994204178001951,
+            "residual_share_of_observed_rise_pct": 0.7320599671177461
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 15.0,
+            "assumed_returners_k": 449.39789999999977,
+            "residual_after_returns_k": -143.80509582199795,
+            "residual_share_of_observed_rise_pct": -17.562623926819114
+          }
+        ]
+      },
+      "half_reference": {
+        "assumed_exit_rate_pct": 2.544204016854784,
+        "returners_needed_for_zero_coverage_residual_k": 381.81680033440875,
+        "returners_needed_as_pct_of_2022_active_count": 12.744278522476705,
+        "assumption_grid": [
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 0.0,
+            "assumed_returners_k": 0.0,
+            "residual_after_returns_k": 381.81680033440875,
+            "residual_share_of_observed_rise_pct": 46.63050940500001
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 2.5,
+            "assumed_returners_k": 74.89964999999997,
+            "residual_after_returns_k": 306.9171503344088,
+            "residual_share_of_observed_rise_pct": 37.48316745803158
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 5.0,
+            "assumed_returners_k": 149.79929999999993,
+            "residual_after_returns_k": 232.01750033440882,
+            "residual_share_of_observed_rise_pct": 28.33582551106315
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 7.5,
+            "assumed_returners_k": 224.69894999999988,
+            "residual_after_returns_k": 157.11785033440887,
+            "residual_share_of_observed_rise_pct": 19.188483564094717
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 10.0,
+            "assumed_returners_k": 299.59859999999986,
+            "residual_after_returns_k": 82.21820033440889,
+            "residual_share_of_observed_rise_pct": 10.041141617126284
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 15.0,
+            "assumed_returners_k": 449.39789999999977,
+            "residual_after_returns_k": -67.58109966559101,
+            "residual_share_of_observed_rise_pct": -8.253542276810574
+          }
+        ]
+      },
+      "reference": {
+        "assumed_exit_rate_pct": 5.088408033709568,
+        "returners_needed_for_zero_coverage_residual_k": 458.04079649081564,
+        "returners_needed_as_pct_of_2022_active_count": 15.288482539331488,
+        "assumption_grid": [
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 0.0,
+            "assumed_returners_k": 0.0,
+            "residual_after_returns_k": 458.04079649081564,
+            "residual_share_of_observed_rise_pct": 55.93959105500854
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 2.5,
+            "assumed_returners_k": 74.89964999999997,
+            "residual_after_returns_k": 383.1411464908157,
+            "residual_share_of_observed_rise_pct": 46.79224910804011
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 5.0,
+            "assumed_returners_k": 149.79929999999993,
+            "residual_after_returns_k": 308.24149649081573,
+            "residual_share_of_observed_rise_pct": 37.64490716107168
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 7.5,
+            "assumed_returners_k": 224.69894999999988,
+            "residual_after_returns_k": 233.34184649081575,
+            "residual_share_of_observed_rise_pct": 28.49756521410325
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 10.0,
+            "assumed_returners_k": 299.59859999999986,
+            "residual_after_returns_k": 158.44219649081577,
+            "residual_share_of_observed_rise_pct": 19.350223267134815
+          },
+          {
+            "assumed_returners_as_pct_of_2022_active_count": 15.0,
+            "assumed_returners_k": 449.39789999999977,
+            "residual_after_returns_k": 8.642896490815872,
+            "residual_share_of_observed_rise_pct": 1.0555393731979563
+          }
+        ]
+      }
+    },
+    "classification": "scenario, not an estimate of actual returning sellers or a confidence interval",
+    "interpretation": "The residual also absorbs survey coverage, weighting, classification, recall and sampling differences. Its attribution to coverage requires assumptions about returning sellers and those differences."
+  },
+  "synthetic_seller_growth_example": {
+    "classification": "synthetic arithmetic counterexample; not BPS observations or a reconstruction of its aggregate",
+    "purpose": "show that negative seller-weighted mean growth and positive sales-weighted aggregate growth can coexist",
+    "small_sellers": 9,
+    "declining_small_sellers": 4,
+    "unchanged_small_sellers": 5,
+    "large_sellers": 1,
+    "initial_sales_per_small_seller_arbitrary_units": 1.0,
+    "initial_sales_of_large_seller_arbitrary_units": 100.0,
+    "declining_small_seller_growth_pct": -22.06966259974869,
+    "large_seller_growth_pct": 45.13678650398995,
+    "equal_seller_weight_mean_growth_pct": -4.314186389500481,
+    "median_seller_growth_pct": 0.0,
+    "aggregate_sales_growth_pct": 40.600000000000016,
+    "interpretation": "This proves compatibility, not that concentration explains the actual BPS increase. The observed mean and median alone cannot reject the published aggregate."
+  },
+  "valuation_identity": {
+    "identity": "change log(MV/R) - change log(MV/V) = -change log(R/V)",
+    "classification": "algebraic identity, not an independent market-preference test",
+    "implied_take_rate_log_changes_from_saved_multiples": {
+      "Blibli": 1.6918046846097887,
+      "Bukalapak Group": 0.5716947245479655,
+      "GoTo": 0.6538251979841156,
+      "Grab": 0.9992803892410098,
+      "Sea / Shopee": 4.0829593697734605
+    },
+    "main_coefficient_difference_p": 0.20213207569389735,
+    "main_volume_coefficient_p": 0.001637593551456873,
+    "market_cap_boundary": "Change in market capitalization includes changes in shares outstanding; it is not stock return. Existing event-return analyses are a separate exploratory module."
+  }
+}
