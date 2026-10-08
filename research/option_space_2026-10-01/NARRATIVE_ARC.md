@@ -51,4 +51,4 @@ What travels is the check. A platform's revenue tracks buying only while its pri
 
 ## Dated notes
 
-(none)
+- **9 Oct 2026, two layers.** The arc is the narrative layer (the order in which the reader understands the thesis); the chapters are the written layer (the containers a thesis is expected to have). They do not map one to one. The full arc appears compressed in the abstract, the end of chapter 1 and the conclusion; elsewhere its parts are spread across chapters, with chapter openings and closings carrying the thread. Rule: write in chapters, read in arc; a section that cannot say which arc part it serves goes to the appendix. The defence slides can follow the arc directly.
