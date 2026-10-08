@@ -3,7 +3,7 @@
 This file gathers every result the thesis will use. It follows the order of the approved 27 September proposal: same title, same question, same H1 and H2, same measures. Nothing here changes the concept.
 Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`, all PASS) or comes from the proposal itself. Pre-registered tests and their verdicts are in `PREREGISTRATION.md`. Licensed data (BPS, World Bank, LSEG) is never committed; only weighted totals are.
 
-**Read with** the groundwork files, one per chapter: `PART1_PROBLEM_AND_STAKES.md` (problem, who uses the numbers), `PART2_FRAMEWORK.md` (what each indicator covers and how it counts), `PART3_H1_GROUNDWORK.md` (H1), `PART4_H2_GROUNDWORK.md` (H2, who is outside every indicator), `PART5_OBJ3_GROUNDWORK.md` (comparing the indicators). Chapter order: H1, H2, Objective 3, why it matters.
+**Read with** the groundwork files, one per chapter: `PART1_PROBLEM_AND_STAKES.md` (problem, who uses the numbers), `PART2_FRAMEWORK.md` (what each indicator covers and how it counts), `PART3_H1_GROUNDWORK.md` (H1), `PART4_H2_GROUNDWORK.md` (H2, who is outside every indicator), `PART5_OBJ3_GROUNDWORK.md` (comparing the indicators), `PART6_WHY_IT_MATTERS_GROUNDWORK.md` (the 2026 rules and how far each reaches). Chapter order: H1, H2, Objective 3, why it matters.
 
 **The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2022-24, much of the movement in platform revenue, and in 2023 much of the rise in the official count of online sellers, came from how they count, not from the activity.
 
@@ -81,9 +81,9 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 ## 7. Why it matters: the state (proposal section 6)
 
-- 2023-2026 policy acts on these numbers: the 8% ride-hailing cut cap, the June 2026 discount rule, the marketplace tax (PMK 37/2025), the data-handover rule and the 2026 census (34 events in `tables/src/policy_timeline_web.csv`; most are news-sourced, see its status column).
+- 2023-2026 rules each act on one part of what the thesis measures (34 events in `tables/src/policy_timeline_web.csv`, status per row; primary texts in `sources/policy_primary/`): the 8% commission cap on two-wheel ride-hailing (Gojek and Grab rides only; rides are about 36% of Grab's group on-demand GMV); the June 2026 discount rule (customer incentives, the lever behind the take-rate jumps); the marketplace tax (sellers' sales inside marketplaces); the platform-data rule and the 2026 census (BPS's coverage). Full map: Part 6.
 - The marketplace tax base differs about 5x by ruler: Rp204tn (BPS marketplace) to Rp983tn (e-Conomy). At 0.5% that is Rp1.0-4.9tn, 0.04-0.21% of the 2026 tax target.
-- Who the tax reaches (E8): sellers with Rp300m+ a year are 28% of marketplace sellers but hold 77-92% of marketplace value. So the tax can reach most of the money while exempting most sellers. It is small money; its larger effect is records.
+- Who the tax reaches (E8): sellers with Rp300m+ a year are 28% of marketplace sellers but hold 77-92% of marketplace value. Across all online selling, it can collect from at most about 5% of online sellers and about 17-24% of online sales value (2022, upper bounds). It identifies every marketplace seller, exempt or not (PMK 37 Art. 6: tax number or NIK given to the marketplace), about 18% of online sellers; the other four in five are untouched. Small money; its added record covers the marketplace minority only.
 - Scope rule: we criticise only platform-economy numbers we tested. No causal claims about policy.
 
 ## 8. What failed (reported, not hidden)
