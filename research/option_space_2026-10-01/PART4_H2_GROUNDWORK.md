@@ -42,7 +42,7 @@ Pre-registered: E5 (falsified), E6 (holds). Exploratory: 2 to 5 (data already se
 - Respondents misdating their start year: people date events as more recent (forward telescoping), which overstates entrants; our gap is conservative. Misdating cannot create extra pre-2023 sellers in total.
 - Misread files: weights match published counts; the 28.63/12.25 split reproduces exactly; codes checked against BPS's layout.
 - Channel question wording differs (2023 file "promotion and/or sales", 2024 file "sales"): affects the marketplace split, not the cohort totals.
-- Sampling error: cannot be separated from a coverage change at province level (no area or design variables; the researcher decided not to contact BPS); the national cohort pattern (shrink, grow, shrink) and the channel pattern are hard to produce by chance, but they stay exploratory.
+- Sampling error: BPS's published RSEs (2024 edition, by province; `tables/src/bps_2024_rse_by_province.csv`) imply a national RSE of about 1.4%, so the 306 thousand surplus is about 4.6 standard errors of the change (2.3 at twice the RSE): sampling noise is very unlikely to explain it. A frame change still cannot be separated from other coverage changes (no area or design variables; the researcher decided not to contact BPS); the checks stay exploratory [updated 8 Oct, see dated note].
 - Published 2024 shares are rounded to two decimals: changes of this size are not affected.
 - Value-weighted change of existing sellers is not available (the 2024 file has no revenue amounts); a few very large firms growing a lot could account for part of the untraced value growth.
 
@@ -63,4 +63,4 @@ Pre-registered: E5 (falsified), E6 (holds). Exploratory: 2 to 5 (data already se
 
 ## Dated notes
 
-(none since version 3)
+- **8 Oct 2026, after version 3 (`rq_closing_checks.py`, ledger v11).** Sampling noise is very unlikely to explain the 2023 surplus: BPS's published RSEs (2024 edition, by province) imply a national RSE of about 1.4%, so the 306 thousand surplus is about 4.6 standard errors of the change (2.3 at twice the RSE). A frame change still cannot be separated from other coverage changes (no area or design variables; BPS not contacted). The RSE comes from a later survey round (2024 data), so the 1x and 2x versions are both reported.

@@ -48,8 +48,10 @@ step part6_checks.py           # Part 6: reach of each 2026 rule (tax by sellers
 step claims_ledger_v9.py       # Part 6 numbers
 step bps_rise_accounting.py    # 2023 seller rise: new entrants vs sellers counted for the first time (exit sensitivity)
 step claims_ledger_v10.py      # rise accounting
+step rq_closing_checks.py      # sampling noise vs the 2023 surplus (BPS published RSEs); platform channel share of online value
+step claims_ledger_v11.py      # closing checks
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv", "tables/claims_ledger_v11.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

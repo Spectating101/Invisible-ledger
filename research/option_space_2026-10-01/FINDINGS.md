@@ -28,6 +28,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - The wedge is about 2.9% of Indonesia's 2023 GDP in size only; it is sales, not value added.
 - Shopee's assumed cut of 9-11% moves W only between US$39.86bn and US$40.29bn; dropping any one platform leaves at least US$20.70bn (proposal section 5.1).
 - Full platform-year table of m and E: `tables/take_rate_levels.csv`.
+- Across the online economy (the research question's "how much", second level): in BPS's own survey, its marketplace channel (shopping marketplaces plus food and ride apps) carries about 16-26% of online sales value (22.6-25.6% in 2022, microdata; 18.2% in 2023 and 15.8% in 2024, published). Platform-based measures therefore leave out about three quarters of online sales value (`rq_closing_checks.py`, ledger v11).
 
 ## 2. Inside the app: H1 (do V and R grow together?)
 
@@ -94,6 +95,7 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 
 - Small sample: 3 main platforms, 8 comparisons. With one result per firm, a firm-label shuffle gives p = 0.06 for the main sample alone; the 5-vs-27 version gives p = 0.004.
 - Grab's and Shopee's Indonesian figures are constructed; Grab's quarterly data are group-wide.
+- The 2023 seller-count finding is exploratory; sampling noise is very unlikely to explain it (BPS's published RSEs imply about 1.4% nationally; the surplus is about 4.6 standard errors, 2.3 at twice the RSE), but a frame change cannot be separated from other coverage changes.
 - BPS revenue comes in brackets. Our bracket values overshoot BPS's total, so value shares are ranges, not points.
 - BPS's 2024 file does not release revenue amounts; the 2023 file has no business ID to follow sellers over time.
 - World Bank informal data cover six cities, not the nation.

@@ -79,7 +79,7 @@ Each 2026 rule acts on a part of how activity is counted or captured. No effect 
 ## Boundaries
 
 - The framework separates the activity from how it is counted only where both are visible (platform reports; BPS microdata). It does not say which indicator is the "true" economy.
-- The national results are exploratory beyond E5 and E6; sampling error cannot be separated from a coverage change because the files carry no area or design variables (BPS is not being contacted). The value side of 2023 is only partly traceable.
+- The national results are exploratory beyond E5 and E6; sampling noise is very unlikely to explain the 2023 surplus (about 4.6 standard errors on BPS's published RSEs; 2.3 at twice the RSE), but a frame change cannot be separated from other coverage changes because the files carry no area or design variables (BPS is not being contacted) [updated 8 Oct, see dated note]. The value side of 2023 is only partly traceable.
 - The causes of the decisions (why platforms cut incentives in 2022; why BPS widened coverage) are supported by reports, not tested.
 - No causal claim about any policy. The invisible wedge is not lost income, unpaid tax or missing GDP.
 
@@ -127,4 +127,4 @@ Third-quarter 2026 scoring: GoTo 27 Oct (P1-P5, R1, R2); marketplace tax start 1
 
 ## Dated notes
 
-(none since version 3)
+- **8 Oct 2026, after version 3 (`rq_closing_checks.py`, ledger v11).** Sampling noise is very unlikely to explain the 2023 surplus: BPS's published RSEs (2024 edition, by province) imply a national RSE of about 1.4%, so the 306 thousand surplus is about 4.6 standard errors of the change (2.3 at twice the RSE). A frame change still cannot be separated from other coverage changes (no area or design variables; BPS not contacted). Also: the research question's "how much" is answered at two levels (Part 7): inside the platforms revenue is about 7% of transaction value; across the online economy, BPS's marketplace channel (shopping marketplaces plus food and ride apps) carries about 16-26% of online sales value (2022 microdata 22.6-25.6%; 18.2% in 2023 and 15.8% in 2024, published), so platform-based measures leave out about three quarters of online sales value in BPS's own survey.

@@ -7,7 +7,9 @@ Draws on Parts 1-6 and `FINDINGS.md`; every number is in a claims ledger (v1-v10
 
 **Question (proposal, unchanged):** "How much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth?"
 
-**How much (Objective 1).** A lot, and it is stable in size: in 2023 the three platforms carried US$43.23bn of transaction value against US$3.16bn of revenue, an invisible wedge of US$40.07bn (ecosystem ratio 12.7), robust to Shopee's assumed take rate and to dropping any platform (at least US$20.70bn). The wedge moves with transaction value. (Part 3)
+**How much (Objective 1).** A lot, and it is stable in size: in 2023 the three platforms carried US$43.23bn of transaction value against US$3.16bn of revenue, an invisible wedge of US$40.07bn (ecosystem ratio 12.7), robust to Shopee's assumed take rate and to dropping any platform (at least US$20.70bn). The wedge moves with transaction value; revenue is about 7% of what passes through the platforms. (Part 3)
+
+**How much, across the online economy** [added 8 Oct, see dated note]. Platforms carry only part of online selling: in BPS's own survey, its marketplace channel (shopping marketplaces plus food and ride apps) is about 16-26% of online sales value (22.6-25.6% in 2022 from the microdata; 18.2% in 2023 and 15.8% in 2024, published). So measures built on platforms, revenue or transaction value, leave out about three quarters of online sales value, which moves through chat, social media and own websites. (Parts 4, 5)
 
 **When the choice changes the conclusion.**
 1. Inside the platforms, 2022-24: revenue grew mainly through pricing (incentive cuts and fee increases), not more buying. The take rate moved about three times more than at 27 foreign platforms, and about two thirds of Indonesian revenue movement came from it. Reading revenue as growth in those years overstated growth (H1 rejected). (Part 3)
@@ -28,7 +30,7 @@ Draws on Parts 1-6 and `FINDINGS.md`; every number is in a claims ledger (v1-v10
 | 2022-24 timing local to Indonesian and regional platforms | Exploratory |
 | 2023 buying measures stalled while headlines boomed | Firm on Indonesia-only measures, 2023 only |
 | Entry too small for BPS's published seller growth (E5) | Pre-registered, falsified as predicted by a counting change |
-| About half of the 2023 seller rise was newly counted (37-56%) | Exploratory (cohorts, channel, provinces); the range depends on the exit rate |
+| About half of the 2023 seller rise was newly counted (37-56%) | Exploratory (cohorts, channel, provinces); the range depends on the exit rate; sampling noise very unlikely (about 4.6 standard errors on BPS's published RSEs, 2.3 at twice) |
 | Most of BPS's 2023 value growth untraceable | Exploratory scenarios (brackets; no value weights) |
 | Overlapping slices agree on growth; sizes cannot be reconciled | Firm on growth (RBI pre-registered); size gap partly explained |
 | Marketplace tax reach | Firm as upper bounds (Rp300m bracket vs Rp500m exemption) |
@@ -48,7 +50,7 @@ Draws on Parts 1-6 and `FINDINGS.md`; every number is in a claims ledger (v1-v10
 - Small core sample: 3 issuer-reported marketplaces, 8 comparisons; the strongest H1 test adds group-scope Grab and GoTo on-demand series, labelled as regional.
 - Constructed figures: Grab's and Shopee's Indonesian numbers rest on group ratios or third-party estimates and stay out of the main sample.
 - BPS revenue is in brackets, so value shares are ranges; the 2024 file has no revenue amounts; no business ID links sellers across years.
-- The 2023 coverage finding cannot be separated from sampling error: the files carry no area or design variables, and BPS was not contacted (the researcher's decision). One break year (2022-23); the 2024 check uses published tables.
+- The 2023 coverage finding: sampling noise is very unlikely to explain it (about 4.6 standard errors on BPS's published RSEs, 2.3 at twice), but a frame change cannot be separated from other coverage changes: the files carry no area or design variables, and BPS was not contacted (the researcher's decision). One break year (2022-23); the 2024 check uses published tables.
 - Bank Indonesia's method is not public; Momentum Works and e-Conomy are estimates.
 - World Bank informal data cover six cities, not the nation.
 - Policy texts: Perpres 27/2026 and the transport ministry decree are not published or not reachable; the cap is cited as announced. No causal claims about any rule.
@@ -76,4 +78,4 @@ The proposal's section 5.3 concluded "inconsistent with H1 and consistent with H
 
 ## Dated notes
 
-(none)
+- **8 Oct 2026, after version 3 (`rq_closing_checks.py`, ledger v11).** Two closing steps: (1) the research question's "how much" now has its national level (platform channels about 16-26% of online sales value in BPS's survey), which also ties the BPS chapter to the title; (2) Sampling noise is very unlikely to explain the 2023 surplus: BPS's published RSEs (2024 edition, by province) imply a national RSE of about 1.4%, so the 306 thousand surplus is about 4.6 standard errors of the change (2.3 at twice the RSE). A frame change still cannot be separated from other coverage changes (no area or design variables; BPS not contacted).
