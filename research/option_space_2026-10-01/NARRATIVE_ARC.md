@@ -12,7 +12,7 @@ More decisions now rest on these stand-ins. Investors value platforms on them, a
 
 ## A-B. Into Indonesia
 
-To see whether these numbers can be trusted, you need a place where they are likely to break and where you can check them against something underneath. Indonesia is that place. Its platforms are young and changed their prices sharply. Most of its online sellers do not use marketplaces; they sell through chat apps and social media. In 2023 it had a public argument about online growth, which ended with TikTok Shop being shut.
+To see whether these numbers can be trusted, you need a place where they are likely to break and where you can check them against something underneath. Indonesia is that place. Its platforms keep a very thin slice of each sale, so ordinary price changes swing their income hard. Most of its online sellers do not use marketplaces; they sell through chat apps and social media. In 2023 it had a public argument about online growth, which ended with TikTok Shop being shut.
 
 Indonesia also lets us look underneath. The platforms report both what passes through them and what they keep, and BPS asks sellers directly how their year went and when they started selling. So each number can be checked against the activity it stands for: platform revenue (H1), the national seller count (H2), and the marketplace records the tax office will use.
 
@@ -34,7 +34,7 @@ The proposal expected national growth to come from new sellers outside the platf
 
 ## B-C. What travels
 
-Some of this is Indonesian. The size of the price swings is: platforms abroad changed their prices far less, and the follow-up tests show it is not something every platform does everywhere. The survey finding is: one country's survey, one year.
+Some of this is Indonesian. The thin slice is: Indonesia's marketplaces keep far less of each sale than most platforms abroad, so ordinary price changes swing their revenue hard; the follow-up tests show not every platform's revenue swings like this. The survey finding is: one country's survey, one year.
 
 What travels is the check. A platform's revenue tracks buying only while its prices hold, and across listed platforms in several countries market value followed buying. A count of online sellers tracks new businesses only while the survey keeps reaching the same people, and one question about the year a seller started tests it. A rule built on platform records reaches only the sellers on the platforms, and several countries are now building such rules.
 
@@ -52,3 +52,4 @@ What travels is the check. A platform's revenue tracks buying only while its pri
 ## Dated notes
 
 - **9 Oct 2026, two layers.** The arc is the narrative layer (the order in which the reader understands the thesis); the chapters are the written layer (the containers a thesis is expected to have). They do not map one to one. The full arc appears compressed in the abstract, the end of chapter 1 and the conclusion; elsewhere its parts are spread across chapters, with chapter openings and closings carrying the thread. Rule: write in chapters, read in arc; a section that cannot say which arc part it serves goes to the appendix. The defence slides can follow the arc directly.
+- **9 Oct 2026, B3 corrected (`h1_points_vs_log.py`, exploratory).** In points of transaction value, Indonesian platforms changed the share they keep by about as much as platforms abroad (median about 1 point a year in both; p = 0.65); the threefold difference is relative (p = 0.003) and comes from a much thinner slice (median 1.6% of transaction value vs 16.9%). B3 now reads: same-size price changes on a far thinner slice. This gives the wedge its job in the story: the larger the wedge next to revenue, the more an ordinary price change swings revenue growth (D = change in m / m). A-B and B-C wording changed to match; the golden pitch is unaffected.

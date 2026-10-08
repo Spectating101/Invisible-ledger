@@ -22,7 +22,7 @@ This thesis asks when that happens, and how much the stand-ins leave out.
 
 To find out whether these numbers can be trusted, you need a place where they are likely to break and where you can check them against something underneath. Indonesia is that place.
 
-Its platforms are young. Most listed in 2021 and 2022 and then changed their prices sharply, cutting the discounts they had paid for and raising their fees. Most of its online sellers do not use marketplaces at all; they sell through WhatsApp, Instagram and other chat and social apps. And in 2023 the country had a loud public argument about online selling. Market traders in Jakarta's Tanah Abang said cheap goods on TikTok Shop were taking their customers. In late September the government banned shopping inside social media apps, and TikTok Shop closed in early October.
+Its platforms keep a very thin slice of each sale, and after listing in 2021 and 2022 they cut the discounts they had paid for and raised their fees. Most of its online sellers do not use marketplaces at all; they sell through WhatsApp, Instagram and other chat and social apps. And in 2023 the country had a loud public argument about online selling. Market traders in Jakarta's Tanah Abang said cheap goods on TikTok Shop were taking their customers. In late September the government banned shopping inside social media apps, and TikTok Shop closed in early October.
 
 Indonesia also lets us look underneath the numbers. The platforms report both what passes through them and what they keep, so the two can be compared. BPS, the statistics office, asks sellers directly how their year went and in what year they started selling online. I bought those survey answers for three rounds.
 
@@ -44,7 +44,9 @@ The thinness of that slice matters more than its size. When a platform keeps onl
 
 ### B3. H1: did platform income follow buying?
 
-Abroad, mostly it does. I compared Indonesian and regional platforms with 27 platforms in other countries. Abroad, the share a platform keeps changes little from year to year, so revenue and buying move together. In Indonesia the share changed about three times as much.
+Abroad, mostly it does. I compared Indonesian and regional platforms with 27 platforms in other countries. Measured against what they keep, Indonesian platforms' share moved about three times as much from year to year, so their revenue and their buying came apart.
+
+The surprise is why. Counted in rupiah per 100 sold, Indonesian platforms changed what they keep by about as much as platforms abroad: around one rupiah per 100 a year in both. The difference is the slice. A typical platform abroad keeps about 17 rupiah in 100; the Indonesian marketplaces keep under 2. The same one-rupiah change is a small adjustment to a 17-rupiah slice and a huge one to a 2-rupiah slice. This is what the invisible wedge does: the larger it is next to revenue, the more an ordinary price change swings revenue growth.
 
 The reason is in the companies' own accounts. Between 2022 and 2024 the platforms cut back the discounts they had been paying for and raised their fees. About two thirds of each change in Indonesian platform revenue came from that change in the share kept, against about a quarter abroad. Tokopedia is the clearest case: in 2023 its revenue rose 53% while the value of what people bought on it fell 9%, and most of the revenue rise came from paying out fewer discounts.
 
@@ -108,7 +110,7 @@ Every number that read 2023 as a boom was measuring something narrower. Platform
 
 ## B-C. What is Indonesian and what travels
 
-Some of this belongs to Indonesia. The size of the price swings does: platforms abroad changed their prices far less, and a follow-up test across other countries found that not every platform does this. The survey finding does too: it rests on one country's survey in one year.
+Some of this belongs to Indonesia. The thinness of the slice does: Indonesia's marketplaces keep far less of each sale than most platforms abroad, which is why ordinary price changes swung their revenue so hard, and a follow-up test across other countries found that not every platform's revenue swings like this. The survey finding does too: it rests on one country's survey in one year.
 
 What travels is the check. A platform's revenue tracks buying only while the platform keeps the same share of each sale, and that is easy to check from its own reports. A count of online sellers tracks new businesses only while the survey keeps reaching the same people, and one question about the year a seller started is enough to test it. A rule built on platform records reaches only the sellers on the platforms. Several countries are now building exactly such rules, and in places where selling runs through chat apps, most sellers may sit outside them.
 
@@ -137,7 +139,7 @@ The platform comparison rests on a small number of Indonesian platforms, and som
 | A-B | Research question, H1, H2, the stated limit | Proposal (27 Sep 2026) sections 1.1, 3.2, Table 7 |
 | B1 | Tokopedia revenue +53%; BPS value +40.6%, sellers +27.4% (about 819k) | FINDINGS, verdict for 2023 |
 | B2 | About 7 in 100; wedge US$40.07bn on three platforms (2023) | FINDINGS section 1; Part 3 |
-| B3 | About 3x the yearly change abroad (5 vs 27 platforms, p = 0.004); two thirds vs about a quarter; Tokopedia sales -8.9%, revenue +53%, incentives -32%; H1 rejected | FINDINGS sections 2-3; `h1_extended.py`, `wedge_split.py`, `growth_decomposition.py` |
+| B3 | About 3x the yearly change abroad in relative terms (5 vs 27 platforms, p = 0.004); about the same in points of transaction value (about 1 point a year both; median share kept 1.6% vs 16.9%; `h1_points_vs_log.py`, exploratory); two thirds vs about a quarter; Tokopedia sales -8.9%, revenue +53%, incentives -32%; H1 rejected | FINDINGS sections 2-3; `h1_extended.py`, `wedge_split.py`, `growth_decomposition.py` |
 | B3 | Tokopedia, GoTo on-demand and Bank Indonesia fell in 2023; 5 of 6 Indonesia-only measures below household spending (+9.4%) | FINDINGS, verdict for 2023 |
 | B3 | Market value moved with transaction value, 28 firms (M2, p = 0.002); M1 not supported | Part 3 dated note; `m1_market_value.py` |
 | B4 | Nearly all sellers use chat or social (about 96%); platforms about a fifth of online sales (16-26%) | FINDINGS sections 1 and the answer list; `rq_closing_checks.py` |

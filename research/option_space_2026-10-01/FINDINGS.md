@@ -135,3 +135,7 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 | Section 8: stock-return extension (later) | Exploratory only, not in the thesis core | `event_study*.py` (licensed prices) |
 | Exhibits, one per layer | Done (6) | `exhibits.py` |
 | Answer to the research question, failures, limits | Done (groundwork) | `PART7_ANSWER_AND_LIMITS.md` |
+
+## Dated notes
+
+- **9 Oct 2026.** Section 2's "about three times" is relative (log points). In points of transaction value, yearly take-rate changes are about the same in Indonesia and abroad (about 1 point; p = 0.65); Indonesian marketplaces keep a far thinner slice (median 1.6% vs 16.9%), so the same change moves revenue growth far more (`h1_points_vs_log.py`, exploratory; Part 3 dated note).

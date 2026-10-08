@@ -32,6 +32,7 @@ step tax_base_rulers.py        # marketplace tax base under four rulers
 step claims_ledger_v3.py       # recomputes the 3 Oct numbers
 step publishable_track/spinoff_tests.py   # 29-firm panel (quote-checked extractions) and the spin-off tests
 step h1_extended.py            # H1 vs 27 foreign firms, D measure, leave-one-out, exploratory market-income pattern
+step h1_points_vs_log.py      # take-rate changes in points vs logs (exploratory, 9 Oct)
 step consistency_grid.py       # eleven rulers of the online economy
 step exhibits.py               # draft exhibits, one per story layer (exhibits/*.png)
 step claims_ledger_v4.py       # recomputes the 3-4 Oct numbers (World Bank results from committed aggregates)

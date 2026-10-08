@@ -1,0 +1,57 @@
+{
+ "firms": {
+  "Indonesia": 5,
+  "Foreign": 26
+ },
+ "median_share_kept_pct": {
+  "Indonesia": 1.5886632827170892,
+  "Foreign": 16.927954060078058
+ },
+ "median_yearly_change_points": {
+  "Indonesia": 1.0058919287808545,
+  "Foreign": 0.9783064863263236
+ },
+ "median_yearly_change_log": {
+  "Indonesia": 0.20111129973300368,
+  "Foreign": 0.05974647880735876
+ },
+ "mannwhitney_p_points": 0.6519942793580169,
+ "mannwhitney_p_log": 0.002995685976776077,
+ "indonesian_firms": [
+  {
+   "firm": "Blibli 3P Retail",
+   "share_kept_pct": 1.5144,
+   "change_points": 0.3311,
+   "change_log": 0.2497,
+   "n": 4
+  },
+  {
+   "firm": "Bukalapak Group",
+   "share_kept_pct": 1.5887,
+   "change_points": 0.3464,
+   "change_log": 0.1373,
+   "n": 3
+  },
+  {
+   "firm": "GoTo on-demand",
+   "share_kept_pct": 10.6191,
+   "change_points": 1.3544,
+   "change_log": 0.0945,
+   "n": 3
+  },
+  {
+   "firm": "Grab on-demand",
+   "share_kept_pct": 7.5116,
+   "change_points": 2.188,
+   "change_log": 0.2011,
+   "n": 4
+  },
+  {
+   "firm": "Tokopedia e-commerce segment",
+   "share_kept_pct": 1.4757,
+   "change_points": 1.0059,
+   "change_log": 0.5198,
+   "n": 1
+  }
+ ]
+}
