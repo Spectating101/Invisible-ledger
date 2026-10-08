@@ -59,7 +59,7 @@ fig, ax = plt.subplots(figsize=(7, 3.6))
 ax.barh(c.country, c.neither_share, color=[ORANGE if x == "Indonesia" else BLUE for x in c.country], height=0.6)
 for i, v in enumerate(c.neither_share): ax.text(v + 0.6, i, f"{v:.1f}%", va="center", fontsize=9, color=INK)
 ax.set_xlabel("Share of formal firms (5+ employees) with no website and no online tax filing")
-finish(fig, ax, "Outside the records: Indonesia leaves the most firms without a digital trail",
+finish(fig, ax, "Outside online records: Indonesia has the most formal firms with neither a website nor online tax filing",
        "Source: World Bank Enterprise Surveys (Indonesia 2023 and latest per country); wb_crosscountry.py; weights wmedian.", "3_no_digital_trail.png")
 
 # 4. The state: marketplace tax base under four rulers

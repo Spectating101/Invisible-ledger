@@ -13,7 +13,7 @@ Part 2 is the proposal's framework (Figure 1, Section 3) with the same measures 
 - **Ecosystem ratio**: invisible wedge divided by revenue (our own measure; used to describe size only).
 - **Growth divergence**: revenue growth minus transaction value growth in the same year.
 - **Customer incentives**: discounts, promotions and subsidies paid by the platform; deducted from revenue under IFRS 15 (consideration payable to a customer).
-- **"Invisible"** keeps the proposal's meaning only: "The term refers to what a revenue-only measure excludes, not to unrecorded activity." Sellers outside platform and tax records are called that, or "unrecorded sellers", never "invisible".
+- **"Invisible"** keeps the proposal's meaning only: "The term refers to what a revenue-only measure excludes, not to unrecorded activity." Sellers who sell only through chat, social media or their own sites are called "sellers off the platforms", never "invisible"; lacking financial statements is not the same as lacking tax, bank or receipt records.
 
 ## The organising idea
 
@@ -50,12 +50,12 @@ The proposal already applied this at platform level: growth divergence tests whe
 - Why H2 still holds on paper: when the survey finds more existing sellers, their sales come with them, so the business count and e-commerce value rise together and the split reports "more businesses".
 - The parallel with Level 1: about two thirds of platform revenue movement came from the take rate rather than transaction value; about half (37-56%) of the 2023 rise in the official business count came from something other than first-time entry.
 
-**Who is outside every administrative indicator** (sellers outside platform and tax records; the proposal's additional analyses).
+**Sellers off the platforms: channels and records** (the proposal's additional analyses).
 - Most online sellers sell through chat and social media (about 96% in 2023); marketplace use fell from 21.6% of sellers (2020) to 17.2% (2024, published). BPS's "marketplace" category is about half food and ride merchants (43% of its marketplace sellers use only Gojek or Grab; 47% use a shopping marketplace; by app: Gojek 45%, Shopee 42%, Grab 42%, Tokopedia 13%).
 - The share of sellers keeping financial statements fell from 23.5% (2020) to 20.7% (2022) under stable survey coverage, and to 15.2% (2023), a step that partly reflects the chat-only sellers added to the count (same pre-2020 cohort: 23.4% to 16.8% between surveys). Sellers without statements hold 30-40% of 2022 online value (range consistent with BPS's own total).
 - Only 13.5% of off-marketplace sellers want to join a marketplace; at most about 5% of all online sellers are on marketplaces with annual revenue of Rp300m or more. `gel_checks.py`
 - Unregistered firms (World Bank, six cities): 27% sell through social media; their median sales are Rp60 million a year; 70% keep no written records. Formal firms: 39.9% in Indonesia have neither a website nor online tax filing, the highest of seven Southeast Asian countries.
-- These sellers are outside platform records and outside tax records; only BPS's survey reaches them, and in 2023 it reached many more of them.
+- These sellers are outside platform records; among platform-based and survey indicators only BPS's survey counts them, and in 2023 it counted many more of them. Whether they appear in tax or bank records is not observed.
 
 ## Level 3: between indicators (Objective 3)
 
@@ -90,7 +90,7 @@ Thesis chapters follow the proposal's structure (H1, H2, then the comparison of 
 | Chapter (in the thesis) | Part 2 level | Groundwork file |
 |---|---|---|
 | Objective 1, H1 and Objective 2 | Level 1, inside a platform | `PART3_H1_GROUNDWORK.md` |
-| H2 and the additional analyses | Level 2, the nation, and who is outside every indicator | `PART4_H2_GROUNDWORK.md` |
+| H2 and the additional analyses | Level 2, the nation, and sellers off the platforms | `PART4_H2_GROUNDWORK.md` |
 | Objective 3 (uses H1 and H2) | Level 3, between indicators | `PART5_OBJ3_GROUNDWORK.md` |
 | Section 6, why it matters | Level 4, the rules | `PART6_WHY_IT_MATTERS_GROUNDWORK.md` |
 | Conclusion: answer to the research question, what failed, limits | All levels | `PART7_ANSWER_AND_LIMITS.md` |
@@ -103,7 +103,7 @@ H2 comes before Objective 3 because Objective 3's explanation uses the H2 result
 
 - Same: the three rings; transaction value, revenue, take rate, invisible wedge, ecosystem ratio, growth divergence; H1 and H2; the role of each indicator.
 - Clarified: one transaction value measure; take-rate levels are not compared across business models.
-- Added (all backed): why the take rate moved (incentive cuts and fee increases, deducted under IFRS 15); separate jobs for the invisible wedge (size) and growth divergence (reliability); the time pattern (large changes 2022-24, specific to Indonesian and regional platforms, smaller since); the business count treated as an estimate whose coverage can change, tested with the microdata from several angles (2023 a break year, 2024 normal); the records and channel evidence placed as the part outside every administrative indicator; the rules described as acting on how activity is counted.
+- Added (all backed): why the take rate moved (incentive cuts and fee increases, deducted under IFRS 15); separate jobs for the invisible wedge (size) and growth divergence (reliability); the time pattern (large changes 2022-24, specific to Indonesian and regional platforms, smaller since); the business count treated as an estimate whose coverage can change, tested with the microdata from several angles (2023 a break year, 2024 normal); the records and channel evidence placed as the sellers off the platforms; the rules described as acting on how activity is counted.
 
 ## Open items (dated or outside our control)
 

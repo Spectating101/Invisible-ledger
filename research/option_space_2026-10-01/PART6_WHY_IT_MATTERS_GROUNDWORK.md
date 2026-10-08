@@ -1,7 +1,7 @@
 # Part 6: why it matters, the 2026 rules (groundwork, 8 Oct 2026)
 
 **Status: FROZEN 8 Oct 2026** (git tag `part-6-groundwork-frozen-2026-10-08`). Groundwork only: points for the writing stage. Further changes only as dated notes at the end.
-Proposal section 6 ("Why the problem matters"). Uses Parts 3-5. Term rule (Part 2, terms): "invisible" means only what revenue or an indicator leaves out; sellers outside platform and tax records are called that, in plain words.
+Proposal section 6 ("Why the problem matters"). Uses Parts 3-5. Term rule (Part 2, terms): "invisible" means only what revenue or an indicator leaves out; sellers who sell only through chat, social media or their own sites are called "sellers off the platforms".
 Numbers: `part6_checks.py` (ledger v9), `tax_base_rulers.py`, `gel_checks.py`, `bps_microdata_tests.py` (E2, E8), `bps_descriptives.py`, `grab_quarterly.py`. Legal texts: `../../sources/policy_primary/` (MANIFEST.md). Timeline: `tables/src/policy_timeline_web.csv` (status per row). Predictions: `PREREGISTRATION.md` sections A and C and the 3 Oct addendum.
 
 ## Punchline

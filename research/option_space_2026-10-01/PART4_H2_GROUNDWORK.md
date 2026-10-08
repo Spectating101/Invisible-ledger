@@ -1,4 +1,4 @@
-# Part 4: H2, national growth and who is outside every indicator (groundwork, version 2, 8 Oct 2026)
+# Part 4: H2, national growth, and sellers off the platforms (groundwork, version 2, 8 Oct 2026)
 
 **Status: FROZEN 8 Oct 2026, version 4** (git tag `parts-1-7-v4-frozen-2026-10-08`). Version 3 corrected the size of the 2023 seller-count finding (about half the rise was sellers counted for the first time, 37-56%, not "mostly"; `bps_rise_accounting.py`, ledger v10), fixes stale lines and folds in the dated notes; version 2 is at tag `parts-1-4-v2-frozen-2026-10-08`. Version 4 (8 Oct, after the independent review in `../independent_review_2026-10-08/REVIEW.md`): stated as stand-in conditions; the 2023 seller gap stated as not explained by first-time entry, with returning sellers named; the market multiples treated as arithmetic; H1 test wording corrected; version 3 is at tag `parts-1-7-v3-frozen-2026-10-08`. Groundwork only: points for the writing stage. Further changes only as dated notes at the end.
 Order: H2 comes before Objective 3 (between indicators) because Objective 3's explanation uses the H2 result, and H1 plus H2 complete the proposal's two links (Figure 1). Builds on `PART2_FRAMEWORK.md` Level 2.
@@ -27,14 +27,14 @@ Numbers: `bps_bridge.py` (`bps_recompute.json`), `bps_microdata_tests.py`, `bps_
 6. BPS method: each round lists businesses in sampled areas and updates the sampling frame; the revenue questions are worded the same in both rounds (average monthly revenue, months with online sales, channel shares), so a change in wording does not explain the 2023 value growth. BPS's publication defines transaction value but gives no estimation detail.
 Pre-registered: E5 (falsified), E6 (holds). Exploratory: 2 to 5 (data already seen when designed).
 
-## Who is outside every administrative indicator (the proposal's additional analyses)
+## Sellers off the platforms: channels and records (the proposal's additional analyses)
 
 - Channels: about 96% of sellers use chat or social media (2023); marketplace use fell from 21.6% of sellers (2020) to 19.8% (2022), 17.8% (2023) and 17.2% (2024, published) (E2b, E2c hold). BPS's "marketplace" category is about half food and ride merchants (43% of its marketplace sellers use only Gojek or Grab; 47% use a shopping marketplace). 98.5% of 2023-24 value growth outside marketplaces (published). Only 13.5% of off-marketplace sellers want to join a marketplace.
 - Records: 28.6% of marketplace sellers keep complete financial statements vs 12.3% of others (published; reproduced exactly). Share with statements: 23.5% (2020), 20.7% (2022) under stable coverage, 15.2% (2023), the last step partly reflecting the chat-only sellers added to the count (same pre-2020 cohort: 23.4% to 16.8% between surveys).
 - Size: new sellers are a little smaller (2022 starters 86.5% under Rp300m a year vs 80.7% of pre-2020 sellers). At most about 5% of all online sellers are on marketplaces with Rp300m+ a year.
 - Value without statements: sellers without statements hold 30-40% of 2022 online value (E1, range).
 - World Bank: unregistered firms in six cities, 27% sell through social media, median sales Rp60m a year, 70% keep no written records (W1, W2 hold; W3 falsified on the mean); formal firms, 39.9% with neither website nor online tax filing, highest of 7 countries (F3, X3 hold).
-- These sellers are outside platform records and tax records; only BPS's survey reaches them, and in 2023 it reached many more of them. The jump in the count is itself a lower bound on how many existing sellers sat outside the earlier count.
+- These sellers are outside platform records; among the indicators studied only BPS's survey counts them, and in 2023 it counted many more of them. Whether they appear in tax or bank records is not observed (lacking financial statements is not lacking all records). If few sellers returned after a pause, the gap also indicates how many existing sellers the earlier count missed.
 
 ## Objections and answers
 
