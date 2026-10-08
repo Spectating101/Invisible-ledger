@@ -3,22 +3,22 @@
 This file gathers every result the thesis will use. It follows the order of the approved 27 September proposal: same title, same question, same H1 and H2, same measures. Nothing here changes the concept.
 Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`, all PASS) or comes from the proposal itself. Pre-registered tests and their verdicts are in `PREREGISTRATION.md`. Licensed data (BPS, World Bank, LSEG) is never committed; only weighted totals are.
 
-**Read with** the groundwork files, one per chapter: `PART1_PROBLEM_AND_STAKES.md` (problem, who uses the numbers), `PART2_FRAMEWORK.md` (what each indicator covers and how it counts), `PART3_H1_GROUNDWORK.md` (H1), `PART4_H2_GROUNDWORK.md` (H2, who is outside every indicator), `PART5_OBJ3_GROUNDWORK.md` (comparing the indicators), `PART6_WHY_IT_MATTERS_GROUNDWORK.md` (the 2026 rules and how far each reaches). Chapter order: H1, H2, Objective 3, why it matters.
+**Read with** the groundwork files, one per chapter: `PART1_PROBLEM_AND_STAKES.md` (problem, who uses the numbers), `PART2_FRAMEWORK.md` (what each indicator covers and how it counts), `PART3_H1_GROUNDWORK.md` (H1), `PART4_H2_GROUNDWORK.md` (H2, who is outside every indicator), `PART5_OBJ3_GROUNDWORK.md` (comparing the indicators), `PART6_WHY_IT_MATTERS_GROUNDWORK.md` (the 2026 rules and how far each reaches), `PART7_ANSWER_AND_LIMITS.md` (answer to the research question, what failed, limits). Chapter order: Objective 1 and H1, H2, Objective 3, why it matters, conclusion. Groundwork version 3, tag `parts-1-7-v3-frozen-2026-10-08`.
 
-**The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2022-24, much of the movement in platform revenue, and in 2023 much of the rise in the official count of online sellers, came from how they count, not from the activity.
+**The thesis in one sentence.** Indicators of Indonesia's online economy move with both what they cover and how they count it; in 2022-24, much of the movement in platform revenue, and in 2023 about half of the rise in the official count of online sellers, came from how they count, not from the activity.
 
 **Words used once and kept.** V = transaction value, everything sold through a platform (the firm's GMV, GTV, TPV or bookings). R = revenue, what the platform keeps. m = R / V, the platform's cut. W = V - R, the wedge: the part of the sales that revenue does not show. E = W / R. D = growth of R minus growth of V.
 
 ## The verdict for 2023 (the year of the official boom)
 
-5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while its own survey answers allow at most about +15.5% more sellers from entry and show the typical existing seller flat. Sellers themselves named lack of demand as their main obstacle in 2023 (41%, up from 35% in 2022; 58% among those whose online revenue fell), and existing sellers' own reports turned from net up in 2022 (37% up, 24% down) to net down in 2023 (24% up, 32% down). Exhibit `6_verdict_2023.png`. On BPS's value figure: newly counted sellers account for about 15-17% of the published increase and entrants about 25-30% (scenarios); the remaining 53-59% would have to come from existing sellers, who reported a mean change of -4.3% in online revenue. Where indicators measure overlapping slices (BPS's marketplace slice, which also includes Gojek and Grab food and ride merchants, vs the platform indicators), they agree on slow growth; the disagreement sits outside marketplaces. Details and limits: `PART3_H1_GROUNDWORK.md`, `PART4_H2_GROUNDWORK.md` (`h1_groundwork.py`, `gel_checks.py`, ledgers v6-v8).
+5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4%), and 3 fell (Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia -4.7%). In the same year platform revenue rose fast (Tokopedia +53%) and BPS published +40.6% e-commerce value and +27.4% online sellers, while about half of that seller rise (37-56%) was existing sellers counted for the first time and the typical existing seller was flat. Sellers themselves named lack of demand as their main obstacle in 2023 (41%, up from 35% in 2022; 58% among those whose online revenue fell), and existing sellers' own reports turned from net up in 2022 (37% up, 24% down) to net down in 2023 (24% up, 32% down). Exhibit `6_verdict_2023.png`. On BPS's value figure: newly counted sellers account for about 15-17% of the published increase and entrants about 25-30% (scenarios); the remaining 53-59% would have to come from existing sellers, who reported a mean change of -4.3% in online revenue. Where indicators measure overlapping slices (BPS's marketplace slice, which also includes Gojek and Grab food and ride merchants, vs the platform indicators), they agree on slow growth; the disagreement sits outside marketplaces. Details and limits: `PART3_H1_GROUNDWORK.md`, `PART4_H2_GROUNDWORK.md` (`h1_groundwork.py`, `gel_checks.py`, ledgers v6-v8).
 
 ## The answer in six sentences
 
 1. Inside the app, revenue and sales split apart about three times more in Indonesia than abroad (H1 rejected).
 2. Revenue moved mainly because platforms raised their cut, by cutting discounts and raising fees (discounts were the larger part in 4 of 7 Indonesian windows, fees in 2); the wedge itself moved with sales.
 3. Rulers that see only the apps say the online economy grew about 5% a year; BPS, the one Indonesia-wide count of all online sellers, says much faster, and regional parcel counts point the same way. Part of BPS's growth is its survey design (point 4), so the gap comes from both what each ruler sees and how it counts.
-4. National growth on paper came from "more businesses" (H2 holds on BPS's published numbers), but BPS's own survey answers show most of the 2023 jump was not new sellers: it was more sellers being counted.
+4. National growth on paper came from "more businesses" (H2 holds on BPS's published numbers), but BPS's own survey answers show that about half of the 2023 jump in sellers (37-56%) was existing sellers counted for the first time; the rest was real entry.
 5. Most sellers keep no books and leave no digital trail (book-keeping fell 2020-22 under stable coverage); about 96% sell through chat or social media and only 13.5% of off-marketplace sellers want to join a marketplace; the new marketplace tax can reach most marketplace value but at most about 5% of online sellers.
 6. Where the indicators measure overlapping slices (BPS's marketplace slice is 47% shopping-marketplace sellers and 43% only Gojek or Grab merchants), they agree on slow growth; their sizes cannot be reconciled (platform GMV counts shipping, digital goods, travel and offline sales; BPS's survey is thin at the top, 19 rows for Rp50bn+ sellers).
 
@@ -47,7 +47,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
   - Tokopedia 2022-2023: sales -8.9%, revenue +53%; incentives fell 32%.
   - Blibli 3P 2022-2023: revenue +465%; 63% from fewer discounts.
 - The wedge vs revenue (`wedge_split.py`): in Indonesia about 96% of each change in the wedge comes from sales volume. For revenue it is the other way round: two thirds of each change comes from the cut (66.5%, vs 26.7% abroad).
-- In plain words: **the wedge follows sales; revenue follows the cut.** An investor reading revenue sees pricing decisions, not commerce.
+- In plain words: **the wedge follows sales; revenue follows the cut.** In Indonesia in 2022-24, an investor reading revenue growth was reading pricing decisions more than commerce.
 - Discount-leverage rule (pre-registered 2 Oct): it points the right way (2 of 2 high-leverage years moved, vs 10 of 16 others), but there are too few high-leverage cases out of sample to count as evidence.
 
 ## 4. Apps vs the nation (Objective 3)
@@ -63,16 +63,16 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - BPS's published numbers, split arithmetically (`bps_bridge.py`, `tables/bps_recompute.json`): more businesses account for 90.3% of 2023-2024 growth (71.0% under BPS's other 2023 count) and 71.0% of 2022-2023 growth.
 - **Verdict on the published numbers: H2 holds.**
 - BPS's own answers (microdata, 7 Oct; exhibit 5):
-  - Only 13.4% of 2023 sellers started selling online in 2023. Even if nobody quit, that explains at most +15.5% seller growth, against the published +27.4% (E5 falsified). In growth terms, at least 40% of the published rise is not explained by entry (a lower bound).
+  - Only 13.4% of 2023 sellers started selling online in 2023, below the 21.5% the published +27.4% requires even if nobody quit (E5 falsified).
   - Sellers already online had a median change of 0% in online revenue: 24% up, 44% same, 32% down (E6 holds).
-  - Same cohorts across surveys (exploratory, `bps_cohort_check.py`): sellers who started selling online by 2020 shrank 9.9% between the 2020 and 2022 surveys (as they should), then grew 6.0% between the 2022 and 2023 surveys. The 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count: 37% of the published rise, net of exits. Direct evidence that the 2023 survey counted existing sellers it had not counted before. The extra sellers were all off-marketplace (chat or social only +13%; marketplace users +0.3%). From 2023 to 2024 the count behaves normally (published 2024 table: pre-2020 sellers -10.2%, at least 754 thousand new sellers against a rise of 584 thousand), so 2023 was a break year, not a permanent bias. See `PART4_H2_GROUNDWORK.md`.
-- **What this means for H2:** the 2022-2023 "more businesses" is largely more businesses counted, not more businesses selling. H2 still holds as arithmetic on BPS's numbers. Its meaning changes: national growth on paper came from wider counting more than from new sellers or existing sellers growing. The thesis states this plainly, as registered.
+  - Same cohorts across surveys (exploratory, `bps_cohort_check.py`): sellers who started selling online by 2020 shrank 9.9% between the 2020 and 2022 surveys (as they should), then grew 6.0% between the 2022 and 2023 surveys. The 2023 survey counts 306 thousand more pre-2023 sellers than the whole 2022 count: 37% of the published rise, net of exits; about 56% if sellers stopped at the 2020-22 rate of about 5% a year (`bps_rise_accounting.py`). The other part of the 819 thousand rise is the 513 thousand sellers who started in 2023. Direct evidence that the 2023 survey counted existing sellers it had not counted before: roughly half the rise. The extra sellers were all off-marketplace (chat or social only +13%; marketplace users +0.3%). From 2023 to 2024 the count behaves normally (published 2024 table: pre-2020 sellers -10.2%, at least 754 thousand new sellers against a rise of 584 thousand), so 2023 was a break year, not a permanent bias. See `PART4_H2_GROUNDWORK.md`.
+- **What this means for H2:** the 2022-2023 "more businesses" is about half new businesses and about half existing businesses counted for the first time. H2 still holds as arithmetic on BPS's numbers. Its meaning changes: national growth on paper came from real entry and wider counting in similar parts, not from existing sellers growing. The thesis states this plainly, as registered.
 
 ## 6. Channels and records (the proposal's two additional analyses)
 
 - Channels: in 2023-2024 BPS's marketplace value grew 1.45% and other channels 20.57%, so 98.5% of the increase was outside marketplaces (published).
 - Marketplace use fell each time it was measured: 21.6% of sellers (2020), 19.8% (2022), 17.8% (2023), 17.2% (2024, published).
-- BPS's "marketplace" is mostly food and ride apps: among its marketplace sellers in 2023, 45% use Gojek, 42% Shopee, 42% Grab, 13% Tokopedia.
+- BPS's "marketplace" is about half food and ride apps: of its marketplace sellers in 2023, 43% use only Gojek or Grab and 47% use a shopping marketplace (by app: Gojek 45%, Shopee 42%, Grab 42%, Tokopedia 13%).
 - Records: 28.6% of marketplace sellers keep complete financial statements vs 12.3% of others (published; the microdata reproduces this exactly).
 - The share keeping financial statements fell: 23.5% (2020), 20.7% (2022), 15.2% (2023). The 2022-23 step partly reflects who was newly counted: within the same pre-2020 cohort the share went from 23.4% to 16.8% between surveys, as chat-only sellers were added; the 2020-22 decline happened while coverage was stable.
 - Sellers without financial statements hold 30-40% of 2022 online value (E1, range consistent with BPS's own total).
@@ -98,7 +98,7 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 - BPS's 2024 file does not release revenue amounts; the 2023 file has no business ID to follow sellers over time.
 - World Bank informal data cover six cities, not the nation.
 - Rulers measure different things; we compare growth, not levels, except where definitions were reconciled.
-- Policy texts: Perpres 27/2026 and parts of the timeline are news-sourced until the primary texts are read.
+- Policy texts: PMK 37/2025, PENG-46/PJ.09/2026 (via the DDTC mirror), Permendag 19/2026 and 31/2023, Peraturan BPS 4/2023 and PP 20/2026 are read in primary text; Perpres 27/2026 and the transport ministry decree are unpublished or unreachable, so the cap is cited as announced; the rest of the timeline is news-sourced (status per row).
 
 ## 10. Still open (dated)
 
@@ -109,7 +109,7 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 | early Nov 2026 | BPS 3Q26 GDP: score R2 | `score_q3_2026.py` |
 | mid Nov 2026 | Grab and Sea 3Q26: score P4, R3 | `score_q3_2026.py` |
 | next BPS release | Marketplace share at or below 15.79% | `PREREGISTRATION.md` section C |
-| before writing | Read primary legal texts; check the reference list; get the YZU template | `AGENTS.md` open items |
+| before writing | Check the reference list against the 27 Sep text; get the YZU template (primary legal texts: done, see `sources/policy_primary/MANIFEST.md`) | `AGENTS.md` open items |
 | after the defense | Send BPS a copy of the thesis (SPPD duty) | - |
 
 ## Proposal checklist (every promise and where it is met)
@@ -128,4 +128,5 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 | Section 8: quarterly pairs | Done; falsified | `h1_quarterly.py` |
 | Section 8: alternative sample rules | Done | `h1_regional_tier.py`, `h1_extended.py` (leave-one-out) |
 | Section 8: stock-return extension (later) | Exploratory only, not in the thesis core | `event_study*.py` (licensed prices) |
-| Exhibits, one per layer | Done (5) | `exhibits.py` |
+| Exhibits, one per layer | Done (6) | `exhibits.py` |
+| Answer to the research question, failures, limits | Done (groundwork) | `PART7_ANSWER_AND_LIMITS.md` |

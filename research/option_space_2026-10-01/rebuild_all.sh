@@ -43,8 +43,10 @@ step claims_ledger_v7.py       # cheap checks of 8 Oct (timing; BPS cohorts from
 step claims_ledger_v8.py       # linking checks (gel_checks.json, from licensed data)
 step part6_checks.py           # Part 6: reach of each 2026 rule (tax by sellers and value; cap within Grab on-demand)
 step claims_ledger_v9.py       # Part 6 numbers
+step bps_rise_accounting.py    # 2023 seller rise: new entrants vs sellers counted for the first time (exit sensitivity)
+step claims_ledger_v10.py      # rise accounting
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

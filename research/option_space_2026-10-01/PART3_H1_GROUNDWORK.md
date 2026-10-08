@@ -1,11 +1,18 @@
 # Part 3: H1, inside the platforms (groundwork, version 2, 8 Oct 2026)
 
-**Status: FROZEN 8 Oct 2026, version 2** (git tag `parts-1-4-v2-frozen-2026-10-08`). Version 2 folds in the dated notes of 8 Oct; version 1 is at tag `part-3-groundwork-frozen-2026-10-07`. Groundwork only: points for the writing stage. Further changes only as dated notes at the end.
+**Status: FROZEN 8 Oct 2026, version 3** (git tag `parts-1-7-v3-frozen-2026-10-08`). Version 3 corrects the size of the 2023 seller-count finding (about half the rise was sellers counted for the first time, 37-56%, not "mostly"; `bps_rise_accounting.py`, ledger v10), fixes stale lines and folds in the dated notes; version 2 is at tag `parts-1-4-v2-frozen-2026-10-08`. Version 3 also adds the Objective 1 block. Groundwork only: points for the writing stage. Further changes only as dated notes at the end.
 Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numbers: `h1_extended.py`, `build_numbers.py` (`test_battery.csv`), `h1_quarterly.py`, `growth_decomposition.py`, `wedge_split.py`, `goto_on_demand.py`, `h1_groundwork.py`, `timing_check.py`, `gel_checks.py`; checked by claims ledgers v1 to v8.
+
+## Objective 1: how big the invisible wedge is (the proposal's numbers, unchanged)
+
+- 2023, three platforms (Shopee, Tokopedia, Grab Indonesia): transaction value US$43.23bn, revenue US$3.16bn, invisible wedge US$40.07bn, ecosystem ratio 12.7 (proposal Table 5). About 2.9% of Indonesia's 2023 GDP in size only: it is transaction value, not value added.
+- Robust to construction: Shopee's assumed take rate of 9-11% moves the wedge only between US$39.86bn and US$40.29bn; dropping any one platform leaves at least US$20.70bn. Blibli's and Bukalapak's wedges (US$3.20bn, US$10.50bn) are left out of the total for scope reasons (proposal section 5.1).
+- Platform-year take rates and ecosystem ratios: `tables/take_rate_levels.csv`.
+- What the wedge is for: size. It moves with transaction value (about 96% of each change in the main sample; arithmetic, because the take rate is small). Whether revenue stays a reliable guide is growth divergence's job: about two thirds of Indonesian revenue movement came from the take rate, against about a quarter abroad (`wedge_split.py`).
 
 ## Punchline and verdict
 
-- **Punchline (whole thesis, H1 is the first half):** Indonesia's two biggest online-economy growth stories in 2023, platform revenue booming and the official count of online sellers surging, were in large part about how things were counted, not about more buying or more sellers.
+- **Punchline (whole thesis, H1 is the first half):** Indonesia's two biggest online-economy growth stories in 2023, platform revenue booming and the official count of online sellers surging, were in large part about how things were counted: revenue rose through pricing rather than more buying, and about half of the rise in sellers was sellers counted for the first time rather than new ones.
 - **Verdict for 2023:**
   - 5 of 6 Indonesia-only measures of buying through platforms grew less than household spending (+9.4% nominal), and 3 fell: Tokopedia -8.9%, GoTo on-demand -10.5%, Bank Indonesia's e-commerce figure -4.7%. Momentum Works +3.5%, Bukalapak +6.9%; Blibli +34.7% is the one exception.
   - Platform revenue rose fast (Tokopedia +53%, Bukalapak +23%, Blibli 3P +465%), and BPS published +40.6% e-commerce value and +27.4% online sellers.
@@ -39,8 +46,8 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 
 - The large take-rate changes came in 2022-24: Grab and Blibli in 2022-23, GoTo in 2024. Since then: Grab on-demand flat at 13-14% (from 1Q23); GoTo on-demand 16.8% to 20.6% (2024-26); Blibli 2.3% to 3.4% (2023-25).
 - The quarterly H1 test was falsified (p = 0.19): it mostly covers the calmer period. H1's rejection describes a repricing period; this is part of the result.
-- The 2022-24 swings are specific to the Indonesian and regional platforms: all 4 swung more in 2022-24 than in other years (median 0.32 vs 0.06), while foreign platforms in lower-income markets did not (1 of 7) and neither did high-income ones (5 of 14) (exploratory, `timing_check.py`). So "the end of cheap money worldwide" does not explain it on its own.
-- What the four share: all listed in 2021-22 (Bukalapak 6 Aug 2021, Grab 2 Dec 2021, GoTo 11 Apr 2022, Blibli 7 Nov 2022) and repriced soon after, while incentives were still large. An observation on four firms, not a test. Literature: Jain and Kini (1994) document changes in operating performance after IPOs (context only); no academic study of platforms cutting incentives after listing was found; news reports describe the pressure on Indonesian tech firms to show profits in the 2022-23 tech winter.
+- The 2022-24 swings are specific to the Indonesian and regional platforms: all 4 swung more in 2022-24 than in other years (median 0.32 vs 0.06), while foreign platforms in lower-income markets did not (1 of 7) and neither did high-income ones (5 of 14) (exploratory, `timing_check.py`). So "the end of cheap money worldwide" does not explain it on its own. Listing alone does not either: foreign platforms' take rates do not swing more within 3 years of listing (median 0.070) than later (0.084; Wilcoxon p = 0.24; exploratory, `listing_check.py`). The Indonesian and regional platforms made their largest move 1 year after listing (Bukalapak 2022, Grab 2022, Tokopedia 2023, Blibli 2023) or 2 years (GoTo on-demand 2024).
+- What the four share: all listed in 2021-22 (Bukalapak 6 Aug 2021, Grab 2 Dec 2021, GoTo 11 Apr 2022, Blibli 7 Nov 2022) and repriced soon after, while incentives were still large. An observation on four firms, not a test: what is specific to them is the combination of listing at the 2021-22 peak with very large incentives, then repricing within one to two years during the 2022-23 tech winter. Literature: Jain and Kini (1994) document changes in operating performance after IPOs (context only); no academic study of platforms cutting incentives after listing was found; news reports describe the pressure on Indonesian tech firms to show profits in the 2022-23 tech winter.
 
 ## How general
 
@@ -69,8 +76,8 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 ## Compared with the proposal
 
 - Same: verdict, test, main sample, 60.6% for Tokopedia.
-- Added: the 5-vs-27 comparison carries the weight; the strict platform-level test reported; cause per platform (Grab pricing, Tokopedia two views, GoTo 2024, Blibli partly mix); the 2022-24 repricing period, local to Indonesian and regional platforms; the general pattern and its limits; the 2023 verdict on buying, sellers' reports, revenue and the official count.
+- Added: Objective 1 restated with the separate jobs of the invisible wedge (size) and growth divergence (reliability); the 5-vs-27 comparison carries the weight; the strict platform-level test reported; cause per platform (Grab pricing, Tokopedia two views, GoTo 2024, Blibli partly mix); the 2022-24 repricing period, local to Indonesian and regional platforms; the general pattern and its limits; the 2023 verdict on buying, sellers' reports, revenue and the official count.
 
 ## Dated notes
 
-- **8 Oct 2026, after version 2 (exploratory, `listing_check.py`).** The listing link tested on the foreign firms: their take rates do not swing more within 3 years of listing (median 0.070) than later (0.084; 9 of 15 larger, Wilcoxon p = 0.24). So listing alone is not a general cause. The Indonesian and regional platforms made their largest move 1 year after listing (Bukalapak 2022, Grab 2022, Tokopedia 2023, Blibli 2023) or 2 years (GoTo on-demand 2024). Neither the end of cheap money worldwide nor listing alone explains it; what is specific to them is the combination: listing at the 2021-22 peak with very large incentives, then repricing within one to two years during the 2022-23 tech winter. Descriptive, not a tested cause.
+(none since version 3)

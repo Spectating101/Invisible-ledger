@@ -1,0 +1,8 @@
+id,claim,stated,recomputed,status
+A10-01,BPS 2022-23 rise in online sellers (thousand),819.0,818.813273,PASS
+A10-02,Sellers who started selling online in 2023 (thousand),513.0,513.220469,PASS
+A10-03,"Pre-2023 sellers above the 2022 count, net of exits (thousand)",306.0,305.592804,PASS
+A10-04,"Newly counted, share of rise, no exits (%)",37.0,37.321428,PASS
+A10-05,Reference exit rate from 2020-22 cohorts (% a year),5.1,5.088408,PASS
+A10-06,"Newly counted, share of rise, at the reference exit rate (%)",56.0,55.939591,PASS
+A10-07,Newly counted at the reference exit rate (thousand),458.0,458.040796,PASS
