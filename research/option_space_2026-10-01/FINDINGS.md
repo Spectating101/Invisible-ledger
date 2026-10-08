@@ -109,7 +109,7 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 | early Nov 2026 | BPS 3Q26 GDP: score R2 | `score_q3_2026.py` |
 | mid Nov 2026 | Grab and Sea 3Q26: score P4, R3 | `score_q3_2026.py` |
 | next BPS release | Marketplace share at or below 15.79% | `PREREGISTRATION.md` section C |
-| before writing | Check the reference list against the 27 Sep text; get the YZU template (primary legal texts: done, see `sources/policy_primary/MANIFEST.md`) | `AGENTS.md` open items |
+| before writing | Check the reference list against the 27 Sep text; get the YZU template (primary legal texts: done, see `sources/policy_primary/MANIFEST.md`) | `../../AGENTS.md` open items |
 | after the defense | Send BPS a copy of the thesis (SPPD duty) | - |
 
 ## Proposal checklist (every promise and where it is met)

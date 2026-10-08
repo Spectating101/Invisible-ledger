@@ -3,7 +3,10 @@
 # Needs pandas, numpy, scipy, statsmodels (set PYTHONPATH if they live outside the system python).  Takes about 3 minutes (bootstrap steps).
 # NOT rebuilt here (licensed or scratch inputs, see tables/claims_ledger_v2_NOT_REPRODUCIBLE_FROM_REPO.txt): analyst_extrapolation.py, multiples_dispersion.py,
 # event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py, wb_crosscountry.py, bps_microdata_tests.py, bps_descriptives.py, bps_frame_check.py, bps_cohort_check.py, bps_h2_cheap_checks.py, gel_checks.py and part5_checks.py
-# (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
+# (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py to v10).
+# Also not run here: cap_prediction.py and score_q3_2026.py (scoring after the 3Q26 releases), l_rule_preregistration.py (the registered rule, text only),
+# peers_quarterly.py, mmyt_incentives.py and tokopedia_segment.py (built once from the local filing corpus; outputs committed), verify_extraction.py and
+# check_rows.py (acceptance checks used when each extraction was made).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
 set -euo pipefail
 cd "$(dirname "$0")"
 PY="${PYTHON:-python3}"

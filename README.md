@@ -2,6 +2,8 @@
 
 Research repository for **The Invisible Ledger**, a thesis project on the measurement and disclosure boundaries of platform-mediated economic activity in Indonesia, with separate historical and ASEAN evidence.
 
+**Current state (8 October 2026).** The thesis executes the [27 September proposal](papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf), examined and passed on 1 October 2026. The current evidence and chapter groundwork are in [research/option_space_2026-10-01](research/option_space_2026-10-01/README.md): `PART1` to `PART7` (chapter groundwork, frozen at tag `parts-1-7-v3-frozen-2026-10-08`), `FINDINGS.md` (every number and its script) and `PREREGISTRATION.md` (tests and verdicts). The September documents linked below are history: where they differ from the October files, the October files are current.
+
 The project asks how platform transaction flows relate to revenue recognized by the platform, what participant-side activity remains outside that corporate revenue boundary, and what can—and cannot be inferred for economic statistics and tax administration.
 
 For the reasoning behind the current rebuild—including agreed decisions, provisional interpretation, strongest findings, unresolved questions, and the handoff to independent reviewers—read [the research-direction handoff](docs/RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
