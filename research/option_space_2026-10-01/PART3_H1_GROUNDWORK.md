@@ -80,4 +80,4 @@ Builds on `PART1_PROBLEM_AND_STAKES.md` and `PART2_FRAMEWORK.md` (Level 1). Numb
 
 ## Dated notes
 
-(none since version 3)
+- **8 Oct 2026, after version 3.** (1) Objective 1 over time (`wedge_over_time.py`): for Tokopedia, Blibli and Bukalapak the wedge is 97-99% of transaction value in every year and grows with it, while revenue swings on its own. (2) **What markets did (proposal section 8; M1-M2, pre-registered 8 Oct before the market values were pulled; `m1_market_value.py`, ledger v12).** Across 28 listed platforms (138 firm-years, whole-company figures), market value moves with transaction value (b1 = 0.60, p = 0.002; M2 holds). Revenue growth that comes from a higher take rate is valued at about half as much in the point estimate (b2 = 0.33), but the difference is not significant (p = 0.20; M1 falsified); it is significant only when the segment series and Mercado Libre are added (p = 0.004). Descriptive: the Indonesian platforms' revenue multiples compressed far more than their value-to-transaction-value multiples (log changes: Blibli -1.88 vs -0.19, GoTo -1.13 vs -0.48, Bukalapak -1.55 vs -0.98, Sea -4.63 vs -0.55; Grab moved the other way).

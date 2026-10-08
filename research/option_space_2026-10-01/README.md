@@ -1,7 +1,7 @@
 # October 2026 research package (index)
 
 Status: research evidence for the frozen proposal (`papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf`). It is not a plan to change the concept. `archive/ATLAS.md` is an older options map; its spine options are superseded and its numbers are checked by `tables/claims_ledger.csv`.
-Rebuild everything: `bash research/option_space_2026-10-01/rebuild_all.sh` (about 3 minutes; deterministic; checks `claims_ledger.csv` 55/55, `claims_ledger_v2.csv` 32/32, `claims_ledger_v3.csv` 20/20, `claims_ledger_v4.csv` 29/29, `claims_ledger_v5.csv` 30/30, `claims_ledger_v6.csv` 14/14, `claims_ledger_v7.csv` 26/26 and `claims_ledger_v8.csv` 27/27, `claims_ledger_v9.csv` 9/9, `claims_ledger_v10.csv` 7/7, `claims_ledger_v11.csv` 9/9).
+Rebuild everything: `bash research/option_space_2026-10-01/rebuild_all.sh` (about 3 minutes; deterministic; checks `claims_ledger.csv` 55/55, `claims_ledger_v2.csv` 32/32, `claims_ledger_v3.csv` 20/20, `claims_ledger_v4.csv` 29/29, `claims_ledger_v5.csv` 30/30, `claims_ledger_v6.csv` 14/14, `claims_ledger_v7.csv` 26/26 and `claims_ledger_v8.csv` 27/27, `claims_ledger_v9.csv` 9/9, `claims_ledger_v10.csv` 7/7, `claims_ledger_v11.csv` 9/9, `claims_ledger_v12.csv` 14/14).
 **How to read this folder.** `PART1_PROBLEM_AND_STAKES.md` to `PART7_ANSWER_AND_LIMITS.md` are the chapter groundwork, in the thesis order (start here). `FINDINGS.md` is the index of every number with its script. `PREREGISTRATION.md` holds the tests, written before the data, and their verdicts. This README is the map. `archive/ATLAS.md` is an older options map, kept for history only. `CUT_LIST.md` decides what goes in the main text, an appendix or reserve; nothing is deleted.
 
 | Exhibit | Chapter (Part) | Built from |
@@ -46,6 +46,8 @@ Pre-registered tests (cap, headroom flag, BPS statistics, microdata estimands): 
 | H1 with quarterly pairs (robustness; falsified) | `h1_quarterly.py` | `tables/h1_quarterly_*` | committed quarterly tables |
 | Wedge changes split into volume and monetization | `wedge_split.py` | `tables/wedge_split*` | `tables/transitions_master.csv` |
 | 7 Oct numbers recomputed | `claims_ledger_v5.py` | `tables/claims_ledger_v5.csv` | BPS aggregates, tables above |
+| Objective 1 over time: the wedge by platform-year | `wedge_over_time.py` | `tables/wedge_over_time.csv` | `tables/take_rate_levels.csv` |
+| Do markets value volume growth and take-rate growth alike? (M1-M2, pre-registered; proposal section 8) | `m1_market_value.py` (licensed LSEG market values) | `tables/m1_market_value_results.json` | verified V and R panels; market values not committed |
 | Draft exhibits, one per layer (plus BPS's own answers) | `exhibits.py` | `exhibits/*.png` | tables above |
 
 ## Story spine (updated 8 Oct 2026; thesis question, hypotheses and measures unchanged; chapter order H1, H2, Objective 3, why it matters)

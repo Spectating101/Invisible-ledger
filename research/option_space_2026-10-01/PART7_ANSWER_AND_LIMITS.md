@@ -34,6 +34,8 @@ Draws on Parts 1-6 and `FINDINGS.md`; every number is in a claims ledger (v1-v10
 | Most of BPS's 2023 value growth untraceable | Exploratory scenarios (brackets; no value weights) |
 | Overlapping slices agree on growth; sizes cannot be reconciled | Firm on growth (RBI pre-registered); size gap partly explained |
 | Marketplace tax reach | Firm as upper bounds (Rp300m bracket vs Rp500m exemption) |
+| Market value moves with transaction value (M2) | Firm: 28 firms, p = 0.002 (pre-registered) |
+| Markets value take-rate growth below volume growth (M1) | Falsified in the main sample (p = 0.20); direction as expected; holds only with segment series; Indonesian revenue multiples compressed (descriptive) |
 
 ## What failed (reported, not hidden)
 
@@ -42,6 +44,7 @@ Draws on Parts 1-6 and `FINDINGS.md`; every number is in a claims ledger (v1-v10
 - E5 (entry too small for BPS's count growth: the failure is the finding).
 - E7 (the share of online value without financial statements fell 5.8 points 2020-22, beyond the registered 5).
 - Q1 (H1 with quarterly pairs, p = 0.19: it covers the calmer period).
+- M1 in the main sample (take-rate growth valued at about half of volume growth in the point estimate, p = 0.20; significant only with segment series added).
 - The discount-leverage rule (right direction, too few out-of-sample cases).
 - Coding fixes disclosed: j36 (World Bank e-filing codes), S3 (sample rule), the E6 wording note.
 
@@ -77,5 +80,7 @@ That any indicator is "the true economy"; that BPS's figures are wrong in genera
 The proposal's section 5.3 concluded "inconsistent with H1 and consistent with H2", with the national evidence "measured but not yet reconciled". Now: H1 rejected on a wider benchmark with its cause and period; H2 holds on paper with its 2023 meaning qualified by microdata (half entry, half counting); the indicators reconciled where possible and the limits named; the rules mapped to what they reach. The question, hypotheses and measures are unchanged.
 
 ## Dated notes
+
+- **8 Oct 2026, after version 3.** The proposal's section 8 market extension is done and pre-registered: **What markets did (proposal section 8; M1-M2, pre-registered 8 Oct before the market values were pulled; `m1_market_value.py`, ledger v12).** Across 28 listed platforms (138 firm-years, whole-company figures), market value moves with transaction value (b1 = 0.60, p = 0.002; M2 holds). Revenue growth that comes from a higher take rate is valued at about half as much in the point estimate (b2 = 0.33), but the difference is not significant (p = 0.20; M1 falsified); it is significant only when the segment series and Mercado Libre are added (p = 0.004). Descriptive: the Indonesian platforms' revenue multiples compressed far more than their value-to-transaction-value multiples (log changes: Blibli -1.88 vs -0.19, GoTo -1.13 vs -0.48, Bukalapak -1.55 vs -0.98, Sea -4.63 vs -0.55; Grab moved the other way). For the answer: investors' own pricing followed transaction value, the measure the thesis argues is the steadier guide.
 
 - **8 Oct 2026, after version 3 (`rq_closing_checks.py`, ledger v11).** Two closing steps: (1) the research question's "how much" now has its national level (platform channels about 16-26% of online sales value in BPS's survey), which also ties the BPS chapter to the title; (2) Sampling noise is very unlikely to explain the 2023 surplus: BPS's published RSEs (2024 edition, by province) imply a national RSE of about 1.4%, so the 306 thousand surplus is about 4.6 standard errors of the change (2.3 at twice the RSE). A frame change still cannot be separated from other coverage changes (no area or design variables; BPS not contacted).

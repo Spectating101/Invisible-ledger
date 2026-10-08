@@ -28,6 +28,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - The wedge is about 2.9% of Indonesia's 2023 GDP in size only; it is sales, not value added.
 - Shopee's assumed cut of 9-11% moves W only between US$39.86bn and US$40.29bn; dropping any one platform leaves at least US$20.70bn (proposal section 5.1).
 - Full platform-year table of m and E: `tables/take_rate_levels.csv`.
+- Over time (`wedge_over_time.py`): for the issuer-reported platforms the wedge is 97-99% of transaction value in every year and grows with it (Blibli 2022-23: transaction value +35%, wedge +32%, revenue +465%; Tokopedia 2022-23: -9%, -10%, +53%).
 - Across the online economy (the research question's "how much", second level): in BPS's own survey, its marketplace channel (shopping marketplaces plus food and ride apps) carries about 16-26% of online sales value (22.6-25.6% in 2022, microdata; 18.2% in 2023 and 15.8% in 2024, published). Platform-based measures therefore leave out about three quarters of online sales value (`rq_closing_checks.py`, ledger v11).
 
 ## 2. Inside the app: H1 (do V and R grow together?)
@@ -39,6 +40,8 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 - Quarterly pairs (proposal section 8): **falsified**, 0.071 vs 0.049, p = 0.19. The Indonesian quarterly data mostly cover 2023-2026, after the big repricing jumps: Grab's cut was flat from 2023, while GoTo's and Blibli's kept rising, but in smaller steps. So the large swings are concentrated in 2022-2024 (GoTo's incentive cut came in 2024); the cut has not been fully stable since. The 2022-24 swings are specific to the Indonesian and regional platforms (all listed in 2021-22), not seen in foreign platforms in lower-income or high-income markets (exploratory, `timing_check.py`).
 - **Verdict: H1 is rejected.** Revenue did not grow in proportion to sales in Indonesia's platforms during 2020-2025. The weight rests on the 5-vs-27 platform comparison; the main sample alone gives p = 0.06 under the strictest platform-shuffle test (0.03 for the take-rate change). Grab's 2022-23 rise was mostly repricing (+3.5 of +3.9 points); Blibli's was partly travel mix.
 - Why Indonesia (exploratory, formed after seeing data): young platforms in lower-income, price-sensitive markets swing more (0.16 vs 0.05; holds without Indonesia, p = 0.03). It is not a worldwide law: the spin-off tests S1 and S2 were falsified.
+
+- **What markets did.** Across 28 listed platforms (138 firm-years, whole-company figures), market value moves with transaction value (b1 = 0.60, p = 0.002; M2 holds). Revenue growth that comes from a higher take rate is valued at about half as much in the point estimate (b2 = 0.33), but the difference is not significant (p = 0.20; M1 falsified); it is significant only when the segment series and Mercado Libre are added (p = 0.004). Descriptive: the Indonesian platforms' revenue multiples compressed far more than their value-to-transaction-value multiples (log changes: Blibli -1.88 vs -0.19, GoTo -1.13 vs -0.48, Bukalapak -1.55 vs -0.98, Sea -4.63 vs -0.55; Grab moved the other way).
 
 ## 3. Why the cut moved (Objective 2)
 
@@ -89,7 +92,7 @@ Every number below is recomputed by a claims ledger (`tables/claims_ledger*.csv`
 
 ## 8. What failed (reported, not hidden)
 
-S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales above Rp100m; median Rp60m); E5 (entry too small for BPS's count growth); E7 (records share of value fell 5.8 points, limit 5); Q1 (quarterly H1); the discount-leverage rule is too thin out of sample. Coding fixes were disclosed (j36, S3, E6 wording).
+S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales above Rp100m; median Rp60m); E5 (entry too small for BPS's count growth); E7 (records share of value fell 5.8 points, limit 5); Q1 (quarterly H1); M1 in the main sample (take-rate growth valued below volume growth in the point estimate, not significantly); the discount-leverage rule is too thin out of sample. Coding fixes were disclosed (j36, S3, E6 wording).
 
 ## 9. Limits (stated once, in the limitations chapter)
 

@@ -1,0 +1,130 @@
+{
+ "main": {
+  "label": "main sample (whole-company figures)",
+  "firms": 28,
+  "firm_years": 138,
+  "b1_volume": 0.5999414447730043,
+  "se_b1": 0.1859469051654278,
+  "b2_take_rate": 0.3339601629280992,
+  "se_b2": 0.36698563718911315,
+  "b1_minus_b2": 0.26598128184490505,
+  "se_diff": 0.31390808985484886,
+  "p_one_sided_b1_gt_b2": 0.20213207569389735,
+  "p_one_sided_b1_gt_0": 0.001637593551456873,
+  "r2": 0.3934573552698133,
+  "M1_holds": false,
+  "M2_holds": true
+ },
+ "robust_winsorised_5_95": {
+  "label": "main sample, winsorised 5/95",
+  "firms": 28,
+  "firm_years": 138,
+  "b1_volume": 0.8720974997041768,
+  "se_b1": 0.20528576987129316,
+  "b2_take_rate": 0.47265705021174864,
+  "se_b2": 0.44885445416337727,
+  "b1_minus_b2": 0.3994404494924282,
+  "se_diff": 0.39726652497106835,
+  "p_one_sided_b1_gt_b2": 0.16179803922530023,
+  "p_one_sided_b1_gt_0": 0.0001144253631597536,
+  "r2": 0.4698712320401188,
+  "M1_holds": false,
+  "M2_holds": true
+ },
+ "robust_with_segments": {
+  "label": "main plus segment series and Mercado Libre",
+  "firms": 34,
+  "firm_years": 162,
+  "b1_volume": 0.6299692143596919,
+  "se_b1": 0.1571055866396963,
+  "b2_take_rate": 0.0714224559008995,
+  "se_b2": 0.1176992462371699,
+  "b1_minus_b2": 0.5585467584587924,
+  "se_diff": 0.196812591992235,
+  "p_one_sided_b1_gt_b2": 0.003853720117573123,
+  "p_one_sided_b1_gt_0": 0.00016358993583887038,
+  "r2": 0.3456619997950694,
+  "M1_holds": true,
+  "M2_holds": true
+ },
+ "firms_main": [
+  "ABNB",
+  "ACVA",
+  "ASAPQ",
+  "BABA",
+  "BKNG",
+  "Bukalapak Group",
+  "DASH",
+  "DIBS",
+  "EBAY",
+  "ETSY",
+  "EXPE",
+  "FVRR",
+  "GrubHub",
+  "HEPS",
+  "Jumia",
+  "KSPI",
+  "LYFT",
+  "MOGU",
+  "PDD",
+  "RBA",
+  "REAL",
+  "SEAT",
+  "Shopify",
+  "UBER",
+  "UPWK",
+  "VCSA",
+  "YTRA",
+  "Zalando"
+ ],
+ "firms_robust_added": [
+  "Blibli",
+  "GoTo",
+  "Grab",
+  "Mercado Libre",
+  "Rakuten",
+  "Sea / Shopee"
+ ],
+ "descriptive_idn_regional_change_since_first_year": {
+  "Blibli": {
+   "years": [
+    2022,
+    2025
+   ],
+   "change_ln_mv_over_R": -1.878254231402547,
+   "change_ln_mv_over_V": -0.18644954679275827
+  },
+  "Bukalapak Group": {
+   "years": [
+    2021,
+    2023
+   ],
+   "change_ln_mv_over_R": -1.5529342997518416,
+   "change_ln_mv_over_V": -0.9812395752038761
+  },
+  "GoTo": {
+   "years": [
+    2022,
+    2025
+   ],
+   "change_ln_mv_over_R": -1.1347517665594573,
+   "change_ln_mv_over_V": -0.48092656857534166
+  },
+  "Grab": {
+   "years": [
+    2020,
+    2024
+   ],
+   "change_ln_mv_over_R": 1.4316503644078011,
+   "change_ln_mv_over_V": 2.430930753648811
+  },
+  "Sea / Shopee": {
+   "years": [
+    2017,
+    2025
+   ],
+   "change_ln_mv_over_R": -4.632441723649231,
+   "change_ln_mv_over_V": -0.5494823538757707
+  }
+ }
+}
