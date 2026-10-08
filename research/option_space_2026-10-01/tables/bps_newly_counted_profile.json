@@ -1,0 +1,503 @@
+{
+ "note": "thousands of sellers, weighted; surplus = 2023-survey pre-2023 sellers minus the whole 2022 count, net of exits",
+ "totals_k": {
+  "count_2022": 2995.985999999998,
+  "pre_2023_in_2023_survey": 3301.578804178,
+  "surplus": 305.5928041780018,
+  "entrants_2023": 513.220468948
+ },
+ "size_check": {
+  "2022 survey, share with 1 worker (owner only)": 27.519595978398296,
+  "2023 survey total_tk == 0 share": 26.829537801534407,
+  "2023 survey total_tk == 1 share": 31.479485060873238
+ },
+ "profile": {
+  "owner sex": {
+   "man": {
+    "counted_2022_k": 1693.7,
+    "pre2023_in_2023_k": 1918.7,
+    "surplus_k": 225.0,
+    "change_pct": 13.3,
+    "share_of_2022_count_pct": 56.5,
+    "share_of_surplus_pct": 73.6,
+    "share_of_2023_entrants_pct": 51.5,
+    "beyond_normal_k": 225.8,
+    "share_of_beyond_normal_pct": 50.2
+   },
+   "woman": {
+    "counted_2022_k": 1302.3,
+    "pre2023_in_2023_k": 1382.8,
+    "surplus_k": 80.6,
+    "change_pct": 6.2,
+    "share_of_2022_count_pct": 43.5,
+    "share_of_surplus_pct": 26.4,
+    "share_of_2023_entrants_pct": 48.5,
+    "beyond_normal_k": 223.8,
+    "share_of_beyond_normal_pct": 49.8
+   }
+  },
+  "owner age": {
+   "under 30": {
+    "counted_2022_k": 319.8,
+    "pre2023_in_2023_k": 337.0,
+    "surplus_k": 17.2,
+    "change_pct": 5.4,
+    "share_of_2022_count_pct": 10.7,
+    "share_of_surplus_pct": 5.6,
+    "share_of_2023_entrants_pct": 19.1,
+    "beyond_normal_k": 54.9,
+    "share_of_beyond_normal_pct": 12.1
+   },
+   "30-39": {
+    "counted_2022_k": 826.1,
+    "pre2023_in_2023_k": 828.2,
+    "surplus_k": 2.1,
+    "change_pct": 0.3,
+    "share_of_2022_count_pct": 27.6,
+    "share_of_surplus_pct": 0.7,
+    "share_of_2023_entrants_pct": 27.5,
+    "beyond_normal_k": 61.7,
+    "share_of_beyond_normal_pct": 13.6
+   },
+   "40-49": {
+    "counted_2022_k": 983.0,
+    "pre2023_in_2023_k": 1098.1,
+    "surplus_k": 115.1,
+    "change_pct": 11.7,
+    "share_of_2022_count_pct": 32.8,
+    "share_of_surplus_pct": 37.7,
+    "share_of_2023_entrants_pct": 28.2,
+    "beyond_normal_k": 150.6,
+    "share_of_beyond_normal_pct": 33.2
+   },
+   "50 and over": {
+    "counted_2022_k": 867.0,
+    "pre2023_in_2023_k": 1038.3,
+    "surplus_k": 171.2,
+    "change_pct": 19.7,
+    "share_of_2022_count_pct": 28.9,
+    "share_of_surplus_pct": 56.0,
+    "share_of_2023_entrants_pct": 25.3,
+    "beyond_normal_k": 187.0,
+    "share_of_beyond_normal_pct": 41.2
+   }
+  },
+  "owner education (2023 survey codes inferred)": {
+   "high school or less": {
+    "counted_2022_k": 2332.0,
+    "pre2023_in_2023_k": 2646.3,
+    "surplus_k": 314.3,
+    "change_pct": 13.5,
+    "share_of_2022_count_pct": 77.8,
+    "share_of_surplus_pct": 102.9,
+    "share_of_2023_entrants_pct": 78.5,
+    "beyond_normal_k": 399.8,
+    "share_of_beyond_normal_pct": 88.3
+   },
+   "diploma": {
+    "counted_2022_k": 139.9,
+    "pre2023_in_2023_k": 124.7,
+    "surplus_k": -15.2,
+    "change_pct": -10.9,
+    "share_of_2022_count_pct": 4.7,
+    "share_of_surplus_pct": -5.0,
+    "share_of_2023_entrants_pct": 4.3,
+    "beyond_normal_k": 8.3,
+    "share_of_beyond_normal_pct": 1.8
+   },
+   "bachelor": {
+    "counted_2022_k": 489.6,
+    "pre2023_in_2023_k": 493.8,
+    "surplus_k": 4.1,
+    "change_pct": 0.8,
+    "share_of_2022_count_pct": 16.3,
+    "share_of_surplus_pct": 1.4,
+    "share_of_2023_entrants_pct": 16.2,
+    "beyond_normal_k": 37.7,
+    "share_of_beyond_normal_pct": 8.3
+   },
+   "postgraduate": {
+    "counted_2022_k": 34.4,
+    "pre2023_in_2023_k": 36.8,
+    "surplus_k": 2.4,
+    "change_pct": 6.8,
+    "share_of_2022_count_pct": 1.1,
+    "share_of_surplus_pct": 0.8,
+    "share_of_2023_entrants_pct": 1.1,
+    "beyond_normal_k": 7.2,
+    "share_of_beyond_normal_pct": 1.6
+   }
+  },
+  "sector": {
+   "trade": {
+    "counted_2022_k": 1132.7,
+    "pre2023_in_2023_k": 1093.9,
+    "surplus_k": -38.8,
+    "change_pct": -3.4,
+    "share_of_2022_count_pct": 37.8,
+    "share_of_surplus_pct": -12.7,
+    "share_of_2023_entrants_pct": 33.0,
+    "beyond_normal_k": 128.1,
+    "share_of_beyond_normal_pct": 29.8
+   },
+   "food and lodging": {
+    "counted_2022_k": 610.9,
+    "pre2023_in_2023_k": 734.8,
+    "surplus_k": 123.9,
+    "change_pct": 20.3,
+    "share_of_2022_count_pct": 20.4,
+    "share_of_surplus_pct": 40.5,
+    "share_of_2023_entrants_pct": 34.8,
+    "beyond_normal_k": 122.7,
+    "share_of_beyond_normal_pct": 28.6
+   },
+   "making goods": {
+    "counted_2022_k": 542.9,
+    "pre2023_in_2023_k": 657.6,
+    "surplus_k": 114.7,
+    "change_pct": 21.1,
+    "share_of_2022_count_pct": 18.1,
+    "share_of_surplus_pct": 37.5,
+    "share_of_2023_entrants_pct": 13.2,
+    "beyond_normal_k": 104.7,
+    "share_of_beyond_normal_pct": 24.4
+   },
+   "personal services": {
+    "counted_2022_k": 204.8,
+    "pre2023_in_2023_k": 222.2,
+    "surplus_k": 17.4,
+    "change_pct": 8.5,
+    "share_of_2022_count_pct": 6.8,
+    "share_of_surplus_pct": 5.7,
+    "share_of_2023_entrants_pct": 5.8,
+    "beyond_normal_k": 12.2,
+    "share_of_beyond_normal_pct": 2.9
+   },
+   "transport": {
+    "counted_2022_k": 172.1,
+    "pre2023_in_2023_k": 218.2,
+    "surplus_k": 46.1,
+    "change_pct": 26.8,
+    "share_of_2022_count_pct": 5.7,
+    "share_of_surplus_pct": 15.1,
+    "share_of_2023_entrants_pct": 2.9,
+    "beyond_normal_k": 27.4,
+    "share_of_beyond_normal_pct": 6.4
+   },
+   "other": {
+    "counted_2022_k": 332.5,
+    "pre2023_in_2023_k": 374.8,
+    "surplus_k": 42.3,
+    "change_pct": 12.7,
+    "share_of_2022_count_pct": 11.1,
+    "share_of_surplus_pct": 13.8,
+    "share_of_2023_entrants_pct": 10.2,
+    "beyond_normal_k": 34.1,
+    "share_of_beyond_normal_pct": 7.9
+   }
+  },
+  "island": {
+   "Java": {
+    "counted_2022_k": 2288.3,
+    "pre2023_in_2023_k": 2503.4,
+    "surplus_k": 215.0,
+    "change_pct": 9.4,
+    "share_of_2022_count_pct": 76.4,
+    "share_of_surplus_pct": 70.4,
+    "share_of_2023_entrants_pct": 70.3,
+    "beyond_normal_k": 290.7,
+    "share_of_beyond_normal_pct": 63.7
+   },
+   "outside Java": {
+    "counted_2022_k": 707.7,
+    "pre2023_in_2023_k": 798.2,
+    "surplus_k": 90.6,
+    "change_pct": 12.8,
+    "share_of_2022_count_pct": 23.6,
+    "share_of_surplus_pct": 29.6,
+    "share_of_2023_entrants_pct": 29.7,
+    "beyond_normal_k": 166.0,
+    "share_of_beyond_normal_pct": 36.3
+   }
+  },
+  "business opened": {
+   "before 2010": {
+    "counted_2022_k": 547.9,
+    "pre2023_in_2023_k": 764.7,
+    "surplus_k": 216.7,
+    "change_pct": 39.6,
+    "share_of_2022_count_pct": 18.3,
+    "share_of_surplus_pct": 70.9,
+    "share_of_2023_entrants_pct": 8.5,
+    "beyond_normal_k": 193.2,
+    "share_of_beyond_normal_pct": 40.5
+   },
+   "2010-2017": {
+    "counted_2022_k": 939.6,
+    "pre2023_in_2023_k": 1006.4,
+    "surplus_k": 66.9,
+    "change_pct": 7.1,
+    "share_of_2022_count_pct": 31.4,
+    "share_of_surplus_pct": 21.9,
+    "share_of_2023_entrants_pct": 8.6,
+    "beyond_normal_k": 107.6,
+    "share_of_beyond_normal_pct": 22.6
+   },
+   "2018-2022": {
+    "counted_2022_k": 1508.5,
+    "pre2023_in_2023_k": 1530.5,
+    "surplus_k": 22.0,
+    "change_pct": 1.5,
+    "share_of_2022_count_pct": 50.3,
+    "share_of_surplus_pct": 7.2,
+    "share_of_2023_entrants_pct": 24.7,
+    "beyond_normal_k": 176.2,
+    "share_of_beyond_normal_pct": 36.9
+   }
+  },
+  "years between opening and selling online": {
+   "same year or 1": {
+    "counted_2022_k": 1778.5,
+    "pre2023_in_2023_k": 1860.9,
+    "surplus_k": 82.3,
+    "change_pct": 4.6,
+    "share_of_2022_count_pct": 59.4,
+    "share_of_surplus_pct": 26.9,
+    "share_of_2023_entrants_pct": 70.0,
+    "beyond_normal_k": 252.4,
+    "share_of_beyond_normal_pct": 55.3
+   },
+   "2-5": {
+    "counted_2022_k": 506.1,
+    "pre2023_in_2023_k": 499.5,
+    "surplus_k": -6.5,
+    "change_pct": -1.3,
+    "share_of_2022_count_pct": 16.9,
+    "share_of_surplus_pct": -2.1,
+    "share_of_2023_entrants_pct": 12.9,
+    "beyond_normal_k": 8.0,
+    "share_of_beyond_normal_pct": 1.8
+   },
+   "6 or more": {
+    "counted_2022_k": 711.4,
+    "pre2023_in_2023_k": 941.2,
+    "surplus_k": 229.8,
+    "change_pct": 32.3,
+    "share_of_2022_count_pct": 23.7,
+    "share_of_surplus_pct": 75.2,
+    "share_of_2023_entrants_pct": 17.1,
+    "beyond_normal_k": 196.1,
+    "share_of_beyond_normal_pct": 43.0
+   }
+  },
+  "share of sales made online": {
+   "under 25%": {
+    "counted_2022_k": 963.8,
+    "pre2023_in_2023_k": 1047.6,
+    "surplus_k": 83.8,
+    "change_pct": 8.7,
+    "share_of_2022_count_pct": 32.2,
+    "share_of_surplus_pct": 27.4,
+    "share_of_2023_entrants_pct": 46.2
+   },
+   "25-74%": {
+    "counted_2022_k": 1386.9,
+    "pre2023_in_2023_k": 1445.2,
+    "surplus_k": 58.3,
+    "change_pct": 4.2,
+    "share_of_2022_count_pct": 46.3,
+    "share_of_surplus_pct": 19.1,
+    "share_of_2023_entrants_pct": 37.4
+   },
+   "75% or more": {
+    "counted_2022_k": 645.3,
+    "pre2023_in_2023_k": 808.7,
+    "surplus_k": 163.4,
+    "change_pct": 25.3,
+    "share_of_2022_count_pct": 21.5,
+    "share_of_surplus_pct": 53.5,
+    "share_of_2023_entrants_pct": 16.4
+   }
+  },
+  "channel": {
+   "chat or social only": {
+    "counted_2022_k": 2367.6,
+    "pre2023_in_2023_k": 2675.5,
+    "surplus_k": 307.8,
+    "change_pct": 13.0,
+    "share_of_2022_count_pct": 79.0,
+    "share_of_surplus_pct": 100.7,
+    "share_of_2023_entrants_pct": 82.8
+   },
+   "other": {
+    "counted_2022_k": 628.4,
+    "pre2023_in_2023_k": 626.1,
+    "surplus_k": -2.2,
+    "change_pct": -0.4,
+    "share_of_2022_count_pct": 21.0,
+    "share_of_surplus_pct": -0.7,
+    "share_of_2023_entrants_pct": 17.2
+   }
+  },
+  "keeps financial statements": {
+   "yes": {
+    "counted_2022_k": 620.7,
+    "pre2023_in_2023_k": 511.0,
+    "surplus_k": -109.6,
+    "change_pct": -17.7,
+    "share_of_2022_count_pct": 20.7,
+    "share_of_surplus_pct": -35.9,
+    "share_of_2023_entrants_pct": 13.2
+   },
+   "no": {
+    "counted_2022_k": 2375.3,
+    "pre2023_in_2023_k": 2790.6,
+    "surplus_k": 415.2,
+    "change_pct": 17.5,
+    "share_of_2022_count_pct": 79.3,
+    "share_of_surplus_pct": 135.9,
+    "share_of_2023_entrants_pct": 86.8
+   }
+  }
+ },
+ "control_2020_to_2022": {
+  "all_change_pct": -9.9,
+  "groups": {
+   "owner sex": {
+    "man": {
+     "2020_survey_k": 1240.8,
+     "2022_survey_k": 1239.6,
+     "change_pct": -0.1
+    },
+    "woman": {
+     "2020_survey_k": 1120.6,
+     "2022_survey_k": 887.6,
+     "change_pct": -20.8
+    }
+   },
+   "owner age": {
+    "under 30": {
+     "2020_survey_k": 282.2,
+     "2022_survey_k": 219.7,
+     "change_pct": -22.2
+    },
+    "30-39": {
+     "2020_survey_k": 678.5,
+     "2022_survey_k": 584.4,
+     "change_pct": -13.9
+    },
+    "40-49": {
+     "2020_survey_k": 768.0,
+     "2022_survey_k": 713.4,
+     "change_pct": -7.1
+    },
+    "50 and over": {
+     "2020_survey_k": 632.7,
+     "2022_survey_k": 609.7,
+     "change_pct": -3.6
+    }
+   },
+   "owner education (2023 survey codes inferred)": {
+    "high school or less": {
+     "2020_survey_k": 1779.6,
+     "2022_survey_k": 1651.5,
+     "change_pct": -7.2
+    },
+    "diploma": {
+     "2020_survey_k": 143.1,
+     "2022_survey_k": 99.0,
+     "change_pct": -30.8
+    },
+    "bachelor": {
+     "2020_survey_k": 406.6,
+     "2022_survey_k": 353.1,
+     "change_pct": -13.2
+    },
+    "postgraduate": {
+     "2020_survey_k": 32.1,
+     "2022_survey_k": 23.7,
+     "change_pct": -26.2
+    }
+   },
+   "sector": {
+    "trade": {
+     "2020_survey_k": 1085.5,
+     "2022_survey_k": 789.3,
+     "change_pct": -27.3
+    },
+    "food and lodging": {
+     "2020_survey_k": 373.3,
+     "2022_survey_k": 374.9,
+     "change_pct": 0.4
+    },
+    "making goods": {
+     "2020_survey_k": 403.9,
+     "2022_survey_k": 418.8,
+     "change_pct": 3.7
+    },
+    "personal services": {
+     "2020_survey_k": 147.5,
+     "2022_survey_k": 155.1,
+     "change_pct": 5.1
+    },
+    "transport": {
+     "2020_survey_k": 113.2,
+     "2022_survey_k": 139.2,
+     "change_pct": 22.9
+    },
+    "other": {
+     "2020_survey_k": 238.0,
+     "2022_survey_k": 250.0,
+     "change_pct": 5.0
+    }
+   },
+   "island": {
+    "Java": {
+     "2020_survey_k": 1774.6,
+     "2022_survey_k": 1659.0,
+     "change_pct": -6.5
+    },
+    "outside Java": {
+     "2020_survey_k": 586.8,
+     "2022_survey_k": 468.2,
+     "change_pct": -20.2
+    }
+   },
+   "business opened": {
+    "before 2010": {
+     "2020_survey_k": 438.4,
+     "2022_survey_k": 476.9,
+     "change_pct": 8.8
+    },
+    "2010-2017": {
+     "2020_survey_k": 922.2,
+     "2022_survey_k": 843.7,
+     "change_pct": -8.5
+    },
+    "2018-2022": {
+     "2020_survey_k": 1000.8,
+     "2022_survey_k": 806.6,
+     "change_pct": -19.4
+    }
+   },
+   "years between opening and selling online": {
+    "same year or 1": {
+     "2020_survey_k": 1438.2,
+     "2022_survey_k": 1176.7,
+     "change_pct": -18.2
+    },
+    "2-5": {
+     "2020_survey_k": 402.6,
+     "2022_survey_k": 379.6,
+     "change_pct": -5.7
+    },
+    "6 or more": {
+     "2020_survey_k": 520.6,
+     "2022_survey_k": 570.9,
+     "change_pct": 9.7
+    }
+   }
+  }
+ },
+ "break_2022_to_2023_all_change_pct": 10.2
+}

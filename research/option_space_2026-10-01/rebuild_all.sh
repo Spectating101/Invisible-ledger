@@ -2,7 +2,7 @@
 # Rebuilds every committed table from committed inputs, then checks the claims ledgers.  Run from anywhere: bash research/option_space_2026-10-01/rebuild_all.sh
 # Needs pandas, numpy, scipy, statsmodels (set PYTHONPATH if they live outside the system python).  Takes about 3 minutes (bootstrap steps).
 # NOT rebuilt here (licensed or scratch inputs, see tables/claims_ledger_v2_NOT_REPRODUCIBLE_FROM_REPO.txt): analyst_extrapolation.py, multiples_dispersion.py,
-# event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py, wb_crosscountry.py, bps_microdata_tests.py, bps_descriptives.py, bps_frame_check.py, bps_cohort_check.py, bps_h2_cheap_checks.py, gel_checks.py and part5_checks.py
+# event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py, wb_crosscountry.py, bps_microdata_tests.py, bps_descriptives.py, bps_frame_check.py, bps_cohort_check.py, bps_h2_cheap_checks.py, bps_newly_counted_profile.py, gel_checks.py and part5_checks.py
 # (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py to v10).
 # Also not run here: cap_prediction.py and score_q3_2026.py (scoring after the 3Q26 releases), l_rule_preregistration.py (the registered rule, text only),
 # peers_quarterly.py, mmyt_incentives.py and tokopedia_segment.py (built once from the local filing corpus; outputs committed), verify_extraction.py and
