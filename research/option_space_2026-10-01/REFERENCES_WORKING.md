@@ -51,7 +51,7 @@ The thesis reference list in progress: the 27 Sep proposal's list, checked again
 | Work | Status | Used for |
 |---|---|---|
 | Trueman, Wong and Zhang (2000), "The eyeballs have it", JAR 38 (Supplement), 137-162 | added (Part 1, 7 Oct) | Markets price usage measures beyond earnings (market result, defence) |
-| Bowen, Davis and Rajgopal (2002), Contemporary Accounting Research | check (cited in the oral deck, not in the proposal list) | Revenue-reporting choices of internet firms; confirm volume and pages |
+| Bowen, Davis and Rajgopal (2002), Determinants of revenue-reporting practices for Internet firms, Contemporary Accounting Research 19(4), 523-562, DOI 10.1506/9728-4YG8-GC3L-FPFA | added (cited in the oral deck; verified 9 Oct via IDEAS) | Revenue-reporting choices of internet firms (grossed-up revenue) |
 | Liu, Nissim and Thomas (2002), JAR 40(1) | added (Part 1) | Valuation multiples (reserve, defence) |
 | Damodaran, valuation of young firms | added (Part 1) | Investor practice (reserve) |
 | Filistrucchi et al. (2014), JCLE 10(2) | added (Part 1) | Competition authorities' use of platform figures (reserve) |
@@ -64,7 +64,7 @@ The thesis reference list in progress: the 27 Sep proposal's list, checked again
 | van den Brakel, Smith and Compton (2008), Survey Research Methods 2(3), 123-141 | added (9 Oct) | Survey changes create breaks in a series; official practice for handling them |
 | van den Brakel, Zhang and Tam (2020), International Statistical Review 88(1), 155-175 | added (audit) | Methods for measuring survey discontinuities |
 | McKenzie and Paffhausen (2019), Review of Economics and Statistics, 645-657 | added (9 Oct) | Small-firm exit is more common for young firms and young owners; the sellers added in 2023 are the opposite profile (returning-seller answer) |
-| Neter and Waksberg (1964), JASA | check volume and pages (usually 59(305), 18-55) | Forward telescoping in recall: misremembered start years would inflate first-time entry, so the "not first-time entry" share is conservative |
+| Neter and Waksberg (1964), A study of response errors in expenditures data from household interviews, JASA 59(305), 18-55, DOI 10.1080/01621459.1964.10480699 | added (verified 9 Oct via Crossref) | Forward telescoping in recall: misremembered start years would inflate first-time entry, so the "not first-time entry" share is conservative |
 
 ## C. Official texts and news (Indonesia and abroad)
 
@@ -85,7 +85,7 @@ BPS e-commerce survey microdata 2021, 2023 and 2024 rounds (SILASTIK; cite BPS, 
 
 ## E. Open checks before submission
 
-- Neter and Waksberg (1964) and Bowen, Davis and Rajgopal (2002): confirm volume and pages.
+- (done 9 Oct) Neter and Waksberg (1964) and Bowen, Davis and Rajgopal (2002) verified.
 - Every citation in the final text against what the work actually supports (use the limits above).
 - Format to the YZU template's style once received.
 - Drop the reserve items not cited in the final text.
