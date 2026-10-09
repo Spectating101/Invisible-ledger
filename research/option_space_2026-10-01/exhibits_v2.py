@@ -5,7 +5,7 @@ every coloured mark is also named in a label or legend. Static figures for the t
 Kept from exhibits.py without change: 5_bps_own_answers.png (entry vs already selling; sellers flat) and 6_verdict_2023.png (2023 hinge).
 Superseded: exhibits.py figure 1 ("the cut swings about 3x more"), whose title reads as larger price changes; see h1_points_vs_log.py.
 Run: python3 exhibits_v2.py"""
-import json, pathlib
+import json, os, pathlib
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -14,6 +14,10 @@ import pandas as pd
 
 HERE = pathlib.Path(__file__).parent; OUT = HERE / "exhibits" / "v2"; OUT.mkdir(parents=True, exist_ok=True)
 BLUE, ORANGE, INK, INK2, GRID, SURF, GREY = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e", "#e4e3df", "#ffffff", "#a3a29d"
+DECK = bool(os.environ.get("IL_DECK"))   # slide versions: deck palette (teal #1e88a8, brick #bf4b33; validated on the paper surface #f1efea), transparent background
+TINT = "#f4b394"
+if DECK:
+    BLUE, ORANGE, SURF, TINT = "#1e88a8", "#bf4b33", "none", "#e2a594"; OUT = HERE / "exhibits" / "deck"; OUT.mkdir(parents=True, exist_ok=True)
 plt.rcParams.update({"font.size": 10, "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK,
                      "axes.spines.top": False, "axes.spines.right": False, "axes.spines.left": False, "figure.facecolor": SURF,
                      "axes.facecolor": SURF, "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.6, "axes.axisbelow": True})
@@ -24,10 +28,11 @@ def pct(x):
 
 
 def save(fig, title, note, name, top=0.88):
-    fig.tight_layout(rect=(0, 0, 1, top))
-    fig.text(0.01, 0.985, title, ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
-    fig.text(0.01, -0.01, note, ha="left", va="top", fontsize=8, color=INK2, wrap=True)
-    fig.savefig(OUT / name, dpi=200, bbox_inches="tight"); plt.close(fig)
+    fig.tight_layout(rect=(0, 0, 1, 1 if DECK else top))
+    if not DECK:   # on slides the title and source line sit on the slide itself
+        fig.text(0.01, 0.985, title, ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
+        fig.text(0.01, -0.01, note, ha="left", va="top", fontsize=8, color=INK2, wrap=True)
+    fig.savefig(OUT / name, dpi=200, bbox_inches="tight", transparent=DECK); plt.close(fig)
 
 
 # 1. The thin slice: same price changes as abroad (in rupiah per 100 sold), much bigger swing relative to what is kept
@@ -40,7 +45,7 @@ panels = [("share_kept_pct", "What the platform keeps\n(rupiah per 100 sold)", 1
 for ax, (col, lab, k, key) in zip(axes, panels):
     for y, grp, c in [(1, "Indonesia", ORANGE), (0, "Foreign", BLUE)]:
         v = f[f.group == grp][col] * k
-        ax.scatter(v, y + rng.uniform(-0.12, 0.12, len(v)), s=26, color=c, edgecolor=SURF, linewidth=0.8, zorder=3)
+        ax.scatter(v, y + rng.uniform(-0.12, 0.12, len(v)), s=26, color=c, edgecolor="white", linewidth=0.8, zorder=3)
         m = j[key][grp] * k
         ax.plot([m, m], [y - 0.3, y + 0.3], color=INK, linewidth=2, zorder=4)
         ax.text(m, y + 0.36, f"median {m:.1f}", ha="center", va="bottom", fontsize=8.5, color=INK)
@@ -111,8 +116,8 @@ t = json.load(open(HERE / "tables/part6_checks.json"))
 pay = t["tax_seller_reach_pct"]; mk = t["marketplace_sellers_share_pct"]["2023"]; rec = mk - pay; out = 100 - mk
 fig, ax = plt.subplots(figsize=(8.4, 1.9))
 left = 0
-for w, c in [(pay, ORANGE), (rec, "#f4b394"), (out, GREY)]:
-    ax.barh(0, w, left=left, color=c, height=0.5, edgecolor=SURF, linewidth=2); left += w
+for w, c in [(pay, ORANGE), (rec, TINT), (out, GREY)]:
+    ax.barh(0, w, left=left, color=c, height=0.5, edgecolor="white", linewidth=2); left += w
 ax.text(0, 0.33, f"Can be taxed: {pay:.0f}% of online sellers", ha="left", va="bottom", fontsize=9, color=INK)
 ax.text(pay, -0.33, f"On record, not taxed: {rec:.0f}%", ha="left", va="top", fontsize=9, color=INK)
 ax.text(mk + out / 2, 0, f"Outside the marketplaces: {out:.0f}%", ha="center", va="center", fontsize=9, color=INK)

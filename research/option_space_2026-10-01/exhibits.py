@@ -2,7 +2,7 @@
 Palette: reference categorical slots 1-2 (blue #2a78d6, orange #eb6834), validated (CVD dE 24.7, normal 33.6, contrast >= 3:1).
 Text in neutral ink, never in series colour; every highlighted mark is also named in its label (identity is never colour alone).
 Run: python3 exhibits.py"""
-import json, pathlib
+import json, os, pathlib
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -10,6 +10,9 @@ import pandas as pd
 
 HERE = pathlib.Path(__file__).parent; OUT = HERE / "exhibits"; OUT.mkdir(exist_ok=True)
 BLUE, ORANGE, INK, INK2, GRID, SURF = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e", "#e4e3df", "#ffffff"
+DECK = bool(os.environ.get("IL_DECK"))   # slide versions: deck palette (teal #1e88a8, brick #bf4b33; validated on the paper surface #f1efea), transparent background
+if DECK:
+    BLUE, ORANGE, SURF = "#1e88a8", "#bf4b33", "none"; OUT = HERE / "exhibits" / "deck"; OUT.mkdir(parents=True, exist_ok=True)
 GREY = "#a3a29d"   # neutral reference, not a series colour
 plt.rcParams.update({"font.size": 10, "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK,
                      "axes.spines.top": False, "axes.spines.right": False, "axes.spines.left": False, "figure.facecolor": SURF,
@@ -18,9 +21,10 @@ plt.rcParams.update({"font.size": 10, "axes.edgecolor": GRID, "axes.labelcolor":
 
 def finish(fig, ax, title, note, name):
     ax.grid(axis="y", visible=False)
-    fig.text(0.01, 0.98, title, ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
-    fig.text(0.01, -0.03, note, ha="left", va="top", fontsize=8, color=INK2, wrap=True)
-    fig.savefig(OUT / name, dpi=200, bbox_inches="tight"); plt.close(fig)
+    if not DECK:   # on slides the title and source line sit on the slide itself
+        fig.text(0.01, 0.98, title, ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
+        fig.text(0.01, -0.03, note, ha="left", va="top", fontsize=8, color=INK2, wrap=True)
+    fig.savefig(OUT / name, dpi=200, bbox_inches="tight", transparent=DECK); plt.close(fig)
 
 
 # 1. Inside the app: Indonesia vs 27 foreign platforms (median yearly swing in the platform's cut)
@@ -88,12 +92,12 @@ a2.set_yticks([2, 1, 0], ["Online revenue up", "Same", "Down"])
 for i, v in zip([2, 1, 0], [r["up"], r["same"], r["down"]]): a2.text(v + 0.8, i, f"{v:.0f}%", va="center", fontsize=9, color=INK)
 a2.set_xlim(0, 55); a2.set_xlabel("Sellers already online before 2023 (%)")
 for ax in (a1, a2): ax.grid(axis="y", visible=False)
-fig.text(0.01, 1.0, "BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry, and existing sellers were flat", ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
-fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2022 and 2023 files), weighted; bps_cohort_check.py, bps_rise_accounting.py, bps_descriptives.py. "
+if not DECK: fig.text(0.01, 1.0, "BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry, and existing sellers were flat", ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
+if not DECK: fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2022 and 2023 files), weighted; bps_cohort_check.py, bps_rise_accounting.py, bps_descriptives.py. "
          "Above the 2022 count: pre-2023 sellers in excess of the whole 2022 count, newly reached by the survey or returning after a pause. Low end: no seller stopped (the bars add up to the rise). "
          "High end: sellers stopped at the 2020-22 rate (about 5% a year, about 150k), which offsets part of the two bars.",
          ha="left", va="top", fontsize=8, color=INK2, wrap=True)
-fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight"); plt.close(fig)
+fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight", transparent=DECK); plt.close(fig)
 # 6. The 2023 verdict: headline numbers vs what buying and sellers show (growth 2023 vs 2022, each in its own unit)
 h = json.load(open(HERE / "tables/h1_groundwork.json"))["verdict_2023"]; gl = json.load(open(HERE / "tables/gel_checks.json"))
 rows = [("Tokopedia revenue", h["platform_revenue_growth_pct"]["Tokopedia"], ORANGE),
