@@ -70,3 +70,14 @@ How much does a platform-based measure leave out, and when does that change the 
 - Each number has one home chapter; the abstract and the conclusion may repeat the headline.
 - If an examiner or reader asks about a reserve item, pull it in from its source; nothing needs to be re-derived.
 - Moving an item between tiers is a one-line change here; record it with a date.
+
+## Dated notes
+
+- **9 Oct 2026, items added since the cut list was written, and where they go.** Story order now follows `NARRATIVE_ARC.md` (two layers: the arc is the narrative, these chapters are the written form).
+  - Main text, 5.4 H2: the entry test named as "the entry test of H2" (registered 2 Oct as E5), closing the proposal's own stated limit; the seller profile in one paragraph (`bps_newly_counted_profile.py`, exploratory); the part-year selling check as the main answer to returning sellers (`bps_returning_check.py`, exploratory).
+  - Main text, 5.2 H1: the thin-slice reading, same price changes in points as abroad on a much thinner slice (`h1_points_vs_log.py`, exploratory), as the job of the wedge; it also answers the oral question on the wedge vs growth divergence (framework chapter states D = change in m / m).
+  - Main text, chapter 1 and chapter 6: the four foreign platform rules (`tables/src/platform_seller_rules_intl.csv`); the Tanah Abang citations (`GOLDEN_PITCH.md` dated note).
+  - Literature chapter: McKenzie and Paffhausen (2019) for small-firm exit; Neter and Waksberg (1964) for recall; van den Brakel, Smith and Compton (2008) and van den Brakel, Zhang and Tam (2020) for survey breaks; Trueman, Wong and Zhang (2000) and Rajgopal, Venkatachalam and Kotha (2003) for markets pricing activity measures; UNCTAD (2024) as the closest existing comparison (no novelty claim on comparing platform and national figures). Working list: `REFERENCES_WORKING.md`.
+  - Appendix: full profile tables with the 2020-22 control; the month-of-selling table; the points-vs-logs firm table; the exact growth identities and the movement-share definition (independent review, `../independent_review_2026-10-08/RESULTS_INSERTS.md`).
+  - Defence notes (reserve): the three prepared answers (returning sellers; was the ban wrong; is the thin-slice result obvious).
+
