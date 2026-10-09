@@ -4,7 +4,7 @@ Same firms and firm-years as h1_extended.py part A (Indonesia main + Grab and Go
 years excluded). For each yearly transition: change in the share kept, m = R/V, in percentage points of transaction value (absolute) and in logs
 (relative, what growth divergence D measures). Firm medians; one-sided Mann-Whitney (Indonesia greater).
 Identity behind it: D = g(R) - g(V) = (change in m) / m, so a one-point change in m moves revenue growth by about 100/m percent (1 + E).
-Run from this folder: python3 h1_points_vs_log.py -> tables/h1_points_vs_log.json"""
+Run from this folder: python3 h1_points_vs_log.py -> tables/h1_points_vs_log.json, tables/h1_points_vs_log_firms.csv"""
 import json
 import numpy as np, pandas as pd
 from scipy import stats
@@ -37,4 +37,5 @@ out = {"firms": {"Indonesia": len(I), "Foreign": len(F)},
        "mannwhitney_p_points": float(stats.mannwhitneyu(I.change_points, F.change_points, alternative="greater").pvalue),
        "mannwhitney_p_log": float(stats.mannwhitneyu(I.change_log, F.change_log, alternative="greater").pvalue),
        "indonesian_firms": I.drop(columns="group").round(4).to_dict(orient="records")}
+f.round(4).to_csv("tables/h1_points_vs_log_firms.csv", index=False)
 s = json.dumps(out, indent=1); print(s); open("tables/h1_points_vs_log.json", "w").write(s)

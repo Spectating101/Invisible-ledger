@@ -35,6 +35,7 @@ step h1_extended.py            # H1 vs 27 foreign firms, D measure, leave-one-ou
 step h1_points_vs_log.py      # take-rate changes in points vs logs (exploratory, 9 Oct)
 step consistency_grid.py       # eleven rulers of the online economy
 step exhibits.py               # draft exhibits, one per story layer (exhibits/*.png)
+step exhibits_v2.py            # revised exhibit set for the arc (9 Oct): thin slice, Tokopedia, who they are, full-year sellers, tax reach
 step claims_ledger_v4.py       # recomputes the 3-4 Oct numbers (World Bank results from committed aggregates)
 step h1_quarterly.py           # H1 with quarterly pairs (robustness; falsified)
 step wedge_split.py            # wedge changes: volume part vs monetization part
