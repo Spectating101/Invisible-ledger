@@ -26,5 +26,44 @@
  "change_k": {
   "all_12_months": 811.7508201529258,
   "part_year": -69.33944445699763
- }
+ },
+ "same_start_year_groups": {
+  "started by 2020": {
+   "2022": {
+    "all_12_months_k": 1749.1127591774189,
+    "part_year_k": 378.1067374866317,
+    "part_year_pct": 17.774693118391706
+   },
+   "2023": {
+    "all_12_months_k": 2003.4402186990003,
+    "part_year_k": 252.314955865,
+    "part_year_pct": 11.185387435219704
+   }
+  },
+  "started by 2021": {
+   "2022": {
+    "all_12_months_k": 2087.120159264074,
+    "part_year_k": 472.04726921799767,
+    "part_year_pct": 18.44534530896186
+   },
+   "2023": {
+    "all_12_months_k": 2371.3121452869996,
+    "part_year_k": 318.07036947299997,
+    "part_year_pct": 11.826892148192037
+   }
+  },
+  "started by 2022": {
+   "2022": {
+    "all_12_months_k": 2258.4666493905174,
+    "part_year_k": 737.5193506094806,
+    "part_year_pct": 24.61691578697234
+   },
+   "2023": {
+    "all_12_months_k": 2898.870979417,
+    "part_year_k": 402.70782476100004,
+    "part_year_pct": 12.197431854462819
+   }
+  }
+ },
+ "reading": "Part-year selling falls under all three common cutoffs. Diagnostic only: without linked histories, sellers returning during the year can be offset by exits of part-year sellers or by incumbents moving to full-year selling; January returns are also possible."
 }

@@ -38,7 +38,7 @@ In 2023, two kinds of numbers pointed up. The platforms reported fast-growing re
 
 ### B2. How thin the platform's slice is
 
-Start with what a platform keeps. Of every 100 rupiah spent through Indonesia's large platforms, the platform keeps about 7. The rest goes to the sellers, drivers and shops. In 2023, on three platforms, that left about US$40 billion of buying that their revenue does not show. This is the invisible wedge in the title.
+Start with what a platform keeps. Of every 100 rupiah spent through Indonesia's large platforms, the platform keeps about 7. The rest sits outside the platform's reported revenue: mostly what sellers, drivers and shops receive, along with other parts of the sale. In 2023, on three platforms, that left about US$40 billion of buying that their revenue does not show. This is the invisible wedge in the title.
 
 The thinness of that slice matters more than its size. When a platform keeps only 7 rupiah in 100, a small change in what it keeps moves its income a lot. If it starts keeping 9 instead of 7, its income rises by more than a quarter, and nobody has bought anything more.
 
@@ -54,7 +54,7 @@ So H1 is rejected. Platform revenue did not grow in step with buying. In 2022-24
 
 Buying through the apps did not boom in 2023. Tokopedia's buying fell, GoTo's ride and delivery business fell, and Bank Indonesia's figure for online shopping fell by about 5%. Of six measures of buying through platforms in Indonesia alone, five grew more slowly than ordinary household spending.
 
-Investors, for their part, seem to have watched the buying. Across 28 listed platforms in several countries, changes in market value moved with changes in what people bought through them. Whether investors also discounted revenue that came from charging more is not settled by the data.
+Investors' valuations, for their part, moved with the buying. Across 28 listed platforms in several countries, changes in market value moved with changes in what people bought through them. Whether investors also discounted revenue that came from charging more is not settled by the data.
 
 ### B4. The obvious answer
 
@@ -78,9 +78,9 @@ Before opening the survey answers, I wrote down a test and its threshold. Every 
 
 About one in seven did. That is about 513,000 sellers who started in 2023, against a rise of about 820,000. The rest of the rise, roughly half, were sellers who say they were already selling before 2023 but were not in the 2022 count.
 
-Three further checks point the same way. The gap is far too large to be sampling chance. It is concentrated in the provinces where the survey itself grew, not in the provinces with the most new sellers. And the next year looks normal: in 2024 the older sellers in the count shrink, as they should when some people stop selling. The one explanation the data cannot rule out is sellers who stopped selling online for a while and came back in 2023.
+Three further checks point the same way. The gap stays large in the sampling-error scenarios we checked. It is concentrated in the provinces where the survey itself grew, not in the provinces with the most new sellers. And the next year looks normal: in 2024 the older sellers in the count shrink, as they should when some people stop selling. The one explanation the data cannot rule out is sellers who stopped selling online for a while and came back in 2023.
 
-So the official 2023 jump in sellers was about half new businesses and about half a count that reached further.
+So about half of the official 2023 jump in sellers is not explained by first-time entry. The likeliest reading is that the survey reached further; sellers returning after a break remain the alternative.
 
 ### B8. Who they are
 
@@ -88,13 +88,13 @@ The survey does not follow individual businesses from one year to the next, but 
 
 They lean toward long-running businesses: many opened before 2010, and many went online years after they opened. Their owners lean older, often over 50, and most finished school at high school or earlier. More of them are outside Java than in the 2022 count, and many sell food or make things. The extra count sits entirely among sellers who use only chat and social media; among marketplace sellers it barely moved.
 
-They had been there all along. The count reached them in 2023, and their arrival looked like growth.
+The larger count was concentrated among older, long-running businesses that sell through chat and social media. In the headline figures, their arrival looked like growth.
 
 ### B9. Why the two state offices disagreed
 
 In 2023 Bank Indonesia's figure for online shopping fell about 5% while BPS's rose 41%. It looks as if one of them must be wrong.
 
-Neither is. Where the two look at the same place, the marketplaces, they agree that growth was slow. BPS's own measure of sales through marketplaces barely grew in 2023, in line with the platforms. The two offices part ways only outside the marketplaces, among chat and social sellers that BPS's survey reaches and Bank Indonesia's figure does not, and that is exactly where BPS had just started seeing more sellers.
+The two offices measure different parts of online selling. Where the two look at the same place, the marketplaces, they agree that growth was slow. BPS's own measure of sales through marketplaces barely grew in 2023, in line with the platforms. The two offices part ways only outside the marketplaces, among chat and social sellers that BPS's survey reaches and Bank Indonesia's figure does not, and that is where BPS's count of sellers rose by more than first-time entry can explain.
 
 ### B10. The tax office's number
 
@@ -106,23 +106,23 @@ BPS's 2026 economic census went door to door this year and counted online seller
 
 ### B11. What 2023 was
 
-Every number that read 2023 as a boom was measuring something narrower. Platform income measured prices: the platforms kept more of each sale. The official seller count measured, in about half, a survey that reached further. The tax office's coming records cover a minority of sellers. The sellers themselves said it was a hard year, and the evidence underneath backs them.
+The headline figures that described a boom were measuring something narrower. Platform income measured prices: the platforms kept more of each sale. The official seller count rose by about half more than first-time entry can explain. The tax office's coming records cover a minority of sellers. The sellers themselves said it was a hard year, and the evidence underneath backs them.
 
 ## B-C. What is Indonesian and what travels
 
 Some of this belongs to Indonesia. The thinness of the slice does: Indonesia's marketplaces keep far less of each sale than most platforms abroad, which is why ordinary price changes swung their revenue so hard, and a follow-up test across other countries found that not every platform's revenue swings like this. The survey finding does too: it rests on one country's survey in one year.
 
-What travels is the check. A platform's revenue tracks buying only while the platform keeps the same share of each sale, and that is easy to check from its own reports. A count of online sellers tracks new businesses only while the survey keeps reaching the same people, and one question about the year a seller started is enough to test it. A rule built on platform records reaches only the sellers on the platforms. Several countries are now building exactly such rules, and in places where selling runs through chat apps, most sellers may sit outside them.
+What travels is the check. A platform's revenue tracks buying only while the platform keeps the same share of each sale, and that is easy to check from its own reports. A count of online sellers tracks new businesses only while the survey keeps reaching the same people, and a question about the year a seller started tests whether first-time entry explains a jump. A rule built on platform records reaches only the sellers on the platforms. Several countries are now building exactly such rules, and in places where selling runs through chat apps, most sellers may sit outside them.
 
 ## C. What it means for the people who use these numbers
 
 For investors: ask whether a platform's growth came from more buying or from keeping more of each sale. Across listed platforms in several countries, market value moved with buying, which suggests investors already watch it. Anyone else reading platform revenue as growth should too.
 
-For statistics offices: when a count of online sellers jumps, check whether the sellers are new. Where online selling runs through chat apps, a survey can find people who were always there, and the people it finds late tend to be the ones least visible anywhere else: older owners of long-running small businesses, away from the big cities.
+For statistics offices: when a count of online sellers jumps, check whether the sellers are new. Where online selling runs through chat apps, a count can rise without new businesses, and in Indonesia the extra count leaned toward the sellers least visible anywhere else: older owners of long-running small businesses, away from the big cities.
 
-For tax authorities: before building on platform records, find out how many sellers work outside the platforms. In Indonesia it is most of them, and the ones outside are the ones the statistics also missed until recently.
+For tax authorities: before building on platform records, find out how many sellers work outside the platforms. In Indonesia it is most of them, and they are the same sellers behind the jump in the official count.
 
-The numbers we use to see the digital economy are stand-ins. They hold while prices and counting stay the same. In Indonesia in 2023 both shifted at once, and a year that every number read as a boom was, for the people selling, a hard one.
+The numbers we use to see the digital economy are stand-ins. They hold while prices and counting stay the same. In Indonesia in 2023 both shifted at once, and a year the headline figures described as a boom was, for the people selling, a hard one.
 
 ## Limits (stated once)
 
@@ -145,9 +145,14 @@ The platform comparison rests on a small number of Indonesian platforms, and som
 | B4 | Nearly all sellers use chat or social (about 96%); platforms about a fifth of online sales (16-26%) | FINDINGS sections 1 and the answer list; `rq_closing_checks.py` |
 | B5 | 24% up, 44% same, 32% down; median 0; lack of demand 41% (35% in 2022); value scenarios, existing sellers mean -4.3% | FINDINGS, verdict for 2023; E6 |
 | B6 | H2 holds on published numbers (71% of 2022-23 growth) | FINDINGS section 5; `bps_bridge.py` |
-| B7 | Entry test registered 2 Oct 2026 (E5, threshold 21.5%), result 13.45%; 513k vs 819k; 37-56% not first-time entry; 4.6 standard errors; provinces follow sample growth; 2024 normal; returning sellers open | `PREREGISTRATION.md`; `bps_rise_accounting.py`, `bps_frame_check.py`, `rq_closing_checks.py`; Part 4 |
+| B7 | Entry test registered 2 Oct 2026 (E5, threshold 21.5%), result 13.45%; 513k vs 819k; 37-56% not first-time entry; 4.6 standard errors in a later-wave RSE sensitivity (2.3 at twice the RSE); provinces follow sample growth; 2024 normal; returning sellers open | `PREREGISTRATION.md`; `bps_rise_accounting.py`, `bps_frame_check.py`, `rq_closing_checks.py`; Part 4 |
 | B8 | Opened before 2010, 50+, high school or less, outside Java, food and making goods; chat or social only (exploratory) | `bps_newly_counted_profile.py`; Part 4 dated note |
 | B9 | Bank Indonesia -4.7%, BPS +40.6%; BPS marketplace slice +0.2% in 2022-23 (mid scenario, 0-13%), in line with platforms | FINDINGS verdict for 2023; Part 5; `gel_checks.py` |
 | B10 | Cap on two-wheel rides; discount rule; tax: at most about 5% of sellers, 17-24% of value; every marketplace seller identified (about 18%); 13.5% want to join; census 2026 | Part 6 |
 | B-C | Not a worldwide pattern (S1, S2 falsified) | FINDINGS section 8 |
 | Limits | As stated | Part 7 |
+
+## Revision notes
+
+- **10 Oct 2026, claim repairs after the independent development review (`../independent_review_2026-10-09/DEVELOPMENT_REVIEW.md`).** B2: the wedge is what sits outside reported revenue, not a measured payout. B7: "too large to be chance" became "stays large in the sampling-error scenarios we checked". B7-B8: the jump is stated as not explained by first-time entry, with the likeliest reading and the alternative named; the profile describes where the larger count was concentrated, not individuals newly found. B9: the offices measure different parts of online selling. B11, B-C, C: the start-year question tests first-time entry; "every number read 2023 as a boom" became "the headline figures described a boom". The voice is unchanged; the limits stay in the limits paragraph.
+

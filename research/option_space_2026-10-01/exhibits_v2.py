@@ -52,10 +52,10 @@ for ax, (col, lab, k, key) in zip(axes, panels):
     ax.set_yticks([1, 0], ["Indonesia and\nregion (5)", "Abroad (26)"] if col == "share_kept_pct" else ["", ""])
     ax.set_ylim(-0.6, 1.75); ax.set_xlabel(lab); ax.grid(axis="y", visible=False)
 axes[0].set_xscale("log"); axes[0].set_xticks([1, 3, 10, 30, 100], ["1", "3", "10", "30", "100"])
-save(fig, "Same price changes, much thinner slice: why Indonesian platform revenue swings",
+save(fig, "Similar price changes, much thinner slice: why Indonesian platform revenue swings",
      "Source: issuer filings; h1_points_vs_log.py (exploratory). Each dot is one platform's median over its years. Indonesian marketplaces keep under 2 rupiah in 100; "
-     "a typical platform abroad keeps about 17. Their yearly changes in rupiah are about the same (p = 0.65), so relative to the slice the Indonesian change is about three times "
-     "as large (p = 0.003). Growth divergence equals the change in the share kept divided by the share kept.", "1_thin_slice.png", top=0.86)
+     "a typical platform abroad keeps about 17. Their median yearly changes in rupiah are close (p = 0.65; not a test of equality); relative to the slice the Indonesian change is about three times "
+     "as large (p = 0.003). Exact identity: D = (1 + gV)(m1 - m0)/m0, so the amplifier is 1/m0 = 1 + E0 together with transaction growth. 26 foreign firms (both endpoints screened); with 27, p = 0.69 and 0.004.", "1_thin_slice.png", top=0.86)
 
 # 2. Tokopedia 2022 -> 2023: net revenue up while transaction value fell (Rp trillion, GoTo 2023 annual report, Note 29)
 net22, inc, gross, net23 = 4.030919, 1.298601, 0.845670, 6.175190
@@ -94,22 +94,23 @@ save(fig, "Who the extra 2023 sellers were: long-running small businesses, not s
      "beyond each group's normal yearly change (taken from the 2020-22 surveys), about 450 thousand. The surveys do not follow individual businesses. "
      "Education codes for the 2024 file are inferred. Almost all of the extra count sells only through chat and social media.", "3_who_they_are.png")
 
-# 4. Not sellers back from a break: the rise is in sellers who sold online every month
-r = json.load(open(HERE / "tables/bps_returning_check.json")); k = [x for x in r if x != "change_k"]
+# 4. Part-year selling fell, even within the same start-year group (sellers who started online by 2021, in both rounds)
+r = json.load(open(HERE / "tables/bps_returning_check.json"))["same_start_year_groups"]["started by 2021"]
 fig, ax = plt.subplots(figsize=(6.6, 3.2))
 cats = ["Sold online every month", "Sold online part of the year"]
-v0 = [r[k[0]]["all_12_months_k"], r[k[0]]["part_year_k"]]; v1 = [r[k[1]]["all_12_months_k"], r[k[1]]["part_year_k"]]
+v0 = [r["2022"]["all_12_months_k"], r["2022"]["part_year_k"]]; v1 = [r["2023"]["all_12_months_k"], r["2023"]["part_year_k"]]
 yy = np.array([1, 0])
 ax.barh(yy + 0.18, [v / 1e3 for v in v1], height=0.34, color=ORANGE, label="2023 survey")
 ax.barh(yy - 0.18, [v / 1e3 for v in v0], height=0.34, color=BLUE, label="2022 survey")
 for y_, a, b in zip(yy, v1, v0):
     ax.text(a / 1e3 + 0.04, y_ + 0.18, f"{a / 1e3:.2f}m", va="center", fontsize=8.5, color=INK)
     ax.text(b / 1e3 + 0.04, y_ - 0.18, f"{b / 1e3:.2f}m", va="center", fontsize=8.5, color=INK)
-ax.set_yticks(yy, cats); ax.set_xlim(0, 3.4); ax.set_xlabel("Sellers who started before the survey year (million)"); ax.grid(axis="y", visible=False)
+ax.set_yticks(yy, cats); ax.set_xlim(0, 2.9); ax.set_xlabel("Sellers who started selling online by 2021 (million)"); ax.grid(axis="y", visible=False)
 ax.legend(frameon=False, loc="lower right", fontsize=8.5)
-save(fig, "The rise is in sellers who sold online all year, not sellers coming back from a break",
-     "Source: BPS e-commerce survey microdata, weighted; bps_returning_check.py (exploratory). A seller back from a break in 2022 would usually sell for only part of 2023. "
-     "The month question changed format between the two files (a list of months vs twelve yes/no answers).", "4_full_year_sellers.png")
+save(fig, "Part-year selling fell, even within the same start-year group",
+     "Source: BPS e-commerce survey microdata, weighted; bps_returning_check.py (exploratory diagnostic). Same group in both rounds: sellers who started online by 2021 "
+     "(the fall also holds for groups that started by 2020 and by 2022). Sellers back from a break would usually sell part of the year, but without linked histories "
+     "returns can be offset by exits or by sellers moving to full-year selling. The month question changed format between rounds.", "4_full_year_sellers.png")
 
 # 5. Who the marketplace tax reaches (share of online sellers, 2023)
 t = json.load(open(HERE / "tables/part6_checks.json"))

@@ -77,7 +77,7 @@ pres.addSection({ title: "Opening" });
   const cols = [
     ["STAYED", ["The title, the research question, H1 and H2, word for word", "The measures: the invisible wedge, the ecosystem ratio, growth divergence", "The Tanah Abang opening and the three users of the numbers"]],
     ["ADDED", ["BPS's own survey answers, three rounds (bought through SILASTIK)", "27 foreign platforms in the comparison, up from 8", "A market-value test, and tests written down before the data were opened", "Primary texts of the 2023-26 rules"]],
-    ["CHANGED", ["The thesis now answers the oral deck's own question", "The wedge has a job: it explains why revenue swings", "H2's meaning: about half the 2023 rise in sellers was not new", "The market test came back only partly"]],
+    ["CHANGED", ["The thesis now answers the oral deck's own question", "The wedge has a job: it helps explain why revenue swings", "H2's meaning: about half the 2023 rise in sellers was not first-time entry", "The market test came back only partly"]],
   ];
   cols.forEach(([h, items], i) => {
     const x = 0.6 + i * 4.1;
@@ -95,9 +95,9 @@ pres.addSection({ title: "Opening" });
     "This is the golden pitch, frozen on 8 October. Everything else in the deck backs one of its sentences.");
   card(s, 0.6, 1.85, 12.1, 4.55, "pitch");
   label(s, "THE ANSWER, IN SIX SENTENCES", { x: 0.95, y: 2.1, w: 8, h: 0.3 });
-  txt(s, "In 2023 Indonesia argued about whether online selling was growing so fast it was hurting market traders, and the government shut TikTok Shop. The official figures for that year later said online sales rose 41%. I looked inside the survey behind those figures. Most sellers said their sales were flat or down, and their main complaint was a lack of customers. About half the new sellers weren't new: they were older, long-running small businesses, selling through WhatsApp and social media, that were only counted that year. On the big platforms, revenue grew mostly because they charged more, not because people bought more.",
+  txt(s, "In 2023 Indonesia argued about whether online selling was growing so fast it was hurting market traders, and the government shut TikTok Shop. The official figures for that year later said online sales rose 41%. I looked inside the survey behind those figures. Most sellers said their sales were flat or down, and their main complaint was a lack of customers. About half the new sellers weren't first-time sellers: the extra count leaned toward older, long-running small businesses selling through WhatsApp and social media. On the big platforms, revenue grew mostly because they charged more, not because people bought more.",
     { x: 0.95, y: 2.55, w: 11.4, h: 3.0, fontSize: 18, color: INK, paraSpaceAfter: 0, lineSpacingMultiple: 1.15 });
-  txt(s, [b("Short version: "), { text: "less commerce had moved online in 2023 than the numbers suggested. Platform income measured prices; the official seller count partly measured counting." }],
+  txt(s, [b("Short version: "), { text: "less commerce had moved online in 2023 than the headlines suggested. Platform income followed prices; the official seller count rose by more than first-time entry can explain." }],
     { x: 0.95, y: 5.65, w: 11.4, h: 0.6, fontSize: 14 });
 }
 
@@ -148,11 +148,11 @@ pres.addSection({ title: "How it reads" });
 // 6. Thin slice
 pres.addSection({ title: "Platforms" });
 {
-  const s = content("Platforms", "The wedge's job: same price changes, thinner slice",
-    "“Indonesian platforms did not change their prices more than platforms abroad. Their slice is ten times thinner.”",
-    "Answers Thomas's question on the wedge. Growth divergence equals the change in the share kept divided by the share kept, so the size of the wedge next to revenue sets how far a price change moves revenue growth. Exploratory check, h1_points_vs_log.py. It also corrects our own earlier wording.");
+  const s = content("Platforms", "The wedge's job: similar price changes, thinner slice",
+    "“In rupiah, Indonesian platforms' changes were close to those abroad. Their slice is ten times thinner.”",
+    "Answers Thomas's question on the wedge. Exactly, growth divergence D = (1 + gV)(m1 - m0)/m0: the amplifier is 1/m0 = 1 + E0, together with transaction growth. So the size of the wedge next to revenue sets how far a price change moves revenue growth. Exploratory check, h1_points_vs_log.py. It also corrects our own earlier wording.");
   img(s, "1_thin_slice.png", 0.9, 1.75, 11.2, 2.976);
-  txt(s, [b("Reading it: "), { text: "a typical platform abroad keeps about 17 rupiah of every 100 sold; Indonesian marketplaces keep under 2. Both change what they keep by about 1 rupiah per 100 a year. On a 2-rupiah slice that is a huge change, so revenue growth swings about three times as much. H1 is still rejected; the reason is now clear." }],
+  txt(s, [b("Reading it: "), { text: "a typical platform abroad keeps about 17 rupiah of every 100 sold; Indonesian marketplaces keep under 2. Both change what they keep by about 1 rupiah per 100 a year. On a 2-rupiah slice that is a huge change, so revenue growth swings about three times as much. H1 is still rejected; a thin slice helps explain why." }],
     { x: 0.6, y: 5.6, w: 12.1, h: 0.8, fontSize: 14 });
   source(s, "Issuer filings, 5 Indonesian and regional vs 26 foreign platforms (firm medians); in points p = 0.65, relative p = 0.003. Exploratory, 9 Oct.");
 }
@@ -173,12 +173,12 @@ pres.addSection({ title: "2023" });
 // 8. H2 and the entry test
 pres.addSection({ title: "Sellers" });
 {
-  const s = content("Sellers", "H2 holds on paper; underneath, half were not new",
+  const s = content("Sellers", "H2 holds on paper; half the rise was not new entry",
     "“If 820,000 people had started selling in 2023, they would say so. About 513,000 did.”",
     "The entry test was written down on 2 October and committed before the survey files were opened on 7 October. It closes the caveat on the oral deck's H2 slide: 'an arithmetic decomposition, not entry dynamics'.");
   img(s, "5_bps_own_answers.png", 0.6, 1.8, 8.6, 2.876);
   label(s, "THE ENTRY TEST", { x: 9.5, y: 1.9, w: 3.2, h: 0.3 });
-  txt(s, bullets(["Written down before the data: at least 1 in 5 sellers should say they started in 2023", "Result: about 1 in 7", "37-56% of the rise was sellers already selling before 2023", "Too large for chance (4.6 standard errors); follows where the survey grew; 2024 is normal again"]),
+  txt(s, bullets(["Written down before the data: at least 1 in 5 sellers should say they started in 2023", "Result: about 1 in 7", "37-56% of the rise was sellers already selling before 2023", "Large in the sampling-error scenarios checked; follows where the survey grew; 2024 is normal again"]),
     { x: 9.5, y: 2.3, w: 3.2, h: 3.4, fontSize: 13, paraSpaceAfter: 9 });
   txt(s, [b("H2 on BPS's published numbers: "), { text: "holds (71% of 2022-23 growth from more businesses). The survey's own answers change what “more businesses” means." }],
     { x: 0.6, y: 4.95, w: 8.6, h: 0.9, fontSize: 14 });
@@ -188,29 +188,29 @@ pres.addSection({ title: "Sellers" });
 // 9. Who they are
 {
   const s = content("Sellers", "Who the extra sellers were",
-    "“Long-running small businesses, not start-ups. They had been there all along; the count reached them in 2023.”",
+    "“The larger count was concentrated among older, long-running businesses selling through chat and social media.”",
     "Exploratory: the surveys do not follow individual businesses, so each group's 2023 count is compared with its 2022 count, net of that group's normal yearly change from the 2020-22 surveys. The raw tilt to men disappears under this control.");
   img(s, "3_who_they_are.png", 0.6, 1.75, 7.9, 1.781);
   label(s, "WHAT IT MEANS", { x: 8.9, y: 1.9, w: 3.8, h: 0.3 });
   txt(s, bullets(["Businesses opened before 2010, often going online years later", "Older owners, mostly schooled to high school or less", "More often outside Java; food stalls and small workshops", "Selling only through chat and social media"]),
     { x: 8.9, y: 2.3, w: 3.8, h: 3.0, fontSize: 14, paraSpaceAfter: 9 });
-  txt(s, "These are the people the original question was about: real business the numbers missed.", { x: 8.9, y: 5.3, w: 3.8, h: 0.8, fontSize: 14, italic: true, color: TEAL });
+  txt(s, "These are the kind of businesses the original question was about: real, long-running, and easy for the numbers to miss.", { x: 8.9, y: 5.3, w: 3.8, h: 0.8, fontSize: 14, italic: true, color: TEAL });
   source(s, "BPS e-commerce survey microdata (2020, 2022, 2023 rounds), weighted; about 450,000 sellers beyond normal change. Exploratory, 9 Oct.");
 }
 
 // 10. Not returners
 {
-  const s = content("Sellers", "Not sellers coming back from a break",
-    "“Someone back from a break sells for part of the year. The rise is in sellers who sold every month.”",
-    "The open alternative to wider survey reach is sellers who paused in 2022 and came back. Three answers: the month pattern, the timing, and who closes and restarts small firms. January restarts cannot be ruled out; the claim stays 'the likeliest reading'.");
+  const s = content("Sellers", "Sellers back from a break: checked, not closed",
+    "“Part-year selling fell, even within the same start-year groups.”",
+    "The open alternative to wider survey reach is sellers who paused in 2022 and came back. Three checks weigh against it: the month pattern within the same start-year groups, the timing, and who closes and restarts small firms. Without linked histories, returns can be offset by exits or by sellers moving to full-year selling, and January returns are possible, so the alternative stays open.");
   img(s, "4_full_year_sellers.png", 0.6, 1.8, 7.4, 2.099);
-  label(s, "THREE ANSWERS", { x: 8.4, y: 1.9, w: 4.3, h: 0.3 });
+  label(s, "THREE CHECKS", { x: 8.4, y: 1.9, w: 4.3, h: 0.3 });
   txt(s, [
-    ...para([b("Months: "), "part-year selling fell (472k to 403k); full-year selling rose (2.09m to 2.90m)."]),
+    ...para([b("Months: "), "among sellers who started by 2021, part-year selling fell from 472k to 318k; it falls for every start-year group."]),
     ...para([b("Timing: "), "returning happens every year; it would have to spike in 2023 alone, while 2020-22 groups shrank and 2024 is normal."]),
-    ...para([b("Who restarts: "), "small firms close most often when young, with young owners (McKenzie and Paffhausen 2019). These sellers are the opposite."], true),
+    ...para([b("Who restarts: "), "small firms close most often when young, with young owners (McKenzie and Paffhausen 2019). The extra count leans the other way. Returns stay the open alternative."], true),
   ], { x: 8.4, y: 2.3, w: 4.3, h: 3.9, fontSize: 14, paraSpaceAfter: 12 });
-  source(s, "BPS survey microdata; the month question changed format between rounds. Recall error would inflate first-time entry, so the estimate is conservative (Neter and Waksberg 1964).");
+  source(s, "BPS survey microdata; the month question changed format between rounds. If recall errors run forward, as in Neter and Waksberg (1964), the entry shortfall is conservative.");
 }
 
 // 11. Why it matters
@@ -258,7 +258,7 @@ pres.addSection({ title: "Answers" });
     "“Each correction made a claim smaller and the thesis harder to knock over.”",
     "These were found by our own checks and by the independent review. None changes a verdict.");
   const fixes = [
-    ["“Indonesian platforms changed their prices far more”", "Same price changes in rupiah; a much thinner slice"],
+    ["“Indonesian platforms changed their prices far more”", "Similar changes in rupiah; a much thinner slice"],
     ["“Mostly newly counted sellers”", "About half not explained by first-time entry (37-56%); returning sellers named"],
     ["“Markets did not pay up for fee-driven growth”", "Market value moved with buying; the multiples comparison is arithmetic, not evidence"],
     ["“Two thirds of revenue growth came from the cut”", "Two thirds of the movement, defined; not a share of net growth"],

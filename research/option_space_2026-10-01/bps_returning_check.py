@@ -24,4 +24,15 @@ for lab, w, s, m, ref in [("2022 survey (2022 activity)", wa, sa, ma, 2022), ("2
     out[lab] = r
 k = list(out)
 out["change_k"] = {"all_12_months": out[k[1]]["all_12_months_k"] - out[k[0]]["all_12_months_k"], "part_year": out[k[1]]["part_year_k"] - out[k[0]]["part_year_k"]}
+# Same start-year groups in both rounds (independent review, 9 Oct): sellers who started online by year c, in the 2022 and 2023 activity files.
+out["same_start_year_groups"] = {}
+for c in (2020, 2021, 2022):
+    r = {}
+    for lab, w, s_, m in [("2022", wa, sa, ma), ("2023", wb, sb, mb)]:
+        g = s_ <= c
+        r[lab] = {"all_12_months_k": float(w[g & (m == 12)].sum()) / 1e3, "part_year_k": float(w[g & (m < 12)].sum()) / 1e3}
+        r[lab]["part_year_pct"] = 100 * r[lab]["part_year_k"] / (r[lab]["part_year_k"] + r[lab]["all_12_months_k"])
+    out["same_start_year_groups"][f"started by {c}"] = r
+out["reading"] = ("Part-year selling falls under all three common cutoffs. Diagnostic only: without linked histories, sellers returning during "
+                  "the year can be offset by exits of part-year sellers or by incumbents moving to full-year selling; January returns are also possible.")
 s = json.dumps(out, indent=1); print(s); open("tables/bps_returning_check.json", "w").write(s)

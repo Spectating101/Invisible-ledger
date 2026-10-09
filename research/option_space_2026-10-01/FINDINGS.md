@@ -139,3 +139,4 @@ S1 and S2 (spin-off: not a worldwide law); W3 (informal sellers' mean sales abov
 ## Dated notes
 
 - **9 Oct 2026.** Section 2's "about three times" is relative (log points). In points of transaction value, yearly take-rate changes are about the same in Indonesia and abroad (about 1 point; p = 0.65); Indonesian marketplaces keep a far thinner slice (median 1.6% vs 16.9%), so the same change moves revenue growth far more (`h1_points_vs_log.py`, exploratory; Part 3 dated note).
+- **10 Oct 2026.** Identity corrected: D = (1 + gV)(m1 - m0)/m0, not change in m over m (exact only with no transaction growth). Month check now on the same start-year groups (Part 4 dated note). Independent development review: (`../independent_review_2026-10-09/DEVELOPMENT_REVIEW.md`).

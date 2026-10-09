@@ -3,7 +3,9 @@ Is Indonesia's larger take-rate movement a larger PRICE change, or the same pric
 Same firms and firm-years as h1_extended.py part A (Indonesia main + Grab and GoTo on-demand; foreign = proposal's 8 + spin-off firms, 1P-heavy
 years excluded). For each yearly transition: change in the share kept, m = R/V, in percentage points of transaction value (absolute) and in logs
 (relative, what growth divergence D measures). Firm medians; one-sided Mann-Whitney (Indonesia greater).
-Identity behind it: D = g(R) - g(V) = (change in m) / m, so a one-point change in m moves revenue growth by about 100/m percent (1 + E).
+Identity behind it: D = g(R) - g(V) = (1 + gV)(m1 - m0)/m0, so a one-point change in m moves revenue growth by about (1 + gV) x 100/m0 percent
+(amplifier 1/m0 = 1 + E0, with transaction growth); the exact additive form is dln R = dln V + dln m. Both endpoints are screened, so the foreign
+sample has 26 firms (Ozon drops out); on the 27-firm selection of h1_extended.py the result is the same (independent review, 9 Oct).
 Run from this folder: python3 h1_points_vs_log.py -> tables/h1_points_vs_log.json, tables/h1_points_vs_log_firms.csv"""
 import json
 import numpy as np, pandas as pd
