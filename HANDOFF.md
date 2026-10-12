@@ -6,7 +6,7 @@ For any agent or person taking over. Read this file, then the two files it point
 
 **Ten-minute path.** (1) This file, sections 0 to 4. (2) `papers/thesis_2026-10/README.md`, the "How to continue" and "Writing rules" parts. (3) `papers/thesis_2026-10/EDIT_HISTORY.md`, Part A (the committee) and Part D (what was tried on chapter 1). (4) `papers/thesis_2026-10/ch1_introduction.md`, to hear the agreed voice. Then start on section 6.
 
-**One-paragraph state.** The proposal passed on 1 October. In the following eleven days the research was finished: the BPS survey files were bought and analysed, the foreign comparison grew from 8 to 27 platforms, a market test was run, and the story was settled. Since 12 October the work is **writing the thesis**, by hand, in `papers/thesis_2026-10/`. Chapter 1 is drafted. Nothing else about the research is open.
+**One-paragraph state.** The proposal passed on 1 October. In the following eleven days the research was finished: the BPS survey files were bought and analysed, the comparison group of platforms abroad grew from 8 to 27 (set against 5 Indonesian and regional platforms), a market test was run, and the story was settled. Since 12 October the work is **writing the thesis**, by hand, in `papers/thesis_2026-10/`. Chapter 1 is drafted. No new analysis is planned; the only research items left are the registered predictions, which are scored on the dates in section 7 and feed chapter 6.
 
 **Things in this repository that will mislead you.**
 
