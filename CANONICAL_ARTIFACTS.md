@@ -26,7 +26,7 @@ The presented deck (confirmed by the researcher on 1 October 2026) is `papers/cu
 
 ## Manuscript
 
-There is no current manuscript. The September manuscripts are archived and stale (they predate the 27 September proposal and the October research):
+The October 2026 rewrite is being drafted in `papers/thesis_2026-10/` (one file per chapter; see its README), started 12 Oct 2026 after the advisor asked for better writing on the same topic. It is a draft, not yet the submitted thesis. The September manuscripts are archived and stale (they predate the 27 September proposal and the October research):
 
 - archived in `papers/current/archive/manuscripts_2026-09/` (Thesis_Manuscript, Integrated_Manuscript_2026-09-11, Working_Manuscript_2026-09-09)
 - generator: `scripts/build_thesis_manuscript.py` (its default output now points at that archive folder)
