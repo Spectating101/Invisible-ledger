@@ -1,8 +1,70 @@
-# Edit history of the thesis rewrite
+# Concerns and edit history of the thesis rewrite
 
-A running record of what was tried in the writing, what the researcher said, and what was kept. Newest entries at the bottom of each chapter. Open concerns are marked **OPEN** so they are not forgotten.
+One place for every concern raised about this thesis and what was done about it: the committee's, the researcher's own during development, the independent reviews', and the round-by-round edits of each chapter. Status is **Addressed** (with where), **Partly**, or **OPEN**. Add to it; do not delete entries.
 
-## Chapter 1 (12 Oct 2026)
+## Part A. The committee
+
+| When | Who | Concern | Where it is answered | Status |
+|---|---|---|---|---|
+| Oral, 1 Oct | Prof. Thomas | Definitions and terms were confusing across the presentation | Chapter 3: one box of terms, each defined once in plain words; symbols kept out of the running text | Addressed in plan; chapter 3 not yet written |
+| Oral, 1 Oct | Prof. Thomas | The wedge (W = V - R) is "just subtraction": what is its point? If the take rate matters most, why growth divergence (D) and not the wedge? The title still says "wedge" | The thin-slice result: the wedge's size next to revenue sets how far a price change moves revenue growth, D = (1 + gV)(m1 - m0)/m0 (`h1_points_vs_log.py`, exploratory); chapter 1.2 first contribution; chapter 3.3; results on H1 | Addressed in evidence; text in chapters 3 and 5 to be written |
+| Oral, 1 Oct | Prof. Thomas | The ride-hailing commission cap (20% to 8%) and how it bears on the wedge | Chapter 6: the cap covers two-wheel rides only; its slice of the measure; predictions scored 27 Oct and mid Nov | Addressed in evidence; scoring pending |
+| Oral, 1 Oct | Prof. Thomas | Political involvement and the economic players | Chapter 6: each rule mapped to the number it acts on and how far it reaches; no causal claims | Addressed in evidence |
+| Oral, 1 Oct | Prof. Thomas | Only 10 minutes allowed for the talk, so it was rushed | Progress deck of 9 Oct is built for a short talk (one message per slide) | Addressed for the next meeting |
+| Oral, 1 Oct | Prof. Kong | How transaction value compares across platforms | Chapter 4.1 and the appendix definition map (`v_definition_map.py`) | Addressed in evidence |
+| Oral, 1 Oct | Prof. Kong | The proposal is very hard to read: too empirical, cautious and safe; readability sacrificed to avoid any risk | The whole rewrite: proposal's flow kept, sentences lightened, stakes and an ambition stated; the centre is a tested claim about the 2023 seller count | In progress (chapter 1 drafted) |
+| 12 Oct (message) | Prof. Kong | "Focus on the issues and suggestions that Prof. Thomas and I raised last time" | This table | In progress |
+| 12 Oct (message) | Prof. Kong | "We do not expect the topic to change completely" | Title, research question, H1, H2 and measures unchanged; the entry test presented as closing the proposal's own stated limit on H2 | Addressed; **OPEN** until she has seen the H2 framing (progress deck, slide 14) |
+| 12 Oct (message) | Prof. Kong | "Most importantly, try to improve the writing and read it through on your own a few more times" | The register and method in Part B; a read-through by the researcher before each chapter is sent | In progress |
+
+## Part B. The researcher's concerns during development
+
+| When | Concern (in the researcher's words where possible) | What was done | Status |
+|---|---|---|---|
+| Early Oct | The proposal was "safe and tailored for a master's thesis"; the work must hit hard | Centre moved to the tested 2023 seller-count result; ambition paragraph in 1.1 | Addressed |
+| 8 Oct | "Ease and readability by far outweigh everything"; clarity and transitions before structure | Story drafted before any chapter structure; transitions carry the argument | Addressed |
+| 8 Oct | "Stop being so apologetic": "it's not about this" lists dilute the picture | Limits stated once, in the limitations chapter; no disclaimers in the story | Addressed |
+| 8 Oct | Do not overclaim; drop unproven lines, do not prop them up with late citations | Several lines dropped or reduced (see Part C); literature used only where it speaks to the mechanism | Addressed, ongoing |
+| 8 Oct | Explanations in text with exact keywords, not symbols | Symbols confined to one box and the formula | Addressed |
+| 8 Oct | The first layman version was "too duh": answers given before any puzzle | Puzzle, wrong guess, evidence, reveal | Addressed |
+| 8 Oct | The storytelling was "way too AI", and "I don't get how this is relatable or impactful for anyone" | The golden pitch (2023, TikTok Shop, sellers' own answers), frozen as the bar for tone | Addressed |
+| 8 Oct | Too specific to be relatable: frame Indonesia as a prime example of a bigger problem | Global frame: figures everyone relies on; other countries' platform rules | Addressed |
+| 9 Oct | H1 and H2 "don't really address the problem" the story opens on; the loop does not close | The opening problem is the proposal's own (different readers, opposite conclusions); H1, H2 and the rules chapter answer one reader each; no H3 | Addressed |
+| 9 Oct | After zooming into Indonesia the story must zoom back out | Five-part arc: wide, into Indonesia, evidence, what travels, wide again | Addressed |
+| 9 Oct | "A bit too quick on the numbers, hold them back" | Rounded anchor numbers in the text; the rest in notes and tables | Addressed |
+| 9 Oct | Can rebuttals be defended with literature? | Yes where it fits the mechanism: small-firm exit, recall error, survey breaks, markets pricing activity (`REFERENCES_WORKING.md`) | Addressed |
+| 12 Oct | The labelled five-beat version is "an explanation draft", not the text to print | v2 kept as scaffolding only; printed text is continuous prose | Addressed |
+| 12 Oct | "Where did OECD come from?" Institutions named with no context | No institution names in chapter 1; named with context in chapters 2 and 6 | Addressed |
+| 12 Oct | The chapter draft is "clunky, plenty of friction between transitions"; the proposal and deck flowed better | Proposal's and deck's paragraph order as the spine; write linearly, each paragraph answering what the last left open | Addressed in chapter 1; applies to every chapter |
+| 12 Oct | Tone: statements over rhetoric; but no regulation numbers, no exact decimals, no fuss over wording | Register saved to memory and applied | Addressed |
+| 12 Oct | Paragraphs that only state what exists are "almost duh"; they must add stakes and compound | Test applied to each paragraph: does it make the next one necessary? | Addressed in chapter 1; applies to every chapter |
+| 12 Oct | A findings section in chapter 1 "gives spoilers" | Removed; short declaration of the answer kept | Addressed |
+| 12 Oct | The first paragraph of 1.1 must be the grand ambition; the question is the step toward it | Done | Addressed |
+| 12 Oct | Section 1.1 should be "brief, yet impactful" | Two attempts rejected (see Part D) | **OPEN** |
+
+Standing constraints set by the researcher: no contact with BPS by email; BPS microdata and LSEG data are never shared or committed, only aggregates; payments and credentials are handled by the researcher.
+
+## Part C. Independent reviews (Codex and ChatGPT)
+
+| When | Point raised | What was done | Status |
+|---|---|---|---|
+| 8 Oct, first review | Frame each number as a fair stand-in only while a condition holds; a take-rate rise is a real change in income, not a counting error | Adopted (groundwork version 4) | Addressed |
+| 8 Oct | "Mostly newly counted" overstates: say "not explained by first-time entry" and name returning sellers | Adopted everywhere | Addressed |
+| 8 Oct | The market-multiples comparison is an identity, not evidence; market-value change is not a stock return | Withdrawn as evidence; wording fixed | Addressed |
+| 8 Oct | The main-sample p = 0.06 is a different test, not a "stricter" one | Wording fixed | Addressed |
+| 8 Oct, second package | Tokopedia's incentive share is 60.6% at full precision | Used | Addressed |
+| 8 Oct | "Two thirds" is a share of absolute log components, not of net growth | Defined wherever used | Addressed |
+| 8 Oct | UNCTAD (2024) already compares business e-commerce sales and platform transaction values | No novelty claim on that comparison (chapter 1.2, last paragraph) | Addressed |
+| 8 Oct | IFRS 15 has an exception; lead with the issuer's disclosed deduction | Text refers to Tokopedia's own accounts | Addressed |
+| 9 Oct, development review | The identity omitted transaction growth: D = (1 + gV)(m1 - m0)/m0 | Corrected in scripts, notes, charts and deck | Addressed |
+| 9 Oct | The points-vs-logs check has 26 foreign firms, not 27 | Both selections named; same result | Addressed |
+| 9 Oct | The month check compared different groups | Redone on the same start-year groups; part-year selling still falls | Addressed |
+| 9 Oct | New sentences claimed too much ("there all along", "too large to be chance", "neither is wrong", "every number read 2023 as a boom") | Repaired in the story, arc notes, pitch (dated note) and deck | Addressed |
+| 9 Oct | The reference list is not yet a claim-checked, formatted bibliography | `REFERENCES_WORKING.md` with use limits | Partly: **OPEN** until citations are in the chapters |
+
+## Part D. Chapter rounds
+
+### Chapter 1 (12 Oct 2026)
 
 | Round | What was tried | Researcher's response | Outcome |
 |---|---|---|---|
