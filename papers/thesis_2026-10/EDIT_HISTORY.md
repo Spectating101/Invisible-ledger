@@ -145,3 +145,21 @@ Checks run after the rebuild: banned words none; no paragraph opens on a back-re
 Size against the baseline: Chapter 1 +9 percent, Chapter 2 +8, Chapter 3 +12. **Section 1.1 grew by 28 words (+7 percent)**, against the researcher's open wish for it to be brief. Candidates to cut if wanted: the "A further analysis estimates…" sentence in the design paragraph (it is covered in 1.2 and 1.3), or the second sentence of "In brief".
 
 Chapter 4 now owes the reader (promised in 1.3, 3.2, 3.3 or 3.4): both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).
+
+### Follow-up round after the second line-by-line read (12 Oct 2026, evening)
+
+The second sentence-by-sentence read (on the files after the seam pass) found 11 items, two of them introduced by the pass itself. All were fixed in one round and the touched paragraphs re-read with their neighbours.
+
+| Where | Problem found | Fix |
+|---|---|---|
+| ch3 opening, second paragraph | The sentence that brings in the count of online sellers started a new topic with no link to the outer-link condition before it (introduced by the seam pass) | "To check this, national growth is split into…" |
+| ch3 opening, first paragraph | The seam pass dropped the line saying each figure stands in for the next (introduced by the seam pass) | "Each figure stands in for the next one out." restored |
+| ch1 1.1 design paragraph | "is first-time entry" read awkwardly; the pointer to Chapter 3 sat before the further analysis | "comes from sellers entering for the first time"; the pointer dropped (1.3 already gives it), which also brings 1.1 back toward its old length |
+| ch1 intro, paragraph on the wedge | "the driver's fare" arrived before ride-hailing was in view; the reason smaller discounts raise the share was missing; the paragraph was long | "the seller's receipts on a marketplace, the driver's fare on a ride-hailing app"; "which a platform pays for out of what it earns"; the paragraph split into the level (the wedge) and the movement (the share is not fixed) |
+| ch1 1.2 | "it shows" followed a sentence whose subject was "they" | "the thesis shows / measures" |
+| ch2 2.1, third paragraph | Weak join from revenue recognition to measures | "Revenue is not the only reported figure whose meaning depends on how it is computed." |
+| ch2 2.2, first sentence | Promised "how large" but the section is about definitions and sources | "Measuring the wedge is a question of definitions and sources." |
+| ch2 2.4 | The summary left out the survey-methods strand; "pieces" against "parts"; an orphan sentence on survey counts | Survey-methods sentence added to the summary and the orphan removed; "parts" |
+| ch3 Tokopedia example | "0.91 x 0.68" did not show which factor was which | "(1 - 0.09) x 0.68 = 0.62" |
+
+After this round: Chapter 1 1,667 words, Chapter 2 1,280, Chapter 3 1,244 (baseline 1,520, 1,177, 1,095). **Section 1.1 is now 435 words, 25 more than the baseline (+6 percent)**, down from +28. No banned words; no sentence over 30 words in Chapters 2 and 3.

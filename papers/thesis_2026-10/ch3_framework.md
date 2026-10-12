@@ -1,10 +1,10 @@
 # Chapter 3. Framework and Hypotheses
 
-Chapter 2 left three questions open. The first two rest on one idea: a figure is used as a stand-in for the activity behind it. Three figures sit in a chain. A platform's revenue is the smallest, the commerce the platform carries is larger, and the online commerce of the whole country is larger still. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
+Chapter 2 left three questions open. The first two rest on one idea: a figure is used as a stand-in for the activity behind it. Three figures sit in a chain. A platform's revenue is the smallest, the commerce the platform carries is larger, and the online commerce of the whole country is larger still. Each figure stands in for the next one out. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
-A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. National growth is split into new and existing sellers using a count of online sellers. The count follows new selling only while the survey keeps reaching the same kinds of seller. This chapter defines the terms and measures, states a hypothesis for each link, and sets out the entry test of the count.
+A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers using a count of online sellers. The count follows new selling only while the survey keeps reaching the same kinds of seller. This chapter defines the terms and measures, states a hypothesis for each link, and sets out the entry test of the count.
 
 ## 3.1 Terms and measures
 
@@ -41,7 +41,7 @@ D = (1 + g(V)) × (m1 − m0) / m0
 
 When the take rate is steady, D is zero and revenue grows exactly as fast as the commerce. When the take rate rises, D is positive and revenue grows faster than the commerce.
 
-Tokopedia shows how this works. Between 2022 and 2023 its take rate rose by about 68 percent, so that it kept about two thirds more of each sale. Its transaction value fell by about 9 percent, yet its revenue grew by about 53 percent. Growth divergence was 62 points, which is 0.91 × 0.68 = 0.62.
+Tokopedia shows how this works. Between 2022 and 2023 its take rate rose by about 68 percent, so that it kept about two thirds more of each sale. Its transaction value fell by about 9 percent, yet its revenue grew by about 53 percent. Growth divergence was 62 points, which is (1 − 0.09) × 0.68 = 0.62.
 
 The wedge and growth divergence do different jobs. The wedge follows the commerce. At the marketplaces studied in Indonesia, revenue is a few percent of transaction value, so the wedge is almost all of transaction value and moves with it. Growth divergence follows the take rate and shows whether revenue remains a fair guide.
 

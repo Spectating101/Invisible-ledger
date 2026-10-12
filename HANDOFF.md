@@ -120,7 +120,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Section 1.1 should be "brief, yet impactful" as standard prose; two attempts were rejected (`EDIT_HISTORY.md`, Part D).
 - Citations are not yet in the chapter text.
 - The YZU template is not yet in the repository.
-- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); 1.2 and 1.3 were then rebuilt in the seam pass and have not yet been read by the researcher. Section 1.1 is 28 words longer than before (+7 percent) against the open wish for it to be brief; cut candidates are in `EDIT_HISTORY.md`.
+- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); 1.2 and 1.3 were then rebuilt in the seam pass and have not yet been read by the researcher. Section 1.1 is 25 words longer than before (+6 percent) against the open wish for it to be brief; cut candidates are in `EDIT_HISTORY.md`.
 - Chapter 3 now gives each link of the chain its own condition (inner: take rate steady; outer: national growth comes from sellers the platforms record; the count: survey keeps reaching the same sellers). The advisor has not yet seen how H2 is framed, so confirm this wording with the researcher before it goes to her.
 - Root-level files not part of the thesis are untracked and should be left alone (`side-academic-papers-*.zip`, `ssrn-7514022.pdf`, `Attraction-json_2026-10-09.zip`, a Chinese-named PDF).
 
