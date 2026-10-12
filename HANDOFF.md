@@ -109,6 +109,9 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Wants honest assessments and pushback when a request would weaken the thesis; does not want reassurance.
 - Judges the writing by ear: expect to be corrected on flow and tone, and record each round in `EDIT_HISTORY.md`.
 - Cheap checks on existing data are always worth running; new analysis is not wanted now.
+- **Readability comes before safety.** On 12 Oct (evening) the researcher said he does not want flags on the ambition paragraph ("technically no evidence, it is an educated guess, I am not going for safer options"), and that a safer claim that makes a sentence convoluted is the very thing Prof. Kong and Prof. Thomas complained about. So: the ambition and framing stay bold and are not flagged; support goes in notes or later chapters, never into hedged prose; flag a sentence only when it makes a different claim, once. This sits beside section 8: statements of what the data show keep their evidence strength; the framing is bold by design.
+- **He reviews before and after.** Show the change as before and after in chat, apply only what he approves, commit once per round, log it in `EDIT_HISTORY.md`. To assess a passage: print the full text with numbered paragraphs, say what each paragraph does and whether it hands over to the next, then list only reading problems, ranked.
+- **Style settled in this round** (full list in the thesis README, Writing rules): paragraph openers name their subject; a movement gets its mechanism in the paragraph that explains it; one currency (US$, rounded, World Bank rate for the year); no bare rupiah in the narrative.
 
 ## 10. Open items
 
@@ -116,6 +119,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Section 1.1 should be "brief, yet impactful" as standard prose; two attempts were rejected (`EDIT_HISTORY.md`, Part D).
 - Citations are not yet in the chapter text.
 - The YZU template is not yet in the repository.
+- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); the researcher has not yet reached 1.2 or 1.3, and 1.2 is still to be rechecked against the ambition paragraph.
 - Root-level files not part of the thesis are untracked and should be left alone (`side-academic-papers-*.zip`, `ssrn-7514022.pdf`, `Attraction-json_2026-10-09.zip`, a Chinese-named PDF).
 
 ## 11. Notes for a cloud or fresh session (added 12 Oct after a cloud session's first read)
@@ -125,6 +129,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - **Numbers.** Take them only from `research/option_space_2026-10-01/FINDINGS.md`, the Part 1-7 files with their dated notes, and section 4 above. H1 now rests on 5 Indonesian and regional platforms against 27 abroad (p = 0.004); the proposal's 8-platform comparison is the earlier version. Anything from the 24 Sep proposal, the September manuscripts or `main`'s routing documents is out of date.
 - **Two notes exist only on `main`:** `docs/MEASUREMENT_PROXY_FRAMEWORK_2026-09-23.md` and `docs/PAPER_COMPARISON_BASELINE_2026-09-23.md`. Both predate the 27 Sep proposal: the first is the "adequate proxy" framing of the 24 Sep lineage (superseded by the stand-in conditions in Part 2), the second ranks the researcher's wider set of papers. Neither is needed for the thesis; leave them on `main`.
 - **Do not run or trust the old generators** (`scripts/build_thesis_manuscript.py`, proposal surgery scripts). The thesis is written by hand in `papers/thesis_2026-10/`.
+- **Working with two sessions.** A cloud session works on its own branch (`claude/happy-pascal-uc2eya` this time), kept at the tip of the integrated branch. It sends changes back by pull request into the integrated branch when the researcher asks, never into `main`. Only one session edits the thesis files at a time; fetch before editing.
 - **First task:** section 6, step 1 (recheck section 1.2 of chapter 1), then chapters 3 and 4. Log each round of the researcher's feedback in `papers/thesis_2026-10/EDIT_HISTORY.md`.
 
 ## 12. Timeline
