@@ -16,11 +16,11 @@ Indonesia is one of the few markets where both kinds of evidence are available. 
 
 ## 1.1 Research question and objectives
 
-A large part of online commerce does not appear in the figures most often used to measure it. The broader aim of this thesis is to bring that activity into view: the sales that pass through platforms without appearing in their revenue, and the sellers that platform figures do not cover.
+This thesis sets out to show that most online commerce is missing from the platform figures used to value companies and to design tax rules, and to show where that missing commerce is.
 
-That aim cannot be reached directly. It first has to be established where the unmeasured activity lies, and when a figure fails to show it. This is the research question of the thesis: how much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth?
+For that, one question has to be answered: how much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth?
 
-The thesis answers the question in three steps. It measures how much a revenue-based figure leaves out. It tests whether platform revenue and the national count of sellers moved with the activity they are used to represent. It estimates how many sellers a rule based on platform records can reach.
+The thesis answers it in three steps. It measures how much a revenue-based figure leaves out. It tests whether platform revenue and the national count of sellers moved with the activity they are used to represent. It estimates how many sellers a rule based on platform records can reach.
 
 Three objectives follow. The first is to measure the invisible wedge across the platform histories available from 2020 to 2025. The second is to reconcile selected large movements with disclosed changes in monetization, customer incentives, revenue recognition and reporting scope. The third is to compare the platform evidence with national e-commerce and payment indicators, to test whether they give the same account of economic scale and growth.
 
