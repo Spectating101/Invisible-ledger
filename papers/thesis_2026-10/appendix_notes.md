@@ -109,8 +109,14 @@ The main test is in Table 5.2. This appendix lists each check with both p-values
 | Three marketplaces against the 8 chosen first, pair-level, absolute growth divergence in points (without Sea) | 38.917 | 4.192 | 0.0000 | 0.0083 |
 | Three marketplaces against the 8 chosen first, pair-level, absolute change in log take rate | 0.252 | 0.055 | 0.0037 | 0.0303 |
 | Three marketplaces against the 8 chosen first, pair-level, absolute change in log take rate (without Sea) | 0.252 | 0.033 | 0.0001 | 0.0167 |
+| Three marketplaces, dropping Tokopedia's 2022–23 comparison (5 pairs), absolute growth divergence in points | 14.411 | 7.105 | 0.0248 | 0.2222 |
+| Three marketplaces, dropping the largest comparison (7 pairs), absolute growth divergence in points | 15.738 | 7.105 | 0.0061 | 0.0606 |
+| Three marketplaces against all 40 foreign pairs, absolute growth divergence in points | 38.917 | 7.373 | 0.0014 | 0.0121 |
+| Five Indonesian and regional series including constructed Grab and Shopee (12 pairs) against the 8 chosen first, absolute growth divergence in points | 42.017 | 7.105 | 0.0006 | 0.0225 |
 | Tokopedia and GoTo on-demand as one company, 4 against 27 | | | 0.003 | 0.007 |
 | Quarterly pairs, 3 against 8 (same quarter a year earlier) | 0.071 | 0.049 | 0.19 | 0.33 |
+
+Growth in revenue and growth in transaction value had a correlation of 0.10 in the Indonesian main sample and 0.98 in the foreign sample excluding Sea (`tables/claims_ledger.csv`, C48 and C49).
 
 The quarterly sample is Grab on-demand, GoTo on-demand and Blibli against Sea, Airbnb, Booking, DoorDash, eBay, Etsy, Lyft and Uber. Airbnb and Booking use trailing four-quarter sums because they book revenue at check-in. DoorDash pairs ending in 2025Q4 or later are dropped because of an acquisition.
 
