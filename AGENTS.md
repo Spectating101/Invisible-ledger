@@ -11,7 +11,7 @@ Read these files before changing this repository:
 
 ## Thesis rewrite (October 2026): read this first when writing
 
-The thesis is being written in `papers/thesis_2026-10/`. Before drafting or revising any chapter, read that folder's `README.md` (how to continue, and the writing rules agreed with the researcher) and `EDIT_HISTORY.md` (every concern raised by the committee, the researcher and the reviews, with status). Voice: `research/option_space_2026-10-01/GOLDEN_PITCH.md`. Order of the story: `NARRATIVE_ARC.md` in the same folder. Licensed data are off the repository: `research/option_space_2026-10-01/LICENSED_DATA.md`. Work on branch `proposal/integrated-2026-09-16`.
+Start with `HANDOFF.md` at the repository root: the project's state, a map of the files, the next steps, the dates and the rules that must not be broken. The thesis is being written in `papers/thesis_2026-10/`. Before drafting or revising any chapter, read that folder's `README.md` (how to continue, and the writing rules agreed with the researcher) and `EDIT_HISTORY.md` (every concern raised by the committee, the researcher and the reviews, with status). Voice: `research/option_space_2026-10-01/GOLDEN_PITCH.md`. Order of the story: `NARRATIVE_ARC.md` in the same folder. Licensed data are off the repository: `research/option_space_2026-10-01/LICENSED_DATA.md`. Work on branch `proposal/integrated-2026-09-16`.
 
 ## Canonical proposal rule
 
