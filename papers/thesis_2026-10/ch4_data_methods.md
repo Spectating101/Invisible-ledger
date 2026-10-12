@@ -2,7 +2,7 @@
 
 Indonesia lets this thesis look at the same online economy from two sides. Platforms report what passes through them and what they keep. BPS, the national statistics office, asks the sellers themselves. This chapter describes the evidence on each side and the tests that use it. It starts with the platforms, where H1 is tested and revenue movements are traced. It then turns to the survey, where H2 and the entry test are examined. It ends with the comparisons and market values that bring the two sides together.
 
-## 4.1 Selecting the platform evidence
+## 4.1 Choosing the platforms
 
 The basic observation is one platform in one year, which this thesis calls a platform-year. Revenue and transaction value come from the company's own reports, and they refer to the same year and, as closely as the filings allow, the same business. Revenue is the amount in the financial statements. Transaction value is the figure the company discloses in its annual report or earnings release. Companies define it in different ways, and some include shipping charges, digital goods or travel. The thesis keeps each company's own definition and records it. A take rate is built inside one company, so the definition cancels out of its yearly changes unless the company changes it.
 
@@ -22,7 +22,7 @@ Table 4.1 states the scope of each series because the series differ. Only Tokope
 
 Three rules keep the pairs comparable. Two consecutive platform-years form a pair, and nothing else does. A missing year stays missing and is never filled in. Annual and quarterly pairs are never pooled. A take rate is a ratio of two amounts in one currency, so the tests need no exchange rate. Amounts in running text are in US dollars at the World Bank's average rate for the year. In the foreign group, a company that sells goods itself reports the whole sale as revenue, so its take rate says little about a platform. The thesis drops years in which own goods exceed half of revenue and marks years between a fifth and a half. The result is 15 pairs for the Indonesian and regional group and 158 for the foreign group.
 
-## 4.2 Comparing platform activity through time
+## 4.2 Testing H1 and tracing the moves
 
 H1 says that revenue and transaction value grow in proportion, which means that the take rate stays close to steady. The test asks how far each platform's take rate moves from one year to the next. For each pair of years it takes the change in the logarithm of the take rate. A log change treats a rise by some factor and a fall by the same factor as equal in size. It equals the log growth of revenue minus the log growth of transaction value. This is growth divergence measured in logs, and it does not depend on how fast transaction value grew. Tokopedia's log change in 2023 is 0.52, which is a rise by a factor of 1.68, or 68 percent.
 
@@ -32,11 +32,11 @@ The second objective asks where large movements in revenue came from, and the th
 
 The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia it also reports the change line by line in rupiah, which is the usual way to read accounts, and it says where the two views differ. Grab is read from its annual filings and GoTo from its audited statements. Blibli does not report incentives, so its split rests on a proxy built from its releases. Seven windows are traced, and Appendix A lists them. The thesis also records where accounting treatment or reporting scope matters, such as the deduction of incentives from revenue and the travel business inside Blibli's retail segment. Company explanations are read as reports and are not tested.
 
-## 4.3 Direct and constructed Indonesia measures
+## 4.3 Measuring the wedge in Indonesia
 
 The first objective needs a different set of amounts. It sums the transaction value and revenue of three major platforms in Indonesia in 2023: Tokopedia, Shopee and Grab. Not every company reports Indonesia on its own. Tokopedia reports both amounts for its segment. Shopee's transaction value is an outside estimate by Momentum Works. Its revenue assumes a take rate of 10 percent, which the thesis varies from 9 to 11 percent. Grab reports its Indonesian revenue, and the thesis derives its Indonesian transaction value from Grab's company-wide ratio of the two amounts. The wedge and the ecosystem ratio are then computed from the sums. The thesis drops each platform in turn, and it repeats the exercise for every platform-year between 2020 and 2025 that the filings allow.
 
-## 4.4 Evidence beyond platform accounts
+## 4.4 Evidence from the sellers
 
 The national evidence comes from the survey of online sellers that BPS runs. BPS publishes the number of businesses selling online, their total online sales and the shares by channel (BPS 2025). The survey rounds are named for the survey year, but their questions refer to the year before. The thesis names a file by its round and a year by the year of activity, so the file for the 2024 round describes 2023.
 
@@ -64,7 +64,7 @@ Three further analyses use the same files. The first asks which channels sellers
 
 The second analysis asks whether a seller keeps complete financial statements. This bears on what platform records can add, because a seller with no statements leaves fewer formal records. The third builds on the first two and is developed in Chapter 6. It counts the marketplace sellers whose revenue is above a bracket line and expresses the count as a share of all online sellers. At the 2022 rate, BPS's brackets divide at about US$20,000 a year. The marketplace tax exempts individual sellers up to about US$34,000. So the count above BPS's line is an upper limit on the sellers the tax can reach. World Bank Enterprise Surveys add a check on records. They cover unregistered firms in six Indonesian cities in 2023, and formal firms with five or more employees in seven countries.
 
-## 4.5 External evidence and comparisons
+## 4.5 Bringing the two sides together
 
 The third objective compares the platform evidence with national and payment figures. Table 4.3 lists the sources and what each one counts. The sources differ in what they cover, so the comparison follows three rules. It compares growth rates across sources and keeps each source in its own unit. It compares levels only after reconciling the definitions. And it compares sources most closely where their coverage overlaps. The 2023 file lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis also sets quarterly platform growth beside quarterly household spending growth. It treats payment figures as context, because they show how people pay and not what they buy online.
 
