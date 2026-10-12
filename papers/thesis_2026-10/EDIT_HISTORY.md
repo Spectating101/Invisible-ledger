@@ -93,3 +93,15 @@ Standing constraints set by the researcher: no contact with BPS by email; BPS mi
 **OPEN: section 1.1 should be brief yet impactful.** The researcher's concern, in their words: the research question and objectives "should be brief, yet impactful", "not much reading". Two fixes failed (a shorter section; bullet points). The five-paragraph prose version stands as "fine enough". To revisit: how to make each paragraph of 1.1 land quickly while staying standard prose. Candidates not yet tried: tighter sentences inside the same five paragraphs; moving the two-halves explanation to chapter 3; splitting the long ambition paragraph in two.
 
 **Also open in chapter 1:** the objectives keep the proposal's formal wording (the stiffest sentences in the section); citations not yet inserted; section 1.2 written before the ambition paragraph existed and not yet rechecked against it (the researcher is going through the introduction and 1.1 first and has not reached 1.2).
+
+### Chapter 3 (12 Oct 2026, evening)
+
+| Round | What was tried | Researcher's response | Outcome |
+|---|---|---|---|
+| 1 | First full draft, on the proposal's and deck's order (deck slides 8 and 9: question and hypotheses, then "revenue = share kept x transaction value", then why D and not E). Opens on the chain of stand-ins; terms in one table; the identity D = (1 + g(V)) x (m1 - m0) / m0 with the Tokopedia example (take rate +68%, transaction value -9%, revenue +53%, D = 62 points); the wedge's two jobs (it follows the commerce; its size next to revenue sets how far a take-rate change swings growth), with a 2% and 17% illustration; H1 and H2; the entry test as a test of what "more businesses" means; further analyses; tests table | Awaiting | Drafted. Checked against the writing rules before sending: no "therefore", "indicator" or "rather than"; no bare rupiah; no mention of the proposal; openers name their subject; prose sentences average 15 words, longest 29 (a figure placeholder). Numbers recomputed: 1.682 x 0.911 - 1 = 53.2%; D = 62.1; 27.4 / 127.4 = 21.5%; 1/0.02 = 50 and 1/0.17 = 5.9 |
+
+Choices made that the researcher may want to change:
+- H1 and H2 are stated in the plain wording already used in section 1.1, which keeps the meaning of the originals ("grow in proportion"; "comes mainly from more businesses selling online, and less from higher sales per business").
+- The 2% and 17% platforms are round numbers near the medians that chapter 5 reports (1.6% and 16.9%); they are labelled as an illustration, so the medians keep their home in chapter 5.
+- The Figure 3.1 placeholder stands for the three nested circles of the oral deck (slide 8); the figure is not yet drawn.
+- No citations yet (they are inserted after the chapters are written).

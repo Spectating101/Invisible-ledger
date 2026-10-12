@@ -32,4 +32,5 @@ The thesis written in full. Same title, research question, hypotheses and measur
 |---|---|---|
 | `ch1_introduction.md` | 1 Introduction | drafted 12 Oct on the proposal's and deck's flow (opening, 1.1 question and objectives, 1.2 contributions, 1.3 structure); open concern on 1.1 in `EDIT_HISTORY.md` |
 | `ch5_results.md` | 5 Results | early draft of 5.1-5.5 in the older report style; to be rewritten to the v3 structure (ten question sections, `research/option_space_2026-10-01/DRAFT_STORY_v2.md`) |
-| ch2-ch4, ch6, ch7 | | not started |
+| `ch3_framework.md` | 3 Framework and Hypotheses | first full draft 12 Oct (evening), awaiting the researcher's reading: the chain of stand-ins, terms box (Table 3.1), the measures and the identity, H1, H2, the entry test, further analyses, tests table (Table 3.2); Figure 3.1 still to be drawn |
+| ch2, ch4, ch6, ch7 | | not started |
