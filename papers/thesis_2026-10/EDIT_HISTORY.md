@@ -105,3 +105,18 @@ Choices made that the researcher may want to change:
 - The 2% and 17% platforms are round numbers near the medians that chapter 5 reports (1.6% and 16.9%); they are labelled as an illustration, so the medians keep their home in chapter 5.
 - The Figure 3.1 placeholder stands for the three nested circles of the oral deck (slide 8); the figure is not yet drawn.
 - No citations yet (they are inserted after the chapters are written).
+
+### Chapter 2 (12 Oct 2026, evening)
+
+| Round | What was tried | Researcher's response | Outcome |
+|---|---|---|---|
+| 1 | The researcher asked whether Chapter 2 was being left alone. It was not: it had been put last in the plan because of citation risk. Written now, on the proposal's four sections (2.1 to 2.4) as the spine, lightened. Added the survey-count strand that the entry test needs (survey breaks, recall, small-firm exit, margins). Ends on the three open questions and hands over to Chapter 3 | Awaiting | Drafted. Checked before sending: no "therefore", "indicator", "Overall" or "rather than"; no regulation numbers or dates; institutions named with context (OECD, UNCTAD); sentences average 16 words without citations; 40 citations, each traced to `REFERENCES_WORKING.md` and used within its use limit |
+
+Choices made that the researcher may want to change:
+- Dropped from the proposal's version: Medina and Schneider (2019) (reserve in the working list; the thesis makes no shadow-economy claim) and Momentum Works (a data source, cited in the data chapter).
+- Kept despite being marked "reserve" in the working list: Barrios et al. (2022) and Denes et al. (2025), both Journal of Financial Economics, because Prof. Kong asked for finance citations. Cut them if the gig-economy angle feels off-topic.
+- Added since the proposal: UNCTAD (2023, 2024), van den Brakel et al. (2008, 2020), Neter and Waksberg (1964), McKenzie and Paffhausen (2019), Bowen, Davis and Rajgopal (2002), Trueman, Wong and Zhang (2000), Brockmeyer and Hernandez (2016).
+- Use limits respected: Hagiu and Wright is cited for platform versus reseller models, not for the IFRS principal and agent test; Givoly et al. for a general principle; Hummels and Klenow as trade terms; the OECD handbook and Ahmad and Schreyer for the separation of a platform's service from the sale, with no claim that GDP counts only platform revenue.
+- Still open before submission (from the working list): check every citation against what the work supports, format to the YZU style, build the bibliography.
+
+Accuracy fix in Chapter 3 made in the same round: the terms table no longer says accounting rules always deduct incentives from revenue (IFRS 15 has an exception for payments for distinct goods or services). It now says "normally", and that Tokopedia reports the deduction as a separate line.

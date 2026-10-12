@@ -15,9 +15,9 @@ Table 3.1 lists the terms used throughout the thesis, each defined once, with th
 | Term | Symbol | Meaning |
 |---|---|---|
 | Transaction value | V | Everything bought through a platform in a period. Companies call it GMV, GTV or TPV; the thesis treats these as one measure and notes where a company's scope differs. |
-| Revenue | R | What the platform recognizes as its own income, after the discounts and incentives it pays to customers are deducted. |
+| Revenue | R | What the platform recognizes as its own income in its accounts. |
 | Take rate | m | Revenue divided by transaction value: the share of each sale that the platform keeps. |
-| Customer incentives | | Discounts, vouchers and other promotions that a platform pays for. Accounting rules deduct them from revenue. |
+| Customer incentives | | Discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line. |
 | Invisible wedge | W | Transaction value minus revenue: what a revenue figure leaves out. It is defined for one platform; no national total is computed. |
 | Ecosystem ratio | E | The wedge divided by revenue. It equals one divided by the take rate, minus one. This is the author's own measure, built for this thesis. |
 | Growth | g | The percentage change from one year to the next. |
