@@ -16,7 +16,7 @@ Indonesia is one of the few markets where both kinds of evidence are available. 
 
 ## 1.1 Research question and objectives
 
-This thesis sets out to show that most online commerce is missing from the platform figures used to value companies and to design tax rules, and to show where that missing commerce is. The ambition is to replace a partial picture with a fuller one: what passes through platforms beyond their revenue, and who sells online beyond the platforms. A fuller picture changes what these figures can be used for. It tells an investor what a platform's growth consists of, a statistics office what its count of sellers contains, and a government whom its rules reach.
+This thesis sets out to change how the digital economy is measured. Most online commerce is missing from the platform figures on which companies are valued and sellers are taxed, and millions of the people who sell online are outside those figures altogether. Decisions worth trillions of dollars rest on numbers that show a fraction of the activity they are taken to describe. The ambition of this thesis is to bring the rest into view: to show how much of the online economy the current figures miss, where it is, and who is in it.
 
 For that, one question has to be answered: how much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth? The question has two halves. The first concerns size, which is how much of the activity lies outside the figure. The second concerns growth, which is whether the figure still moves with the activity once prices or coverage change. A large gap would matter less if it stayed in proportion; the second half asks whether it did.
 
