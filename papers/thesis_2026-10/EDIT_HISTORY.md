@@ -175,3 +175,25 @@ Obligations checked against the promises in 1.3, 3.2, 3.3, 3.4 and 3.5: both H1 
 Checks: banned words none; no sentence over 33 words (two between 30 and 33 were split); every number traced to the table or script named above (pair counts, 21.5 and 23.9 percent thresholds, weights, 9,999 shuffles, 0.52 log change = 68 percent, Rp783 trillion about US$53 billion at the 2022 World Bank rate).
 
 Decisions for the researcher: (1) section 4.7 (market values) is outside what Chapters 1 and 3 promise; keep it with one added clause in 3.4, or cut it. (2) Length: Chapter 4 is longer than Chapter 3 by about 1,900 words; trimming candidates are 4.5 (World Bank paragraph) and the fourth H1 check in 4.2. (3) Spin-off tests, listing timing and the market-income pattern are left out, as the cut list puts them in reserve.
+
+### Chapter 5 first draft and a linear read of Chapters 4 and 5 (13 Oct 2026)
+
+`ch5_results.md` was replaced by a new draft (the older report-style draft stays in git history). It follows the story order of `DRAFT_STORY_v2.md` as eleven sections, with thesis prose instead of labelled beats: 5.1 wedge (Table 5.1), 5.2 H1 (Table 5.2), 5.3 tracing (Table 5.3), 5.4 market values, 5.5 the platforms in 2023 (Table 5.4), 5.6 what sellers reported, 5.7 count and entry test (Table 5.5), 5.8 who the extra sellers were (Table 5.6), 5.9 returners, 5.10 channels and records (Table 5.7), 5.11 why the national figures disagree. The 2026 rules and tax reach go to Chapter 6. Each result is marked registered or exploratory; every number comes from FINDINGS.md, Parts 3 to 6, the committed tables or `PREREGISTRATION.md`.
+
+The linear read (sentence, paragraph, section, in order; then against Chapters 1, 3 and 4) found these, all fixed:
+
+| Where | Problem | Fix |
+|---|---|---|
+| 5.1 | "the three largest platforms" is not shown; a summed wedge sat against Chapter 3's "defined for one platform"; "does not depend on the assumptions" overclaimed; the "three quarters" sentence was unclear | "three major platforms", "the sum of their invisible wedges", "changes little", sentence rewritten |
+| 5.2 | the 5-v-27 test is not registered but read as if it were; the quarterly sentence contradicted itself on dates; "points of transaction value" confused | stated as not registered; dates fixed; "percentage points of the take rate" |
+| 5.3 | "the other part" vague; Grab 2022-23 looked like an eighth window; no "so what" | volume part named; wording tied to the take-rate rise; closing sentence added |
+| 5.4 | "second prediction" had no first | both predictions stated; handover to 5.5 added |
+| 5.6 | marketplace-slice sentence belonged to 5.11; no handover | moved to 5.11; handover to 5.7 |
+| 5.7 | bullet list in running text; "fourth check" appeared after three unlabelled ones; "cohorts" and "the count" confused; 5.8/5.9 order in the handover | prose; the four checks named in order; handover names both sections |
+| 5.8 | inferred education codes mentioned (a limit) | removed; goes to Chapter 7 |
+| 5.9 | the cited study is about exit, not restart | wording changed to exit |
+| 5.10 | records paragraph contradicted itself on coverage; E7 prediction not stated | rewritten with the prediction and the 5.8-point fall |
+| 5.11 | one 130-word paragraph; "4.4 times smaller" | split; "less than a quarter" |
+| ch4 | no mention of the points comparison, the monthly-versus-annual reading or the overshoot rule, all used in Chapter 5; "earlier foreign platforms" and "first benchmark" both used; "the table says so" unclear | all added or unified |
+
+Decisions for the researcher: (1) 5.2 says plainly that the larger H1 test is not registered. (2) Chapter 7 must carry: inferred education codes in the 2023 file, the 19 sample rows in the top bracket, Bank Indonesia's method not public, the exploratory status of the 2023 accounting. (3) Figures: six exhibits exist (`exhibits/v2`) and none is placed.
