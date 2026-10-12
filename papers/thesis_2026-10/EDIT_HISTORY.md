@@ -197,3 +197,30 @@ The linear read (sentence, paragraph, section, in order; then against Chapters 1
 | ch4 | no mention of the points comparison, the monthly-versus-annual reading or the overshoot rule, all used in Chapter 5; "earlier foreign platforms" and "first benchmark" both used; "the table says so" unclear | all added or unified |
 
 Decisions for the researcher: (1) 5.2 says plainly that the larger H1 test is not registered. (2) Chapter 7 must carry: inferred education codes in the 2023 file, the 19 sample rows in the top bracket, Bank Indonesia's method not public, the exploratory status of the 2023 accounting. (3) Figures: six exhibits exist (`exhibits/v2`) and none is placed.
+
+### Cleanup of Chapters 4 and 5 after an independent audit (13 Oct 2026)
+
+Why: the researcher asked for both chapters to reach Chapter 1's standard with no open problems. A fresh agent that had not seen my conclusions audited every number and claim in both chapters against the repository sources (53 findings; 13 categories of items verified clean, including all table cells in 5.2, 5.3, 5.4, 5.6 and 5.7). I checked its main claims against the sources myself (Shopee's transaction value is a Momentum Works estimate; GoTo's 2022 transaction value is an estimate; the 0.16 to 0.68 range is the final-consumer slice; Blibli's incentives are a proxy; the Tokopedia 60.6 percent and the per-unit split disagree) and all held.
+
+Substantive fixes:
+| Where | Problem | Fix |
+|---|---|---|
+| 5.3 | Table 5.3 said Tokopedia was incentive-led while the text counted it as fee-led; the repo's two Tokopedia splits (60 percent from lower incentives by account lines; fees larger per unit of transaction value) disagree | One table of all seven windows on the per-unit basis; both Tokopedia views stated; "both agree on pricing, differ on which lever" |
+| 5.1 | Table 5.1 labelled Shopee and Grab as the author's derived estimates; Shopee's value is Momentum Works; Grab's revenue is a direct country disclosure; 15.92 should be 15.93; "three quarters to four fifths" understated 84 percent | Labels, figure and range fixed; Sea's 11.5 percent rate added to the sensitivity |
+| 5.11 | The 0.16 to 0.68 band was called the whole marketplace slice | Now the final-consumer slice, with low, middle and high (0.16, 0.68, 1.62); 0 to 13 percent growth range corrected to 0.2 to 13.2 |
+| 5.7 | Table 5.5 mixed two exit scenarios; "published rise" was the weighted-file gap (819 vs 821 published); two different "caps"; US$ conversion broke the one-currency rule | Two-column table, labelled; 15.5 percent explained; US$53 to US$72 billion |
+| 4.1, 5.2 | GoTo on-demand 2022 value is an estimate and the segment includes Vietnam to 2024; Grab is regional; Ozon's pair rule | Stated in Table 4.1 and under Tables 5.3, 5.4; the group is named "Indonesian and regional"; pair rule fixed |
+| 5.2 | Table 5.2 mixed Mann-Whitney and shuffle p-values without saying so; "the reason is the slice" too strong | Method column; "most of the difference comes from the slice" |
+| 5.10 | World Bank mean-sales failure (W3) omitted; second E7 version omitted; question-wording change and stable-coverage statements stated as fact; validation outcome never reported | All added or hedged |
+| 4 and 5 | Method statements missing from Chapter 4 for Objective 1, the quarterly sample, the value side, the profile control, part-year selling, the returners scenario | Added to 4.1, 4.2 and 4.4 |
+| labels | Several sections had no status label; "registered" list incomplete | Every section now marked registered, exploratory or descriptive |
+
+Also fixed: terms (incentives, platform-year, file versus survey year), the p-value and rank correlation defined at first use, rupiah removed from the narrative, sentences over 26 words split, "therefore" removed.
+
+Open for the researcher (these touch other chapters, so nothing was changed there):
+1. **Chapter 1, paragraph 4:** "about 60 percent of the rise in revenue reflected smaller discounts and incentives" is the account-lines view. Per unit of transaction value, higher fees account for more. Proposed: "…about 60 percent of the extra net revenue came from smaller discounts and incentives, counting the lines of its accounts."
+2. **Chapter 1, "In brief":** "the official count of online sellers also overstated growth" is stronger than Chapter 5, which cannot separate wider coverage from returning sellers. Proposed: "the growth in the count of online sellers is only partly explained by first-time entry."
+3. **Chapter 3, 3.2:** H1 is "tested by asking whether growth divergence … is unusually large". The main test uses the log form. Proposed: add "measured in logs" and note the points form is a check.
+4. **Chapter 7 must carry:** inferred education codes (2023 file); 19 sample rows in the top bracket; Bank Indonesia's method; the exploratory status of the 2023 accounting; the month question changing format; Grab's two vintages; the one-sided tests.
+5. **Appendix still to build:** platform list; seven windows with the Blibli proxy; wedge by platform and year; registered tests with dates; World Bank description.
+6. **Length:** Chapter 4 is now about 3,900 words and Chapter 5 about 4,200 including tables. Cut candidates are 4.5 (World Bank), 5.7's value paragraph, and the Table 5.2 narrower-test rows.
