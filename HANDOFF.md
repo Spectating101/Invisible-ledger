@@ -2,6 +2,25 @@
 
 For any agent or person taking over. Read this file, then the two files it points to in section 3, before changing anything.
 
+## 0. Catch up fast
+
+**Ten-minute path.** (1) This file, sections 0 to 4. (2) `papers/thesis_2026-10/README.md`, the "How to continue" and "Writing rules" parts. (3) `papers/thesis_2026-10/EDIT_HISTORY.md`, Part A (the committee) and Part D (what was tried on chapter 1). (4) `papers/thesis_2026-10/ch1_introduction.md`, to hear the agreed voice. Then start on section 6.
+
+**One-paragraph state.** The proposal passed on 1 October. In the following eleven days the research was finished: the BPS survey files were bought and analysed, the foreign comparison grew from 8 to 27 platforms, a market test was run, and the story was settled. Since 12 October the work is **writing the thesis**, by hand, in `papers/thesis_2026-10/`. Chapter 1 is drafted. Nothing else about the research is open.
+
+**Things in this repository that will mislead you.**
+
+| Stale item | Why it misleads | Use instead |
+|---|---|---|
+| Branch `main` | Stops on 1 October; its routing documents are out of date | `proposal/integrated-2026-09-16` |
+| September manuscripts (`papers/current/archive/manuscripts_2026-09/`) and `scripts/build_thesis_manuscript.py` | Four hypotheses, older numbers, generated text | `papers/thesis_2026-10/` |
+| The 24 September proposal | Has H3 and H4 and a different abstract | The 27 September PDF (H1 and H2 only) |
+| "6 of 8 comparisons", "8 platforms abroad", p = 0.002 | True for the proposal's main sample, but no longer the main H1 result | 5 Indonesian and regional platforms vs 27 abroad, p = 0.004 |
+| Chart `exhibits/1_inside_the_app.png` ("the cut swings about 3x more") | Reads as larger price changes; that reading was corrected | `exhibits/v2/1_thin_slice.png` |
+| `papers/thesis_2026-10/ch5_results.md` | An early draft in a report style the researcher rejected | Rewrite from `DRAFT_STORY_v2.md` under the writing rules |
+| `DRAFT_STORY_v1.md`, `DRAFT_STORY_v2.md` | Story drafts; v2 has labelled steps and is scaffolding | Content source only, never pasted as thesis text |
+| `research/option_space_2026-10-01/archive/` | The old options map | Parts 1-7 and `FINDINGS.md` |
+
 ## 1. What this project is
 
 A master's thesis (MSc Finance, Yuan Ze University) by Christopher Ongko. Advisor: Prof. De-Rong Kong. Examiner: Prof. Thomas. Title: *The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia's Platform Economy*.
@@ -107,4 +126,66 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - **Two notes exist only on `main`:** `docs/MEASUREMENT_PROXY_FRAMEWORK_2026-09-23.md` and `docs/PAPER_COMPARISON_BASELINE_2026-09-23.md`. Both predate the 27 Sep proposal: the first is the "adequate proxy" framing of the 24 Sep lineage (superseded by the stand-in conditions in Part 2), the second ranks the researcher's wider set of papers. Neither is needed for the thesis; leave them on `main`.
 - **Do not run or trust the old generators** (`scripts/build_thesis_manuscript.py`, proposal surgery scripts). The thesis is written by hand in `papers/thesis_2026-10/`.
 - **First task:** section 6, step 1 (recheck section 1.2 of chapter 1), then chapters 3 and 4. Log each round of the researcher's feedback in `papers/thesis_2026-10/EDIT_HISTORY.md`.
+
+## 12. Timeline
+
+Entries before October come from the repository history and file metadata, as reconstructed by a cloud session on 12 October.
+
+| When | What happened |
+|---|---|
+| Dec 2025 to Jan 2026 | Origin of the idea; an early paper with large wedge and GDP claims, later withdrawn. An abstract was accepted at the National Tax Association conference (not attended) |
+| Aug to early Sep 2026 | Prof. Kong marked up two drafts (about 20 comments each); on 8 Sep the scope was reset to Indonesia |
+| 9 to 17 Sep | Evidence backend and results ledger built; proposal rebuilt several times |
+| 21 to 24 Sep | The 24 September proposal (with H3 and H4), later superseded |
+| 27 Sep | **The active proposal** (H1 and H2 only) |
+| 1 Oct | Proposal oral passed. Prof. Thomas and Prof. Kong raised the points in `EDIT_HISTORY.md` Part A. PR #9 merged into `main` |
+| 1 to 4 Oct | Quarterly data, tests registered before the data, World Bank tests, the 27-platform comparison |
+| 2 Oct | The BPS tests (including the entry test) registered, before the files were opened |
+| 6 to 7 Oct | BPS survey files bought and analysed; results committed on 7 Oct |
+| 8 Oct | Groundwork Parts 1-7 frozen at version 4; first independent review adopted; market test; golden pitch frozen |
+| 9 Oct | Narrative arc frozen; seller profile; returning-seller check; thin-slice check; progress deck built |
+| 10 Oct | Claim repairs after the second independent review |
+| 12 Oct | Prof. Kong's message; thesis rewrite started; chapter 1 went through about 14 rounds; this handoff written |
+
+## 13. Numbers at a glance
+
+Exact values for tables and notes; the running text uses rounded figures. Source for all: `FINDINGS.md` and the Part files, unless a script is named.
+
+| Topic | Numbers |
+|---|---|
+| Invisible wedge, 2023, three platforms | Transaction value US$43.23bn, revenue US$3.16bn, wedge US$40.07bn, ecosystem ratio 12.7; revenue about 7% of transaction value |
+| Platforms' share of online sales (BPS survey) | 16-26% |
+| H1 | 5 vs 27 platforms; yearly change in the take rate 0.20 vs 0.06 (log points), p = 0.004; leave-one-out worst p = 0.016; growth divergence 27.0 vs 6.5 points, p = 0.005; main sample alone p = 0.06 (a different test); quarterly version fails, p = 0.19 |
+| Thin slice (exploratory) | Take rate 1.6% vs 16.9% (medians); yearly change about 1.0 point in both (p = 0.65); D = (1 + gV)(m1 - m0)/m0 |
+| What moved revenue | Take rate was 66.5% of the movement in Indonesia vs 26.7% abroad (share of absolute log components) |
+| Tokopedia 2022-23 | Transaction value -8.9%, revenue +53.2%; lower incentives explain 60.6% of the rise |
+| Market test | 28 firms, 138 firm-years; b = 0.60, p = 0.002 for transaction value; second prediction not supported (b = 0.33, p = 0.20) |
+| 2023 headline figures | BPS online sales +40.6%, online sellers +27.4% (about 819,000); Bank Indonesia -4.7%; household spending +9.4%; 5 of 6 measures of buying through platforms below household spending |
+| Sellers' answers, 2023 | 24% up, 44% same, 32% down; "lack of demand" 41% (35% in 2022) |
+| Entry test (registered) | Needed 21.5% starting in 2023; observed 13.45%; 513,000 first-time sellers; 37-56% of the rise not first-time entry; 4.6 standard errors in a sampling-error check (2.3 at twice the error) |
+| Who the extra sellers were (exploratory) | Opened before 2010: 41% vs 18%; owner 50+: 41% vs 29%; outside Java: 36% vs 24%; food or making goods: 53% vs 39% |
+| Returning-seller check (exploratory) | Part-year selling among sellers who started by 2021: 472,000 to 318,000 |
+| Tax reach | About 5% of online sellers taxable (upper bound), holding 17-24% of online sales; marketplace sellers 17.8% of sellers; 13.5% of the rest want to join a marketplace |
+| Size of the market, 2024 | BPS Rp1,289tn; Bank Indonesia Rp487tn; tax at 0.5% on Rp204tn to Rp983tn gives Rp1.0-4.9tn |
+| Global | Business e-commerce sales almost US$27 trillion in 2022, 43 economies (UNCTAD 2024) |
+
+## 14. Codes and names you will meet
+
+| Code or name | Meaning |
+|---|---|
+| V, R, m, W, E, D | Transaction value; revenue; take rate (R/V); invisible wedge (V - R); ecosystem ratio (W/R); growth divergence (growth of R minus growth of V) |
+| E1 to E8 | Tests on the BPS survey files, registered 2 Oct. **E5 is the entry test**; E6 concerns sellers already in business |
+| M1, M2 | The market-value tests (M2 held, M1 did not) |
+| Q1 | H1 with quarterly data (did not hold) |
+| W1-W3, F1-F3 | World Bank survey tests (informal and formal firms) |
+| S1-S3 | Spin-off tests across other countries (S1 and S2 did not hold: the pattern is not universal) |
+| P1-P5, R1-R3 | Predictions for the third-quarter 2026 results, scored on the dates in section 7 |
+| "Version 4" | The current state of the frozen groundwork Parts 1-7 (tag `parts-1-7-v4-frozen-2026-10-08`), plus dated notes |
+| BPS; BI | Indonesia's statistics office; Bank Indonesia (the central bank) |
+| SILASTIK; SPPD | BPS's data service; the signed data-use statement for the survey files |
+| PMK 37/2025; Permendag 31/2023; Permendag 19/2026; Perpres 27/2026 | The marketplace tax; the 2023 ban on transactions in social media apps; the 2026 trade rule limiting discounts; the ride-hailing commission cap (text not published, cited as announced) |
+
+## 15. What Prof. Kong asks for, from her markups
+
+Define every term at first use; use one term and one currency throughout; explain every table in the text; state each sample's scope; say plainly which measures are the author's own (the ecosystem ratio is); and above all make it easier to read. These matter most in chapters 3 and 4.
 
