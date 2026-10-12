@@ -12,5 +12,6 @@ The thesis written in full. Same title, research question, hypotheses and measur
 
 | File | Chapter | Status |
 |---|---|---|
-| `ch5_results.md` | 5 Results | 5.1-5.5 drafted 12 Oct (foundation and 2023); 5.6 onward after the advisor's reply on H2 |
-| ch1-ch4, ch6, ch7 | | not started |
+| `ch1_introduction.md` | 1 Introduction | v3 draft, 12 Oct (sections 1.1-1.6; arc parts A and A-B) |
+| `ch5_results.md` | 5 Results | early draft of 5.1-5.5 in the older report style; to be rewritten to the v3 structure (ten question sections, `research/option_space_2026-10-01/DRAFT_STORY_v2.md`) |
+| ch2-ch4, ch6, ch7 | | not started |
