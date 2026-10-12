@@ -35,7 +35,7 @@ On 12 October the advisor wrote: focus on the issues she and Prof. Thomas raised
 |---|---|
 | Research and evidence | **Complete.** Every number is rebuilt by `research/option_space_2026-10-01/rebuild_all.sh` (272 ledger checks pass). No further analysis is planned. |
 | Story | **Settled.** Golden pitch and five-part arc frozen (tags `golden-pitch-2026-10-08`, `narrative-arc-2026-10-09`). |
-| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds. Chapter 5 has an older draft to be rewritten. Chapters 2, 3, 4, 6, 7 not started. |
+| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds (introduction and 1.1 reviewed; 1.2 and 1.3 next). Chapter 3 has a first full draft (12 Oct, evening), awaiting the researcher's reading. Chapter 5 has an older draft to be rewritten. Chapters 2, 4, 6, 7 not started. |
 | Advisor | Progress deck and data package ready (`papers/IL_Advisor_Package_2026-10-12.zip`); the researcher uploads it. The advisor has **not yet seen** the change in what H2 means. |
 | Branch | All work is on `proposal/integrated-2026-09-16`, about 140 commits ahead of `main`. **`main` is stale** (it stops on 1 Oct, when PR #9 merged). |
 
@@ -78,7 +78,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 ## 6. Next steps, in order
 
 1. Recheck section 1.2 (contributions) of chapter 1 against the ambition paragraph in 1.1.
-2. Write chapter 3 (terms in one box, the growth formula, H1, H2, the entry test) and chapter 4 (data and tests).
+2. Chapter 3 (terms in one box, the growth formula, H1, H2, the entry test) has a first draft in `papers/thesis_2026-10/ch3_framework.md`; revise it from the researcher's reading, then write chapter 4 (data and tests).
 3. Rewrite chapter 5 as ten sections, each answering one question, using `DRAFT_STORY_v2.md` for content and the writing rules for form.
 4. Write chapters 2, 6 and 7. Chapter 6 waits for the scheduled results below.
 5. Insert citations; format to the YZU template (the researcher obtains it).
