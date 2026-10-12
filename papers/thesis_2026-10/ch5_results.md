@@ -15,13 +15,13 @@ In 2023, three major platforms in Indonesia carried US$43.2 billion of transacti
 | Grab, Indonesia | 5.38 | 0.61 | 4.78 | Derived |
 | Total | 43.23 | 3.16 | 40.07 | |
 
-The size of the wedge changes little with the assumptions. Assume instead that Shopee keeps 9 or 11 percent, and the total wedge stays between US$39.9 billion and US$40.3 billion. Drop any one platform, and the wedge is still at least US$20.7 billion. For the platforms that report both amounts directly, the wedge is 97 to 99 percent of transaction value in every year. It moves almost one for one with transaction value. The appendix gives the wedge for each platform and year from 2020 to 2025.
+The size of the wedge changes little with the assumptions. Assume instead that Shopee keeps 9 or 11 percent, and the total wedge stays between US$39.9 billion and US$40.3 billion. Drop any one platform, and the wedge is still at least US$20.7 billion. For the platforms that report both amounts directly, the wedge is 97 to 99 percent of transaction value in every year. It moves almost one for one with transaction value. The appendix gives the wedge for each platform and each year available between 2020 and 2025.
 
-The platforms are only part of online selling. In the BPS survey, the marketplace channel carries about a fifth of online sales value: between 16 and 26 percent, depending on the year and the scenario. BPS counts food and ride apps in this channel. So a measure built on platforms misses about three quarters of online sales value. Revenue, a few percent of what the platforms carry, shows much less still.
+The platforms are only part of online selling. In the BPS survey, the marketplace channel carries about a fifth of online sales value: between 16 and 26 percent, depending on the year and the scenario. BPS counts food and ride apps in this channel. So a measure built on platforms misses between three quarters and four fifths of online sales value. Revenue, which is about 7 percent of what the platforms carry, shows much less still.
 
 ## 5.2 Do revenue and transaction value grow together?
 
-H1 is rejected. In Indonesia, revenue did not grow in proportion to transaction value. Table 5.2 gives the tests, which compare five Indonesian platforms with 27 foreign ones. The typical Indonesian platform changed its take rate by about 22 percent in a year, up or down. The typical foreign platform changed it by about 6 percent. The difference is about threefold. The first version of the test used only the three marketplaces. The larger groups were set up after that result was known, so this is not a registered test.
+H1 is rejected. In Indonesia, revenue did not grow in proportion to transaction value. Table 5.2 gives the tests, which compare five Indonesian platforms with 27 foreign ones. The typical Indonesian platform changed its take rate by about 20 percent in a year, up or down. The typical foreign platform changed it by about 6 percent. The difference is about threefold. The first version of the test used only the three marketplaces. The larger groups were set up after that result was known, so this is not a registered test.
 
 **Table 5.2. The test of H1**
 
@@ -44,22 +44,31 @@ The reason for the threefold difference is the size of the slice. This part is e
 
 ## 5.3 Why the take rate moved
 
-Revenue moved mainly because platforms changed what they keep. Two results show this. First, the thesis divides each movement in revenue into volume and take rate, as section 4.3 describes. For the three Indonesian marketplaces, the take rate accounts for two thirds of the movement at the median (66.5 percent). For the eight platforms of the first foreign benchmark, it accounts for about a quarter (26.7 percent). The wedge follows the volume part. About 96 percent of each change in the wedge comes from the change in transaction value, in both groups. Second, Table 5.3 traces the large moves to fees and discounts.
+Revenue moved mainly because platforms changed what they keep. Two results show this. First, the thesis divides each movement in revenue into volume and take rate, as section 4.3 describes. For the three Indonesian marketplaces, the take rate accounts for two thirds of the movement at the median (66.5 percent). For the eight platforms of the first foreign benchmark, it accounts for about a quarter (26.7 percent). The wedge follows the volume part. About 96 percent of each change in the wedge comes from the change in transaction value, in both groups.
 
-**Table 5.3. What moved revenue in four Indonesian windows**
+Second, Table 5.3 splits the growth of revenue into three parts: more commerce, higher fees and smaller discounts. Fees and discounts are measured per unit of transaction value. A negative share means that the part pulled revenue down. Windows of one platform overlap, so the seven windows are not seven independent cases.
 
-| Platform and window | Change in revenue | Main source of the rise |
-|---|---|---|
-| Tokopedia, 2022–23 | +53% (transaction value −9%) | Lower incentives, 60% of the extra revenue; higher fees, 40% |
-| Blibli third-party retail, 2022–23 | +465% | Lower incentives, 63%; part of the rest is a shift toward travel |
-| Grab on-demand, 2021–24 | +321% | About one third each from volume, fees and lower incentives |
-| GoTo on-demand, 2023–25 | +114% | Lower incentives, 67%; volume, 27% |
+**Table 5.3. What moved revenue in seven Indonesian windows (share of the growth of revenue, percent)**
 
-Table 5.3 lists four of the seven windows traced. In Tokopedia's accounts, the discounts it pays for are deducted from revenue. They fell by about one third in 2023. Revenue rose by 53 percent while the commerce it carried shrank. Across the seven windows, lower incentives were the larger part in four and higher fees in two. In the seventh, the parts were about equal. Grab's take rate rose by 3.9 points in 2022–23, and 3.5 of them came from pricing within rides and deliveries. For Bukalapak, the reports do not allow the parts to be separated. So in 2022 to 2024, revenue was not a fair guide to the commerce Indonesian platforms carried. The take rate moved a lot, mostly through smaller discounts and higher fees.
+| Platform and window | Growth of revenue | More commerce | Higher fees | Smaller discounts |
+|---|---|---|---|---|
+| Tokopedia, 2022–23 | +53% | −22 | 77 | 45 |
+| Blibli third-party retail, 2022–23 | +465% | 17 | 20 | 63 |
+| Blibli third-party retail, 2022–25 | +679% | 18 | 63 | 20 |
+| Grab on-demand, 2021–24 | +321% | 34 | 34 | 33 |
+| Grab on-demand, 2022–24 | +86% | 43 | 11 | 47 |
+| GoTo on-demand, 2022–25 | +111% | 12 | 36 | 52 |
+| GoTo on-demand, 2023–25 | +114% | 27 | 6 | 67 |
+
+Table 5.3 gives rounded shares, so a row can add to 101. Smaller discounts were the larger of the two take-rate parts in four windows, and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were equal. Blibli's releases credit part of its 2022–23 rise to travel and digital products inside the segment, so some of its fee and discount shares reflect a change in mix, which the reports do not let us separate. For Bukalapak, the reports do not allow the parts to be separated.
+
+Tokopedia needs two views. Its incentives, which its accounts deduct from revenue, fell by about one third in 2023, while its transaction value fell by 9 percent and its revenue rose by 53 percent. Counting the lines of its accounts, 60 percent of the extra net revenue came from lower incentives and 40 percent from higher gross fees. That count leaves the fall in volume inside both lines. Table 5.3 takes it out and compares fees and discounts per unit of transaction value. On that basis, higher fees account for more of the rise in the take rate than smaller discounts. Both views agree that the rise came from pricing, and not from more commerce.
+
+Grab's take rate rose by 3.9 points in 2022–23, and 3.5 of them came from pricing within rides and deliveries. Across the windows, then, revenue in 2022 to 2024 was not a fair guide to the commerce Indonesian platforms carried. The take rate moved a lot, mostly through smaller discounts and higher fees.
 
 ## 5.4 What markets valued
 
-The market-value results are registered. Across 28 listed platforms and 138 platform-years, market value moved with growth in transaction value. That was the first prediction. A 1 percent rise in transaction value goes with a 0.6 percent rise in market value, with a p-value of 0.002. The second prediction was that markets value growth from a higher take rate less. It did not hold. A 1 percent rise in the take rate goes with a rise of only 0.3 percent, but the difference between the two is not significant (p = 0.20). It becomes significant only when segment series are added, and the thesis does not rely on that run. Both results are associations. Market value also changes when a company issues shares, so neither is a stock return. Market value thus moved with the buying underneath revenue, and the next section asks what that buying did in 2023.
+The market-value results are registered. One prediction was that market value moves with transaction value. It held. Across 28 listed platforms and 138 platform-years, a 1 percent rise in transaction value goes with a 0.6 percent rise in market value, with a p-value of 0.002. The other prediction was that markets value growth from a higher take rate less than growth in transaction value. It did not hold. A 1 percent rise in the take rate goes with a rise of only 0.3 percent, but the difference between the two is not significant (p = 0.20). It becomes significant only when segment series are added, and the thesis does not rely on that run. Both results are associations. Market value also changes when a company issues shares, so neither is a stock return. Market value thus moved with the buying underneath revenue, and the next section asks what that buying did in 2023.
 
 ## 5.5 The platforms in 2023
 
@@ -73,7 +82,7 @@ Buying through platforms did not boom in 2023. Table 5.4 sets the Indonesian mea
 | Tokopedia transaction value | −8.9 | Rupiah |
 | GoTo on-demand transaction value | −10.5 | Rupiah |
 | Bank Indonesia e-commerce | −4.7 | Rupiah |
-| Momentum Works marketplace estimate | +3.5 | Estimate |
+| Momentum Works marketplace estimate | +3.5 | Outside estimate |
 | Bukalapak transaction value | +6.9 | Rupiah |
 | Blibli third-party retail transaction value | +34.7 | Rupiah |
 | Tokopedia revenue | +53.2 | Rupiah |
@@ -119,16 +128,16 @@ The comparison of who the extra sellers were is exploratory. The surveys do not 
 
 | Group | Share of the 2022 count | Share of the extra count |
 |---|---|---|
-| Business opened before 2010 | 18 | 41 |
-| Owner aged 50 or over | 29 | 41 |
-| Outside Java | 24 | 36 |
-| Food, drink or making goods | 39 | 53 |
+| Business opened before 2010 | 18.3 | 40.5 |
+| Owner aged 50 or over | 28.9 | 41.2 |
+| Outside Java | 23.6 | 36.3 |
+| Food and lodging, or making goods | 38.5 | 53.0 |
 
 The extra count leaned toward long-running small businesses, older owners and places outside Java. The lean toward men in the raw data disappears once normal change is taken out. The extra count does not look like the young start-ups of the usual growth story. It raises one question: could these be established sellers who paused and came back?
 
 ## 5.9 Could they be sellers who returned?
 
-A seller returning from a break usually sells for part of the year. Part-year selling fell in 2023. Among sellers who began by 2021, the number selling for part of the year fell from 472 thousand to 318 thousand. It fell in every start-year group. Small firms that stop are more often young, with young owners (McKenzie and Paffhausen 2019). If returners were mostly such firms, the extra count would lean young. It leaned old. Returners equal to 10 to 15 percent of the 2022 count would remove the unexplained part. This is a scenario, not an estimate. The check cannot rule out returners: the files carry no linked histories, and exits or a move to full-year selling could offset them.
+A seller returning from a break would usually sell for only part of the year. Part-year selling fell in 2023. Among sellers who began by 2021, the number selling for part of the year fell from 472 thousand to 318 thousand. It fell in every start-year group. Small firms that stop are more often young, with young owners (McKenzie and Paffhausen 2019). If returners were mostly such firms, the extra count would lean young. It leaned old. Returners equal to 10 to 15 percent of the 2022 count would remove the unexplained part. This is a scenario, not an estimate. The check cannot rule out returners: the files carry no linked histories, and exits or a move to full-year selling could offset them.
 
 ## 5.10 Channels and records
 
