@@ -120,3 +120,28 @@ Choices made that the researcher may want to change:
 - Still open before submission (from the working list): check every citation against what the work supports, format to the YZU style, build the bibliography.
 
 Accuracy fix in Chapter 3 made in the same round: the terms table no longer says accounting rules always deduct incentives from revenue (IFRS 15 has an exception for payments for distinct goods or services). It now says "normally", and that Tokopedia reports the deduction as a separate line.
+
+### Seam pass across Chapters 1 to 3 (12 Oct 2026, evening)
+
+Why: the line-by-line read of Chapters 2 and 3 (sentence, paragraph, section, in order) and a check of how they line up against Chapter 1 found breaks that no single-line edit would fix, and showed that individual fixes would collide with each other. So the fixes were applied as clusters, each rewritten as whole paragraphs, and then re-read in context. Baseline: commit `b9dd114`.
+
+| Cluster | What was done | Where |
+|---|---|---|
+| Vocabulary | One word for one thing (see the Vocabulary rule in the thesis README): wedge, not gap; transaction value with "the commerce a platform carries" tied once; figure for a published number and measure for a yardstick; count of online sellers; entry test; chain only in Chapter 3; report for accounts and records for data | All three chapters; README |
+| H2 and the entry test | The entry test is named in the first sentence of 1.1's design paragraph and in 1.3. Chapter 2's open questions now include H2's (do platform figures follow national growth). Chapter 3 opens from those questions and gives each link of the chain its condition: inner (take rate steady), outer (national growth comes from sellers the platforms record), and the count (survey keeps reaching the same sellers) | ch1 1.1 and 1.3; ch2 2.4; ch3 opening, 3.2, 3.3 |
+| Order and structure | Chapter 1 paragraph 4 re-ordered (wedge named first, movement and Tokopedia last); Chapter 2 section 2.2 re-ordered (growth split before the survey weakness) with bridges into 2.2 and 2.3; Chapter 3 paragraph on the wedge split in two | ch1, ch2, ch3 |
+| Numbers | One set across chapters: US$ at the World Bank 2024 rate; Tokopedia 53, 9, 60, 68 and 62 (0.91 x 0.68 = 0.62); growth defined as a fraction so the formula holds; the 127.4 step; 2 to 3 and 17 to 18 percent examples | ch1, ch3 |
+| Repeats removed | UNCTAD "closest work" sentence four appearances down to two; the "cutting discounts" mechanism not repeated a third time in Chapter 3; Chapter 3's "two ways to grow" sentence no longer duplicates Chapter 2's | ch2, ch3 |
+| Promises and homes | Objectives 2 and 3 now have a stated home (Chapter 4), named in 1.3 and 3.4; "payment indicators" became "payment figures"; "In brief" now answers the size half of the question | ch1, ch3 |
+| Single lines | IFRS and GMV, GTV, TPV spelled out; a missing citation; "a study" for one study; the region named; the night-lights analogy explained; "from the inside" replaced by "whose underlying answers can be examined"; the wedge scope fixed ("at the marketplaces studied in Indonesia") | ch1, ch2, ch3 |
+
+Decisions taken on the researcher's "try it out", to be confirmed or reversed:
+- The chain keeps the proposal's Figure 1 and each link has its own condition (the recommended option). The alternative, two stand-ins and no chain, would have changed how H2 reads.
+- The size sentence in "In brief" is in. It adds length to 1.1 (see below).
+- "Indicators" in Objective 3 became "figures" (it is a banned word, and Chapter 2 uses "figures").
+
+Checks run after the rebuild: banned words none; no paragraph opens on a back-reference; the vocabulary sweep clean (the only "gap" left is the "research gap" heading); 41 citations in Chapter 2 each traced to `REFERENCES_WORKING.md`; every number recomputed; repeated phrases across chapters listed (only intended ones remain); sentence length (prose, citations excluded) averages 18.8, 15.2 and 15.3 words in Chapters 1, 2 and 3, with no sentence over 30 in Chapters 2 and 3.
+
+Size against the baseline: Chapter 1 +9 percent, Chapter 2 +8, Chapter 3 +12. **Section 1.1 grew by 28 words (+7 percent)**, against the researcher's open wish for it to be brief. Candidates to cut if wanted: the "A further analysis estimates…" sentence in the design paragraph (it is covered in 1.2 and 1.3), or the second sentence of "In brief".
+
+Chapter 4 now owes the reader (promised in 1.3, 3.2, 3.3 or 3.4): both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).

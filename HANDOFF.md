@@ -35,7 +35,7 @@ On 12 October the advisor wrote: focus on the issues she and Prof. Thomas raised
 |---|---|
 | Research and evidence | **Complete.** Every number is rebuilt by `research/option_space_2026-10-01/rebuild_all.sh` (272 ledger checks pass). No further analysis is planned. |
 | Story | **Settled.** Golden pitch and five-part arc frozen (tags `golden-pitch-2026-10-08`, `narrative-arc-2026-10-09`). |
-| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds (introduction and 1.1 reviewed; 1.2 and 1.3 next). Chapters 2 and 3 have first full drafts (12 Oct, evening), awaiting the researcher's reading. Chapter 5 has an older draft to be rewritten. Chapters 4, 6, 7 not started. |
+| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds (introduction and 1.1 reviewed; 1.2 and 1.3 next). Chapters 2 and 3 have first full drafts (12 Oct, evening), awaiting the researcher's reading; a seam pass then aligned Chapters 1 to 3 with each other (vocabulary, the H2 and entry-test spine, order, numbers; see `EDIT_HISTORY.md`, last section). Chapter 5 has an older draft to be rewritten. Chapters 4, 6, 7 not started. |
 | Advisor | Progress deck and data package ready (`papers/IL_Advisor_Package_2026-10-12.zip`); the researcher uploads it. The advisor has **not yet seen** the change in what H2 means. |
 | Branch | All work is on `proposal/integrated-2026-09-16`, about 140 commits ahead of `main`. **`main` is stale** (it stops on 1 Oct, when PR #9 merged). |
 
@@ -78,7 +78,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 ## 6. Next steps, in order
 
 1. Recheck section 1.2 (contributions) of chapter 1 against the ambition paragraph in 1.1.
-2. Chapter 3 (terms in one box, the growth formula, H1, H2, the entry test) has a first draft in `papers/thesis_2026-10/ch3_framework.md`; revise it from the researcher's reading, then write chapter 4 (data and tests).
+2. Chapters 2 and 3 have first drafts (`ch2_literature.md`, `ch3_framework.md`) and Chapters 1 to 3 have had a seam pass; revise from the researcher's reading, then write chapter 4. **Chapter 4 owes the reader**: both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).
 3. Rewrite chapter 5 as ten sections, each answering one question, using `DRAFT_STORY_v2.md` for content and the writing rules for form.
 4. Write chapters 2, 6 and 7. Chapter 6 waits for the scheduled results below.
 5. Insert citations; format to the YZU template (the researcher obtains it).
@@ -111,6 +111,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Cheap checks on existing data are always worth running; new analysis is not wanted now.
 - **Readability comes before safety.** On 12 Oct (evening) the researcher said he does not want flags on the ambition paragraph ("technically no evidence, it is an educated guess, I am not going for safer options"), and that a safer claim that makes a sentence convoluted is the very thing Prof. Kong and Prof. Thomas complained about. So: the ambition and framing stay bold and are not flagged; support goes in notes or later chapters, never into hedged prose; flag a sentence only when it makes a different claim, once. This sits beside section 8: statements of what the data show keep their evidence strength; the framing is bold by design.
 - **He reviews before and after.** Show the change as before and after in chat, apply only what he approves, commit once per round, log it in `EDIT_HISTORY.md`. To assess a passage: print the full text with numbered paragraphs, say what each paragraph does and whether it hands over to the next, then list only reading problems, ranked.
+- **Vocabulary is fixed** (thesis README, Vocabulary rule): wedge, not gap; transaction value, with "the commerce a platform carries" as its plain companion; figure for a published number, measure for a yardstick; count of online sellers; entry test. New chapters use these words; run a sweep for the old ones before sending a chapter.
 - **Style settled in this round** (full list in the thesis README, Writing rules): paragraph openers name their subject; a movement gets its mechanism in the paragraph that explains it; one currency (US$, rounded, World Bank rate for the year); no bare rupiah in the narrative.
 
 ## 10. Open items
@@ -119,7 +120,8 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Section 1.1 should be "brief, yet impactful" as standard prose; two attempts were rejected (`EDIT_HISTORY.md`, Part D).
 - Citations are not yet in the chapter text.
 - The YZU template is not yet in the repository.
-- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); the researcher has not yet reached 1.2 or 1.3, and 1.2 is still to be rechecked against the ambition paragraph.
+- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); 1.2 and 1.3 were then rebuilt in the seam pass and have not yet been read by the researcher. Section 1.1 is 28 words longer than before (+7 percent) against the open wish for it to be brief; cut candidates are in `EDIT_HISTORY.md`.
+- Chapter 3 now gives each link of the chain its own condition (inner: take rate steady; outer: national growth comes from sellers the platforms record; the count: survey keeps reaching the same sellers). The advisor has not yet seen how H2 is framed, so confirm this wording with the researcher before it goes to her.
 - Root-level files not part of the thesis are untracked and should be left alone (`side-academic-papers-*.zip`, `ssrn-7514022.pdf`, `Attraction-json_2026-10-09.zip`, a Chinese-named PDF).
 
 ## 11. Notes for a cloud or fresh session (added 12 Oct after a cloud session's first read)

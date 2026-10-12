@@ -24,6 +24,14 @@ The thesis written in full. Same title, research question, hypotheses and measur
 - **A movement gets its mechanism.** When a paragraph shows a movement (revenue up while sales fell), the paragraph that explains it says how it happened (the platform kept more of each sale; at Tokopedia, smaller discounts and incentives), not only that the measures differ.
 - **One currency.** Running text uses US$, rounded, converted at the World Bank official rate for the year (`research/option_space_2026-10-01/tables/src/worldbank_fx_2022_2024.json`; 2024: Rp15,855 per US$). No bare rupiah in the narrative.
 - **Show before you change.** Preview the change as before and after in chat; apply only what the researcher approves; then one commit, and a row in `EDIT_HISTORY.md`. When asked to assess a passage, print the full text first with numbered paragraphs, then say what each paragraph does and whether it hands over to the next, then list only reading problems (flow, openers, number density, currency), ranked.
+- **Vocabulary** (settled in the 12 Oct seam pass; one word for one thing, in every chapter):
+  - *transaction value* is the term for what is bought through a platform; "the commerce a platform carries" is its plain companion (tied once, in Table 3.1). "Sales" means a single sale, or BPS's national online sales, never a platform's transaction value.
+  - *invisible wedge* or *the wedge* is transaction value minus revenue. Never "gap" for that quantity ("research gap" is a different thing).
+  - *figure* is a published or reported number; *measure* is a yardstick, or one of the three the thesis builds (wedge, ecosystem ratio, growth divergence).
+  - *count of online sellers*, then *the count*; *entry test*; *first-time entry*; *H1*, *H2*.
+  - *chain* is used only in Chapter 3, for revenue, platform commerce and national commerce.
+  - *report* for what an accounting statement shows; *records* for a platform's data on sales.
+  - *take rate* for the share of each sale a platform keeps; *US$* for money in running text.
 - **The committee's points** and where each is answered: see Part A of `EDIT_HISTORY.md`.
 
 `EDIT_HISTORY.md` records each round of edits, the researcher's response and any open concern; read it before revising a chapter.
