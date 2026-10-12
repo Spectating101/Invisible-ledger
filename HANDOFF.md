@@ -18,7 +18,7 @@ On 12 October the advisor wrote: focus on the issues she and Prof. Thomas raised
 | Story | **Settled.** Golden pitch and five-part arc frozen (tags `golden-pitch-2026-10-08`, `narrative-arc-2026-10-09`). |
 | Thesis text | **Started.** Chapter 1 drafted and revised over many rounds. Chapter 5 has an older draft to be rewritten. Chapters 2, 3, 4, 6, 7 not started. |
 | Advisor | Progress deck and data package ready (`papers/IL_Advisor_Package_2026-10-12.zip`); the researcher uploads it. The advisor has **not yet seen** the change in what H2 means. |
-| Branch | All work is on `proposal/integrated-2026-09-16`. **Not on `main`** (PR #9 is open). |
+| Branch | All work is on `proposal/integrated-2026-09-16`, about 140 commits ahead of `main`. **`main` is stale** (it stops on 1 Oct, when PR #9 merged). |
 
 ## 3. Read these first
 
@@ -82,7 +82,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - **No new hypothesis, no new concept.** Improvements go through what the proposal promised. The entry test is presented as closing a limit the proposal itself named.
 - **No overclaiming.** Unsupported lines are dropped, not propped up. The claim wording to avoid is listed in the thesis README.
 - **Frozen files** (`PART1`-`PART7`, `GOLDEN_PITCH.md`, `NARRATIVE_ARC.md`) change only through dated notes at the end.
-- **Do not push to `main`** or merge PR #9 without the researcher saying so.
+- **Do not push to `main`** or merge the working branch into it without the researcher saying so. PRs #6, #7 and #8 are old drafts; leave them.
 
 ## 9. How the researcher works
 
@@ -98,3 +98,13 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Citations are not yet in the chapter text.
 - The YZU template is not yet in the repository.
 - Root-level files not part of the thesis are untracked and should be left alone (`side-academic-papers-*.zip`, `ssrn-7514022.pdf`, `Attraction-json_2026-10-09.zip`, a Chinese-named PDF).
+
+## 11. Notes for a cloud or fresh session (added 12 Oct after a cloud session's first read)
+
+- **Fetch the full history first.** A shallow clone of `main` shows only 14 Sep to 1 Oct and leads to a wrong picture (old manuscripts, H1-H4, "6 of 8", the 24 Sep proposal). The live work is on `origin/proposal/integrated-2026-09-16`.
+- **Base your work on `origin/proposal/integrated-2026-09-16`.** If the session was assigned a branch cut from `main` (for example `claude/...`), move it to the tip of the integrated branch before the first commit, and open any pull request **against the integrated branch, not `main`**.
+- **Numbers.** Take them only from `research/option_space_2026-10-01/FINDINGS.md`, the Part 1-7 files with their dated notes, and section 4 above. H1 now rests on 5 Indonesian and regional platforms against 27 abroad (p = 0.004); the proposal's 8-platform comparison is the earlier version. Anything from the 24 Sep proposal, the September manuscripts or `main`'s routing documents is out of date.
+- **Two notes exist only on `main`:** `docs/MEASUREMENT_PROXY_FRAMEWORK_2026-09-23.md` and `docs/PAPER_COMPARISON_BASELINE_2026-09-23.md`. Both predate the 27 Sep proposal: the first is the "adequate proxy" framing of the 24 Sep lineage (superseded by the stand-in conditions in Part 2), the second ranks the researcher's wider set of papers. Neither is needed for the thesis; leave them on `main`.
+- **Do not run or trust the old generators** (`scripts/build_thesis_manuscript.py`, proposal surgery scripts). The thesis is written by hand in `papers/thesis_2026-10/`.
+- **First task:** section 6, step 1 (recheck section 1.2 of chapter 1), then chapters 3 and 4. Log each round of the researcher's feedback in `papers/thesis_2026-10/EDIT_HISTORY.md`.
+
