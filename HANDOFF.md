@@ -78,7 +78,8 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 ## 6. Next steps, in order
 
 1. Recheck section 1.2 (contributions) of chapter 1 against the ambition paragraph in 1.1.
-2. Chapters 2 and 3 have first drafts (`ch2_literature.md`, `ch3_framework.md`) and Chapters 1 to 3 have had a seam pass; revise from the researcher's reading, then write chapter 4. **Chapter 4 owes the reader**: both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).
+2. Chapters 2 and 3 have first drafts (`ch2_literature.md`, `ch3_framework.md`) and Chapters 1 to 3 have had a seam pass; revise from the researcher's reading. **Chapter 4 has a first draft** (`ch4_data_methods.md`, 12 Oct night); it covers what it owed the reader: both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).
+2b. Chapter 4 open points: market values (4.7) are not promised in Chapters 1 or 3, so either add one clause to 3.4 and 1.3 or cut 4.7; the appendix it points to (platform list, seven traced windows, registered tests with dates) must be built; Table 4.1 labels Blibli's and Bukalapak's scope as the sources describe it, to be rechecked against the filings; household spending needs a reference.
 3. Rewrite chapter 5 as ten sections, each answering one question, using `DRAFT_STORY_v2.md` for content and the writing rules for form.
 4. Write chapters 2, 6 and 7. Chapter 6 waits for the scheduled results below.
 5. Insert citations; format to the YZU template (the researcher obtains it).

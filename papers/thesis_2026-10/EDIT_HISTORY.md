@@ -163,3 +163,15 @@ The second sentence-by-sentence read (on the files after the seam pass) found 11
 | ch3 Tokopedia example | "0.91 x 0.68" did not show which factor was which | "(1 - 0.09) x 0.68 = 0.62" |
 
 After this round: Chapter 1 1,667 words, Chapter 2 1,280, Chapter 3 1,244 (baseline 1,520, 1,177, 1,095). **Section 1.1 is now 435 words, 25 more than the baseline (+6 percent)**, down from +28. No banned words; no sentence over 30 words in Chapters 2 and 3.
+
+### Chapter 4 first draft (12 Oct 2026, night)
+
+New file `ch4_data_methods.md`, about 3,100 words, eight sections: 4.1 platform data (two groups, Table 4.1 with the scope of every series), 4.2 the H1 test, 4.3 tracing revenue movements (Objective 2), 4.4 the BPS files and the entry test (Table 4.2), 4.5 channels, records and reach, 4.6 comparison with national and payment figures (Objective 3, Table 4.3), 4.7 market values, 4.8 traceability.
+
+Written from the repository records only: `h1_extended.py` and its tables (27 foreign platforms, 158 pairs; 5 Indonesian platforms, 15 pairs), `PREREGISTRATION.md` (entry-test rule, data checks, scenarios), `LICENSED_DATA.md` (rows, weights, checksums), `tokopedia_segment.py`, `wedge_split.py`, `m1_market_value.py`, Parts 3 to 6. No result is stated in the chapter; results stay in Chapter 5.
+
+Obligations checked against the promises in 1.3, 3.2, 3.3, 3.4 and 3.5: both H1 groups (4.1, 4.2); the entry-test rule with its 127.4 step and the cohort check (4.4); the data behind each test (Tables 4.1 to 4.3); tracing to fees and discounts (4.3); comparison with national and payment figures (4.6). Kong's asks: scope stated for every series, each source explained, the author's own measures marked, one currency.
+
+Checks: banned words none; no sentence over 33 words (two between 30 and 33 were split); every number traced to the table or script named above (pair counts, 21.5 and 23.9 percent thresholds, weights, 9,999 shuffles, 0.52 log change = 68 percent, Rp783 trillion about US$53 billion at the 2022 World Bank rate).
+
+Decisions for the researcher: (1) section 4.7 (market values) is outside what Chapters 1 and 3 promise; keep it with one added clause in 3.4, or cut it. (2) Length: Chapter 4 is longer than Chapter 3 by about 1,900 words; trimming candidates are 4.5 (World Bank paragraph) and the fourth H1 check in 4.2. (3) Spin-off tests, listing timing and the market-income pattern are left out, as the cut list puts them in reserve.
