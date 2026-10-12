@@ -53,15 +53,15 @@ Table 5.3 then splits the growth of revenue into three parts: more commerce, hig
 
 | Platform and window | Growth of revenue | More commerce | Higher fees | Lower incentives |
 |---|---|---|---|---|
-| Tokopedia, 2022–23 | +53% | −22 | 77 | 45 |
+| Tokopedia, 2022–23 | +53% | −22 | 76 | 45 |
 | Blibli third-party retail, 2022–23 | +465% | 17 | 20 | 63 |
 | Blibli third-party retail, 2022–25 | +679% | 18 | 63 | 20 |
 | Grab on-demand, 2021–24 | +321% | 34 | 34 | 33 |
-| Grab on-demand, 2022–24 | +86% | 43 | 11 | 47 |
+| Grab on-demand, 2022–24 | +86% | 42 | 11 | 47 |
 | GoTo on-demand, 2022–25 | +111% | 12 | 36 | 52 |
 | GoTo on-demand, 2023–25 | +114% | 27 | 6 | 67 |
 
-Lower incentives were the larger of the two take-rate parts in four windows, and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. Shares are rounded, so a row can add to 101. Grab's figures come from its annual filings, and Tokopedia's and GoTo's from audited statements. GoTo's 2022 transaction value is an estimate, and Blibli does not report incentives, so its split rests on a proxy. Blibli's releases also credit part of its 2022–23 rise to travel and digital products inside the segment, so some of its shares reflect a change in mix. For Bukalapak, the reports do not allow the parts to be separated.
+Lower incentives were the larger of the two take-rate parts in four windows, and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. Shares are rounded, so a row can add to 99 or 101. Grab's figures come from its annual filings, and Tokopedia's and GoTo's from audited statements. GoTo's 2022 transaction value is an estimate, and Blibli does not report incentives, so its split rests on a proxy. Blibli's releases also credit part of its 2022–23 rise to travel and digital products inside the segment, so some of its shares reflect a change in mix. For Bukalapak, the reports do not allow the parts to be separated.
 
 Tokopedia needs two views. Its accounts deduct incentives from revenue, and they fell by about one third in 2023. Counting the lines of its accounts, 60 percent of the extra net revenue came from lower incentives and 40 percent from higher gross fees. That count leaves the fall in volume inside both lines. Table 5.3 takes it out and compares fees and incentives per unit of transaction value. On that basis, higher fees account for more of the rise in the take rate than lower incentives. Both views agree that pricing, and not more commerce, drove the rise. They differ on which price lever led. Across the windows, revenue in 2022 to 2024 was not a fair guide to the commerce these platforms carried. The take rate moved a lot, mostly through lower incentives and higher fees. Did investors see through it?
 

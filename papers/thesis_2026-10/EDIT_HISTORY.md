@@ -238,3 +238,7 @@ What changed:
 - Sentences split to about 15 to 18 words; Chapter 4 is about 3,000 words and Chapter 5 about 3,900 including tables (about 3,200 of prose).
 
 Still open from the audit: the two Chapter 1 sentences, the Chapter 3 wording of H1, "OECD" at first use in Chapter 2, market values in 1.3 and 3.4, and the list Chapter 7 must carry.
+
+### Check run after the Table 5.2 and heading changes (13 Oct 2026)
+
+Banned words, openers, sentence length, cross-references (sections, tables, appendices) and 22 number checks against the committed tables all pass, apart from two cells in Table 5.3 that I had rounded from already-rounded shares: Tokopedia's higher-fee share is 76 percent (not 77) and Grab 2022–24's commerce share is 42 percent (not 43). Fixed; the note under the table now says a row can add to 99 or 101. The earlier audit had matched these two cells at one decimal, so a check at whole-number rounding was the one that caught them.
