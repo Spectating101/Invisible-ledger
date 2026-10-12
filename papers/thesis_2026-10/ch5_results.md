@@ -15,7 +15,7 @@ Take three major platforms in Indonesia in 2023: Tokopedia, Shopee and Grab. Tog
 | Grab, Indonesia | 5.38 | 0.61 | 4.78 | Revenue is a direct country disclosure; transaction value is derived from Grab's company-wide ratio |
 | Total | 43.23 | 3.16 | 40.07 | Rounded amounts may not add |
 
-In size, that is about 3 percent of Indonesia's 2023 gross domestic product (GDP), which is the value of everything the country produces in a year. The comparison is one of magnitude only, because the wedge is transaction value and not value added. Blibli's and Bukalapak's wedges, US$3.2 and US$10.5 billion, are left out of the total because Blibli's measure includes online travel and Bukalapak reports for its whole group.
+Blibli's and Bukalapak's wedges, US$3.2 and US$10.5 billion, are left out of the total because Blibli's measure includes online travel and Bukalapak reports for its whole group.
 
 The size of the wedge hardly depends on the assumptions. If Shopee kept 9 or 11 percent instead of 10, the total would stay between US$39.9 and US$40.3 billion. At Sea's company-wide rate of 11.5 percent it would be US$39.8 billion, and dropping any one platform leaves at least US$20.7 billion. For platforms that report both amounts directly, the wedge is 97 to 99 percent of transaction value in every year. It moves almost one for one with it. Appendix A gives the wedge for each platform and year.
 
@@ -33,13 +33,13 @@ In Indonesia they do not, and H1 is rejected. Among the Indonesian and regional 
 | The same | Shuffle | 0.20 | 0.06 | 0.022 |
 | Growth divergence in points, 5 platforms against 26 | Mann–Whitney | 27.0 | 6.5 | 0.005 |
 | Drop each platform in turn, or treat Tokopedia and GoTo as one company | Mann–Whitney | 0.17 to 0.23 | 0.06 | 0.003 to 0.016 |
-| Three marketplaces against eight foreign platforms, growth divergence, 8 against 29 pairs | Mann–Whitney | 38.9 | 7.1 | 0.002 |
-| The same, one value per platform | Shuffle | 38.9 | 7.1 | 0.06 |
 | Quarterly pairs, 3 platforms against 8 | Mann–Whitney | 0.071 | 0.049 | 0.19 |
 
-The first two rows of Table 5.2 are the main test, and the group figures in rows one to four are medians of platform medians. The third row repeats the test with growth divergence in points. One foreign platform drops out because it has no pair in which both years pass the own-goods rule. The fourth row shows that no single platform carries the result. The fifth and sixth rows are the narrower test of the three marketplaces. It compares pairs in the fifth row and platforms in the sixth, because pairs from one platform are not independent. Its p-value is 0.008 once Sea leaves the benchmark. In it, revenue growth and transaction value growth were barely related in Indonesia (correlation 0.10) and closely related abroad (0.98, excluding Sea). The main test is exploratory, because the larger groups were set up after that first test.
+The first two rows of Table 5.2 are the main test, and the group figures in rows one to four are medians of platform medians. The third row repeats the test with growth divergence in points. One foreign platform drops out because it has no pair in which both years pass the own-goods rule. The fourth row shows that no single platform carries the result. The fifth row is the quarterly test.
 
-The quarterly version does not reject H1. Its Indonesian pairs mostly cover 2023 to 2026, after most of the repricing. The large moves came in 2022 to 2024, so the rejection of H1 describes that period.
+A narrower test of the three Indonesian marketplaces against eight foreign platforms agrees (Appendix B). It gives p = 0.002 when it compares pairs and 0.06 when it compares platforms, because pairs from one platform are not independent. In it, revenue growth and transaction value growth were barely related in Indonesia (correlation 0.10) and closely related abroad (0.98, excluding Sea). The larger groups were set up after that test, so the main test is exploratory.
+
+The quarterly version does not reject H1, as Table 5.2 shows. Its Indonesian pairs mostly cover 2023 to 2026, after most of the repricing. The large moves came in 2022 to 2024, so the rejection of H1 describes that period.
 
 Most of the threefold difference comes from the size of the slice, which is an exploratory finding. Measured in percentage points of the take rate, Indonesian and regional platforms changed it by about as much as foreign ones. The change was about 1 point a year in both groups (p = 0.65). But the typical Indonesian and regional platform keeps only 1.6 percent of each sale, against 16.9 percent abroad. The share abroad varies with the business model, from about 3 percent at Shopify to about 25 percent at Mercado Libre in 2025. If transaction value is flat, a rise of 1 point lifts the revenue of the first by more than half. It lifts the revenue of a typical foreign platform by about 6 percent. The larger the wedge is next to revenue, the more a small price change moves revenue growth. What the platforms actually changed is the next question.
 
