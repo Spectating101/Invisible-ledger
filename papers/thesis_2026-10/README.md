@@ -10,8 +10,10 @@ The thesis written in full. Same title, research question, hypotheses and measur
 - Each claim at its evidence strength: registered tests stated as results; exploratory checks named as such once; limits stated once, in chapter 7.
 - The committee's points, and where each is answered: definitions (chapter 3, one box of terms); the wedge vs growth divergence (chapter 3 and section 5.3: the wedge's size sets how far a price change moves revenue growth, D = (1 + gV)(m1 - m0)/m0); readability (every chapter); "too safe" (the centre is the tested claim about the 2023 seller count); the commission cap (chapter 6); comparing transaction value across platforms (appendix definition map).
 
+`EDIT_HISTORY.md` records each round of edits, the researcher's response and any open concern; read it before revising a chapter.
+
 | File | Chapter | Status |
 |---|---|---|
-| `ch1_introduction.md` | 1 Introduction | v3 draft, 12 Oct (sections 1.1-1.6; arc parts A and A-B) |
+| `ch1_introduction.md` | 1 Introduction | drafted 12 Oct on the proposal's and deck's flow (opening, 1.1 question and objectives, 1.2 contributions, 1.3 structure); open concern on 1.1 in `EDIT_HISTORY.md` |
 | `ch5_results.md` | 5 Results | early draft of 5.1-5.5 in the older report style; to be rewritten to the v3 structure (ten question sections, `research/option_space_2026-10-01/DRAFT_STORY_v2.md`) |
 | ch2-ch4, ch6, ch7 | | not started |
