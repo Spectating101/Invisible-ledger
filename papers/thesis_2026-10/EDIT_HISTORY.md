@@ -224,3 +224,17 @@ Open for the researcher (these touch other chapters, so nothing was changed ther
 4. **Chapter 7 must carry:** inferred education codes (2023 file); 19 sample rows in the top bracket; Bank Indonesia's method; the exploratory status of the 2023 accounting; the month question changing format; Grab's two vintages; the one-sided tests.
 5. **Appendix still to build:** platform list; seven windows with the Blibli proxy; wedge by platform and year; registered tests with dates; World Bank description.
 6. **Length:** Chapter 4 is now about 3,900 words and Chapter 5 about 4,200 including tables. Cut candidates are 4.5 (World Bank), 5.7's value paragraph, and the Table 5.2 narrower-test rows.
+
+### Chapters 4 and 5 rewritten in the voice of Chapters 1 and 2 (13 Oct 2026)
+
+The researcher's direction: the 27 September proposal is frozen, and Chapters 4 and 5 are where the post-proposal data and findings go, so they should read like the approved Chapters 1 and 2 (flowing paragraphs, each answering the last, plain words, numbers rounded in prose, exact values in tables). The audit-driven version had become a list of checks and caveats, which cut against "readability before safety".
+
+What changed:
+- Chapter 4 follows the proposal's own spine (4.1 selecting the platform evidence, 4.2 comparing platform activity through time, 4.3 direct and constructed Indonesia measures, 4.4 evidence beyond platform accounts, 4.5 external evidence and comparisons) and adds 4.6 on labels, traceability and licensed data. It opens on the "two sides" idea from Chapter 1.
+- Chapter 5 is nine sections, each opening on the finding and ending on the question the next one answers (wedge; H1; what moved the take rate; what markets valued; the platforms and the sellers in 2023; where the extra sellers came from; who they were and whether they returned; channels and records; why the national figures disagree).
+- Proposal-era wording is gone from the prose ("the first version of the test" survives only as one status sentence; "first benchmark" became "chosen first").
+- The detail moved to `appendix_notes.md`: the 27-platform list, the seven windows in full, wedge by platform-year, every check on the test of H1 with both p-values, the quarterly sample, and all registered tests with outcomes. The audit's corrections stay in the main text where they change a claim (provenance labels, the two Tokopedia views, the GoTo estimate, the final-consumer slice).
+- A mistake of mine found on the way: the World Bank 70 percent without written records belongs to unregistered firms that use social media with customers (29.9 percent keep records), not to all unregistered firms. Fixed in 5.8.
+- Sentences split to about 15 to 18 words; Chapter 4 is about 3,000 words and Chapter 5 about 3,900 including tables (about 3,200 of prose).
+
+Still open from the audit: the two Chapter 1 sentences, the Chapter 3 wording of H1, "OECD" at first use in Chapter 2, market values in 1.3 and 3.4, and the list Chapter 7 must carry.
