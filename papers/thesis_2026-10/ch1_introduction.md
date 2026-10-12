@@ -16,13 +16,33 @@ Indonesia is one of the few markets where both kinds of evidence are available. 
 
 ## 1.1 Research question and objectives
 
-This thesis sets out to change how the digital economy is measured. Most online commerce is missing from the platform figures on which companies are valued and sellers are taxed, and millions of the people who sell online are outside those figures altogether. Decisions worth trillions of dollars rest on numbers that show a fraction of the activity. The ambition is to bring the rest into view: how much is missing, where it is, and who is in it.
+This thesis sets out to change how the digital economy is measured. Most online commerce is missing from the platform figures on which companies are valued and sellers are taxed, and millions of the people who sell online are outside those figures altogether.
 
-Measuring what the current figures miss begins with one question: how much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth? The first half concerns size. The second concerns whether a figure still moves with the activity behind it.
+Decisions worth trillions of dollars rest on numbers that show a fraction of the activity they are taken to describe. The ambition of this thesis is to bring the rest into view: how much of the online economy the current figures miss, where it is, and who is in it.
 
-The question is addressed through three objectives: to measure the invisible wedge from 2020 to 2025; to reconcile large movements in it with disclosed changes in pricing, incentives, accounting and reporting scope; and to compare the platform evidence with national figures. Two hypotheses are tested. H1 states that a platform's revenue grows in proportion to its transaction value. H2 states that national e-commerce growth comes mainly from more businesses selling online.
+Measuring what the current figures miss begins with one question:
 
-The thesis finds that platform revenue and the official count of sellers both stopped moving with the activity behind them. Revenue rose mainly because platforms kept a larger share of each sale, and about half of the 2023 increase in the count of sellers was not first-time entry.
+> How much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth?
+
+The question has two halves:
+
+- **Size.** How much of the activity lies outside the figure.
+- **Growth.** Whether the figure still moves with the activity once prices or coverage change. A large gap would matter less if it stayed in proportion; this half asks whether it did.
+
+The research question is addressed through three objectives:
+
+1. To measure the invisible wedge across the platform histories available from 2020 to 2025.
+2. To reconcile selected large movements with disclosed changes in monetization, customer incentives, revenue recognition and reporting scope.
+3. To compare the platform evidence with national e-commerce and payment indicators, to test whether they give the same account of economic scale and growth.
+
+Two hypotheses test whether revenue and the national figures move with the activity behind them:
+
+- **H1.** A platform's revenue grows in proportion to its transaction value.
+- **H2.** National e-commerce growth comes mainly from more businesses selling online, and less from higher sales per business.
+
+Chapter 3 sets out both in full. A further analysis estimates how many sellers a rule based on platform records can reach.
+
+In brief, the thesis finds that platform revenue and the official count of sellers both stopped moving with the activity behind them in the period studied. Platform revenue rose mainly because platforms kept a larger share of each sale, and about half of the 2023 increase in the official count of sellers was not first-time entry. Chapters 5 and 6 establish how large these effects were and what follows from them.
 
 ## 1.2 Contributions
 
