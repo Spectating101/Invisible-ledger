@@ -46,6 +46,10 @@ Research on third-party information shows that reports from third parties help c
 
 ## 2.4 The research gap
 
-Platform economics, accounting, measurement and tax research each answer their own question. None measures how closely platform figures follow the activity behind them, or whether national figures do. Three questions remain. The first is how far a platform's revenue follows the commerce it carries. Section 2.1 gives reasons why the two can part, but not when or by how much. The second is whether platform figures follow national growth. Section 2.2 shows that figures can differ, but the answer depends on where national growth comes from and on whether a count of sellers keeps pace with entry. The third is how far rules built on platform records reach. Section 2.3 shows that such records can support tax rules, but not how much of the online economy they cover.
+Platform economics, accounting, measurement and tax research each answer their own question. None measures how closely platform figures follow the activity behind them, or whether national figures do. Three questions remain.
+
+1. **How far does a platform's revenue follow the commerce it carries?** Section 2.1 gives reasons why the two can part, but not when or by how much.
+2. **Do platform figures follow national growth?** Section 2.2 shows that figures can differ. The answer depends on where national growth comes from and on whether a count of sellers keeps pace with entry.
+3. **How far do rules built on platform records reach?** Section 2.3 shows that such records can support tax rules, but not how much of the online economy they cover.
 
 Answering these questions takes a platform's revenue and transaction value over several years, and a national survey whose underlying answers can be examined. Indonesia offers both. Chapter 3 turns the questions into measures and hypotheses.
