@@ -4,13 +4,13 @@ Three figures describe the same online economy at three scales. A platform's rev
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
-A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers using a count of online sellers. The count follows new selling only while the survey keeps reaching the same kinds of seller.
+A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers, using the count of online sellers from BPS, Indonesia's national statistics office. The count follows new selling only while BPS's survey keeps reaching the same kinds of seller.
 
 The thesis asks three questions about these links. This chapter turns each into a measure, a test or both.
 
 1. **How far does revenue follow commerce?** This is the inner link. It asks how much of the commerce a platform's revenue leaves out, and whether revenue keeps pace with the commerce from year to year. Section 3.1 defines the measures, and Section 3.2 states the hypothesis, H1.
-2. **Do platform figures follow national growth?** This is the outer link. It asks whether national online growth comes mainly from more businesses selling or from higher sales per business, and whether a rise in the count of sellers means first-time entry. Section 3.2 states the hypothesis, H2, and Section 3.3 sets out the entry test.
-3. **How far do rules built on platform records reach?** Governments use platform records to tax and regulate online selling, and a rule reaches only the sellers whom the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
+2. **Do platform figures follow national growth?** This is the outer link. National online growth can come from existing sellers selling more or from new sellers entering, and new sellers often work in channels that platform records do not cover. The question asks which kind of growth dominates, and whether a rise in the count of sellers really means first-time entry. Section 3.2 states the hypothesis, H2, and Section 3.3 sets out the entry test.
+3. **How far do rules built on platform records reach?** Governments use platform records to tax and regulate online selling, and a rule reaches only the sellers that the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
 
 ## 3.1 Terms and measures
 
