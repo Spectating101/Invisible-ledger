@@ -16,7 +16,7 @@ Accounting rules also decide how much of each sale is revenue. Revenue recogniti
 
 Revenue is not the only reported figure whose meaning depends on how it is computed. Analysts use financial statements more easily when the accounting is comparable (De Franco, Kothari and Verdi 2011). Measures that companies choose to report, such as transaction value or active users, lose information when their definition changes or goes unreported (Givoly, Li, Lourie and Nekrasov 2019). Investors also look beyond revenue. In the early years of the internet, activity measures such as web traffic carried information about a firm's value and future revenue that reported revenue did not show (Trueman, Wong and Zhang 2000, 2001; Rajgopal, Venkatachalam and Kotha 2003).
 
-The studies reviewed here explain why transaction value can exceed revenue and why the difference can move. They do not measure how large the difference is for platforms in a market such as Indonesia. They also do not show whether it stays steady from year to year.
+Platform economics and accounting research explain why transaction value can exceed revenue and why that difference can move. They do not measure how large it is for platforms in a market such as Indonesia, or whether it stays steady from year to year.
 
 ## 2.2 How online selling is measured
 
@@ -30,7 +30,7 @@ One national figure needs this test in particular: the growth of online sales. I
 
 The split of national growth rests on a count of online sellers, and that count has a weakness of its own. It depends on how the survey finds sellers. A change in design can break a series in a way that looks like a change in the economy (van den Brakel, Smith and Compton 2008; van den Brakel, Zhang and Tam 2020). Respondents also misdate events, and they tend to place them closer to the interview than they were (Neter and Waksberg 1964). Exit among small firms is more common for young firms and young owners (McKenzie and Paffhausen 2019), which matters when a count has to be corrected for sellers who stopped.
 
-This literature shows that official frameworks treat commerce and platform service as different things. It shows that figures from different sources need not agree, and that a seller count can break when a survey changes. It does not show whether platform figures and national figures move together in a given country. It also does not show what a rise in a seller count contains.
+Research on measurement shows that official frameworks treat commerce and platform service as different things. It shows that figures from different sources need not agree, and that a seller count can break when a survey changes. It does not show whether platform and national figures move together in a given country, or what a rise in a seller count contains.
 
 ## 2.3 Platform records and third-party information
 
@@ -42,14 +42,10 @@ Information from a third party also changes how people comply with tax. Audit ex
 
 Rules for platforms apply this idea. The OECD, a group of mostly high-income countries, published model rules under which platforms report what their sellers earn (OECD 2020). The European Union's DAC7 directive applies them (European Union 2021). Indonesia's marketplace tax rule goes further: it makes marketplaces collect tax from their sellers, not only report on them (Ministry of Finance of the Republic of Indonesia 2025).
 
-This literature shows that third-party reports help compliance and that platform rules apply the idea. It does not show how many of a country's online sellers such a rule can reach. It also does not show how much of the market the platform records cover.
+Research on third-party information shows that reports from third parties help compliance, and that platform rules apply the idea. It does not show how many of a country's online sellers such a rule can reach, or how much of the market platform records cover.
 
 ## 2.4 The research gap
 
-Each field reviewed here answers its own question, and none measures how closely platform figures follow the activity behind them, or whether national figures do. Three questions remain open.
+Platform economics, accounting, measurement and tax research each answer their own question. None measures how closely platform figures follow the activity behind them, or whether national figures do. Three questions remain. The first is how far a platform's revenue follows the commerce it carries. Section 2.1 gives reasons why the two can part, but not when or by how much. The second is whether platform figures follow national growth. Section 2.2 shows that figures can differ, but the answer depends on where national growth comes from and on whether a count of sellers keeps pace with entry. The third is how far rules built on platform records reach. Section 2.3 shows that such records can support tax rules, but not how much of the online economy they cover.
 
-1. **How far does revenue follow commerce?** Section 2.1 gives reasons why revenue can part from commerce, but not when or by how much.
-2. **Do platform figures follow national growth?** Section 2.2 shows that figures can differ. Whether platform growth tracks national growth depends on where the growth comes from, and on whether a count of sellers keeps pace with entry.
-3. **How far do rules built on platform records reach?** Section 2.3 shows that platform records can support tax rules, but not how much of the online economy they cover.
-
-Answering them takes a platform's revenue and transaction value over several years, and a national survey whose underlying answers can be examined. Indonesia offers both. Chapter 3 turns the three questions into measures and hypotheses.
+Answering these questions takes a platform's revenue and transaction value over several years, and a national survey whose underlying answers can be examined. Indonesia offers both. Chapter 3 turns the questions into measures and hypotheses.

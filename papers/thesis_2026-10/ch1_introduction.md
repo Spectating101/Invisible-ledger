@@ -24,7 +24,7 @@ The research question is addressed through three objectives. The first is to mea
 
 The thesis tests two hypotheses. H1 says that a platform's revenue grows in proportion to its transaction value. H2 says that national e-commerce growth comes mainly from more businesses selling online, and less from higher sales per business. An entry test then asks whether a rise in the count of online sellers comes from sellers entering for the first time. A further analysis estimates how many sellers a rule built on platform records can reach.
 
-In brief, revenue shows only a small part of the commerce that platforms carry, and in BPS's survey the marketplaces carry only about a fifth of online sales value. In Indonesia, platform revenue also grew faster than the commerce behind it, mainly because platforms kept a larger share of each sale and not because buyers bought more. National growth came mainly from more sellers, as H2 states. But about half of the 2023 rise in the count of sellers is not explained by first-time entry.
+In brief, revenue shows only a small part of the commerce that platforms carry, and in BPS's survey the marketplaces carry only about a fifth of online sales value. In Indonesia, platform revenue also grew faster than the commerce behind it, mainly because platforms kept a larger share of each sale and not because buyers bought more. National growth came mainly from more sellers, as H2 states, but about half of the 2023 rise in the count of sellers is not explained by first-time entry.
 
 ## 1.2 Contributions
 

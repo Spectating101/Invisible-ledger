@@ -6,11 +6,7 @@ Three figures describe the same online economy at three scales: a platform's rev
 
 A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers, using the count of online sellers from BPS, Indonesia's national statistics office. The count follows new selling only while BPS's survey keeps reaching the same kinds of seller.
 
-The thesis asks three questions about these links. This chapter turns each into a measure, a test or both.
-
-1. **How far does revenue follow commerce?** This is the inner link. Section 3.1 defines the measures, and Section 3.2 states H1.
-2. **Do platform figures follow national growth?** This is the outer link. Section 3.2 states H2, and Section 3.3 sets out the entry test of the seller count behind it.
-3. **How far do rules built on platform records reach?** This sits beside the chain, because a rule reaches only what the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
+The thesis asks three questions about these links, and this chapter turns each into a measure, a test or both. The first is how far revenue follows commerce, which is the inner link. Section 3.1 defines the measures, and Section 3.2 states H1. The second is whether platform figures follow national growth, which is the outer link. Section 3.2 states H2, and Section 3.3 sets out the entry test of the seller count behind it. The third is how far rules built on platform records reach. It sits beside the chain, because a rule reaches only what the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
 
 ## 3.1 Terms and measures
 

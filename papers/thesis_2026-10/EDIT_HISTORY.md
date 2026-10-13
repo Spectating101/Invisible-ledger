@@ -295,3 +295,11 @@ Main points that appeared more than once, and where each now lives:
 ### Independence read correctly (13 Oct 2026)
 
 The researcher's clarification: a chapter or paragraph standing on its own means it does its own job without leaning on a neighbour, not that it repeats what came before. I had read it as "restate the terms". Reversed: Chapter 2 no longer re-defines transaction value, revenue and the wedge (Chapter 1 introduces them and Table 3.1 defines them); Chapter 3's opening names the three figures in one line and leaves definitions to Table 3.1; the three questions in Chapter 3 now carry only their link and the section that answers them, while 2.4 carries the reasons. The earlier "kept on purpose" note on repeated definitions is withdrawn.
+
+### Checked against the agreed writing rules before editing (13 Oct 2026)
+
+The researcher asked for confirmation, not acceptance. Checked against `README.md` (rules agreed with the researcher) and the repository:
+- "Stand alone" in the README means openers name their subject and do not lean on the previous paragraph ("these", "this literature", "both"); terms are defined once. It does not mean restating. This confirms the reading reached in the previous round.
+- Violations found in my own drafting and fixed: bold-labelled numbered lists of the three questions in 2.4 and Chapter 3 (the README bars bullet lists and labelled beats in running text; they are now prose with "first, second, third"); three section endings in Chapter 2 opened with "This literature" or "The studies reviewed here"; 2.4's first sentence leaned on "each field reviewed here"; the "in brief" paragraph in 1.1 had grown to four sentences (the rule is a three-sentence declaration).
+- Facts confirmed in the repository: Grab, GoTo on-demand and Tokopedia disclose incentives and Blibli does not (the panel and extraction notes); Sea's extraction carries no Indonesia split; no chapter mentions "the proposal".
+- Open: the researcher once said Chapter 2's questions were "not in a list". The README rule and that comment pull apart; the questions are enumerated in prose for now.
