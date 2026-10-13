@@ -157,3 +157,13 @@ A registered test was written down, dated and stored in the repository before th
 | M2 | Market value moves with transaction value | 8 Oct 2026 | Holds (p = 0.002) |
 | P1 to P5, R1 to R3 | Predictions on the third-quarter 2026 results of GoTo, Grab and Sea | 2 and 3 Oct 2026 | Not yet scored; first results are due on 27 Oct 2026 |
 | Marketplace tax start; BPS marketplace share | The tax start slips again; the next published marketplace share is at most 15.79 percent | 2 Oct 2026 | Not yet scored |
+
+## Appendix D. The values behind Figures 5.3 to 5.5
+
+**Growth in 2023, percent (Figure 5.3).** Household spending +9.4; Tokopedia transaction value −8.9; GoTo on-demand transaction value −10.5 (rests on an estimated 2022 value); Bank Indonesia e-commerce −4.7; Momentum Works marketplace estimate +3.5; Bukalapak transaction value +6.9; Blibli third-party retail transaction value +34.7; Tokopedia revenue +53.2; BPS e-commerce value +40.6; BPS online sellers +27.4. Sources: `FINDINGS.md`, `tables/yardsticks.csv`, company filings.
+
+**Who the extra sellers were, percent (Figure 5.4).** Share of the 2022 count and share of the extra count: business opened before 2010, 18.3 and 40.5; owner aged 50 or over, 28.9 and 41.2; outside Java, 23.6 and 36.3; food and lodging or making goods, 38.5 and 53.0. Source: `tables/bps_newly_counted_profile.json`.
+
+**Marketplace use and financial statements, percent of sellers (Figure 5.5).** Marketplace use: 21.6 (2020), 19.8 (2022), 17.8 (2023), 17.2 (2024, published). Complete financial statements: 23.5 (2020), 20.7 (2022), 15.2 (2023). Source: `tables/bps_descriptives.json`.
+
+The figures are drawn by `papers/thesis_2026-10/figures/make_figures.py` from committed tables only. The palette is the reference categorical palette (blue and orange), validated for colour-blind readers with `scripts/validate_palette.js`.
