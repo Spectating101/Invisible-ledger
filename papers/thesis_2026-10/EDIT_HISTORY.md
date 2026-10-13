@@ -307,3 +307,5 @@ The researcher asked for confirmation, not acceptance. Checked against `README.m
 ### The three questions as a list again (13 Oct 2026)
 
 The researcher preferred the list and thought the README rule had been read too widely. Checked: the rule's origin is the 1.1 bullet attempt ("too non-standard for a thesis") and the labelled beats of the story drafts, both argument text. A short numbered list of research questions is ordinary thesis practice and the later chapters refer back to the three questions, so the list is better there. Restored in 2.4 (question plus what the section leaves open) and Chapter 3 (question plus link and sections, so it does not repeat 2.4's reasons). README exception added. Prose stays for everything else.
+
+Note, same day: the researcher says the README rule was written because an early Chapter 2 or 1.2 draft was all bullets with no paragraphs, and that the restored list version is the one they wanted from the start. The repository records only the 1.1 bullet attempt (row 14), not the Chapter 2 or 1.2 one, so this origin is taken from the researcher. README wording changed to match.
