@@ -365,3 +365,7 @@ Queued as expansions, agreed not to be structural faults:
 - A targeted search for empirical studies of platform take rates over time, to confirm or narrow gap question 1.
 - Checking each study finding against the paper (Kleven et al. 2011, Pomeranz 2015, Naritomi 2019, Berg et al. 2020, Bowen et al. 2002) and the reference list as a whole.
 - Open choice: keep the reach of platform-based rules as gap question 3, or present it as an extension.
+
+### Two corrections from the literature search (13 Oct 2026)
+
+From `research/option_space_2026-10-01/LIT_SEARCH_2026-10-13.md`: (1) gap question 1 overclaimed; commission studies exist (Li and Wang on delivery fee caps; a creator-platform study; an Oxford study tracking an Uber take rate over 2016-2024), but they study commissions as prices and their effects on participants. The 2.1 closing, Table 2.1 and gap item 1 now claim only what holds: no study reviewed sets reported revenue against reported transaction value to test whether revenue stays a fair guide, and none covers Indonesian platforms. (2) Pomeranz (2015) was misdescribed; now: the VAT paper trail deters evasion and enforcement spreads up the supply chain. Expansions (commission studies in 2.1, a finance section, the Bowen detail) remain queued.
