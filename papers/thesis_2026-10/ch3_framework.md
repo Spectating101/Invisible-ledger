@@ -1,8 +1,8 @@
 # Chapter 3. Framework and Hypotheses
 
-A measure of the digital economy is a stand-in. Revenue stands in for the commerce a platform carries, and the figures of platforms stand in for the online economy of a country. A stand-in is only as good as its link to the thing it represents, so this thesis builds its framework around the links. It treats each link as a claim that can fail, measures how far each claim holds, and states in advance what result would show that it does not.
+This thesis builds its framework on one idea: a measure is a stand-in, and a stand-in is only as good as its link to what it stands for. Investors read a platform's revenue as a sign of the commerce the platform carries. Governments and analysts read platform figures as a sign of how fast online commerce is growing in a country. Each reading assumes a link, and the assumption is rarely tested. The framework turns each assumption into a claim that can be measured, so that the thesis can say how far the claim holds and what result would show that it does not.
 
-Figure 3.1 shows the structure. Three circles sit inside one another. The smallest is a platform's revenue, the part of each sale that it keeps. Around it is platform commerce, the full value of the sales the platform handles. The largest is all online commerce in a country, which also includes sellers who never use a platform. The inner link joins revenue to platform commerce, and the outer link joins platform commerce to all online commerce.
+Figure 3.1 shows the structure. Three circles sit inside one another. The smallest is a platform's revenue, the part of each sale that it keeps. Around it is platform commerce, the full value of the sales the platform handles. The largest is all online commerce in a country, which also includes sellers who never use a platform. The inner link joins revenue to platform commerce, and the outer link joins platform commerce to all online commerce. The first hypothesis, H1, tests the inner link, and the second, H2, tests the outer link (Section 3.2).
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
@@ -59,7 +59,7 @@ The size of the wedge next to revenue also decides how far a change in the take 
 
 ## 3.2 Hypotheses
 
-The framework tests the two links with two hypotheses. H1 asks whether revenue follows commerce within a platform. H2 asks where the growth of national online commerce comes from, which decides whether platform figures can speak for the whole economy.
+Answering the research question takes two checks, and each is stated as a hypothesis. The first is whether, within a platform, revenue grows in proportion to the commerce it comes from. The second is whether the growth of national online commerce comes mainly from more businesses selling online. H1 states the first check, and H2 states the second.
 
 The take rate depends on fees, on discounts and on how the platform's accounts treat each sale. Revenue stays a fair stand-in for the commerce only while the take rate is steady, which means that growth divergence stays close to zero. H1 states that case.
 
@@ -75,11 +75,11 @@ The H2 split is arithmetic. It does not say which channels the new businesses us
 
 ## 3.3 The entry test
 
-H2 rests on a count: the number of businesses selling online. A rise in that count can mean two different things, so the thesis checks what it contains before relying on it. Either more businesses started selling, or the survey reached businesses that were already selling. The published figures cannot tell the two apart. The survey can, because it asks every seller in which year it began selling online.
+H2 says that national growth comes mainly from more businesses selling online. That conclusion holds only if the count of businesses reflects real entry. A rise in the count can mean two different things: more businesses started selling, or the survey reached businesses that were already selling. The published figures cannot tell the two apart. The survey can, because it asks every seller in which year it began selling online. The thesis checks what the count contains, with a test that was written down before the survey files were opened.
 
 > **Entry test.** In the survey file for 2023, at least 21.5 percent of online sellers must report that they began selling online in 2023.
 
-The threshold is arithmetic. The published count of online sellers rose by 27.4 percent in 2023. Suppose every extra seller was new and no seller stopped. Then for every 100 sellers a year earlier there were 127.4, and 27.4 of those were new. New sellers would make up 21.5 percent of all sellers, which is 27.4 divided by 127.4. A smaller share means that part of the rise came from somewhere else. The test was written down before the survey files were opened, as Chapter 4 describes. It does not test H2 itself. It tests what "more businesses" means.
+The threshold comes from arithmetic. The published count of online sellers rose by 27.4 percent in 2023. Suppose every extra seller was new and no seller stopped. Then for every 100 sellers a year earlier there were 127.4, and 27.4 of those were new. New sellers would make up 21.5 percent of all sellers, which is 27.4 divided by 127.4. A smaller share means that part of the rise came from somewhere else. The test does not test H2 itself. It tests what "more businesses" means, and Chapter 4 describes how it was registered.
 
 If the share of new sellers falls short, part of the rise is something other than first-time entry. Two readings are open: the survey reached more of the sellers who were already there, or sellers came back after a pause. Chapter 5 weighs them.
 
