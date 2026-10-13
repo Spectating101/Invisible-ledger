@@ -4,7 +4,7 @@ Three figures describe the same online economy at three scales: a platform's rev
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
-A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers, using the count of online sellers from BPS, Indonesia's national statistics office. The count follows new selling only while BPS's survey keeps reaching the same kinds of seller.
+A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record.
 
 The thesis asks three questions about these links, and this chapter turns each into a measure, a test or both.
 
@@ -57,7 +57,7 @@ The wedge has a second use. Its size next to revenue decides how far a change in
 
 Two hypotheses put the two links of the chain to the test. H1 concerns the inner link, between revenue and the commerce a platform carries. H2 concerns the outer link, between that commerce and national online commerce.
 
-Revenue depends on the take rate, and the take rate depends on fees, on discounts and on how the platform's accounts treat each sale. Revenue is a fair stand-in for the commerce only while the take rate is steady, which means that growth divergence stays close to zero. The first hypothesis states that case.
+The take rate depends on fees, on discounts and on how the platform's accounts treat each sale. Revenue stays a fair stand-in for the commerce only while the take rate is steady, which means that growth divergence stays close to zero. The first hypothesis states that case.
 
 > **H1.** Transaction value and revenue recognized by the same platform grow in proportion over time.
 
@@ -73,13 +73,13 @@ The H2 split is arithmetic. It does not say which channels the new businesses us
 
 The split in H2 rests on BPS's count of online sellers. A count can rise for two reasons: more businesses start selling, or the survey reaches businesses it did not reach before. The published figures cannot tell these apart. The survey itself can, because it asks every seller in which year it began selling online.
 
-If a rise in the count comes from first-time entry, a large enough share of sellers must have started in the year of the rise. For 2023 the published count rose by 27.4 percent. Even if no seller had stopped, there would then be 127.4 sellers for every 100 a year earlier, and the 27.4 extra would have to be new. New sellers would have to make up at least 21.5 percent of all sellers. The test was written down before the survey files were opened, and Chapter 4 gives the rule. It does not test H2 itself. It tests what "more businesses" means.
+If a rise in the count comes from first-time entry, a large enough share of sellers must have started in the year of the rise. For 2023 the published count rose by 27.4 percent. Even if no seller had stopped, there would then be 127.4 sellers for every 100 a year earlier, and the 27.4 extra would have to be new. New sellers would have to make up at least 21.5 percent of all sellers. The test was written down before the survey files were opened, as Chapter 4 describes. It does not test H2 itself. It tests what "more businesses" means.
 
 If the share of new sellers falls short, part of the rise is something other than first-time entry. Two readings are open: the survey reached more of the sellers who were already there, or sellers came back after a pause. Chapter 5 weighs them.
 
 ## 3.4 Further analyses
 
-Two further analyses support the hypotheses without forming hypotheses of their own. The first divides national growth by sales channel, to show how much of it took place inside the marketplace channel. The second compares marketplace sellers with other sellers on whether they keep financial statements, which bears on what platform records can add to tax administration. A separate analysis, developed in Chapter 6, estimates how many sellers a rule based on platform records can reach. Chapter 4 also describes how revenue movements are traced to fees and discounts, how the platform evidence is compared with national and payment figures, and how markets value platform growth.
+Two further analyses support the hypotheses without forming hypotheses of their own. The first divides national growth by sales channel, to show how much of it took place inside the marketplace channel. The second compares marketplace sellers with other sellers on whether they keep financial statements, which bears on what platform records can add to tax administration. A separate analysis, developed in Chapter 6, estimates how many sellers a rule based on platform records can reach. Chapter 4 also describes how revenue movements are traced to fees and discounts and how platform evidence is compared with national and payment figures. A last analysis asks whether markets value growth in transaction value differently from growth in the take rate.
 
 ## 3.5 The tests together
 
