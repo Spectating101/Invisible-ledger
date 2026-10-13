@@ -151,7 +151,7 @@ H2 rests on BPS's count of businesses selling online, and a rise in that count c
 
 The published figures cannot tell the two apart. The survey can, because it asks every seller in which year it began selling online. The thesis checks what the count contains with a test written down before the survey files were opened.
 
-> **Entry test.** In the survey file for 2023, at least 21.5 percent of online sellers must report that they began selling online in 2023.
+> **Entry test.** In the survey file that describes 2023, at least 21.5 percent of online sellers must report that they began selling online in 2023.
 
 The 21.5 percent threshold comes from arithmetic. The published count of online sellers rose by 27.4 percent in 2023. Suppose every extra seller was new and no seller stopped. Then for every 100 sellers a year earlier there were 127.4, and 27.4 of those were new. New sellers would make up 21.5 percent of all sellers, which is 27.4 divided by 127.4.
 
