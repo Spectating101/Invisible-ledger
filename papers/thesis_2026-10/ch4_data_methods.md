@@ -1,6 +1,12 @@
 # Chapter 4. Data and Methods
 
-Indonesia lets this thesis look at the same online economy from two sides. Platforms report what passes through them and what they keep. BPS, the national statistics office, asks the sellers themselves. This chapter describes the evidence on each side and the tests that use it. It starts with the platforms, where H1 is tested and revenue movements are traced. It then turns to the survey, where H2 and the entry test are examined. It ends with the comparisons and market values that bring the two sides together.
+The evidence for this thesis is thinner than the question deserves, and it helps to say so first. No source shows the whole picture. Most platforms do not report the commerce they carry in Indonesia alone. Shopee, the largest, reports it only for all its markets together, so the Indonesian value used here is an outside estimate. Grab reports its Indonesian revenue but not its Indonesian transaction value. Only Tokopedia gives both for Indonesia, through the audited segment note of its parent company GoTo, and only for two years. Companies define transaction value in their own ways. Not all say what they pay out in discounts: Blibli does not, and Bukalapak's reports do not allow the parts to be separated.
+
+The national evidence is thin in the same way. BPS publishes a few totals, and the central bank does not publish its method. The survey files that show when each seller began selling were bought under a data-use agreement. They cover three rounds, carry no business identifier across rounds, and place sellers no more finely than the province. Nobody follows the same seller from year to year.
+
+Indonesia still allows what few markets do. Five platform series report revenue and transaction value in the same year, and three of them report what they pay out in incentives. BPS also asks each online seller when it began, so a rise in the seller count can be checked against entry. Most online selling there runs through messaging and social media, which makes the gap between platform figures and survey figures large enough to see. The tests are built to ask only what these sources can answer, and each limit is stated where it applies. That sets the bar low on purpose. The thesis cannot show everything, and whatever it does show is more than the published figures give.
+
+The chapter describes the evidence on each side and the tests that use it. It starts with the platforms, where H1 is tested and revenue movements are traced. It then turns to the survey, where H2 and the entry test are examined. It ends with the comparisons and market values that bring the two sides together.
 
 ## 4.1 Choosing the platforms
 

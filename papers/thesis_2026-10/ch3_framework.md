@@ -1,10 +1,16 @@
 # Chapter 3. Framework and Hypotheses
 
-Chapter 2 left three questions open. The first two rest on one idea: a figure is used as a stand-in for the activity behind it. Three figures sit in a chain. A platform's revenue is the smallest, the commerce the platform carries is larger, and the online commerce of the whole country is larger still. Each figure stands in for the next one out. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
+Three figures describe the same online economy at three scales. A platform's revenue is what it keeps from the sales it handles. Its transaction value is the total of those sales. National online commerce is the total across all sellers, whether or not they use a platform. Each figure is used as a stand-in for the next one out. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
-A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers using a count of online sellers. The count follows new selling only while the survey keeps reaching the same kinds of seller. This chapter defines the terms and measures, states a hypothesis for each link, and sets out the entry test of the count.
+A stand-in works only while a condition holds. For the inner link, the condition is that the share of each sale that the platform keeps stays steady, because then revenue follows the commerce. For the outer link, the condition is that national growth comes from sellers the platforms record. To check this, national growth is split into new and existing sellers using a count of online sellers. The count follows new selling only while the survey keeps reaching the same kinds of seller.
+
+The thesis asks three questions about these links. This chapter turns each into a measure, a test or both.
+
+1. **How far does revenue follow commerce?** This is the inner link. It asks how much of the commerce a platform's revenue leaves out, and whether revenue keeps pace with the commerce from year to year. Section 3.1 defines the measures, and Section 3.2 states the hypothesis, H1.
+2. **Do platform figures follow national growth?** This is the outer link. It asks whether national online growth comes mainly from more businesses selling or from higher sales per business, and whether a rise in the count of sellers means first-time entry. Section 3.2 states the hypothesis, H2, and Section 3.3 sets out the entry test.
+3. **How far do rules built on platform records reach?** Governments use platform records to tax and regulate online selling, and a rule reaches only the sellers whom the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
 
 ## 3.1 Terms and measures
 
