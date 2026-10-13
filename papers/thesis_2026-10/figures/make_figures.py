@@ -1,7 +1,7 @@
 """Figures for Chapter 5 of the thesis (13 Oct 2026). Built only from committed tables; no licensed data are read.
 Palette: reference categorical slots 1 (blue #2a78d6) and 2 (orange #eb6834), validated on a white surface (CVD dE 24.7, normal 33.6, contrast >= 3:1),
-plus neutral grey. Colour follows the entity in every figure: blue = what the Indonesian-side comparison group or fees stand for is NOT fixed by colour alone;
-every mark is also named by a label or legend. Text is neutral ink. Run from the repository root: python3 papers/thesis_2026-10/figures/make_figures.py"""
+plus neutral grey. Colour is not fixed to one entity across figures; inside each figure a legend or a label names every mark, so colour is never the only
+cue. Text is neutral ink. Run from the repository root: python3 papers/thesis_2026-10/figures/make_figures.py"""
 import json, pathlib
 import matplotlib
 matplotlib.use("Agg")
@@ -49,7 +49,7 @@ g = pd.read_csv(T / "growth_decomposition.csv"); g = g[(g.firm == "Tokopedia")].
 vol, fee, dis = 100 * g.share_from_volume, 100 * g.share_from_fee, 100 * g.share_from_discount_cut
 fig, (a, b) = plt.subplots(1, 2, figsize=(7.2, 2.5), gridspec_kw={"width_ratios": [1, 1.25]})
 a.barh([1, 0], [inc_share, gross_share], color=[ORANGE, BLUE], height=0.5, zorder=3)
-for y, v in zip([1, 0], [inc_share, gross_share]): a.text(v + 1.5, y, f"{v:.1f}", va="center", color=INK)
+for y, v in zip([1, 0], [inc_share, gross_share]): a.text(v + 1.5, y, f"{v:.0f}", va="center", color=INK)
 a.set_yticks([1, 0]); a.set_yticklabels(["Lower incentives", "Higher gross fees"]); a.set_xlim(0, 80); a.set_xlabel("Share of the extra net revenue (percent)")
 a.set_title("By lines of the accounts", fontsize=9, color=INK, loc="left", fontweight="bold")
 cols = [GREY, BLUE, ORANGE]; vals = [vol, fee, dis]; labs = ["More commerce", "Higher fees", "Lower incentives"]
@@ -61,11 +61,21 @@ for ax in (a, b): ax.grid(axis="y", visible=False); ax.tick_params(axis="y", len
 fig.tight_layout(); save(fig, "fig5_2_tokopedia_two_views.png")
 
 # ---- Figure 5.3: 2023 growth, each measure in its own unit ----------------------------------------------------------------------------
-items = [("Household spending", 9.4, GREY, "Reference"), ("Tokopedia transaction value", -8.9, BLUE, "Buying through platforms"),
-         ("GoTo on-demand transaction value", -10.5, BLUE, "Buying through platforms"), ("Bank Indonesia e-commerce", -4.7, BLUE, "Buying through platforms"),
-         ("Momentum Works marketplace estimate", 3.5, BLUE, "Buying through platforms"), ("Bukalapak transaction value", 6.9, BLUE, "Buying through platforms"),
-         ("Blibli third-party retail transaction value", 34.7, BLUE, "Buying through platforms"), ("Tokopedia revenue", 53.2, ORANGE, "Figures that described a boom"),
-         ("BPS e-commerce value", 40.6, ORANGE, "Figures that described a boom"), ("BPS online sellers (count)", 27.4, ORANGE, "Figures that described a boom")]
+# Values come from committed tables: consistency_grid_growth.csv (BPS, Bank Indonesia, GoTo, Momentum Works, household spending), wedge_over_time.csv
+# (Tokopedia, Bukalapak, Blibli) and bps_descriptives.json (published seller count). Momentum Works' 3.5 is the grid's calculation from published levels.
+grid = pd.read_csv(T / "consistency_grid_growth.csv", index_col=0)["2023"]
+wot = pd.read_csv(T / "wedge_over_time.csv"); wot = wot[wot.year == 2023].set_index("firm")
+sellers = json.load(open(T / "bps_descriptives.json"))["published_count_growth_pct"]
+items = [("Household spending", grid["Official household spending (nominal)"], GREY, "Reference"),
+         ("Tokopedia transaction value", wot.loc["Tokopedia e-commerce segment", "g_tv_pct"], BLUE, "Buying through platforms"),
+         ("GoTo on-demand transaction value", grid["GoTo on-demand GTV"], BLUE, "Buying through platforms"),
+         ("Bank Indonesia e-commerce", grid["Bank Indonesia e-commerce"], BLUE, "Buying through platforms"),
+         ("Momentum Works marketplace estimate", grid["Momentum Works Indonesia GMV"], BLUE, "Buying through platforms"),
+         ("Bukalapak transaction value", wot.loc["Bukalapak Group", "g_tv_pct"], BLUE, "Buying through platforms"),
+         ("Blibli third-party retail transaction value", wot.loc["Blibli 3P Retail", "g_tv_pct"], BLUE, "Buying through platforms"),
+         ("Tokopedia revenue", wot.loc["Tokopedia e-commerce segment", "g_revenue_pct"], ORANGE, "Figures that described a boom"),
+         ("BPS e-commerce value", grid["BPS e-commerce"], ORANGE, "Figures that described a boom"),
+         ("BPS online sellers (count)", sellers, ORANGE, "Figures that described a boom")]
 order = [i for i in items if i[3] == "Figures that described a boom"] + [items[0]] + sorted([i for i in items if i[3] == "Buying through platforms"], key=lambda t: -t[1])
 order = sorted(order[:3], key=lambda t: -t[1]) + order[3:]
 fig, ax = plt.subplots(figsize=(7.2, 3.9))
@@ -93,7 +103,7 @@ ax.barh(y0 - h / 2, [g_[1] for g_ in groups], height=h, color=BLUE, zorder=3, la
 for y, g_ in zip(y0, groups):
     ax.text(g_[2] + 1, y + h / 2, f"{g_[2]:.1f}", va="center", color=INK, fontsize=8.5); ax.text(g_[1] + 1, y - h / 2, f"{g_[1]:.1f}", va="center", color=INK, fontsize=8.5)
 ax.set_yticks(y0); ax.set_yticklabels([g_[0] for g_ in groups]); ax.tick_params(axis="y", length=0); ax.grid(axis="y", visible=False)
-ax.set_xlim(0, 70); ax.set_xlabel("Percent of each group of sellers"); ax.legend(loc="lower left", bbox_to_anchor=(-0.02, 1.0), ncol=1, frameon=False, fontsize=8.5)
+ax.set_xlim(0, 70); ax.set_xlabel("Percent"); ax.legend(loc="lower left", bbox_to_anchor=(-0.02, 1.0), ncol=1, frameon=False, fontsize=8.5)
 fig.tight_layout(); save(fig, "fig5_4_extra_sellers.png")
 
 # ---- Figure 5.5: marketplace use and financial statements --------------------------------------------------------------------------------

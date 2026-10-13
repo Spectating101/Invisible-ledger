@@ -18,7 +18,7 @@ Table 3.1 lists the terms used throughout the thesis, each defined once, with th
 | Revenue | R | What the platform recognizes as its own income in its accounts. |
 | Take rate | m | Revenue divided by transaction value: the share of each sale that the platform keeps. |
 | Customer incentives | | Discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line. |
-| Invisible wedge | W | Transaction value minus revenue: what a revenue figure leaves out. It is defined for one platform; no national total is computed. |
+| Invisible wedge | W | Transaction value minus revenue: what a revenue figure leaves out. It is defined for one platform. The thesis sums it over three platforms in Indonesia for 2023 and computes no national total. |
 | Ecosystem ratio | E | The wedge divided by revenue. It equals one divided by the take rate, minus one. This is the author's own measure, built for this thesis. |
 | Growth | g | The change from one year to the next as a share of the first year: 0.09 means 9 percent. |
 | Growth divergence | D | Growth of revenue minus growth of transaction value in the same year: 0.62 means 62 percentage points. |
