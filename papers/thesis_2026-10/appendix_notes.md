@@ -120,8 +120,16 @@ Growth in revenue and growth in transaction value had a correlation of 0.10 in t
 
 The quarterly sample is Grab on-demand, GoTo on-demand and Blibli against Sea, Airbnb, Booking, DoorDash, eBay, Etsy, Lyft and Uber. Airbnb and Booking use trailing four-quarter sums because they book revenue at check-in. DoorDash pairs ending in 2025Q4 or later are dropped because of an acquisition.
 
+Details moved from Chapter 5. In the pairs of the Indonesian and regional group, the take rate stayed within about 10 percent (0.10 in log terms) in one third of pairs, against 67 to 69 percent in the foreign groups. The version of the test with growth divergence in points has 26 foreign platforms because Ozon has no pair in which both years pass the own-goods rule.
+
 The comparison in points of the take rate (exploratory, `h1_points_vs_log.py`): median yearly change 1.01 points in the Indonesian and regional group and 0.98 points in the foreign group (26 platforms), Mann–Whitney p = 0.65; median share kept 1.59 percent against 16.93 percent.
 
+
+### B.2 Where the 2023 break sits (exploratory)
+
+At the top of the size distribution, sellers with revenue above Rp50 billion a year (about US$3.4 million at the 2022 rate) were 0.5 percent of BPS's marketplace sellers in 2022 and held between 18 and 39 percent of the marketplace slice's value, resting on 19 sample rows (`tables/part5_checks.json`).
+
+Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) with the share of new sellers and 0.35 (p = 0.04) with growth in sample size. In 23 provinces count growth exceeded what entry can explain, and these provinces carry 98.5 percent of the increase. The standard error of the national count implied by BPS's published relative standard errors is about 1.4 percent. The 306 thousand newly counted sellers are about 4.6 times the standard error of the change, and 2.3 times if the true error were twice as large (`tables/bps_frame_check.json`, `tables/rq_closing_checks.json`).
 
 ## Appendix C. Registered tests and their outcomes
 

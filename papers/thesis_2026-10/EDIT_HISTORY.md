@@ -242,3 +242,13 @@ Still open from the audit: the two Chapter 1 sentences, the Chapter 3 wording of
 ### Check run after the Table 5.2 and heading changes (13 Oct 2026)
 
 Banned words, openers, sentence length, cross-references (sections, tables, appendices) and 22 number checks against the committed tables all pass, apart from two cells in Table 5.3 that I had rounded from already-rounded shares: Tokopedia's higher-fee share is 76 percent (not 77) and Grab 2022–24's commerce share is 42 percent (not 43). Fixed; the note under the table now says a row can add to 99 or 101. The earlier audit had matched these two cells at one decimal, so a check at whole-number rounding was the one that caught them.
+
+### Fixes after the assessment (13 Oct 2026)
+
+Done, at the researcher's request ("fix those", skipping what is not important):
+- Chapter 1: "overstated growth" replaced (revenue grew faster than the commerce behind it; the seller-count finding stays in its own sentence); the Tokopedia 60 percent now reads "in Tokopedia's accounts"; citations added for the figures (AFP, BPS, Bank Indonesia, GoTo, UNCTAD, Ministry of Finance); 1.3 now mentions market values.
+- Chapter 2: OECD spelled out at first use. Chapter 3: H1 sentence names the group (Indonesian and regional) and the log measure; 3.4 mentions market values.
+- Chapter 4: the entry-test rule no longer repeats Chapter 3's arithmetic; the list of further checks is shorter.
+- Chapter 5: about 3,700 words (from 4,000); paragraphs split, status tags kept only where a result is registered or exploratory ("unmarked results are descriptive"); the first line of 5.2 names the group; the thin-slice explanation now rests on arithmetic (log change is roughly the change in points over the take rate) and not on a non-significant test; 5.4 says what the data show and do not show about investors; the top-bracket detail, the provinces and the one-third/two-thirds figure moved to Appendix B.
+
+Not done (not judged important now): figures, bibliography, YZU template, Chapters 6 and 7.
