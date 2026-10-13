@@ -48,12 +48,10 @@ This literature shows that third-party reports help compliance and that platform
 
 ## 2.4 The research gap
 
-Section 2.1 explained why transaction value can exceed revenue and why accounting can move the difference. Section 2.2 explained how online selling is measured and how a count of sellers can break. Section 2.3 explained how third-party records are used in tax. Each field answers its own question. None of the studies reviewed here measures how closely platform figures follow the activity behind them, or whether national figures do.
+Each field reviewed here answers its own question, and none measures how closely platform figures follow the activity behind them, or whether national figures do. Three questions remain open.
 
-Three questions remain open.
-
-1. **How far does revenue follow commerce?** Section 2.1 gives the reasons why a platform's revenue can part from the commerce it carries. It does not say when this happens or by how much.
-2. **Do platform figures follow national growth?** Section 2.2 shows that figures can differ. Whether platform growth tracks national growth depends on where national growth comes from, and on whether a count of online sellers keeps pace with entry.
-3. **How far do rules built on platform records reach?** Section 2.3 shows that platform records can support tax rules. It does not say how much of the online economy those records cover.
+1. **How far does revenue follow commerce?** Section 2.1 gives reasons why revenue can part from commerce, but not when or by how much.
+2. **Do platform figures follow national growth?** Section 2.2 shows that figures can differ. Whether platform growth tracks national growth depends on where the growth comes from, and on whether a count of sellers keeps pace with entry.
+3. **How far do rules built on platform records reach?** Section 2.3 shows that platform records can support tax rules, but not how much of the online economy they cover.
 
 Answering them takes a platform's revenue and transaction value over several years, and a national survey whose underlying answers can be examined. Indonesia offers both. Chapter 3 turns the three questions into measures and hypotheses.

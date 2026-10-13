@@ -8,8 +8,8 @@ A stand-in works only while a condition holds. For the inner link, the condition
 
 The thesis asks three questions about these links. This chapter turns each into a measure, a test or both.
 
-1. **How far does revenue follow commerce?** This is the inner link. It asks how much of the commerce a platform's revenue leaves out, and whether revenue keeps pace with the commerce from year to year. Section 3.1 defines the measures, and Section 3.2 states the hypothesis, H1.
-2. **Do platform figures follow national growth?** This is the outer link. National online growth can come from existing sellers selling more or from new sellers entering, and new sellers often work in channels that platform records do not cover. The question asks which kind of growth dominates, and whether a rise in the count of sellers really means first-time entry. Section 3.2 states the hypothesis, H2, and Section 3.3 sets out the entry test.
+1. **How far does revenue follow commerce?** This is the inner link: how much commerce revenue leaves out, and whether revenue keeps pace with commerce from year to year. Section 3.1 defines the measures, and Section 3.2 states H1.
+2. **Do platform figures follow national growth?** This is the outer link. National online growth can come from existing sellers selling more or from new sellers entering, and new sellers often work in channels that platform records do not cover. The question asks which kind of growth dominates, and whether a rise in the count of sellers really means first-time entry. Section 3.2 states H2, and Section 3.3 sets out the entry test.
 3. **How far do rules built on platform records reach?** Governments use platform records to tax and regulate online selling, and a rule reaches only the sellers that the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
 
 ## 3.1 Terms and measures

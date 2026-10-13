@@ -282,3 +282,12 @@ The first pass ran mechanical checks only. A linear reading found:
 - **Chapter 3:** "the survey" was used before it was named (BPS). Question 2's elaboration did not match its heading; it now says why new sellers outside platform records matter.
 - **Chapter 4:** "only Tokopedia gives both for Indonesia" was wrong for Blibli and Bukalapak, which are Indonesian companies; the opening now lists each series' scope. "Only one reports incentives" was wrong (Tokopedia, Grab and GoTo on-demand do; Blibli and Bukalapak do not). "Nobody follows the same seller" became "the files cannot". One sentence I wrote ("no database holds these figures") could not be checked and was removed.
 - **Structure:** the proposal's Chapter 1 had only 1.1 and 1.2. Section 1.3 is my addition for the thesis, so its form is unconfirmed against the YZU template. The proposal's research gap named three things (how large, whether it persists, whether the choice changes the conclusion), not the three questions now in 2.4 and Chapter 3; Question 3 (rules) comes from the thesis extension. Flagged to the researcher.
+
+### Repetition cut in Chapters 1 to 4 (13 Oct 2026)
+
+Main points that appeared more than once, and where each now lives:
+- **Chapter 1:** the "figures differ" point is in paragraph 2 (growth) and paragraph 7 (size) only. The investor and government stakes are in paragraph 5 once; the "rule reaches only platform sellers" point moved to 1.2, where it belongs to the tax contribution. Paragraph 6 lost its three-item summary of the literature (Chapter 2's job). 1.2 lost its closing sentence (the 1.1 ambition) and its repeated "why revenue moved" and "revenue depends on the measure" sentences. The text before 1.1 is now about 560 words (from 840).
+- **Chapter 2:** 2.4 no longer re-summarises 2.1 to 2.3, because each section already ends with what it shows and leaves out; the list items are one sentence each.
+- **Chapter 3:** list items shortened.
+- **Chapter 4:** the scope of each series is stated once, in Table 4.1; the opening gives the headline and the paragraph after the table no longer repeats it. The file limits are stated in the opening only as "cannot follow the same seller"; 4.4 keeps the detail.
+- **Kept on purpose:** the short definitions of transaction value and revenue in Chapters 2 and 3 (each chapter must stand alone, which conflicts with "define once"; the researcher to decide), and the three questions in both 2.4 and Chapter 3.
