@@ -16,6 +16,8 @@ The research question asks how much activity remains invisible when platforms ar
 2. **Whether the choice of figure changes the conclusion about growth:** H2, the entry test and a comparison of national figures (Sections 3.4 to 3.6).
 3. **How far rules built on platform records reach:** how online selling divides between marketplaces and other channels (Section 3.6).
 
+The three objectives set in Chapter 1 sit inside this map. Measuring the wedge and tracing its large moves serve the first question, and comparing platform figures with national and payment figures serves the second. The third question is answered by a further analysis.
+
 ## 3.1 Terms and rules for comparison
 
 Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in the formulas.
@@ -63,8 +65,6 @@ E_it = W_it / R_it = 1 / m_it − 1                     (2)
 
 where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale.
 
-Two established results explain why the ratio can be large and why it can move. Platform pricing and business models mean that revenue need not follow the commerce a platform carries (Rochet and Tirole 2003; Hagiu and Wright 2015). Revenue recognition means that the share recorded as revenue depends on whether the platform acts as principal or agent (International Accounting Standards Board 2014).
-
 A single ratio does not show whether the relationship holds over time, so the thesis defines growth divergence:
 
 ```
@@ -104,6 +104,8 @@ m_it = f_it − s_it                                    (6)
 where f_it is the fee rate and s_it the incentive rate, both measured against transaction value. A take rate can rise because a platform charges more or because it spends less on discounts and vouchers. Accounting rules normally deduct such incentives from revenue (International Accounting Standards Board 2014). So a cut in incentives raises revenue even when no fee changes.
 
 Equations (5) and (6) together divide a movement in revenue into more commerce, higher fees and lower incentives. A change in the mix of a company's businesses is a further source, read from its reports where they describe one. The split shows how a movement happened. It does not show why the company chose it, and company explanations are read as reports.
+
+Equation (6) also shows where a rule acts. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate. Chapter 6 sets Indonesia's recent rules against these parts of the take rate.
 
 ## 3.4 Hypotheses
 

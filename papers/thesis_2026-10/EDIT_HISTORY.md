@@ -378,3 +378,14 @@ The researcher kept Chapter 2 as applied (three-part sections, gap anchored to t
 - **Added:** equations (5) and (6), splitting revenue growth into volume, fee rate and incentive rate (Objective 2); equation (7), the H2 margin identity with its decision rule; a new 3.6 with Table 3.3 (tracing, channels and reach, national figures, market values) and equation (8) with the two registered market-value predictions, anchored to the investor line in 2.1. Table 3.1 gains the fee rate and the incentive rate.
 - **Form:** first draft too dense (paragraphs up to 181 words), a second too spread (64 paragraphs, many one-sentence pieces); the applied version joins the second without changing a sentence (checked by script): 51 paragraphs, longest 92 words, "where" definitions joined to what each measure means. Sections renumbered 3.1 to 3.6; no other chapter cites a Chapter 3 section number.
 - **Open:** the researcher finds the chapter trustworthy but heavy to read, probably because of its eight equations and many symbols; accepted for now, cold read due. If still heavy, consider moving equation (8) to Chapter 4. Chapter 4 now repeats the revenue split (4.2) and the market regression (4.5) and should be cut to data and procedure; Chapter 1.3 may add the further analyses to its line on Chapter 3. One sentence is the author's reasoning, not a cited finding: "Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end."
+
+### Cross-chapter read of Chapters 1 to 3 (13 Oct 2026)
+
+Read as one text after Chapter 3 was accepted. The line holds (Chapter 1 names what an answer needs, each Chapter 2 section stops there, Chapter 3 supplies the tools; the research question and the three gap questions match). Overlaps left by chapter-by-chapter work, fixed with the researcher's approval:
+- Chapter 2's closing paragraph repeated Chapter 3's map; cut, and the handover moved into the sentence that introduces the three questions. Chapter 2 now ends on question 3.
+- Chapter 1's three objectives and the three gap questions were never linked; Chapter 3 now says which objective serves which question, and that the third question is answered by a further analysis.
+- Chapter 1.2 promises to set each recent rule against the figure it acts on; Chapter 3.3 now says where a rule acts in equation (6) (commission caps on the fee rate, discount limits on the incentive rate), pointing to Chapter 6.
+- Chapter 3.2's "two established results" paragraph repeated 3.1 and 3.4; cut.
+- Chapter 1.3 now names the four further analyses; Chapter 2's intro says "online sales across the country" where "the sales" was ambiguous.
+- Left for the reference pass: "investors and analysts often read revenue as a sign of commerce" (2.1) has no source, and Chapter 3.6 relies on it.
+- Practice from now on: a cross-chapter read after each chapter is accepted.
