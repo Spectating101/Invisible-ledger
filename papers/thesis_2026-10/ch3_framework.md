@@ -55,7 +55,7 @@ Revenue depends on the take rate, and the take rate depends on fees, on discount
 
 > **H1.** Transaction value and revenue recognized by the same platform grow in proportion over time.
 
-Growth rates never match exactly, so H1 is tested by asking whether growth divergence among Indonesian platforms is unusually large. The yardstick is growth divergence among listed platforms abroad, where revenue and transaction value broadly move together. Chapter 4 describes both groups.
+Growth rates never match exactly, so H1 is tested by asking whether growth divergence among Indonesian and regional platforms, measured in logs, is unusually large. The yardstick is growth divergence among listed platforms abroad, where revenue and transaction value broadly move together. Chapter 4 describes both groups.
 
 H2 splits national growth into the part that comes from existing sellers selling more and the part that comes from more sellers entering. BPS reports both the number of businesses selling online and their total online sales, so the split can be made from published figures. Growth from new sellers can take place in channels that platform records do not cover, such as messaging and social media, which most sellers use. Platform figures can miss that growth even when every platform reports accurately.
 
@@ -73,7 +73,7 @@ If the share of new sellers falls short, part of the rise is something other tha
 
 ## 3.4 Further analyses
 
-Two further analyses support the hypotheses without forming hypotheses of their own. The first divides national growth by sales channel, to show how much of it took place inside the marketplace channel. The second compares marketplace sellers with other sellers on whether they keep financial statements, which bears on what platform records can add to tax administration. A separate analysis, developed in Chapter 6, estimates how many sellers a rule based on platform records can reach. Chapter 4 also describes how revenue movements are traced to fees and discounts, and how the platform evidence is compared with national and payment figures.
+Two further analyses support the hypotheses without forming hypotheses of their own. The first divides national growth by sales channel, to show how much of it took place inside the marketplace channel. The second compares marketplace sellers with other sellers on whether they keep financial statements, which bears on what platform records can add to tax administration. A separate analysis, developed in Chapter 6, estimates how many sellers a rule based on platform records can reach. Chapter 4 also describes how revenue movements are traced to fees and discounts, how the platform evidence is compared with national and payment figures, and how markets value platform growth.
 
 ## 3.5 The tests together
 
