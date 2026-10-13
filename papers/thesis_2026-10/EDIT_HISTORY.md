@@ -291,3 +291,7 @@ Main points that appeared more than once, and where each now lives:
 - **Chapter 3:** list items shortened.
 - **Chapter 4:** the scope of each series is stated once, in Table 4.1; the opening gives the headline and the paragraph after the table no longer repeats it. The file limits are stated in the opening only as "cannot follow the same seller"; 4.4 keeps the detail.
 - **Kept on purpose:** the short definitions of transaction value and revenue in Chapters 2 and 3 (each chapter must stand alone, which conflicts with "define once"; the researcher to decide), and the three questions in both 2.4 and Chapter 3.
+
+### Independence read correctly (13 Oct 2026)
+
+The researcher's clarification: a chapter or paragraph standing on its own means it does its own job without leaning on a neighbour, not that it repeats what came before. I had read it as "restate the terms". Reversed: Chapter 2 no longer re-defines transaction value, revenue and the wedge (Chapter 1 introduces them and Table 3.1 defines them); Chapter 3's opening names the three figures in one line and leaves definitions to Table 3.1; the three questions in Chapter 3 now carry only their link and the section that answers them, while 2.4 carries the reasons. The earlier "kept on purpose" note on repeated definitions is withdrawn.

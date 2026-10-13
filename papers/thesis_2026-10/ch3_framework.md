@@ -1,6 +1,6 @@
 # Chapter 3. Framework and Hypotheses
 
-Three figures describe the same online economy at three scales. A platform's revenue is what it keeps from the sales it handles. Its transaction value is the total of those sales. National online commerce is the total across all sellers, whether or not they use a platform. Each figure is used as a stand-in for the next one out. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
+Three figures describe the same online economy at three scales: a platform's revenue, the transaction value of the sales it handles, and national online commerce. Each is used as a stand-in for the next one out. Investors read revenue as a sign of the commerce a platform carries. Platform figures are then read as a sign of what is happening in the national total.
 
 [Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
 
@@ -8,9 +8,9 @@ A stand-in works only while a condition holds. For the inner link, the condition
 
 The thesis asks three questions about these links. This chapter turns each into a measure, a test or both.
 
-1. **How far does revenue follow commerce?** This is the inner link: how much commerce revenue leaves out, and whether revenue keeps pace with commerce from year to year. Section 3.1 defines the measures, and Section 3.2 states H1.
-2. **Do platform figures follow national growth?** This is the outer link. National online growth can come from existing sellers selling more or from new sellers entering, and new sellers often work in channels that platform records do not cover. The question asks which kind of growth dominates, and whether a rise in the count of sellers really means first-time entry. Section 3.2 states H2, and Section 3.3 sets out the entry test.
-3. **How far do rules built on platform records reach?** Governments use platform records to tax and regulate online selling, and a rule reaches only the sellers that the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
+1. **How far does revenue follow commerce?** This is the inner link. Section 3.1 defines the measures, and Section 3.2 states H1.
+2. **Do platform figures follow national growth?** This is the outer link. Section 3.2 states H2, and Section 3.3 sets out the entry test of the seller count behind it.
+3. **How far do rules built on platform records reach?** This sits beside the chain, because a rule reaches only what the records cover. Section 3.4 introduces the analysis, and Chapter 6 develops it.
 
 ## 3.1 Terms and measures
 
