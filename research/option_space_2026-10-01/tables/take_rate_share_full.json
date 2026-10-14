@@ -1,0 +1,16 @@
+{
+ "Indonesian and regional": {
+  "pairs": 15,
+  "platforms": 5,
+  "median_take_rate_share_of_revenue_move_pairs": 0.658,
+  "median_take_rate_share_of_revenue_move_platforms": 0.658,
+  "median_take_rate_share_of_wedge_move_pairs": 0.055
+ },
+ "Foreign": {
+  "pairs": 139,
+  "platforms": 26,
+  "median_take_rate_share_of_revenue_move_pairs": 0.25,
+  "median_take_rate_share_of_revenue_move_platforms": 0.264,
+  "median_take_rate_share_of_wedge_move_pairs": 0.054
+ }
+}
