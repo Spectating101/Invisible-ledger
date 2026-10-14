@@ -116,7 +116,7 @@ A third analysis builds on the first two and is developed in Chapter 6. It count
 
 The third objective, to compare the platform evidence with national and payment figures, rests on the sources that Table 4.3 lists, with what each one counts. Beyond the rules of Section 3.6, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
 
-The 2023 file, which describes 2022, lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis also sets quarterly platform growth beside quarterly household spending growth.
+The 2023 file, which describes 2022, lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis sets the 2023 growth of six measures of buying through platforms beside household spending, each in its own unit. It does the same with quarterly platform growth.
 
 **Table 4.3. Sources compared in Objective 3**
 

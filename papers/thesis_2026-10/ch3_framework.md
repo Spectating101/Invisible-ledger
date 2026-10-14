@@ -151,7 +151,7 @@ H2 rests on BPS's count of businesses selling online, and a rise in that count c
 
 The published figures cannot tell the two apart. The survey can, because it asks every seller in which year it began selling online. The thesis checks what the count contains with a test written down before the survey files were opened.
 
-> **Entry test.** In the survey file that describes 2023, at least 21.5 percent of online sellers must report that they began selling online in 2023.
+> **Entry test.** In BPS's survey of online sellers for 2023, at least 21.5 percent of online sellers must report that they began selling online in 2023.
 
 The 21.5 percent threshold comes from arithmetic. The published count of online sellers rose by 27.4 percent in 2023. Suppose every extra seller was new and no seller stopped. Then for every 100 sellers a year earlier there were 127.4, and 27.4 of those were new. New sellers would make up 21.5 percent of all sellers, which is 27.4 divided by 127.4.
 
@@ -170,19 +170,11 @@ Four further analyses complete the framework without forming hypotheses of their
 | Analysis | What it asks | Main evidence |
 |---|---|---|
 | Tracing large movements | What moved revenue when it parted from transaction value? | Equations (5) and (6), applied to company reports |
+| Market values | Do markets value growth from more commerce differently from growth in the take rate? | Year-end market values of listed platforms |
 | Channels and reach | How much online selling passes through marketplaces, and how far can rules built on platform records reach? | BPS's channel shares and survey files |
 | Comparing national figures | Do national figures tell the same story of growth? | BPS, Bank Indonesia, industry estimates and household spending |
-| Market values | Do markets value growth from more commerce differently from growth in the take rate? | Year-end market values of listed platforms |
 
 Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
-
-The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Research on tax shows that reports from a third party improve compliance where they exist (Kleven et al. 2011).
-
-The reach of a rule built on platform records depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
-
-Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add. Chapter 6 develops the reach of the rules.
-
-The comparison of national figures extends the outer link in Figure 3.1. Platform reports, BPS's survey, Bank Indonesia's statistics and industry estimates count different things. Their values change with the definition used (UNCTAD 2024). If two national figures move in opposite directions in the same year, the conclusion about growth depends on the figure chosen. The thesis compares their growth rates, each in its own unit, and compares levels only after reconciling what each source covers. Household spending, from the national accounts, serves as a further point of comparison.
 
 The market-value analysis asks whether investors, who often read revenue as a sign of commerce (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported revenue (Trueman, Wong and Zhang 2000).
 
@@ -194,4 +186,14 @@ The thesis relates the yearly change in a platform's market value, MV, to the tw
 Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + error      (8)
 ```
 
-where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m. Chapter 4 describes the data and methods behind each test and analysis.
+where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m.
+
+The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Research on tax shows that reports from a third party improve compliance where they exist (Kleven et al. 2011).
+
+The reach of a rule built on platform records depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
+
+Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add. Chapter 6 develops the reach of the rules.
+
+The comparison of national figures extends the outer link in Figure 3.1. Platform reports, BPS's survey, Bank Indonesia's statistics and industry estimates count different things. Their values change with the definition used (UNCTAD 2024).
+
+If two national figures move in opposite directions in the same year, the conclusion about growth depends on the figure chosen. The thesis compares their growth rates, each in its own unit, and compares levels only after reconciling what each source covers. Household spending, from the national accounts, serves as a further point of comparison. Chapter 4 describes the data and methods behind each test and analysis.

@@ -10,9 +10,9 @@ The share a platform keeps is not fixed. When it rises, revenue can grow even wh
 
 Platform and online sales figures carry weight well beyond Indonesia. Businesses in 43 economies sold almost US$27 trillion online in 2022, by the United Nations' estimate (UNCTAD 2024), and platforms carry a growing part of that trade. Investors value the companies that run them largely on reported growth. If part of that growth is a platform keeping more of each sale, then part of the price is a pricing decision. Governments use the same figures to size their digital economies and to tax online sellers.
 
-Research explains why platform revenue and national sales figures can differ, but not when a figure stops moving with the activity it represents, or by how much. Answering that takes two things that are rarely found together: a platform's revenue and transaction value over several years, and a national count of online sellers whose underlying answers can be examined.
+Research explains why platform revenue and national sales figures can differ, but not when a figure stops moving with the activity it represents, or by how much. Answering that takes two things that are rarely found together. One is a platform's revenue and transaction value over several years. The other is a national count of online sellers whose underlying answers can be examined.
 
-In Indonesia, several platforms report revenue and transaction value each year, and BPS asks online sellers when they began and how their sales changed. The stakes are concrete. For 2024, BPS and the central bank give about US$81 billion and about US$31 billion for online sales (BPS 2025; Bank Indonesia 2025), a difference of more than two to one. The government is writing rules on platform commissions, discounts and tax. Its levy on marketplace sellers would raise about US$60 million a year on one measure of the market and about US$300 million on another, before exemptions (Ministry of Finance of the Republic of Indonesia 2025; author's calculation). Most online sellers work through messaging and social media, outside the marketplaces, so platform and survey figures are likely to part. The events of 2023 suggest that they did.
+In Indonesia, several platforms report revenue and transaction value each year, and BPS asks online sellers when they began and how their sales changed. The stakes are concrete. For 2024, BPS gives about US$81 billion for online sales and the central bank about US$31 billion, more than two to one (BPS 2025; Bank Indonesia 2025). The government is writing rules on platform commissions, discounts and tax. Its levy on marketplace sellers would raise about US$60 million a year on one measure of the market and about US$300 million on another, before exemptions (Ministry of Finance of the Republic of Indonesia 2025; author's calculation). Most online sellers work through messaging and social media, outside the marketplaces, so platform and survey figures are likely to part. The events of 2023 suggest that they did.
 
 ## 1.1 Research question and objectives
 
@@ -24,7 +24,7 @@ The research question is addressed through three objectives. The first is to mea
 
 The thesis tests two hypotheses. H1 says that a platform's revenue grows in proportion to its transaction value. H2 says that national e-commerce growth comes mainly from more businesses selling online, and less from higher sales per business. An entry test then asks whether a rise in the count of online sellers comes from sellers entering for the first time. A further analysis estimates how many sellers a rule built on platform records can reach.
 
-In brief, revenue shows only a small part of the commerce that platforms carry, and in BPS's survey the marketplaces carry only about a fifth of online sales value. In Indonesia, platform revenue also grew faster than the commerce behind it, mainly because platforms kept a larger share of each sale and not because buyers bought more. National growth came mainly from more sellers, as H2 states, but about half of the 2023 rise in the count of sellers is not explained by first-time entry.
+In brief, revenue shows only a small part of the commerce that platforms carry. In BPS's survey, the marketplaces carry only about a fifth of online sales value. In Indonesia, platform revenue also grew faster than the commerce behind it, mainly because platforms kept a larger share of each sale and not because buyers bought more. National growth came mainly from more sellers, as H2 states, but about half of the 2023 rise in the count of sellers is not explained by first-time entry.
 
 ## 1.2 Contributions
 
@@ -36,7 +36,7 @@ For those who measure the economy, the thesis shows where the commerce outside t
 
 For those who design tax and regulation, the thesis measures how far rules based on platform records reach. A rule built on platform records reaches only the sellers who use platforms, so where most sellers work outside them, such rules cover a minority. The thesis also sets each recent rule, from the cap on ride-hailing commissions to the limit on discounts, against the figure it acts on. Several other countries have adopted similar rules, so the same question applies there.
 
-Earlier work has already compared platform transaction values with national e-commerce statistics. The contribution of this thesis is the connected evidence for one country, drawn from the platforms' accounts, the sellers' own survey responses and the rules that act on those figures.
+Earlier work has already compared platform transaction values with national e-commerce statistics. The contribution of this thesis is connected evidence for one country. It draws on the platforms' accounts, the sellers' own survey responses and the rules that act on those figures.
 
 ## 1.3 Structure of the thesis
 

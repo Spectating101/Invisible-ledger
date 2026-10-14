@@ -50,7 +50,7 @@ Left out after examination: DDL, JD, Jumei, LQDT, NEGG and VIPS (own goods are m
 | Grab on-demand | 4 | 0.20 | 0.50 |
 | Tokopedia e-commerce segment | 1 | 0.52 | 0.00 |
 
-### A.3 The seven windows traced (Table 5.3 in full)
+### A.3 The seven windows traced (Table 5.4 in full)
 
 Shares are of the log growth of revenue. Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and are marked `out` of the main sample in the panel. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
 
@@ -68,7 +68,7 @@ Tokopedia, 2022–23, line by line (Rp million, `tables/tokopedia_segment.csv`):
 
 ### A.4 Wedge and ecosystem ratio by platform-year, Indonesian series
 
-Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.1 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Source: `tables/take_rate_levels.csv`.
+Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.2 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Source: `tables/take_rate_levels.csv`.
 
 | Series | Year | Transaction value | Revenue | Wedge | Take rate (%) | Ecosystem ratio | Label |
 |---|---|---|---|---|---|---|---|
@@ -94,7 +94,7 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 
 ### B.1 The checks
 
-The main test is in Table 5.2. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`.
+The main test is in Table 5.3. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`.
 
 | Check | Indonesian and regional (median) | Foreign (median) | Mann–Whitney p | Shuffle p |
 |---|---|---|---|---|
@@ -111,6 +111,7 @@ The main test is in Table 5.2. This appendix lists each check with both p-values
 | Without Grab on-demand | 0.194 | | 0.0094 | 0.0166 |
 | Without Tokopedia e-commerce segment | 0.169 | | 0.0164 | 0.0409 |
 | Three marketplaces against the 8 chosen first, comparing pairs of years, absolute growth divergence in points | 38.917 | 7.105 | 0.0022 | 0.0606 |
+| Three marketplaces against the 8 chosen first, one median per platform, absolute growth divergence in points (claims ledger C47, `build_numbers.py`) | | | 0.0242 | |
 | Three marketplaces against the 8 chosen first, comparing pairs of years, absolute growth divergence in points (without Sea) | 38.917 | 4.192 | <0.0001 | 0.0083 |
 | Three marketplaces against the 8 chosen first, comparing pairs of years, absolute change in log take rate | 0.252 | 0.055 | 0.0037 | 0.0303 |
 | Three marketplaces against the 8 chosen first, comparing pairs of years, absolute change in log take rate (without Sea) | 0.252 | 0.033 | 0.0001 | 0.0167 |
