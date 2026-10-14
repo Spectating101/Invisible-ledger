@@ -20,8 +20,9 @@ grab = P[P.firm == "Grab"].groupby("year")[["V", "R"]].sum().reset_index().assig
 goto = P[(P.firm == "GoTo") & (P.seg == "On-demand")][["year", "V", "R"]].assign(firm="GoTo on-demand")
 reg = pairs(pd.concat([grab, goto])[lambda d: d.R > 0])[["firm", "dlnV", "dlnm", "m0", "m"]]
 ext = T[T.set == "EXT_clean"].assign(dlnV=lambda d: d.lnV, m0=lambda d: d.m0_pct / 100, m=lambda d: d.m1_pct / 100)[["firm", "dlnV", "dlnm", "m0", "m"]]
-s = S[(S.flag_1p != "exclude") & S.g_m.notna() & S.g_V.notna()].rename(columns={"entity": "firm"}).sort_values(["firm", "year"])
-s["m0"] = s.groupby("firm").m.shift()
+s = S.rename(columns={"entity": "firm"}).sort_values(["firm", "year"])
+s["m0"] = s.groupby("firm").m.shift()  # previous year's take rate, taken before any row is filtered out
+s = s[(s.flag_1p != "exclude") & s.g_m.notna() & s.g_V.notna()]
 new = s.rename(columns={"g_V": "dlnV", "g_m": "dlnm"})[["firm", "dlnV", "dlnm", "m0", "m"]].dropna(subset=["m0"])
 
 def shares(d):
