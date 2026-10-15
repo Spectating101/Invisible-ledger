@@ -6,7 +6,9 @@ The framework tests each figure against the activity it is used to represent, as
 
 Figure 3.1 places the three quantities inside one another. Revenue sits inside platform commerce, because a platform keeps only part of each sale. Platform commerce sits inside all online commerce, because many sellers trade outside platforms. The first hypothesis, H1, tests the inner link between revenue and platform commerce. The second, H2, tests the outer link between platform commerce and national online commerce.
 
-[Figure 3.1 to be drawn: three nested circles, with revenue inside platform commerce inside all online commerce, H1 on the inner link and H2 on the outer link.]
+![Figure 3.1](figures/fig3_1_two_links.png)
+
+**Figure 3.1. Three nested quantities and the two links.** Revenue sits inside platform commerce, which sits inside all online commerce. H1 tests the inner link and H2 the outer link.
 
 *Note:* The figure is illustrative, and the sizes are not to scale. The platform circle differs from the marketplace channel in the survey of online sellers run by BPS, the national statistics office.
 
@@ -121,7 +123,7 @@ Two hypotheses follow from the research question. H1 asks whether revenue follow
 
 The share of transaction value that a platform keeps is not fixed. A platform sets its charges on both sides of the market together, and both the level and the split are choices (Rochet and Tirole 2003). Platforms often hold down the price to one side to draw it in. They can raise that price once both sides have joined (Evans and Schmalensee 2016).
 
-Accounting rules move the share in two ways. The discounts a platform pays for come out of its revenue. A platform that sells goods itself records more of each sale than one that only arranges it (International Accounting Standards Board 2014; Hagiu and Wright 2015). Both can change as a platform changes its business model or scope.
+Accounting rules move the share in two ways. The discounts a platform pays for come out of its revenue. A platform that sells goods itself, a different business model (Hagiu and Wright 2015), records more of each sale than one that only arranges it (International Accounting Standards Board 2014). Both can change as a platform changes its business model or scope.
 
 Revenue follows transaction value only while the take rate holds steady, that is, while D stays near zero. In that case revenue would be a workable proxy for the commerce a platform carries, and the ecosystem ratio would not change. The first hypothesis states this case.
 
@@ -129,9 +131,9 @@ Revenue follows transaction value only while the take rate holds steady, that is
 
 Growth rates never match exactly, so H1 is tested by comparison. The test compares the size of yearly changes in the take rate, measured in logs as in equation (5), between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. Changes far larger in Indonesia would count against H1. Chapter 4 describes the two groups and the test.
 
-National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin. Trade economists split the growth of exports in the same way (Hummels and Klenow 2005).
+National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin. Trade economists split a country's exports in the same way, into more of each good and more kinds of goods (Hummels and Klenow 2005).
 
-The distinction matters for measurement. Growth driven by new sellers can take place in channels that platform accounts do not cover, such as social media and instant messaging, which BPS reports are widely used (BPS 2025). Platform figures can then miss that growth even when every platform reports accurately.
+The distinction matters for measurement. Growth driven by new sellers can take place in channels that platform accounts do not cover, such as social media and instant messaging, which BPS reports are widely used (BPS 2025a). Platform figures can then miss that growth even when every platform reports accurately.
 
 BPS publishes both the number of businesses selling online, N, and their total online sales value, Y. Since Y equals N times the sales per business, its growth in logarithms splits exactly in two:
 
@@ -176,7 +178,7 @@ Four further analyses complete the framework without forming hypotheses of their
 
 Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
 
-The market-value analysis asks whether investors, who often read revenue as a sign of commerce (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported revenue (Trueman, Wong and Zhang 2000).
+The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported earnings (Trueman, Wong and Zhang 2000).
 
 The two sources of growth need not be worth the same. Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end. A higher price to one side of a platform can also reduce how much that side uses it (Rochet and Tirole 2003).
 

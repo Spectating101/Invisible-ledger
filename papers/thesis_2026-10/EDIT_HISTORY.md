@@ -450,3 +450,40 @@ Found by checking Chapters 1 to 7 against each other and against the proposal. A
 **Assessment shown to the researcher (15 Oct, the drafter's own judgement):** proposal about 6/10, thesis as drafted about 8/10, ceiling 8.5 to 9 after the reference check, Figure 3.1, a cold read and the 6.5 scoring. Largest integrity risk: the unchecked reference list. Largest content risk for a finance degree: the finance part is thin (M2 an association, M1 failed, stock returns deferred); framing the finance contribution deliberately in 1.2 and 7.2 is the researcher's decision.
 
 **Branch note:** this work is on `claude/happy-pascal-uc2eya`, 49 commits ahead of `proposal/integrated-2026-09-16`, which AGENTS.md and this README still name as the working branch.
+
+### Fixes applied from the 15 Oct materials (15 Oct 2026, the researcher: "you can try and all, and we'll consolidate")
+
+Source of every change: `research/option_space_2026-10-01/materials_2026-10-15/FIX_LIST.md` and the files it points to.
+- **Chapters 1 to 5 (29 edits).**
+  - Citations split: BPS 2025a/2025b; Bank Indonesia 2023 with KabarBursa 2024 for the 2023 fall; GoTo 2024a (press release) and 2024b (annual report). Tokopedia's 53 percent is now "net revenue". New citations added for the social-media ban and TikTok Shop's closure.
+  - Trueman et al. is "beyond earnings"; Hummels and Klenow is levels; Kleven is "employers and banks". Hagiu and Wright moved; Table 4.3 now cites the tax office.
+  - 2.1's unsourced "investors read revenue as a sign of commerce" replaced with a sourced sentence (Bowen, Davis and Rajgopal 2002; Davis 2002).
+  - Two factual errors fixed: 5.1's ecosystem-ratio reading and 5.4's source of market values.
+  - Cold-read sentences fixed: 1 opening (share price), 4.7 (23.9 percent), 5.2 (thin take rates belong to the marketplaces), 5.3 (Tokopedia line count), 5.7 (the untraced 53 to 59 percent), 5.9 (rounded multiples).
+  - Figure 3.1 placed. 1.2 now states the registered market-value test. 4.8 now says where the rule evidence comes from.
+- **Chapter 6 draft rewritten on the checked facts.**
+  - The tax started on 1 Oct 2026 through Shopee, Tokopedia, Lazada and Blibli; food and ride apps are not designated.
+  - The seller record covers at most about 8 percent of online sellers.
+  - Grab is "6 percent of mobility GMV", about 2 percent of on-demand.
+  - Presidential Regulation 27/2026 released on 8 Oct.
+  - The discount rule binds all e-commerce operators.
+  - GoTo's take rate rose to about 22 percent from about 18.
+  - Fee events now cite named sources (Katadata's promotional page dropped).
+  - Li and Wang wording; the Philippines and OECD wording.
+  - "Since 2023" for the platform-data rule.
+  - Table 6.2: the tax-start row withdrawn, P5's three outcomes stated, the P1/P5 reading reworded.
+- **Chapter 7 draft.**
+  - 7.2 states ownership of the measures as Chapter 3 does, and states the market-value result.
+  - The tax record wording; 7.3 reports the withdrawn prediction.
+  - 7.4 adds the dropped proposal boundaries and names the survey files by round.
+  - 7.4 states the cap texts and food and ride apps as limits.
+  - 7.5 updated for the tax start and Lazada and TikTok Shop.
+- **Integrity records.**
+  - `PREREGISTRATION.md` addendum of 15 Oct withdraws the tax-start prediction: its outcome was public on 1 Oct, before the 2 Oct registration.
+  - Dated note on frozen Part 6.
+  - Appendix C rows split.
+  - Seven verified events added to `tables/src/policy_timeline_web.csv`; existing rows kept.
+- **New file:** `references.md`, 62 entries merged from the reference check, with 14 details still marked [UNVERIFIED]. A script checked that every in-text key has an entry.
+- **Checks:** `rebuild_all.sh` ran clean (209 checks passed in the log, none failing). Its float-noise rewrites of tables and exhibits were reverted.
+- **Not changed, on purpose:** the 1.1 ambition paragraph (bold by design under the writing rules), the citation style (APA until assembly) and `cap_prediction.py` (a registered file; its "< 6%" note is superseded by the Part 6 dated note).
+- **Still open:** the foreign platforms' incentive accounting check (agent stopped at the usage limit; to resume), the 6.5 scoring from 27 Oct, the Chinese abstract and the YZU assembly.

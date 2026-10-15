@@ -70,7 +70,7 @@ Equation (8) is estimated with a fixed effect for each year, which removes what 
 
 ## 4.6 The survey files and H2
 
-The national evidence comes from the survey of online sellers that BPS runs. BPS publishes the number of businesses selling online, their total online sales and the shares by channel (BPS 2025). The survey rounds are named for the survey year, but their questions refer to the year before. The thesis names a file by its round and a year by the year of activity, so the file for the 2024 round describes 2023. Each round lists businesses in sampled areas and updates its sampling frame, so a change in who is found can change the count.
+The national evidence comes from the survey of online sellers that BPS runs. BPS publishes the number of businesses selling online, their total online sales and the shares by channel (BPS 2025a, 2025b). The survey rounds are named for the survey year, but their questions refer to the year before. The thesis names a file by its round and a year by the year of activity, so the file for the 2024 round describes 2023. Each round lists businesses in sampled areas and updates its sampling frame, so a change in who is found can change the count.
 
 H2 uses the published figures and the split of equation (7). BPS prints two counts of businesses for 2023, so the thesis computes the split with both and reports both.
 
@@ -90,7 +90,7 @@ Two checks come before any test. The weighted total of each file must fall withi
 
 ## 4.7 The entry test and the extra sellers
 
-The entry test asks whether at least 21.5 percent of the 2023 sellers in the 2024 file began selling online in 2023, a threshold that Chapter 3 derives. If the weights had matched BPS's other count for 2023, the threshold would have been 23.9 percent, but they did not. The test was written down and dated in the project's code archive, called the repository, before the files were opened.
+The entry test asks whether at least 21.5 percent of the 2023 sellers in the 2024 file began selling online in 2023, a threshold that Chapter 3 derives. BPS also prints a second count for 2023, but the survey weights match the first, so the threshold stays at 21.5 percent. The test was written down and dated in the project's code archive, called the repository, before the files were opened.
 
 A failed entry test raises a second question: how much of the rise does first-time entry not explain? The sellers behind that part are called the extra sellers. A cohort is the group of sellers that began selling online by a given year. If two surveys count the same population, a cohort can only shrink between them, because sellers stop and no new seller can join it.
 
@@ -110,11 +110,11 @@ The 2023 questionnaire asks for monthly revenue but the bracket limits are annua
 
 Whether a seller keeps complete financial statements is the subject of a second analysis. It bears on what platform records can add, because a seller with no statements leaves fewer formal records. World Bank Enterprise Surveys add a check on records. They cover unregistered firms in six Indonesian cities in 2023, and formal firms with five or more employees in seven countries.
 
-A third analysis builds on the first two and is developed in Chapter 6. It counts the marketplace sellers whose revenue is above a bracket line and expresses the count as a share of all online sellers. At the 2022 rate, BPS's brackets divide at about US$20,000 a year. The marketplace tax exempts individual sellers up to about US$34,000. So the count above BPS's line is an upper limit on the sellers the tax can reach.
+A third analysis builds on the first two and is developed in Chapter 6. It counts the marketplace sellers whose revenue is above a bracket line and expresses the count as a share of all online sellers. At the 2022 rate, BPS's brackets divide at about US$20,000 a year. The marketplace tax exempts individual sellers up to about US$34,000. So the count above BPS's line is an upper limit on the sellers the tax can reach. Chapter 6 also sets each recent rule against the part of the figures it acts on. The thesis reads each legal text where it is published, and it labels each rule by the status of its text: primary text read, announced, or reported in the news only.
 
 ## 4.9 Comparing national figures
 
-The third objective, to compare the platform evidence with national and payment figures, rests on the sources that Table 4.3 lists, with what each one counts. Beyond the rules of Section 3.6, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
+The third objective, to compare the platform evidence with national and payment figures, rests on the sources that Table 4.3 lists, with what each one counts. Beyond the rules of Section 3.1, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
 
 The 2023 file, which describes 2022, lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis sets the 2023 growth of six measures of buying through platforms beside household spending, each in its own unit. It does the same with quarterly platform growth.
 
@@ -128,7 +128,7 @@ The 2023 file, which describes 2022, lets the thesis separate the part of BPS's 
 | Industry estimates | Shopping marketplaces in Indonesia or Southeast Asia, from the research firm Momentum Works (2024) and the e-Conomy report (Google, Temasek and Bain 2024) | Outside estimates |
 | Household spending | All household purchases | BPS national accounts |
 | Payment figures | Payments made through systems such as QRIS, the national QR-code system | Payment records, in person and online |
-| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Ministry of Finance 2025), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
+| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes n.d.), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
 
 ## 4.10 Labels, traceability and licensed data
 

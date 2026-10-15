@@ -26,7 +26,7 @@ Every result in this chapter carries one of the three labels of Section 4.10: re
 
 ## 5.1 How much revenue leaves out
 
-Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed through the platforms for every dollar of revenue. Table 5.2 shows each platform.
+Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed outside revenue for every dollar the platforms kept. Table 5.2 shows each platform.
 
 **Table 5.2. The invisible wedge of three platforms, 2023 (US$ billion)**
 
@@ -71,7 +71,7 @@ Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered
 
 The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year. The difference between them is nowhere near large enough to count (p = 0.65).
 
-The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by side. The test shows that take rates moved, but not what the platforms changed to move them.
+The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by side. The test shows that take rates moved, but not what the platforms changed to move them.
 
 ![Figure 5.1](figures/fig5_1_thin_slice.png)
 
@@ -99,7 +99,7 @@ Where companies disclose both their fees and their incentives, equation (6) spli
 
 Higher fees and lower incentives together outweighed more commerce in every window. Lower incentives were the larger of the two in four windows and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.
 
-Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count leaves the fall in volume inside both lines. Measured per unit of transaction value, as in Table 5.4, higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
+Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, as in Table 5.4, higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
 
 ![Figure 5.2](figures/fig5_2_tokopedia_two_views.png)
 
@@ -115,7 +115,7 @@ The second registered prediction does not hold in the main sample. It expected m
 
 A second run adds three segment series and three more whole companies. There the gap counts (p = 0.004), with about 0.6 for transaction value against about 0.1 for the take rate. That run sets segment figures against whole-company market values, as the registration warned, so the thesis does not rely on it. The answer depends on which platforms are in the sample.
 
-Market value follows the commerce a platform carries. Early studies found a similar link, with markets pricing measures of web activity beyond revenue (Trueman, Wong and Zhang 2000). The data do not show that markets valued growth from pricing any less. Revenue, transaction value and market value all come from the platforms' own reports. The national figures give a separate view of the same commerce.
+Market value follows the commerce a platform carries. Early studies found a similar link, with markets pricing measures of web activity beyond earnings (Trueman, Wong and Zhang 2000). The data do not show that markets valued growth from pricing any less. Revenue and transaction value come from the platforms' own reports, and market value from share prices. The national figures give a separate view of the same commerce.
 
 ## 5.5 The platforms and the sellers in 2023
 
@@ -153,7 +153,7 @@ About half of the 2023 rise in the count is not explained by first-time entry, a
 | Net entry: sellers who began in 2023, less those who stopped | 513 (63%) | 361 (44%) |
 | Earlier sellers newly counted above the whole 2022 count | 306 (37%) | 458 (56%) |
 
-*Note:* BPS's published counts give a rise of 821 thousand (BPS 2025). Source: BPS survey files, weighted; author's calculations.
+*Note:* BPS's published counts give a rise of 821 thousand (BPS 2025a). Source: BPS survey files, weighted; author's calculations.
 
 The cohort counts show the break directly. A cohort should only shrink between surveys, and the cohorts did so in every interval except 2023. Sellers who began by 2020 fell by about 10 percent between the surveys for 2020 and 2022. In the survey for 2023 they rose by 6 percent.
 
@@ -163,7 +163,7 @@ The break was uneven across places and channels. Across the 34 provinces, growth
 
 Sampling noise does not explain the break. BPS's published error rates put the usual size of the sampling noise in the national count at about 1.4 percent. The 306 thousand extra sellers are about 4.6 times that noise in the change between the two years. The calculation applies the 2024 edition's error rates to both years and treats the two surveys as independent.
 
-Most of the 2023 rise in value has no source in the answers of existing sellers. BPS's online sales value rose from about US$53 billion to about US$72 billion. Entrants account for 25 to 30 percent of that rise, and sellers not explained by entry for 15 to 17 percent. Existing sellers reported a mean change of about −4 percent, so the remaining 53 to 59 percent cannot be traced to them.
+Most of the 2023 rise in value has no source in the answers of existing sellers. BPS's online sales value rose from about US$53 billion to about US$72 billion. Entrants account for 25 to 30 percent of that rise, and sellers not explained by entry for 15 to 17 percent. Existing sellers reported a mean change of about −4 percent, so they added nothing to the rise. That leaves 53 to 59 percent of it with no source in the sellers' answers.
 
 The checks point to a survey that reached more chat and social sellers in 2023, the kind of break that Section 3.5 described. The files cannot separate that reading from sellers returning after a pause. Who the extra sellers were bears on the choice between the two.
 
@@ -201,7 +201,7 @@ Records are thinner outside the marketplaces. In 2023, about 29 percent of marke
 
 The fall reaches long-running sellers too, an exploratory finding. Among sellers who began before 2020, the share keeping complete statements fell from about 23 percent in 2022 to about 17 percent in 2023.
 
-Sellers without statements hold far less of the value than of the count. On the bracket scenarios of Section 4.8, they held 26 to 40 percent of online value in 2022, against 79 percent of the count. The annual reading of the brackets passes the validation rule, at 1.95 times BPS's total, while the monthly reading fails at 23 times. The lower brackets alone exceed BPS's total, so the shares are ranges.
+Sellers without statements hold far less of the value than of the count. On the bracket scenarios of Section 4.8, they held 26 to 40 percent of online value in 2022, against 79 percent of the count. The annual reading of the brackets passes the validation rule, at about twice BPS's total, while the monthly reading fails at about 23 times. The lower brackets alone exceed BPS's total, so the shares are ranges.
 
 One registered prediction on value failed narrowly. It expected the value share of sellers without statements to fall by no more than 5 points between 2020 and 2022. The share fell by 5.8 points on the main version and by 3.3 points on a second version.
 

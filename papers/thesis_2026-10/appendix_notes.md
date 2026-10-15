@@ -162,7 +162,8 @@ A registered test was written down, dated and stored in the repository before th
 | M1 | Markets value growth from more transactions more than growth from a higher take rate | 8 Oct 2026, before the market values were pulled | Falsified in the main sample (p = 0.20) and when trimmed (p = 0.16); holds in the second run of 34 platforms (p = 0.004), which mixes segment figures with whole-company values |
 | M2 | Market value moves with transaction value | 8 Oct 2026 | Holds (p = 0.002) |
 | P1 to P5, R1 to R3 | Predictions on the third-quarter 2026 results of GoTo, Grab and Sea | 2 and 3 Oct 2026 | Not yet scored; first results are due on 27 Oct 2026 |
-| Marketplace tax start; BPS marketplace share | The tax start slips again; the next published marketplace share is at most 15.79 percent | 2 Oct 2026 | Not yet scored |
+| Marketplace tax start | The tax start slips again | 2 Oct 2026 | Withdrawn: collection began on 1 Oct 2026, before the prediction was registered (addendum of 15 Oct 2026) |
+| BPS marketplace share | The next published marketplace share is at most 15.79 percent | 2 Oct 2026 | Not yet scored |
 
 ## Appendix D. The values behind Figures 5.3 to 5.5
 
