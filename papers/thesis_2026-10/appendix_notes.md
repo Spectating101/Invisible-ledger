@@ -94,13 +94,15 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 
 ### B.1 The checks
 
-The main test is in Table 5.3. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`.
+The main test is in Table 5.3. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
 
 | Check | Indonesian and regional (median) | Foreign (median) | Mann–Whitney p | Shuffle p |
 |---|---|---|---|---|
 | Main test, 5 against 27 | 0.201 | 0.062 | 0.0038 | 0.0221 |
 | 5 against the 8 chosen first | 0.201 | 0.055 | 0.0225 | 0.0497 |
 | 5 against the 19 added | 0.201 | 0.070 | 0.0046 | 0.0175 |
+| Without the 8 foreign platforms that book shopper discounts as marketing costs (exploratory, 15 Oct 2026) | 0.201 | 0.062 | 0.0035 | 0.0066 |
+| Only the 11 foreign platforms that deduct shopper discounts from revenue (exploratory, 15 Oct 2026) | 0.201 | 0.075 | 0.0043 | 0.0052 |
 | Growth divergence in points, 5 against 26 | 27.0 | 6.5 | 0.0055 | |
 | Without Ozon, 26 foreign platforms | 0.201 | 0.060 | 0.0030 | 0.0215 |
 | Without Zalando, 26 foreign platforms | 0.201 | 0.064 | 0.0045 | 0.0238 |
