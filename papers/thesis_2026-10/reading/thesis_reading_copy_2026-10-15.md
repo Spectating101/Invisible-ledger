@@ -1,6 +1,6 @@
 ---
 title: "Invisible Ledger: thesis draft, Chapters 1 to 7"
-subtitle: "Reading copy, 15 October 2026. Chapters 6 and 7 are drafts; Section 6.5 has a slot for results due from 27 October."
+subtitle: "Reading copy, 2026-10-15. Chapters 6 and 7 are drafts; Section 6.5 has a slot for results due from 27 October."
 ---
 
 # Chapter 1. Introduction
@@ -107,7 +107,7 @@ The framework tests each figure against the activity it is used to represent, as
 
 Figure 3.1 places the three quantities inside one another. Revenue sits inside platform commerce, because a platform keeps only part of each sale. Platform commerce sits inside all online commerce, because many sellers trade outside platforms. The first hypothesis, H1, tests the inner link between revenue and platform commerce. The second, H2, tests the outer link between platform commerce and national online commerce.
 
-![Figure 3.1](figures/fig3_1_two_links.png)
+![](figures/fig3_1_two_links.png)
 
 **Figure 3.1. Three nested quantities and the two links.** Revenue sits inside platform commerce, which sits inside all online commerce. H1 tests the inner link and H2 the outer link.
 
@@ -518,7 +518,7 @@ The thin take rate of Indonesian and regional platforms explains much of the thr
 
 The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by side. The test shows that take rates moved, but not what the platforms changed to move them.
 
-![Figure 5.1](figures/fig5_1_thin_slice.png)
+![](figures/fig5_1_thin_slice.png)
 
 **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. Left: the share of each sale that the platform keeps, on a log scale. Middle: the yearly change in that share, in percentage points. Right: the same change relative to the share itself, as a log change in percent. Black bars mark group medians. The foreign group has 26 platforms here and 27 in the main test, because one platform has no pair of usable years for the change in points. Source: company filings; author's calculations. Exploratory.
 
@@ -546,7 +546,7 @@ Higher fees and lower incentives together outweighed more commerce in every wind
 
 Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, as in Table 5.4, higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
 
-![Figure 5.2](figures/fig5_2_tokopedia_two_views.png)
+![](figures/fig5_2_tokopedia_two_views.png)
 
 **Figure 5.2. Tokopedia, 2022 to 2023: two ways to split the rise in revenue.** Left: the change in net revenue split by the lines of the accounts. Right: the growth of revenue split per unit of transaction value, where a negative share pulled revenue down. Source: GoTo annual report 2023, segment note; author's calculations.
 
@@ -568,7 +568,7 @@ Buying through platforms did not boom in 2023. Household spending rose by about 
 
 The figures that described a boom were of other kinds. Tokopedia's revenue rose by 53 percent and BPS's online sales value by 41 percent, while the buying that platforms carried grew slowly or fell. Figure 5.3 shows the two kinds in different colours.
 
-![Figure 5.3](figures/fig5_3_growth_2023.png)
+![](figures/fig5_3_growth_2023.png)
 
 **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars show the figures that described a boom. Each measure is in its own unit. Sources: company reports, Bank Indonesia, Momentum Works and BPS; household spending from national accounts. GoTo's change rests on an estimated 2022 value, and Momentum Works' 3.5 is the author's calculation from its published levels (its 2024 release states 3.7). Appendix D gives the values.
 
@@ -616,7 +616,7 @@ The checks point to a survey that reached more chat and social sellers in 2023, 
 
 The extra count leaned toward long-running businesses, older owners and places outside Java, an exploratory result. Each group's extra count is its 2023 count above what its own yearly change from 2020 to 2022 would give (Section 4.7). The extra sellers total about 450 thousand, close to the 458 thousand in Table 5.5. Figure 5.4 compares each group's share of the extra count with its share of the 2022 count.
 
-![Figure 5.4](figures/fig5_4_extra_sellers.png)
+![](figures/fig5_4_extra_sellers.png)
 
 **Figure 5.4. Who the extra sellers were.** The extra sellers are the 2023 count above what each group's normal yearly change in 2020 to 2022 would give, about 450 thousand in total. Source: BPS survey files, weighted; author's calculations. Exploratory.
 
@@ -638,7 +638,7 @@ Marketplaces carry only about a fifth of online sales value. The share was 23 to
 
 Almost all of the recent growth in value came from outside the marketplaces. From 2023 to 2024, BPS's marketplace value grew by about 1.5 percent and other channels by about 21 percent. BPS's marketplace category is itself broad: 43 percent of its sellers use only Gojek or Grab, and 47 percent use a shopping marketplace.
 
-![Figure 5.5](figures/fig5_5_marketplace_and_records.png)
+![](figures/fig5_5_marketplace_and_records.png)
 
 **Figure 5.5. Marketplace use and financial statements, 2020 to 2024.** Marketplace use for 2020, 2022 and 2023 comes from the survey files and for 2024 from BPS's published figure. Financial statements come from the survey files. BPS worded the marketplace question slightly differently for 2023 and 2024, and the survey has no point for 2021. Source: BPS; author's calculations.
 
@@ -773,7 +773,7 @@ Nine predictions on the rules and on what they act on were registered before any
 
 The predictions describe company numbers, not the effect of the cap. Both companies report rides and deliveries together, so any effect of the cap is diluted in their figures. P1 and P5 are read together. If both hold, GoTo met the cap partly by spending more to grow. If P1 holds and P5 fails, GoTo let the lower commission show in its take rate without spending more to grow. P4 has limited power, because its range cannot separate the cap from ordinary quarter-to-quarter noise. R2 and R3 concern single companies, and Shopee's figures cover Asia and Brazil.
 
-> **[Results slot.** To be written after the GoTo results (late October), the BPS national accounts (early November) and the Grab and Sea results (mid-November). For each outcome: the result against its range in Table 6.2 and Appendix C, then one paragraph on what the outcomes show about the cap and one on marketplace fees.**]**
+> **[Results slot]** To be written after the GoTo results (late October), the BPS national accounts (early November) and the Grab and Sea results (mid-November). For each outcome: the result against its range in Table 6.2 and Appendix C, then one paragraph on what the outcomes show about the cap and one on marketplace fees.
 
 The outcomes will be reported whatever their direction, as the other registered tests are.
 
