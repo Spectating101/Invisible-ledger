@@ -1,9 +1,6 @@
 ---
-
 title: "Invisible Ledger: thesis draft, Chapters 1 to 7"
-
 subtitle: "Reading copy, 15 October 2026. Chapters 6 and 7 are drafts; Section 6.5 has a slot for results due from 27 October."
-
 ---
 
 # Chapter 1. Introduction
