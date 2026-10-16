@@ -496,3 +496,9 @@ Source of every change: `research/option_space_2026-10-01/materials_2026-10-15/F
   - 5.7 to 5.9 prose tightened; companies introduced in 4.0; appendix tickers replaced by names; audit factual fixes (Tokopedia merchants, GoTo "controlled" Tokopedia, Katadata source replaced).
   - New `abstract.md`; references 62 to 65; reading-copy pipeline rebuilt (`reading/`), every page of the 55-page PDF checked by eye.
   - Still open: finance paragraphs from `materials_2026-10-15/FINANCE_FRAMING.md`, abbreviations list, Chinese abstract (researcher), [UNVERIFIED] references, 6.5 scoring from 27 Oct, YZU assembly, about thirteen sentences over 30 words.
+- **16 Oct, later: rest of the review handoff that can be done now.** The researcher confirmed the review's ten points are the whole feedback list.
+  - Finance framing (item 5) from `materials_2026-10-15/FINANCE_FRAMING.md`. 1.2 now says why the wedge matters for value (market values track revenue; Bowen, Davis and Rajgopal 2002). It adds that when the take rate moves, market value per dollar of revenue and per dollar of commerce change by different amounts. 7.2 repeats this with the 0.6 headline. 5.4 adds Rajgopal et al. (2003) and Davis (2002) on revenue booked at the full sale amount. 3.6 adds Rajgopal et al.
+  - Long sentences (item 7): the 17 sentences over 30 words split, except the 1.1 ambition sentences and the research question, which are kept on purpose.
+  - New `symbols.md`, "Symbols and Abbreviations", for the YZU list of symbols (item 10).
+  - 3.6: one closing sentence on Chapter 4 and one on Chapter 6 dropped (each said only what comes next); Figure 5.5 moved below the paragraph that introduces it.
+  - Reading copy: Inter bundled as a web font (no Type 3 fonts left in the PDF), figures kept with their captions, short tables kept whole (`reading/post.py`). 56 pages, every page checked by eye.

@@ -7,7 +7,7 @@ const { chromium } = require('/opt/node-tools/node_modules/playwright');
   await page.goto('file://' + require('path').resolve(inp), { waitUntil: 'networkidle' });
   await page.pdf({ path: out, format: 'A4', printBackground: true, preferCSSPageSize: true, displayHeaderFooter: true,
     headerTemplate: '<div></div>',
-    footerTemplate: '<div style="width:100%;text-align:center;font-family:Inter,sans-serif;font-size:7.5pt;color:#77766f;"><span class="pageNumber"></span></div>',
+    footerTemplate: '<div style="width:100%;text-align:center;font-family:DejaVu Sans,sans-serif;font-size:7.5pt;color:#77766f;"><span class="pageNumber"></span></div>',
     margin: { top: '22mm', bottom: '20mm', left: '21mm', right: '21mm' } });
   await browser.close();
 })();

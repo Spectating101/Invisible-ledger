@@ -178,7 +178,7 @@ Four further analyses complete the framework without forming hypotheses of their
 
 Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
 
-The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported earnings (Trueman, Wong and Zhang 2000).
+The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported earnings (Trueman, Wong and Zhang 2000; Rajgopal, Venkatachalam and Kotha 2003).
 
 The two sources of growth need not be worth the same. Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end. A higher price to one side of a platform can also reduce how much that side uses it (Rochet and Tirole 2003).
 
@@ -194,8 +194,8 @@ The channel analysis answers the third question of Section 2.4. A rule built on 
 
 The reach of a rule built on platform records depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
 
-Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add. Chapter 6 develops the reach of the rules.
+Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add.
 
 The comparison of national figures extends the outer link in Figure 3.1. Platform reports, BPS's survey, Bank Indonesia's statistics and industry estimates count different things. Their values change with the definition used (UNCTAD 2024).
 
-If two national figures move in opposite directions in the same year, the conclusion about growth depends on the figure chosen. The thesis compares their growth rates, each in its own unit, and compares levels only after reconciling what each source covers. Household spending, from the national accounts, serves as a further point of comparison. Chapter 4 describes the data and methods behind each test and analysis.
+If two national figures move in opposite directions in one year, the conclusion about growth depends on the figure chosen. The thesis compares growth rates, each in its own unit, and levels only after reconciling what each source covers. Household spending is a further point of comparison.

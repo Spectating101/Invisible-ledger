@@ -46,5 +46,6 @@ The thesis written in full. Same title, research question, hypotheses and measur
 | `appendix_notes.md` | Appendices A to C | working draft 13 Oct: platform lists, the seven windows, wedge by platform-year, every check on the test of H1, registered tests with outcomes; the detail that Chapters 4 and 5 point to |
 | ch6, ch7 | 6 The Rules and How Far They Reach; 7 Conclusion | drafts in `drafts/ch6_draft_2026-10-14.md` and `drafts/ch7_draft_2026-10-14.md`, revised 15 Oct on checked sources (tax started 1 Oct 2026; tax-start prediction withdrawn); 6.5 has a results slot for the 27 Oct to mid-Nov scoring |
 | `references.md` | References | merged and checked 15 Oct; 65 entries after 16 Oct (14 details still marked [UNVERIFIED]); APA until the YZU style is settled |
+| `symbols.md` | Symbols and Abbreviations | added 16 Oct for the YZU list of symbols |
 | `abstract.md` | Abstract | English draft 16 Oct (about 280 words, keywords); the Chinese abstract, keywords and title page are left for the researcher |
-| `reading/` | Reading copy | `build_reading.sh` builds `thesis_reading_copy_<date>.pdf` (A4, Source Serif 4, checked page by page) and an editing DOCX from the chapters above; latest 16 Oct, 55 pages |
+| `reading/` | Reading copy | `build_reading.sh` builds `thesis_reading_copy_<date>.pdf` (A4, Source Serif 4, checked page by page) and an editing DOCX from the chapters above; latest 16 Oct, 56 pages |

@@ -118,7 +118,7 @@ The second registered prediction does not hold in the main sample. It expected m
 
 A second run adds five segment series, including Grab, GoTo and Sea, and Mercado Libre. There the gap counts (p = 0.004), with about 0.6 for transaction value against about 0.1 for the take rate. That run sets segment figures against whole-company market values, as the registration warned, so the thesis does not rely on it. The answer depends on which platforms are in the sample.
 
-Market value follows the commerce a platform carries. Early studies found a similar link, with markets pricing measures of web activity beyond earnings (Trueman, Wong and Zhang 2000). The data do not show that markets valued growth from pricing any less. Revenue and transaction value come from the platforms' own reports, and market value from share prices. The national figures give a separate view of the same commerce.
+Market value follows the commerce a platform carries. Early studies found a similar link, with markets pricing measures of web activity beyond earnings (Trueman, Wong and Zhang 2000; Rajgopal, Venkatachalam and Kotha 2003). Here the measure of activity is transaction value, which the platforms report themselves. How a firm records revenue matters too. After the 2000 crash, revenue explained less of the prices of internet firms that booked the full sale amount as revenue (Davis 2002). The data do not show that markets valued growth from pricing any less. Revenue and transaction value come from the platforms' own reports, and market value from share prices. The national figures give a separate view of the same commerce.
 
 ## 5.5 The platforms and the sellers in 2023
 
@@ -168,7 +168,7 @@ Sampling noise is very unlikely to explain the break. BPS's published error rate
 
 Most of the 2023 rise in sales value cannot be traced to what sellers reported. BPS's online sales value rose by 41 percent in rupiah, from about US$53 billion to about US$72 billion at each year's exchange rate. The thesis splits that rise by giving each kind of seller its typical size in the 2022 file. New sellers, at the size of those that began in 2022, account for 25 to 30 percent of the rise. The extra earlier sellers, at the size of chat and social sellers, account for 15 to 17 percent. The typical seller already online reported no growth, with a mean change of about −4 percent when each seller counts once. So 53 to 59 percent of the rise has no source in the sellers' answers. A few large sellers growing fast could fill that part, and the files cannot show whether they did.
 
-The extra count also bears on H2, in an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, more businesses account for about 54 percent of the growth if no seller stopped, and about 42 percent if sellers stopped at 5 percent a year. H2 requires more than 50 percent. So H2 holds on the published series, but it sits on its threshold once the extra count is read as coverage. Taking out the sellers but keeping their sales gives 34 to 47 percent, though that version treats the count and the value unevenly.
+The extra count also bears on H2, in an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. Take both out of the 2023 figures. More businesses then account for about 54 percent of the growth if no seller stopped, and about 42 percent if sellers stopped at 5 percent a year. H2 requires more than 50 percent. So H2 holds on the published series, but it sits on its threshold once the extra count is read as coverage. Taking out the sellers but keeping their sales gives 34 to 47 percent, though that version treats the count and the value unevenly.
 
 The checks point to a survey that reached more chat and social sellers in 2023, the kind of break that Section 3.5 described. The files cannot separate that reading from sellers returning after a pause. Who the extra sellers were bears on the choice between the two.
 
@@ -198,11 +198,11 @@ Marketplaces carry only about a fifth of online sales value. The share was 23 to
 
 Almost all of the recent growth in value came from outside the marketplaces. From 2023 to 2024, BPS's marketplace value grew by about 1.5 percent and other channels by about 21 percent. BPS's marketplace category is itself broad: 43 percent of its sellers use only Gojek or Grab, and 47 percent use a shopping marketplace.
 
+Records are thinner outside the marketplaces. In 2023, about 29 percent of marketplace sellers kept complete financial statements, against about 12 percent of other sellers. Figure 5.5 shows the share of all sellers who keep them falling. The fall from 2020 to 2022 came while the survey appears to have counted the same kinds of seller. The fall in 2023 may partly reflect the chat-only sellers added to the count.
+
 ![Figure 5.5](figures/fig5_5_marketplace_and_records.png)
 
 **Figure 5.5. Marketplace use and financial statements, 2020 to 2024.** Marketplace use for 2020, 2022 and 2023 comes from the survey files and for 2024 from BPS's published figure. Financial statements come from the survey files. BPS worded the marketplace question slightly differently for 2023 and 2024, and the survey has no point for 2021. Source: BPS; author's calculations.
-
-Records are thinner outside the marketplaces. In 2023, about 29 percent of marketplace sellers kept complete financial statements, against about 12 percent of other sellers. Figure 5.5 shows the share of all sellers who keep them falling. The fall from 2020 to 2022 came while the survey appears to have counted the same kinds of seller. The fall in 2023 may partly reflect the chat-only sellers added to the count.
 
 The fall reaches long-running sellers too, an exploratory finding. Among sellers who began before 2020, the share keeping complete statements fell from about 23 percent in 2022 to about 17 percent in 2023.
 

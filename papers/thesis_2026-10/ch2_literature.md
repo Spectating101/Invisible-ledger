@@ -44,6 +44,6 @@ The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 
 
 Each shortfall becomes one question for the thesis, and Chapter 3 sets out the tools that answer each.
 
-1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1, which explains why the share is small and can move but does not test whether reported revenue stays a fair guide to the commerce.
-2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2, which shows that figures differ but does not test whether they grow for the same reasons, or what a rise in the count of sellers contains.
-3. **How far can rules built on platform records reach?** This follows from Section 2.3, which shows that platform records are valuable but not how much of online selling they cover.
+1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1. It explains why the share is small and can move, but it does not test whether revenue stays a fair guide to the commerce.
+2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2. It shows that figures differ, but it does not test whether they grow for the same reasons, or what a rise in the count of sellers contains.
+3. **How far can rules built on platform records reach?** This follows from Section 2.3. It shows that platform records are valuable, but not how much of online selling they cover.
