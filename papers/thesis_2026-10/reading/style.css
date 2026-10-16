@@ -19,16 +19,16 @@
 html { font-size: 10.5pt; }
 body { font-family: "Thesis Serif", "DejaVu Serif", serif; color: #111; background: #fff; line-height: 1.44;
        margin: 0; padding: 0; max-width: none; hyphens: manual; text-rendering: optimizeLegibility; }
-p { margin: 0 0 0.55em; orphans: 3; widows: 3; }
+p { margin: 0 0 0.55em; orphans: 3; widows: 3; text-align: justify; text-align-last: left; }
 a { color: inherit; text-decoration: none; }
 strong { font-weight: 600; }
 
 /* title page */
 header#title-block-header { break-after: page; text-align: center; padding-top: 60mm; }
-header#title-block-header .title { font-size: 18pt; font-weight: 700; line-height: 1.3; margin: 0 0 8mm; }
-header#title-block-header .subtitle { font-size: 10.5pt; font-style: italic; margin: 0 0 30mm; }
-header#title-block-header .author { font-size: 11pt; margin: 0 0 1.5mm; }
-header#title-block-header .date { font-size: 10pt; margin-top: 20mm; }
+header#title-block-header .title { font-size: 18pt; font-weight: 700; line-height: 1.3; margin: 0 0 8mm; text-align: center; }
+header#title-block-header .subtitle { font-size: 10.5pt; font-style: italic; margin: 0 0 30mm; text-align: center; }
+header#title-block-header .author { font-size: 11pt; margin: 0 0 1.5mm; text-align: center; }
+header#title-block-header .date { font-size: 10pt; margin-top: 20mm; text-align: center; }
 
 /* contents, with page numbers added in a second pass (toc_pages.py) */
 nav#TOC { break-after: page; font-size: 10.5pt; }
@@ -49,10 +49,10 @@ h2 { font-size: 12pt; font-weight: 700; margin: 6mm 0 2mm; }
 h3 { font-size: 10.5pt; font-weight: 700; font-style: italic; margin: 4.5mm 0 1.5mm; }
 
 /* captions and notes */
-p.tcap { font-size: 10pt; margin: 5mm 0 2mm; break-after: avoid; line-height: 1.4; }
+p.tcap { font-size: 10pt; margin: 5mm 0 2mm; break-after: avoid; line-height: 1.4; text-align: left; }
 p.tcap .lbl, p.fcap strong { font-weight: 700; }
-p.fcap { font-size: 9.5pt; margin: 2mm 0 5mm; line-height: 1.4; }
-p.note { font-size: 8.8pt; color: #333; line-height: 1.4; margin: 1.5mm 0 5mm; }
+p.fcap { font-size: 9.5pt; margin: 2mm 0 5mm; line-height: 1.4; text-align: left; }
+p.note { font-size: 8.8pt; color: #333; line-height: 1.4; margin: 1.5mm 0 5mm; text-align: left; }
 
 /* tables: three rules, no shading */
 table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 9pt; line-height: 1.35; margin: 0 0 1mm;
@@ -81,17 +81,17 @@ div.eq sub, p sub, td sub { font-size: 72%; }
 /* hypotheses, the entry test and the results slot: indented, no box */
 blockquote { margin: 3mm 10mm 4mm; padding: 0; font-style: italic; }
 blockquote strong { font-style: normal; }
-blockquote p { margin: 0; }
+blockquote p { margin: 0; text-align: left; }
 
 /* lists */
 ol, ul { margin: 0 0 0.7em 1.1em; padding-left: 0.6em; }
-li { margin: 0.2em 0; }
+li { margin: 0.2em 0; text-align: justify; text-align-last: left; }
 
 /* file names in the appendices */
 code { font-family: "DejaVu Sans Mono", monospace; font-size: 7.8pt; color: #444; }
 
 /* references: hanging indent */
-section#references p { padding-left: 7mm; text-indent: -7mm; font-size: 9.5pt; line-height: 1.4; margin-bottom: 1.6mm; }
+section#references p { padding-left: 7mm; text-indent: -7mm; font-size: 9.5pt; line-height: 1.4; margin-bottom: 1.6mm; text-align: left; }
 
 /* space after a table, closer when a note follows */
 table { margin-bottom: 4.5mm; }
