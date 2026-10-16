@@ -68,27 +68,27 @@ Tokopedia, 2022–23, line by line (Rp million, `tables/tokopedia_segment.csv`):
 
 ### A.4 Wedge and ecosystem ratio by platform-year, Indonesian series
 
-Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.2 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Source: `tables/take_rate_levels.csv`.
+Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.2 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Each label names the source of the transaction value and of the revenue in that row. Source: `tables/take_rate_levels.csv`.
 
 | Series | Year | Transaction value | Revenue | Wedge | Take rate (%) | Ecosystem ratio | Label |
 |---|---|---|---|---|---|---|---|
-| Grab | 2021 | 1.88 | 0.08 | 1.80 | 4.20 | 22.8 | Derived value |
-| Grab | 2022 | 3.83 | 0.28 | 3.55 | 7.19 | 12.9 | Derived value |
-| Grab | 2023 | 5.38 | 0.60 | 4.78 | 11.24 | 7.9 | Derived value |
-| Shopee | 2022 | 18.68 | 1.57 | 17.11 | 8.40 | 10.9 | Derived value |
-| Shopee | 2023 | 21.52 | 2.15 | 19.37 | 10.00 | 9.0 | Derived value |
-| Shopee | 2024 | 25.99 | 2.81 | 23.18 | 10.80 | 8.3 | Derived value |
+| Grab | 2021 | 1.88 | 0.08 | 1.80 | 4.20 | 22.8 | Revenue: country disclosure; value: derived |
+| Grab | 2022 | 3.83 | 0.28 | 3.55 | 7.19 | 12.9 | Revenue: country disclosure; value: derived |
+| Grab | 2023 | 5.38 | 0.60 | 4.78 | 11.24 | 7.9 | Revenue: country disclosure; value: derived |
+| Shopee | 2022 | 18.68 | 1.57 | 17.11 | 8.40 | 10.9 | Value: outside estimate; revenue: scenario |
+| Shopee | 2023 | 21.52 | 2.15 | 19.37 | 10.00 | 9.0 | Value: outside estimate; revenue: scenario |
+| Shopee | 2024 | 25.99 | 2.81 | 23.18 | 10.80 | 8.3 | Value: outside estimate; revenue: scenario |
 | Tokopedia | 2022 | 273,146,166 | 4,030,919 | 269,115,247 | 1.48 | 66.8 | Direct segment disclosure |
 | Tokopedia | 2023 | 248,836,156 | 6,175,190 | 242,660,966 | 2.48 | 39.3 | Direct segment disclosure |
-| Blibli third-party retail | 2021 | 15,746 | 122.00 | 15,624 | 0.77 | 128.1 | Direct disclosure |
-| Blibli third-party retail | 2022 | 37,050 | 199.00 | 36,851 | 0.54 | 185.2 | Direct disclosure |
-| Blibli third-party retail | 2023 | 49,912 | 1,125 | 48,787 | 2.25 | 43.4 | Direct disclosure |
-| Blibli third-party retail | 2024 | 54,210 | 1,384 | 52,826 | 2.55 | 38.2 | Direct disclosure |
-| Blibli third-party retail | 2025 | 53,187 | 1,551 | 51,636 | 2.92 | 33.3 | Direct disclosure |
-| Bukalapak Group | 2020 | 85,081,843 | 1,351,664 | 83,730,179 | 1.59 | 61.9 | Direct disclosure |
-| Bukalapak Group | 2021 | 122,618,794 | 1,869,122 | 120,749,672 | 1.52 | 64.6 | Direct disclosure |
-| Bukalapak Group | 2022 | 153,738,958 | 3,618,366 | 150,120,592 | 2.35 | 41.5 | Direct disclosure |
-| Bukalapak Group | 2023 | 164,380,065 | 4,438,269 | 159,941,796 | 2.70 | 36.0 | Direct disclosure |
+| Blibli third-party retail | 2021 | 15,746 | 122 | 15,624 | 0.77 | 128.1 | Segment disclosure, includes travel |
+| Blibli third-party retail | 2022 | 37,050 | 199 | 36,851 | 0.54 | 185.2 | Segment disclosure, includes travel |
+| Blibli third-party retail | 2023 | 49,912 | 1,125 | 48,787 | 2.25 | 43.4 | Segment disclosure, includes travel |
+| Blibli third-party retail | 2024 | 54,210 | 1,384 | 52,826 | 2.55 | 38.2 | Segment disclosure, includes travel |
+| Blibli third-party retail | 2025 | 53,187 | 1,551 | 51,636 | 2.92 | 33.3 | Segment disclosure, includes travel |
+| Bukalapak Group | 2020 | 85,081,843 | 1,351,664 | 83,730,179 | 1.59 | 61.9 | Company-wide disclosure |
+| Bukalapak Group | 2021 | 122,618,794 | 1,869,122 | 120,749,672 | 1.52 | 64.6 | Company-wide disclosure |
+| Bukalapak Group | 2022 | 153,738,958 | 3,618,366 | 150,120,592 | 2.35 | 41.5 | Company-wide disclosure |
+| Bukalapak Group | 2023 | 164,380,065 | 4,438,269 | 159,941,796 | 2.70 | 36.0 | Company-wide disclosure |
 
 ## Appendix B. The checks on the test of H1
 

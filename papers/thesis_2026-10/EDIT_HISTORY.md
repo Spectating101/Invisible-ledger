@@ -503,3 +503,10 @@ Source of every change: `research/option_space_2026-10-01/materials_2026-10-15/F
   - 3.6: one closing sentence on Chapter 4 and one on Chapter 6 dropped (each said only what comes next); Figure 5.5 moved below the paragraph that introduces it.
   - Reading copy: Inter bundled as a web font (no Type 3 fonts left in the PDF), figures kept with their captions, short tables kept whole (`reading/post.py`). 56 pages, every page checked by eye.
 - **16 Oct, evening: reading copy restyled after the researcher found the look too busy.** One serif face throughout (Source Serif 4), black on white, no colour rules or shaded boxes; chapter titles centred; three-line tables with captions above; hypotheses as indented italic; contents with page numbers and dotted leaders (`reading/toc_pages.py`, two-pass build). 64 pages, every page checked by eye. No text changed.
+- **16 Oct, night: number re-audit of everything changed since 15 Oct** (`materials_2026-10-15/AUDIT_NUMBERS_16OCT.md`): 461 items, 456 match, 2 rounding-ok, 3 mismatch, none without a source; 16 of the 18 problems of 15 Oct fixed. Applied:
+  - Abstract: "three times" no longer tied to 2022–24 (the ratio uses all pairs); "about half" now credited to the exploratory count, while the registered test finds too few new sellers.
+  - Ch7: "Indonesian and regional" for the two-thirds figure; "above all from 2022 to 2024"; small growth "in two of three scenarios"; the H2 coverage reading labelled exploratory.
+  - Ch5: the shuffle uses one median per platform; the listing check names its 15 foreign platforms; the 0.7 million marketplace sellers marked as the author's calculation.
+  - Ch6: GoTo "at most about 1.4 points" with GoTo's own 0.9 estimate; Grab's 13 percent dated to the second quarter of 2026; "who apply for the discount" dropped (not in the cited source).
+  - Table A.4 labels name the source of each column (Shopee: outside estimate and scenario).
+  - Left for the researcher: 1.1 "Decisions worth trillions of dollars" (N2), the researcher's own wording.
