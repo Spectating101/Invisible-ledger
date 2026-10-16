@@ -1,6 +1,6 @@
 # Chapter 5. Results
 
-The results follow the two links of Figure 3.1. On the inner link, revenue showed a small and unsteady part of the commerce that platforms carried. Platforms changed how much of each sale they kept, and revenue moved with those choices (Sections 5.1 to 5.4). On the outer link, the national count of online sellers rose by 27 percent in 2023. About half of that rise did not come from sellers entering for the first time (Sections 5.5 to 5.10).
+The results follow the two links of Figure 3.1. On the inner link, revenue showed a small and unsteady part of the commerce that platforms carried. Platforms changed how much of each sale they kept, and revenue moved with those choices (Sections 5.1 to 5.4). On the outer link, the national count of online sellers rose by 27 percent in 2023. About half of that rise is not explained by sellers entering for the first time, and whether H2 holds depends on how that half is read (Sections 5.5 to 5.10).
 
 Every result in this chapter carries one of the three labels of Section 4.10: registered, exploratory or descriptive. A result given without a label is descriptive. Table 5.1 gives each main result with its label, the checks behind it and the section that reports it.
 
@@ -10,16 +10,17 @@ Every result in this chapter carries one of the three labels of Section 4.10: re
 |---|---|---|---|
 | *Inner link: revenue and platform commerce* | | | |
 | Revenue was about 7 percent of what three major platforms carried in 2023; the wedge was about US$40 billion | Descriptive | Shopee's take rate varied; each platform dropped in turn | 5.1 |
-| Take rates moved about three times as much in Indonesia and the region as abroad, so H1 is rejected | Exploratory; the narrower test planned in advance points the same way | Each platform dropped in turn; Ozon and Zalando dropped; change measured in points; quarterly pairs do not reject | 5.2 |
+| Take rates moved about three times as much in Indonesia and the region as abroad, so H1 is rejected | Exploratory; the narrower test, set before the wider one, points the same way | Each platform dropped in turn; Ozon and Zalando dropped; change measured in points; quarterly pairs do not reject | 5.2 |
 | The thin take rate of Indonesian and regional platforms explains much of that difference | Exploratory | Changes in percentage points compared across groups | 5.2 |
 | Pricing, not more commerce, moved revenue | Descriptive | All 15 pairs against 158 abroad; seven traced windows; two views of Tokopedia | 5.3 |
-| Market value moves with transaction value | Registered; holds | Extreme values trimmed; a second run | 5.4 |
+| Market value moves with transaction value | Registered; holds | Extreme values capped (winsorised); a second run | 5.4 |
 | Markets value growth from a higher take rate less | Registered; does not hold in the main sample | Holds only in a second run that mixes segment figures | 5.4 |
 | *Outer link: platform commerce and all online commerce* | | | |
 | Buying through platforms, and sellers' own sales, did not boom in 2023 | Descriptive; registered for sellers' sales, holds | Six platform measures against household spending | 5.5 |
 | More businesses account for most national growth, so H2 holds | Descriptive | Both BPS counts for 2023; two periods | 5.6 |
 | Too few 2023 sellers were new to produce the rise in the count (13.45 against 21.5 percent) | Registered; the entry test fails | Recall error would favour passing | 5.6 |
 | About half of the rise is not explained by first-time entry | Exploratory | With and without exits; cohorts; provinces; sampling error | 5.7 |
+| Read as wider coverage, the extra count leaves H2 near its threshold (about 42 to 54 percent) | Exploratory | Count and sales removed together; two exit rates | 5.7 |
 | The extra count leaned toward long-running businesses; returning sellers cannot be ruled out | Exploratory | Part-year selling | 5.8 |
 | Most online selling happens outside marketplaces, and records are thinner there | Registered and descriptive | Four survey years; World Bank surveys | 5.9 |
 | National figures agree only where they cover the same sellers | Registered, with a mixed outcome, and descriptive | Three value scenarios | 5.10 |
@@ -37,7 +38,7 @@ Revenue showed only a small part of what Indonesia's major platforms carried. In
 | Grab, Indonesia | 5.38 | 0.60 | 4.78 | 7.9 | Revenue is a direct country disclosure; transaction value is derived from Grab's company-wide ratio |
 | Total | 43.23 | 3.16 | 40.07 | 12.7 | Sum of three platforms, not a national total |
 
-*Note:* Rounded amounts may not add. With Shopee's take rate at 9 or 11 percent, the total wedge is US$39.9 or US$40.3 billion; at Sea's company-wide rate of 11.5 percent, it is US$39.8 billion. Source: company filings; Momentum Works (2024); author's calculations.
+*Note:* Rounded amounts may not add. With Shopee's take rate at 9 or 11 percent, the total wedge is US$40.3 or US$39.9 billion; at Sea's company-wide rate of 11.5 percent, it is US$39.8 billion. Source: company filings; Momentum Works (2024); author's calculations.
 
 The ratios differ because the amounts were obtained in different ways. Tokopedia reports both amounts, and its ratio is about 39. Shopee's ratio of 9 follows from the assumed take rate, and Grab's ratio of about 8 is its company-wide ratio. Neither is separate evidence for Indonesia. Blibli and Bukalapak also report both amounts, with ratios of about 43 and 36, close to Tokopedia's. They are left out of the sum because Blibli's figure includes online travel and Bukalapak reports for its whole group.
 
@@ -63,11 +64,13 @@ Revenue did not keep pace with transaction value at the Indonesian and regional 
 
 The main test compares the five platforms with 27 abroad, one median per platform. Both methods of Section 4.3 reject equal moves, with p = 0.004 and p = 0.022. No single platform carries the result. Dropping any one, or treating Tokopedia and GoTo as one company, keeps the Mann–Whitney p-value at 0.016 or below. The main test was set up after a first, narrower test, so it is exploratory.
 
-The test planned in advance was narrower: the three Indonesian marketplaces against the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). The shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
+A narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels on pairs of years comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
 
 The direction of the moves is less telling than their size. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs. In two of them, revenue and transaction value moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves, which is what the test measures.
 
-Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered before the test was run. The quarterly Indonesian pairs mostly cover 2023 to 2026, after most of the repricing, while the large moves came between 2021 and 2024. The rejection of H1 describes that period.
+Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered before the test was run. The quarterly Indonesian pairs mostly cover 2023 to 2026, after most of the repricing, while the large moves came between 2022 and 2024. The rejection of H1 describes that period.
+
+The large moves were not simply a mark of young platforms, an exploratory check. The Indonesian and regional platforms made their largest moves one or two years after listing on the stock market. Foreign platforms, by contrast, did not move their take rates more in their first three years after listing than later (median 0.07 against 0.08, p = 0.24). Nor did foreign platforms in lower-income markets move more in 2022 to 2024: one of seven did, against all four Indonesian and regional platforms with enough years. The repricing was an Indonesian and regional episode of those years.
 
 The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year. The difference between them is nowhere near large enough to count (p = 0.65).
 
@@ -79,7 +82,7 @@ The two groups differ in the take rate they start from. The typical Indonesian a
 
 ## 5.3 What moved the take rate
 
-Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. With equation (5), the take rate accounts for about two thirds of a revenue move at the typical pair, against about a quarter abroad. The wedge, by contrast, follows the commerce: in both groups, about 95 percent of a move in the wedge comes from transaction value.
+Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricing here means a change in the take rate, through fees or incentives. With equation (5), the take rate accounts for about two thirds of a revenue move at the typical pair, against about a quarter abroad. The wedge, by contrast, follows the commerce: in both groups, about 95 percent of a move in the wedge comes from transaction value.
 
 Where companies disclose both their fees and their incentives, equation (6) splits the growth of revenue further. Table 5.4 gives the seven traced windows. Fees and incentives are measured per unit of transaction value, and a negative share means that a part pulled revenue down. The windows of one platform overlap, so they are not seven independent cases.
 
@@ -111,9 +114,9 @@ Tokopedia is not the only case of revenue rising while the commerce shrank. From
 
 Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation (8), p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
 
-The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m). That estimate is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20), or p = 0.16 with extreme values trimmed.
+The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m). That estimate is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20), or p = 0.16 with extreme values capped.
 
-A second run adds three segment series and three more whole companies. There the gap counts (p = 0.004), with about 0.6 for transaction value against about 0.1 for the take rate. That run sets segment figures against whole-company market values, as the registration warned, so the thesis does not rely on it. The answer depends on which platforms are in the sample.
+A second run adds five segment series, including Grab, GoTo and Sea, and Mercado Libre. There the gap counts (p = 0.004), with about 0.6 for transaction value against about 0.1 for the take rate. That run sets segment figures against whole-company market values, as the registration warned, so the thesis does not rely on it. The answer depends on which platforms are in the sample.
 
 Market value follows the commerce a platform carries. Early studies found a similar link, with markets pricing measures of web activity beyond earnings (Trueman, Wong and Zhang 2000). The data do not show that markets valued growth from pricing any less. Revenue and transaction value come from the platforms' own reports, and market value from share prices. The national figures give a separate view of the same commerce.
 
@@ -161,15 +164,17 @@ The count behaved normally again in BPS's published table for 2024. The cohort t
 
 The break was uneven across places and channels. Across the 34 provinces, growth in the count had almost no link to the share of new sellers, a rank correlation of 0.10. It had only a weak link to growth in the sample, at 0.35. A rank correlation compares the order of provinces on two measures and runs from −1 to 1. The break sat in chat and social selling. Among sellers who began by 2022, sellers using only chat or social media rose by 13 percent, and marketplace users by 0.3 percent.
 
-Sampling noise does not explain the break. BPS's published error rates put the usual size of the sampling noise in the national count at about 1.4 percent. The 306 thousand extra sellers are about 4.6 times that noise in the change between the two years. The calculation applies the 2024 edition's error rates to both years and treats the two surveys as independent.
+Sampling noise is very unlikely to explain the break. BPS's published error rates put the usual size of the sampling noise in the national count at about 1.4 percent. The 306 thousand extra sellers are about 4.6 times that noise in the change between the two years. The calculation applies the 2024 edition's error rates to both years and treats the two surveys as independent.
 
-Most of the 2023 rise in value has no source in the answers of existing sellers. BPS's online sales value rose from about US$53 billion to about US$72 billion. Entrants account for 25 to 30 percent of that rise, and sellers not explained by entry for 15 to 17 percent. Existing sellers reported a mean change of about −4 percent, so they added nothing to the rise. That leaves 53 to 59 percent of it with no source in the sellers' answers.
+Most of the 2023 rise in sales value cannot be traced to what sellers reported. BPS's online sales value rose by 41 percent in rupiah, from about US$53 billion to about US$72 billion at each year's exchange rate. The thesis splits that rise by giving each kind of seller its typical size in the 2022 file. New sellers, at the size of those that began in 2022, account for 25 to 30 percent of the rise. The extra earlier sellers, at the size of chat and social sellers, account for 15 to 17 percent. The typical seller already online reported no growth, with a mean change of about −4 percent when each seller counts once. So 53 to 59 percent of the rise has no source in the sellers' answers. A few large sellers growing fast could fill that part, and the files cannot show whether they did.
+
+The extra count also bears on H2, in an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, more businesses account for about 54 percent of the growth if no seller stopped, and about 42 percent if sellers stopped at 5 percent a year. H2 requires more than 50 percent. So H2 holds on the published series, but it sits on its threshold once the extra count is read as coverage. Taking out the sellers but keeping their sales gives 34 to 47 percent, though that version treats the count and the value unevenly.
 
 The checks point to a survey that reached more chat and social sellers in 2023, the kind of break that Section 3.5 described. The files cannot separate that reading from sellers returning after a pause. Who the extra sellers were bears on the choice between the two.
 
 ## 5.8 Who the extra sellers were
 
-The extra count leaned toward long-running businesses, older owners and places outside Java, an exploratory result. Each group's extra count is its 2023 count above what its own yearly change from 2020 to 2022 would give (Section 4.7). The extra sellers total about 450 thousand, close to the 458 thousand in Table 5.5. Figure 5.4 compares each group's share of the extra count with its share of the 2022 count.
+The extra count leaned toward long-running businesses, older owners and places outside Java, an exploratory result. Each group's extra count compares two numbers (Section 4.7). The first is the group's 2023 count. The second is the 2022 count grown at the group's own yearly rate from 2020 to 2022. The extra count is the first less the second. The extra sellers total about 450 thousand, close to the 458 thousand in Table 5.5. Figure 5.4 compares each group's share of the extra count with its share of the 2022 count.
 
 ![Figure 5.4](figures/fig5_4_extra_sellers.png)
 
@@ -185,7 +190,7 @@ Returning sellers still cannot be ruled out. Returners equal to 10 to 15 percent
 
 ## 5.9 Channels and records
 
-Most online selling happens outside marketplaces, and records are thinner there. The path of marketplace use, the value held by sellers without financial statements and the World Bank results were registered. The comparison within the group that began before 2020 is exploratory.
+Most online selling happens outside marketplaces, and records are thinner there. The path of marketplace use, the value held by sellers without financial statements and the World Bank results for Indonesia were registered. The comparison within the group that began before 2020 is exploratory.
 
 Nearly all online sellers, about 96 percent, use chat or social media. Marketplace use fell every time it was measured, from about 22 percent of sellers in 2020 to about 17 percent in 2024. BPS worded the question slightly differently for 2023 and 2024.
 
@@ -201,19 +206,19 @@ Records are thinner outside the marketplaces. In 2023, about 29 percent of marke
 
 The fall reaches long-running sellers too, an exploratory finding. Among sellers who began before 2020, the share keeping complete statements fell from about 23 percent in 2022 to about 17 percent in 2023.
 
-Sellers without statements hold far less of the value than of the count. On the bracket scenarios of Section 4.8, they held 26 to 40 percent of online value in 2022, against 79 percent of the count. The annual reading of the brackets passes the validation rule, at about twice BPS's total, while the monthly reading fails at about 23 times. The lower brackets alone exceed BPS's total, so the shares are ranges.
+Sellers without statements hold far less of the value than of the count. On the bracket scenarios of Section 4.8, they held 26 to 40 percent of online value in 2022, against 79 percent of the count. The validation rule asks the total built from the brackets to lie within half and double BPS's total. The annual reading passes, just inside the limit at about twice BPS's total, while the monthly reading gives about 23 times. The lower brackets alone exceed BPS's total, so the shares are ranges.
 
 One registered prediction on value failed narrowly. It expected the value share of sellers without statements to fall by no more than 5 points between 2020 and 2022. The share fell by 5.8 points on the main version and by 3.3 points on a second version.
 
 World Bank surveys of Indonesian firms show the same thin records. In six Indonesian cities, 27 percent of unregistered firms use social media with their customers. Among those, 70 percent keep no written records, and their median sales are about US$4,000 a year. A registered prediction that their mean sales would stay below about US$6,600 failed, at about US$7,300.
 
-Among formal firms, about 40 percent in Indonesia have neither a website nor online tax filing. That is the highest share of seven countries, against about 9 percent in Malaysia and in Thailand.
+Among formal firms, about 40 percent in Indonesia have neither a website nor online tax filing. That is the highest share of seven countries, against about 9 percent in Malaysia and in Thailand, a descriptive comparison.
 
 The split by channel bears on the third question of Section 2.4, because a rule built on platform records reaches only the marketplace part. Chapter 6 measures that reach. The same split also marks where the national figures part.
 
 ## 5.10 Why the national figures disagree
 
-The national figures agree on growth only where they cover the same sellers, and they do not agree on scale. In 2023, Bank Indonesia's e-commerce figure fell by about 5 percent while BPS's rose by about 41 percent. That is the disagreement with which Chapter 1 began, and the third objective asks what lies behind it.
+The national figures agree that growth was small only where they cover the same sellers, and they do not agree on scale. In 2023, Bank Indonesia's e-commerce figure fell by about 5 percent while BPS's rose by about 41 percent. That is the disagreement with which Chapter 1 began, and the third objective asks what lies behind it.
 
 Where Bank Indonesia's figure and BPS's cover the same ground, the growth is small. From 2022 to 2023, BPS's own marketplace slice grew by about 0.2 percent in the middle scenario. Across the scenarios it grew by 0.2 to 13 percent. From 2023 to 2024 it grew by about 1.5 percent. Most of the disagreement sits outside the marketplaces, among the sellers that only BPS reaches.
 
@@ -225,8 +230,8 @@ Payment figures grew faster than any of these from 2023 to 2024. E-money shoppin
 
 Levels cannot be reconciled. In 2024, BPS put online sales at about US$81 billion and Bank Indonesia at about US$31 billion. In 2023, BPS's marketplace slice was about US$13 billion, against about US$38 billion for Tokopedia and the Shopee estimate together. In 2024 it was less than a quarter of Momentum Works' marketplace estimate of about US$57 billion.
 
-Platform figures and the seller survey count different things. Platform transaction value includes shipping, digital goods, travel and offline sales that a seller survey does not count in the same way. The counts of sellers differ too. Tokopedia alone said that it had about 15 million merchants in 2022, while BPS counts about 0.6 million marketplace sellers.
+Platform figures and the seller survey count different things. Platform transaction value includes shipping, digital goods, travel and offline sales that a seller survey does not count in the same way. The counts of sellers differ too. Tokopedia alone said that it had more than 14 million merchants in 2023, while BPS counted about 0.7 million marketplace sellers that year (GoTo Gojek Tokopedia 2024b).
 
-Platform sales do not always keep pace with household spending. In each of the four quarters to mid-2026, GoTo's on-demand transaction value grew more slowly than household spending. In the last, it grew by 2 percent against 8 percent, while its revenue grew by 21 percent. Grab's and Shopee's figures grew faster, but they cover the region.
+Platform commerce does not always keep pace with household spending. In each of the four quarters to mid-2026, GoTo's on-demand transaction value grew more slowly than household spending. In the last, it grew by 2 percent against 8 percent, while its revenue grew by about 20 percent. Grab's and Shopee's figures grew faster, but they cover the region.
 
 The results answer the research question at two levels. On the inner link, revenue showed a small part of the commerce and stopped being a fair guide when the take rate moved. On the outer link, the 2023 rise in the count of sellers was only partly first-time entry. The figures part most where only the survey looks. Chapter 6 turns to the rules that Indonesia is writing.

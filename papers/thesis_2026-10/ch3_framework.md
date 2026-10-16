@@ -10,7 +10,7 @@ Figure 3.1 places the three quantities inside one another. Revenue sits inside p
 
 **Figure 3.1. Three nested quantities and the two links.** Revenue sits inside platform commerce, which sits inside all online commerce. H1 tests the inner link and H2 the outer link.
 
-*Note:* The figure is illustrative, and the sizes are not to scale. The platform circle differs from the marketplace channel in the survey of online sellers run by BPS, the national statistics office.
+*Note:* The figure is illustrative, and the sizes are not to scale. The platform circle differs from the marketplace channel in BPS's survey of online sellers.
 
 The research question asks how much activity remains invisible when platforms are measured through revenue, and when that choice changes the conclusion about growth. The literature leaves three parts of it open (Section 2.4). The framework answers each with its own tools:
 

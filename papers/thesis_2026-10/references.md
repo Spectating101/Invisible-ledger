@@ -1,8 +1,8 @@
 # References
 
-Working reference list for the thesis, built 15 Oct 2026 from the verified list in `research/option_space_2026-10-01/materials_2026-10-15/REFERENCE_CHECK.md` plus the Chapter 6 and finance sources (`CH6_SOURCES.md`, `FINANCE_FRAMING.md`). APA 7 for now; YZU's default is numbered citations, so the style may change at assembly. Entries marked [UNVERIFIED] still need one detail checked. Every in-text citation in Chapters 1 to 7 and the appendices has an entry here (checked by script on 15 Oct). Still to add: data citations for the World Bank Enterprise Surveys, LSEG market values and BPS national accounts.
+<!-- Working reference list for the thesis, built 15 Oct 2026 from the verified list in `research/option_space_2026-10-01/materials_2026-10-15/REFERENCE_CHECK.md` plus the Chapter 6 and finance sources (`CH6_SOURCES.md`, `FINANCE_FRAMING.md`). APA 7 for now; YZU's default is numbered citations, so the style may change at assembly. Entries marked [UNVERIFIED] still need one detail checked. Every in-text citation in Chapters 1 to 7 and the appendices has an entry here (checked by script on 15 Oct). Still to add: data citations for the World Bank Enterprise Surveys, LSEG market values and BPS national accounts.
 
-(APA 7, alphabetical, cited works only)
+(APA 7, alphabetical, cited works only) -->
 
 Agence France-Presse. (2023, September 25). 'Regulate them': Hard-up Indonesia traders urge TikTok sales ban. *Daily Tribune*. https://tribune.net.ph/2023/09/25/regulate-them-hard-up-indonesia-traders-urge-tiktok-sales-ban
 
@@ -34,11 +34,17 @@ Bureau of Internal Revenue. (2023). *Revenue Regulations No. 16-2023* [Issued De
 
 Caillaud, B., & Jullien, B. (2003). Chicken & egg: Competition among intermediation service providers. *The RAND Journal of Economics, 34*(2), 309–328. https://doi.org/10.2307/1593720
 
-CNN Indonesia. (2026, May 8). *Pemerintah ogah atur tarif admin Shopee-TikTok Shop usai seller ngeluh* [Government declines to regulate Shopee and TikTok Shop admin fees after sellers complain]. https://www.cnnindonesia.com/ekonomi/20260507165414-92-1356232/pemerintah-ogah-atur-tarif-admin-shopee-cs-meski-dikeluhkan-seller
+CNN Indonesia. (2026a, May 8). *Pemerintah ogah atur tarif admin Shopee-TikTok Shop usai seller ngeluh* [Government declines to regulate Shopee and TikTok Shop admin fees after sellers complain]. https://www.cnnindonesia.com/ekonomi/20260507165414-92-1356232/pemerintah-ogah-atur-tarif-admin-shopee-cs-meski-dikeluhkan-seller
+
+CNN Indonesia. (2026b, October 9). *Perpres ojol terbit, tegaskan potongan 8% dan tarif diatur Kemenhub* [Ojol regulation issued, confirms the 8% cut and fares set by the transport ministry]. https://www.cnnindonesia.com/otomotif/20261009100050-579-1413414/perpres-ojol-terbit-tegaskan-potongan-8-dan-tarif-diatur-kemenhub
 
 Davis, A. K. (2002). The value relevance of revenue for Internet firms: Does reporting grossed-up or barter revenue make a difference? *Journal of Accounting Research, 40*(2), 445–477. https://doi.org/10.1111/1475-679X.00056
 
-Directorate General of Taxes. (2026, October 1). *Pemungutan PPh Pasal 22 melalui marketplace mulai dilaksanakan 1 Oktober 2026* [Marketplace collection of income tax begins 1 October 2026] [Press release]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120661
+Directorate General of Taxes. (2026a, July 1). *[Designation of four marketplaces as collectors of income tax Article 22]* [Press release]. Ministry of Finance of the Republic of Indonesia. https://www.pajak.go.id/en/node/120146 [UNVERIFIED: exact title]
+
+Directorate General of Taxes. (2026b, August 5). *[Postponement of marketplace collection of income tax Article 22 to 1 November 2026] (PENG-46/PJ.09/2026)* [Announcement]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120353 [UNVERIFIED: exact title]
+
+Directorate General of Taxes. (2026c, October 1). *Pemungutan PPh Pasal 22 melalui marketplace mulai dilaksanakan 1 Oktober 2026* [Marketplace collection of income tax begins 1 October 2026] [Press release]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120661
 
 Directorate General of Taxes. (n.d.). *Pajak atas usaha ekonomi digital terkini Rp32,32 triliun* [Press release]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun [UNVERIFIED: date and title wording; title inferred from URL]
 
@@ -125,3 +131,4 @@ UNCTAD. (2023). *Measuring the value of e-commerce*. United Nations. https://doi
 UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Nations. https://doi.org/10.18356/9789211064490
 
 United Nations et al. (2025). *System of national accounts 2025* (Studies in Methods, Series F). United Nations. https://doi.org/10.18356/9789211073225 [UNVERIFIED: full list of co-issuing organisations]
+

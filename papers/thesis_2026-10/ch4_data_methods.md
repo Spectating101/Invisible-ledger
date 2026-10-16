@@ -2,9 +2,9 @@
 
 The figures this thesis compares come from sources that were never designed to be read together. Platforms publish in their own formats, and the answers of individual sellers are released only under a data-use agreement. The methods in this chapter are built around these conditions.
 
-On the platform side, the thesis reads revenue and transaction value from annual reports, audited statements and earnings releases, and the extraction tables keep the source file and the quoted passage beside every value. Where a platform does not report Indonesia alone, as with Shopee and Grab, the thesis states what it derives or borrows and labels it.
+On the platform side, the thesis reads revenue and transaction value from annual reports, audited statements and earnings releases, and the extraction tables keep the source file and the quoted passage beside every value. The Indonesian platforms are three online marketplaces, Tokopedia, Bukalapak and Blibli, and GoTo, the group that runs the Gojek app for rides and deliveries. GoTo also controlled Tokopedia until 2024 and still holds a stake in it. Two regional companies, both based in Singapore, complete the group: Grab, which runs rides and deliveries across Southeast Asia, and Sea, whose marketplace is Shopee. Where a platform does not report Indonesia alone, as with Shopee and Grab, the thesis states what it derives or borrows and labels it.
 
-The national side rests on a survey that BPS, the national statistics office, runs among online sellers. BPS publishes a few totals, and the thesis obtained the answers behind them for three survey rounds, which show when each seller began selling online and how much it sold. The central bank's own figure has no published method, so it serves only as a point of comparison.
+The national side rests on BPS's survey of online sellers. BPS publishes a few totals, and the thesis obtained the answers behind them for three survey rounds, which show when each seller began selling online and how much it sold. The central bank's own figure has no published method, so it serves only as a point of comparison.
 
 Setting the two sides against each other for one country is what makes the tests possible. Indonesia allows it. Five platform series report revenue and transaction value in the same year, three of them report what they pay out in incentives, and the survey asks every online seller when it began. The tests are built to ask only what these sources can answer, and each limit is stated where it applies.
 
@@ -40,7 +40,7 @@ Two platforms sit close to that line. Zalando is one of the eight and sells part
 
 The first objective, the size of the invisible wedge, needs amounts for Indonesia alone. The thesis sums the transaction value and revenue of three major platforms in Indonesia in 2023: Tokopedia, Shopee and Grab. The wedge and the ecosystem ratio are then computed from the sums.
 
-Each platform reaches the sum by its own route. Tokopedia reports both amounts for its segment. Shopee's transaction value is an outside estimate by Momentum Works. Its revenue assumes a take rate of 10 percent, which the thesis varies from 9 to 11 percent. Grab reports its Indonesian revenue, and the thesis derives its Indonesian transaction value from Grab's company-wide ratio of the two amounts. The thesis drops each platform in turn, and it repeats the exercise for every platform-year between 2020 and 2025 that the filings allow.
+Each platform reaches the sum by its own route. Tokopedia reports both amounts for its segment. Shopee's transaction value is an outside estimate by Momentum Works, a research firm that tracks online commerce in Southeast Asia. Its revenue assumes a take rate of 10 percent, which the thesis varies from 9 to 11 percent. Grab reports its Indonesian revenue, and the thesis derives its Indonesian transaction value from Grab's company-wide ratio of the two amounts. The thesis drops each platform in turn, and it repeats the exercise for every platform-year between 2020 and 2025 that the filings allow.
 
 ## 4.3 Testing H1
 
@@ -66,13 +66,13 @@ Grab is read from its annual filings and GoTo from its audited statements. Blibl
 
 The market-value analysis of Section 3.6 uses year-end market values from the financial data service LSEG, under the university licence. The main sample has 28 listed platforms and 138 platform-years, made up of Bukalapak and 27 platforms abroad, and it uses whole-company figures only. It is not the list of 27 used for H1. It adds Airbnb, Booking, DoorDash, Lyft and Uber, and it lacks Despegar, Mercado Libre, Ozon, Rakuten and Sea.
 
-Equation (8) is estimated with a fixed effect for each year, which removes what all platforms share in that year. Standard errors are clustered by company, which allows for the repeated observations of one company. Each prediction names a direction, so both tests are one-sided. The test was written down before the market values were pulled. The result is an association, and market value also changes when a company issues shares, so the thesis does not call it a stock return. A second run adds three segment series and three more whole companies as a robustness check.
+Equation (8) is estimated with a fixed effect for each year, which removes what all platforms share in that year. Standard errors are clustered by company, which allows for the repeated observations of one company. Each prediction names a direction, so both tests are one-sided. The test was written down before the market values were pulled. The result is an association, and market value also changes when a company issues shares, so the thesis does not call it a stock return. A second run adds five segment series and Mercado Libre as a robustness check. Grab, GoTo and Sea enter only there, because their reported transaction value covers only part of the business that the market value prices.
 
 ## 4.6 The survey files and H2
 
 The national evidence comes from the survey of online sellers that BPS runs. BPS publishes the number of businesses selling online, their total online sales and the shares by channel (BPS 2025a, 2025b). The survey rounds are named for the survey year, but their questions refer to the year before. The thesis names a file by its round and a year by the year of activity, so the file for the 2024 round describes 2023. Each round lists businesses in sampled areas and updates its sampling frame, so a change in who is found can change the count.
 
-H2 uses the published figures and the split of equation (7). BPS prints two counts of businesses for 2023, so the thesis computes the split with both and reports both.
+H2 uses the published figures and the split of equation (7). BPS prints two counts of businesses for 2023, so the thesis computes the 2023 to 2024 split with both and reports both. The 2022 to 2023 split uses the count that the survey weights match.
 
 The published figures cannot tell a new seller from one counted for the first time, but the survey files can. Table 4.2 lists them. Each row is a business that sold online in the activity year. Its survey weight shows how many businesses it represents, so the weights add up to the national count.
 
