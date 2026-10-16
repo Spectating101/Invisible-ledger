@@ -30,7 +30,7 @@ Two groups of platforms are compared. The Indonesian and regional group has five
 
 Table 4.1 states the scope of each series because the series differ, and only Tokopedia is an Indonesian segment alone. The thesis never adds the series together, and each platform enters the tests on its own. Sea, whose Shopee business has Indonesia as a main market, sits in the foreign group.
 
-Platform-years are compared in pairs, and three rules keep the pairs comparable. Two consecutive platform-years form a pair, and nothing else does. A missing year stays missing and is never filled in. Annual and quarterly pairs are never pooled. A take rate is a ratio of two amounts in one currency, so the tests need no exchange rate. Amounts in running text are in US dollars at the World Bank's average rate for the year.
+Platform-years are compared in pairs, and three rules keep the pairs comparable. Two consecutive platform-years form a pair, and nothing else does. A missing year stays missing and is never filled in. Annual and quarterly pairs are never pooled. A take rate is a ratio of two amounts in one currency, so the tests need no exchange rate. Amounts in running text are in US dollars at the World Bank's average rate for the year (World Bank 2026).
 
 The third rule of Section 3.1, which keeps out companies that mainly sell their own goods, is applied in two ways. For the 19 platforms added, the thesis drops any year in which own goods exceed half of revenue. For the eight chosen first, it keeps a pair only when the company's reporting scope did not change between the two years.
 
@@ -125,10 +125,10 @@ The 2023 file, which describes 2022, lets the thesis separate the part of BPS's 
 | Platform reports | Everything bought through one platform | The platform's own records |
 | BPS online-seller survey | Every business that sold online, including chat and social media | Listing in sampled areas, scaled up by survey weights |
 | Bank Indonesia e-commerce statistics | Transactions of large e-commerce firms (Bank Indonesia 2025) | Data sent to the central bank; the method is not public |
-| Industry estimates | Shopping marketplaces in Indonesia or Southeast Asia, from the research firm Momentum Works (2024) and the e-Conomy report (Google, Temasek and Bain 2024) | Outside estimates |
+| Industry estimates | Shopping marketplaces in Indonesia or Southeast Asia, from the research firm Momentum Works (2024), as quoted by Setyowati (2024), and the e-Conomy report (Google, Temasek and Bain 2024) | Outside estimates |
 | Household spending | All household purchases | BPS national accounts |
 | Payment figures | Payments made through systems such as QRIS, the national QR-code system | Payment records, in person and online |
-| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes n.d.), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
+| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes 2025), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
 
 ## 4.10 Labels, traceability and licensed data
 

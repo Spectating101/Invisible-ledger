@@ -12,15 +12,15 @@ Armstrong, M. (2006). Competition in two-sided markets. *The RAND Journal of Eco
 
 Ayudiana, S. (2026, July 8). Diskon biaya layanan marketplace ditargetkan berlaku Agustus 2026 [Marketplace service-fee discount targeted for August 2026]. *ANTARA*. https://www.antaranews.com/berita/5641444/diskon-biaya-layanan-marketplace-ditargetkan-berlaku-agustus-2026
 
-Bank Indonesia. (2023). *Laporan perekonomian Indonesia 2022* [Economic report on Indonesia 2022]. https://www.bi.go.id/id/publikasi/laporan/Documents/LPI_2022.pdf [UNVERIFIED: release date]
+Bank Indonesia. (2023). *Laporan perekonomian Indonesia 2022* [Economic report on Indonesia 2022]. https://www.bi.go.id/id/publikasi/laporan/Documents/LPI_2022.pdf
 
-Bank Indonesia. (2025). *Sinergi jadi energi saat UMKM naik kelas lewat digitalisasi* [Cerita BI]. https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx [UNVERIFIED: exact date; repo notes say 30 Oct 2025]
+Bank Indonesia. (2025, October 30). *Sinergi jadi energi: Saat UMKM naik kelas lewat digitalisasi* [Synergy becomes energy: When small businesses move up through digitalisation] [Cerita BI]. https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx
 
 Berg, T., Burg, V., Gombović, A., & Puri, M. (2020). On the rise of FinTechs: Credit scoring using digital footprints. *The Review of Financial Studies, 33*(7), 2845–2897. https://doi.org/10.1093/rfs/hhz099
 
 Bowen, R. M., Davis, A. K., & Rajgopal, S. (2002). Determinants of revenue-reporting practices for Internet firms. *Contemporary Accounting Research, 19*(4), 523–562. https://doi.org/10.1506/9728-4YG8-GC3L-FPFA
 
-BPS-Statistics Indonesia. (2023). *Peraturan Badan Pusat Statistik Nomor 4 Tahun 2023 tentang penyampaian dan pengelolaan data dan/atau informasi perdagangan melalui sistem elektronik* [BPS Regulation No. 4 of 2023 on the submission and management of e-commerce data and/or information]. https://jdih.bps.go.id [UNVERIFIED: document-level URL]
+BPS-Statistics Indonesia. (2023). *Peraturan Badan Pusat Statistik Nomor 4 Tahun 2023 tentang penyampaian dan pengelolaan data dan/atau informasi perdagangan melalui sistem elektronik* [BPS Regulation No. 4 of 2023 on the submission and management of e-commerce data and/or information]. Berita Negara Republik Indonesia Tahun 2023 Nomor 257. https://jdih.bps.go.id
 
 BPS-Statistics Indonesia. (2025a). *Statistik e-commerce 2023* [E-commerce statistics 2023]. https://www.bps.go.id/id/publication/2025/01/30/d52af11843aee401403ecfa6/statistik-e-commerce-2023.html
 
@@ -30,7 +30,7 @@ van den Brakel, J., Smith, P. A., & Compton, S. (2008). Quality procedures for s
 
 van den Brakel, J., Zhang, X., & Tam, S.-M. (2020). Measuring discontinuities in time series obtained with repeated sample surveys. *International Statistical Review, 88*(1), 155–175. https://doi.org/10.1111/insr.12347
 
-Bureau of Internal Revenue. (2023). *Revenue Regulations No. 16-2023* [Issued December 21, 2023]. Republic of the Philippines. [UNVERIFIED: primary text not retrieved (403); details from GMA News, December 29, 2023, https://www.gmanetwork.com/news/money/economy/892606/bir-subjects-online-sellers-to-1-withholding-tax/story/]
+Bureau of Internal Revenue. (2023). *Revenue Regulations No. 16-2023* [Issued December 21, 2023]. Republic of the Philippines. [Primary text not retrieved; details from Cordero, T. (2023, December 29), BIR subjects online sellers to 1% withholding tax, *GMA News*, https://www.gmanetwork.com/news/money/economy/892606/bir-subjects-online-sellers-to-1-withholding-tax/story/]
 
 Caillaud, B., & Jullien, B. (2003). Chicken & egg: Competition among intermediation service providers. *The RAND Journal of Economics, 34*(2), 309–328. https://doi.org/10.2307/1593720
 
@@ -40,13 +40,15 @@ CNN Indonesia. (2026b, October 9). *Perpres ojol terbit, tegaskan potongan 8% da
 
 Davis, A. K. (2002). The value relevance of revenue for Internet firms: Does reporting grossed-up or barter revenue make a difference? *Journal of Accounting Research, 40*(2), 445–477. https://doi.org/10.1111/1475-679X.00056
 
-Directorate General of Taxes. (2026a, July 1). *[Designation of four marketplaces as collectors of income tax Article 22]* [Press release]. Ministry of Finance of the Republic of Indonesia. https://www.pajak.go.id/en/node/120146 [UNVERIFIED: exact title]
+Directorate General of Taxes. (2025, January 20). *Pajak atas usaha ekonomi digital terkini: 32,32 triliun* [Latest tax from the digital economy: Rp32.32 trillion] (Press Release No. SP-1/2025). Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun
 
-Directorate General of Taxes. (2026b, August 5). *[Postponement of marketplace collection of income tax Article 22 to 1 November 2026] (PENG-46/PJ.09/2026)* [Announcement]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120353 [UNVERIFIED: exact title]
+Directorate General of Taxes. (2026a, July 1). *Pemerintah implementasikan PMK 37/2025 melalui penunjukan empat marketplace sebagai pemungut PPh* [Government implements Finance Minister Regulation 37/2025 by designating four marketplaces as income tax collectors] (Press Release No. SP-14/2026). Ministry of Finance of the Republic of Indonesia. https://www.pajak.go.id/en/node/120146
+
+Directorate General of Taxes. (2026b, August 5). *Pengumuman Nomor PENG-46/PJ.09/2026 tentang penundaan waktu pemberlakuan ketentuan pemungutan PPh Pasal 22 oleh marketplace* [Announcement No. PENG-46/PJ.09/2026 on postponing marketplace collection of income tax Article 22 to 1 November 2026]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120353
 
 Directorate General of Taxes. (2026c, October 1). *Pemungutan PPh Pasal 22 melalui marketplace mulai dilaksanakan 1 Oktober 2026* [Marketplace collection of income tax begins 1 October 2026] [Press release]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/en/node/120661
 
-Directorate General of Taxes. (n.d.). *Pajak atas usaha ekonomi digital terkini Rp32,32 triliun* [Press release]. Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun [UNVERIFIED: date and title wording; title inferred from URL]
+European Commission, International Monetary Fund, Organisation for Economic Co-operation and Development, United Nations, & World Bank. (2025). *System of national accounts 2025* (Pre-edit version; Studies in Methods, Series F, No. 2/Rev.6). United Nations. https://doi.org/10.18356/9789211073225
 
 European Union. (2021). Council Directive (EU) 2021/514 of 22 March 2021 amending Directive 2011/16/EU on administrative cooperation in the field of taxation. *Official Journal of the European Union, L 104*, 25 March 2021. https://eur-lex.europa.eu/eli/dir/2021/514/oj
 
@@ -58,15 +60,15 @@ Google, Temasek, & Bain & Company. (2024). *e-Conomy SEA 2024: Profits on the ri
 
 GoTo Gojek Tokopedia. (2024a, March 19). *GoTo Group turns adjusted EBITDA positive, surpassing full year guidance as company reports 2023 fourth quarter and full year results* [Press release]. https://content.goinfra.co.id/asts/GoTo%20FY2023%204Q2023%20Press%20Release.pdf
 
-GoTo Gojek Tokopedia. (2024b). *2023 annual report: Transformation for progress*. PT GoTo Gojek Tokopedia Tbk. [UNVERIFIED: public URL; local copy `sources/core_public_documents/goto_annual_report_2023.pdf`]
+GoTo Gojek Tokopedia. (2024b). *2023 annual report: Transformation for progress*. PT GoTo Gojek Tokopedia Tbk. https://content.goinfra.co.id/asts/InvestorRelation/AnnualReport/GOTO_Laporan%20Tahunan_2023.pdf
 
-GoTo Gojek Tokopedia. (2026). *Second quarter 2026 earnings call transcript* [Transcript]. https://www.gotocompany.com/investor-relations/en/quarterly-results?year=2026&item=Q2 [UNVERIFIED: exact title and date of the call]
+GoTo Gojek Tokopedia. (2026, July 29). *PT GoTo Gojek Tokopedia 2Q26 earnings call transcript* [Transcript]. https://content.goinfra.co.id/asts/InvestorRelation/FinancialInformation/2026-07-31/PT%20GoTo%20Gojek%20Tokopedia%202Q26%20Earnings%20Call%20Transcript.pdf
 
-Government of the Republic of Indonesia. (2026). *Peraturan Pemerintah Nomor 20 Tahun 2026 tentang perubahan atas Peraturan Pemerintah Nomor 55 Tahun 2022* [Government Regulation No. 20 of 2026 amending Government Regulation No. 55 of 2022]. https://jdih.setneg.go.id [UNVERIFIED: document-level URL]
+Government of the Republic of Indonesia. (2026). *Peraturan Pemerintah Nomor 20 Tahun 2026 tentang perubahan atas Peraturan Pemerintah Nomor 55 Tahun 2022 tentang penyesuaian pengaturan di bidang pajak penghasilan* [Government Regulation No. 20 of 2026 amending Government Regulation No. 55 of 2022 on adjustments to income tax rules]. Lembaran Negara Republik Indonesia Tahun 2026 Nomor 43. https://jdih.kemenkeu.go.id/dok/pp-20-tahun-2026
 
-Government of Viet Nam. (2025). *Decree No. 117/2025/ND-CP on tax administration for business activities on e-commerce and digital platforms of households and individuals* [Issued June 9, 2025; effective July 1, 2025]. [UNVERIFIED: primary text not retrieved; English title and details from EY Tax Alert, June 24, 2025, https://taxnews.ey.com/news/2025-1337-vietnam-promulgates-decree-on-tax-administration-for-business-activities-on-e-commerce-and-digital-platforms-of-households-and-individuals]
+Government of Viet Nam. (2025). *Nghị định số 117/2025/NĐ-CP quy định quản lý thuế đối với hoạt động kinh doanh trên nền tảng thương mại điện tử, nền tảng số của hộ, cá nhân* [Decree No. 117/2025/ND-CP on tax administration for business activities on e-commerce and digital platforms of households and individuals; issued June 9, 2025; effective July 1, 2025]. https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/117-ndcp.signed.pdf
 
-Grab Holdings Limited. (2026, August 3). *Grab (GRAB) Q2 2026 earnings call transcript* [Transcript]. The Motley Fool via AOL. https://www.aol.com/articles/grab-grab-q2-2026-earnings-141515000.html [Third-party transcript; check against Grab's own webcast before submission]
+Grab Holdings Limited. (2026, August 3). *Grab (GRAB) Q2 2026 earnings call transcript* [Transcript]. The Motley Fool via AOL. https://www.aol.com/articles/grab-grab-q2-2026-earnings-141515000.html [Third-party transcript by The Motley Fool, published August 11, 2026]
 
 Hagiu, A., & Wright, J. (2015). Multi-sided platforms. *International Journal of Industrial Organization, 43*, 162–174. https://doi.org/10.1016/j.ijindorg.2015.03.003
 
@@ -94,11 +96,11 @@ McKenzie, D., & Paffhausen, A. L. (2019). Small firm death in developing countri
 
 Ministry of Finance of the Republic of Indonesia. (2025). *Peraturan Menteri Keuangan Nomor 37 Tahun 2025 tentang penunjukan pihak lain sebagai pemungut pajak penghasilan serta tata cara pemungutan, penyetoran, dan pelaporan pajak penghasilan yang dipungut oleh pihak lain atas penghasilan yang diterima atau diperoleh pedagang dalam negeri dengan mekanisme perdagangan melalui sistem elektronik* [Finance Minister Regulation No. 37 of 2025]. https://jdih.kemenkeu.go.id/dok/pmk-37-tahun-2025
 
-Ministry of Trade of the Republic of Indonesia. (2023). *Peraturan Menteri Perdagangan Nomor 31 Tahun 2023 tentang perizinan berusaha, periklanan, pembinaan, dan pengawasan pelaku usaha dalam perdagangan melalui sistem elektronik* [Trade Minister Regulation No. 31 of 2023]. https://jdih.kemendag.go.id [UNVERIFIED: document-level URL]
+Ministry of Trade of the Republic of Indonesia. (2023). *Peraturan Menteri Perdagangan Nomor 31 Tahun 2023 tentang perizinan berusaha, periklanan, pembinaan, dan pengawasan pelaku usaha dalam perdagangan melalui sistem elektronik* [Trade Minister Regulation No. 31 of 2023 on licensing, advertising, guidance and supervision of businesses in e-commerce]. Berita Negara Republik Indonesia Tahun 2023 Nomor 763. https://jdih.kemendag.go.id/peraturan/peraturan-menteri-perdagangan-nomor-31-tahun-2023-tentang-perizinan-berusaha-periklanan-pembinaan-dan-pengawasan-pelaku-usaha-dalam-perdagangan-melalui-sistem-elektronik-1
 
-Ministry of Trade of the Republic of Indonesia. (2026). *Peraturan Menteri Perdagangan Nomor 19 Tahun 2026 tentang penyelenggaraan usaha perdagangan melalui sistem elektronik* [Trade Minister Regulation No. 19 of 2026]. https://jdih.kemendag.go.id [UNVERIFIED: document-level URL]
+Ministry of Trade of the Republic of Indonesia. (2026). *Peraturan Menteri Perdagangan Nomor 19 Tahun 2026 tentang penyelenggaraan usaha perdagangan melalui sistem elektronik* [Trade Minister Regulation No. 19 of 2026 on conducting e-commerce business]. Berita Negara Republik Indonesia Tahun 2026 Nomor 367. https://jdih.kemendag.go.id/peraturan/peraturan-menteri-perdagangan-republik-indonesia-nomor-19-tahun-2026-tentang-penyelenggaraan-usaha-perdagangan-melalui-sistem-elektronik-1
 
-Momentum Works. (2024). *Ecommerce in Southeast Asia 2024*. [UNVERIFIED: primary report not seen; the figure used is quoted by Katadata, July 15, 2024]
+Momentum Works. (2024). *Ecommerce in Southeast Asia 2024* [Report]. https://momentum.asia/insights/detail/ecommerce-in-southeast-asia-2024 [Primary report not seen; figures as quoted in Setyowati (2024)]
 
 Naritomi, J. (2019). Consumers as tax auditors. *American Economic Review, 109*(9), 3031–3072. https://doi.org/10.1257/aer.20160658
 
@@ -106,7 +108,7 @@ Neter, J., & Waksberg, J. (1964). A study of response errors in expenditures dat
 
 Organisation for Economic Co-operation and Development. (2020). *Model rules for reporting by platform operators with respect to sellers in the sharing and gig economy*. OECD. https://doi.org/10.1787/d7973047-en
 
-Organisation for Economic Co-operation and Development. (2021). *Model reporting rules for digital platforms: International exchange framework and optional module for sale of goods*. OECD. https://www.oecd.org/tax/exchange-of-tax-information/model-reporting-rules-for-digital-platforms-international-exchange-framework-and-optional-module-for-sale-of-goods.pdf
+Organisation for Economic Co-operation and Development. (2021). *Model reporting rules for digital platforms: International exchange framework and optional module for sale of goods*. OECD. https://doi.org/10.1787/8ffb8d09-en
 
 Organisation for Economic Co-operation and Development. (2023). *OECD handbook on compiling digital supply and use tables*. OECD Publishing. https://doi.org/10.1787/11a0db02-en
 
@@ -120,6 +122,10 @@ Rochet, J.-C., & Tirole, J. (2003). Platform competition in two-sided markets. *
 
 Ronal. (2025, May 21). Kemenhub siap bahas tuntutan driver ojol soal potongan tarif aplikasi [Transport ministry ready to discuss ojol drivers' demands on the app commission]. *Pasardana*. https://pasardana.id/news/2025/5/21/kemenhub-siap-bahas-tuntutan-driver-ojol-soal-potongan-tarif-aplikasi/
 
+Setyowati, D. (2024, July 15). Transaksi Shopee hingga TikTok Shop Tokopedia di RI Rp 867 triliun [Transactions from Shopee to TikTok Shop Tokopedia in Indonesia reach Rp867 trillion]. *Katadata*. https://katadata.co.id/digital/e-commerce/6694e1bf09ec8/transaksi-shopee-hingga-tiktok-shop-tokopedia-di-ri-rp-867-triliun
+
+Setyowati, D. (2025, June 26). Transaksi belanja online di Indonesia melambat, Thailand dan Malaysia melesat [Online shopping in Indonesia slows while Thailand and Malaysia surge]. *Katadata*. https://katadata.co.id/digital/e-commerce/685ba4184c37a/transaksi-belanja-online-di-indonesia-melambat-thailand-dan-malaysia-melesat
+
 Setyowati, D. (2026, May 18). TikTok Shop Tokopedia sesuaikan biaya admin seller per 18 Mei: Ada yang naik [TikTok Shop Tokopedia adjusts seller admin fees from 18 May: some rise]. *Katadata*. https://katadata.co.id/digital/e-commerce/6a0a8ae3741b3/tiktok-shop-tokopedia-sesuaikan-biaya-admin-seller-per-18-mei-ada-yang-naik
 
 Trueman, B., Wong, M. H. F., & Zhang, X.-J. (2000). The eyeballs have it: Searching for the value in Internet stocks. *Journal of Accounting Research, 38*(Supplement), 137–162. https://doi.org/10.2307/2672912
@@ -130,5 +136,4 @@ UNCTAD. (2023). *Measuring the value of e-commerce*. United Nations. https://doi
 
 UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Nations. https://doi.org/10.18356/9789211064490
 
-United Nations et al. (2025). *System of national accounts 2025* (Studies in Methods, Series F). United Nations. https://doi.org/10.18356/9789211073225 [UNVERIFIED: full list of co-issuing organisations]
-
+World Bank. (2026). *World development indicators: Official exchange rate (LCU per US$, period average)* [PA.NUS.FCRF], Indonesia, 2022–2024. https://data.worldbank.org

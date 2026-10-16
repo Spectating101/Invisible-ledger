@@ -38,7 +38,7 @@ Revenue showed only a small part of what Indonesia's major platforms carried. In
 | Grab, Indonesia | 5.38 | 0.60 | 4.78 | 7.9 | Revenue is a direct country disclosure; transaction value is derived from Grab's company-wide ratio |
 | Total | 43.23 | 3.16 | 40.07 | 12.7 | Sum of three platforms, not a national total |
 
-*Note:* Rounded amounts may not add. With Shopee's take rate at 9 or 11 percent, the total wedge is US$40.3 or US$39.9 billion; at Sea's company-wide rate of 11.5 percent, it is US$39.8 billion. Source: company filings; Momentum Works (2024); author's calculations.
+*Note:* Rounded amounts may not add. With Shopee's take rate at 9 or 11 percent, the total wedge is US$40.3 or US$39.9 billion; at Sea's company-wide rate of 11.5 percent, it is US$39.8 billion. Source: company filings; Momentum Works (2024), as quoted by Setyowati (2024); author's calculations.
 
 The ratios differ because the amounts were obtained in different ways. Tokopedia reports both amounts, and its ratio is about 39. Shopee's ratio of 9 follows from the assumed take rate, and Grab's ratio of about 8 is its company-wide ratio. Neither is separate evidence for Indonesia. Blibli and Bukalapak also report both amounts, with ratios of about 43 and 36, close to Tokopedia's. They are left out of the sum because Blibli's figure includes online travel and Bukalapak reports for its whole group.
 
@@ -126,11 +126,11 @@ Buying through platforms did not boom in 2023. Household spending rose by about 
 
 The figures that described a boom were of other kinds. Tokopedia's revenue rose by 53 percent and BPS's online sales value by 41 percent, while the buying that platforms carried grew slowly or fell. Figure 5.3 shows the two kinds in different colours.
 
+Sellers' own accounts of their sales show no boom either, a registered result. BPS asks each business how its online sales changed. For businesses already selling, the registered prediction set an upper limit on the median change. The limit was about 10 percent, the published growth in sales per business. The median change was zero.
+
 ![Figure 5.3](figures/fig5_3_growth_2023.png)
 
 **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars show the figures that described a boom. Each measure is in its own unit. Sources: company reports, Bank Indonesia, Momentum Works and BPS; household spending from national accounts. GoTo's change rests on an estimated 2022 value, and Momentum Works' 3.5 is the author's calculation from its published levels (its 2024 release states 3.7). Appendix D gives the values.
-
-Sellers' own accounts of their sales show no boom either, a registered result. BPS asks each business how its online sales changed. For businesses already selling, the registered prediction set an upper limit on the median change. The limit was about 10 percent, the published growth in sales per business. The median change was zero.
 
 Fewer sellers reported a rise than a year earlier. About a quarter reported a rise and about a third a fall. A year before, more than a third had reported a rise and a quarter a fall. The mean change was about −4 percent. Lack of demand became the main obstacle, named by 41 percent of sellers against 35 percent in 2022. The published count of online sellers nonetheless rose by 27 percent in 2023. A rise of that size, in a year without a boom in sales, needs explaining.
 
@@ -228,7 +228,7 @@ In 2024 the figures divide by coverage. Those that cover mainly platforms grew b
 
 Payment figures grew faster than any of these from 2023 to 2024. E-money shopping grew by about 30 percent, mobile-banking purchases by 83 percent and QRIS payments by 187 percent. They are context only, because they include in-person payments and the switch away from cash.
 
-Levels cannot be reconciled. In 2024, BPS put online sales at about US$81 billion and Bank Indonesia at about US$31 billion. In 2023, BPS's marketplace slice was about US$13 billion, against about US$38 billion for Tokopedia and the Shopee estimate together. In 2024 it was less than a quarter of Momentum Works' marketplace estimate of about US$57 billion.
+Levels cannot be reconciled. In 2024, BPS put online sales at about US$81 billion and Bank Indonesia at about US$31 billion. In 2023, BPS's marketplace slice was about US$13 billion, against about US$38 billion for Tokopedia and the Shopee estimate together. In 2024 it was less than a quarter of Momentum Works' marketplace estimate of about US$57 billion (Setyowati 2025).
 
 Platform figures and the seller survey count different things. Platform transaction value includes shipping, digital goods, travel and offline sales that a seller survey does not count in the same way. The counts of sellers differ too. Tokopedia alone reported more than 14 million merchants in 2023 (GoTo Gojek Tokopedia 2024b). The survey files put marketplace sellers at about 0.7 million that year, on the author's calculation.
 

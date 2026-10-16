@@ -38,7 +38,7 @@ Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for t
 | Zalando | Chosen first | 4 | 0.02 |
 | eBay | Chosen first | 4 | 0.03 |
 
-Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg and Vipshop, because their own goods are most of revenue in every year; and four platforms that disclose no transaction value (tickers NBIS, TCOM, TOUR and UXIN).
+Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg and Vipshop, because their own goods are most of revenue in every year; and four platforms that disclose no transaction value (Nebius Group, formerly Yandex; Trip.com; Tuniu; and Uxin).
 
 ### A.2 The Indonesian and regional group
 
