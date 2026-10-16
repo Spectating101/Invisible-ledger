@@ -35,7 +35,7 @@ On 12 October the advisor wrote: focus on the issues she and Prof. Thomas raised
 |---|---|
 | Research and evidence | **Complete.** Every number is rebuilt by `research/option_space_2026-10-01/rebuild_all.sh` (272 ledger checks pass). No further analysis is planned. |
 | Story | **Settled.** Golden pitch and five-part arc frozen (tags `golden-pitch-2026-10-08`, `narrative-arc-2026-10-09`). |
-| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds. Chapter 5 has an older draft to be rewritten. Chapters 2, 3, 4, 6, 7 not started. |
+| Thesis text | **Started.** Chapter 1 drafted and revised over many rounds (introduction and 1.1 reviewed; 1.2 and 1.3 next). Chapters 2 and 3 have first full drafts (12 Oct, evening), awaiting the researcher's reading; a seam pass then aligned Chapters 1 to 3 with each other (vocabulary, the H2 and entry-test spine, order, numbers; see `EDIT_HISTORY.md`, last section). Chapter 5 has an older draft to be rewritten. Chapters 4, 6, 7 not started. |
 | Advisor | Progress deck and data package ready (`papers/IL_Advisor_Package_2026-10-12.zip`); the researcher uploads it. The advisor has **not yet seen** the change in what H2 means. |
 | Branch | All work is on `proposal/integrated-2026-09-16`, about 140 commits ahead of `main`. **`main` is stale** (it stops on 1 Oct, when PR #9 merged). |
 
@@ -78,8 +78,10 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 ## 6. Next steps, in order
 
 1. Recheck section 1.2 (contributions) of chapter 1 against the ambition paragraph in 1.1.
-2. Write chapter 3 (terms in one box, the growth formula, H1, H2, the entry test) and chapter 4 (data and tests).
-3. Rewrite chapter 5 as ten sections, each answering one question, using `DRAFT_STORY_v2.md` for content and the writing rules for form.
+2. Chapters 2 and 3 have first drafts (`ch2_literature.md`, `ch3_framework.md`) and Chapters 1 to 3 have had a seam pass; revise from the researcher's reading. **Chapter 4 has a first draft** (`ch4_data_methods.md`, 12 Oct night); it covers what it owed the reader: both groups for the H1 test (Indonesian platforms and the foreign benchmark); the entry-test rule; the data behind each test; how revenue movements are traced to fees and discounts (Objective 2); how the platform evidence is compared with national and payment figures (Objective 3).
+2a. Chapters 4 and 5 were audited by an independent agent and cleaned on 13 Oct (see the last section of `EDIT_HISTORY.md`); it lists three decisions that touch Chapters 1 and 3 and the list Chapter 7 must carry.
+2b. Chapter 4 open points: market values (4.7) are not promised in Chapters 1 or 3, so either add one clause to 3.4 and 1.3 or cut 4.7; the appendix it points to (platform list, seven traced windows, registered tests with dates) must be built; Table 4.1 labels Blibli's and Bukalapak's scope as the sources describe it, to be rechecked against the filings; household spending needs a reference.
+3. Chapter 5 has a rewritten first draft (`ch5_results.md`, 13 Oct) with 11 sections; figures (exhibits) are not yet placed; Chapter 6 (rules and reach) is next. Original instruction for Chapter 5 kept for reference: rewrite as ten sections, each answering one question, using `DRAFT_STORY_v2.md` for content and the writing rules for form.
 4. Write chapters 2, 6 and 7. Chapter 6 waits for the scheduled results below.
 5. Insert citations; format to the YZU template (the researcher obtains it).
 
@@ -109,6 +111,10 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Wants honest assessments and pushback when a request would weaken the thesis; does not want reassurance.
 - Judges the writing by ear: expect to be corrected on flow and tone, and record each round in `EDIT_HISTORY.md`.
 - Cheap checks on existing data are always worth running; new analysis is not wanted now.
+- **Readability comes before safety.** On 12 Oct (evening) the researcher said he does not want flags on the ambition paragraph ("technically no evidence, it is an educated guess, I am not going for safer options"), and that a safer claim that makes a sentence convoluted is the very thing Prof. Kong and Prof. Thomas complained about. So: the ambition and framing stay bold and are not flagged; support goes in notes or later chapters, never into hedged prose; flag a sentence only when it makes a different claim, once. This sits beside section 8: statements of what the data show keep their evidence strength; the framing is bold by design.
+- **He reviews before and after.** Show the change as before and after in chat, apply only what he approves, commit once per round, log it in `EDIT_HISTORY.md`. To assess a passage: print the full text with numbered paragraphs, say what each paragraph does and whether it hands over to the next, then list only reading problems, ranked.
+- **Vocabulary is fixed** (thesis README, Vocabulary rule): wedge, not gap; transaction value, with "the commerce a platform carries" as its plain companion; figure for a published number, measure for a yardstick; count of online sellers; entry test. New chapters use these words; run a sweep for the old ones before sending a chapter.
+- **Style settled in this round** (full list in the thesis README, Writing rules): paragraph openers name their subject; a movement gets its mechanism in the paragraph that explains it; one currency (US$, rounded, World Bank rate for the year); no bare rupiah in the narrative.
 
 ## 10. Open items
 
@@ -116,6 +122,8 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - Section 1.1 should be "brief, yet impactful" as standard prose; two attempts were rejected (`EDIT_HISTORY.md`, Part D).
 - Citations are not yet in the chapter text.
 - The YZU template is not yet in the repository.
+- Chapter 1: the introduction and 1.1 were reviewed and revised on 12 Oct (evening); 1.2 and 1.3 were then rebuilt in the seam pass and have not yet been read by the researcher. Section 1.1 is 25 words longer than before (+6 percent) against the open wish for it to be brief; cut candidates are in `EDIT_HISTORY.md`.
+- Chapter 3 now gives each link of the chain its own condition (inner: take rate steady; outer: national growth comes from sellers the platforms record; the count: survey keeps reaching the same sellers). The advisor has not yet seen how H2 is framed, so confirm this wording with the researcher before it goes to her.
 - Root-level files not part of the thesis are untracked and should be left alone (`side-academic-papers-*.zip`, `ssrn-7514022.pdf`, `Attraction-json_2026-10-09.zip`, a Chinese-named PDF).
 
 ## 11. Notes for a cloud or fresh session (added 12 Oct after a cloud session's first read)
@@ -125,6 +133,7 @@ Frozen wording of the pitch: `research/option_space_2026-10-01/GOLDEN_PITCH.md` 
 - **Numbers.** Take them only from `research/option_space_2026-10-01/FINDINGS.md`, the Part 1-7 files with their dated notes, and section 4 above. H1 now rests on 5 Indonesian and regional platforms against 27 abroad (p = 0.004); the proposal's 8-platform comparison is the earlier version. Anything from the 24 Sep proposal, the September manuscripts or `main`'s routing documents is out of date.
 - **Two notes exist only on `main`:** `docs/MEASUREMENT_PROXY_FRAMEWORK_2026-09-23.md` and `docs/PAPER_COMPARISON_BASELINE_2026-09-23.md`. Both predate the 27 Sep proposal: the first is the "adequate proxy" framing of the 24 Sep lineage (superseded by the stand-in conditions in Part 2), the second ranks the researcher's wider set of papers. Neither is needed for the thesis; leave them on `main`.
 - **Do not run or trust the old generators** (`scripts/build_thesis_manuscript.py`, proposal surgery scripts). The thesis is written by hand in `papers/thesis_2026-10/`.
+- **Working with two sessions.** A cloud session works on its own branch (`claude/happy-pascal-uc2eya` this time), kept at the tip of the integrated branch. It sends changes back by pull request into the integrated branch when the researcher asks, never into `main`. Only one session edits the thesis files at a time; fetch before editing.
 - **First task:** section 6, step 1 (recheck section 1.2 of chapter 1), then chapters 3 and 4. Log each round of the researcher's feedback in `papers/thesis_2026-10/EDIT_HISTORY.md`.
 
 ## 12. Timeline

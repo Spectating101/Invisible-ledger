@@ -1,0 +1,49 @@
+# Chapter 2. Literature Review
+
+Digital platforms sit between economic activity and the figures used to measure it. A platform carries a sale between a buyer and a seller. It records part of the payment as its own revenue, and it keeps a record of the whole sale. Different bodies of research study these steps. Platform economics and accounting explain why revenue is only part of each payment (Section 2.1). Official statistics explain how online sales across the country are measured (Section 2.2). Research on third-party information explains what a platform's records can show to tax authorities (Section 2.3). Each body of research explains why the figures differ, but none measures how far they differ in practice. Section 2.4 sets out this research gap.
+
+## 2.1 Platform economics and revenue recognition
+
+A platform reports two figures that describe its business: the value of the commerce it carries, and the revenue it keeps from them. Investors price that revenue: market values of internet firms track it, and share prices respond to revenue news beyond earnings news (Bowen, Davis and Rajgopal 2002; Davis 2002). Revenue is a fair guide to the commerce only if it keeps a steady share of that commerce.
+
+Platform economics explains why revenue is only a small share of the commerce. A platform serves two groups that need each other, such as shoppers and merchants, or riders and drivers. It sets its charges for both groups together and earns fees for arranging trades, not the value of each sale (Rochet and Tirole 2003; Armstrong 2006; Evans and Schmalensee 2016). The level of its charges and the split between the two groups are choices, so the platform can take more or less revenue from the same commerce (Rochet and Tirole 2003; Caillaud and Jullien 2003).
+
+Accounting rules add a second reason. Under the international standard, International Financial Reporting Standard 15 (IFRS 15), a company that only arranges a sale records its fee and not the full payment. If a rider pays 100 for a trip and the driver keeps 80, such a company records 20. Discounts and vouchers that it pays for are normally deducted from its revenue (International Accounting Standards Board 2014). So revenue can rise when a platform raises its fees or cuts its discounts, with no change in what customers buy.
+
+Platform economics and accounting explain why the share is small and why it can move, but they leave its actual size and movement to be measured. The pricing models were built to explain how a platform sets its charges, so they predict the direction of a change, not its size in a given market. The accounting studies asked how internet firms around 2000 chose to report revenue, not how far that revenue drifted from the commerce behind it (Bowen, Davis and Rajgopal 2002). Studies of how investors valued those firms, and how analysts forecast their revenue, relied on web traffic as their measure of activity (Trueman, Wong and Zhang 2000, 2001; Rajgopal, Venkatachalam and Kotha 2003). Transaction value also needs care, because each company defines it for itself. A figure of this kind loses information when its definition changes (Givoly, Li, Lourie and Nekrasov 2019). Testing whether revenue stays a fair guide needs the reported revenue and transaction value of the same platforms, over several years and on one definition. The studies reviewed here do not make that comparison, and none covers Indonesian platforms.
+
+## 2.2 Measuring the digital economy
+
+A country's online commerce is larger than what platforms carry, because many sellers trade outside platforms. Several producers measure it, and each counts something different. Industry reports add up the value of goods sold through platforms (Google, Temasek and Bain 2024). Statistics offices, such as BPS in Indonesia, survey businesses about their online sales (BPS 2025a, 2025b). Central banks count electronic payments (Bank Indonesia 2025). The resulting values change with the definition used (UNCTAD 2023, 2024).
+
+Official statistics address the question in two ways. National accounts separate the sale between a buyer and a seller from the platform's fee, and they count only the fee as the platform's output (Ahmad and Schreyer 2016; International Monetary Fund 2018; Organisation for Economic Co-operation and Development [OECD] 2023; European Commission et al. 2025). Research on measurement also offers a method: test a figure against the activity it stands for, as studies of night-time lights do for national income (Henderson, Storeygard and Weil 2012). Growth in online sales can be split in the same spirit, into more sales by existing sellers and more sellers entering. Trade economists split a country's exports in this way, into more of each good and more kinds of goods (Hummels and Klenow 2005).
+
+Official statistics and measurement research say what to count and how to check one figure against another. Neither follows platform figures and national figures through time in one country. National accounting guidance defines the platform's output, and it does not track how platform commerce and national online sales grow. The test of one figure against another has been applied to national income and night-time lights. Among the studies reviewed here, it has not been applied to platform commerce and national online sales.
+
+The growth split has its own difficulty, because it rests on a count of sellers. Such counts can mislead for known reasons. A change in survey design can create a break that looks like real change (van den Brakel, Smith and Compton 2008; van den Brakel, Zhang and Tam 2020). People tend to report past events as more recent than they were (Neter and Waksberg 1964). Small firms that stop are more often young firms with young owners (McKenzie and Paffhausen 2019). Published totals cannot show whether a rise in the count reflects new sellers or a wider survey, because they do not record when each seller began. That question needs the answers of the sellers themselves.
+
+## 2.3 Digital records and third-party information
+
+A platform records every sale it carries: who sold what, to whom, for how much and when. Governments have begun to use these records for tax. The OECD, a group of mostly high-income countries, set out model rules under which platforms report what their sellers earn (OECD 2020). The European Union applies these rules through its DAC7 directive (European Union 2021). Indonesia goes further and requires marketplaces to collect tax from their sellers (Ministry of Finance of the Republic of Indonesia 2025).
+
+Tax research explains why such records matter. Reports from third parties improve compliance. In Denmark, evasion was close to zero on income that employers and banks reported, and substantial on income that taxpayers reported themselves (Kleven et al. 2011). In Chile, the paper trail of the value-added tax deters evasion, and enforcement spreads up the supply chain (Pomeranz 2015). In Brazil, rewards for asking for receipts raised the sales that firms reported (Naritomi 2019). Digital records can also hold information that conventional records lack (Berg, Burg, Gombovic and Puri 2020).
+
+Tax research shows that platform records are valuable where they exist. Its evidence comes from settings where a third party already sees the transaction, such as an employer paying wages or a firm buying from another firm. Online selling differs, because many sellers trade through messaging apps and social media, where no marketplace records the sale (BPS 2025a). How far a rule built on platform records can reach depends on how much selling happens on platforms. The studies reviewed here do not estimate that share for Indonesia.
+
+## 2.4 Research gap
+
+The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets them side by side.
+
+**Table 2.1. What the literature establishes and where it stops**
+
+| Section | What it establishes | Main sources | Where it stops |
+|---|---|---|---|
+| 2.1 Platform economics and accounting | Revenue is a fee that is a small share of the commerce, and the share can move with pricing, discounts and accounting | Rochet and Tirole 2003; Armstrong 2006; IASB 2014 | Whether reported revenue stays a fair guide to reported transaction value has not been tested, and not for Indonesian platforms |
+| 2.2 Official statistics and surveys | Platform commerce and platform revenue differ; sources differ; a count of sellers can break | Ahmad and Schreyer 2016; Henderson et al. 2012; van den Brakel et al. 2008 | Platform and national figures have not been followed through time in one country, and published totals cannot show what a rise in the count of sellers contains |
+| 2.3 Third-party information | Platform records show sales, and third-party reports improve compliance | Kleven et al. 2011; OECD 2020 | How much of online selling platform records cover has not been estimated for Indonesia |
+
+Each shortfall becomes one question for the thesis, and Chapter 3 sets out the tools that answer each.
+
+1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1. It explains why the share is small and can move, but it does not test whether revenue stays a fair guide to the commerce.
+2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2. It shows that figures differ, but it does not test whether they grow for the same reasons, or what a rise in the count of sellers contains.
+3. **How far can rules built on platform records reach?** This follows from Section 2.3. It shows that platform records are valuable, but not how much of online selling they cover.
