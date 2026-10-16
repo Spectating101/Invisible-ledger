@@ -48,4 +48,4 @@ The thesis written in full. Same title, research question, hypotheses and measur
 | `references.md` | References | merged and checked 15 Oct; 65 entries after 16 Oct (14 details still marked [UNVERIFIED]); APA until the YZU style is settled |
 | `symbols.md` | Symbols and Abbreviations | added 16 Oct for the YZU list of symbols |
 | `abstract.md` | Abstract | English draft 16 Oct (about 280 words, keywords); the Chinese abstract, keywords and title page are left for the researcher |
-| `reading/` | Reading copy | `build_reading.sh` builds `thesis_reading_copy_<date>.pdf` (A4, Source Serif 4, checked page by page) and an editing DOCX from the chapters above; latest 16 Oct, 56 pages |
+| `reading/` | Reading copy | `build_reading.sh` builds `thesis_reading_copy_<date>.pdf` (A4, Source Serif 4, checked page by page) and an editing DOCX from the chapters above; latest 16 Oct, 64 pages, plain thesis style |

@@ -13,6 +13,9 @@ FILES="abstract.md symbols.md ch1_introduction.md ch2_literature.md ch3_framewor
 pandoc reading.tmp.md --from markdown --to html5 --standalone --toc --toc-depth=2 --section-divs --css style.css --embed-resources \
   --resource-path=.. --metadata title-prefix="" -o reading.tmp.html
 python3 post.py reading.tmp.html
+node print_pdf.js reading.tmp.html first_pass.tmp.pdf
+python3 toc_pages.py first_pass.tmp.pdf reading.tmp.html
+rm -f first_pass.tmp.pdf
 node print_pdf.js reading.tmp.html thesis_reading_copy_$D.pdf
 { printf -- '---\ntitle: "The Invisible Ledger (editing copy)"\nsubtitle: "Draft of %s"\n---\n\n' "$D"; for f in $FILES; do sed -E 's/^!\[[^]]*\]\(/![](/' "../$f"; printf '\n\n'; done; } > edit.tmp.md
 pandoc edit.tmp.md --resource-path=.. -o thesis_editing_copy_$D.docx --toc --toc-depth=2

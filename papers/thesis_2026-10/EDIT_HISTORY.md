@@ -502,3 +502,4 @@ Source of every change: `research/option_space_2026-10-01/materials_2026-10-15/F
   - New `symbols.md`, "Symbols and Abbreviations", for the YZU list of symbols (item 10).
   - 3.6: one closing sentence on Chapter 4 and one on Chapter 6 dropped (each said only what comes next); Figure 5.5 moved below the paragraph that introduces it.
   - Reading copy: Inter bundled as a web font (no Type 3 fonts left in the PDF), figures kept with their captions, short tables kept whole (`reading/post.py`). 56 pages, every page checked by eye.
+- **16 Oct, evening: reading copy restyled after the researcher found the look too busy.** One serif face throughout (Source Serif 4), black on white, no colour rules or shaded boxes; chapter titles centred; three-line tables with captions above; hypotheses as indented italic; contents with page numbers and dotted leaders (`reading/toc_pages.py`, two-pass build). 64 pages, every page checked by eye. No text changed.

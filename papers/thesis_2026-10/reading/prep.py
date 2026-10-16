@@ -14,7 +14,7 @@ for f in sys.argv[1:]:
     t = re.sub(r"^!\[[^]]*\]\(", "![](", t, flags=re.M)
     t = t.replace("β_V", "β<sub>V</sub>").replace("β_m", "β<sub>m</sub>")
     t = re.sub(r"(?<![A-Za-z0-9_/.`])([A-Za-z])_(it|t|i,t−1)(?![A-Za-z0-9_])", r"\1<sub>\2</sub>", t)
-    t = re.sub(r"^\*\*(Table [0-9A-Z.]+\..*?)\*\*\s*$", r'<p class="tcap">\1</p>', t, flags=re.M)
+    t = re.sub(r"^\*\*(Table [0-9A-Z.]+\.)\s*(.*?)\*\*\s*$", r'<p class="tcap"><span class="lbl">\1</span> \2</p>', t, flags=re.M)
     t = re.sub(r"^\*\*(Figure [0-9.]+\.[^*]*)\*\*(.*)$", lambda m: f'<p class="fcap"><strong>{m.group(1)}</strong>{m.group(2)}</p>', t, flags=re.M)
     t = re.sub(r"^\*Note:\*(.*)$", lambda m: f'<p class="note"><em>Note:</em>{m.group(1)}</p>', t, flags=re.M)
     out.append(t.rstrip() + "\n\n")
