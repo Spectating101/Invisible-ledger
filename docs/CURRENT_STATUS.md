@@ -1,5 +1,9 @@
 # Current status — 10 September 2026
 
+## Status update — 8 October 2026
+
+The research for the thesis is complete at groundwork level and indexed in `research/option_space_2026-10-01/README.md`: chapter groundwork `PART1` to `PART7` (frozen, tag `parts-1-7-v3-frozen-2026-10-08`), `FINDINGS.md`, `PREREGISTRATION.md`, six exhibits, and claims ledgers v1 to v10 rebuilt by `rebuild_all.sh`. BPS e-commerce microdata (2021, 2023 and 2024 files) were bought on 6-7 October 2026 under SPPD 19/LADU/0000/10/2026; they are kept outside git. The sections below describe September and are history where they differ. Next: decide what goes in the thesis core, appendix or a later paper; then write in the proposal's order. Scheduled scoring: 27 Oct (GoTo 3Q26), 1 Nov (marketplace tax start), early Nov (BPS 3Q26 GDP), mid Nov (Grab and Sea 3Q26).
+
 ## Document status update — 1 October 2026
 
 The active proposal is the 27 September 2026 PDF, `papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf`. It was examined and passed on 1 October 2026. Its search text and the superseded 24 September files are listed in `CANONICAL_ARTIFACTS.md`. The presented deck is `papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx` (v4.10, confirmed by the researcher). These artifact choices update document routing only. They do not, by themselves, record an advisor decision on the final empirical sample. The research-decision notes below remain provisional until an approval or rejection is documented.

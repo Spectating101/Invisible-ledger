@@ -1,0 +1,24 @@
+{
+ "firms": [
+  3,
+  8
+ ],
+ "median_indonesia_region": 0.07143466472092963,
+ "median_benchmark": 0.048934960169970676,
+ "mannwhitney_p": 0.1878787878787879,
+ "permutation_p": 0.3255,
+ "Q1_holds": false,
+ "pairs_by_firm": {
+  "ABNB": 16,
+  "BKNG": 24,
+  "Blibli 3P": 5,
+  "DASH": 16,
+  "EBAY": 27,
+  "ETSY": 23,
+  "GoTo on-demand": 5,
+  "Grab on-demand": 13,
+  "LYFT": 8,
+  "Sea / Shopee": 23,
+  "UBER": 26
+ }
+}

@@ -1,0 +1,417 @@
+entity,period,field,value,unit,source_file,quote,note
+UBER,FY2016,gross_volume,19236,USD_m,UBER_S-1A_2019-04-26.txt,"Gross Bookings (3) 
+ $ 
+ 19,236 
+ $ 
+ 34,409 
+ $ 
+ 49,799",Gross Bookings; table in millions; excludes 2018 Divested Operations
+UBER,FY2017,gross_volume,34409,USD_m,UBER_S-1A_2019-04-26.txt,"Gross Bookings (3) 
+ $ 
+ 19,236 
+ $ 
+ 34,409 
+ $ 
+ 49,799",Gross Bookings; table in millions; excludes 2018 Divested Operations
+UBER,FY2018,gross_volume,49799,USD_m,UBER_S-1A_2019-04-26.txt,"Gross Bookings (3) 
+ $ 
+ 19,236 
+ $ 
+ 34,409 
+ $ 
+ 49,799",Gross Bookings; table in millions; excludes 2018 Divested Operations
+UBER,FY2016,revenue,3845,USD_m,UBER_S-1A_2019-04-26.txt,"Revenue 
+ $ 
+ 3,845 
+ $ 
+ 7,932 
+ $ 
+ 11,270",Total revenue as reported; table in millions
+UBER,FY2017,revenue,7932,USD_m,UBER_S-1A_2019-04-26.txt,"Revenue 
+ $ 
+ 3,845 
+ $ 
+ 7,932 
+ $ 
+ 11,270",Total revenue as reported; table in millions
+UBER,FY2018,revenue,11270,USD_m,UBER_S-1A_2019-04-26.txt,"Revenue 
+ $ 
+ 3,845 
+ $ 
+ 7,932 
+ $ 
+ 11,270",Total revenue as reported; table in millions
+UBER,FY2016,driver_incentives,507,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts presented as cost of revenue for the years ended December 31, 2016, 2017 and 2018 were $507 million, $530 million and $837 million, respectively.","Excess Driver incentives; recorded in cost of revenue, exclusive of depreciation and amortization"
+UBER,FY2017,driver_incentives,530,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts presented as cost of revenue for the years ended December 31, 2016, 2017 and 2018 were $507 million, $530 million and $837 million, respectively.","Excess Driver incentives; recorded in cost of revenue, exclusive of depreciation and amortization"
+UBER,FY2018,driver_incentives,837,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts presented as cost of revenue for the years ended December 31, 2016, 2017 and 2018 were $507 million, $530 million and $837 million, respectively.","Excess Driver incentives; recorded in cost of revenue, exclusive of depreciation and amortization"
+UBER,FY2018,driver_incentives,0.3,USD_bn,UBER_S-1A_2019-04-26.txt,"was primarily due to higher booking fees, offset by a $0.3 billion increase in Driver incentives.",Ridesharing Driver incentives: year-over-year increase only; period total not stated
+UBER,FY2017,driver_incentives,327,USD_m,UBER_S-1A_2019-04-26.txt,"however, Driver incentives increased on an absolute basis by $327 million.",Ridesharing Driver incentives: year-over-year increase only; period total not stated
+UBER,FY2016,consumer_promotions,618,USD_m,UBER_S-1A_2019-04-26.txt,"Included in sales and marketing expenses are $618 million and $949 million of consumer discounts, promotions, refunds, and credits in 2016 and 2017, respectively, and $167 million and $199 million of Driver referrals in 2016 and 2017, respectively.","consumer discounts, promotions, refunds, and credits; recorded in sales and marketing"
+UBER,FY2017,consumer_promotions,949,USD_m,UBER_S-1A_2019-04-26.txt,"Included in sales and marketing expenses are $618 million and $949 million of consumer discounts, promotions, refunds, and credits in 2016 and 2017, respectively, and $167 million and $199 million of Driver referrals in 2016 and 2017, respectively.","consumer discounts, promotions, refunds, and credits; recorded in sales and marketing"
+UBER,FY2018,consumer_promotions,1.4,USD_bn,UBER_S-1A_2019-04-26.txt,"Included in sales and marketing expenses were $949 million and $1.4 billion of consumer discounts, promotions, refunds, and credits in 2017 and 2018, respectively, and $199 million and $136 million of Driver referrals in 2017 and 2018, respectively.","consumer discounts, promotions, refunds, and credits; recorded in sales and marketing"
+UBER,FY2016,incentives_in_sales_and_marketing,167,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts paid to Partners presented as sales and marketing expenses for the years ended December 31, 2016, 2017 and 2018 were $167 million, $199 million, and $136 million, respectively.",Driver referrals; recorded in sales and marketing expenses
+UBER,FY2017,incentives_in_sales_and_marketing,199,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts paid to Partners presented as sales and marketing expenses for the years ended December 31, 2016, 2017 and 2018 were $167 million, $199 million, and $136 million, respectively.",Driver referrals; recorded in sales and marketing expenses
+UBER,FY2018,incentives_in_sales_and_marketing,136,USD_m,UBER_S-1A_2019-04-26.txt,"The amounts paid to Partners presented as sales and marketing expenses for the years ended December 31, 2016, 2017 and 2018 were $167 million, $199 million, and $136 million, respectively.",Driver referrals; recorded in sales and marketing expenses
+UBER,FY2016,total_incentives_contra_revenue,,,UBER_S-1A_2019-04-26.txt,Driver incentives are recorded as a reduction of revenue to the extent they are not excess Driver incentives,Period total for Driver incentives classified as reduction of revenue is not stated
+UBER,FY2018,note_text,,,UBER_S-1A_2019-04-26.txt,"As Drivers are our customers, Driver incentives are recorded as a reduction of revenue if we do not receive a distinct service or cannot reasonably estimate the fair value of the service received.",Accounting of Driver incentives as reduction of revenue; excess classified in cost of revenue; no UK model-change sentence in this S-1
+LYFT,FY2016,gross_volume,1904.7,USD_m,LYFT_S-1A_2019-03-27.txt,"Bookings 
+ $ 
+ 1,904.7 
+ $ 
+ 4,586.7 
+ $ 
+ 8,054.4",Bookings (Lyft does not use the label Gross Bookings); table in millions
+LYFT,FY2017,gross_volume,4586.7,USD_m,LYFT_S-1A_2019-03-27.txt,"Bookings 
+ $ 
+ 1,904.7 
+ $ 
+ 4,586.7 
+ $ 
+ 8,054.4",Bookings (Lyft does not use the label Gross Bookings); table in millions
+LYFT,FY2018,gross_volume,8054.4,USD_m,LYFT_S-1A_2019-03-27.txt,"Bookings 
+ $ 
+ 1,904.7 
+ $ 
+ 4,586.7 
+ $ 
+ 8,054.4",Bookings (Lyft does not use the label Gross Bookings); table in millions
+LYFT,FY2016,revenue,343298,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 343,298 
+ $ 
+ 1,059,881 
+ $ 
+ 2,156,616",Total revenue as reported; table in thousands
+LYFT,FY2017,revenue,1059881,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 343,298 
+ $ 
+ 1,059,881 
+ $ 
+ 2,156,616",Total revenue as reported; table in thousands
+LYFT,FY2018,revenue,2156616,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 343,298 
+ $ 
+ 1,059,881 
+ $ 
+ 2,156,616",Total revenue as reported; table in thousands
+LYFT,Q1 2017,revenue,172834,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q2 2017,revenue,238874,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q3 2017,revenue,303529,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q4 2017,revenue,344644,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q1 2018,revenue,397188,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q2 2018,revenue,504912,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q3 2018,revenue,584951,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,Q4 2018,revenue,669565,USD_thousand,LYFT_S-1A_2019-03-27.txt,"Revenue 
+ $ 
+ 172,834 
+ $ 
+ 238,874 
+ $ 
+ 303,529 
+ $ 
+ 344,644 
+ $ 
+ 397,188 
+ $ 
+ 504,912 
+ $ 
+ 584,951 
+ $ 
+ 669,565",Quarterly revenue; table in thousands; Bookings not presented by quarter
+LYFT,FY2016,incentives_in_sales_and_marketing,195.5,USD_m,LYFT_S-1A_2019-03-27.txt,"which decreased by $39.9 million from $195.5 million for the year ended December 31, 2016 to $155.6 million for the year ended December 31, 2017.",driver referral and targeted rider incentive programs; sales and marketing
+LYFT,FY2017,incentives_in_sales_and_marketing,155.6,USD_m,LYFT_S-1A_2019-03-27.txt,"which decreased by $39.9 million from $195.5 million for the year ended December 31, 2016 to $155.6 million for the year ended December 31, 2017.",driver referral and targeted rider incentive programs; sales and marketing
+LYFT,FY2018,incentives_in_sales_and_marketing,296.6,USD_m,LYFT_S-1A_2019-03-27.txt,"increased by $141.0 million from $155.6 million for the year ended December 31, 2017 to $296.6 million for the year ended December 31, 2018.",driver referral and targeted rider incentive programs; sales and marketing
+LYFT,FY2018,driver_incentives,,,LYFT_S-1A_2019-03-27.txt,We offer various incentive programs to drivers that are recorded as reduction to revenue if we do not receive a distinct good or service,Driver incentive programs recorded as reduction to revenue; dollar amounts not stated
+LYFT,FY2018,consumer_promotions,,,LYFT_S-1A_2019-03-27.txt,"we often engage in promotions to riders, which, depending on the type of promotion, are treated either as a reduction to revenue or a sales and marketing expense.",Rider promotions split contra-revenue vs S&M; dollar split for contra-revenue not stated
+LYFT,FY2018,total_incentives_contra_revenue,,,LYFT_S-1A_2019-03-27.txt,"We report revenue based upon the net amount earned, which is reduced by certain driver and rider incentives we provided.",No period total for incentives recorded as reduction of revenue
+LYFT,FY2018,note_text,,,LYFT_S-1A_2019-03-27.txt,We offer various incentive programs to drivers that are recorded as reduction to revenue if we do not receive a distinct good or service in consideration or if we cannot reasonably estimate the fair value of goods or services received.,Driver incentives as reduction of revenue; rider promotions may be contra-revenue or S&M
+DASH,FY2018,gross_volume,2812,USD_m,DASH_S-1A_2020-12-07.txt,"Marketplace GOV 
+ $ 
+ 2,812 
+ $ 
+ 8,039 
+ $ 
+ 5,537 
+ $ 
+ 16,485",Marketplace GOV; table in millions
+DASH,FY2019,gross_volume,8039,USD_m,DASH_S-1A_2020-12-07.txt,"Marketplace GOV 
+ $ 
+ 2,812 
+ $ 
+ 8,039 
+ $ 
+ 5,537 
+ $ 
+ 16,485",Marketplace GOV; table in millions
+DASH,9M2019,gross_volume,5537,USD_m,DASH_S-1A_2020-12-07.txt,"Marketplace GOV 
+ $ 
+ 2,812 
+ $ 
+ 8,039 
+ $ 
+ 5,537 
+ $ 
+ 16,485","Marketplace GOV; nine months ended September 30, 2019; table in millions"
+DASH,9M2020,gross_volume,16485,USD_m,DASH_S-1A_2020-12-07.txt,"Marketplace GOV 
+ $ 
+ 2,812 
+ $ 
+ 8,039 
+ $ 
+ 5,537 
+ $ 
+ 16,485","Marketplace GOV; nine months ended September 30, 2020; table in millions"
+DASH,FY2018,revenue,291,USD_m,DASH_S-1A_2020-12-07.txt,"Revenue 
+ $ 
+ 291 
+ $ 
+ 885 
+ $ 
+ 587 
+ $ 
+ 1,916",Total revenue as reported; table in millions
+DASH,FY2019,revenue,885,USD_m,DASH_S-1A_2020-12-07.txt,"Revenue 
+ $ 
+ 291 
+ $ 
+ 885 
+ $ 
+ 587 
+ $ 
+ 1,916",Total revenue as reported; table in millions
+DASH,9M2019,revenue,587,USD_m,DASH_S-1A_2020-12-07.txt,"Revenue 
+ $ 
+ 291 
+ $ 
+ 885 
+ $ 
+ 587 
+ $ 
+ 1,916","Nine months ended September 30, 2019; table in millions"
+DASH,9M2020,revenue,1916,USD_m,DASH_S-1A_2020-12-07.txt,"Revenue 
+ $ 
+ 291 
+ $ 
+ 885 
+ $ 
+ 587 
+ $ 
+ 1,916","Nine months ended September 30, 2020; table in millions"
+DASH,FY2018,consumer_promotions,60,USD_m,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.",promotions; primarily recorded as a reduction of revenue
+DASH,FY2019,consumer_promotions,182,USD_m,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.",promotions; primarily recorded as a reduction of revenue
+DASH,FY2018,total_incentives_contra_revenue,60,USD_m,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.",promotions related portion of sales and marketing and promotions spend; primarily reduction of revenue
+DASH,FY2019,total_incentives_contra_revenue,182,USD_m,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.",promotions related portion of sales and marketing and promotions spend; primarily reduction of revenue
+DASH,9M2019,consumer_promotions,,,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.","Promotions dollar amount not stated for nine months ended September 30, 2019"
+DASH,9M2020,consumer_promotions,,,DASH_S-1A_2020-12-07.txt,"In 2018 and 2019, our sales and marketing and promotions spend was $195 million and $776 million, respectively, of which $60 million and $182 million, respectively, was related to promotions.","Promotions dollar amount not stated for nine months ended September 30, 2020"
+DASH,FY2018,driver_incentives,,,DASH_S-1A_2020-12-07.txt,"Dasher payout includes the amounts paid to Dashers for deliveries, including incentives (such as peak pay) and tips",Dasher incentives (peak pay) included in Dasher payout; separate dollar amount not stated
+DASH,FY2018,incentives_in_sales_and_marketing,,,DASH_S-1A_2020-12-07.txt,"We offer referral bonuses to referring Dashers, as well as to referred Dashers, once the new Dasher has met certain qualifying conditions.",Dasher referral bonuses partly S&M; dollar amount not stated
+DASH,FY2019,note_text,,,DASH_S-1A_2020-12-07.txt,Promotions offered to consumers are primarily recorded as a reduction of revenue and include the following: New consumer incentives: We record discounts and incentives provided to new consumers as a promotion and reduce revenue on the date we record the corresponding revenue transaction.,Consumer promotions contra-revenue; Dasher incentives primarily within Dasher payout reducing revenue
+CART,FY2021,gross_volume,24909,USD_m,CART_S-1A_2023-09-15.txt,"GTV 
+ $ 
+ 20,736 
+ $ 
+ 24,909 
+ $ 
+ 28,826 
+ $ 
+ 14,356 
+ $ 
+ 14,937","GTV; table in millions (2020 column 20,736 not in requested years)"
+CART,FY2022,gross_volume,28826,USD_m,CART_S-1A_2023-09-15.txt,"GTV 
+ $ 
+ 20,736 
+ $ 
+ 24,909 
+ $ 
+ 28,826 
+ $ 
+ 14,356 
+ $ 
+ 14,937",GTV; table in millions
+CART,6M2022,gross_volume,14356,USD_m,CART_S-1A_2023-09-15.txt,"GTV 
+ $ 
+ 20,736 
+ $ 
+ 24,909 
+ $ 
+ 28,826 
+ $ 
+ 14,356 
+ $ 
+ 14,937","GTV; six months ended June 30, 2022; table in millions"
+CART,6M2023,gross_volume,14937,USD_m,CART_S-1A_2023-09-15.txt,"GTV 
+ $ 
+ 20,736 
+ $ 
+ 24,909 
+ $ 
+ 28,826 
+ $ 
+ 14,356 
+ $ 
+ 14,937","GTV; six months ended June 30, 2023; table in millions"
+CART,FY2021,revenue,1834,USD_m,CART_S-1A_2023-09-15.txt,"Revenue 
+ $ 
+ 1,477 
+ $ 
+ 1,834 
+ $ 
+ 2,551 
+ $ 
+ 1,126 
+ $ 
+ 1,475",Total revenue as reported; table in millions
+CART,FY2022,revenue,2551,USD_m,CART_S-1A_2023-09-15.txt,"Revenue 
+ $ 
+ 1,477 
+ $ 
+ 1,834 
+ $ 
+ 2,551 
+ $ 
+ 1,126 
+ $ 
+ 1,475",Total revenue as reported; table in millions
+CART,6M2022,revenue,1126,USD_m,CART_S-1A_2023-09-15.txt,"Revenue 
+ $ 
+ 1,477 
+ $ 
+ 1,834 
+ $ 
+ 2,551 
+ $ 
+ 1,126 
+ $ 
+ 1,475","Six months ended June 30, 2022; table in millions"
+CART,6M2023,revenue,1475,USD_m,CART_S-1A_2023-09-15.txt,"Revenue 
+ $ 
+ 1,477 
+ $ 
+ 1,834 
+ $ 
+ 2,551 
+ $ 
+ 1,126 
+ $ 
+ 1,475","Six months ended June 30, 2023; table in millions"
+CART,FY2022,consumer_promotions,500,USD_m,CART_S-1A_2023-09-15.txt,we have increased our customer acquisition costs by approximately $500 million in 2022 compared to 2019.,customer acquisition costs increase vs 2019; mixes customer marketing expense and customer incentives and promotions; not a period total of contra-revenue incentives
+CART,FY2021,driver_incentives,,,CART_S-1A_2023-09-15.txt,"payments to shoppers for their services (including any shopper incentives), coupons, customer incentives, and refunds.",Shopper incentives reduce transaction revenue; period dollar amount not stated
+CART,FY2021,consumer_promotions,,,CART_S-1A_2023-09-15.txt,Customer incentives and promotions include marketing coupons and referral credits to new customers and are recorded as a reduction of revenue.,Customer incentives and promotions contra-revenue; period dollar amount not stated
+CART,FY2022,total_incentives_contra_revenue,,,CART_S-1A_2023-09-15.txt,an increase in customer and shopper incentives per order and refunds primarily due to higher order volume and global supply chain constraints in 2021 (both of which are recorded as reductions in revenue).,Customer and shopper incentives recorded as reductions in revenue; period totals not stated
+CART,6M2023,consumer_promotions,,,CART_S-1A_2023-09-15.txt,This was partially offset by an increase in customer incentives and promotions.,Increase in customer incentives and promotions in 6M2023 vs 6M2022; dollar amount not stated
+CART,FY2021,incentives_in_sales_and_marketing,,,CART_S-1A_2023-09-15.txt,"promotions and customer incentives, which are recorded as reductions of revenue and sales and marketing expense, respectively.",Customer incentives recorded as sales and marketing expense in this sentence; dollar amount not stated
+CART,FY2022,note_text,,,CART_S-1A_2023-09-15.txt,Customer incentives and promotions include marketing coupons and referral credits to new customers and are recorded as a reduction of revenue.,Contra-revenue treatment of customer incentives and promotions; agent (net) presentation described; no period-specific accounting-change amount

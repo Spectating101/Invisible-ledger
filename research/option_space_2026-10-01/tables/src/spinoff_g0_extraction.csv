@@ -1,0 +1,1686 @@
+entity,period,field,value,unit,source_file,quote,note
+LQDT,FY2014,V,931.6,USD million,LQDT_10K_2014-11-21.txt,"rs and sellers. 
+ In
+the fiscal year ended September 30, 2014, we generated GMV of $931.6 million and revenue of $495.7 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2014,revenue,495661,USD thousand,LQDT_10K_2014-11-21.txt,",815 
+ 59,475 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ Total revenue from operations 
+ 495,661 
+ 505,856 
+ 475,304 
+ Costs and expenses from operations: 
+",Total revenue from operations
+LQDT,FY2014,rev_1p,388671,USD thousand,LQDT_10K_2014-11-21.txt,"and Per Share Data) 
+ Year ended September 30, 
+ 2014 
+ 2013 
+ 2012 
+ Revenue 
+$ 
+ 388,671 
+$ 
+ 404,041 
+$ 
+ 415,829 
+ Fee revenue 
+ 106,990 
+ 101,815 
+ 59,475 ",Purchase-model Revenue line
+LQDT,FY2014,ocf,11856,USD thousand,LQDT_10K_2014-11-21.txt,"(483 
+ ) 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ Net cash provided by operating activities 
+ 11,856 
+ 46,743 
+ 52,146 
+ Investing activities 
+ Cash paid f",
+LQDT,FY2014,capex,-7539,USD thousand,LQDT_10K_2014-11-21.txt," and intangibles 
+ (141 
+ ) 
+ (14,730 
+ ) 
+ (71,796 
+ ) 
+ Purchases of property and equipment 
+ (7,539 
+ ) 
+ (5,463 
+ ) 
+ (6,793 
+ ) 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​",
+LQDT,FY2015,V,799.0,USD million,LQDT_10K_2015-11-23.txt,"rs and sellers. 
+ In
+the fiscal year ended September 30, 2015, we generated GMV of $799.0 million and revenue of $397.1 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2015,revenue,397125,USD thousand,LQDT_10K_2015-11-23.txt,"
+ 106,990 
+ 101,815 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue from operations 
+ 397,125 
+ 495,661 
+ 505,856 
+ Costs and expenses from operations: 
+",Total revenue from operations
+LQDT,FY2015,rev_1p,315668,USD thousand,LQDT_10K_2015-11-23.txt,"and Per Share Data) 
+ Year ended September 30, 
+ 2015 
+ 2014 
+ 2013 
+ Revenue 
+$ 
+ 315,668 
+$ 
+ 388,671 
+$ 
+ 404,041 
+ Fee revenue 
+ 81,457 
+ 106,990 
+ 101,815 ",Purchase-model Revenue line
+LQDT,FY2015,ocf,43491,USD thousand,LQDT_10K_2015-11-23.txt,"
+ ) 
+ (198 
+ ) 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Net cash provided by operating activities 
+ 43,491 
+ 11,856 
+ 46,743 
+ Investing activities 
+ Cash paid i",
+LQDT,FY2015,capex,-7312,USD thousand,LQDT_10K_2015-11-23.txt,"ill and intangibles 
+ (137 
+ ) 
+ (141 
+ ) 
+ (14,730 
+ ) 
+ Purchases of property and equipment 
+ (7,312 
+ ) 
+ (7,539 
+ ) 
+ (5,463 
+ ) 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​",
+LQDT,FY2016,V,642.1,USD million,LQDT_10K_2016-11-21.txt,"rs and sellers. 
+ In
+the fiscal year ended September 30, 2016, we generated GMV of $642.1 million and revenue of $316.5 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2016,revenue,316454,USD thousand,LQDT_10K_2016-11-21.txt," 
+ 81,457 
+ 106,990 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue from operations 
+ 316,454 
+ 397,125 
+ 495,661 
+ Costs and expenses from operations: 
+",Total revenue from operations
+LQDT,FY2016,rev_1p,233828,USD thousand,LQDT_10K_2016-11-21.txt,"and Per Share Data) 
+ Year ended September 30, 
+ 2016 
+ 2015 
+ 2014 
+ Revenue 
+$ 
+ 233,828 
+$ 
+ 315,668 
+$ 
+ 388,671 
+ Fee revenue 
+ 82,626 
+ 81,457 
+ 106,990 
+",Purchase-model Revenue line
+LQDT,FY2016,ocf,45838,USD thousand,LQDT_10K_2016-11-21.txt,") 
+ (1,003 
+ ) 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Net cash provided by operating activities 
+ 45,838 
+ 43,491 
+ 11,856 
+ Investing activities 
+ Cash paid i",
+LQDT,FY2016,capex,-6090,USD thousand,LQDT_10K_2016-11-21.txt,"ngibles 
+ (62 
+ ) 
+ (137 
+ ) 
+ (141 
+ ) 
+ Purchases of property and equipment, including capitalized software 
+ (6,090 
+ ) 
+ (7,312 
+ ) 
+ (7,539 
+ ) 
+ ​ 
+ ​ 
+ ​",including capitalized software; not a separate line
+LQDT,FY2017,V,629.3,USD million,LQDT_10K_2017-12-07.txt,"rs and sellers. 
+ In the fiscal year ended September 30, 2017, we generated GMV of $629.3 million and revenue of $270.0 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2017,revenue,270015,USD thousand,LQDT_10K_2017-12-07.txt," 
+ | 
+ | 
+ Consolidated: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | Total revenue from operations 
+ | 
+ | 270,015 
+ | 
+ | 
+ | 316,454 
+ | 
+ | 
+ | 397,125 
+ | 
+ | 
+ | Gros",Total revenue from operations
+LQDT,FY2017,rev_1p,188570,USD thousand,LQDT_10K_2017-12-07.txt,"d September 30, 
+ | 
+ | 
+ | 2017 
+ | 
+ | 2016 
+ | 
+ | 2015 
+ | 
+ Revenue 
+ | 
+ | $ 
+ | 188,570 
+ | 
+ | 
+ | $ 
+ | 233,828 
+ | 
+ | 
+ | $ 
+ | 315,668 
+ | 
+ | 
+ Fe",Purchase-model Revenue line
+LQDT,FY2017,ocf,-31653,USD thousand,LQDT_10K_2017-12-07.txt," | 
+ | 
+ | 5,283 
+ | 
+ | 
+ | (1,310 
+ | ) 
+ | 
+ Net cash (used) provided by operating activities 
+ | 
+ | (31,653 
+ | ) 
+ | 
+ | 45,838 
+ | 
+ | 
+ | 43,491 
+ | 
+ |",
+LQDT,FY2017,capex,-7805,USD thousand,LQDT_10K_2017-12-07.txt,"
+ | (62 
+ | ) 
+ | 
+ | (137 
+ | ) 
+ | 
+ Purchases of property and equipment, including capitalized software 
+ | 
+ | (7,805 
+ | ) 
+ | 
+ | (6,090 
+ | ) 
+ | 
+ | (7,",including capitalized software
+LQDT,FY2017,capex_sw,-119,USD thousand,LQDT_10K_2017-12-07.txt,"titure 
+ | 
+ | — 
+ | 
+ | 
+ | — 
+ | 
+ | 
+ | (2,372 
+ | ) 
+ | 
+ Increase in intangibles 
+ | 
+ | (119 
+ | ) 
+ | 
+ | (62 
+ | ) 
+ | 
+ | (137 
+ | ) 
+ | 
+ Purchases of",Increase in intangibles
+LQDT,FY2018,V,626.4,USD million,LQDT_10K_2018-12-06.txt,"consolidated GMV decreased $2.9 million , or 0.5% , to $626.4 million for the year ended September 30, 2018 , from $629.3 million for the year ended September ",GMV (gross merchandise volume)
+LQDT,FY2018,revenue,224514,USD thousand,LQDT_10K_2018-12-06.txt,"| 74,837 
+ | 
+ | 
+ | 81,445 
+ | 
+ | 
+ | 82,626 
+ | 
+ | 
+ Total revenue from operations 
+ | 
+ | 224,514 
+ | 
+ | 
+ | 270,015 
+ | 
+ | 
+ | 316,454 
+ | 
+ | 
+ Costs ",Total revenue from operations
+LQDT,FY2018,rev_1p,149677,USD thousand,LQDT_10K_2018-12-06.txt,"d September 30, 
+ | 
+ | 
+ | 2018 
+ | 
+ | 2017 
+ | 
+ | 2016 
+ | 
+ Revenue 
+ | 
+ | $ 
+ | 149,677 
+ | 
+ | 
+ | $ 
+ | 188,570 
+ | 
+ | 
+ | $ 
+ | 233,828 
+ | 
+ | 
+ Fe",Purchase-model Revenue line
+LQDT,FY2018,ocf,619,USD thousand,LQDT_10K_2018-12-06.txt,"
+ | ) 
+ | 
+ | 2,871 
+ | 
+ | 
+ | 5,283 
+ | 
+ | 
+ Net cash provided by (used in) operating activities 
+ | 
+ | 619 
+ | 
+ | 
+ | (31,653 
+ | ) 
+ | 
+ | 45,838 
+ | 
+ ",
+LQDT,FY2018,capex,-4174,USD thousand,LQDT_10K_2018-12-06.txt,"
+ | (119 
+ | ) 
+ | 
+ | (62 
+ | ) 
+ | 
+ Purchases of property and equipment, including capitalized software 
+ | 
+ | (4,174 
+ | ) 
+ | 
+ | (7,805 
+ | ) 
+ | 
+ | (6,",including capitalized software
+LQDT,FY2018,capex_sw,-35,USD thousand,LQDT_10K_2018-12-06.txt," 
+ Investing activities 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Increase in intangibles 
+ | 
+ | (35 
+ | ) 
+ | 
+ | (119 
+ | ) 
+ | 
+ | (62 
+ | ) 
+ | 
+ Purchases of",Increase in intangibles
+LQDT,FY2019,V,639.9,USD million,LQDT_10K_2019-12-10.txt,"uyers and sellers. 
+ During the year ended September 30, 2019, we generated GMV of $639.9 million and revenue of $226.5 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2019,revenue,226525,USD thousand,LQDT_10K_2019-12-10.txt,"enue | | 78,636 | | | 74,837 | | | 3,799 | | | | 5.1 | | 
+ Total revenue from operations | | 226,525 | | | 224,514 | | | 2,011 | | | | 0.9 | | 
+ Costs and expe",Total revenue from operations
+LQDT,FY2019,rev_1p,147889,USD thousand,LQDT_10K_2019-12-10.txt,"30, | | | | | | | 
+ | | 2019 | | 2018 | | $ Change | | % Change | 
+ Revenue | | $ | 147,889 | | | $ | 149,677 | | | $ | (1,788) | | | | (1.2) | % | 
+ Fee reven",Purchase-model Revenue line
+LQDT,FY2019,ocf,-6242,USD thousand,LQDT_10K_2019-12-10.txt,"es | | ( 317 ) | | | ( 642 ) | | | 2,871 | | 
+ Net cash (used in) provided by operating activities | | ( 6,242 ) | | | 619 | | | ( 31,653 ) | | 
+ Investing act",
+LQDT,FY2019,capex,-5938,USD thousand,LQDT_10K_2019-12-10.txt," 23 ) | | | ( 35 ) | | | ( 119 ) | | 
+ Purchases of property and equipment, including capitalized software | | ( 5,938 ) | | | ( 4,174 ) | | | ( 7,805 ) | | 
+ ",including capitalized software
+LQDT,FY2019,capex_sw,-23,USD thousand,LQDT_10K_2019-12-10.txt,"19 | | | ( 31,653 ) | | 
+ Investing activities | | | | | | | 
+ Increase in intangibles | | ( 23 ) | | | ( 35 ) | | | ( 119 ) | | 
+ Purchases of property and equ",Increase in intangibles
+LQDT,FY2020,V,619.8,USD million,LQDT_10K_2020-12-08.txt,"uyers and sellers. 
+ During the year ended September 30, 2020, we generated GMV of $619.8 million and revenue of $205.9 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2020,revenue,205940,USD thousand,LQDT_10K_2020-12-08.txt," GMV | | 619,850 | | | 639,876 | | | 626,406 | | 
+ | Total revenue | | 205,940 | | | 226,525 | | | 224,514 | | 
+ | Gross profit | | 109,924 | | | 113,280 | | |",Total revenue
+LQDT,FY2020,rev_1p,127580,USD thousand,LQDT_10K_2020-12-08.txt," | | | | 
+ | | 2020 | | 2019 | | $ Change | | % Change | 
+ Revenue | | $ | 127,580 | | | $ | 147,889 | | | $ | (20,309) | | | (13.7) | % | 
+ Fee revenue | | 78",Purchase-model Revenue line
+LQDT,FY2020,ocf,16478,USD thousand,LQDT_10K_2020-12-08.txt,"ties | | 1,183 | | | ( 317 ) | | | ( 642 ) | | 
+ Net cash provided by (used in) operating activities | | 16,478 | | | ( 6,242 ) | | | 619 | | 
+ Investing activi",
+LQDT,FY2020,capex,-4186,USD thousand,LQDT_10K_2020-12-08.txt,"( 62 ) | | | ( 23 ) | | | ( 35 ) | | 
+ Purchases of property and equipment, including capitalized software | | ( 4,186 ) | | | ( 5,938 ) | | | ( 4,174 ) | | 
+ ",including capitalized software
+LQDT,FY2020,capex_sw,-62,USD thousand,LQDT_10K_2020-12-08.txt,"( 6,242 ) | | | 619 | | 
+ Investing activities | | | | | | | 
+ Increase in intangibles | | ( 62 ) | | | ( 23 ) | | | ( 35 ) | | 
+ Purchases of property and equi",Increase in intangibles
+LQDT,FY2021,V,886.7,USD million,LQDT_10K_2021-12-09.txt,"ch creates a self-sustaining cycle for our buyers and sellers. We generated GMV of $886.7 million and revenue of $257.5 million through multiple sources, includ",GMV (gross merchandise volume)
+LQDT,FY2021,revenue,257531,USD thousand,LQDT_10K_2021-12-09.txt," GMV | | 886,768 | | | 619,850 | | | 639,876 | | 
+ | Total revenue | | 257,531 | | | 205,940 | | | 226,525 | | 
+ | Gross profit | | 149,853 | | | 109,924 | | |",Total revenue
+LQDT,FY2021,rev_1p,146151,USD thousand,LQDT_10K_2021-12-09.txt," | | | | 
+ | | 2021 | | 2020 | | $ Change | | % Change | 
+ Revenue | | $ | 146,151 | | | $ | 127,580 | | | $ | 18,571 | | | 14.6 | % | 
+ Fee revenue | | 111,38",Purchase-model Revenue line
+LQDT,FY2021,ocf,65417,USD thousand,LQDT_10K_2021-12-09.txt,"ties | | ( 290 ) | | | 1,183 | | | ( 317 ) | | 
+ Net cash provided by (used in) operating activities | | 65,417 | | | 16,478 | | | ( 6,242 ) | | 
+ Investing act",
+LQDT,FY2021,capex,-5419,USD thousand,LQDT_10K_2021-12-09.txt,"( 33 ) | | | ( 62 ) | | | ( 23 ) | | 
+ Purchases of property and equipment, including capitalized software | | ( 5,419 ) | | | ( 4,186 ) | | | ( 5,938 ) | | 
+ ",including capitalized software
+LQDT,FY2021,capex_sw,-33,USD thousand,LQDT_10K_2021-12-09.txt,"478 | | | ( 6,242 ) | | 
+ Investing activities | | | | | | | 
+ Increase in intangibles | | ( 33 ) | | | ( 62 ) | | | ( 23 ) | | 
+ Purchases of property and equi",Increase in intangibles
+LQDT,FY2022,V,1145372,USD thousand,LQDT_10K_2022-12-08.txt,"NM | 
+ | | | | | | | | 
+ Consolidated: | | | | | | | 
+ | GMV | | 1,145,372 | | | 886,768 | | | 619,850 | | 
+ | Total revenue | | 280,050 | | | 257,531 | | | 20",GMV (gross merchandise volume)
+LQDT,FY2022,revenue,280050,USD thousand,LQDT_10K_2022-12-08.txt,"evenues | | 128,779 | | | 111,380 | | | 78,360 | | 
+ Total revenues | | 280,050 | | | 257,531 | | | 205,940 | | 
+ Costs and expenses from operations: | | | | | ",Total revenues
+LQDT,FY2022,rev_1p,151271,USD thousand,LQDT_10K_2022-12-08.txt,"ember 30, | 
+ | | 2022 | | 2021 | | 2020 | 
+ Purchase revenues | | $ | 151,271 | | | $ | 146,151 | | | $ | 127,580 | | 
+ Consignment and other fee revenues | |",Purchase revenues
+LQDT,FY2022,ocf,44833,USD thousand,LQDT_10K_2022-12-08.txt,"abilities | | ( 723 ) | | | ( 290 ) | | | 1,183 | | 
+ Net cash provided by operating activities | | 44,833 | | | 65,417 | | | 16,478 | | 
+ Investing activities ",
+LQDT,FY2022,capex,-8121,USD thousand,LQDT_10K_2022-12-08.txt,"vities | | | | | | | 
+ | | | | | | | 
+ Purchases of property and equipment, including capitalized software | | ( 8,121 ) | | | ( 5,419 ) | | | ( 4,186 ) | | 
+ ",including capitalized software
+LQDT,FY2023,V,1203031,USD thousand,LQDT_10K_2023-12-07.txt,"solidated: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ GMV 
+ | 
+ | 
+ $ 
+ | 
+ 1,203,031 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 1,145,372 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 886,768 
+ | 
+ | 
+ To",GMV (gross merchandise volume); consolidated
+LQDT,FY2023,revenue,314462,USD thousand,LQDT_10K_2023-12-07.txt,"
+ | 
+ | 
+ | 
+ | 
+ 13,594 
+ | 
+ | 
+ | 
+ | 
+ 10.6 
+ | 
+ % 
+ | 
+ Total revenue 
+ | 
+ | 
+ | 
+ 314,462 
+ | 
+ | 
+ | 
+ | 
+ 280,050 
+ | 
+ | 
+ | 
+ | 
+ 34,412 
+ | 
+ | 
+ ",Total revenue
+LQDT,FY2023,rev_1p,172089,USD thousand,LQDT_10K_2023-12-07.txt," 
+ | 
+ | 
+ 2022 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ | 
+ | 
+ % 
+ | 
+ | 
+ Purchase revenues 
+ | 
+ | 
+ $ 
+ | 
+ 172,089 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 151,271 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 20,81",Purchase revenues
+LQDT,FY2023,ocf,47016,USD thousand,LQDT_10K_2023-12-07.txt," ( 723 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 290 
+ | 
+ ) 
+ | 
+ Net cash provided by operating activities 
+ | 
+ | 
+ | 
+ 47,016 
+ | 
+ | 
+ | 
+ | 
+ 44,833 
+ | 
+ | 
+ | 
+ | 
+ 65,41",
+LQDT,FY2023,capex,-5386,USD thousand,LQDT_10K_2023-12-07.txt," 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment, including capitalized software 
+ | 
+ | 
+ | 
+ ( 5,386 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 8,121 
+ | ",including capitalized software
+LQDT,FY2024,V,1366632,USD thousand,LQDT_10K_2024-12-12.txt,"solidated: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ GMV 
+ | 
+ | 
+ $ 
+ | 
+ 1,366,632 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 1,203,031 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 1,145,372 
+ | 
+ | 
+ ",GMV (gross merchandise volume); consolidated
+LQDT,FY2024,revenue,363318,USD thousand,LQDT_10K_2024-12-12.txt," 
+ | 
+ | 
+ | 
+ | 
+ 11,145 
+ | 
+ | 
+ | 
+ | 
+ 7.8 
+ | 
+ % 
+ | 
+ Total revenue 
+ | 
+ | 
+ | 
+ 363,318 
+ | 
+ | 
+ | 
+ | 
+ 314,462 
+ | 
+ | 
+ | 
+ | 
+ 48,856 
+ | 
+ | 
+ ",Total revenue
+LQDT,FY2024,rev_1p,209800,USD thousand,LQDT_10K_2024-12-12.txt," 
+ | 
+ | 
+ 2023 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ | 
+ | 
+ % 
+ | 
+ | 
+ Purchase revenues 
+ | 
+ | 
+ $ 
+ | 
+ 209,800 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 172,089 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 37,71",Purchase revenues
+LQDT,FY2024,ocf,70221,USD thousand,LQDT_10K_2024-12-12.txt," ( 157 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 723 
+ | 
+ ) 
+ | 
+ Net cash provided by operating activities 
+ | 
+ | 
+ | 
+ 70,221 
+ | 
+ | 
+ | 
+ | 
+ 47,016 
+ | 
+ | 
+ | 
+ | 
+ 44,83",
+LQDT,FY2024,capex,-8907,USD thousand,LQDT_10K_2024-12-12.txt," 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment, including capitalized software 
+ | 
+ | 
+ | 
+ ( 8,907 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 5,386 
+ | ",including capitalized software
+LQDT,FY2025,V,1570891,USD thousand,LQDT_10K_2025-11-20.txt,"solidated: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ GMV 
+ | 
+ | 
+ $ 
+ | 
+ 1,570,891 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 1,366,632 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 1,203,031 
+ | 
+ | 
+ ",GMV (gross merchandise volume); consolidated
+LQDT,FY2025,revenue,476669,USD thousand,LQDT_10K_2025-11-20.txt," 
+ | 
+ | 
+ | 
+ | 
+ 12,613 
+ | 
+ | 
+ | 
+ | 
+ 8.2 
+ | 
+ % 
+ | 
+ Total revenue 
+ | 
+ | 
+ | 
+ 476,669 
+ | 
+ | 
+ | 
+ | 
+ 363,318 
+ | 
+ | 
+ | 
+ | 
+ 113,351 
+ | 
+ | 
+",Total revenue
+LQDT,FY2025,rev_1p,310538,USD thousand,LQDT_10K_2025-11-20.txt," 
+ | 
+ | 
+ 2024 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ | 
+ | 
+ % 
+ | 
+ | 
+ Purchase revenues 
+ | 
+ | 
+ $ 
+ | 
+ 310,538 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 209,800 
+ | 
+ | 
+ | 
+ $ 
+ | 
+ 100,7",Purchase revenues
+LQDT,FY2025,ocf,66758,USD thousand,LQDT_10K_2025-11-20.txt," | 
+ | 
+ — 
+ | 
+ | 
+ | 
+ | 
+ ( 157 
+ | 
+ ) 
+ | 
+ Net cash provided by operating activities 
+ | 
+ | 
+ | 
+ 66,758 
+ | 
+ | 
+ | 
+ | 
+ 70,221 
+ | 
+ | 
+ | 
+ | 
+ 47,01",
+LQDT,FY2025,capex,-7800,USD thousand,LQDT_10K_2025-11-20.txt," 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchases of property and equipment, including capitalized software 
+ | 
+ | 
+ | 
+ ( 7,800 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 8,907 
+ | ",including capitalized software
+BABA,FY2014,V,1678,RMB billion,BABA_20F_2015-06-25.txt,"million) in fiscal year 2015, reflecting
+GMV growth of 46% from RMB1,678 billion in fiscal year 2014 to RMB2,444 billion (US$394 billion) in fiscal year 2015. The lower growth rat",China retail marketplaces GMV; comparative in FY2015 20-F
+BABA,FY2014,revenue,52504,RMB million,BABA_20F_2015-06-25.txt,"108 
+ Table of Contents 
+ Total
+revenue increased by 45%, from RMB52,504 million in fiscal year 2014 to RMB76,204 million (US$12,293 million) in fiscal year 2015. The increase was",Total revenue; comparative in FY2015 20-F
+BABA,FY2014,ocf,26379,RMB million,BABA_20F_2015-06-25.txt," millions) 
+ Net cash provided by operating activities 
+ 5,914 
+ 9,275 
+ 14,476 
+ 26,379 
+ 41,217 
+ 6,649 
+ Less: Purchase of property and equipment and intangible assets (excludi",Net cash provided by operating activities; comparative in FY2015 20-F
+BABA,FY2014,capex,-3285,RMB million,BABA_20F_2015-06-25.txt,"use rights and construction in progress) 
+ (1,033 
+ ) 
+ (749 
+ ) 
+ (1,046 
+ ) 
+ (3,285 
+ ) 
+ (4,770 
+ ) 
+ (769 
+ ) 
+ Add: Changes in loan receivables, net 
+ — 
+ 226 
+ 2,828 
+ 9,17",PPE and intangibles (FCF table); comparative in FY2015 20-F
+BABA,FY2015,V,2444,RMB billion,BABA_20F_2015-06-25.txt,"rketplaces, which comprise our China retail marketplaces, generated a combined GMV of RMB2,444 billion (US$394 billion) in the
+twelve months ended March 31, 201",China retail marketplaces GMV
+BABA,FY2015,revenue,76204,RMB million,BABA_20F_2015-06-25.txt,"504 million in fiscal year 2014, and
+further increased by 45% to RMB76,204 million (US$12,293 million) in fiscal year 2015. Our net income increased by 171% fr",Total revenue
+BABA,FY2015,ocf,41217,RMB million,BABA_20F_2015-06-25.txt,"Cash Provided by Operating Activities 
+ Cash provided by operating activities in fiscal year 2015 was RMB41,217 million (US$6,649 million) and primarily
+consis",
+BABA,FY2015,capex,-4770,RMB million,BABA_20F_2015-06-25.txt,"ction in progress) 
+ (1,033 
+ ) 
+ (749 
+ ) 
+ (1,046 
+ ) 
+ (3,285 
+ ) 
+ (4,770 
+ ) 
+ (769 
+ ) 
+ Add: Changes in loan receivables, net 
+ — 
+ 226 
+ 2,828 
+ 9,175 ","Purchase of property and equipment and intangible assets (FCF table); combined, no separate capex_sw"
+BABA,FY2016,V,3092,RMB billion,BABA_20F_2016-05-24.txt," Juhuasuan, which comprise our China retail marketplaces, generated a combined GMV of RMB3,092 billion (US$485 billion) in the twelve months ended
+March 31, 201",China retail marketplaces GMV
+BABA,FY2016,revenue,101143,RMB million,BABA_20F_2016-05-24.txt,"204 million in fiscal year 2015, and further increased by 33% to RMB101,143 million (US$15,686 million) in fiscal year 2016.
+Our net income increased by 4% from",Total revenue
+BABA,FY2016,ocf,56836,RMB million,BABA_20F_2016-05-24.txt,"Cash Provided by Operating Activities 
+ Cash provided by operating activities in fiscal year 2016 was RMB56,836 million (US$8,815 million) and primarily
+consis",
+BABA,FY2016,capex,-5438,RMB million,BABA_20F_2016-05-24.txt,"ction in progress) 
+ (749 
+ ) 
+ (1,046 
+ ) 
+ (3,285 
+ ) 
+ (4,770 
+ ) 
+ (5,438 
+ ) 
+ (843 
+ ) 
+ Add: Changes in loan receivables, net and others 
+ 226 
+ 2,828 
+",Purchase of property and equipment and intangible assets (FCF table); combined
+BABA,FY2017,V,3767,RMB billion,BABA_20F_2017-06-15.txt,"rketplaces, generated a 
+ 58 
+ Table of Contents 
+ combined
+GMV of RMB3,767 billion (US$547 billion) in the twelve months ended March 31, 2017. There were 454 m",China retail marketplaces GMV
+BABA,FY2017,revenue,158273,RMB million,BABA_20F_2017-06-15.txt,"143 million in fiscal year 2016, and further increased by 56% to RMB158,273 million (US$22,994 million) in fiscal year 2017.
+Our net income increased by 193% fr",Total revenue
+BABA,FY2017,ocf,80326,RMB million,BABA_20F_2017-06-15.txt,"Cash Provided by Operating Activities 
+ Cash provided by operating activities in fiscal year 2017 was RMB80,326 million (US$11,670 million) and primarily consi",
+BABA,FY2017,capex,-12220,RMB million,BABA_20F_2017-06-15.txt,"on in progress) 
+ (1,046 
+ ) 
+ (3,285 
+ ) 
+ (4,770 
+ ) 
+ (5,438 
+ ) 
+ (12,220 
+ ) 
+ (1,775 
+ ) 
+ Add: Changes in loan receivables, net and others 
+ 2,828 
+ 9,17",Purchase of property and equipment and intangible assets (FCF table); combined
+BABA,FY2018,V,4820,RMB billion,BABA_20F_2018-07-27.txt,"tplace GMV 
+ 1,877 
+ 2,202 
+ 2,689 
+ Tmall GMV 
+ 1,215 
+ 1,565 
+ 2,131 
+ Total GMV 
+ 3,092 
+ 3,767 
+ 4,820 
+Exchange Rate Information 
+ Most of our revenues and expenses are denom",China retail marketplaces GMV (Total GMV in selected GMV table)
+BABA,FY2018,revenue,250266,RMB million,BABA_20F_2018-07-27.txt,"8,273 million in fiscal year 2017, and further increased by 58% to RMB250,266 million (US$39,898 million) in fiscal year
+2018. Our net income decreased by 42% ",Total revenue
+BABA,FY2018,ocf,125171,RMB million,BABA_20F_2018-07-27.txt,"Cash Provided by Operating Activities 
+ Cash provided by operating activities in fiscal year 2018 was RMB125,171 million (US$19,955 million) and primarily consi",
+BABA,FY2018,capex,-25809,RMB million,BABA_20F_2018-07-27.txt,"n in progress) 
+ (3,285 
+ ) 
+ (4,770 
+ ) 
+ (5,438 
+ ) 
+ (12,220 
+ ) 
+ (25,809 
+ ) 
+ (4,114 
+ ) 
+ Add: Changes in loan receivables, net and others 
+ 9,175 
+ 11,6","PPE, intangibles and licensed copyrights combined (FCF table)"
+BABA,FY2019,V,5727,RMB billion,BABA_20F_2019-06-05.txt,"mall GMV 
+ 1,565 
+ 2,131 
+ 2,612 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total GMV 
+ 3,767 
+ 4,820 
+ 5,727 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ​ 
+ ",China retail marketplaces GMV (Total GMV in selected GMV table)
+BABA,FY2019,revenue,376844,RMB million,BABA_20F_2019-06-05.txt,"266 million in fiscal year 2018, and further increased by 51% to RMB376,844 million (US$56,152 million) in fiscal year 2019. Our net income increased by 49%
+fro",Total revenue
+BABA,FY2019,rev_1p,46942,RMB million,BABA_20F_2019-06-05.txt,",397 
+ Cloud computing services 
+ 6,663 
+ 13,390 
+ 24,702 
+ Sales of goods 
+ 3,889 
+ 18,719 
+ 46,942 
+ Other revenue (ii) 
+ 9,948 
+ 16,266 
+ 15,962 
+ ​ 
+ ​ 
+ ​ ",Sales of goods (direct sales)
+BABA,FY2019,ocf,150975,RMB million,BABA_20F_2019-06-05.txt,"
+Cash Flows from Operating Activities 
+ Cash provided by operating activities in fiscal year 2019 was RMB150,975 million (US$22,496 million) and primarily consi",
+BABA,FY2019,capex,-32336,RMB million,BABA_20F_2019-06-05.txt,"office campus) 
+ (4,370 
+ ) 
+ (4,722 
+ ) 
+ (5,680 
+ ) 
+ (15,601 
+ ) 
+ (32,336 
+ ) 
+ (4,818 
+ ) 
+ Less: Acquisition of licensed copyrights and other intangible a",PPE excluding campus land/CIP
+BABA,FY2019,capex_sw,-14161,RMB million,BABA_20F_2019-06-05.txt," intangible assets 
+ (400 
+ ) 
+ (716 
+ ) 
+ (6,540 
+ ) 
+ (10,208 
+ ) 
+ (14,161 
+ ) 
+ (2,110 
+ ) 
+ Add: Changes in loan receivables, net and others 
+ 11,674 
+ (11",Acquisition of licensed copyrights and other intangible assets
+BABA,FY2020,V,6589,RMB billion,BABA_20F_2020-07-09.txt,"ch 31, 2020, which mainly included GMV of RMB6,589 billion (US$945 billion) transacted through our China retail marketplaces, as well as GMV transacted through","China retail marketplaces GMV; total ecosystem GMV RMB7,053 billion also reported"
+BABA,FY2020,revenue,509711,RMB million,BABA_20F_2020-07-09.txt,"844 million in fiscal year 2019, and further increased by 35% to RMB509,711 million (US$71,985 million) in fiscal year 2020. Our net income increased by 31% fro",Total revenue
+BABA,FY2020,rev_1p,95503,RMB million,BABA_20F_2020-07-09.txt,"
+ | 13,390 
+ | ​ 
+ | 24,702 
+ | ​ 
+ | 40,016 
+ | 
+ Sales of goods
+ | 
+ | 18,719 
+ | 
+ | 46,942 
+ | 
+ | 95,503 
+ | 
+ Other revenue (ii) 
+ | ​ 
+ | 16,266 
+ | ​ 
+ ",Sales of goods (direct sales)
+BABA,FY2020,ocf,180607,RMB million,BABA_20F_2020-07-09.txt,"
+ Cash Flows from Operating Activities
+ Cash provided by operating activities in fiscal year 2020 was RMB180,607 million (US$25,507 million) and primarily consi",
+BABA,FY2020,capex,-24662,RMB million,BABA_20F_2020-07-09.txt," | (4,722) 
+ | 
+ | (5,680) 
+ | 
+ | (15,601) 
+ | 
+ | (32,336) 
+ | 
+ | (24,662) 
+ | 
+ | (3,483) 
+ | 
+ Less: Acquisition of licensed copyrights and other intangibl",PPE excluding campus land/CIP
+BABA,FY2020,capex_sw,-12836,RMB million,BABA_20F_2020-07-09.txt," 
+ | (716) 
+ | 
+ | (6,540) 
+ | 
+ | (10,208) 
+ | 
+ | (14,161) 
+ | 
+ | (12,836) 
+ | 
+ | (1,813) 
+ | 
+ Less: Changes in the consumer protection fund deposits
+ | ​ ",Acquisition of licensed copyrights and other intangible assets
+BABA,FY2021,V,7494,RMB billion,BABA_20F_2021-07-27.txt,"iscal year 2021, which primarily included our China retail marketplaces GMV of RMB7,494 billion (US$1,144 billion), as well as GMV from our international retail","China retail marketplaces GMV; total ecosystem GMV RMB8,119 billion also reported"
+BABA,FY2021,revenue,717289,RMB million,BABA_20F_2021-07-27.txt,"11 million in fiscal year 2020, and further increased by 41% to RMB717,289 million (US$109,480 million) in fiscal year 2021. Our net income increased 75% from ",Total revenue
+BABA,FY2021,rev_1p,180634,RMB million,BABA_20F_2021-07-27.txt," | 24,702 
+ | ​ 
+ | 40,016 
+ | ​ 
+ | 60,120 
+ | 
+ Sales of goods
+ | 
+ | 46,942 
+ | 
+ | 95,503 
+ | 
+ | 180,634 
+ | 
+ Other revenue (ii)
+ | ​ 
+ | 15,962 
+ | ​ 
+ ",Sales of goods (direct sales)
+BABA,FY2021,ocf,231786,RMB million,BABA_20F_2021-07-27.txt,"
+ Cash Flows from Operating Activities
+ Cash provided by operating activities in fiscal year 2021 was RMB231,786 million (US$35,378 million), and primarily cons",
+BABA,FY2021,capex,-36160,RMB million,BABA_20F_2021-07-27.txt,"elating to office campuses)
+ | 
+ | (32,336) 
+ | 
+ | (24,662) 
+ | 
+ | (36,160) 
+ | 
+ | (5,519) 
+ | 
+ Less: Acquisition of licensed copyrights (1) and other intan",PPE excluding campus land/CIP
+BABA,FY2021,capex_sw,-1735,RMB million,BABA_20F_2021-07-27.txt," and other intangible assets
+ | 
+ | (14,161) 
+ | 
+ | (12,836) 
+ | 
+ | (1,735) 
+ | 
+ | (265) 
+ | 
+ Less: Changes in the consumer protection fund deposits
+ | 
+ |",Acquisition of licensed copyrights and other intangible assets
+BABA,FY2022,V_alt,7976,RMB billion,BABA_20F_2022-07-26.txt,"lion) for fiscal year 2022, which included RMB7,976 billion (US$1,258 billion) of GMV generated from our China consumer-facing businesses, including those in China commerce, Local ","China consumer-facing GMV; scope differs from China retail marketplaces GMV (FY2014-FY2021), so it is a new series under the one-V rule. China consumer-facing GMV (China commerce, local consumer services, DME); China retail marketplaces GMV not separately stated; total ecosystem GMV RMB8,317 billion"
+BABA,FY2022,revenue,853062,RMB million,BABA_20F_2022-07-26.txt,"89 million in fiscal year 2021, and further increased by 19% to RMB853,062 million (US$134,567 million) in fiscal year 2022. Our net income increased by 2% fro",Total revenue
+BABA,FY2022,rev_1p,255171,RMB million,BABA_20F_2022-07-26.txt," | 40,016 
+ | ​ 
+ | 60,120 
+ | ​ 
+ | 74,123 
+ | 
+ Sales of goods
+ | 
+ | 95,503 
+ | 
+ | 180,634 
+ | 
+ | 255,171 
+ | 
+ Other revenue (ii)
+ | ​ 
+ | 19,812 
+ | ​ 
+ ",Sales of goods (direct sales)
+BABA,FY2022,ocf,142759,RMB million,BABA_20F_2022-07-26.txt,"Cash Flows from Operating Activities
+ Net cash provided by operating activities in fiscal year 2022 was RMB142,759 million (US$22,520 million), and primarily co",
+BABA,FY2022,capex,-42028,RMB million,BABA_20F_2022-07-26.txt,"elating to office campuses)
+ | 
+ | (24,662) 
+ | 
+ | (36,160) 
+ | 
+ | (42,028) 
+ | 
+ | (6,630) 
+ | 
+ Less: Acquisition of licensed copyrights (1) and other intan",PPE excluding campus land/CIP
+BABA,FY2022,capex_sw,-15,RMB million,BABA_20F_2022-07-26.txt," (1) and other intangible assets
+ | 
+ | (12,836) 
+ | 
+ | (1,735) 
+ | 
+ | (15) 
+ | 
+ | (2) 
+ | 
+ Less: Changes in the consumer protection fund deposits
+ | 
+ | (1",Acquisition of licensed copyrights and other intangible assets
+BABA,FY2023,V,,,BABA_20F_2023-07-21.txt,,not reported
+BABA,FY2023,revenue,868687,RMB million,BABA_20F_2023-07-21.txt,"062 million in fiscal year 2022, and further increased by 2% to RMB868,687 million (US$126,491 million) in fiscal year 2023. Our net income decreased by 67% fro",Total revenue
+BABA,FY2023,rev_1p,271016,RMB million,BABA_20F_2023-07-21.txt," of goods 
+ | 
+ | 
+ | 
+ 180,634 
+ | 
+ | 
+ | 
+ | 
+ 255,171 
+ | 
+ | 
+ | 
+ | 
+ 271,016 
+ | 
+ | 
+ Other revenue (ii) 
+ | 
+ | 
+ | 
+ 28,051 
+ | 
+ | 
+ | 
+ | 
+ 36,751 ",Sales of goods (direct sales)
+BABA,FY2023,ocf,199752,RMB million,BABA_20F_2023-07-21.txt,"ash Flows from Operating Activities 
+ Net cash provided by operating activities in fiscal year 2023 was RMB199,752 million (US$29,086 million), and primarily co",
+BABA,FY2023,capex,-30373,RMB million,BABA_20F_2023-07-21.txt,"
+ (36,160 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (42,028 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (30,373 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (4,423 
+ | 
+ ) 
+ | 
+ Less: Purchase of intangible assets (excluding ",PPE excluding campus land/CIP
+BABA,FY2023,capex_sw,-22,RMB million,BABA_20F_2023-07-21.txt," 
+ | 
+ | 
+ (1,735 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (15 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (22 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (3 
+ | 
+ ) 
+ | 
+ Less: Changes in the buyer protection fund deposits",Purchase of intangible assets (excluding those acquired through acquisitions)
+BABA,FY2024,V,,,BABA_20F_2024-05-23.txt,,not reported
+BABA,FY2024,revenue,941168,RMB million,BABA_20F_2024-05-23.txt,"687 million in fiscal year 2023, and further increased by 8% to RMB941,168 million (US$130,350 million) in fiscal year 2024. Our net income increased by 39% fro",Total revenue
+BABA,FY2024,rev_1p,283273,RMB million,BABA_20F_2024-05-23.txt," of goods 
+ | 
+ | 
+ | 
+ 255,171 
+ | 
+ | 
+ | 
+ | 
+ 271,016 
+ | 
+ | 
+ | 
+ | 
+ 283,273 
+ | 
+ | 
+ Other revenue (ii) 
+ | 
+ | 
+ | 
+ 36,751 
+ | 
+ | 
+ | 
+ | 
+ 36,587 ",Sales of goods (direct sales)
+BABA,FY2024,ocf,182593,RMB million,BABA_20F_2024-05-23.txt,"ash Flows from Operating Activities 
+ Net cash provided by operating activities in fiscal year 2024 was RMB182,593 million (US$25,289 million), and primarily co",
+BABA,FY2024,capex,-27579,RMB million,BABA_20F_2024-05-23.txt,"
+ (42,028 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (30,373 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (27,579 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (3,820 
+ | 
+ ) 
+ | 
+ Less: Purchase of intangible assets (excluding ",PPE excluding campus land/CIP
+BABA,FY2024,capex_sw,-842,RMB million,BABA_20F_2024-05-23.txt,"| 
+ | 
+ | 
+ (15 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (22 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (842 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (116 
+ | 
+ ) 
+ | 
+ Less: Changes in the buyer protection fund deposi",Purchase of intangible assets (excluding those acquired through acquisitions)
+BABA,FY2025,V,,,BABA_20F_2025-06-26.txt,,not reported
+BABA,FY2025,revenue,996347,RMB million,BABA_20F_2025-06-26.txt,"
+ | 
+ 98,433 
+ | 
+ | 
+ | 
+ | 
+ 64,331 
+ | 
+ | 
+ | 
+ | 
+ — 
+ | 
+ | 
+ | 
+ | 
+ 996,347 
+ | 
+ | 
+ | 
+ | 
+ 137,300 
+ | 
+ | 
+ Revenue from group companies 
+ | 
+ | 
+ ",Total revenue
+BABA,FY2025,rev_1p,274276,RMB million,BABA_20F_2025-06-26.txt," of goods 
+ | 
+ | 
+ | 
+ 271,016 
+ | 
+ | 
+ | 
+ | 
+ 283,273 
+ | 
+ | 
+ | 
+ | 
+ 274,276 
+ | 
+ | 
+ Other revenue (ii) 
+ | 
+ | 
+ | 
+ 36,587 
+ | 
+ | 
+ | 
+ | 
+ 38,836 ",Sales of goods (direct sales)
+BABA,FY2025,ocf,163509,RMB million,BABA_20F_2025-06-26.txt," 
+ ) 
+ | 
+ | 
+ | 
+ 169,759 
+ | 
+ | 
+ | 
+ | 
+ (173,502 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ 163,509 
+ | 
+ | 
+ | 
+ | 
+ 22,532 
+ | 
+ | 
+ Net cash used in investing activities 
+ ",
+BABA,FY2025,capex,-85972,RMB million,BABA_20F_2025-06-26.txt,"
+ | 
+ | 
+ | 
+ ( 34,330 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 32,087 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 85,972 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 11,847 
+ | 
+ ) 
+ | 
+ Intangible assets 
+ | 
+ | 
+ | ","Land use rights, property and equipment (cash flow); includes campus land"
+BABA,FY2026,V,,,BABA_20F_2026-05-20.txt,,not reported
+BABA,FY2026,revenue,1023670,RMB million,BABA_20F_2026-05-20.txt,"47 million in fiscal year 2025, and further increased by 3% to RMB1,023,670 million (US$148,401 million) in fiscal year 2026. Our net income increased by 77% fr",Total revenue
+BABA,FY2026,rev_1p,227747,RMB million,BABA_20F_2026-05-20.txt," of goods 
+ | 
+ | 
+ | 
+ 283,273 
+ | 
+ | 
+ | 
+ | 
+ 274,276 
+ | 
+ | 
+ | 
+ | 
+ 227,747 
+ | 
+ | 
+ Other revenue (ii) 
+ | 
+ | 
+ | 
+ 38,836 
+ | 
+ | 
+ | 
+ | 
+ 42,685 ",Sales of goods (direct sales)
+BABA,FY2026,ocf,76213,RMB million,BABA_20F_2026-05-20.txt,"ash Flows from Operating Activities 
+ Net cash provided by operating activities in fiscal year 2026 was RMB76,213 million (US$11,049 million), and primarily co",
+BABA,FY2026,capex,-122021,RMB million,BABA_20F_2026-05-20.txt," (27,579 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (84,278 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (122,021 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (17,689 
+ | 
+ ) 
+ | 
+ Less: Purchase of intangible assets (excluding",PPE excluding campus land/CIP
+BABA,FY2026,capex_sw,-874,RMB million,BABA_20F_2026-05-20.txt,"s) 
+ | 
+ | 
+ | 
+ (842 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ — 
+ | 
+ | 
+ | 
+ | 
+ (874 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ (127 
+ | 
+ ) 
+ | 
+ Less: Changes in the buyer protection fund deposi",Purchase of intangible assets (excluding those acquired through acquisitions)

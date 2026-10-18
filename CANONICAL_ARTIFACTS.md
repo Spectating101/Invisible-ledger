@@ -8,7 +8,7 @@ Updated 1 October 2026. This map identifies the files currently in use. The map 
 - Generated search text: `papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md`. It records the SHA-256 of the PDF.
 - **No editable source for the 27 September proposal has been located.** Do not rebuild it from Markdown, candidate files or generators. If the researcher supplies the editable file, add it here and regenerate the search text.
 
-The September 24 DOCX and PDF (`papers/current/archive/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.*`) are superseded. Their file names say `FINAL`, but they are not the proposal that was examined. The reference list in the 24 September DOCX has not been checked against the 27 September PDF. The September 14 proposal is also historical and is recoverable from Git commit `b8f35576f30f6ab9518409c8f7510d1ad019ddf6`. Other copies in Downloads are not separate authorities.
+The September 24 DOCX and PDF (`papers/current/archive/Invisible_Ledger_Proposal_KONG_MASTER_FINAL_2026-09-24.*`) are superseded. Their file names say `FINAL`, but they are not the proposal that was examined. The reference list in the 24 September DOCX has not been checked against the 27 September PDF. The mid-September proposal is also historical; its polished, re-rendered version (commit dated 17 September) is recoverable from Git commit `b8f35576f30f6ab9518409c8f7510d1ad019ddf6`. Other copies in Downloads are not separate authorities.
 
 ### What the 27 September proposal fixes (frozen)
 
@@ -26,11 +26,11 @@ The presented deck (confirmed by the researcher on 1 October 2026) is `papers/cu
 
 ## Manuscript
 
-The manuscript is a separate, earlier work stream:
+The October 2026 rewrite is being drafted in `papers/thesis_2026-10/` (one file per chapter; see its README), started 12 Oct 2026 after the advisor asked for better writing on the same topic. It is a draft, not yet the submitted thesis. The September manuscripts are archived and stale (they predate the 27 September proposal and the October research):
 
-- generator: `scripts/build_thesis_manuscript.py`
-- searchable manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.md`
-- rendered manuscript: `papers/current/Invisible_Ledger_Thesis_Manuscript.docx` and `.pdf`
+- archived in `papers/current/archive/manuscripts_2026-09/` (Thesis_Manuscript, Integrated_Manuscript_2026-09-11, Working_Manuscript_2026-09-09)
+- generator: `scripts/build_thesis_manuscript.py` (its default output now points at that archive folder)
+- the October 2026 research that the thesis will draw on is indexed in `research/option_space_2026-10-01/README.md`; the pre-registered tests are in `research/option_space_2026-10-01/PREREGISTRATION.md`
 
 Do not infer proposal wording from the manuscript or from historical candidate, comparison, or surgery files.
 

@@ -1,0 +1,10 @@
+Driver incentives are never printed as a standalone annual amount; filings give only combined driver earnings and driver incentives (or CoR totals that consist primarily of both), so incentives_driver values are left empty.
+Notes-line "Incentives provided to consumers amounted to..." is the S&M amount for consumers not treated as customers; China ride-hailing consumer incentives that reduce gross revenue are not isolated.
+2025 and 2026 20-Fs stop isolating consumer incentives and print only combined promotion/advertising/incentives, so 2024-2025 incentives_consumer values are empty.
+No filing prints a revenue/GTV or "take rate" percentage; F-1 3.1% is China ride-hailing adjusted EBITA as a percent of GTV, not take rate.
+Q1 2021 F-1 figures were skipped because specified periods are calendar years 2018-2025, not quarters.
+Where a filing prints both a key-metrics table in RMB millions and a rounded MD&A billion figure for the same item, the table figure is used; billion figures are used when that is all the filing prints (Core Platform GTV, later Group revenue).
+China Mobility composition wording changes across filings (taxi hailing vs online taxi; hitch included, dropped, then restored) and 2026 20-F starts subtracting certain consumer incentives in the agent-basis revenue formula; these are captured as note_text, not as restated GTV/revenue numbers (the printed GTV and revenue tables did not change).
+USD convenience translations are recorded only where printed next to Core Platform GTV; other USD figures were omitted to avoid duplicating the RMB primary.
+incentives_total is not stated in any filing as a single driver-plus-consumer total.
+Platform Sales is not a requested field; the 2026 20-F per-country floor-of-zero change is noted because it is a GTV-derived metric definition change.

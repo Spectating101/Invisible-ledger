@@ -1,0 +1,219 @@
+entity,period,field,value,unit,source_file,quote,note
+Shopee,2018Q4,gmv,3.4,USD_bn,2019-02-27__tv514856_ex99-1.htm.txt,"GMV was US$3.4 billion, an increase of 117.0% year-on-year from US$1.6 billion",
+Shopee,2018Q4,gross_orders,206.9,orders_m,2019-02-27__tv514856_ex99-1.htm.txt,"Gross orders for the quarter totaled 206.9 million, an increase of 110.5% year-on-year from 98.3",
+Shopee,2018Q4,gaap_revenue,121660,USD_m,2019-02-27__tv514856_ex99-1.htm.txt,"revenue of $121,660 included marketplace revenue of $82,483 and product revenue of $39,177 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2018Q4,marketplace_revenue,82483,USD_m,2019-02-27__tv514856_ex99-1.htm.txt,"revenue of $121,660 included marketplace revenue of $82,483 and product revenue of $39,177 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2018Q4,product_revenue,39177,USD_m,2019-02-27__tv514856_ex99-1.htm.txt,"revenue of $121,660 included marketplace revenue of $82,483 and product revenue of $39,177 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2018Q4,adjusted_ebitda,-277.5,USD_m,2019-02-27__tv514856_ex99-1.htm.txt,"Adjusted EBITDA was US$(277.5) million, compared to US$(175.4) million for the fourth quarter of",
+Shopee,2019Q1,gmv,3.5,USD_bn,2019-05-22__tv522220_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$3.5 billion, an increase of 81.8% year-on-year",
+Shopee,2019Q1,gross_orders,203.5,orders_m,2019-05-22__tv522220_ex99-1.htm.txt,"Gross orders for the quarter totaled 203.5 million, an increase of 82.7% year-on-year from 111.4",
+Shopee,2019Q1,gaap_revenue,142694,USD_m,2019-05-22__tv522220_ex99-1.htm.txt,"revenue of $142,694 included marketplace revenue of $95,566 and product revenue of $47,128 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2019Q1,marketplace_revenue,95566,USD_m,2019-05-22__tv522220_ex99-1.htm.txt,"revenue of $142,694 included marketplace revenue of $95,566 and product revenue of $47,128 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q1,product_revenue,47128,USD_m,2019-05-22__tv522220_ex99-1.htm.txt,"revenue of $142,694 included marketplace revenue of $95,566 and product revenue of $47,128 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q1,adjusted_ebitda,-235.3,USD_m,2019-05-22__tv522220_ex99-1.htm.txt,"Adjusted EBITDA was US$(235.3) million, compared to US$(179.6) million for the first quarter of",
+Shopee,2019Q2,gmv,3.8,USD_bn,2019-08-20__tv528007_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$3.8 billion, an increase of 72.3% year-on-year",
+Shopee,2019Q2,gross_orders,246.3,orders_m,2019-08-20__tv528007_ex99-1.htm.txt,"Gross orders for the quarter totaled 246.3 million, an increase of 92.7% year-on-year from 127.8",
+Shopee,2019Q2,gaap_revenue,162615,USD_m,2019-08-20__tv528007_ex99-1.htm.txt,"revenue of $162,615 included marketplace revenue of $122,955 and product revenue of $39,660 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2019Q2,marketplace_revenue,122955,USD_m,2019-08-20__tv528007_ex99-1.htm.txt,"revenue of $162,615 included marketplace revenue of $122,955 and product revenue of $39,660 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q2,product_revenue,39660,USD_m,2019-08-20__tv528007_ex99-1.htm.txt,"revenue of $162,615 included marketplace revenue of $122,955 and product revenue of $39,660 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q2,adjusted_ebitda,-248.3,USD_m,2019-08-20__tv528007_ex99-1.htm.txt,Adjusted EBITDA was US$(248.3) million compared to US$(188.3) million for the second quarter of,
+Shopee,2019Q3,gmv,4.6,USD_bn,2019-11-12__tm1922572d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$4.6 billion, an increase of 69.9% year-on-year",
+Shopee,2019Q3,gross_orders,321.4,orders_m,2019-11-12__tm1922572d1_ex99-1.htm.txt,"Gross orders for the quarter totaled 321.4 million, an increase of 102.8% year-on-year from 158.5",
+Shopee,2019Q3,gaap_revenue,226396,USD_m,2019-11-12__tm1922572d1_ex99-1.htm.txt,"revenue of $226,396 included marketplace revenue of $177,235 and product revenue of $49,161 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2019Q3,marketplace_revenue,177235,USD_m,2019-11-12__tm1922572d1_ex99-1.htm.txt,"revenue of $226,396 included marketplace revenue of $177,235 and product revenue of $49,161 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q3,product_revenue,49161,USD_m,2019-11-12__tm1922572d1_ex99-1.htm.txt,"revenue of $226,396 included marketplace revenue of $177,235 and product revenue of $49,161 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q3,adjusted_ebitda,-253.7,USD_m,2019-11-12__tm1922572d1_ex99-1.htm.txt,Adjusted EBITDA was US$(253.7) million compared to US$(214.9) million for the third quarter of,
+Shopee,2019Q4,gmv,5.6,USD_bn,2020-03-03__tm2011562d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$5.6 billion, an increase of 64.8% year-on-year",
+Shopee,2019Q4,gross_orders,440.5,orders_m,2020-03-03__tm2011562d1_ex99-1.htm.txt,"Gross orders for the quarter totaled 440.5 million, an increase of 112.9% year-on-year from 206.9",
+Shopee,2019Q4,gaap_revenue,302590,USD_m,2020-03-03__tm2011562d1_ex99-1.htm.txt,"For the fourth quarter of 2019, revenue of $302,590 included marketplace revenue of $227,856 and product revenue of $74,734",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2019Q4,marketplace_revenue,227856,USD_m,2020-03-03__tm2011562d1_ex99-1.htm.txt,"revenue of $302,590 included marketplace revenue of $227,856 and product revenue of $74,734",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q4,product_revenue,74734,USD_m,2020-03-03__tm2011562d1_ex99-1.htm.txt,"revenue of $302,590 included marketplace revenue of $227,856 and product revenue of $74,734",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2019Q4,adjusted_ebitda,-306.2,USD_m,2020-03-03__tm2011562d1_ex99-1.htm.txt,Adjusted EBITDA was US$(306.2) million compared to US$(277.5) million for the fourth quarter of,
+Shopee,2020Q1,gmv,6.2,USD_bn,2020-05-18__nt10012039x3_ex99-1.htm.txt,"to reach US$ 6.2 billion for the first quarter, compared to 64.8% year-on-year in the fourth quarter of 2019",
+Shopee,2020Q1,gross_orders,429.8,orders_m,2020-05-18__nt10012039x3_ex99-1.htm.txt,"Gross orders totaled 429.8 million, an increase of 111.2% year-on-year from 203.5 million for the first quarter of 2019",
+Shopee,2020Q1,gaap_revenue,263195,USD_m,2020-05-18__nt10012039x3_ex99-1.htm.txt,"For the first quarter of 2020, revenue of $263,195 included marketplace revenue of $185,930 and product revenue of $77,265 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2020Q1,marketplace_revenue,185930,USD_m,2020-05-18__nt10012039x3_ex99-1.htm.txt,"revenue of $263,195 included marketplace revenue of $185,930 and product revenue of $77,265 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2020Q1,product_revenue,77265,USD_m,2020-05-18__nt10012039x3_ex99-1.htm.txt,"revenue of $263,195 included marketplace revenue of $185,930 and product revenue of $77,265 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2020Q1,adjusted_ebitda,-260.0,USD_m,2020-05-18__nt10012039x3_ex99-1.htm.txt,Adjusted EBITDA was US$(260.0) million compared to US$(235.3) million for the first quarter of 2019,
+Shopee,2020Q2,gmv,8.0,USD_bn,2020-08-18__tm2028889d1_ex99-1.htm.txt,"reach US$8.0 billion for the second quarter, compared to 74.3% year-on-year in the first quarter of 2020",
+Shopee,2020Q2,gross_orders,615.9,orders_m,2020-08-18__tm2028889d1_ex99-1.htm.txt,Gross orders totaled 615.9 million with accelerated growth of 150.1% year-on-year,
+Shopee,2020Q2,gaap_revenue,443035,USD_m,2020-08-18__tm2028889d1_ex99-1.htm.txt,"revenue of $443,035 included marketplace revenue of $311,146 and product revenue of $131,889 net of sales incentives",GAAP e-commerce revenue in thousands of US$ as printed in segment footnote; highlights give adjusted revenue only
+Shopee,2020Q2,marketplace_revenue,311146,USD_m,2020-08-18__tm2028889d1_ex99-1.htm.txt,"revenue of $443,035 included marketplace revenue of $311,146 and product revenue of $131,889 net of sales incentives",GAAP marketplace revenue in thousands of US$ as printed in segment footnote
+Shopee,2020Q2,product_revenue,131889,USD_m,2020-08-18__tm2028889d1_ex99-1.htm.txt,"revenue of $443,035 included marketplace revenue of $311,146 and product revenue of $131,889 net of sales incentives",GAAP product revenue in thousands of US$ as printed in segment footnote
+Shopee,2020Q2,adjusted_ebitda,-305.5,USD_m,2020-08-18__tm2028889d1_ex99-1.htm.txt,"Adjusted EBITDA was US$(305.5) million, compared to US$(248.3) million for the second quarter of",
+Shopee,2020Q3,gmv,9.3,USD_bn,2020-11-17__tm2036227d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$9.3 billion, an increase of 102.7% year-on-year",
+Shopee,2020Q3,gross_orders,741.6,orders_m,2020-11-17__tm2036227d1_ex99-1.htm.txt,"Gross orders totaled 741.6 million, an increase of 130.7% year-on-year",
+Shopee,2020Q3,gaap_revenue,618.7,USD_m,2020-11-17__tm2036227d1_ex99-1.htm.txt,"GAAP Revenue was US$618.7 million, up 173.3% year-on-year",
+Shopee,2020Q3,marketplace_revenue,467.1,USD_m,2020-11-17__tm2036227d1_ex99-1.htm.txt,GAAP Revenue included US$467.1 million of GAAP marketplace revenue,
+Shopee,2020Q3,product_revenue,151.6,USD_m,2020-11-17__tm2036227d1_ex99-1.htm.txt,and US$151.6 million of GAAP product revenue,
+Shopee,2020Q3,adjusted_ebitda,-301.6,USD_m,2020-11-17__tm2036227d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(301.6) million compared to US$(253.7) million for the third,
+Shopee,2020Q4,gmv,11.9,USD_bn,2021-03-02__tm218417d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$11.9 billion, an increase of 112.5% year-on-year",
+Shopee,2020Q4,gross_orders,1.0,orders_bn,2021-03-02__tm218417d1_ex99-1.htm.txt,"Gross orders totaled 1.0 billion, an increase of 134.6% year-on-year",
+Shopee,2020Q4,gaap_revenue,842.2,USD_m,2021-03-02__tm218417d1_ex99-1.htm.txt,"GAAP revenue was US$842.2 million, up 178.3% year-on-year",
+Shopee,2020Q4,marketplace_revenue,627.6,USD_m,2021-03-02__tm218417d1_ex99-1.htm.txt,GAAP revenue included US$627.6 million of GAAP marketplace revenue,
+Shopee,2020Q4,product_revenue,214.6,USD_m,2021-03-02__tm218417d1_ex99-1.htm.txt,and US$214.6 million of GAAP product revenue,
+Shopee,2020Q4,adjusted_ebitda,-427.5,USD_m,2021-03-02__tm218417d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(427.5) million compared to US$(306.2) million for the fourth,
+Shopee,2021Q1,gmv,12.6,USD_bn,2021-05-18__tm2116820d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$12.6 billion, an increase of 103.2% year-on-year",
+Shopee,2021Q1,gross_orders,1.1,orders_bn,2021-05-18__tm2116820d1_ex99-1.htm.txt,"Gross orders totaled 1.1 billion, an increase of 153.0% year-on-year",
+Shopee,2021Q1,gaap_revenue,922.3,USD_m,2021-05-18__tm2116820d1_ex99-1.htm.txt,"GAAP revenue was US$922.3 million, up 250.4% year-on-year",
+Shopee,2021Q1,marketplace_revenue,715.9,USD_m,2021-05-18__tm2116820d1_ex99-1.htm.txt,GAAP revenue included US$715.9 million of GAAP marketplace revenue,
+Shopee,2021Q1,product_revenue,206.4,USD_m,2021-05-18__tm2116820d1_ex99-1.htm.txt,and US$206.4 million of GAAP product revenue,
+Shopee,2021Q1,adjusted_ebitda,-412.9,USD_m,2021-05-18__tm2116820d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(412.9) million compared to US$(264.1) million for the first quarter,
+Shopee,2021Q2,gmv,15.0,USD_bn,2021-08-17__tm2125304d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$15.0 billion, an increase of 87.5% year-on-year",
+Shopee,2021Q2,gross_orders,1.4,orders_bn,2021-08-17__tm2125304d1_ex99-1.htm.txt,"Gross orders totaled 1.4 billion, an increase of 127.4% year-on-year",
+Shopee,2021Q2,gaap_revenue,1.2,USD_bn,2021-08-17__tm2125304d1_ex99-1.htm.txt,"GAAP revenue was US$1.2 billion, up 160.7% year-on-year",
+Shopee,2021Q2,marketplace_revenue,904.6,USD_m,2021-08-17__tm2125304d1_ex99-1.htm.txt,GAAP revenue included US$904.6 million of GAAP marketplace revenue,
+Shopee,2021Q2,product_revenue,250.6,USD_m,2021-08-17__tm2125304d1_ex99-1.htm.txt,and US$250.6 million of GAAP product revenue,
+Shopee,2021Q2,adjusted_ebitda,-579.8,USD_m,2021-08-17__tm2125304d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(579.8) million compared to US$(313.7) million for the second quarter,
+Shopee,2021Q3,gmv,16.8,USD_bn,2021-11-16__tm2133106d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$16.8 billion, an increase of 80.6% year-on-year",
+Shopee,2021Q3,gross_orders,1.7,orders_bn,2021-11-16__tm2133106d1_ex99-1.htm.txt,"Gross orders totaled 1.7 billion, an increase of 123.2% year-on-year",
+Shopee,2021Q3,gaap_revenue,1.5,USD_bn,2021-11-16__tm2133106d1_ex99-1.htm.txt,"GAAP revenue was US$1.5 billion, up 134.4% year-on-year",
+Shopee,2021Q3,marketplace_revenue,1.2,USD_bn,2021-11-16__tm2133106d1_ex99-1.htm.txt,GAAP revenue included US$1.2 billion of GAAP marketplace revenue,
+Shopee,2021Q3,product_revenue,0.3,USD_bn,2021-11-16__tm2133106d1_ex99-1.htm.txt,and US$0.3 billion of GAAP product revenue,
+Shopee,2021Q3,adjusted_ebitda,-683.8,USD_m,2021-11-16__tm2133106d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(683.8) million compared to US$(301.6) million for the third quarter,
+Shopee,2021Q4,gmv,18.2,USD_bn,2022-03-01__tm228005d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$18.2 billion, an increase of 52.7% year-on-year",
+Shopee,2021Q4,gross_orders,2.0,orders_bn,2022-03-01__tm228005d1_ex99-1.htm.txt,"Gross orders totaled 2.0 billion, an increase of 90.1% year-on-year",
+Shopee,2021Q4,gaap_revenue,1.6,USD_bn,2022-03-01__tm228005d1_ex99-1.htm.txt,"GAAP revenue was US$1.6 billion, up 89.4% year-on-year",
+Shopee,2021Q4,marketplace_revenue,1.3,USD_bn,2022-03-01__tm228005d1_ex99-1.htm.txt,GAAP revenue included US$1.3 billion of GAAP marketplace revenue,
+Shopee,2021Q4,product_revenue,0.3,USD_bn,2022-03-01__tm228005d1_ex99-1.htm.txt,and US$0.3 billion of GAAP product revenue,
+Shopee,2021Q4,adjusted_ebitda,-877.7,USD_m,2022-03-01__tm228005d1_ex99-1.htm.txt,Adjusted EBITDA 1 was US$(877.7) million compared to US$(427.5) million for the fourth quarter,
+Shopee,2022Q1,gmv,17.4,USD_bn,2022-05-17__tm2215818d1_ex99-1.htm.txt,"GMV was US$17.4 billion, an increase of 38.7% year-on-year",
+Shopee,2022Q1,gross_orders,1.9,orders_bn,2022-05-17__tm2215818d1_ex99-1.htm.txt,"Gross orders totaled 1.9 billion, an increase of 71.3% year-on-year",
+Shopee,2022Q1,gaap_revenue,1.5,USD_bn,2022-05-17__tm2215818d1_ex99-1.htm.txt,"GAAP revenue was US$1.5 billion, up 64.4% year-on-year",
+Shopee,2022Q1,marketplace_revenue,1.3,USD_bn,2022-05-17__tm2215818d1_ex99-1.htm.txt,GAAP revenue included US$1.3 billion of GAAP marketplace revenue,
+Shopee,2022Q1,product_revenue,0.3,USD_bn,2022-05-17__tm2215818d1_ex99-1.htm.txt,and US$0.3 billion of GAAP product revenue,
+Shopee,2022Q1,adjusted_ebitda,-742.8,USD_m,2022-05-17__tm2215818d1_ex99-1.htm.txt,Adjusted EBITDA for Shopee overall was US$(742.8) million compared to US$(412.9) million for the first,
+Shopee,2022Q2,gmv,19.0,USD_bn,2022-08-16__tm2223563d1_ex99-1.htm.txt,"GMV was US$19.0 billion, an increase of",
+Shopee,2022Q2,gross_orders,2.0,orders_bn,2022-08-16__tm2223563d1_ex99-1.htm.txt,"Gross orders totaled 2.0 billion, an increase",
+Shopee,2022Q2,gaap_revenue,1.7,USD_bn,2022-08-16__tm2223563d1_ex99-1.htm.txt,"GAAP revenue was US$1.7 billion, up 51.4%",
+Shopee,2022Q2,marketplace_revenue,1.5,USD_bn,2022-08-16__tm2223563d1_ex99-1.htm.txt,GAAP revenue included US$1.5 billion of GAAP marketplace revenue,
+Shopee,2022Q2,product_revenue,0.3,USD_bn,2022-08-16__tm2223563d1_ex99-1.htm.txt,and US$0.3 billion of GAAP product revenue,
+Shopee,2022Q2,adjusted_ebitda,-648.1,USD_m,2022-08-16__tm2223563d1_ex99-1.htm.txt,Adjusted EBITDA 2 for Shopee overall was US$(648.1) million compared to US$(579.8) million for the second quarter of 2021,
+Shopee,2022Q3,gmv,19.1,USD_bn,2022-11-15__tm2230567d1_ex99-1.htm.txt,"GMV was US$19.1 billion for the quarter, increasing by 13.5% year-on-year",
+Shopee,2022Q3,gross_orders,2.0,orders_bn,2022-11-15__tm2230567d1_ex99-1.htm.txt,"Gross orders totaled 2.0 billion for the quarter, increasing by 19.2% year-on-year",
+Shopee,2022Q3,gaap_revenue,1.9,USD_bn,2022-11-15__tm2230567d1_ex99-1.htm.txt,"GAAP revenue was US$1.9 billion, up 32.4% year-on-year",
+Shopee,2022Q3,marketplace_revenue,1.6,USD_bn,2022-11-15__tm2230567d1_ex99-1.htm.txt,GAAP revenue included US$1.6 billion of GAAP marketplace revenue,
+Shopee,2022Q3,product_revenue,286.3,USD_m,2022-11-15__tm2230567d1_ex99-1.htm.txt,Sales of goods: GAAP revenue increased by 2.4% to US$286.3 million in the third quarter of 2022,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2022Q3,adjusted_ebitda,-495.7,USD_m,2022-11-15__tm2230567d1_ex99-1.htm.txt,"Adjusted EBITDA 2 for Shopee overall was US$(495.7) million, improving by 27.5% year-on-year",
+Shopee,2022Q4,gmv,18.0,USD_bn,2023-03-07__tm238717d1_ex99-1.htm.txt,"Gross merchandise value (“GMV”) was US$18.0 billion, as compared to US$18.2 billion for the fourth quarter of 2021",
+Shopee,2022Q4,gross_orders,1.7,orders_bn,2023-03-07__tm238717d1_ex99-1.htm.txt,"Gross orders were 1.7 billion, as compared to 2.0 billion for the fourth quarter of 2021",
+Shopee,2022Q4,gaap_revenue,2.1,USD_bn,2023-03-07__tm238717d1_ex99-1.htm.txt,"GAAP revenue was US$2.1 billion, up 31.8% year-on-year",
+Shopee,2022Q4,marketplace_revenue,1.8,USD_bn,2023-03-07__tm238717d1_ex99-1.htm.txt,GAAP revenue included US$1.8 billion of GAAP marketplace revenue,
+Shopee,2022Q4,product_revenue,271.6,USD_m,2023-03-07__tm238717d1_ex99-1.htm.txt,"Sales of goods : GAAP revenue was US$271.6 million, as compared to US$324.4 million in the fourth",product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2022Q4,adjusted_ebitda,196.1,USD_m,2023-03-07__tm238717d1_ex99-1.htm.txt,"Adjusted EBITDA 1 turned positive to US$196.1 million, as compared to US$(877.7) million for",
+Shopee,2023Q3,gmv,20.1,USD_bn,2023-11-14__tm2330670d1_ex99-1.htm.txt,"GMV was US$20.1 billion for the quarter, increasing by 5.1% year-on-year",
+Shopee,2023Q3,gross_orders,2.2,orders_bn,2023-11-14__tm2330670d1_ex99-1.htm.txt,"Gross orders totaled 2.2 billion for the quarter, increasing by 13.2% year-on-year",
+Shopee,2023Q3,gaap_revenue,2.2,USD_bn,2023-11-14__tm2330670d1_ex99-1.htm.txt,"GAAP revenue was US$2.2 billion, up 16.2% year-on-year",
+Shopee,2023Q3,marketplace_revenue,1.9,USD_bn,2023-11-14__tm2330670d1_ex99-1.htm.txt,GAAP revenue included US$1.9 billion of GAAP marketplace revenue,
+Shopee,2023Q3,product_revenue,301.0,USD_m,2023-11-14__tm2330670d1_ex99-1.htm.txt,Sales of goods: GAAP revenue increased by 5.1% to US$301.0 million in the third quarter of 2023,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2023Q3,adjusted_ebitda,-346.5,USD_m,2023-11-14__tm2330670d1_ex99-1.htm.txt,"Adjusted EBITDA 1 was US$(346.5) million, as compared to US$(495.7) million for the third quarter",
+Shopee,2023Q4,gmv,23.1,USD_bn,2024-03-04__tm247857d1_ex99-1.htm.txt,"GMV was US$23.1 billion for the quarter, increasing by 28.6% year-on-year",
+Shopee,2023Q4,gross_orders,2.5,orders_bn,2024-03-04__tm247857d1_ex99-1.htm.txt,"Gross orders totaled 2.5 billion for the quarter, increasing by 46.0% year-on-year",
+Shopee,2023Q4,gaap_revenue,2.6,USD_bn,2024-03-04__tm247857d1_ex99-1.htm.txt,"GAAP revenue was US$2.6 billion, up 23.2% year-on-year",
+Shopee,2023Q4,marketplace_revenue,2.3,USD_bn,2024-03-04__tm247857d1_ex99-1.htm.txt,GAAP revenue included US$2.3 billion of GAAP marketplace revenue,
+Shopee,2023Q4,product_revenue,334.6,USD_m,2024-03-04__tm247857d1_ex99-1.htm.txt,Sales of goods: GAAP revenue increased by 23.2% to US$334.6 million in the fourth quarter of 2023,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2023Q4,adjusted_ebitda,-225.3,USD_m,2024-03-04__tm247857d1_ex99-1.htm.txt,"Adjusted EBITDA 1 was US$(225.3) million, as compared to US$196.1 million for the fourth quarter",
+Shopee,2024Q1,gmv,23.6,USD_bn,2024-05-14__d838689dex991.htm.txt,"GMV was US$23.6 billion for the quarter, increasing by 36.3% year-on-year",
+Shopee,2024Q1,gross_orders,2.6,orders_bn,2024-05-14__d838689dex991.htm.txt,"Gross orders totaled 2.6 billion for the quarter, increasing by 56.8% year-on-year",
+Shopee,2024Q1,gaap_revenue,2.7,USD_bn,2024-05-14__d838689dex991.htm.txt,"GAAP revenue was US$2.7 billion, up 32.9% year-on-year",
+Shopee,2024Q1,marketplace_revenue,2.4,USD_bn,2024-05-14__d838689dex991.htm.txt,GAAP revenue included US$2.4 billion of GAAP marketplace revenue,
+Shopee,2024Q1,product_revenue,326.2,USD_m,2024-05-14__d838689dex991.htm.txt,Sales of goods : GAAP revenue increased by 34.9% to US$326.2 million in the first quarter of 2024,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2024Q1,adjusted_ebitda,-21.7,USD_m,2024-05-14__d838689dex991.htm.txt,"Adjusted EBITDA 1 was US$(21.7) million, as compared to US$207.7",
+Shopee,2024Q2,gmv,23.3,USD_bn,2024-08-13__tm2421549d1_ex99-1.htm.txt,GMV was US$23.3 billion for the quarter,
+Shopee,2024Q2,gross_orders,2.5,orders_bn,2024-08-13__tm2421549d1_ex99-1.htm.txt,Gross orders totaled 2.5 billion for the,
+Shopee,2024Q2,gaap_revenue,2.8,USD_bn,2024-08-13__tm2421549d1_ex99-1.htm.txt,"GAAP revenue was US$2.8 billion, up 33.7%",
+Shopee,2024Q2,marketplace_revenue,2.5,USD_bn,2024-08-13__tm2421549d1_ex99-1.htm.txt,GAAP revenue included US$2.5 billion of GAAP marketplace revenue,
+Shopee,2024Q2,product_revenue,342.6,USD_m,2024-08-13__tm2421549d1_ex99-1.htm.txt,of goods: GAAP revenue increased by 40.5% to US$342.6 million in the second quarter of,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2024Q2,adjusted_ebitda,-9.2,USD_m,2024-08-13__tm2421549d1_ex99-1.htm.txt,"Adjusted EBITDA 1 was US$(9.2) million, as compared to US$150.3 million for the second quarter of 2023",
+Shopee,2024Q3,gmv,25.1,USD_bn,2024-11-12__tm2428140d1_ex99-1.htm.txt,"GMV was US$25.1 billion for the quarter, increasing by 25.2% year-on-year",
+Shopee,2024Q3,gross_orders,2.8,orders_bn,2024-11-12__tm2428140d1_ex99-1.htm.txt,"Gross orders totaled 2.8 billion for the quarter, increasing by 24.2% year-on-year",
+Shopee,2024Q3,gaap_revenue,3.2,USD_bn,2024-11-12__tm2428140d1_ex99-1.htm.txt,"GAAP revenue was US$3.2 billion, up 42.6% year-on-year",
+Shopee,2024Q3,marketplace_revenue,2.8,USD_bn,2024-11-12__tm2428140d1_ex99-1.htm.txt,GAAP revenue included US$2.8 billion of GAAP marketplace revenue,
+Shopee,2024Q3,product_revenue,418.0,USD_m,2024-11-12__tm2428140d1_ex99-1.htm.txt,Sales of goods: GAAP revenue increased by 38.9% to US$418.0 million in the third quarter of 2024,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2024Q3,adjusted_ebitda,34.4,USD_m,2024-11-12__tm2428140d1_ex99-1.htm.txt,"Adjusted EBITDA 1 was US$34.4 million, as compared to US$(346.5) million for the third quarter",
+Shopee,2024Q4,gmv,28.6,USD_bn,2025-03-04__d930776dex991.htm.txt,"GMV was US$28.6 billion for the quarter, increasing by 23.5% year-on-year",
+Shopee,2024Q4,gross_orders,3.0,orders_bn,2025-03-04__d930776dex991.htm.txt,"Gross orders totaled 3.0 billion for the quarter, increasing by 20.1% year-on-year",
+Shopee,2024Q4,gaap_revenue,3.7,USD_bn,2025-03-04__d930776dex991.htm.txt,"GAAP revenue was US$3.7 billion, up 41.3%",
+Shopee,2024Q4,marketplace_revenue,3.2,USD_bn,2025-03-04__d930776dex991.htm.txt,GAAP revenue included US$3.2 billion of GAAP marketplace revenue,
+Shopee,2024Q4,product_revenue,471.8,USD_m,2025-03-04__d930776dex991.htm.txt,Sales of goods: GAAP revenue increased by 41.0% to US$471.8 million in the fourth quarter of 2024,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2024Q4,adjusted_ebitda,152.2,USD_m,2025-03-04__d930776dex991.htm.txt,"Adjusted EBITDA 1 was US$152.2 million, as compared to US$(225.3)",
+Shopee,2025Q1,gmv,28.6,USD_bn,2025-05-13__d80392dex991.htm.txt,"GMV was US$28.6 billion for the quarter, increasing by 21.5% year-on-year",
+Shopee,2025Q1,gross_orders,3.1,orders_bn,2025-05-13__d80392dex991.htm.txt,"Gross orders totaled 3.1 billion for the quarter, increasing by 20.5% year-on-year",
+Shopee,2025Q1,gaap_revenue,3.5,USD_bn,2025-05-13__d80392dex991.htm.txt,"GAAP revenue was US$3.5 billion, up 28.3%",
+Shopee,2025Q1,marketplace_revenue,3.1,USD_bn,2025-05-13__d80392dex991.htm.txt,GAAP revenue included US$3.1 billion of GAAP marketplace revenue,
+Shopee,2025Q1,product_revenue,406.6,USD_m,2025-05-13__d80392dex991.htm.txt,Sales of goods: GAAP revenue increased by 24.6% to US$406.6 million in the first quarter of 2025,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2025Q1,adjusted_ebitda,264.4,USD_m,2025-05-13__d80392dex991.htm.txt,"Adjusted EBITDA 1 was US$264.4 million, as compared to US$(21.7)",
+Shopee,2025Q2,gmv,29.8,USD_bn,2025-08-12__d411448dex991.htm.txt,"GMV was US$29.8 billion for the quarter, increasing by 28.2% year-on-year",
+Shopee,2025Q2,gross_orders,3.3,orders_bn,2025-08-12__d411448dex991.htm.txt,"Gross orders totaled 3.3 billion for the quarter, increasing by 28.6% year-on-year",
+Shopee,2025Q2,gaap_revenue,3.8,USD_bn,2025-08-12__d411448dex991.htm.txt,"GAAP revenue was US$3.8 billion, up 33.7%",
+Shopee,2025Q2,marketplace_revenue,3.3,USD_bn,2025-08-12__d411448dex991.htm.txt,GAAP revenue included US$3.3 billion of GAAP marketplace revenue,
+Shopee,2025Q2,product_revenue,460.6,USD_m,2025-08-12__d411448dex991.htm.txt,Sales of goods: GAAP revenue increased by 34.4% to US$460.6 million in the second quarter of 2025,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2025Q2,adjusted_ebitda,227.7,USD_m,2025-08-12__d411448dex991.htm.txt,"Adjusted EBITDA 1 was US$227.7 million, as compared to US$(9.2)",
+Shopee,2025Q3,gmv,32.2,USD_bn,2025-11-12__d75589dex991.htm.txt,"GMV was US$32.2 billion for the quarter, increasing by 28.4% year-on-year",
+Shopee,2025Q3,gross_orders,3.6,orders_bn,2025-11-12__d75589dex991.htm.txt,"Gross orders totaled 3.6 billion for the quarter, increasing by 28.4% year-on-year",
+Shopee,2025Q3,gaap_revenue,4.3,USD_bn,2025-11-12__d75589dex991.htm.txt,"GAAP revenue was US$4.3 billion, up 34.9%",
+Shopee,2025Q3,marketplace_revenue,3.8,USD_bn,2025-11-12__d75589dex991.htm.txt,GAAP revenue included US$3.8 billion of GAAP marketplace revenue,
+Shopee,2025Q3,product_revenue,517.7,USD_m,2025-11-12__d75589dex991.htm.txt,Sales of goods: GAAP revenue increased by 23.8% to US$517.7 million in the third quarter of 2025,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2025Q3,adjusted_ebitda,186.1,USD_m,2025-11-12__d75589dex991.htm.txt,"Adjusted EBITDA 1 was US$186.1 million, as compared to adjusted",
+Shopee,2025Q4,gmv,36.7,USD_bn,2026-03-03__d106475dex991.htm.txt,"GMV was US$36.7 billion for the quarter, increasing by 28.6% year-on-year",
+Shopee,2025Q4,gross_orders,4.0,orders_bn,2026-03-03__d106475dex991.htm.txt,"Gross orders totaled 4.0 billion for the quarter, increasing by 30.5% year-on-year",
+Shopee,2025Q4,gaap_revenue,5.0,USD_bn,2026-03-03__d106475dex991.htm.txt,"GAAP revenue was US$5.0 billion, up 35.8%",
+Shopee,2025Q4,marketplace_revenue,4.3,USD_bn,2026-03-03__d106475dex991.htm.txt,GAAP revenue included US$4.3 billion of GAAP marketplace revenue,
+Shopee,2025Q4,product_revenue,640.6,USD_m,2026-03-03__d106475dex991.htm.txt,Sales of goods: GAAP revenue increased by 35.8% to US$640.6 million in the fourth quarter of 2025,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2025Q4,adjusted_ebitda,202.5,USD_m,2026-03-03__d106475dex991.htm.txt,"Adjusted EBITDA 1 was US$202.5 million, up 33.0% year-on-year",
+Shopee,2026Q1,gmv,37.3,USD_bn,2026-05-12__d78490dex991.htm.txt,"GMV was US$37.3 billion for the quarter, increasing by 30.2% year-on-year",
+Shopee,2026Q1,gross_orders,4.0,orders_bn,2026-05-12__d78490dex991.htm.txt,"Gross orders totaled 4.0 billion for the quarter, increasing by 29.3% year-on-year",
+Shopee,2026Q1,gaap_revenue,5.1,USD_bn,2026-05-12__d78490dex991.htm.txt,"GAAP revenue was US$5.1 billion, up 45.1%",
+Shopee,2026Q1,marketplace_revenue,4.5,USD_bn,2026-05-12__d78490dex991.htm.txt,GAAP revenue included US$4.5 billion of GAAP marketplace revenue,
+Shopee,2026Q1,product_revenue,612.4,USD_m,2026-05-12__d78490dex991.htm.txt,Sales of goods: GAAP revenue increased by 50.6% to US$612.4 million in the first quarter of 2026,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2026Q1,adjusted_ebitda,223.2,USD_m,2026-05-12__d78490dex991.htm.txt,"Adjusted EBITDA 1 was US$223.2 million, as compared to",
+Shopee,2026Q2,gmv,38.3,USD_bn,2026-08-11__d120948dex991.htm.txt,"GMV was US$38.3 billion for the quarter, increasing by 28.4% year-on-year",
+Shopee,2026Q2,gross_orders,4.2,orders_bn,2026-08-11__d120948dex991.htm.txt,"Gross orders totaled 4.2 billion for the quarter, increasing by 27.5% year-on-year",
+Shopee,2026Q2,gaap_revenue,5.6,USD_bn,2026-08-11__d120948dex991.htm.txt,"GAAP revenue was US$5.6 billion, up 48.2%",
+Shopee,2026Q2,marketplace_revenue,4.9,USD_bn,2026-08-11__d120948dex991.htm.txt,GAAP revenue included US$4.9 billion of GAAP marketplace revenue,
+Shopee,2026Q2,product_revenue,657.7,USD_m,2026-08-11__d120948dex991.htm.txt,Sales of goods: GAAP revenue increased by 42.8% to US$657.7 million in the second quarter of 2026,product revenue not printed in e-commerce highlights; GAAP sales of goods used
+Shopee,2026Q2,adjusted_ebitda,255.4,USD_m,2026-08-11__d120948dex991.htm.txt,"Adjusted EBITDA 1 was US$255.4 million, up 12.2% year-on-year",
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,"Shipping subsidies declined in absolute dollar terms in the fourth quarter compared to the third quarter, even as order numbers grew by 30.5% during the same period","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,"Moreover, shipping subsidies fell in absolute dollar terms in the fourth quarter compared to the third quarter, even as GMV and order numbers continued to grow sharply","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,Ramping up monetization in tandem with promoting the efficient growth of the Shopee ecosystem will continue to be our key focus for 2019,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,primarily attributable to the ramping up of offline and online digital marketing and other promotions on our platform that were designed to increase,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,enables our investors to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2018Q4,note_text,,,2019-02-27__tv514856_ex99-1.htm.txt,"revenue of $121,660 included marketplace revenue of $82,483 and product revenue of $39,177 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q1,note_text,,,2019-05-22__tv522220_ex99-1.htm.txt,to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q1,note_text,,,2019-05-22__tv522220_ex99-1.htm.txt,"revenue of $142,694 included marketplace revenue of $95,566 and product revenue of $47,128 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q2,note_text,,,2019-08-20__tv528007_ex99-1.htm.txt,to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q2,note_text,,,2019-08-20__tv528007_ex99-1.htm.txt,Adjusted marketplace revenue as a percentage of total GMV was 3.6% in the second quarter,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q2,note_text,,,2019-08-20__tv528007_ex99-1.htm.txt,"revenue of $162,615 included marketplace revenue of $122,955 and product revenue of $39,660 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q3,note_text,,,2019-11-12__tm1922572d1_ex99-1.htm.txt,Adjusted marketplace revenue as a percentage of total GMV was 4.5% in the third quarter,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q3,note_text,,,2019-11-12__tm1922572d1_ex99-1.htm.txt,to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q3,note_text,,,2019-11-12__tm1922572d1_ex99-1.htm.txt,"revenue of $226,396 included marketplace revenue of $177,235 and product revenue of $49,161 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q4,note_text,,,2020-03-03__tm2011562d1_ex99-1.htm.txt,Adjusted marketplace revenue as a percentage of total GMV was 5.0% in the fourth quarter,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q4,note_text,,,2020-03-03__tm2011562d1_ex99-1.htm.txt,to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2019Q4,note_text,,,2020-03-03__tm2011562d1_ex99-1.htm.txt,"For the fourth quarter of 2019, revenue of $302,590 included marketplace revenue of $227,856 and product revenue of $74,734","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q1,note_text,,,2020-05-18__nt10012039x3_ex99-1.htm.txt,Adjusted marketplace revenue as a percentage of total GMV was 3.8 % in the first quarter of 2020,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q1,note_text,,,2020-05-18__nt10012039x3_ex99-1.htm.txt,This financial measure enables our investors to follow trends in our e-commerce monetization capability over time and is a useful performance measure,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q1,note_text,,,2020-05-18__nt10012039x3_ex99-1.htm.txt,"For the first quarter of 2020, revenue of $263,195 included marketplace revenue of $185,930 and product revenue of $77,265 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q2,note_text,,,2020-08-18__tm2028889d1_ex99-1.htm.txt,This financial measure provides supplemental information on our e-commerce monetization,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q2,note_text,,,2020-08-18__tm2028889d1_ex99-1.htm.txt,Adjusted marketplace revenue as a percentage of total GMV increased to 4.7%,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q2,note_text,,,2020-08-18__tm2028889d1_ex99-1.htm.txt,"revenue of $443,035 included marketplace revenue of $311,146 and product revenue of $131,889 net of sales incentives","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q3,note_text,,,2020-11-17__tm2036227d1_ex99-1.htm.txt,We also expect GAAP revenue plus sales incentives net-off for e-commerce,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q4,note_text,,,2021-03-02__tm218417d1_ex99-1.htm.txt,"GAAP revenue plus sales incentives net-off was US$2.5 billion, exceeding our recently raised full-year","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2020Q4,note_text,,,2021-03-02__tm218417d1_ex99-1.htm.txt,"For the full year of 2020, intersegment sales incentives are not included in the adjusted EBITDA calculation for e-commerce","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2021Q1,note_text,,,2021-05-18__tm2116820d1_ex99-1.htm.txt,Intersegment sales incentives are not included in the adjusted EBITDA calculation for e-commerce,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2021Q2,note_text,,,2021-08-17__tm2125304d1_ex99-1.htm.txt,Intersegment sales incentives are not included in the adjusted EBITDA calculation for e-commerce,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2021Q3,note_text,,,2021-11-16__tm2133106d1_ex99-1.htm.txt,Intersegment sales incentives are not included in the adjusted EBITDA calculation for e-commerce,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2022Q2,note_text,,,2022-08-16__tm2223563d1_ex99-1.htm.txt,Shopee’s unit economics improved significantly driven by gains in both monetization and efficiency,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2022Q3,note_text,,,2022-11-15__tm2230567d1_ex99-1.htm.txt,improving by 16.0% quarter-on-quarter as a result of increased monetization and cost savings,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2022Q3,note_text,,,2022-11-15__tm2230567d1_ex99-1.htm.txt,primarily driven by the increased monetization in our e-commerce business and,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2022Q4,note_text,,,2023-03-07__tm238717d1_ex99-1.htm.txt,primarily driven by the improved monetization in our e-commerce business,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2023Q3,note_text,,,2023-11-14__tm2330670d1_ex99-1.htm.txt,primarily driven by the improved monetization in our e-commerce business and,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2023Q3,note_text,,,2023-11-14__tm2330670d1_ex99-1.htm.txt,Improvement in gross profit margins was driven by increased monetization and greater cost efficiencies in our e-commerce and digital financial services business,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2023Q4,note_text,,,2024-03-04__tm247857d1_ex99-1.htm.txt,was up 40.6% year-on-year to US$1.6 billion as a result of platform growth and improved monetization,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2023Q4,note_text,,,2024-03-04__tm247857d1_ex99-1.htm.txt,was down 5.3% year-on-year to US$657.9 million as a result of higher revenue net-off against shipping subsidies,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2023Q4,note_text,,,2024-03-04__tm247857d1_ex99-1.htm.txt,primarily driven by the improved monetization in,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2025Q3,note_text,,,2025-11-12__d75589dex991.htm.txt,"Our monetization gains, strong growth momentum","sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2025Q3,note_text,,,2025-11-12__d75589dex991.htm.txt,was down 5.7% year-on-year to US$723.6 million as a result of higher revenue net-off against shipping subsidies,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2025Q4,note_text,,,2026-03-03__d106475dex991.htm.txt,was down 7.5% year-on-year to US$735.0 million as a result of higher revenue net-off against shipping subsidies,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2026Q1,note_text,,,2026-05-12__d78490dex991.htm.txt,was down 8.1% year-on-year to US$691.6 million as a result of higher revenue net-off against shipping subsidies,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2026Q2,note_text,,,2026-08-11__d120948dex991.htm.txt,was down 9.0% year-on-year to US$676.4 million as a result of higher revenue net-off against shipping subsidies,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"
+Shopee,2026Q2,note_text,,,2026-08-11__d120948dex991.htm.txt,primarily driven by the growth of GMV and improved monetization,"sentence mentioning sales incentives, subsidies, promotions, monetization, or take-rate proxy for Shopee/e-commerce"

@@ -1,0 +1,31 @@
+{
+  "tokopedia": {
+    "gross22": 8.14,
+    "gross23": 8.99,
+    "incent22": 4.11,
+    "incent23": 2.81,
+    "net22": 4.03,
+    "net23": 6.18,
+    "incentive_share_of_gross_22": 0.504914004914005,
+    "incentive_share_of_gross_23": 0.3125695216907675,
+    "leverage_G_over_R_22": 2.0198511166253104,
+    "leverage_G_over_R_23": 1.4546925566343043,
+    "net_growth_pct": 53.34987593052107,
+    "gross_growth_pct": 10.442260442260443,
+    "incentive_change_pct": -31.630170316301708
+  },
+  "grab_q2_2026_unverified": {
+    "mobility_gmv": 2214,
+    "mobility_rev": 331,
+    "deliveries_gmv": 4249,
+    "deliveries_rev": 531,
+    "group_rev": 997,
+    "incentives_total": 706,
+    "incentives_pct_ondemand_gmv": 10.9,
+    "mobility_take_pct": 14.950316169828366,
+    "deliveries_take_pct": 12.497058131325018,
+    "ondemand_take_pct": 13.33745938418691,
+    "gross_take_before_incentives_pct": 24.237459384186913,
+    "incentive_share_of_gross_take": 0.4497171022434561
+  }
+}

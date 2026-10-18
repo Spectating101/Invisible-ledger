@@ -1,0 +1,10 @@
+id,claim,stated,recomputed,status
+C11-01,Province rows sum to the published 2024 total (businesses),4400972.0,4400973.0,PASS
+C11-02,Implied national RSE of the business count (%),1.37,1.368574,PASS
+C11-03,"2023 surplus of pre-2023 sellers, in standard errors",4.6,4.603378,PASS
+C11-04,"Same, with twice the RSE",2.3,2.301689,PASS
+C11-05,"Revenue as a share of transaction value, 2023, three platforms (%)",7.3,7.313857,PASS
+C11-06,"Marketplace channel share of online value, 2022, low scenario (%)",22.6,22.649551,PASS
+C11-07,"Marketplace channel share of online value, 2022, mid scenario (%)",25.6,25.571411,PASS
+C11-08,"Marketplace channel share of online value, 2023, published (%)",18.2,18.229219,PASS
+C11-09,"Marketplace channel share of online value, 2024, published (%)",15.8,15.794496,PASS

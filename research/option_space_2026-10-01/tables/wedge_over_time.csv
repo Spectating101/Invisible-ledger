@@ -1,0 +1,18 @@
+firm,tier,year,transaction_value,revenue_value,W,wedge_share_of_tv_pct,g_tv_pct,g_wedge_pct,g_revenue_pct
+Blibli 3P Retail,issuer-reported,2021,15746.0,122.0,15624.0,99.225,,,
+Blibli 3P Retail,issuer-reported,2022,37050.0,199.0,36851.0,99.463,135.298,135.861,63.115
+Blibli 3P Retail,issuer-reported,2023,49912.0,1125.0,48787.0,97.746,34.715,32.39,465.327
+Blibli 3P Retail,issuer-reported,2024,54210.0,1384.0,52826.0,97.447,8.611,8.279,23.022
+Blibli 3P Retail,issuer-reported,2025,53187.0,1551.0,51636.0,97.084,-1.887,-2.253,12.066
+Bukalapak Group,issuer-reported,2020,85081843.0,1351664.0,83730179.0,98.411,,,
+Bukalapak Group,issuer-reported,2021,122618794.0,1869122.0,120749672.0,98.476,44.119,44.213,38.283
+Bukalapak Group,issuer-reported,2022,153738958.0,3618366.0,150120592.0,97.646,25.38,24.324,93.586
+Bukalapak Group,issuer-reported,2023,164380065.0,4438269.0,159941796.0,97.3,6.922,6.542,22.659
+Grab,constructed (group ratio),2021,1.88,0.079,1.801,95.797,,,
+Grab,constructed (group ratio),2022,3.826,0.275,3.551,92.812,103.543,97.201,248.101
+Grab,constructed (group ratio),2023,5.381,0.605,4.776,88.758,40.653,34.509,120.0
+Shopee,"estimated (third party, assumed take rate)",2022,18.684,1.57,17.114,91.6,,,
+Shopee,"estimated (third party, assumed take rate)",2023,21.52,2.152,19.368,90.0,15.179,13.167,37.114
+Shopee,"estimated (third party, assumed take rate)",2024,25.99,2.807,23.183,89.2,20.771,19.698,30.432
+Tokopedia e-commerce segment,issuer-reported,2022,273146166.0,4030919.0,269115247.0,98.524,,,
+Tokopedia e-commerce segment,issuer-reported,2023,248836156.0,6175190.0,242660966.0,97.518,-8.9,-9.83,53.196

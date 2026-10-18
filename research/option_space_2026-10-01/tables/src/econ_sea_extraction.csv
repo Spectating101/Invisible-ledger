@@ -1,0 +1,279 @@
+entity,period,field,value,unit,source_file,quote,note
+SEA-6,2024,digital_economy_gmv,263,US$ bn,economy_sea_2024.txt,"year-on-year growth across GMV ($263B, +15%), revenue",printed as $263B
+SEA-6,2024,ecommerce_gmv_growth,15,pct,economy_sea_2024.txt,"year-on-year growth across GMV ($263B, +15%), revenue",printed +15% on SEA digital-economy GMV; e-commerce sector chart also prints +15%
+SEA-6,2022,digital_economy_gmv,195,US$ bn,economy_sea_2024.txt,          195                                                                                          converges with,"stacked GMV ($B) chart, 2022 total"
+SEA-6,2023,digital_economy_gmv,228,US$ bn,economy_sea_2024.txt,                             228                                                   78,"stacked GMV ($B) chart, 2023 total"
+SEA-6,2024,digital_economy_gmv,263,US$ bn,economy_sea_2024.txt,                                             263                                                 89,"stacked GMV ($B) chart, 2024 total"
+SEA-6,2022,ecommerce_gmv,130,US$ bn,economy_sea_2024.txt,          130                138                                                                       progress towards convergence,"stacked chart E-commerce series, 2022"
+SEA-6,2023,ecommerce_gmv,138,US$ bn,economy_sea_2024.txt,          130                138                                                                       progress towards convergence,"stacked chart E-commerce series, 2023"
+SEA-6,2024,ecommerce_gmv,159,US$ bn,economy_sea_2024.txt,                                             159                     9                                 GMV growth as rates steadily,"stacked chart E-commerce series, 2024"
+SEA-6,2022,transport_food_gmv,23,US$ bn,economy_sea_2024.txt,"          23                  38                                                   2                   Monetisation growth,","stacked chart Food & transport series, 2022"
+SEA-6,2023,transport_food_gmv,25,US$ bn,economy_sea_2024.txt,                              25                                                   27,"stacked chart Food & transport series, 2023"
+SEA-6,2024,transport_food_gmv,28,US$ bn,economy_sea_2024.txt,                                             28                                                 30     Revenue growth,"stacked chart Food & transport series, 2024"
+SEA-6,2022,online_travel_gmv,18,US$ bn,economy_sea_2024.txt,          18                                                         24                         20     particularly in the travel and,"stacked chart Travel series, 2022"
+SEA-6,2023,online_travel_gmv,38,US$ bn,economy_sea_2024.txt,"          23                  38                                                   2                   Monetisation growth,","stacked chart Travel series, 2023"
+SEA-6,2024,online_travel_gmv,46,US$ bn,economy_sea_2024.txt,          24                                 46                      57                          3     GMV growth,"stacked chart Travel series, 2024"
+SEA-6,2022,online_media_gmv,24,US$ bn,economy_sea_2024.txt,          24                                 46                      57                          3     GMV growth,"stacked chart Online media series, 2022"
+SEA-6,2023,online_media_gmv,27,US$ bn,economy_sea_2024.txt,                              27,"stacked chart Online media series, 2023"
+SEA-6,2024,online_media_gmv,30,US$ bn,economy_sea_2024.txt,                                             30,"stacked chart Online media series, 2024"
+SEA-6,2022,ecommerce_gmv,130,US$ bn,economy_sea_2024.txt,   130         138      20,e-commerce sector GMV ($B) chart
+SEA-6,2023,ecommerce_gmv,138,US$ bn,economy_sea_2024.txt,   130         138      20,e-commerce sector GMV ($B) chart
+SEA-6,2024,ecommerce_gmv,159,US$ bn,economy_sea_2024.txt,                        159                                                          35,e-commerce sector GMV ($B) chart; 2024 estimates based on H1’24 annualised results
+SEA-6,2030,ecommerce_gmv,370,US$ bn,economy_sea_2024.txt,                                         370                      +39%,e-commerce sector GMV ($B) 2030 bar
+SEA-6,2023,ecommerce_gmv_growth,6,pct,economy_sea_2024.txt,"         +6%
+                                                                                                                             while on the 3P front, take rates have started to plateau.","e-commerce sector chart, 2022 to 2023"
+SEA-6,2024,ecommerce_gmv_growth,15,pct,economy_sea_2024.txt,"                     +15%
+                                                                                                               -15%          competition is challenging monetisation of direct sales,","e-commerce sector chart, 2023 to 2024"
+SEA-6,2030,online_travel_gmv,79,US$ bn,economy_sea_2024.txt,"                                            79
+                                                                        +93%",online travel sector GMV ($B) 2030 bar
+SEA-6,2030,online_media_gmv,56,US$ bn,economy_sea_2024.txt,                                                              56                                                         incorporating language options and cultural,Online media GMV1 ($B) 2030 bar
+SEA-6,,ecommerce_gmv,,,economy_sea_2024.txt,"Notes: E-commerce does not include informal commerce due to the lack of reliable data. Financial services are excluded
+from market sizing estimates due to differences in units of measurement compared to other leading sectors.",definition: e-commerce excludes informal commerce; financial services excluded from market sizing; shipping/returns/cross-border/B2B not specified
+SEA-6,,digital_economy_gmv,,,economy_sea_2024.txt,Note: GMV = gross merchandise value,definition: GMV = gross merchandise value as printed
+Indonesia,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+Vietnam,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+Thailand,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+Malaysia,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+Philippines,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+Singapore,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+SEA-6,2019,ecommerce_gmv,,,economy_sea_2024.txt,,not found: no 2019 country or SEA-6 e-commerce GMV printed in tables/charts
+SEA-6,2030,digital_economy_gmv,,,economy_sea_2024.txt,,not found: no single SEA-6 2030 digital-economy GMV printed (country pages show ranges only)
+SEA-6,2030,transport_food_gmv,,,economy_sea_2024.txt,,not found: 2030 food delivery (34) and transport (21.0) printed separately; no combined transport-and-food total
+Indonesia,2024,digital_economy_gmv,90,US$ bn,economy_sea_2024.txt,"Growth doubles, bringing GMV to $90B in 2024",
+Indonesia,2022,ecommerce_gmv,58,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2023,ecommerce_gmv,59,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2024,ecommerce_gmv,65,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2022,transport_food_gmv,8,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia Transport and food series
+Indonesia,2023,transport_food_gmv,7,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia Transport and food series
+Indonesia,2024,transport_food_gmv,9,US$ bn,economy_sea_2024.txt,                                                         58           59            65               8           7           9,Indonesia Transport and food series
+Indonesia,2030,ecommerce_gmv,150,US$ bn,economy_sea_2024.txt,                                                                                           ~150                                    ~20,printed as ~150
+Indonesia,2030,transport_food_gmv,20,US$ bn,economy_sea_2024.txt,                                                                                           ~150                                    ~20,printed as ~20
+Indonesia,2023,ecommerce_gmv_growth,1,pct,economy_sea_2024.txt,                                                                +1%,printed as +1%
+Indonesia,2024,ecommerce_gmv_growth,11,pct,economy_sea_2024.txt,                                                                             +11%                         -4%,printed as +11%
+Indonesia,2022,digital_economy_gmv,76,US$ bn,economy_sea_2024.txt,    76          80,Indonesia overall digital economy
+Indonesia,2023,digital_economy_gmv,80,US$ bn,economy_sea_2024.txt,    76          80,Indonesia overall digital economy
+Indonesia,2024,digital_economy_gmv,90,US$ bn,economy_sea_2024.txt,                            90                                                             ~17                                     ~15,Indonesia overall digital economy
+Indonesia,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~200-360   Online travel                              Online media,not found as a single number: printed as range ~200-360
+Indonesia,2022,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                          3,"Indonesia Online travel series, 2022"
+Indonesia,2023,online_travel_gmv,7,US$ bn,economy_sea_2024.txt,                                                                       7             9               6           7           8,"Indonesia Online travel series, 2023"
+Indonesia,2024,online_travel_gmv,9,US$ bn,economy_sea_2024.txt,                                                                       7             9               6           7           8,"Indonesia Online travel series, 2024"
+Indonesia,2030,online_travel_gmv,17,US$ bn,economy_sea_2024.txt,                            90                                                             ~17                                     ~15,printed as ~17
+Indonesia,2022,online_media_gmv,6,US$ bn,economy_sea_2024.txt,                                                                       7             9               6           7           8,"Indonesia Online media series, 2022"
+Indonesia,2023,online_media_gmv,7,US$ bn,economy_sea_2024.txt,                                                                       7             9               6           7           8,"Indonesia Online media series, 2023"
+Indonesia,2024,online_media_gmv,8,US$ bn,economy_sea_2024.txt,                                                                       7             9               6           7           8,"Indonesia Online media series, 2024"
+Indonesia,2030,online_media_gmv,15,US$ bn,economy_sea_2024.txt,                            90                                                             ~17                                     ~15,printed as ~15
+Malaysia,2022,ecommerce_gmv,13,US$ bn,economy_sea_2024.txt,13           13                           3,Malaysia E-commerce series
+Malaysia,2023,ecommerce_gmv,13,US$ bn,economy_sea_2024.txt,13           13                           3,Malaysia E-commerce series
+Malaysia,2024,ecommerce_gmv,16,US$ bn,economy_sea_2024.txt,                                                                                16                           3            4,Malaysia E-commerce series
+Malaysia,2030,ecommerce_gmv,25,US$ bn,economy_sea_2024.txt,                                                                                       ~25                                    ~6,printed as ~25
+Malaysia,2023,ecommerce_gmv_growth,0,pct,economy_sea_2024.txt,   GMV ($B)                                                 +0%,printed as +0%
+Malaysia,2024,ecommerce_gmv_growth,17,pct,economy_sea_2024.txt,                                                                         +17%                        +22%          +10%,printed as +17% on E-commerce
+Malaysia,2022,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,13           13                           3,"Malaysia Transport and food series, 2022"
+Malaysia,2023,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                16                           3            4,"Malaysia Transport and food series, 2023"
+Malaysia,2024,transport_food_gmv,4,US$ bn,economy_sea_2024.txt,                                                                                16                           3            4,"Malaysia Transport and food series, 2024"
+Malaysia,2030,transport_food_gmv,6,US$ bn,economy_sea_2024.txt,                                                                                       ~25                                    ~6,printed as ~6
+Malaysia,2022,digital_economy_gmv,22,US$ bn,economy_sea_2024.txt,    22                                                                                 ~13                                    ~6,"Malaysia overall digital economy, 2022"
+Malaysia,2023,digital_economy_gmv,26,US$ bn,economy_sea_2024.txt,"                26
+    22                                                                                 ~13                                    ~6","Malaysia overall digital economy, 2023"
+Malaysia,2024,digital_economy_gmv,31,US$ bn,economy_sea_2024.txt,"                             31
+                26
+    22                                                                                 ~13                                    ~6","Malaysia overall digital economy, 2024"
+Malaysia,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~45-70   Online travel                            Online media,not found as a single number: printed as range ~45-70
+Malaysia,2022,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                        3,"Malaysia Online travel, 2022"
+Malaysia,2023,online_travel_gmv,6,US$ bn,economy_sea_2024.txt,                                                                    6                            3,"Malaysia Online travel, 2023"
+Malaysia,2024,online_travel_gmv,8,US$ bn,economy_sea_2024.txt,                                                                                 8                           3            4,"Malaysia Online travel, 2024"
+Malaysia,2030,online_travel_gmv,13,US$ bn,economy_sea_2024.txt,    22                                                                                 ~13                                    ~6,printed as ~13
+Malaysia,2022,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                                    6                            3,"Malaysia Online media, 2022"
+Malaysia,2023,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                 8                           3            4,"Malaysia Online media, 2023"
+Malaysia,2024,online_media_gmv,4,US$ bn,economy_sea_2024.txt,                                                                                 8                           3            4,"Malaysia Online media, 2024"
+Malaysia,2030,online_media_gmv,6,US$ bn,economy_sea_2024.txt,    22                                                                                 ~13                                    ~6,printed as ~6
+Philippines,2022,ecommerce_gmv,15,US$ bn,economy_sea_2024.txt,                                                        15,"Philippines E-commerce, 2022"
+Philippines,2023,ecommerce_gmv,17,US$ bn,economy_sea_2024.txt,                                                                    17          21             2,"Philippines E-commerce, 2023"
+Philippines,2024,ecommerce_gmv,21,US$ bn,economy_sea_2024.txt,                                                                    17          21             2,"Philippines E-commerce, 2024"
+Philippines,2030,ecommerce_gmv,60,US$ bn,economy_sea_2024.txt,                                                                                     ~60                                     ~6,printed as ~60
+Philippines,2023,ecommerce_gmv_growth,14,pct,economy_sea_2024.txt,                                                             +14%,printed as +14%
+Philippines,2024,ecommerce_gmv_growth,23,pct,economy_sea_2024.txt,                                                                         +23%,printed as +23%
+Philippines,2022,transport_food_gmv,2,US$ bn,economy_sea_2024.txt,                                                                    17          21             2,"Philippines Transport and food, 2022"
+Philippines,2023,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                                           3           3,"Philippines Transport and food, 2023"
+Philippines,2024,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                                           3           3,"Philippines Transport and food, 2024"
+Philippines,2030,transport_food_gmv,6,US$ bn,economy_sea_2024.txt,                                                                                     ~60                                     ~6,printed as ~6
+Philippines,2022,digital_economy_gmv,22,US$ bn,economy_sea_2024.txt,    22          26                                                              3,"Philippines overall, 2022"
+Philippines,2023,digital_economy_gmv,26,US$ bn,economy_sea_2024.txt,    22          26                                                              3,"Philippines overall, 2023"
+Philippines,2024,digital_economy_gmv,31,US$ bn,economy_sea_2024.txt,"                             31
+    22          26                                                              3","Philippines overall, 2024"
+Philippines,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~80-150                      +13%,not found as a single number: printed as range ~80-150
+Philippines,2022,online_travel_gmv,1,US$ bn,economy_sea_2024.txt,                                                         1                                     3           4,"Philippines Online travel, 2022"
+Philippines,2023,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                                     3                                                 4,"Philippines Online travel, 2023"
+Philippines,2024,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                    3,"Philippines Online travel, 2024"
+Philippines,2030,online_travel_gmv,5,US$ bn,economy_sea_2024.txt,                                                                                     ~5                                      ~10,printed as ~5
+Philippines,2022,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                         1                                     3           4,"Philippines Online media, 2022"
+Philippines,2023,online_media_gmv,4,US$ bn,economy_sea_2024.txt,                                                         1                                     3           4,"Philippines Online media, 2023"
+Philippines,2024,online_media_gmv,4,US$ bn,economy_sea_2024.txt,                                                                     3                                                 4,"Philippines Online media, 2024"
+Philippines,2030,online_media_gmv,10,US$ bn,economy_sea_2024.txt,                                                                                     ~5                                      ~10,printed as ~10
+Singapore,2022,ecommerce_gmv,8,US$ bn,economy_sea_2024.txt,                      +13%                              8            8            9                          5            5,Singapore E-commerce series
+Singapore,2023,ecommerce_gmv,8,US$ bn,economy_sea_2024.txt,                      +13%                              8            8            9                          5            5,Singapore E-commerce series
+Singapore,2024,ecommerce_gmv,9,US$ bn,economy_sea_2024.txt,                      +13%                              8            8            9                          5            5,Singapore E-commerce series
+Singapore,2030,ecommerce_gmv,17,US$ bn,economy_sea_2024.txt,                                                                                       ~17                                      ~10,printed as ~17
+Singapore,2023,ecommerce_gmv_growth,-6,pct,economy_sea_2024.txt,                                                              -6%                                                  +6%,printed as -6%
+Singapore,2024,ecommerce_gmv_growth,12,pct,economy_sea_2024.txt,   GMV ($B)                                                                +12%,printed as +12%
+Singapore,2022,transport_food_gmv,4,US$ bn,economy_sea_2024.txt,        +29%                                                                                     4,"Singapore Transport and food, 2022"
+Singapore,2023,transport_food_gmv,5,US$ bn,economy_sea_2024.txt,                      +13%                              8            8            9                          5            5,"Singapore Transport and food, 2023"
+Singapore,2024,transport_food_gmv,5,US$ bn,economy_sea_2024.txt,                      +13%                              8            8            9                          5            5,"Singapore Transport and food, 2024"
+Singapore,2030,transport_food_gmv,10,US$ bn,economy_sea_2024.txt,                                                                                       ~17                                      ~10,printed as ~10
+Singapore,2022,digital_economy_gmv,20,US$ bn,economy_sea_2024.txt,    20                                                                                 ~18                                      ~5,"Singapore overall, 2022"
+Singapore,2023,digital_economy_gmv,26,US$ bn,economy_sea_2024.txt,"                26
+    20                                                                                 ~18                                      ~5","Singapore overall, 2023"
+Singapore,2024,digital_economy_gmv,29,US$ bn,economy_sea_2024.txt,"                             29
+                26
+    20                                                                                 ~18                                      ~5","Singapore overall, 2024"
+Singapore,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~40-65                         +17%,not found as a single number: printed as range ~40-65
+Singapore,2022,online_travel_gmv,5,US$ bn,economy_sea_2024.txt,                                                        5,"Singapore Online travel, 2022"
+Singapore,2023,online_travel_gmv,10,US$ bn,economy_sea_2024.txt,                                                                    10            12                         3            3,"Singapore Online travel, 2023"
+Singapore,2024,online_travel_gmv,12,US$ bn,economy_sea_2024.txt,                                                                    10            12                         3            3,"Singapore Online travel, 2024"
+Singapore,2030,online_travel_gmv,18,US$ bn,economy_sea_2024.txt,    20                                                                                 ~18                                      ~5,printed as ~18
+Singapore,2022,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                                 3,"Singapore Online media, 2022"
+Singapore,2023,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                                    10            12                         3            3,"Singapore Online media, 2023"
+Singapore,2024,online_media_gmv,3,US$ bn,economy_sea_2024.txt,                                                                    10            12                         3            3,"Singapore Online media, 2024"
+Singapore,2030,online_media_gmv,5,US$ bn,economy_sea_2024.txt,    20                                                                                 ~18                                      ~5,printed as ~5
+Thailand,2022,ecommerce_gmv,20,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,Thailand E-commerce series
+Thailand,2023,ecommerce_gmv,22,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,Thailand E-commerce series
+Thailand,2024,ecommerce_gmv,26,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,Thailand E-commerce series
+Thailand,2030,ecommerce_gmv,60,US$ bn,economy_sea_2024.txt,                                                                                         ~60                                      ~10,printed as ~60
+Thailand,2023,ecommerce_gmv_growth,9,pct,economy_sea_2024.txt,                                                                +9%          +19%                                    +6%,printed as +9%
+Thailand,2024,ecommerce_gmv_growth,19,pct,economy_sea_2024.txt,                                                                +9%          +19%                                    +6%,printed as +19%
+Thailand,2022,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,"Thailand Transport and food, 2022"
+Thailand,2023,transport_food_gmv,4,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,"Thailand Transport and food, 2023"
+Thailand,2024,transport_food_gmv,4,US$ bn,economy_sea_2024.txt,                                                         20           22            26             3           4            4,"Thailand Transport and food, 2024"
+Thailand,2030,transport_food_gmv,10,US$ bn,economy_sea_2024.txt,                                                                                         ~60                                      ~10,printed as ~10
+Thailand,2022,digital_economy_gmv,31,US$ bn,economy_sea_2024.txt,    31                                                                                                         6            6,"Thailand overall, 2022"
+Thailand,2023,digital_economy_gmv,39,US$ bn,economy_sea_2024.txt,"                39
+    31                                                                                                         6            6","Thailand overall, 2023"
+Thailand,2024,digital_economy_gmv,46,US$ bn,economy_sea_2024.txt,                            46                                                           ~20                                      ~10,"Thailand overall, 2024"
+Thailand,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~100-165   Online travel                            Online media,not found as a single number: printed as range ~100-165
+Thailand,2022,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                          3,"Thailand Online travel, 2022"
+Thailand,2023,online_travel_gmv,8,US$ bn,economy_sea_2024.txt,                                                                       8,"Thailand Online travel, 2023"
+Thailand,2024,online_travel_gmv,10,US$ bn,economy_sea_2024.txt,                                                                                    10             5,"Thailand Online travel, 2024"
+Thailand,2030,online_travel_gmv,20,US$ bn,economy_sea_2024.txt,                            46                                                           ~20                                      ~10,printed as ~20
+Thailand,2022,online_media_gmv,5,US$ bn,economy_sea_2024.txt,                                                                                    10             5,"Thailand Online media, 2022"
+Thailand,2023,online_media_gmv,6,US$ bn,economy_sea_2024.txt,    31                                                                                                         6            6,"Thailand Online media, 2023"
+Thailand,2024,online_media_gmv,6,US$ bn,economy_sea_2024.txt,    31                                                                                                         6            6,"Thailand Online media, 2024"
+Thailand,2030,online_media_gmv,10,US$ bn,economy_sea_2024.txt,                            46                                                           ~20                                      ~10,printed as ~10
+Vietnam,2022,ecommerce_gmv,15,US$ bn,economy_sea_2024.txt,                                                        15          19,Vietnam E-commerce series
+Vietnam,2023,ecommerce_gmv,19,US$ bn,economy_sea_2024.txt,                                                        15          19,Vietnam E-commerce series
+Vietnam,2024,ecommerce_gmv,22,US$ bn,economy_sea_2024.txt,                                                                                  22             3           3            4,Vietnam E-commerce series
+Vietnam,2030,ecommerce_gmv,63,US$ bn,economy_sea_2024.txt,                                                                                       ~63                                    ~9,printed as ~63
+Vietnam,2023,ecommerce_gmv_growth,25,pct,economy_sea_2024.txt,                                                             +25%          +18%,printed as +25%
+Vietnam,2024,ecommerce_gmv_growth,18,pct,economy_sea_2024.txt,                                                             +25%          +18%,printed as +18%
+Vietnam,2022,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                  22             3           3            4,"Vietnam Transport and food, 2022"
+Vietnam,2023,transport_food_gmv,3,US$ bn,economy_sea_2024.txt,                                                                                  22             3           3            4,"Vietnam Transport and food, 2023"
+Vietnam,2024,transport_food_gmv,4,US$ bn,economy_sea_2024.txt,                                                                                  22             3           3            4,"Vietnam Transport and food, 2024"
+Vietnam,2030,transport_food_gmv,9,US$ bn,economy_sea_2024.txt,                                                                                       ~63                                    ~9,printed as ~9
+Vietnam,2022,digital_economy_gmv,25,US$ bn,economy_sea_2024.txt,    25                                                                            5                                       6,"Vietnam overall, 2022"
+Vietnam,2023,digital_economy_gmv,31,US$ bn,economy_sea_2024.txt,"                 31
+    25                                                                            5                                       6","Vietnam overall, 2023"
+Vietnam,2024,digital_economy_gmv,36,US$ bn,economy_sea_2024.txt,                             36                                                        ~10                                    ~11,"Vietnam overall, 2024"
+Vietnam,2030,digital_economy_gmv,,,economy_sea_2024.txt,                                            ~90-200,not found as a single number: printed as range ~90-200
+Vietnam,2022,online_travel_gmv,3,US$ bn,economy_sea_2024.txt,                                                         3,"Vietnam Online travel, 2022"
+Vietnam,2023,online_travel_gmv,4,US$ bn,economy_sea_2024.txt,                                                                     4                           5           5,"Vietnam Online travel, 2023"
+Vietnam,2024,online_travel_gmv,5,US$ bn,economy_sea_2024.txt,    25                                                                            5                                       6,"Vietnam Online travel, 2024"
+Vietnam,2030,online_travel_gmv,10,US$ bn,economy_sea_2024.txt,                             36                                                        ~10                                    ~11,printed as ~10
+Vietnam,2022,online_media_gmv,5,US$ bn,economy_sea_2024.txt,                                                                     4                           5           5,"Vietnam Online media, 2022"
+Vietnam,2023,online_media_gmv,5,US$ bn,economy_sea_2024.txt,                                                                     4                           5           5,"Vietnam Online media, 2023"
+Vietnam,2024,online_media_gmv,6,US$ bn,economy_sea_2024.txt,    25                                                                            5                                       6,"Vietnam Online media, 2024"
+Vietnam,2030,online_media_gmv,11,US$ bn,economy_sea_2024.txt,                             36                                                        ~10                                    ~11,printed as ~11
+Indonesia,2024,digital_economy_gmv,90,US$ bn,economy_sea_2024_indonesia.txt,"Growth doubles, bringing GMV to $90B in 2024",
+Indonesia,2022,ecommerce_gmv,58,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2023,ecommerce_gmv,59,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2024,ecommerce_gmv,65,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,Indonesia country GMV ($B) chart
+Indonesia,2030,ecommerce_gmv,150,US$ bn,economy_sea_2024_indonesia.txt,                                                                                           ~150                                    ~20,printed as ~150
+Indonesia,2023,ecommerce_gmv_growth,1,pct,economy_sea_2024_indonesia.txt,                                                                +1%,printed as +1%
+Indonesia,2024,ecommerce_gmv_growth,11,pct,economy_sea_2024_indonesia.txt,                                                                             +11%                         -4%,printed as +11%
+Indonesia,2022,transport_food_gmv,8,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,
+Indonesia,2023,transport_food_gmv,7,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,
+Indonesia,2024,transport_food_gmv,9,US$ bn,economy_sea_2024_indonesia.txt,                                                         58           59            65               8           7           9,
+Indonesia,2030,transport_food_gmv,20,US$ bn,economy_sea_2024_indonesia.txt,                                                                                           ~150                                    ~20,printed as ~20
+Indonesia,2022,digital_economy_gmv,76,US$ bn,economy_sea_2024_indonesia.txt,    76          80,
+Indonesia,2023,digital_economy_gmv,80,US$ bn,economy_sea_2024_indonesia.txt,    76          80,
+Indonesia,2024,digital_economy_gmv,90,US$ bn,economy_sea_2024_indonesia.txt,                            90                                                             ~17                                     ~15,
+Indonesia,2030,digital_economy_gmv,,,economy_sea_2024_indonesia.txt,                                            ~200-360   Online travel                              Online media,not found as a single number: printed as range ~200-360
+Indonesia,2022,online_travel_gmv,3,US$ bn,economy_sea_2024_indonesia.txt,                                                          3,
+Indonesia,2023,online_travel_gmv,7,US$ bn,economy_sea_2024_indonesia.txt,                                                                       7             9               6           7           8,
+Indonesia,2024,online_travel_gmv,9,US$ bn,economy_sea_2024_indonesia.txt,                                                                       7             9               6           7           8,
+Indonesia,2030,online_travel_gmv,17,US$ bn,economy_sea_2024_indonesia.txt,                            90                                                             ~17                                     ~15,printed as ~17
+Indonesia,2022,online_media_gmv,6,US$ bn,economy_sea_2024_indonesia.txt,                                                                       7             9               6           7           8,
+Indonesia,2023,online_media_gmv,7,US$ bn,economy_sea_2024_indonesia.txt,                                                                       7             9               6           7           8,
+Indonesia,2024,online_media_gmv,8,US$ bn,economy_sea_2024_indonesia.txt,                                                                       7             9               6           7           8,
+Indonesia,2030,online_media_gmv,15,US$ bn,economy_sea_2024_indonesia.txt,                            90                                                             ~17                                     ~15,printed as ~15
+Indonesia,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,"definition not found: no sentence on GMV inclusion/exclusion (shipping, returns, cross-border, B2B)"
+Vietnam,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+Thailand,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+Malaysia,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+Philippines,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+Singapore,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+SEA-6,,ecommerce_gmv,,,economy_sea_2024_indonesia.txt,,not found: this file is an Indonesia country report only
+Indonesia,2025,digital_economy_gmv,110,US$ bn,economy_sea_2023_indonesia.txt,"bounce back and reach ~$110B in 2025, largely fueled by e-commerce",printed as ~$110B; chart bar is 109
+Indonesia,2025,digital_economy_gmv,109,US$ bn,economy_sea_2023_indonesia.txt,                                          109                                                                                            5%,chart bar
+Indonesia,2021,ecommerce_gmv,48,US$ bn,economy_sea_2023_indonesia.txt,                                                             48           58           62,
+Indonesia,2022,ecommerce_gmv,58,US$ bn,economy_sea_2023_indonesia.txt,                                                             48           58           62,
+Indonesia,2023,ecommerce_gmv,62,US$ bn,economy_sea_2023_indonesia.txt,                                                             48           58           62,
+Indonesia,2025,ecommerce_gmv,82,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                    82,
+Indonesia,2030,ecommerce_gmv,160,US$ bn,economy_sea_2023_indonesia.txt,                                                                    20%          7%                        ~160             15%          -8%,printed as ~160
+Indonesia,2022,ecommerce_gmv_growth,20,pct,economy_sea_2023_indonesia.txt,                                                                    20%          7%                        ~160             15%          -8%,printed as CAGR 20% on e-commerce chart
+Indonesia,2023,ecommerce_gmv_growth,7,pct,economy_sea_2023_indonesia.txt,                                                                    20%          7%                        ~160             15%          -8%,printed as CAGR 7% on e-commerce chart
+Indonesia,2025,ecommerce_gmv_growth,15,pct,economy_sea_2023_indonesia.txt,                                                                                              15%,printed as CAGR 15% on e-commerce chart (2023 to 2025)
+Indonesia,2021,digital_economy_gmv,63,US$ bn,economy_sea_2023_indonesia.txt,     63                                                             69%                              9                                                       8,
+Indonesia,2022,digital_economy_gmv,76,US$ bn,economy_sea_2023_indonesia.txt,                  76,
+Indonesia,2023,digital_economy_gmv,82,US$ bn,economy_sea_2023_indonesia.txt,                             82                                                  68%                       ~15                                                     ~15,
+Indonesia,2030,digital_economy_gmv,,,economy_sea_2023_indonesia.txt,                                                 210-360   Online travel                                          Online media,not found as a single number: printed as range 210-360
+Indonesia,2021,transport_food_gmv,7,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                                      7            8            7,Transport & food chart series 2021–2023; 2023 report splits Transport / Food labels
+Indonesia,2022,transport_food_gmv,8,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                                      7            8            7,Transport & food chart series
+Indonesia,2023,transport_food_gmv,7,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                                      7            8            7,Transport & food chart series
+Indonesia,2025,transport_food_gmv,9,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                                                                             9,2025 bar under Transport & food
+Indonesia,2030,transport_food_gmv,20,US$ bn,economy_sea_2023_indonesia.txt,                                                                                                                                                                   ~20,printed as ~20
+Indonesia,2021,online_travel_gmv,2,US$ bn,economy_sea_2023_indonesia.txt,                                                              2            3,
+Indonesia,2022,online_travel_gmv,3,US$ bn,economy_sea_2023_indonesia.txt,                                                              2            3,
+Indonesia,2023,online_travel_gmv,6,US$ bn,economy_sea_2023_indonesia.txt,                                                                                        6                             6            6            7,
+Indonesia,2025,online_travel_gmv,9,US$ bn,economy_sea_2023_indonesia.txt,     63                                                             69%                              9                                                       8,
+Indonesia,2030,online_travel_gmv,15,US$ bn,economy_sea_2023_indonesia.txt,                             82                                                  68%                       ~15                                                     ~15,printed as ~15
+Indonesia,2021,online_media_gmv,6,US$ bn,economy_sea_2023_indonesia.txt,                                                                                        6                             6            6            7,
+Indonesia,2022,online_media_gmv,6,US$ bn,economy_sea_2023_indonesia.txt,                                                                                        6                             6            6            7,
+Indonesia,2023,online_media_gmv,7,US$ bn,economy_sea_2023_indonesia.txt,                                                                                        6                             6            6            7,
+Indonesia,2025,online_media_gmv,8,US$ bn,economy_sea_2023_indonesia.txt,     63                                                             69%                              9                                                       8,
+Indonesia,2030,online_media_gmv,15,US$ bn,economy_sea_2023_indonesia.txt,                             82                                                  68%                       ~15                                                     ~15,printed as ~15
+Indonesia,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,"definition not found: no sentence on GMV inclusion/exclusion (shipping, returns, cross-border, B2B)"
+Vietnam,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+Thailand,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+Malaysia,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+Philippines,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+Singapore,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+SEA-6,,ecommerce_gmv,,,economy_sea_2023_indonesia.txt,,not found: this file is an Indonesia country report only
+Indonesia,2025,digital_economy_gmv,99,US$ bn,economy_sea_2025_indonesia.txt,                                      99                                                       +17%,chart bar; headline says cusp of $100B
+Indonesia,2023,ecommerce_gmv,59,US$ bn,economy_sea_2025_indonesia.txt,                                                    59           62                        8,
+Indonesia,2024,ecommerce_gmv,62,US$ bn,economy_sea_2025_indonesia.txt,                                                    59           62                        8,
+Indonesia,2025,ecommerce_gmv,71,US$ bn,economy_sea_2025_indonesia.txt,                                                                          71                           9        10,
+Indonesia,2030,ecommerce_gmv,140,US$ bn,economy_sea_2025_indonesia.txt,                                                                                  ~140,printed as ~140
+Indonesia,2024,ecommerce_gmv_growth,6,pct,economy_sea_2025_indonesia.txt,                                                          +6%                                  +16%,printed as +6%
+Indonesia,2025,ecommerce_gmv_growth,14,pct,economy_sea_2025_indonesia.txt,                                                                       +14%                                  +13%,printed as +14%
+Indonesia,2023,transport_food_gmv,8,US$ bn,economy_sea_2025_indonesia.txt,                                                    59           62                        8,
+Indonesia,2024,transport_food_gmv,9,US$ bn,economy_sea_2025_indonesia.txt,                                                                          71                           9        10,
+Indonesia,2025,transport_food_gmv,10,US$ bn,economy_sea_2025_indonesia.txt,                                                                          71                           9        10,
+Indonesia,2030,transport_food_gmv,16,US$ bn,economy_sea_2025_indonesia.txt,                                                                                                                        ~16,printed as ~16
+Indonesia,2023,digital_economy_gmv,80,US$ bn,economy_sea_2025_indonesia.txt,          80            87                                                        ~17                                   ~15,
+Indonesia,2024,digital_economy_gmv,87,US$ bn,economy_sea_2025_indonesia.txt,          80            87                                                        ~17                                   ~15,
+Indonesia,2030,digital_economy_gmv,,,economy_sea_2025_indonesia.txt,"                                           ~180
+                                           -340   Online travel                          Online media",not found as a single number: printed as range ~180-340
+Indonesia,2023,online_travel_gmv,7,US$ bn,economy_sea_2025_indonesia.txt,                                                     7                                     7           8,
+Indonesia,2024,online_travel_gmv,8,US$ bn,economy_sea_2025_indonesia.txt,                                                                 8            9                                     9,
+Indonesia,2025,online_travel_gmv,9,US$ bn,economy_sea_2025_indonesia.txt,                                                                 8            9                                     9,
+Indonesia,2030,online_travel_gmv,17,US$ bn,economy_sea_2025_indonesia.txt,          80            87                                                        ~17                                   ~15,printed as ~17
+Indonesia,2023,online_media_gmv,7,US$ bn,economy_sea_2025_indonesia.txt,                                                     7                                     7           8,
+Indonesia,2024,online_media_gmv,8,US$ bn,economy_sea_2025_indonesia.txt,                                                     7                                     7           8,
+Indonesia,2025,online_media_gmv,9,US$ bn,economy_sea_2025_indonesia.txt,                                                                 8            9                                     9,
+Indonesia,2030,online_media_gmv,15,US$ bn,economy_sea_2025_indonesia.txt,          80            87                                                        ~17                                   ~15,printed as ~15
+Indonesia,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,"definition not found: no sentence on GMV inclusion/exclusion (shipping, returns, cross-border, B2B)"
+Vietnam,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only
+Thailand,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only
+Malaysia,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only
+Philippines,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only
+Singapore,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only
+SEA-6,,ecommerce_gmv,,,economy_sea_2025_indonesia.txt,,not found: this file is an Indonesia country report only

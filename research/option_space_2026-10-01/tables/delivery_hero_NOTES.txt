@@ -1,0 +1,11 @@
+Definition changes
+- Through 2025, Delivery Hero’s group revenue KPI is Total Segment Revenue: consolidated revenue before the reduction of vouchers (plus specified IFRS reconciliation effects in later years).
+- From 1 January 2026, management reporting revenue was harmonized with IFRS revenue. The H1 2026 half-year report no longer states a group Total Segment Revenue figure; the key figures table shows IFRS Revenue. H1 2025 comparatives in that report were restated (vouchers, discounts and refunds of €463.1 million deducted). H1 2026 voucher euros are the “Less vouchers” line (€542.2 million). The stated 7.0% voucher ratio is versus Revenue, not Total Segment Revenue, so vouchers_pct_tsr is left blank.
+- 2019 reports label the deduction “Rebates and voucher expense(s)” / “Discounts” / “DISCOUNT”, not “Vouchers”.
+- 2020 annual report restates Total Segment Revenue (NEW 2,836.2 vs OLD 2,729.8) when Integrated Verticals moved to a GMV/principal presentation.
+
+Sources and coverage
+- English annual reports and half-year financial reports for FY/H1 2019–2025 and H1 2026 were downloaded from ir.deliveryhero.com into ./sources/ and converted with pdftotext -layout into ./text/.
+- Quarterly trading updates/statements are on the IR archive; they were not used as CSV rows because they generally do not state the voucher reconciling item (and the spec forbids mixing YTD with quarterly in one column).
+- No period in 2019–2025 H1/FY plus H1 2026 was missing as a published report. Percent-of-GMV or percent-of-TSR cells are blank only when that ratio is not stated in the source for that period (not computed).
+- 2019 GMV appears as 7,435 / 7,435.4 / 7,435.5 in different tables of the 2019 annual report; the CSV uses 7,435.5 from the Group KPI table in that report.

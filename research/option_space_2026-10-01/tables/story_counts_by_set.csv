@@ -1,0 +1,5 @@
+set,R lags V,R outruns V,"V down, R up","V up, R down",tracks (|dlnm|<=0.10)
+EXT_clean,0,8,3,1,17
+EXT_unclean,0,2,4,0,5
+IDN_constructed,0,3,0,0,1
+IDN_main,1,4,2,0,1

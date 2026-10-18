@@ -1,0 +1,55 @@
+Access date for all fetches: 2026-10-02. Primary-source scout of Philippine official e-commerce value/counts and tax on digital platforms.
+
+SOURCES USED (saved as .txt in this folder)
+1) https://dtiwebfiles.s3-ap-southeast-1.amazonaws.com/HRAS/Procurement/2021/August%202021/39506%20ECO%20Sample.pdf
+   Saved: dti_ecom_roadmap_2022.pdf + dti_ecom_roadmap_2022.txt (pdftotext -layout)
+   Exists: ecommerce_value 2020 baseline Php 599 B / $12 B / 3.4% of GDP; 2021-2022 TARGETS Php 850 B and Php 1.2 T; DTI citation of PSA 2017 $1.5 B; ecommerce_businesses 500,000 / 750,000 / 1,000,000; DTI BNRS 88,574 new online-store names in 2020 and 1,753 pre-quarantine; PSA/OECD definition; enterprise definition (e-retailers + online merchants).
+   Does not exist: marketplace/social/own-website value split; actual 2021-2022 outturns; PSA sample size.
+
+2) https://bir-cdn.bir.gov.ph/BIR/pdf/RR%2016-2023.pdf
+   Saved: bir_rr_16_2023.pdf + bir_rr_16_2023.txt
+   Exists: platform withholding RULE only — 1% creditable tax on one-half of gross remittances; PHP 500,000 annual/cumulative threshold; remittance excludes returns, separately billed shipping, VAT. Issued 21 December 2023.
+   Does not exist: peso collections by year.
+
+3) https://www.dof.gov.ph/recto-value-added-tax-law-on-digital-services-ensures-equitable-tax-treatment-on-all-digital-businesses-boosts-revenue-collections-for-national-development/
+   Saved: dof_ra12023.html + dof_ra12023.txt (article text). Page date 2024-10-02.
+   Exists: RA 12023 signed 2 October 2024; 12% VAT on digital services consumed in the PH; PHP 3 million foreign-DSP registration threshold; estimated collections PHP 7.25 billion in 2025 (50% compliance) and PHP 102.12 billion for 2025-2029.
+   Does not exist: actual BIR collection outturn; count of registered foreign providers.
+
+4) https://www.bsp.gov.ph/PaymentAndSettlement/2023_Report_on_E-payments_Measurement.pdf
+   Saved: bsp_2023_epayments.pdf + bsp_2023_epayments.txt
+   Exists: 2023 Status of Digital Payments — digital share 42.1% of retail payment volume in 2022 and more than 50% in 2023; 55.3% of value; CES 54.4% of households used digital payments for online/e-commerce purchases.
+   Does not exist: e-commerce GMV in PHP/USD.
+
+5) https://www.bsp.gov.ph/PaymentAndSettlement/2024_Report_on_E-payments_Measurement.pdf
+   Saved: bsp_2024_epayments.pdf + bsp_2024_epayments.txt
+   Exists: 2024 Status of Digital Payments — 57.4% of monthly retail payment volume; 59.0% of value; USD 136.0 billion monthly digital-payment value; 52.8% volume in 2023 restated.
+   Does not exist: e-commerce GMV or seller counts.
+
+6) https://www.bsp.gov.ph/Media_And_Research/Primers%20Faqs/Digital%20Payments%20Transformation%20Roadmap%20Report.pdf
+   Saved: bsp_dptr.pdf + bsp_dptr.txt
+   Exists: DPTR 2020-2023 target to convert 50% of retail payment volume to digital.
+   Does not exist: e-commerce sales or tax collections.
+
+SOURCES TRIED THAT DID NOT YIELD A USABLE PRIMARY TABLE
+- PSA national SICT / ASPBI / CPBI / OpenSTAT (https://psa.gov.ph/statistics/sict ; https://rssocar.psa.gov.ph/content/2022-annual-survey-philippine-business-and-industry-aspbi-manufacturing-preliminary-results ; https://rssocar.psa.gov.ph/content/2018-census-philippine-business-and-industry-manufacturing ; https://openstat.psa.gov.ph/Metadata/2G4CASC2): Cloudflare 403 in browser and request.get. Web-search snippets showed regional Davao ASPBI e-commerce (not used as national) and manufacturing 2022 PhP 2.15 billion (not saved, so not extracted).
+- Official Gazette RA 12023 (https://www.officialgazette.gov.ph/2024/10/02/republic-act-no-12023/): Cloudflare 403. Used DOF official page instead.
+- https://www.dti.gov.ph/archives/archived-speeches/virtual-launch-of-philippines-e-commerce-roadmap-2022/ : request timeout.
+- https://ecommerce.dti.gov.ph/madali/ : TLS certificate error.
+- BIR RR No. 3-2025, RMC 47-2025, RMC 49-2025 (https://bir-cdn.bir.gov.ph/BIR/pdf/RR%20No.%203-2025.pdf and companion circulars): PDFs downloaded; pdftotext produced almost no text (scanned images). Not used as quote sources.
+- BIR VDS portal https://vds.bir.gov.ph/BIR-DSP-VAT/ : no public registrant count.
+- News (Philstar P2.8 billion / 371 DSPs; Manila Bulletin ~P8 billion): skipped as news-only.
+- e-Conomy SEA / Google-Temasek GMV in the DTI table: not used as ecommerce_value because a DTI official baseline exists.
+
+SERIES STATUS
+- ecommerce_value: official DTI 2020 baseline and 2021-2022 targets; DTI citation of PSA 2017 $1.5B; BSP digital-payment shares/values (not GMV). No saved primary PSA national SICT/ASPBI/CPBI sales series for 2018-2025.
+- ecommerce_businesses: DTI 2020 baseline 500,000 (platform-sourced) and BNRS 88,574 / 1,753; 2021-2022 are targets. No PSA establishment e-commerce count saved.
+- ecommerce_value_channel: not found.
+- sample_or_census: DTI says the 500,000 count is “based on initial information from platforms”; PSA sample/census note not saved.
+- definition: DTI/PSA-OECD definition; BIR remittance exclusions; DOF digital-services list.
+- digital_service_vat_collections: DOF estimates only (7.25 billion in 2025; 102.12 billion 2025-2029). No official BIR/DOF actual collection table found.
+- platform_withholding_collections: RR 16-2023 rate 1% and PHP 500,000 threshold only. No yearly peso collections found.
+- registered_foreign_providers: threshold PHP 3 million found; count not found in official sources.
+- release_note: recorded per series used.
+
+Business COUNTS and VALUE for the same years: DTI prints both a 2020 VALUE baseline (Php 599 B / $12 B) and a 2020 COUNT baseline (500,000 enterprises, plus 88,574 new online-store names). 2021-2022 DTI figures are targets for both series, not matched official outturns. PSA primary value and count for the same year were not obtained.

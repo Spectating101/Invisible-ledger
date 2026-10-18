@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-09",
+  "classification": "independent exploratory review, no adopted decisions",
+  "repository_head": "914bb3b538820c97779f9845a5293e5e2193e4d2",
+  "input_sha256": {
+    "research/option_space_2026-10-01/tables/transitions_master.csv": "c72fb3cc332660585da421dd35467d595116b080137f33169c338418852b405b",
+    "research/option_space_2026-10-01/tables/l_panel.csv": "0a988e6a2ab68cb81ad42cb4d8204c36189dd13496e82338b5dc9ae5891ef271",
+    "research/option_space_2026-10-01/tables/spinoff_panel.csv": "5490591df793a74b2aa27464017410d00b7bda65b2396a39c9d8a700697f68b6",
+    "research/option_space_2026-10-01/tables/h1_points_vs_log.json": "ff48f5b7df9daadfd8382e87b6e77ae79f8546ad27715cf11e0ae834d1242968",
+    "research/option_space_2026-10-01/tables/h1_extended_results.json": "509c987cd0b913844d087d8c369409ff759c66d1608613e109899a56bfc1bebc",
+    "research/option_space_2026-10-01/tables/bps_returning_check.json": "ababb5bdf02e792aacb6740456b7e1125db25c700c64b76cc32a9fe3cddd3c89",
+    "_local/licensed_data/bps_silastik/Data/ecom2023.dbf": "ed9ec5243deeff75121d08811c1c1ee610b85304c0633099f652170f4d43222c",
+    "_local/licensed_data/bps_silastik/e_commerce2024.dbf": "b58ed340fcb39d04b4d0aa145ac3e433fc38853227d092402ac3801a37cea43f"
+  },
+  "script_sha256": "c39638d9461843654c462ef1d64caae29fc10dd27ad338dfe222494c7268b32e",
+  "H1": {
+    "scope": "existing Indonesia-aligned core plus regional series; heterogeneous foreign firms; exploratory",
+    "original_extended_current_endpoint_rule": {
+      "target_firms": 5,
+      "foreign_firms": 27,
+      "target_transitions": 15,
+      "foreign_transitions": 158,
+      "median_start_take_rate_pct": {
+        "target": 1.5886632827170892,
+        "foreign": 17.253836387434202
+      },
+      "median_absolute_change_points": {
+        "target": 1.0058919287808545,
+        "foreign": 0.9906744308236993
+      },
+      "median_absolute_log_change": {
+        "target": 0.20111129973300368,
+        "foreign": 0.061522984564142305
+      },
+      "mann_whitney_one_sided_p_points": 0.692877999364373,
+      "mann_whitney_one_sided_p_log": 0.0038187271571587474,
+      "foreign_firm_labels": [
+        "ACVA",
+        "ASAPQ",
+        "BABA",
+        "DESP",
+        "DIBS",
+        "EXPE",
+        "Etsy",
+        "FVRR",
+        "GrubHub",
+        "HEPS",
+        "Jumia",
+        "KSPI",
+        "MOGU",
+        "Mercado Libre",
+        "Ozon",
+        "PDD",
+        "RBA",
+        "REAL",
+        "Rakuten",
+        "SEAT",
+        "Sea / Shopee",
+        "Shopify",
+        "UPWK",
+        "VCSA",
+        "YTRA",
+        "Zalando",
+        "eBay"
+      ]
+    },
+    "new_points_check_both_endpoint_rule": {
+      "target_firms": 5,
+      "foreign_firms": 26,
+      "target_transitions": 15,
+      "foreign_transitions": 157,
+      "median_start_take_rate_pct": {
+        "target": 1.5886632827170892,
+        "foreign": 16.927954060078058
+      },
+      "median_absolute_change_points": {
+        "target": 1.0058919287808545,
+        "foreign": 0.9783064863263236
+      },
+      "median_absolute_log_change": {
+        "target": 0.20111129973300368,
+        "foreign": 0.05974647880735876
+      },
+      "mann_whitney_one_sided_p_points": 0.6519942793580169,
+      "mann_whitney_one_sided_p_log": 0.002995685976776077,
+      "foreign_firm_labels": [
+        "ACVA",
+        "ASAPQ",
+        "BABA",
+        "DESP",
+        "DIBS",
+        "EXPE",
+        "Etsy",
+        "FVRR",
+        "GrubHub",
+        "HEPS",
+        "Jumia",
+        "KSPI",
+        "MOGU",
+        "Mercado Libre",
+        "PDD",
+        "RBA",
+        "REAL",
+        "Rakuten",
+        "SEAT",
+        "Sea / Shopee",
+        "Shopify",
+        "UPWK",
+        "VCSA",
+        "YTRA",
+        "Zalando",
+        "eBay"
+      ]
+    },
+    "reason_for_27_to_26_difference": [
+      {
+        "entity": "Ozon",
+        "previous_year": 2021.0,
+        "year": 2022,
+        "previous_flag": "exclude",
+        "flag_1p": "flag"
+      }
+    ],
+    "interpretation": "The approximate equality of median point changes survives both selections. The non-significant one-sided test does not establish statistical equivalence or identify a causal country mechanism.",
+    "exact_growth_identity": {
+      "formula": "D = (1 + gV) * ((m1-m0)/m0), with ordinary fractional growth",
+      "core_transitions_checked": 8,
+      "Tokopedia_D_pp": 62.09558686474561,
+      "Tokopedia_take_rate_growth_pct": 68.16200567583608
+    }
+  },
+  "BPS": {
+    "classification": "post-result diagnostic; fixed start-year groups, not linked business histories",
+    "question_format": "list of months in 2022 versus twelve month flags in 2023",
+    "aligned_start_year_checks": {
+      "2020": {
+        "start_year_cutoff_in_both_rounds": 2020,
+        "periods": {
+          "2022": {
+            "active_count_k": 2127.2194966640504,
+            "full_year_k": 1749.1127591774189,
+            "part_year_k": 378.1067374866317,
+            "part_year_pct": 17.774693118391706
+          },
+          "2023": {
+            "active_count_k": 2255.7551745640003,
+            "full_year_k": 2003.4402186990003,
+            "part_year_k": 252.314955865,
+            "part_year_pct": 11.185387435219704
+          }
+        },
+        "part_year_change_k": -125.79178162163169
+      },
+      "2021": {
+        "start_year_cutoff_in_both_rounds": 2021,
+        "periods": {
+          "2022": {
+            "active_count_k": 2559.1674284820715,
+            "full_year_k": 2087.120159264074,
+            "part_year_k": 472.04726921799767,
+            "part_year_pct": 18.44534530896186
+          },
+          "2023": {
+            "active_count_k": 2689.3825147599996,
+            "full_year_k": 2371.3121452869996,
+            "part_year_k": 318.07036947299997,
+            "part_year_pct": 11.826892148192037
+          }
+        },
+        "part_year_change_k": -153.9768997449977
+      },
+      "2022": {
+        "start_year_cutoff_in_both_rounds": 2022,
+        "periods": {
+          "2022": {
+            "active_count_k": 2995.985999999998,
+            "full_year_k": 2258.4666493905174,
+            "part_year_k": 737.5193506094806,
+            "part_year_pct": 24.61691578697234
+          },
+          "2023": {
+            "active_count_k": 3301.578804178,
+            "full_year_k": 2898.870979417,
+            "part_year_k": 402.70782476100004,
+            "part_year_pct": 12.19743185446282
+          }
+        },
+        "part_year_change_k": -334.8115258484806
+      }
+    },
+    "interpretation": "Part-year selling falls under all three common cutoffs. This supports the descriptive pattern but does not identify returning sellers; exits and changes in incumbent selling duration can offset returning flows."
+  }
+}

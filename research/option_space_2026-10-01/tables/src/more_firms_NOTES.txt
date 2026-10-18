@@ -1,0 +1,76 @@
+Access date for all downloads: 2 October 2026.
+
+SOURCES (primary filings/IR only)
+
+1. Grab Holdings / Altimeter Growth Corp
+   URL: https://www.sec.gov/Archives/edgar/data/1855612/000119312521335023/d197617d424b3.htm
+   Form 424B3 definitive proxy statement/prospectus, filed 19 November 2021 (F-4 family).
+   Saved: grab_424b3_2021.txt (SEC HTML decompressed, lynx -dump).
+   Amounts exist: YES for FY2019, FY2020, 1H2021 (group and Deliveries / Mobility GMV, revenue after incentives, partner incentives, consumer incentives, and printed consumer-incentive % of GMV).
+   FY2018: NO printed GMV / revenue / incentive amounts (only 2018 MTU and GMV-per-MTU / GMV-per-transaction assumptions in the projections table).
+
+2. GoTo (PT GoTo Gojek Tokopedia Tbk)
+   English prospectus: https://content.goinfra.co.id/asts/goto/GOTO%20Prospectus.pdf
+   Indonesian final prospectus: https://content.goinfra.co.id/asts/goto/Prospektus%20Final%20GOTO%20_%20R29Apr22.pdf
+   2021 annual report: https://content.goinfra.co.id/asts/goto/ANNUAL%20REPORT_FINAL_2021.pdf
+   Saved: goto_prospectus_2022.txt, goto_prospektus_2022_id.txt, goto_ar_2021.txt (pdftotext -layout).
+   Amounts exist: YES.
+   Prospectus (historical / pro forma): FY2018, FY2019, FY2020 and 7M2021 group net revenue, gross revenue, Promotion to customers; pro forma GTV including On-demand / E-commerce / Fintech.
+   2021 AR: FY2021 (and FY2020 comparatives) group GTV, gross/net revenue, Promotion to customers, and FY2021 segment Promotion to customers (On-demand, Fintech, E-commerce). Also prints excess incentives presented as promotion expense (Rp4,866,685 million in 2021; Rp499,198 million in 2020).
+   3M2022: NOT FOUND in the Apr 2022 prospectus or the 2021 annual report.
+
+3. Delivery Hero SE
+   IR annual reports:
+   2019 https://ir.deliveryhero.com/media/document/76180021-64c4-4482-b6ab-638acaada132/assets/DE000A2E4K43-JA-2019-EQ-E-00.pdf
+   2020 https://ir.deliveryhero.com/media/document/755d9dfe-ac35-4e66-a5c7-37c32cfd69b5/assets/DE000A2E4K43-JA-2020-EQ-E-01.pdf
+   2022 https://ir.deliveryhero.com/media/document/d642242f-833c-45ff-b7b1-9c9784cea279/assets/DeliveryHero_Annual%20Report_2022.pdf
+   2022 AFS https://ir.deliveryhero.com/media/document/2f9e8e00-2c39-4b13-ac23-fe26b7566438/assets/DeliveryHeroSE_Annual_Financial_Statement_2022.pdf
+   2023 https://ir.deliveryhero.com/media/document/f39e4797-91e8-43f2-82be-e852444a4879/assets/DE000A2E4K43-JA-2023-EQ-E-00.pdf
+   2024 https://ir.deliveryhero.com/media/document/c38c7d53-cd6e-44de-8b1f-3559d5c43e6b/assets/DE000A2E4K43-JA-2024-EQ-E-00.pdf
+   2025 https://ir.deliveryhero.com/media/document/51222150-5c1c-46db-977b-a078706cccdf/assets/DE000A2E4K43-JA-2025-EQ-E-00.pdf
+   Saved: dh_ar_2019.txt, dh_ar_2020.txt, dh_ar_2022.txt, dh_afs_2022.txt, dh_ar_2023.txt, dh_ar_2024.txt, dh_ar_2025.txt.
+   Segment-level voucher AMOUNTS (Asia / MENA / Europe / Americas): NOT FOUND. Policy and group-level vouchers (e.g. 2024 EUR -884.1 million, 2023 EUR -849.8 million) are printed; group already covered by prior job.
+
+4. Paytm / One97 Communications
+   Q4 FY23 earnings: https://paytm.com/document/ir/financial-results/Paytm_Earnings_Release_Q4_FY2023_INR.pdf
+   Dec 2024 investor presentation: https://paytm.com/document/ir/annual-reports/Paytm-Investor-Presentation_Dec-2024-Final-INR.pdf
+   Q4 FY25 earnings: https://paytm.com/document/ir/financial-results/fy2024-25/Earnings-Release_Q4_FY25_Paytm.pdf
+   Jun 2026 investor presentation: https://paytm.com/document/ir/annual-reports/Paytm-Investor-Presentation_Jun-2026_INR.pdf
+   Saved: paytm_q4fy23.txt, paytm_ip_dec2024.txt, paytm_q4fy25.txt, paytm_ip_jun2026.txt (pdftotext -layout).
+   Amounts exist: YES for promotional cashback & incentives FY2021–FY2026 and GMV/revenue FY2021–FY2024 (and FY2025 revenue). Presented as a contribution-profit / direct expense, not as a reduction of IFRS revenue.
+   Full statutory annual reports FY22/FY24/FY25/FY26 were blocked or not needed after IR earnings/presentations printed the amounts.
+
+5. Prosus
+   FY2024 summary financial statements: https://www.prosus.com/~/media/Files/P/Prosus-CORP/AR2024/2resultsarchive/05summaryfinancialstatements/fy2024summaryconsolidatedfinancialstatements.pdf
+   FY2025 summary from the annual report: https://www.prosus.com/~/media/Files/P/prosus-corp-v2/results-reports-and-events-archive/latest-results/fy-2025/prosus-financial-results-fy25-booklet.pdf
+   Saved: prosus_fy24.txt, prosus_fy25.txt.
+   iFood: revenue US$1.2bn (FY2024) and GMV growth percentages (FY2024 +20%, FY2025 +32%) printed. Discount / voucher / promotion AMOUNTS: NOT FOUND.
+   Naspers integrated AR 2025 was located but not required after Prosus summaries.
+
+6. Yandex N.V.
+   20-F 2021: https://www.sec.gov/Archives/edgar/data/1513845/000155837022005654/yndx-20211231x20f.htm
+   20-F 2022: https://www.sec.gov/Archives/edgar/data/1513845/000155837023006319/yndx-20221231x20f.htm
+   FY2022 earnings letter (Ex-99.2): https://www.sec.gov/Archives/edgar/data/1513845/000151384523000005/yndx-20230215xex99d2.htm
+   FY2023 Ex-99.1: https://www.sec.gov/Archives/edgar/data/1513845/000151384524000004/yndx-20231231xex99d1.htm
+   Saved: yandex_20f_2021.txt, yandex_20f_2022.txt, yandex_ex99_2022.txt, yandex_ex99_2023.txt.
+   Mobility GMV amounts exist (e.g. FY2022 RUB 763 billion). Driver-incentive AMOUNTS netted against revenue: NOT FOUND (qualitative “slightly increased driver incentives as % of GMV”; partner earnings RUB 664 billion is earnings, not subsidies).
+
+7. Rakuten Group / Kakao Mobility / Naver
+   Not downloaded in this pass. NOTES: not confirmed whether they print promotion/incentive AMOUNTS; left undone rather than guessed.
+
+8. Other Asian platform found
+   Dada Nexus Limited 20-F 2024: https://www.sec.gov/Archives/edgar/data/1793862/000141057825000705/dada-20241231x20f.htm
+   Also retrieved 20-F 2022 HTML (dada_20f_2022.htm / .txt) as support.
+   Amounts exist for FY2022–FY2024: rider incentives recorded in operations and support (RMB 79.2 / 41.1 / 45.2 million) and consumer coupons in selling and marketing (RMB 2,782.6 / 2,548.2 / 1,288.8 million), plus net revenue. Policy states agent-model rider incentives are first a reduction of revenue, with only the excess printed in O&S; the netted-from-revenue slice is not separately printed.
+
+NOT FOUND / GAPS
+- Grab FY2018 incentive, GMV and revenue amounts (SPAC prospectus prints 2018 operating ratios only).
+- GoTo 3M2022 segment GTV / gross / net / incentives (not in Apr 2022 prospectus or 2021 AR).
+- Delivery Hero Asia / MENA / Europe / Americas voucher amounts for FY2019–FY2025.
+- Prosus/Naspers iFood (and Swiggy / Delivery Hero stake) discount or promotion amounts.
+- Yandex Mobility / Delivery incentive or driver-subsidy amounts.
+- Rakuten, Kakao Mobility, Naver: not retrieved.
+- Delivery Hero 2021 standalone annual-report PDF was not separately downloaded; 2022 AFS includes 2021 group voucher comparatives, still not by segment.
+- Paytm full statutory ARs: IR site returned 403 to some PDF URLs; earnings releases and investor presentations used instead (still primary IR).
+
+python3 check_rows.py extraction.csv 40  →  rows 117: verified 108, null 9, failed 0

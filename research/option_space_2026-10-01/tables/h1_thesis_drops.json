@@ -1,0 +1,30 @@
+{
+ "all 27": {
+  "foreign_platforms": 27,
+  "median_indonesia": 0.2011,
+  "median_foreign": 0.0615,
+  "mannwhitney_p": 0.0038,
+  "shuffle_p": 0.0212
+ },
+ "without Ozon": {
+  "foreign_platforms": 26,
+  "median_indonesia": 0.2011,
+  "median_foreign": 0.0597,
+  "mannwhitney_p": 0.003,
+  "shuffle_p": 0.0215
+ },
+ "without Zalando": {
+  "foreign_platforms": 26,
+  "median_indonesia": 0.2011,
+  "median_foreign": 0.0638,
+  "mannwhitney_p": 0.0045,
+  "shuffle_p": 0.0238
+ },
+ "without Ozon and Zalando": {
+  "foreign_platforms": 25,
+  "median_indonesia": 0.2011,
+  "median_foreign": 0.0615,
+  "mannwhitney_p": 0.0036,
+  "shuffle_p": 0.023
+ }
+}

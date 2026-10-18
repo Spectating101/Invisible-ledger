@@ -1,0 +1,53 @@
+{
+ "published": {
+  "count_growth_pct": 27.400005140394512,
+  "value_growth_pct": 40.596424010217106,
+  "extensive_share_pct": 71.07278996314722
+ },
+ "scenarios": {
+  "no_exits": {
+   "extra_sellers_removed_k": 305.5928041780018,
+   "adjusted_count_growth_pct": 17.199566331684224,
+   "count_only_extensive_share_pct": 46.57972122617231,
+   "count_and_value": {
+    "low": {
+     "value_removed_tn": 53.18299832869418,
+     "adjusted_value_growth_pct": 33.80421477283599,
+     "extensive_share_pct": 54.499973987718676
+    },
+    "mid": {
+     "value_removed_tn": 49.08045119308084,
+     "adjusted_value_growth_pct": 34.328167152863244,
+     "extensive_share_pct": 53.77823995365925
+    },
+    "high": {
+     "value_removed_tn": 46.34224774901735,
+     "adjusted_value_growth_pct": 34.6778738507002,
+     "extensive_share_pct": 53.30858693394523
+    }
+   }
+  },
+  "reference": {
+   "extra_sellers_removed_k": 458.04079649081564,
+   "adjusted_count_growth_pct": 12.11097656177651,
+   "count_only_extensive_share_pct": 33.55186950683063,
+   "count_and_value": {
+    "low": {
+     "value_removed_tn": 79.71386296143147,
+     "adjusted_value_growth_pct": 30.415854027914225,
+     "extensive_share_pct": 43.04861512463177
+    },
+    "mid": {
+     "value_removed_tn": 73.5647196179158,
+     "adjusted_value_growth_pct": 31.20118523398263,
+     "extensive_share_pct": 42.09689608885101
+    },
+    "high": {
+     "value_removed_tn": 69.46053630821267,
+     "adjusted_value_growth_pct": 31.725346576218037,
+     "extensive_share_pct": 41.487762425699486
+    }
+   }
+  }
+ }
+}

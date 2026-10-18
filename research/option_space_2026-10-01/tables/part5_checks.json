@@ -1,0 +1,47 @@
+{
+ "bps_marketplace_sellers_2022_k": 591.7792287817017,
+ "bps_marketplace_by_size_2022": {
+  "<300m": {
+   "share_of_marketplace_sellers_pct": 72.57406173081183,
+   "sample_rows": 3511,
+   "share_of_marketplace_value_pct": {
+    "low": 22.63563973023422,
+    "mid": 7.779754068370753,
+    "high": 6.222569999729598
+   }
+  },
+  "300m-2.5bn": {
+   "share_of_marketplace_sellers_pct": 21.833635946118072,
+   "sample_rows": 1249,
+   "share_of_marketplace_value_pct": {
+    "low": 12.805225561611014,
+    "mid": 13.692282473838896,
+    "high": 9.710827504806309
+   }
+  },
+  "2.5-50bn": {
+   "share_of_marketplace_sellers_pct": 5.058496256096301,
+   "sample_rows": 333,
+   "share_of_marketplace_value_pct": {
+    "low": 25.12989845138624,
+    "mid": 60.45912659479543,
+    "high": 46.690209739485695
+   }
+  },
+  ">50bn": {
+   "share_of_marketplace_sellers_pct": 0.5338060669737975,
+   "sample_rows": 19,
+   "share_of_marketplace_value_pct": {
+    "low": 39.42923625676853,
+    "mid": 18.06883686299493,
+    "high": 37.37639275597841
+   }
+  }
+ },
+ "bps_marketplace_sellers_by_app_2023_pct": {
+  "shopping marketplaces (Tokopedia, Shopee, Bukalapak, Lazada)": 47.01251523645447,
+  "food and ride apps (Gojek, Grab)": 59.63759614374597,
+  "only food and ride apps": 43.06522675915805,
+  "travel apps": 3.342839627139111
+ }
+}

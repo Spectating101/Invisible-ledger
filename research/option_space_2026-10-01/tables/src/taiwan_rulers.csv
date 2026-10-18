@@ -1,0 +1,12 @@
+indicator,what_it_counts,year,value,unit,growth_pct,source_url,status
+MOEA retail online sales,online sales of registered retailers (monthly retail survey),2023,636.4,NT$ bn,2.6,https://money.udn.com/money/story/8888/8565228,news citing MOEA
+MOEA retail online sales,online sales of registered retailers (monthly retail survey),2024,653.3,NT$ bn,2.7,https://technews.tw/2024/12/27/e-commerce-t%EF%BD%97-high/,news citing MOEA
+MOEA retail online sales,online sales of registered retailers (monthly retail survey),2025,671.6,NT$ bn,2.8,https://wantrich.chinatimes.com/news/20260630900465-420101,news citing MOEA
+MOEA retail online share of retail,share of retail sales made online,2025,13.9,%,,https://wantrich.chinatimes.com/news/20260630900465-420101,news citing MOEA
+MOEA e-shopping platforms share of online sales,share of retail online sales via e-shopping platforms (rest via physical retailers' online channels),2024,61.5,%,,https://technews.tw/2024/12/27/e-commerce-t%EF%BD%97-high/,news citing MOEA
+DGBAS census online sales share,online sales as share of industry and services sales (census of industry and services),2021,8.0,%,,https://wantrich.chinatimes.com/news/20231220900065-420501,news citing DGBAS
+DGBAS online sales,online sales of industry and services incl. business-to-business,2022,6.8,NT$ tn,11.4,https://wantrich.chinatimes.com/news/20231220900065-420501,news citing DGBAS
+DGBAS e-commerce transactions,e-commerce transaction value incl. business-to-business,2024,8.0,NT$ tn (over),,https://udn.com/news/story/7238/9221839,news headline citing DGBAS
+MOF registered online shops,other non-store retail (online shops) filing VAT; change over eight years,2024,40000,firms (increase; 2.8x),,https://www.ctee.com.tw/news/20241019700064-430104,news citing MOF statistics
+MOF social and messaging sellers rule,sellers incl. social and messaging apps must show business name and tax ID (from 1 Jan 2023); 98% compliance,2023,98,% compliance,,https://ec.ltn.com.tw/article/breakingnews/4018623,news citing MOF
+momo marketplace (mo店+),GMV growth exceeds revenue growth as momo shifts from own stock to marketplace commissions,2024,,qualitative,,https://finance.technews.tw/2025/03/27/momo-president-jeff-ku-looks-forward-to-the-year-2025/,company statement via news

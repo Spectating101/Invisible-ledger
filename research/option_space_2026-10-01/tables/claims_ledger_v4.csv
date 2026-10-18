@@ -1,0 +1,30 @@
+id,claim,stated,recomputed,status
+H01,Indonesia+regional median yearly swing in the cut (x100),20.1,20.11113,PASS
+H02,All foreign firms median (x100),6.2,6.152298,PASS
+H03,Foreign firms counted,27.0,27.0,PASS
+H04,Firm-level Mann-Whitney p vs all foreign,0.004,0.003819,PASS
+H05,p vs the 19 new firms alone,0.005,0.004635,PASS
+H06,D measure: Indonesia median |D| (pp),27.0,26.980937,PASS
+H07,D measure: foreign median |D| (pp),6.5,6.471417,PASS
+H08,Leave-one-out: worst Mann-Whitney p,0.016,0.0164,PASS
+M01,"Young emerging-market platforms, median swing (x100)",16.2,16.249863,PASS
+M02,"Young high-income platforms, median swing (x100)",4.6,4.585206,PASS
+M03,"Young emerging ex-Indonesia, median swing (x100)",14.4,14.400352,PASS
+G01,BI e-commerce 2023 growth (%),-4.7,-4.7,PASS
+G02,SEA express parcel market 2024 growth (%),25.2,25.2,PASS
+G03,J&T SEA parcels 2024 growth (%),40.8,40.8,PASS
+W01,"Informal: records, social-media users (%)",29.9,29.907286,PASS
+W02,"Informal: records, others (%)",12.3,12.320518,PASS
+W03,"Informal: digital receipt, social-media users (%)",11.5,11.511324,PASS
+W04,"Informal: median annual sales, social-media users (Rp m)",60.0,60.0,PASS
+W05,Informal: share using social media with customers (%),27.3,27.257892,PASS
+F01,"Formal: e-pay share of sales, with website (%)",44.0,44.011074,PASS
+F02,Formal: e-filing with website (%),51.3,51.322158,PASS
+F03,"Formal: neither website nor e-filing, Indonesia (%)",39.9,39.865471,PASS
+X01,Cambodia neither share (%),34.8,34.8,PASS
+X02,Malaysia neither share (%),9.1,9.1,PASS
+X03,Thailand neither share (%),8.7,8.7,PASS
+X04,Philippines neither share (%),16.0,16.0,PASS
+X05,Countries whose e-filing matches the published figure,7.0,7.0,PASS
+S01,Spin-off S1 b1-b2 (falsified),-0.035,-0.035489,PASS
+S02,Spin-off S2 Spearman (falsified),-0.016,-0.016484,PASS

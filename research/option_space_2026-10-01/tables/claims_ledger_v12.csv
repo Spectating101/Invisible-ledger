@@ -1,0 +1,15 @@
+id,claim,stated,recomputed,status
+W12-01,"Wedge share of transaction value, issuer-reported, minimum (%)",97.1,97.084,PASS
+W12-02,"Wedge share of transaction value, issuer-reported, maximum (%)",99.5,99.463,PASS
+W12-03,Blibli 2022-23 wedge growth (%),32.4,32.39,PASS
+W12-04,Blibli 2022-23 revenue growth (%),465.3,465.327,PASS
+M12-01,Main sample firms,28.0,28.0,PASS
+M12-02,Main sample firm-years,138.0,138.0,PASS
+M12-03,b1 volume (main),0.6,0.599941,PASS
+M12-04,b2 take rate (main),0.33,0.33396,PASS
+M12-05,"M1 one-sided p (main, falsified)",0.2,0.202132,PASS
+M12-06,"M2 one-sided p (main, holds)",0.002,0.001638,PASS
+M12-07,M1 one-sided p with segment series,0.004,0.003854,PASS
+M12-08,"GoTo change in log(MV/R), 2022-25",-1.13,-1.134752,PASS
+M12-09,"GoTo change in log(MV/V), 2022-25",-0.48,-0.480927,PASS
+M12-10,"Blibli change in log(MV/R), 2022-25",-1.88,-1.878254,PASS

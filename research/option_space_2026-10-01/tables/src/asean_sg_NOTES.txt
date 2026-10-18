@@ -1,0 +1,33 @@
+Access date for all sources: 2 October 2026.
+
+SINGSTAT / DEPARTMENT OF STATISTICS
+- https://www.singstat.gov.sg/news/e-commerce-in-the-services-sector-2024 and PDF https://www.singstat.gov.sg/files/e97dd72d-cf56-4816-9d95-a833636cd93d.pdf -> singstat_ecommerce_2024.txt. Series that exist: ecommerce_value 2024 ($435.2 billion; 8.1% of services operating revenue); definitions; release 30 Jul 2026. Do not exist here: enterprise counts; annual online retail share.
+- https://www.singstat.gov.sg/news/e-commerce-in-the-services-sector-2023 and PDF https://www.singstat.gov.sg/files/bd8fc51e-a9c9-4e77-8f39-b2f611f09ae6.pdf -> singstat_ecommerce_2023.txt. Exists: ecommerce_value 2023 ($393.9 billion; 7.9%). Does not exist: counts; years before 2023 in this flyer.
+- https://www.singstat.gov.sg/news/e-commerce-in-the-services-sector-2022 and PDF https://www.singstat.gov.sg/files/d481082c-3047-44c7-ac48-01067e9dc5bd.pdf -> singstat_ecommerce_2022.txt. Exists: ecommerce_value 2022 ($401.1 billion; 7.4%). Does not exist: counts.
+- https://www.singstat.gov.sg/news/monthly-retail-sales-index-and-food-beverage-services-index-dec2025 and PDF https://www.singstat.gov.sg/files/c7a2cc5c-2ece-47cc-b127-a590c14f1159.pdf -> singstat_rsi_dec2025.txt. Exists: online_retail_share Dec 2025 14.8% (17.0% ex-motor vehicles); RSI definition (sales exclude GST; payment may not be online); release 5 Feb 2026. Does not exist: annual average share; enterprise counts.
+- https://www.singstat.gov.sg/news/monthly-retail-sales-index-and-food-beverage-services-index-dec2024 and PDF https://www.singstat.gov.sg/files/9bf926f0-fab3-4f84-a24e-f2793ff63bfb.pdf -> singstat_rsi_dec2024.txt. Exists: online_retail_share Dec 2024 13.4% (15.4% ex-MV).
+- https://www.singstat.gov.sg/news/monthly-retail-sales-index-and-food-beverage-services-index-dec2023 and PDF https://www.singstat.gov.sg/files/c16c6c26-bbce-4b9c-bf5b-595394917bda.pdf -> singstat_rsi_dec2023.txt. Exists: online_retail_share Dec 2023 13.1% (14.8% ex-MV); RSI described as monthly surveys.
+- Tried and not obtained: /-/media/files/news/mrsdec2018-2022.ashx and ecommerce2022.ashx (404 after site redesign); news slugs for Dec 2018-2022 RSI and e-commerce 2020-2021 (404); Table Builder go.gov.sg/stb-m602031 / tablebuilder.singstat.gov.sg/table/TS/M602031 (HTML shell only, no extractable table in the landing response); older Statistics Singapore Newsletter ssn121 URL 404.
+
+IMDA
+- https://www.imda.gov.sg/-/media/imda/files/industry-development/fact-and-figures/infocomm-usage-business/infocomm-usage-survey-public-report-2019.pdf -> imda_survey_2019.txt. Exists: ecommerce_businesses 19% in 2019 of enterprises using Internet for work; OECD-style definition; sample (not census) from DOS frame; copyright 2019. Does not exist: absolute enterprise counts; e-commerce sales value; years 2020-2025.
+- https://www.imda.gov.sg/-/media/imda/files/infocomm-media-landscape/research-and-statistics/sgde-report/singapore-digital-economy-report-2024.pdf -> imda_sgde_2024.txt. Exists: overall digital adoption across six areas including e-commerce. Does not exist: standalone e-commerce adoption %, enterprise counts, or e-commerce sales value.
+
+IRAS
+- https://www.iras.gov.sg/news-events/newsroom/gst-payable-on-overseas-digital-services-from-1-jan-2020 -> iras_ovr_news_20191209.txt. Exists: registered_overseas_vendors “More than 100” as of 9 Dec 2019; OVR start 1 Jan 2020; cites 2018 Budget Statement. Does not exist: collections; later-year vendor counts.
+- https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-and-digital-economy/overseas-businesses -> iras_overseas_businesses.txt. Exists: OVR thresholds S$1 million global / S$100,000 Singapore B2C; marketplace-as-supplier rule; LVG definition (S$400). Does not exist: vendor counts or collections.
+- https://www.iras.gov.sg/media/docs/default-source/e-tax/gst-guide-for-e-commerce.pdf -> iras_gst_ecommerce_guide.txt. Exists: marketplace_gst_rule start 1 Jan 2020 (digital services) and 1 Jan 2023 (LVG / remote non-digital). Published 30 Jan 2026 (Third Edition).
+- https://www.iras.gov.sg/docs/default-source/e-tax/gst-e-tax-guide_taxing-imported-remote-services-by-way-of-the-overseas-vendor-registration-regime_(1st-ed).pdf -> iras_ovr_remote_services.txt. Exists: marketplace regarded as supplier for remote services; published 30 Jan 2026. Does not exist: collections or vendor counts.
+- https://www.iras.gov.sg/docs/default-source/e-tax/gst-e-tax-guide_taxing-imported-low-value-goods-by-way-of-the-overseas-vendor-registration-regime_(1st-ed).pdf -> iras_ovr_lvg.txt. Exists: marketplace/redeliverer as supplier of LVG from 1 Jan 2023. Does not exist: collections or vendor counts.
+- https://www.iras.gov.sg/docs/default-source/uploadedfiles/gst/extended-overseas-vendor-registration-regime-slides.pdf -> iras_ovr_slides.txt. Exists: 1 Jan 2023 registration threshold and marketplace-as-supplier conditions.
+- https://www.iras.gov.sg/docs/default-source/annual-report/iras-annual-report-fy202526_hres.pdf -> iras_annual_report_fy2025.txt. Exists: total IRAS collection $97.3 billion FY2025. Does not exist: OVR-specific GST collections or registered overseas vendor counts.
+
+MOF
+- Tried https://www.mof.gov.sg/singaporebudget/budget-archives/budget-2018 and the 2019 GST consultation newsroom URL: HTTP 403 from this environment. IRAS 9 Dec 2019 release cites the 2018 Budget Statement for OVR. No MOF primary text saved.
+
+MAS
+- https://www.mas.gov.sg/statistics/payment-statistics/semi-annual-retail-payment-statistics returned a maintenance page. Direct PDF URL returned HTML, not a PDF. No MAS text saved. Payments series not extracted (no matching requested field printed).
+
+e-Conomy SEA: not used; official SingStat/IMDA/IRAS figures exist for the main value and rule fields.
+
+COUNTS AND VALUE IN THE SAME YEARS: No. Official e-commerce VALUE exists for 2022-2024 (SingStat services-sector revenue). Official enterprise COUNTS of online sellers do not exist in any year accessed; IMDA 2019 gives only a percentage of internet-using enterprises, and later IMDA reports do not print a standalone e-commerce count for those same 2022-2024 years.

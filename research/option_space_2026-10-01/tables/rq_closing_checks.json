@@ -1,0 +1,25 @@
+{
+ "provinces": 38,
+ "province_total_2024": 4400973,
+ "published_total_2024": 4400972,
+ "noise_vs_2023_surplus": {
+  "published_rse": {
+   "national_rse_pct": 1.3685737601377705,
+   "se_of_change_k": 66.38446942701306,
+   "surplus_in_se": 4.603377971017578
+  },
+  "twice_rse": {
+   "national_rse_pct": 2.737147520275541,
+   "se_of_change_k": 132.76893885402612,
+   "surplus_in_se": 2.301688985508789
+  }
+ },
+ "revenue_share_of_transaction_value_2023_pct": 7.3138574699882035,
+ "marketplace_channel_share_of_online_value_pct": {
+  "2022_low": 22.649551207208034,
+  "2022_mid": 25.57141074372441,
+  "2022_high": 24.931078265209454,
+  "2023_published": 18.229218708839376,
+  "2024_published": 15.79449621003468
+ }
+}

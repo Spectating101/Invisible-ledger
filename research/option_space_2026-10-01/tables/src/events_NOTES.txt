@@ -1,0 +1,41 @@
+Access date for all successful downloads: 2026-10-02.
+
+SOURCES SAVED (URL -> local text)
+- https://jdih.kemenkeu.go.id/fulltext/2020/48~PMK.03~2020Per.pdf -> pmk48_2020.txt (also pmk48_2020.pdf). PMK 48/PMK.03/2020 PMSE VAT.
+- https://jdih.kemenkeu.go.id/api/download/abtrak/2020/48~PMK.03~2020Per.pdf -> pmk48_2020_abstrak.txt
+- https://jdih.kemenkeu.go.id/api/download/1bfe41fc-a312-41f0-b107-70e55b69767a/60~PMK.03~2022Per.pdf -> pmk60_2022.txt
+- https://jdih.kemenkeu.go.id/api/download/11108bd4-6b31-4111-a5a9-972969c7be40/69~PMK.03~2022Per.pdf -> pmk69_2022.txt
+- https://jdih.kemenkeu.go.id/api/download/ad276b82-94bd-4197-b409-af33e2842cd6/2024pmkeuangan131.pdf -> pmk131_2024.txt
+- https://jdih.kemenkeu.go.id/api/download/03b5aa58-a359-44cc-b883-af9a634caced/37%20Tahun%202025.pdf -> pmk37_abstrak.txt (official JDIH abstract; fulltext API 404)
+- https://jdih.kemenkeu.go.id/api/download/a9faab97-aca7-4f87-9fdc-faa8123d1454/7TAHUN2021UU.pdf -> uu7_2021.txt
+- https://peraturan.bpk.go.id/Download/415514/permendag-no-19-tahun-2026.pdf -> permendag19_2026.txt
+- https://jdih.kemendag.go.id/peraturan/peraturan-menteri-perdagangan-republik-indonesia-nomor-19-tahun-2026-tentang-penyelenggaraan-usaha-perdagangan-melalui-sistem-elektronik-1 -> jdih_permendag19_2026.txt
+- https://www.kemendag.go.id/berita/siaran-pers/perkuat-ekosistem-perdagangan-digital-dan-daya-saing-produk-lokal-mendag-busan-tanda-tangani-revisi-permendag-312023 -> kemendag_permendag19_2026.txt
+- https://ditjenpdn.kemendag.go.id/berita/permendag-nomor-31-tahun-2023-tentang-perizinan-berusaha-periklanan-pembinaan-dan-pengawasan-pelaku-usaha-dalam-perdagangan-melalui-sistem-elektronik -> kemendag_p31.txt
+- https://www.gotocompany.com/en/news/press/goto-commence-public-offering-period -> goto_ipo_press.txt
+- https://content.goinfra.co.id/asts/goto/Prospektus%20Final%20GOTO%20_%20R29Apr22.pdf -> goto_prospectus_final.txt (GoTo IR prospectus)
+- https://content.goinfra.co.id/asts/GOTO%20Laporan%20Tahunan%202022.pdf -> goto_ar2022.txt
+- https://content.goinfra.co.id/asts/InvestorRelation/AnnualReport/GOTO_Laporan%20Tahunan_2023.pdf -> goto_ar2023.txt
+- https://content.goinfra.co.id/asts/InvestorRelation/AnnualReport/GOTO_Annual%20Report_2024.pdf -> goto_ar2024.txt
+- https://www.gotocompany.com/en/news/press/goto-and-tiktok-announce-transaction-completion-formalizing-strategic-partnership-for-indonesia -> goto_tiktok.txt
+- https://privacy.gotocompany.com/blog/gojek/goto -> goto_merger.txt (GoTo/Gojek company page)
+- https://www.gotocompany.com/en/news/press/gojek-to-implement-8-commission-rate-for-two-wheel-passenger-transport-service-goride-starting-july-1-2026 -> gojek_8pct_commission.txt
+- https://asset-about.blibli.com/2023/03/Press-Release-PT-Global-Digital-Niaga-Tbk-is-Officially-Listed-on-Indonesia-Stock-Exchange.pdf -> blibli_listing.txt (Blibli IR press)
+
+CHECKER NOTE
+check_rows.py skips rows with empty value and only counts non-empty values as verified. Spec said value empty; that would make `python3 check_rows.py extraction.csv 20` fail. Values are numbers taken from the saved quote (rate, rule number, or calendar number).
+
+NOT FOUND / SKIPPED
+- Permendag 50/2020 full gazette: page exists at https://peraturan.go.id/id/permendag-no-50-tahun-2020 and https://jdih.kemendag.go.id/peraturan/peraturan-menteri-perdagangan-nomor-50-tahun-2020-... ; PDF host jdih.kemendag.go.id failed DNS/timeout. No primary text saved.
+- PP 80/2019 full gazette: https://peraturan.go.id/ hung; https://setkab.go.id/inilah-peraturan-pemerintah-nomor-80-tahun-2019-... returned a bot-challenge shell, not the article. No primary text saved.
+- Kepmenhub KP 667/2022: https://jdih.dephub.go.id/api/media?... failed to connect. No primary text saved. Later KP 1001/2022 (15%+5%) also not downloaded.
+- Perpres 27/2026: searches of peraturan.go.id / JDIH found no published gazette text; contemporaneous reports said the signed text was not posted. Company 8% GoRide release saved instead.
+- PMK 37/2025 deferrals (original start, each deferral, new start): https://www.pajak.go.id/id/pengumuman/penundaan-waktu-pemberlakuan-ketentuan-pemungutan-pph-pasal-22-oleh-marketplace timed out; no deferral instrument saved. Only JDIH abstract (issue 11 Jun 2025 / promulgation 14 Jul 2025) used.
+- PMK 37/2025 fulltext PDF: https://jdih.kemenkeu.go.id/api/download/ca01c2bc-8e46-4509-a7a5-a5ca13f84599/2025pmkeuangan037.pdf returned 404.
+- Grab Nasdaq listing via SPAC (Dec 2021): https://www.sec.gov/Archives/edgar/data/1855612/000119312521345314/d272005dex991.htm and 6-K returned 403 “undeclared automated tool”; https://investors.grab.com/ Cloudflare 403. No filing/IR text saved.
+- Grab Sep 2022 layoffs and 2022–2024 20-F / earnings profitability statements: same SEC/IR block.
+- Bukalapak Aug 2021 IPO: about.bukalapak.com IR returned a stub; ir.bukalapak.com 406; idx.co.id financial-statement PDF 403. No prospectus saved.
+- GoTo Nov 2022 layoffs: 2022 annual report says “perampingan karyawan pada November 2022” / “reduction in staffing levels in November 2022” with no calendar day. Omitted (no invented day).
+- GoTo 2022–2024 incentive-cut decision with a single calendar date: AR discusses incentive/promotion cuts and path-to-profitability without a dated board/IR decision sentence. Omitted except the dated 8% GoRide policy.
+- 2025–2026 platform rules other than Permendag 19/2026: not separately sourced.
+- Kemenhub online delivery-fee rules: no primary instrument downloaded.

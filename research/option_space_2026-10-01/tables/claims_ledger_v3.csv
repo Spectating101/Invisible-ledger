@@ -1,0 +1,21 @@
+id,claim,stated,recomputed,status
+R01,GoTo on-demand 2Q26: revenue growth (%),20.5,20.5,PASS
+R02,GoTo on-demand 2Q26: sales growth (%),2.0,2.0,PASS
+R03,GoTo on-demand 2Q26: gap revenue minus sales (pts),18.5,18.5,PASS
+R04,"Official household spending 2Q26, real growth (%)",5.1,5.1,PASS
+R05,"Official household spending 2Q26, nominal growth (%)",8.3,8.3,PASS
+R06,"GoTo sales growth below official nominal spending, 2025Q3-2026Q2 (quarters of 4)",4.0,4.0,PASS
+R07,Grab on-demand 2023Q1 revenue growth (%),131.0,131.0,PASS
+R08,Grab on-demand 2023Q1 sales growth (%),4.9,4.9,PASS
+R09,Shopee 2022Q4 GMV growth (%),-1.1,-1.1,PASS
+R10,Shopee 2022Q4 marketplace revenue growth (%),38.5,38.5,PASS
+Y01,BI e-commerce 2023 growth (%),-4.7,-4.7,PASS
+Y02,BPS e-commerce 2023 growth (%),40.6,40.6,PASS
+Y03,BPS / BI 2022,1.64,1.64,PASS
+Y04,BPS / BI 2023,2.43,2.43,PASS
+Y05,BPS / BI 2024,2.65,2.65,PASS
+Y06,"BPS marketplace slice / BI, 2024",0.42,0.42,PASS
+Y07,BI e-commerce 2024 growth (%),7.3,7.3,PASS
+T01,Marketplace tax base: largest ruler / BPS marketplace,4.83,4.83,PASS
+T02,Tax at 0.5% on BPS marketplace base (Rp tn),1.02,1.02,PASS
+T03,"Tax at 0.5% on largest base, % of 2026 tax target",0.21,0.208,PASS

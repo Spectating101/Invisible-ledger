@@ -1,0 +1,92 @@
+{
+  "review_date": "2026-10-09",
+  "baseline_commit": "914bb3b538820c97779f9845a5293e5e2193e4d2",
+  "public_rebuild": {
+    "exit_code": 0,
+    "ledgers": {
+      "claims_ledger_v5.csv": {
+        "rows": 30,
+        "nonpass": 0
+      },
+      "claims_ledger_v7.csv": {
+        "rows": 26,
+        "nonpass": 0
+      },
+      "claims_ledger_v2.csv": {
+        "rows": 32,
+        "nonpass": 0
+      },
+      "claims_ledger_v4.csv": {
+        "rows": 29,
+        "nonpass": 0
+      },
+      "claims_ledger_v10.csv": {
+        "rows": 7,
+        "nonpass": 0
+      },
+      "claims_ledger_v6.csv": {
+        "rows": 14,
+        "nonpass": 0
+      },
+      "claims_ledger_v3.csv": {
+        "rows": 20,
+        "nonpass": 0
+      },
+      "claims_ledger_v11.csv": {
+        "rows": 9,
+        "nonpass": 0
+      },
+      "claims_ledger.csv": {
+        "rows": 55,
+        "nonpass": 0
+      },
+      "claims_ledger_v12.csv": {
+        "rows": 14,
+        "nonpass": 0
+      },
+      "claims_ledger_v9.csv": {
+        "rows": 9,
+        "nonpass": 0
+      },
+      "claims_ledger_v8.csv": {
+        "rows": 27,
+        "nonpass": 0
+      }
+    },
+    "total_rows": 272,
+    "total_nonpass": 0
+  },
+  "output_comparison": {
+    "baseline_commit": "914bb3b",
+    "tracked_tables_and_exhibits_compared": 163,
+    "changed_files": []
+  },
+  "licensed_new_modules": {
+    "bps_newly_counted_profile.py": {
+      "exit_code": 0,
+      "matches_saved_json": true,
+      "script_sha256": "98a66633757cfcde5d464c192b97db9c1ef8ed936127790f1603acd9a8e7cd21"
+    },
+    "bps_returning_check.py": {
+      "exit_code": 0,
+      "matches_saved_json": true,
+      "script_sha256": "415da604635f6aff8680919e628f3ad18258df7183dc8aef94affdbb1490f258"
+    },
+    "input_sha256": {
+      "survei_ecommerce_2021.dbf": "80a7145fe0a5d24b5ed9cf80d7eb41dd2d2d96a71a6a53ab04d82bcb0352f355",
+      "ecom2023.dbf": "ed9ec5243deeff75121d08811c1c1ee610b85304c0633099f652170f4d43222c",
+      "e_commerce2024.dbf": "b58ed340fcb39d04b4d0aa145ac3e433fc38853227d092402ac3801a37cea43f"
+    }
+  },
+  "artifact_validator": {
+    "exit_code": 0,
+    "proposal_sha256": "4518793abdd14c8cd6da376923636d09d48791d47e53fcde93f6dd245c54625f",
+    "proposal_pages": 21,
+    "presented_deck_slides": 18
+  },
+  "limits": [
+    "Original-code reproduction; not independent validation of survey design or economic attribution.",
+    "Full public pipeline does not rerun all licensed modules; the two new BPS modules were separately rerun.",
+    "163-file comparison includes preserved inputs and aggregates; it is not 163 raw-data reconstructions."
+  ]
+}
