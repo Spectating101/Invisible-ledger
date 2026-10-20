@@ -1,0 +1,4 @@
+2023 Indonesia country report (economy_sea_2023_indonesia.txt): Indonesia only; chart years 2021, 2022, 2023, 2025, 2030; no other SEA-6 countries and no GMV definition sentence.
+2024 regional report (economy_sea_2024.txt): SEA-6 plus Indonesia, Malaysia, Philippines, Singapore, Thailand, Vietnam; country and regional GMV charts for 2022, 2023, 2024, 2030 (2019 e-commerce GMV not printed); GMV defined as gross merchandise value and e-commerce excludes informal commerce.
+2024 Indonesia country report (economy_sea_2024_indonesia.txt): Indonesia only; chart years 2022, 2023, 2024, 2030; same Indonesia figures as the 2024 regional spotlight; no GMV definition sentence.
+2025 Indonesia country report (economy_sea_2025_indonesia.txt): Indonesia only; chart years 2023, 2024, 2025, 2030; no other SEA-6 countries and no GMV definition sentence.

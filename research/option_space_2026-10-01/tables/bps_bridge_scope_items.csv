@@ -1,0 +1,7 @@
+item,direction,evidence,sizing
+Shopee GMV includes shipping and other charges,platform > BPS sales,Sea 20-F 2024 definition sentence,not sized in any filing
+"Tokopedia GTV includes digital goods, cars and motorcycles; commission base excludes digital goods and some high-value items",platform > BPS goods sales,GoTo 4Q23 release; GoTo financial statements 2024 (Tokopedia agreement),not sized; only a growth contrast (core GTV -26% vs total -8% in 4Q23)
+"BPS value is business online-sales revenue, collected from businesses (formal and informal) with an online order in the year",BPS <= platform,"BPS provincial books (Sulut, Bali 2023)","survey frame is businesses, not individual sellers or foreign sellers"
+BPS marketplace share is 18.23% on the exclusive split and 32.74% on the multiple-response question,do not mix,BPS 2023/2024 publications as recorded in the repo,only the exclusive split is additive
+BPS reference year: survey in year t+1 asks about activity in year t,timing,BPS Statistik E-Commerce 2022 vs 2023 books,alignment checked for 2023 only
+"Three national yardsticks for 2024: BPS Rp1,289tn, e-Conomy about US$62-65bn, Bank Indonesia Rp487tn",ruler risk,BPS; e-Conomy 2024 and 2025 editions; BI Cerita BI,BPS/BI = 2.6x

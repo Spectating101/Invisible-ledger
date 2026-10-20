@@ -1,0 +1,117 @@
+entity,period,field,value,unit,source_file,quote,note
+UBER,FY2019,gross_volume,65.0,USD_bn,UBER_10K_2020-03-02.txt,"Gross Bookings grew over $15 billion for the third consecutive year, up to $65.0 billion or 35% , on a constant currency basis.",Uber Gross Bookings
+UBER,FY2020,gross_volume,57897,USD_m,UBER_10K_2021-03-01.txt,"| | $ | 49,799 | | | $ | 65,001 | | | $ | 57,897 | | | 31 | % | | (11) | % | | (9) | % |","Gross Bookings table 2018/2019/2020; FY2020 $57,897 million"
+UBER,FY2021,gross_volume,90415,USD_m,UBER_10K_2022-02-24.txt,"| | $ | 57,897 | | | $ | 90,415 | | | 56 | % | | 53 | % |","Gross Bookings table; FY2021 $90,415 million"
+UBER,FY2022,gross_volume,115395,USD_m,UBER_10K_2023-02-21.txt,"| | $ | 90,415 | | | $ | 115,395 | | | 28 | % | | 33 | % |","Gross Bookings table; FY2022 $115,395 million"
+UBER,FY2023,gross_volume,137865,USD_m,UBER_10K_2024-02-15.txt,"| $ | 115,395 | $ | 137,865 | 19 | % | 20 | % |","Gross Bookings table; FY2023 $137,865 million"
+UBER,FY2024,gross_volume,162773,USD_m,UBER_10K_2025-02-14.txt,"| $ | 137,865 | $ | 162,773 | 18 | % | 21 | % |","Gross Bookings table; FY2024 $162,773 million"
+UBER,FY2025,gross_volume,193454,USD_m,UBER_10K_2026-02-13.txt,"| $ | 162,773 | $ | 193,454 | 19 | % | 20 | % |","Gross Bookings table; FY2025 $193,454 million"
+UBER,FY2019,revenue,14.1,USD_bn,UBER_10K_2020-03-02.txt,"Revenue and Adjusted Net Revenue grew to $14.1 billion and $12.9 billion , respectively, with quarterly growth rates accelerating throughout 2019 and ending with a full-year Take Rate of 19.8% .",GAAP revenue as printed in 2019 10-K MD&A
+UBER,FY2020,revenue,11.1,USD_bn,UBER_10K_2021-03-01.txt,"Revenue was $11.1 billion, or down 14% year-over-year, reflecting the impact of COVID-19 on our Mobility business, partially offset by overall growth in our Delivery business.",total revenue
+UBER,FY2021,revenue,17455,USD_m,UBER_10K_2022-02-24.txt,"Revenue | | $ | 11,139 | | | $ | 17,455 | | | 57 | % | | 54 | % |","consolidated revenue table; FY2021 $17,455 million"
+UBER,FY2022,revenue,31.9,USD_bn,UBER_10K_2023-02-21.txt,"Revenue was $31.9 billion, or up 83% year-over-year.",total revenue
+UBER,FY2023,revenue,37.3,USD_bn,UBER_10K_2024-02-15.txt,"Revenue was $37.3 billion, up 17% year-over-year.",total revenue
+UBER,FY2024,revenue,44.0,USD_bn,UBER_10K_2025-02-14.txt,"Revenue was $44.0 billion, up 18% year-over-year, primarily attributable to an increase in Gross Bookings of 18%.",total revenue
+UBER,FY2025,revenue,52.0,USD_bn,UBER_10K_2026-02-13.txt,"Revenue was $52.0 billion, up 18% year-over-year, primarily attributable to an increase in Gross Bookings of 19%.",total revenue
+UBER,FY2019,take_rate,19.8,pct,UBER_10K_2020-03-02.txt,ending with a full-year Take Rate of 19.8% .,full-year Take Rate
+UBER,FY2020,take_rate,19.2,pct,UBER_10K_2021-03-01.txt,"Revenue improved every quarter from the second quarter of 2020, with a Take Rate of 19.2% in 2020.",Take Rate as printed
+UBER,FY2019,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2020,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2021,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2022,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2023,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2024,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2025,incentive_level,,,,,10-K does not print a total dollar amount of incentives recorded as a reduction of revenue
+UBER,FY2019,note_text,,,UBER_10K_2020-03-02.txt,"As Drivers are our customers, Driver incentives are recorded as a reduction of revenue if we do not receive a distinct service or cannot reasonably estimate the fair value of the service received.",accounting: Driver incentives as reduction of revenue
+UBER,FY2019,note_text,,,UBER_10K_2020-03-02.txt,"Accordingly, we record the cost of these promotions as a reduction of revenue at the time the trip is completed.",accounting: market-wide promotions as reduction of revenue
+UBER,FY2019,note_text,,,UBER_10K_2020-03-02.txt,"We have concluded that we are an agent in these arrangements as we arrange for other parties to provide the service to the end-user. Under this model, revenue is net of Driver and Restaurant earnings and Driver incentives.",business model: agent; revenue net of Driver incentives
+UBER,FY2021,note_text,,,UBER_10K_2022-02-24.txt,End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.,accounting: end-user discounts S&M vs market-wide as reduction of revenue
+UBER,FY2022,note_text,,,UBER_10K_2023-02-21.txt,End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.,accounting: end-user discounts S&M vs market-wide as reduction of revenue
+UBER,FY2022,note_text,,,UBER_10K_2023-02-21.txt,"Revenue was $31.9 billion, or up 83% year-over-year. Revenue growth outpaced Gross Bookings growth primarily due to a $4.8 billion increase in our Freight business primarily due to the acquisition of Transplace during the fourth quarter of 2021, the net favorable impact to Mobility revenue of $3.9 billion as a result of business model changes in the UK and accruals made for the resolution of historical claims in the UK relating to the classificat",business-model change: UK classification claims and UK model
+UBER,FY2022,note_text,,,UBER_10K_2023-02-21.txt,"As of March 14, 2022, we modified our operating model in the UK, such that as of that date Uber UK is a merchant of transportation and is required to remit VAT.","business-model change: UK merchant of transportation as of March 14, 2022"
+UBER,FY2023,note_text,,,UBER_10K_2024-02-15.txt,End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.,accounting: end-user discounts S&M vs market-wide as reduction of revenue
+UBER,FY2024,note_text,,,UBER_10K_2025-02-14.txt,End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.,accounting: end-user discounts S&M vs market-wide as reduction of revenue
+UBER,FY2025,note_text,,,UBER_10K_2026-02-13.txt,End-user discounts and promotions are recorded to sales and marketing expenses with the exception of market-wide promotions which are recorded as a reduction of revenue.,accounting: end-user discounts S&M vs market-wide as reduction of revenue
+UBER,FY2025,note_text,,,UBER_10K_2026-02-13.txt,"We have concluded that we are an agent in these arrangements as we arrange for other parties to provide the service to the end-user. Under this model, revenue is net of Driver and Merchant earnings and Driver incentives.",business model: agent; revenue net of Driver incentives
+LYFT,FY2019,gross_volume,,,,,Lyft 2019 10-K does not disclose Gross Bookings/Bookings as an annual dollar total
+LYFT,FY2020,gross_volume,,,,,Lyft 2020 10-K does not disclose Gross Bookings/Bookings as an annual dollar total
+LYFT,FY2021,gross_volume,9745.7,USD_m,LYFT_10K_2024-02-20.txt,"Gross Bookings | $ | 13,775.2 | $ | 12,057.3 | $ | 9,745.7 | 14 | % | 24 | % |","Gross Bookings printed in later 10-K; FY2021 $9,745.7 million"
+LYFT,FY2022,gross_volume,12057.3,USD_m,LYFT_10K_2024-02-20.txt,"Gross Bookings | $ | 13,775.2 | $ | 12,057.3 | 14% |","FY2022 Gross Bookings $12,057.3 million"
+LYFT,FY2023,gross_volume,13775.2,USD_m,LYFT_10K_2024-02-20.txt,"Gross Bookings | $ | 13,775.2 | $ | 12,057.3 | 14% |","FY2023 Gross Bookings $13,775.2 million"
+LYFT,FY2024,gross_volume,16099.4,USD_m,LYFT_10K_2025-02-14.txt,"Gross Bookings | $ | 16,099.4 | $ | 13,775.2 | 17% |","FY2024 Gross Bookings $16,099.4 million"
+LYFT,FY2025,gross_volume,18507.0,USD_m,LYFT_10K_2026-02-11.txt,"Gross Bookings | $ | 18,507.0 | $ | 16,099.4 | 15% |","FY2025 Gross Bookings $18,507.0 million"
+LYFT,FY2019,revenue,3616.0,USD_m,LYFT_10K_2020-02-28.txt,"Revenue | $ | 3,616.0 | | | $ | 2,156.6 | | | | $ | 1,059.9 | |",total revenue in millions
+LYFT,FY2020,revenue,2364.7,USD_m,LYFT_10K_2021-03-01.txt,"Revenue | $ | 2,364.7 | | | $ | 3,616.0 | | | $ | 2,156.6 | |",total revenue in millions; FY2020 first column
+LYFT,FY2021,revenue,3208.3,USD_m,LYFT_10K_2022-02-28.txt,"Revenue | $ | 3,208.3 | | | $ | 2,364.7 | | | $ | 3,616.0 | |",total revenue in millions; FY2021 first column
+LYFT,FY2022,revenue,4095.1,USD_m,LYFT_10K_2023-02-27.txt,"Revenue | $ | 4,095.1 | | | $ | 3,208.3 | | | 28 | % |",total revenue in millions
+LYFT,FY2023,revenue,4403.6,USD_m,LYFT_10K_2024-02-20.txt,"Revenue | $ | 4,403.6 | $ | 4,095.1 | 8% |",total revenue in millions
+LYFT,FY2024,revenue,5786.0,USD_m,LYFT_10K_2025-02-14.txt,"Revenue | $ | 5,786.0 | $ | 4,403.6 | 31% |",total revenue in millions
+LYFT,FY2025,revenue,6316.3,USD_m,LYFT_10K_2026-02-11.txt,"Revenue | $ | 6,316.3 | $ | 5,786.0 | 9% |",total revenue in millions
+LYFT,FY2019,incentive_level,560.3,USD_m,LYFT_10K_2020-02-28.txt,"the Company recorded $ 560.3 million, $ 555.4 million and $ 383.9 million as a reduction to revenue",driver/passenger/Light Vehicle renter incentives as reduction to revenue
+LYFT,FY2020,incentive_level,390.8,USD_m,LYFT_10K_2021-03-01.txt,"the Company recorded $ 390.8 million, $ 560.3 million and $ 555.4 million as a reduction to revenue",incentives recorded as reduction to revenue
+LYFT,FY2021,incentive_level,1.3,USD_bn,LYFT_10K_2022-02-28.txt,"the Company recorded $ 1.3 billion, $ 390.8 million and $ 560.3 million as a reduction to revenue",incentives recorded as reduction to revenue
+LYFT,FY2022,incentive_level,1.4,USD_bn,LYFT_10K_2023-02-27.txt,"the Company recorded $ 1.4 billion, $ 1.3 billion and $ 390.8 million as a reduction to revenue",incentives recorded as reduction to revenue
+LYFT,FY2023,incentive_level,1.1,USD_bn,LYFT_10K_2024-02-20.txt,"the Company recorded $ 1.1 billion, $ 1.4 billion and $ 1.3 billion as a reduction to revenue",incentives recorded as reduction to revenue
+LYFT,FY2024,incentive_level,777.4,USD_m,LYFT_10K_2025-02-14.txt,"the Company recorded $ 777.4 million, $ 1.1 billion and $ 1.4 billion as a reduction to revenue",incentives recorded as reduction to revenue
+LYFT,FY2025,incentive_level,,,,,2025 10-K does not print a total dollar amount of incentives recorded as a reduction to revenue for 2025
+LYFT,FY2021,incentive_change,942.9,USD_m,LYFT_10K_2022-02-28.txt,These increases were offset by investments in driver supply by increasing driver incentives recorded as a reduction to revenue by $942.9 million in 2021 as compared to the prior year,increase
+LYFT,FY2022,incentive_change,38.5,USD_m,LYFT_10K_2023-02-27.txt,"Investments in driver supply, which are recorded as a reduction to revenue, increased by $38.5 million in 2022 as compared to the prior year.",increase
+LYFT,FY2023,incentive_change,-233.6,USD_m,LYFT_10K_2024-02-20.txt,"Investments in driver supply, which are recorded as a reduction to revenue, decreased by $233.6 million in 2023 as compared to the prior year.",decrease
+LYFT,FY2024,incentive_change,-325.7,USD_m,LYFT_10K_2025-02-14.txt,"Investments in driver supply, which are recorded as a reduction to revenue, decreased by $325.7 million in 2024 as compared to the prior year.",decrease
+LYFT,FY2025,incentive_change,-121.4,USD_m,LYFT_10K_2026-02-11.txt,"Investments in driver supply, which are recorded as a reduction to revenue, decreased by $121.4 million in 2025 as compared to the prior year as driver supply on the platform benefited from organic growth.",decrease
+LYFT,FY2024,note_text,,,LYFT_10K_2025-02-14.txt,"Therefore, such driver incentives are recorded as a reduction to revenue.",accounting: driver incentives as reduction to revenue
+LYFT,FY2024,note_text,,,LYFT_10K_2025-02-14.txt,Driver incentives for referring new drivers or riders are accounted for as sales and marketing expense.,accounting: referral incentives in sales and marketing
+LYFT,FY2025,note_text,,,LYFT_10K_2026-02-11.txt,We offer various incentive programs to drivers that are recorded as a reduction to revenue if we do not receive a distinct good or service in consideration or if we cannot reasonably estimate the fair value of goods or services received.,accounting: driver incentives as reduction to revenue
+LYFT,FY2025,note_text,,,LYFT_10K_2026-02-11.txt,"Sales and marketing expenses primarily consist of rider incentives, personnel-related compensation costs, certain driver incentives, advertising expenses, rider refunds, amortization of certain intangible assets and marketing partnerships with third parties.",accounting: rider incentives in sales and marketing
+DASH,FY2020,gross_volume,24.7,USD_bn,DASH_10K_2021-03-05.txt,"In the year ended December 31, 2020, Marketplace GOV increased to $24.7 billion, or 207% growth compared to the year ended December 31, 2019",Marketplace GOV
+DASH,FY2021,gross_volume,41.9,USD_bn,DASH_10K_2022-03-01.txt,"In the year ended December 31, 2021, Marketplace GOV increased to $41.9 billion, or 70% growth compared to the year ended December 31, 2020, consistent with the growth in Total Orders.",Marketplace GOV
+DASH,FY2022,gross_volume,53.4,USD_bn,DASH_10K_2023-02-27.txt,"In 2022, Marketplace GOV increased to $53.4 billion, or 27% growth compared to 2021, driven primarily by organic growth in Total Orders as well as our acquisition of Wolt.",Marketplace GOV
+DASH,FY2023,gross_volume,66.8,USD_bn,DASH_10K_2024-02-20.txt,"Marketplace GOV grew to $66.8 billion in 2023, a 25% increase compared to 2022, driven primarily by organic growth in Total Orders as well as the inclusion of Wolt for a full fiscal year.",Marketplace GOV
+DASH,FY2024,gross_volume,80.2,USD_bn,DASH_10K_2025-02-14.txt,"Marketplace GOV grew to $80.2 billion in 2024, a 20% increase compared to 2023, driven primarily by growth in Total Orders.",Marketplace GOV
+DASH,FY2025,gross_volume,102.0,USD_bn,DASH_10K_2026-02-18.txt,"Marketplace GOV grew to $102.0 billion in 2025, a 27% increase compared to 2024, driven primarily by growth in Total Orders.",Marketplace GOV
+DASH,FY2020,revenue,2886,USD_m,DASH_10K_2021-03-05.txt,"Revenue | | $ | 291 | | | $ | 885 | | | $ | 2,886 | |","total revenue; FY2020 $2,886 million"
+DASH,FY2021,revenue,4888,USD_m,DASH_10K_2022-03-01.txt,"Revenue | | $ | 885 | | | $ | 2,886 | | | $ | 4,888 | |","total revenue; FY2021 $4,888 million"
+DASH,FY2022,revenue,6583,USD_m,DASH_10K_2023-02-27.txt,"Revenue | | $ | 2,886 | | | $ | 4,888 | | | $ | 6,583 | |","total revenue; FY2022 $6,583 million"
+DASH,FY2023,revenue,8635,USD_m,DASH_10K_2024-02-20.txt,"Revenue | $ | 4,888 | $ | 6,583 | $ | 8,635 |","total revenue; FY2023 $8,635 million"
+DASH,FY2024,revenue,10722,USD_m,DASH_10K_2025-02-14.txt,"Revenue | $ | 6,583 | $ | 8,635 | $ | 10,722 |","total revenue; FY2024 $10,722 million"
+DASH,FY2025,revenue,13717,USD_m,DASH_10K_2026-02-18.txt,"Revenue | $ | 8,635 | $ | 10,722 | $ | 13,717 |","total revenue; FY2025 $13,717 million"
+DASH,FY2020,net_revenue_margin,11.7,pct,DASH_10K_2023-02-27.txt,Net Revenue Margin | | 11.7 | % | | 11.7 | % | | 12.3 | % |,NRM 2020/2021/2022; FY2020 first column 11.7%
+DASH,FY2021,net_revenue_margin,11.7,pct,DASH_10K_2023-02-27.txt,Net Revenue Margin | | 11.7 | % | | 11.7 | % | | 12.3 | % |,NRM; FY2021 second 11.7%
+DASH,FY2022,net_revenue_margin,12.3,pct,DASH_10K_2023-02-27.txt,Net Revenue Margin | | 11.7 | % | | 11.7 | % | | 12.3 | % |,NRM; FY2022 12.3%
+DASH,FY2023,net_revenue_margin,12.9,pct,DASH_10K_2024-02-20.txt,"Net Revenue Margin increased to 12.9% in 2023 from 12.3% in 2022 , primarily due to improved logistics efficiency and quality, as well as increasing contribution from advertising revenue.",Net Revenue Margin
+DASH,FY2024,net_revenue_margin,13.4,pct,DASH_10K_2025-02-14.txt,"Net Revenue Margin increased to 13.4% in 2024 from 12.9% in 2023, primarily due to an increased contribution from advertising revenue.",Net Revenue Margin
+DASH,FY2025,net_revenue_margin,13.4,pct,DASH_10K_2026-02-18.txt,"Net Revenue Margin was 13.4% in 2025, consistent with 2024.",Net Revenue Margin
+DASH,FY2020,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2020,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2021,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2021,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2022,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2022,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2023,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2023,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2024,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2024,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2025,incentive_level,,,,,10-K does not print a total dollar amount of promotions/incentives recorded as a reduction of revenue
+DASH,FY2025,margin_effect_pp,,,,,no sentence stating incentives/promotions changed NRM by a stated number of percentage points or percent of volume
+DASH,FY2020,note_text,,,DASH_10K_2021-03-05.txt,Promotions offered to consumers are primarily recorded as a reduction of revenue and include the following:,accounting: consumer promotions primarily reduction of revenue
+DASH,FY2025,note_text,,,DASH_10K_2026-02-18.txt,Promotions offered to consumers are primarily recorded as a reduction of revenue and include the following:,accounting: consumer promotions primarily reduction of revenue
+DASH,FY2025,note_text,,,DASH_10K_2026-02-18.txt,The Company accounts for such refunds as variable consideration and therefore records the amount of each refund or credit issued as a reduction of revenue.,accounting: credits/refunds as reduction of revenue
+CART,FY2023,gross_volume,30322,USD_m,CART_10K_2024-03-05.txt,"In 2023, GTV increased to $30,322 million, or 5% growth compared to 2022, driven primarily by the increase in orders and, to a lesser extent, higher average order value.",Instacart GTV
+CART,FY2024,gross_volume,33461,USD_m,CART_10K_2025-02-28.txt,"In 2024, GTV increased to $33,461 million, or 10% growth compared to 2023, driven primarily by the increase in orders and, to a lesser extent, higher average order value.",Instacart GTV
+CART,FY2025,gross_volume,37224,USD_m,CART_10K_2026-02-26.txt,"In 2025, GTV increased to $37,224 million, or 11% growth compared to 2024, driven primarily by the increase in orders, partially offset by lower average order value.",Instacart GTV
+CART,FY2023,revenue,3042,USD_m,CART_10K_2024-03-05.txt,"Revenue | $ | 1,834 | $ | 2,551 | $ | 3,042 |","total revenue; FY2023 $3,042 million"
+CART,FY2024,revenue,3378,USD_m,CART_10K_2025-02-28.txt,"Revenue | $ | 2,551 | $ | 3,042 | $ | 3,378 |","total revenue; FY2024 $3,378 million"
+CART,FY2025,revenue,3742,USD_m,CART_10K_2026-02-26.txt,"Revenue | $ | 3,042 | $ | 3,378 | $ | 3,742 |","total revenue; FY2025 $3,742 million"
+CART,FY2023,net_revenue_margin,,,,,10-K does not print transaction revenue as a percent of GTV
+CART,FY2023,incentive_level,,,,,10-K does not print a total dollar amount of incentives/promotions recorded as a reduction of revenue
+CART,FY2023,margin_effect_pp,,,,,no sentence stating incentives changed take rate/NRM by a stated number of percentage points or percent of volume
+CART,FY2024,net_revenue_margin,,,,,10-K does not print transaction revenue as a percent of GTV
+CART,FY2024,incentive_level,,,,,10-K does not print a total dollar amount of incentives/promotions recorded as a reduction of revenue
+CART,FY2024,margin_effect_pp,,,,,no sentence stating incentives changed take rate/NRM by a stated number of percentage points or percent of volume
+CART,FY2025,net_revenue_margin,,,,,10-K does not print transaction revenue as a percent of GTV
+CART,FY2025,incentive_level,,,,,10-K does not print a total dollar amount of incentives/promotions recorded as a reduction of revenue
+CART,FY2025,margin_effect_pp,,,,,no sentence stating incentives changed take rate/NRM by a stated number of percentage points or percent of volume
+CART,FY2023,note_text,,,CART_10K_2024-03-05.txt,"Coupons and incentives provided to end users and shoppers, respectively, are recorded as a reduction of revenue if the Company does not receive a distinct good or service or cannot reasonably estimate the fair value of the good or service received in exchange for the coupon or incentive.",accounting: coupons/incentives as reduction of revenue
+CART,FY2023,note_text,,,CART_10K_2024-03-05.txt,"These coupons are offered to end users to acquire, reengage, or generally increase an end user’s use of the service and are recognized as a reduction of revenue at the time they are redeemed by the end user.",accounting: promotional coupons as reduction of revenue
+CART,FY2025,note_text,,,CART_10K_2026-02-26.txt,"Coupons and incentives provided to end users and shoppers, respectively, are recorded as a reduction of revenue if the Company does not receive a distinct good or service or cannot reasonably estimate the fair value of the good or service received in exchange for the coupon or incentive.",accounting: coupons/incentives as reduction of revenue
+CART,FY2025,note_text,,,CART_10K_2026-02-26.txt,"We regularly provide customers with appeasement credits and refunds as well as incentives for future orders, which measures are intended to counteract any reputational harm and maintain customer satisfaction but are accounted for as direct reductions to our transaction revenue. These negative impacts to our revenue have harmed, and may continue to harm, our margin and results of operations, and the related customer dissatisfaction negatively impa","accounting: appeasement credits, refunds, and incentives as direct reductions to transaction revenue"

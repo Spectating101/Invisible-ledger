@@ -1,0 +1,26 @@
+{
+ "tax_value_reach_pct_2022": {
+  "low": 17.522680395429507,
+  "mid": 23.58201787604972,
+  "high": 23.379724468469426
+ },
+ "tax_seller_reach_pct": 5.417281855641095,
+ "marketplace_sellers_share_pct": {
+  "2022": 19.752403007948033,
+  "2023": 17.80747394371653,
+  "2024_published": 17.23
+ },
+ "off_marketplace_wanting_to_join_pct": 13.498577045776749,
+ "tax_base_range_Rp_tn": [
+  203.6,
+  983.0
+ ],
+ "tax_at_half_pct_share_of_2026_target_pct": [
+  0.043,
+  0.208
+ ],
+ "grab_rides_share_of_ondemand_gmv_pct_last4q": 35.63619565403927,
+ "grab_take_rate_rides_pct_last4q": 15.32679698274309,
+ "grab_take_rate_deliveries_pct_last4q": 12.618742888410674,
+ "grab_incentives_pct_of_ondemand_gmv_last4q": 10.3575
+}

@@ -1,0 +1,258 @@
+{
+ "2022-23": {
+  "Foreign, high-income markets": {
+   "firms_with_both": 14,
+   "median_in_window": 0.048983070447651794,
+   "median_other_years": 0.040733595726709274,
+   "firms_larger_in_window": 7,
+   "wilcoxon_one_sided_p": 0.61956787109375,
+   "firms": {
+    "ACVA": [
+     0.093,
+     0.204
+    ],
+    "ASAPQ": [
+     0.05,
+     0.15
+    ],
+    "DIBS": [
+     0.017,
+     0.041
+    ],
+    "EXPE": [
+     0.019,
+     0.041
+    ],
+    "Etsy": [
+     0.11,
+     0.043
+    ],
+    "FVRR": [
+     0.043,
+     0.075
+    ],
+    "RBA": [
+     0.086,
+     0.047
+    ],
+    "REAL": [
+     0.048,
+     0.037
+    ],
+    "SEAT": [
+     0.028,
+     0.347
+    ],
+    "Shopify": [
+     0.077,
+     0.034
+    ],
+    "UPWK": [
+     0.08,
+     0.025
+    ],
+    "VCSA": [
+     0.021,
+     0.033
+    ],
+    "Zalando": [
+     0.021,
+     0.018
+    ],
+    "eBay": [
+     0.074,
+     0.008
+    ]
+   }
+  },
+  "Foreign, lower-income markets": {
+   "firms_with_both": 7,
+   "median_in_window": 0.141560404844004,
+   "median_other_years": 0.1417793687271159,
+   "firms_larger_in_window": 2,
+   "wilcoxon_one_sided_p": 0.65625,
+   "firms": {
+    "DESP": [
+     0.016,
+     0.073
+    ],
+    "HEPS": [
+     0.028,
+     0.142
+    ],
+    "Jumia": [
+     0.162,
+     0.007
+    ],
+    "KSPI": [
+     0.06,
+     0.221
+    ],
+    "MOGU": [
+     0.142,
+     0.234
+    ],
+    "Sea / Shopee": [
+     0.144,
+     0.272
+    ],
+    "YTRA": [
+     0.21,
+     0.035
+    ]
+   }
+  },
+  "Indonesia and region": {
+   "firms_with_both": 4,
+   "median_in_window": 0.3807262976971565,
+   "median_other_years": 0.08505821398701957,
+   "firms_larger_in_window": 3,
+   "firms": {
+    "Blibli 3P Retail": [
+     0.9,
+     0.129
+    ],
+    "Bukalapak Group": [
+     0.286,
+     0.041
+    ],
+    "GoTo on-demand": [
+     0.094,
+     0.28
+    ],
+    "Grab on-demand": [
+     0.476,
+     0.024
+    ]
+   }
+  }
+ },
+ "2022-24": {
+  "Foreign, high-income markets": {
+   "firms_with_both": 14,
+   "median_in_window": 0.044632255729267004,
+   "median_other_years": 0.05230299667633865,
+   "firms_larger_in_window": 5,
+   "wilcoxon_one_sided_p": 0.85211181640625,
+   "firms": {
+    "ACVA": [
+     0.155,
+     0.208
+    ],
+    "ASAPQ": [
+     0.05,
+     0.15
+    ],
+    "DIBS": [
+     0.026,
+     0.04
+    ],
+    "EXPE": [
+     0.005,
+     0.052
+    ],
+    "Etsy": [
+     0.088,
+     0.02
+    ],
+    "FVRR": [
+     0.054,
+     0.057
+    ],
+    "RBA": [
+     0.064,
+     0.054
+    ],
+    "REAL": [
+     0.043,
+     0.037
+    ],
+    "SEAT": [
+     0.036,
+     0.603
+    ],
+    "Shopify": [
+     0.046,
+     0.053
+    ],
+    "UPWK": [
+     0.099,
+     0.022
+    ],
+    "VCSA": [
+     0.013,
+     0.079
+    ],
+    "Zalando": [
+     0.009,
+     0.032
+    ],
+    "eBay": [
+     0.041,
+     0.013
+    ]
+   }
+  },
+  "Foreign, lower-income markets": {
+   "firms_with_both": 7,
+   "median_in_window": 0.0812198083120491,
+   "median_other_years": 0.20210708787993947,
+   "firms_larger_in_window": 1,
+   "wilcoxon_one_sided_p": 0.9609375,
+   "firms": {
+    "DESP": [
+     0.018,
+     0.071
+    ],
+    "HEPS": [
+     0.024,
+     0.202
+    ],
+    "Jumia": [
+     0.162,
+     0.007
+    ],
+    "KSPI": [
+     0.081,
+     0.361
+    ],
+    "MOGU": [
+     0.188,
+     0.238
+    ],
+    "Sea / Shopee": [
+     0.108,
+     0.29
+    ],
+    "YTRA": [
+     0.029,
+     0.035
+    ]
+   }
+  },
+  "Indonesia and region": {
+   "firms_with_both": 4,
+   "median_in_window": 0.3221337046475028,
+   "median_other_years": 0.06135707237985333,
+   "firms_larger_in_window": 4,
+   "firms": {
+    "Blibli 3P Retail": [
+     0.366,
+     0.133
+    ],
+    "Bukalapak Group": [
+     0.286,
+     0.041
+    ],
+    "GoTo on-demand": [
+     0.289,
+     0.076
+    ],
+    "Grab on-demand": [
+     0.355,
+     0.047
+    ]
+   }
+  }
+ }
+}

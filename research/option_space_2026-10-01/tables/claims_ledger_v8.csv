@@ -1,0 +1,28 @@
+id,claim,stated,recomputed,status
+L01,Main obstacle 2023: lack of demand (% of sellers),41.3,41.251749,PASS
+L02,Main obstacle 2023 among existing sellers whose revenue fell: lack of demand (%),58.2,58.160879,PASS
+L03,Off-marketplace sellers wanting to join a marketplace (%),13.5,13.498577,PASS
+L04,"BPS marketplace value growth 2022-23, mid scenario (%)",0.2,0.231967,PASS
+L05,"BPS marketplace value growth 2022-23, low scenario (%)",13.2,13.16219,PASS
+L06,Online sellers on marketplaces with Rp300m+ revenue (% of all online sellers),5.4,5.417282,PASS
+L07,"BPS 2023 value increase from newly counted sellers, mid (%)",15.4,15.440416,PASS
+L08,"BPS 2023 value increase from entrants, mid (%)",25.5,25.46153,PASS
+L09,"BPS 2023 value increase left for existing sellers, mid (%)",59.1,59.098053,PASS
+L10,"Existing sellers' reported change in online revenue 2023, mean (%)",-4.3,-4.314186,PASS
+L11,"Existing sellers with 20+ workers, mean reported change (%)",1.4,1.415594,PASS
+L12,"Existing sellers with 1 worker, mean reported change (%)",-6.3,-6.343226,PASS
+L13,Existing sellers 2022 vs 2021: online revenue up (%),36.9,36.880147,PASS
+L14,Existing sellers 2022 vs 2021: online revenue down (%),24.4,24.415819,PASS
+L15,Main obstacle 2022: lack of demand (%),35.3,35.263034,PASS
+L16,Main obstacle 2022: lack of capital (%),36.8,36.836089,PASS
+L17,Foreign firms: median take-rate swing within 3 years of listing,0.07,0.069737,PASS
+L18,Foreign firms: median take-rate swing later,0.084,0.083702,PASS
+L19,"Foreign firms: within-3-years vs later, Wilcoxon p",0.24,0.244354,PASS
+L20,Indonesian platforms whose largest move came 1 year after listing (of 5),4.0,4.0,PASS
+P01,BPS marketplace sellers 2022 (thousands),592.0,591.779229,PASS
+P02,BPS marketplace sellers with Rp50bn+ revenue: sample rows,19.0,19.0,PASS
+P03,BPS marketplace sellers with Rp50bn+ revenue (% of sellers),0.5,0.533806,PASS
+P04,"BPS marketplace sellers using a shopping marketplace, 2023 (%)",47.0,47.012515,PASS
+P05,"BPS marketplace sellers using only food and ride apps, 2023 (%)",43.1,43.065227,PASS
+P06,"Rp50bn+ sellers' share of BPS marketplace value, low scenario (%)",39.0,39.429236,PASS
+P07,"Rp50bn+ sellers' share of BPS marketplace value, mid scenario (%)",18.0,18.068837,PASS

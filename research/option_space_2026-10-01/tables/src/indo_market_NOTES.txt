@@ -1,0 +1,113 @@
+Access date for all URLs below: 2 Oct 2026.
+
+SOURCES USED (saved as .txt in this folder)
+
+1. https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2021_report.pdf
+   Saved: economy_sea_id_2021.pdf + economy_sea_id_2021.txt (pdftotext -layout)
+   Publisher type: primary (Google/Temasek/Bain e-Conomy SEA 2021, Indonesia country report)
+
+2. https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2023_report.pdf
+   Saved: economy_sea_id_2023.pdf + economy_sea_id_2023.txt
+   Publisher type: primary (Google/Temasek/Bain e-Conomy SEA 2023, Indonesia)
+
+3. https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2024_report.pdf
+   Saved: economy_sea_id_2024.pdf + economy_sea_id_2024.txt
+   Publisher type: primary (Google/Temasek/Bain e-Conomy SEA 2024, Indonesia)
+
+4. https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2025_report.pdf
+   Saved: economy_sea_id_2025.pdf + economy_sea_id_2025.txt
+   Publisher type: primary (Google/Temasek/Bain e-Conomy SEA 2025, Indonesia)
+
+5. https://blog.google/intl/id-id/company-news/outreach-initiatives/2022_11_economy-sea-2022-indonesia/
+   Saved: google_economy_2022_id.txt (lynx -dump). Date on page: 7 Nov 2022.
+   Publisher type: primary (Google blog restating e-Conomy SEA 2022)
+
+6. https://blog.google/intl/id-id/e-conomy-sea-2024-perekonomian-digital-indonesia-akan-mencapai-gmv-90-miliar-pada-tahun-2024/
+   Saved: google_economy_2024_id.txt. Date on page: 13 Nov 2024.
+   Publisher type: primary (Google/Temasek/Bain)
+
+7. https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/
+   Saved: google_economy_2025_id.txt. Date on page: 13 Nov 2025.
+   Publisher type: primary (Google/Temasek/Bain)
+
+8. https://thelowdown.momentum.asia/new-report-ecommerce-in-southeast-asia-achieved-us-100-billion-gmv-in-2022/
+   Saved: mw_sea_2022.txt. Date on page: 15 Jun 2023.
+   Publisher type: primary (Momentum Works free summary)
+
+9. https://thelowdown.momentum.asia/press-release-southeast-asia-ecommerce-achieves-us114-6-billion-gmv-in-2023-momentum-works/
+   Saved: mw_sea_2023_pr.txt. Date on page: 16 Jul 2024.
+   Publisher type: primary (Momentum Works press release)
+
+10. https://thelowdown.momentum.asia/press-release-southeast-asias-platform-ecommerce-gmv-reaches-us128-4b-top-3-platforms-increase-market-share-to-84-momentum-works/
+    Saved: mw_sea_2024_pr.txt. Date on page: 26 Jun 2025.
+    Publisher type: primary (Momentum Works press release)
+
+11. https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-reaches-us157-6b-in-2025-with-top-platforms-expanding-share-to-98-8/
+    Saved: mw_sea_2025.txt. Date on page: 14 Apr 2026.
+    Publisher type: primary (Momentum Works free summary)
+
+12. https://www.straitstimes.com/asia/se-asia/top-spender-indonesia-accounted-for-over-half-of-online-purchases-in-s-e-asia-in-2022-study
+    Saved: st_mw_2022.txt.
+    Publisher type: secondary (news quoting Momentum Works, Jun 2023)
+
+13. https://katadata.co.id/digital/e-commerce/65829bf1980d0/tiktok-x-tokopedia-disebut-kuasai-40-pasar-e-commerce-indonesia
+    Saved: katadata_mw_2022.txt. Date on page: 19 Dec 2023.
+    Publisher type: secondary (news quoting Momentum Works Jun 2023 report)
+
+14. https://katadata.co.id/digital/e-commerce/6694e1bf09ec8/transaksi-shopee-hingga-tiktok-shop-tokopedia-di-ri-rp-867-triliun
+    Saved: katadata_mw_2023.txt. Date on page: 15 Jul 2024.
+    Publisher type: secondary (news quoting Momentum Works 16 Jul 2024)
+
+15. https://databoks.katadata.co.id/en/technology-telecommunications/statistics/68629ac92be0b/shopee-tiktok-shop-and-blibli-market-share-in-indonesia-2024
+    Saved: databoks_mw_2024.txt. Date on page: 30 Jun 2025.
+    Publisher type: secondary (news quoting Momentum Works 26 Jun 2025)
+
+16. https://databoks.katadata.co.id/en/technology-telecommunications/statistics/69e1bc1f22153/shopee-reaches-half-of-indonesias-e-commerce-market-in-2025
+    Saved: databoks_mw_2025.txt. Date on page: 17 Apr 2026.
+    Publisher type: secondary (news quoting Momentum Works 14 Apr 2026). Includes MW GMV definition (paid sales including cancelled/returned).
+
+17. https://earningscalls.dev/transcripts/pt-goto-gojek-tokopedia-tbk_goto_earnings_call_transcript_2023-03-20
+    Saved: goto_fy22_call.txt. Date: 20 Mar 2023.
+    Publisher type: primary (GoTo FY2022 earnings call transcript)
+
+18. https://cdn.prod.nntech.io/company-events/reports/a116c225-2ba8-3a20-ad7a-a2ccd1de40c6/presentation.pdf
+    Saved: goto_fy25.pdf + goto_fy25.txt. Date: Mar 2026 (4Q25/FY25 results).
+    Publisher type: primary (GoTo). Used for GTV definition only. After 31 Jan 2024 Tokopedia was deconsolidated; this deck does not print standalone Tokopedia GTV.
+
+19. https://companiesmarketcap.com/sea/sec-reports-20f/0001193125-25-084311/
+    Saved: sea_20f_2024_mirror.txt (mirror of Sea Limited Form 20-F for FY2024, filed 17 Apr 2025).
+    Publisher type: primary (Sea Limited 20-F text). Used for GMV/orders definition. No Indonesia GMV or Indonesia share of Shopee GMV.
+
+20. https://tirto.id/bi-transaksi-tahunan-e-commerce-ri-capai-rp4500-t-hkH5
+    Saved: tirto_bi_4500.txt. Date: 30 Oct 2025.
+    Publisher type: secondary (news quoting Bank Indonesia Governor Perry Warjiyo). Printed Rp4.500 tn / 37 bn transactions; definition unclear and scale conflicts with BI’s earlier ~Rp450–500 tn series.
+
+TRIED / NOT USED OR BLOCKED
+
+- SEC.gov 20-F HTML (https://www.sec.gov/Archives/edgar/data/1703399/000119312525084311/d940352d20f.htm): blocked as undeclared automated tool (browser and curl). Used companiesmarketcap mirror instead.
+- https://teknologi.bisnis.com/read/20260508/266/1972413/shopee-kuasai-54-pasar-e-commerce-indonesia-transaksi-tembus-rp539-triliun : Cloudflare 403. Would have printed MW Shopee Indonesia GMV US$31.2 bn (2025) and US$26 bn (2024). Those dollar levels are NOT in the saved Databoks/MW free texts, so they were not entered (no computation).
+- https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx : lynx fetch failed. Snippets elsewhere cite BI e-commerce ~Rp487 tn (2024) and ~Rp205.5 tn (2019). Not extracted without the saved page.
+- https://www.pajak.com/ekonomi/mendag-budi-santoso-nilai-transaksi-niaga-elektronik-diproyeksi-rp487-triliun/ : lynx failed.
+- https://nasional.kontan.co.id/news/bi-catatkan-transaski-e-commerce-capai-rp-13467-triliun-pada-kuartal-iii-2025 : saved as kontan_bi_2025q3.txt (Q3 2025 Rp 134,67 tn). Indonesian decimal comma would break the checker’s number parse; not used.
+- Momentum Works paid reports (Ecommerce in Southeast Asia 2023–2026 full PDFs): paywalled; only free summaries/PRs used.
+- Sea Limited Indonesia share of Shopee GMV / Indonesia GMV: not found in the 20-F text. Sea reports group Shopee GMV (US$100.5 bn in 2024) and does not break out Indonesia.
+- GoTo FY2023 / FY2024 standalone Tokopedia GTV: official FY25 deck has no Tokopedia GTV after deconsolidation (31 Jan 2024). FY2023 presentation PDF not obtained from GoTo IR (JS site).
+- TikTok, Lazada/Alibaba, Bukalapak, Blibli company GMV statements for Indonesia 2021–2025: not found in free primary pages retrieved.
+- iPrice: typically traffic share, not GMV; not used.
+- Euromonitor public summaries: not retrieved with usable Indonesia-by-platform GMV.
+- Kemendag / BPS primary statistical tables: not retrieved as standalone files.
+- 2021 by-platform GMV (Shopee/Tokopedia/Lazada/etc.): not found in free MW or e-Conomy texts. Only Indonesia-total e-commerce from e-Conomy 2021 ($53 bn) and the later 2023 vintage revision ($48 bn).
+
+SHOPEE INDONESIA ESTIMATES — CREDIBILITY RANKING
+
+1. Most credible for replacing a modelled Shopee Indonesia series: Momentum Works Indonesia GMV share series (2022 36%, 2023 40%, 2024 46%, 2025 54%), applied only as shares, with MW Indonesia market GMV (2022 US$51.9 bn; 2024 US$56.5 bn; 2025 US$57.7 bn). MW is the only publisher found that repeatedly estimates Indonesia GMV by platform, defines GMV as paid app sales including cancelled/returned orders, and publishes a consistent annual series. Free texts do not print 2023 Indonesia-total GMV as 53.8 in English (Katadata prints US$ 53,8 miliar with a decimal comma); 2023 Indonesia total is implied by MW’s 46.9% of SEA US$114.6 bn but was not computed here.
+
+2. Next: Google/Temasek/Bain e-Conomy SEA Indonesia e-commerce totals (2021–2025). These are the best country-level digital-economy e-commerce GMV, but they are sector totals (not Shopee) and they revise prior years (e.g. 2022 e-commerce $59 bn in the 2022 vintage vs $58 bn later; 2023 $62 bn then $59 bn; 2024 $65 bn then $62 bn; 2025 $71 bn vs a 2022-vintage $95 bn forecast). They cannot replace a Shopee series by themselves.
+
+3. GoTo FY2022 E-Commerce GTV IDR 273 tn is the only company-reported Tokopedia-scale number found. It is not Shopee, uses GTV (not MW GMV), and is one year only.
+
+4. Sea 20-F / earnings: most authoritative for Shopee group GMV definition (includes shipping and other charges; orders include unsettled/returned) and group GMV, but Sea does not disclose Indonesia GMV or Indonesia’s share of Shopee. Using group GMV as Shopee Indonesia would be wrong.
+
+5. Least usable for a Shopee Indonesia level: Bank Indonesia quotes (Tirto Rp4.500 tn / 37 bn transactions) and Katadata’s computed US$ platform dollars (Indonesian decimal commas; some look like share × market). Bisnis.com’s US$31.2 bn / US$26 bn Shopee figures were not saved.
+
+Do not multiply MW shares by e-Conomy or MW market GMV to invent a Shopee dollar series; those products are not printed in the saved texts (except where Katadata already printed a dollar figure, which was not used as the value field because of decimal-comma parsing).

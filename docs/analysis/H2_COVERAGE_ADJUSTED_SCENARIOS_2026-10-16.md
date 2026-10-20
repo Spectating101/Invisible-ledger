@@ -109,3 +109,16 @@ Expected results:
 ## Source state
 
 This note is based on the 15 October 2026 thesis reading copy and the full thesis audit reviewed on 16 October. It is an analysis note for integration into the next manuscript pass; it is not itself a replacement manuscript or a change to the preregistration record.
+
+## Dated correction, 18 October 2026
+
+The scenarios above remove the unexplained sellers from the **count only**. Their sales stay in the 2023 total. If the extra sellers are wider survey coverage, their sales were added too, so the consistent treatment removes both.
+
+The thesis branch (`claude/happy-pascal-uc2eya`, PR #10; `research/option_space_2026-10-01/h2_coverage_adjusted.py`, `tables/h2_coverage_adjusted.json`) reports both treatments. Recomputed here from its inputs (V22 = Rp783.0tn, V23 = Rp1,100.87tn, the same seller counts):
+
+| Scenario | Count only | Count and sales removed |
+|---|---:|---:|
+| Remove about 306,000 sellers | 46.6% | 53.3% to 54.5% |
+| Remove about 458,000 sellers | 33.6% | 41.5% to 43.0% |
+
+The thesis reports the consistent version: under wider coverage, H2 sits on its 50% threshold. It is no longer a clear "does not hold". The count-only rows above stay valid as arithmetic, but the claim boundary and the suggested wording in this note should not be used. Use the thesis wording (Table 5.1, Sections 5.7 and 7.1, abstract). The calculation stays exploratory.

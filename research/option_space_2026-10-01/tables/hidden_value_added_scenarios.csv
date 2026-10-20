@@ -1,0 +1,13 @@
+base,assumed_value_added_share,value_added_usd_bn,pct_of_gdp
+platform wedge (US$40.07bn),0.05,2.004,0.146
+platform wedge (US$40.07bn),0.1,4.007,0.292
+platform wedge (US$40.07bn),0.2,8.014,0.584
+platform wedge (US$40.07bn),0.3,12.021,0.877
+BPS e-commerce total (US$72.25bn),0.05,3.613,0.263
+BPS e-commerce total (US$72.25bn),0.1,7.225,0.527
+BPS e-commerce total (US$72.25bn),0.2,14.45,1.054
+BPS e-commerce total (US$72.25bn),0.3,21.675,1.581
+BPS outside-marketplace (US$59.1bn),0.05,2.954,0.215
+BPS outside-marketplace (US$59.1bn),0.1,5.908,0.431
+BPS outside-marketplace (US$59.1bn),0.2,11.816,0.862
+BPS outside-marketplace (US$59.1bn),0.3,17.724,1.293

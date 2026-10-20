@@ -1,0 +1,3936 @@
+entity,period,field,value,unit,source_file,quote,note
+EXPE,FY2014,V,50447,USD million,EXPE_10K_2015-02-06.txt,"Total gross bookings 
+ $ 
+ 50,447 
+ $ 
+ 39,443",gross bookings
+EXPE,FY2014,revenue,5763485,USD thousand,EXPE_10K_2015-02-06.txt,"Revenue 
+ $ 
+ 5,763,485 
+ $ 
+ 4,771,259 
+ $ 
+ 4,030,347 
+ Costs and expenses:",total revenue from consolidated statements of operations
+EXPE,FY2014,ocf,1366959,USD thousand,EXPE_10K_2015-02-06.txt,"Net cash provided by operating activities from continuing operations 
+ 1,366,959 
+ 763,200",net cash provided by operating activities from continuing operations; discontinued ops cash was nil in 2014
+EXPE,FY2014,capex,-328387,USD thousand,EXPE_10K_2015-02-06.txt,"Capital expenditures, including internal-use software and website development 
+ (328,387 
+ )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2015,V,60830,USD million,EXPE_10K_2016-02-11.txt,"Total gross bookings 
+ $ 
+ 60,830 
+ $ 
+ 50,447",gross bookings
+EXPE,FY2015,revenue,6672317,USD thousand,EXPE_10K_2016-02-11.txt,"Revenue 
+ $ 
+ 6,672,317 
+ $ 
+ 5,763,485 
+ $ 
+ 4,771,259 
+ Costs and expenses:",total revenue from consolidated statements of operations
+EXPE,FY2015,ocf,1368045,USD thousand,EXPE_10K_2016-02-11.txt,"Net cash provided by operating activities from continuing operations 
+ 1,368,045 
+ 1,366,959",net cash provided by operating activities from continuing operations
+EXPE,FY2015,capex,-787041,USD thousand,EXPE_10K_2016-02-11.txt,"Capital expenditures, including internal-use software and website development 
+ (787,041 
+ )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2016,V,72431,USD million,EXPE_10K_2017-02-10.txt,"Total gross bookings 
+ | $ 
+ | 72,431 
+ | 
+ | 
+ | $ 
+ | 60,830",gross bookings (HomeAway on-platform bookings excluded from this first-reported total)
+EXPE,FY2016,revenue,8773564,USD thousand,EXPE_10K_2017-02-10.txt,"(In thousands, except for per share data) 
+ | 
+ Revenue 
+ | $ 
+ | 8,773,564",total revenue from consolidated statements of operations
+EXPE,FY2016,ocf,1564334,USD thousand,EXPE_10K_2017-02-10.txt,"Net cash provided by operating activities 
+ | 1,564,334 
+ | 
+ | 
+ | 1,368,045",net cash provided by operating activities
+EXPE,FY2016,capex,-749348,USD thousand,EXPE_10K_2017-02-10.txt,"Capital expenditures, including internal-use software and website development 
+ | (749,348 
+ | )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2017,V,88410,USD million,EXPE_10K_2018-02-09.txt,"Total gross bookings 
+ | $ 
+ | 88,410 
+ | 
+ | 
+ | $ 
+ | 78,411",gross bookings
+EXPE,FY2017,revenue,10059844,USD thousand,EXPE_10K_2018-02-09.txt,"Revenue 
+ | $ 
+ | 10,059,844 
+ | 
+ | 
+ | $ 
+ | 8,773,564",total revenue from consolidated statements of operations
+EXPE,FY2017,ocf,1799154,USD thousand,EXPE_10K_2018-02-09.txt,"Net cash provided by operating activities 
+ | 1,799,154 
+ | 
+ | 
+ | 1,564,334",net cash provided by operating activities
+EXPE,FY2017,capex,-710330,USD thousand,EXPE_10K_2018-02-09.txt,"including internal-use software and website development 
+ | (710,330 
+ | )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2018,V,99727,USD million,EXPE_10K_2019-02-08.txt,"Total gross bookings 
+ | $ 
+ | 99,727 
+ | 
+ | 
+ | $ 
+ | 88,410",gross bookings
+EXPE,FY2018,revenue,11223,USD million,EXPE_10K_2019-02-08.txt,"Revenue 
+ | $ 
+ | 11,223 
+ | 
+ | 
+ | $ 
+ | 10,060",total revenue from consolidated statements of operations (statements switched to millions)
+EXPE,FY2018,ocf,1975,USD million,EXPE_10K_2019-02-08.txt,"Net cash provided by operating activities 
+ | 1,975 
+ | 
+ | 
+ | 1,845",net cash provided by operating activities
+EXPE,FY2018,capex,-878,USD million,EXPE_10K_2019-02-08.txt,"including internal-use software and website development 
+ | (878 
+ | )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2019,V,107873,USD million,EXPE_10K_2020-02-14.txt,"Total gross bookings 
+ | $ 
+ | 107,873 
+ | 
+ | 
+ | $ 
+ | 99,727",gross bookings
+EXPE,FY2019,revenue,12067,USD million,EXPE_10K_2020-02-14.txt,"Revenue 
+ | $ 
+ | 12,067 
+ | 
+ | 
+ | $ 
+ | 11,223",total revenue from consolidated statements of operations
+EXPE,FY2019,ocf,2767,USD million,EXPE_10K_2020-02-14.txt,"Net cash provided by operating activities 
+ | 2,767 
+ | 
+ | 
+ | 1,975",net cash provided by operating activities
+EXPE,FY2019,capex,-1160,USD million,EXPE_10K_2020-02-14.txt,"including internal-use software and website development 
+ | ( 1,160 
+ | )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2020,V,36796,USD million,EXPE_10K_2021-02-12.txt,"Gross bookings | $ | 36,796 | | | $ | 107,873 | | | $ | 99,727",gross bookings
+EXPE,FY2020,revenue,5199,USD million,EXPE_10K_2021-02-12.txt,"Revenue | $ | 5,199 | | | $ | 12,067 | | | $ | 11,223 | |",total revenue from consolidated statements of operations
+EXPE,FY2020,ocf,-3834,USD million,EXPE_10K_2021-02-12.txt,"Net cash provided by (used in) operating activities | ( 3,834 ) | | | 2,767",net cash used in operating activities
+EXPE,FY2020,capex,-797,USD million,EXPE_10K_2021-02-12.txt,"Capital expenditures, including internal-use software and website development | ( 797 ) | | | ( 1,160 )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2021,V,72425,USD million,EXPE_10K_2022-02-11.txt,"Gross bookings | $ | 72,425 | | | $ | 36,796 | | | $ | 107,873",gross bookings
+EXPE,FY2021,revenue,8598,USD million,EXPE_10K_2022-02-11.txt,"Revenue | $ | 8,598 | | | $ | 5,199 | | | $ | 12,067 | |",total revenue from consolidated statements of operations
+EXPE,FY2021,ocf,3748,USD million,EXPE_10K_2022-02-11.txt,"Net cash provided by (used in) operating activities | 3,748 | | | ( 3,834 )",net cash provided by operating activities
+EXPE,FY2021,capex,-673,USD million,EXPE_10K_2022-02-11.txt,"Capital expenditures, including internal-use software and website development | ( 673 ) | | | ( 797 )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2022,V,95049,USD million,EXPE_10K_2023-02-10.txt,"Gross bookings | $ | 95,049 | | | $ | 72,425 | | | $ | 36,796",gross bookings
+EXPE,FY2022,revenue,11667,USD million,EXPE_10K_2023-02-10.txt,"Revenue | $ | 11,667 | | | $ | 8,598 | | | $ | 5,199 | |",total revenue from consolidated statements of operations
+EXPE,FY2022,ocf,3440,USD million,EXPE_10K_2023-02-10.txt,"Net cash provided by (used in) operating activities | 3,440 | | | 3,748",net cash provided by operating activities
+EXPE,FY2022,capex,-662,USD million,EXPE_10K_2023-02-10.txt,"Capital expenditures, including internal-use software and website development | ( 662 ) | | | ( 673 )","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2023,V,104079,USD million,EXPE_10K_2024-02-09.txt,"Gross bookings | $ | 104,079 | $ | 95,049 | $ | 72,425 | 10 | % | 31 | % |",gross bookings
+EXPE,FY2023,revenue,12839,USD million,EXPE_10K_2024-02-09.txt,"Revenue | $ | 12,839 | $ | 11,667 | $ | 8,598 |",total revenue from consolidated statements of operations
+EXPE,FY2023,ocf,2690,USD million,EXPE_10K_2024-02-09.txt,"Net cash provided by operating activities | 2,690 | 3,440 | 3,748 |",net cash provided by operating activities
+EXPE,FY2023,capex,-846,USD million,EXPE_10K_2024-02-09.txt,"Capital expenditures, including internal-use software and website development | ( 846 ) | ( 662 ) | ( 673 ) |","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2024,V,110921,USD million,EXPE_10K_2025-02-07.txt,"Gross bookings | $ | 110,921 | $ | 104,079 | $ | 95,049 | 7 | % | 10 | % |",gross bookings
+EXPE,FY2024,revenue,13691,USD million,EXPE_10K_2025-02-07.txt,"Revenue | $ | 13,691 | $ | 12,839 | $ | 11,667 |",total revenue from consolidated statements of operations
+EXPE,FY2024,ocf,3085,USD million,EXPE_10K_2025-02-07.txt,"Net cash provided by operating activities | 3,085 | 2,690 | 3,440 |",net cash provided by operating activities
+EXPE,FY2024,capex,-756,USD million,EXPE_10K_2025-02-07.txt,"Capital expenditures, including internal-use software and website development | ( 756 ) | ( 846 ) | ( 662 ) |","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+EXPE,FY2025,V,119590,USD million,EXPE_10K_2026-02-13.txt,"Total gross bookings | $ | 119,590 | $ | 110,921 | $ | 104,079 | 8 | % | 7 | % |",gross bookings
+EXPE,FY2025,revenue,14733,USD million,EXPE_10K_2026-02-13.txt,"Revenue | $ | 14,733 | $ | 13,691 | $ | 12,839 |",total revenue from consolidated statements of operations
+EXPE,FY2025,ocf,3880,USD million,EXPE_10K_2026-02-13.txt,"Net cash provided by operating activities | 3,880 | 3,085 | 2,690 |",net cash provided by operating activities
+EXPE,FY2025,capex,-770,USD million,EXPE_10K_2026-02-13.txt,"Capital expenditures, including internal-use software and website development | ( 770 ) | ( 756 ) | ( 846 ) |","Capital expenditures, including internal-use software and website development (single CFS line; no separate capex_sw)"
+TCOM,FY2014,V,,,TCOM_20F_2015-04-27.txt,,not reported
+TCOM,FY2014,revenue,7346918369,RMB,TCOM_20F_2015-04-27.txt,"Net revenues 
+ | 
+ | 
+ 4,158,791,249 
+ | 
+ | 
+ 5 , 386 , 745 , 542 
+ | 
+ | 
+ 7,346,918,369 
+ | 
+ | 
+ 1,184,108,302 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (1,037,791,093 
+ | 
+ ) 
+ | 
+ ( 1 , 386 , 767 , 067 
+ | 
+ ) 
+ | 
+ (2,100,606,413 
+ | 
+ ) 
+ | 
+ (338,556,299 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2014,ocf,1958603856,RMB,TCOM_20F_2015-04-27.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ 1,654,367,806 
+ | 
+ | 
+ 2,452,827,352 
+ | 
+ | 
+ 1,958,603,856 
+ | 
+ | 
+ 315,669,641 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchase of property, equipment an",Net cash provided by operating activities
+TCOM,FY2014,capex,-4788676371,RMB,TCOM_20F_2015-04-27.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ (543,123,309 
+ | 
+ ) 
+ | 
+ (651,765,217 
+ | 
+ ) 
+ | 
+ (4,788,676,371 
+ | 
+ ) 
+ | 
+ (771,794,535 
+ | 
+ ) 
+ | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ — 
+ | 
+ | 
+ (965,421,399 
+ | 
+ ) 
+ | 
+ (2,078,378,807 
+ | 
+ ) 
+ | 
+ (334,973,858 
+ | 
+ ) ","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2014,capex_sw,-9000000,RMB,TCOM_20F_2015-04-27.txt,"Purchase of intangible assets 
+ | 
+ | 
+ — 
+ | 
+ | 
+ — 
+ | 
+ | 
+ (9,000,000 
+ | 
+ ) 
+ | 
+ (1,450,537 
+ | 
+ ) 
+ | 
+ ( Increase ) /Decrease in restricted cash 
+ | 
+ | 
+ (558,620,548 
+ | 
+ ) 
+ | 
+ 31,954,414 
+ | 
+ | 
+ (94,988,241 
+ | 
+ ) 
+ | 
+ (15,309,326 
+ | 
+ ) 
+ | 
+ Decrease/ (Increase) in short-term",Purchase of intangible assets
+TCOM,FY2015,V,,,TCOM_20F_2016-04-22.txt,,not reported
+TCOM,FY2015,revenue,10897568061,RMB,TCOM_20F_2016-04-22.txt,"Net revenues 
+ | 
+ | 
+ 5,386,745,542 
+ | 
+ | 
+ 7,346,918,369 
+ | 
+ | 
+ 10,897,568,061 
+ | 
+ | 
+ 1,682,294,616 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (1,386,767,067 
+ | 
+ ) 
+ | 
+ (2,100,606,413 
+ | 
+ ) 
+ | 
+ (3,043,439,819 
+ | 
+ ) 
+ | 
+ (469,826,148 
+ | 
+ ) 
+ | 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2015,ocf,3048809916,RMB,TCOM_20F_2016-04-22.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ 2,452,827,352 
+ | 
+ | 
+ 1,958,603,856 
+ | 
+ | 
+ 3,048,809,916 
+ | 
+ | 
+ 470,655,152 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchase of property, equipment an",Net cash provided by operating activities
+TCOM,FY2015,capex,-638133430,RMB,TCOM_20F_2016-04-22.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ (651,765,217 
+ | 
+ ) 
+ | 
+ (4,788,676,371 
+ | 
+ ) 
+ | 
+ (638,133,430 
+ | 
+ ) 
+ | 
+ (98,510,826 
+ | 
+ ) 
+ | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ (965,421,399 
+ | 
+ ) 
+ | 
+ (2,078,378,807 
+ | 
+ ) 
+ | 
+ (4,232,366,913 
+ | 
+ ) 
+ | 
+ (653,","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2015,capex_sw,-20000000,RMB,TCOM_20F_2016-04-22.txt,"Purchase of intangible assets 
+ | 
+ | 
+ — 
+ | 
+ | 
+ (9,000,000 
+ | 
+ ) 
+ | 
+ (20,000,000 
+ | 
+ ) 
+ | 
+ (3,087,468 
+ | 
+ ) 
+ | 
+ (Increase) /Decrease in restricted cash 
+ | 
+ | 
+ 31,954,414 
+ | 
+ | 
+ (94,988,241 
+ | 
+ ) 
+ | 
+ (760,873,462 
+ | 
+ ) 
+ | 
+ (117,458,622 
+ | 
+ ) 
+ | 
+ Increase in short-ter",Purchase of intangible assets
+TCOM,FY2016,V,,,TCOM_20F_2017-04-13.txt,,not reported
+TCOM,FY2016,revenue,19228439814,RMB,TCOM_20F_2017-04-13.txt,"Net revenues 
+ | 
+ | 
+ 7,346,918,369 
+ | 
+ | 
+ 10,897,568,061 
+ | 
+ | 
+ 19,228,439,814 
+ | 
+ | 
+ 2,769,471,383 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (2,100,606,413 
+ | 
+ ) 
+ | 
+ (3,043,439,819 
+ | 
+ ) 
+ | 
+ (4,729,750,192 
+ | 
+ ) 
+ | 
+ (681,225,723 
+ | 
+ ) 
+ | ",Net revenues; consolidated income statement; first reported
+TCOM,FY2016,ocf,5272730491,RMB,TCOM_20F_2017-04-13.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ 1,958,603,856 
+ | 
+ | 
+ 3,048,809,916 
+ | 
+ | 
+ 5,272,730,491 
+ | 
+ | 
+ 759,431,152 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchase of property, equipment an",Net cash provided by operating activities
+TCOM,FY2016,capex,-682831310,RMB,TCOM_20F_2017-04-13.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ (4,788,676,371 
+ | 
+ ) 
+ | 
+ (638,133,430 
+ | 
+ ) 
+ | 
+ (682,831,310 
+ | 
+ ) 
+ | 
+ (98,348,165 
+ | 
+ ) 
+ | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ (2,078,378,807 
+ | 
+ ) 
+ | 
+ (4,232,366,913 
+ | 
+ ) 
+ | 
+ (5,408,471,460 
+ | 
+ ) 
+ | 
+ (77","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2016,capex_sw,-6210651,RMB,TCOM_20F_2017-04-13.txt,"Purchase of intangible assets 
+ | 
+ | 
+ (9,000,000 
+ | 
+ ) 
+ | 
+ (20,000,000 
+ | 
+ ) 
+ | 
+ (6,210,651 
+ | 
+ ) 
+ | 
+ (894,520 
+ | 
+ ) 
+ | 
+ (Increase) /Decrease in restricted cash 
+ | 
+ | 
+ (94,988,241 
+ | 
+ ) 
+ | 
+ (760,873,462 
+ | 
+ ) 
+ | 
+ 525,250,267 
+ | 
+ | 
+ 75,651,774 
+ | 
+ | 
+ Increase in sho",Purchase of intangible assets
+TCOM,FY2017,V,,,TCOM_20F_2018-04-23.txt,,not reported
+TCOM,FY2017,revenue,26779631018,RMB,TCOM_20F_2018-04-23.txt,"Net revenues 
+ | 
+ | 
+ 10,897,568,061 
+ | 
+ | 
+ 19,228,439,814 
+ | 
+ | 
+ 26,779,631,018 
+ | 
+ | 
+ 4,115,953,924 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (3,043,439,819 
+ | 
+ ) 
+ | 
+ (4,729,750,192 
+ | 
+ ) 
+ | 
+ (4,678,209,103 
+ | 
+ ) 
+ | 
+ (719,027,574 
+ | 
+ ) 
+ |",Net revenues; consolidated income statement; first reported
+TCOM,FY2017,ocf,7068861226,RMB,TCOM_20F_2018-04-23.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ 3,048,809,916 
+ | 
+ | 
+ 5,272,730,491 
+ | 
+ | 
+ 7,068,861,226 
+ | 
+ | 
+ 1,086,464,078 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities: 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Purchase of property, equipment ",Net cash provided by operating activities
+TCOM,FY2017,capex,-471120452,RMB,TCOM_20F_2018-04-23.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ (638,133,430 
+ | 
+ ) 
+ | 
+ (682,831,310 
+ | 
+ ) 
+ | 
+ (471,120,452 
+ | 
+ ) 
+ | 
+ (72,409,888 
+ | 
+ ) 
+ | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ (4,232,366,913 
+ | 
+ ) 
+ | 
+ (5,408,471,460 
+ | 
+ ) 
+ | 
+ (1,540,947,911 
+ | 
+ ) 
+ | 
+ (236,","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2017,capex_sw,-23065204,RMB,TCOM_20F_2018-04-23.txt,"Purchase of intangible assets 
+ | 
+ | 
+ (20,000,000 
+ | 
+ ) 
+ | 
+ (6,210,651 
+ | 
+ ) 
+ | 
+ (23,065,204 
+ | 
+ ) 
+ | 
+ (3,545,057 
+ | 
+ ) 
+ | 
+ (Increase) /Decrease in restricted cash 
+ | 
+ | 
+ (760,873,462 
+ | 
+ ) 
+ | 
+ 525,250,267 
+ | 
+ | 
+ (4,306,124 
+ | 
+ ) 
+ | 
+ (661,839 
+ | 
+ ) 
+ | 
+ Increase in",Purchase of intangible assets
+TCOM,FY2018,V,,,TCOM_20F_2019-03-15.txt,,not reported
+TCOM,FY2018,revenue,30965,RMB million,TCOM_20F_2019-03-15.txt,"Net revenues 
+ | 
+ | 
+ 19,245 
+ | 
+ | 
+ 26,796 
+ | 
+ | 
+ 30,965 
+ | 
+ | 
+ 4,504 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ (4,730 
+ | 
+ ) 
+ | 
+ (4,678 
+ | 
+ ) 
+ | 
+ (6,324 
+ | 
+ ) 
+ | 
+ (920 
+ | 
+ ) 
+ | 
+ Gross profit 
+ | 
+ | 
+ 14,515 
+ | 
+ | 
+ 22,118 
+ | 
+ | 
+ 24,641 
+ | 
+ | 
+ 3,584 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Net revenues; consolidated income statement; first reported; statements in millions
+TCOM,FY2018,ocf,7115,RMB million,TCOM_20F_2019-03-15.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ 5,270 
+ | 
+ | 
+ 7,069 
+ | 
+ | 
+ 7,115 
+ | 
+ | 
+ 1,036 
+ | 
+ | 
+ Net cash used in investing activities 
+ | 
+ | 
+ (20,350 
+ | 
+ ) 
+ | 
+ (15,229 
+ | 
+ ) 
+ | 
+ (14,078 
+ | 
+ ) 
+ | 
+ (2,048 
+ | 
+ ) 
+ | 
+ Net cash provided by financing activities 
+ | 
+ |",Net cash provided by operating activities
+TCOM,FY2018,capex,-673,RMB million,TCOM_20F_2019-03-15.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ (683 
+ | 
+ ) 
+ | 
+ (471 
+ | 
+ ) 
+ | 
+ (673 
+ | 
+ ) 
+ | 
+ (98 
+ | 
+ ) 
+ | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ (5,408 
+ | 
+ ) 
+ | 
+ (1,541 
+ | 
+ ) 
+ | 
+ (4,387 
+ | 
+ ) 
+ | 
+ (638 
+ | 
+ ) 
+ | 
+ Cash paid for business combinations, net o","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2018,capex_sw,-35,RMB million,TCOM_20F_2019-03-15.txt,"Purchase of intangible assets 
+ | 
+ | 
+ (6 
+ | 
+ ) 
+ | 
+ (23 
+ | 
+ ) 
+ | 
+ (35 
+ | 
+ ) 
+ | 
+ (5 
+ | 
+ ) 
+ | 
+ Increase in short-term investments and borrowings 
+ | 
+ | 
+ (5,935 
+ | 
+ ) 
+ | 
+ (13,936 
+ | 
+ ) 
+ | 
+ (8,811 
+ | 
+ ) 
+ | 
+ (1,282 
+ | 
+ ) 
+ | 
+ Cash repayment from long-term receivables 
+ |",Purchase of intangible assets
+TCOM,FY2019,V,,,TCOM_20F_2020-04-09.txt,,not reported
+TCOM,FY2019,revenue,35666,RMB million,TCOM_20F_2020-04-09.txt,"Net revenues 
+ | 
+ | 
+ | 
+ 26,796 
+ | 
+ | 
+ | 
+ | 
+ 30,965 
+ | 
+ | 
+ | 
+ | 
+ 35,666 
+ | 
+ | 
+ | 
+ | 
+ 5,122 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ | 
+ ( 4,678 
+ | 
+ ) | 
+ | 
+ | 
+ ( 6,324 
+ | 
+ ) | 
+ | 
+ | 
+ ( 7,372 
+ | 
+ ) | 
+ | 
+ | 
+ ( 1,059 
+ | 
+ ) | 
+ Gross profit 
+ | 
+ | 
+ | 
+ 22,118 
+ | 
+ | 
+ | 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2019,ocf,7333,RMB million,TCOM_20F_2020-04-09.txt,"Net cash provided by operating activities 
+ | 
+ | 
+ | 
+ 7,069 
+ | 
+ | 
+ | 
+ | 
+ 7,115 
+ | 
+ | 
+ | 
+ | 
+ 7,333 
+ | 
+ | 
+ | 
+ | 
+ 1,055 
+ | 
+ | 
+ Net cash used in investing activities 
+ | 
+ | 
+ | 
+ (15,229
+ | 
+ ) | 
+ | 
+ | 
+ (14,078
+ | 
+ ) | 
+ | 
+ | 
+ (2,413
+ | 
+ ) | 
+ | 
+ | 
+ (347
+ | 
+ ) | 
+ Net cash",Net cash provided by operating activities
+TCOM,FY2019,capex,-823,RMB million,TCOM_20F_2020-04-09.txt,"Purchase of property, equipment and software 
+ | 
+ | 
+ | 
+ ( 471 
+ | 
+ ) | 
+ | 
+ | 
+ ( 673 
+ | 
+ ) | 
+ | 
+ | 
+ ( 823 
+ | 
+ ) | 
+ | 
+ | 
+ ( 118 
+ | 
+ ) | 
+ Cash paid for long-term investments 
+ | 
+ | 
+ | 
+ ( 1,541 
+ | 
+ ) | 
+ | 
+ | 
+ ( 4,387 
+ | 
+ ) | 
+ | 
+ | 
+ ( 15,834 
+ | 
+ ) | 
+ | 
+ | 
+ ( 2,274 
+ ","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2019,capex_sw,-11,RMB million,TCOM_20F_2020-04-09.txt,"Purchase of intangible assets 
+ | 
+ | 
+ | 
+ ( 23 
+ | 
+ ) | 
+ | 
+ | 
+ ( 35 
+ | 
+ ) | 
+ | 
+ | 
+ ( 11 
+ | 
+ ) | 
+ | 
+ | 
+ ( 2 
+ | 
+ ) | 
+ (Increase)/decrease in short-term investments 
+ | 
+ | 
+ | 
+ ( 13,936 
+ | 
+ ) | 
+ | 
+ | 
+ ( 8,811 
+ | 
+ ) | 
+ | 
+ | 
+ 15,011 
+ | 
+ | 
+ | 
+ | 
+ 2,156 
+ | 
+ | 
+ Cash re",Purchase of intangible assets
+TCOM,FY2020,V,,,TCOM_20F_2021-03-15.txt,,not reported
+TCOM,FY2020,revenue,18316,RMB million,TCOM_20F_2021-03-15.txt,"Net revenues
+ | 
+ | 
+ | 
+ 30,965 | 
+ | 
+ | 
+ | 
+ 35,666 | 
+ | 
+ | 
+ | 
+ 18,316 | 
+ | 
+ | 
+ | 
+ 2,807 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 6,324 | 
+ ) | 
+ | 
+ | 
+ ( 7,372 | 
+ ) | 
+ | 
+ | 
+ ( 4,031 | 
+ ) | 
+ | 
+ | 
+ ( 618 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2020,ocf,-3823,RMB million,TCOM_20F_2021-03-15.txt,"Net cash provided by/(used in) operating activities
+ | 
+ | 
+ | 
+ 7,115 | 
+ | 
+ | 
+ | 
+ 7,333 | 
+ | 
+ | 
+ | 
+ ( 3,823 | 
+ ) | 
+ | 
+ | 
+ ( 588 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",Net cash used in operating activities
+TCOM,FY2020,capex,-532,RMB million,TCOM_20F_2021-03-15.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 673 | 
+ ) | 
+ | 
+ | 
+ ( 823 | 
+ ) | 
+ | 
+ | 
+ ( 532 | 
+ ) | 
+ | 
+ | 
+ ( 81 | 
+ ) | 
+ Cash paid for long-term investments
+ | 
+ | 
+ | 
+ ( 4,387 | 
+ ) | 
+ | 
+ | 
+ ( 15,834 | 
+ ) | 
+ | 
+ | 
+ ( 9,770 | 
+ ) | 
+ | 
+ | 
+ ( 1,497 | 
+ ) | 
+ Cash rece","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2021,V,,,TCOM_20F_2022-04-27.txt,,not reported
+TCOM,FY2021,revenue,20023,RMB million,TCOM_20F_2022-04-27.txt,"Net revenues
+ | 
+ | 
+ | 
+ 35,666 | 
+ | 
+ | 
+ | 
+ 18,316 | 
+ | 
+ | 
+ | 
+ 20,023 | 
+ | 
+ | 
+ | 
+ 3,142 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 7,372 | 
+ ) | 
+ | 
+ | 
+ ( 4,031 | 
+ ) | 
+ | 
+ | 
+ ( 4,598 | 
+ ) | 
+ | 
+ | 
+ ( 721 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2021,ocf,2475,RMB million,TCOM_20F_2022-04-27.txt,"Net cash provided by/(used in) operating activities
+ | 
+ | 
+ | 
+ 7,333 | 
+ | 
+ | 
+ | 
+ ( 3,823 | 
+ ) | 
+ | 
+ | 
+ 2,475 | 
+ | 
+ | 
+ | 
+ 388 | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",Net cash provided by operating activities
+TCOM,FY2021,capex,-570,RMB million,TCOM_20F_2022-04-27.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 823 | 
+ ) | 
+ | 
+ | 
+ ( 532 | 
+ ) | 
+ | 
+ | 
+ ( 570 | 
+ ) | 
+ | 
+ | 
+ ( 89 | 
+ ) | 
+ Cash paid for long-term investments
+ | 
+ | 
+ | 
+ ( 15,834 | 
+ ) | 
+ | 
+ | 
+ ( 9,770 | 
+ ) | 
+ | 
+ | 
+ ( 6,818 | 
+ ) | 
+ | 
+ | 
+ ( 1,070 | 
+ ) | 
+ Cash paid","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2021,capex_sw,-1,RMB million,TCOM_20F_2022-04-27.txt,"Purchase of intangible assets
+ | 
+ | 
+ | 
+ ( 11 | 
+ ) | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ ( 1 
+ | 
+ )
+ | 
+ | 
+ | 
+ ( 0 
+ | 
+ )
+ | 
+ Decrease in short-term investments
+ | 
+ | 
+ | 
+ 15,011 | 
+ | 
+ | 
+ | 
+ 6,909 | 
+ | 
+ | 
+ | 
+ 3,233 | 
+ | 
+ | 
+ | 
+ 507 | 
+ | 
+ Cash received from loans to the users
+ | 
+ | 
+ ",Purchase of intangible assets
+TCOM,FY2022,V,,,TCOM_20F_2023-03-27.txt,,not reported
+TCOM,FY2022,revenue,20039,RMB million,TCOM_20F_2023-03-27.txt,"Net revenues
+ | 
+ | 
+ | 
+ 18,316 | 
+ | 
+ | 
+ | 
+ 20,023 | 
+ | 
+ | 
+ | 
+ 20,039 | 
+ | 
+ | 
+ | 
+ 2,907 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 4,031 | 
+ ) | 
+ | 
+ | 
+ ( 4,598 | 
+ ) | 
+ | 
+ | 
+ ( 4,513 | 
+ ) | 
+ | 
+ | 
+ ( 654 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Net revenues; consolidated income statement; first reported
+TCOM,FY2022,ocf,2641,RMB million,TCOM_20F_2023-03-27.txt,"Net cash (used in)/provided by operating activities
+ | 
+ | 
+ | 
+ ( 3,823 | 
+ ) | 
+ | 
+ | 
+ 2,475 | 
+ | 
+ | 
+ | 
+ 2,641 | 
+ | 
+ | 
+ | 
+ 380 | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cash flows from investing activities:
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",Net cash provided by operating activities
+TCOM,FY2022,capex,-497,RMB million,TCOM_20F_2023-03-27.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 532 | 
+ ) | 
+ | 
+ | 
+ ( 570 | 
+ ) | 
+ | 
+ | 
+ ( 497 | 
+ ) | 
+ | 
+ | 
+ ( 72 | 
+ ) | 
+ Cash paid for long-term investments
+ | 
+ | 
+ | 
+ ( 9,770 | 
+ ) | 
+ | 
+ | 
+ ( 6,818 | 
+ ) | 
+ | 
+ | 
+ ( 12,258 | 
+ ) | 
+ | 
+ | 
+ ( 1,777 | 
+ ) | 
+ Cash paid","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2022,capex_sw,-1,RMB million,TCOM_20F_2023-03-27.txt,"Purchase of intangible assets
+ | 
+ | 
+ | 
+ — | 
+ | 
+ | 
+ | 
+ ( 1 | 
+ ) | 
+ | 
+ | 
+ ( 1 | 
+ ) | 
+ | 
+ | 
+ — | 
+ | 
+ Decrease in short-term investments
+ | 
+ | 
+ | 
+ 6,909 | 
+ | 
+ | 
+ | 
+ 3,233 | 
+ | 
+ | 
+ | 
+ 13,297 | 
+ | 
+ | 
+ | 
+ 1,928 | 
+ | 
+ Cash received from loans to the users
+ | 
+ | 
+ | 
+ 3,992",Purchase of intangible assets
+TCOM,FY2023,V,,,TCOM_20F_2024-04-29.txt,,not reported
+TCOM,FY2023,revenue,44510,RMB million,TCOM_20F_2024-04-29.txt,"Net revenues
+ | 
+ | 
+ | 
+ 20,023 | 
+ | 
+ | 
+ | 
+ 20,039 | 
+ | 
+ | 
+ | 
+ 44,510 | 
+ | 
+ | 
+ | 
+ 6,269 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 4,598 | 
+ ) | 
+ | 
+ | 
+ ( 4,513 | 
+ ) | 
+ | 
+ | 
+ ( 8,121 | 
+ ) | 
+ | 
+ | 
+ ( 1,144 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ G",Net revenues; consolidated income statement; first reported
+TCOM,FY2023,ocf,22004,RMB million,TCOM_20F_2024-04-29.txt,"Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 2,475 | 
+ | 
+ | 
+ | 
+ 2,641 | 
+ | 
+ | 
+ | 
+ 22,004 | 
+ | 
+ | 
+ | 
+ 3,098 | 
+ | 
+ Net cash (used in)/provided by investing activities
+ | 
+ | 
+ | 
+ (4,148 | 
+ ) | 
+ | 
+ | 
+ 1,136 | 
+ | 
+ | 
+ | 
+ 5,919 | 
+ | 
+ | 
+ | 
+ 835 | 
+ | 
+ Net cash provided ",Net cash provided by operating activities
+TCOM,FY2023,capex,-606,RMB million,TCOM_20F_2024-04-29.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 570 | 
+ ) | 
+ | 
+ | 
+ ( 497 | 
+ ) | 
+ | 
+ | 
+ ( 606 | 
+ ) | 
+ | 
+ | 
+ ( 85 | 
+ ) | 
+ Cash paid for long-term investments
+ | 
+ | 
+ | 
+ ( 6,818 | 
+ ) | 
+ | 
+ | 
+ ( 12,258 | 
+ ) | 
+ | 
+ | 
+ ( 9,153 | 
+ ) | 
+ | 
+ | 
+ ( 1,289 | 
+ ) | 
+ Cash paid","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2024,V,,,TCOM_20F_2025-04-11.txt,,not reported
+TCOM,FY2024,revenue,53294,RMB million,TCOM_20F_2025-04-11.txt,"Net revenues
+ | 
+ | 
+ | 
+ 20,039 | 
+ | 
+ | 
+ | 
+ 44,510 | 
+ | 
+ | 
+ | 
+ 53,294 | 
+ | 
+ | 
+ | 
+ 7,302 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 4,513 | 
+ ) | 
+ | 
+ | 
+ ( 8,121 | 
+ ) | 
+ | 
+ | 
+ ( 9,990 | 
+ ) | 
+ | 
+ | 
+ ( 1,368 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ G",Net revenues; consolidated income statement; first reported
+TCOM,FY2024,ocf,19625,RMB million,TCOM_20F_2025-04-11.txt,"Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 2,641 | 
+ | 
+ | 
+ | 
+ 22,004 | 
+ | 
+ | 
+ | 
+ 19,625 | 
+ | 
+ | 
+ | 
+ 2,692 | 
+ | 
+ Net cash provided by /(used in) investing activities
+ | 
+ | 
+ | 
+ 1,136 | 
+ | 
+ | 
+ | 
+ 5,919 | 
+ | 
+ | 
+ | 
+ (6,052 | 
+ ) | 
+ | 
+ | 
+ (828 | 
+ ) | 
+ Net cash used",Net cash provided by operating activities
+TCOM,FY2024,capex,-591,RMB million,TCOM_20F_2025-04-11.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 497 | 
+ ) | 
+ | 
+ | 
+ ( 606 | 
+ ) | 
+ | 
+ | 
+ ( 591 | 
+ ) | 
+ | 
+ | 
+ ( 81 | 
+ ) | 
+ Cash paid for long-term investments
+ | 
+ | 
+ | 
+ ( 12,258 | 
+ ) | 
+ | 
+ | 
+ ( 9,153 | 
+ ) | 
+ | 
+ | 
+ ( 6,776 | 
+ ) | 
+ | 
+ | 
+ ( 928 | 
+ ) | 
+ Cash (paid)","Purchases of property, equipment and software (combined cash-flow line)"
+TCOM,FY2025,V,,,TCOM_20F_2026-04-28.txt,,not reported
+TCOM,FY2025,revenue,62409,RMB million,TCOM_20F_2026-04-28.txt,"Net revenues
+ | 
+ | 
+ | 
+ 44,510 | 
+ | 
+ | 
+ | 
+ 53,294 | 
+ | 
+ | 
+ | 
+ 62,409 | 
+ | 
+ | 
+ | 
+ 8,925 | 
+ | 
+ Cost of revenues
+ | 
+ | 
+ | 
+ ( 8,121 | 
+ ) | 
+ | 
+ | 
+ ( 9,990 | 
+ ) | 
+ | 
+ | 
+ ( 12,122 | 
+ ) | 
+ | 
+ | 
+ ( 1,733 | 
+ ) | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ",Net revenues; consolidated income statement; first reported
+TCOM,FY2025,ocf,14379,RMB million,TCOM_20F_2026-04-28.txt,"Net cash provided by operating activities
+ | 
+ | 
+ | 
+ 22,004 | 
+ | 
+ | 
+ | 
+ 19,625 | 
+ | 
+ | 
+ | 
+ 14,379 | 
+ | 
+ | 
+ | 
+ 2,059 | 
+ | 
+ Net cash provided by /(used in) investing activities
+ | 
+ | 
+ | 
+ 5,919 | 
+ | 
+ | 
+ | 
+ (6,052 | 
+ ) | 
+ | 
+ | 
+ (4,181 | 
+ ) | 
+ | 
+ | 
+ (598 | 
+ ) | 
+ Net cash ",Net cash provided by operating activities
+TCOM,FY2025,capex,-797,RMB million,TCOM_20F_2026-04-28.txt,"Purchase of property, equipment and software
+ | 
+ | 
+ | 
+ ( 606 | 
+ ) | 
+ | 
+ | 
+ ( 591 | 
+ ) | 
+ | 
+ | 
+ ( 797 | 
+ ) | 
+ | 
+ | 
+ ( 114 | 
+ ) | 
+ Disposal of property, equipment and software
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ —  | 
+ | 
+ | 
+ | 
+ 7 | 
+ | 
+ | 
+ | 
+ 1 | 
+ | 
+ Cash paid for long-term invest","Purchases of property, equipment and software (combined cash-flow line)"
+YTRA,FY2014,V,,,YTRA_20F_2017-06-30.txt,"ect from
+that date. We have not included financial information for the year ended March 31, 2014 and March 31, 2013 ",not reported
+YTRA,FY2014,revenue,,,YTRA_20F_2017-06-30.txt,"ect from
+that date. We have not included financial information for the year ended March 31, 2014 and March 31, 2013 ",not reported
+YTRA,FY2014,ocf,,,YTRA_20F_2017-06-30.txt,"ect from
+that date. We have not included financial information for the year ended March 31, 2014 and March 31, 2013 ",not reported
+YTRA,FY2014,capex,,,YTRA_20F_2017-06-30.txt,"ect from
+that date. We have not included financial information for the year ended March 31, 2014 and March 31, 2013 ",not reported
+YTRA,FY2015,V,48271546,INR thousand,YTRA_20F_2017-06-30.txt,"614,406 
+ 464,745 
+ Total 
+ 69,051,984 
+ 59,497,191 
+ 48,271,546 
+ Revenue (includin",Gross Bookings (Air Ticketing + Hotels and Packages + Other)
+YTRA,FY2015,revenue,6527694,INR thousand,YTRA_20F_2017-06-30.txt,"214,524 
+ 175,003 
+ Total revenue 
+ 9,345,148 
+ 144,386 
+ 8,338,032 
+ 6,527,694 
+ Other income 
+ 48",Total revenue from consolidated statement of profit or loss
+YTRA,FY2015,ocf,-382982,INR thousand,YTRA_20F_2017-06-30.txt,"0s) 
+ INR ('000s) 
+ Net cash from/(used in) operating activities 
+ (1,589,820 ) 
+ (459,903 ) 
+ (382,982 ) 
+ Net cash from/(us",Net cash used in operating activities
+YTRA,FY2015,capex,-52631,INR thousand,YTRA_20F_2017-06-30.txt,",800 ) 
+ (7,500 ) 
+ Purchase of property, plant and equipment 
+ 19 
+ (65,055 ) 
+ (1,005 ) 
+ (68,672 ) 
+ (52,631 ) 
+ Proceeds from sal","Purchase of property, plant and equipment"
+YTRA,FY2015,capex_sw,-172970,INR thousand,YTRA_20F_2017-06-30.txt," 46 
+ 780 
+ 4,438 
+ Purchase/development of intangible assets 
+ 20 
+ (408,643 ) 
+ (6,314 ) 
+ (239,098 ) 
+ (172,970 ) 
+ Investment in ter",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2016,V,59497191,INR thousand,YTRA_20F_2017-06-30.txt,"614,406 
+ 464,745 
+ Total 
+ 69,051,984 
+ 59,497,191 
+ 48,271,546 
+ Revenue (includin",Gross Bookings (Air Ticketing + Hotels and Packages + Other)
+YTRA,FY2016,revenue,8338032,INR thousand,YTRA_20F_2017-06-30.txt,"214,524 
+ 175,003 
+ Total revenue 
+ 9,345,148 
+ 144,386 
+ 8,338,032 
+ 6,527,694 
+ Other income 
+ 48",Total revenue from consolidated statement of profit or loss
+YTRA,FY2016,ocf,-459903,INR thousand,YTRA_20F_2017-06-30.txt,"0s) 
+ INR ('000s) 
+ Net cash from/(used in) operating activities 
+ (1,589,820 ) 
+ (459,903 ) 
+ (382,982 ) 
+ Net cash from/(us",Net cash used in operating activities
+YTRA,FY2016,capex,-68672,INR thousand,YTRA_20F_2017-06-30.txt,",800 ) 
+ (7,500 ) 
+ Purchase of property, plant and equipment 
+ 19 
+ (65,055 ) 
+ (1,005 ) 
+ (68,672 ) 
+ (52,631 ) 
+ Proceeds from sal","Purchase of property, plant and equipment"
+YTRA,FY2016,capex_sw,-239098,INR thousand,YTRA_20F_2017-06-30.txt," 46 
+ 780 
+ 4,438 
+ Purchase/development of intangible assets 
+ 20 
+ (408,643 ) 
+ (6,314 ) 
+ (239,098 ) 
+ (172,970 ) 
+ Investment in ter",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2016,revenue_restated,8345234,INR thousand,YTRA_20F_2018-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue 
+ 6,527,694 
+ 8,345,234 
+ 9,356,813 
+ 12,248,513 
+ 188,121 
+ ​ 
+ ​ 
+",Total revenue restated in FY2018 20-F comparatives
+YTRA,FY2017,V,69051984,INR thousand,YTRA_20F_2017-06-30.txt,"614,406 
+ 464,745 
+ Total 
+ 69,051,984 
+ 59,497,191 
+ 48,271,546 
+ Revenue (includin",Gross Bookings (Air Ticketing + Hotels and Packages + Other)
+YTRA,FY2017,revenue,9345148,INR thousand,YTRA_20F_2017-06-30.txt,"214,524 
+ 175,003 
+ Total revenue 
+ 9,345,148 
+ 144,386 
+ 8,338,032 
+ 6,527,694 
+ Other income 
+ 48",Total revenue from consolidated statement of profit or loss
+YTRA,FY2017,ocf,-1589820,INR thousand,YTRA_20F_2017-06-30.txt,"0s) 
+ INR ('000s) 
+ Net cash from/(used in) operating activities 
+ (1,589,820 ) 
+ (459,903 ) 
+ (382,982 ) 
+ Net cash from/(us",Net cash used in operating activities
+YTRA,FY2017,capex,-65055,INR thousand,YTRA_20F_2017-06-30.txt,",800 ) 
+ (7,500 ) 
+ Purchase of property, plant and equipment 
+ 19 
+ (65,055 ) 
+ (1,005 ) 
+ (68,672 ) 
+ (52,631 ) 
+ Proceeds from sal","Purchase of property, plant and equipment"
+YTRA,FY2017,capex_sw,-408643,INR thousand,YTRA_20F_2017-06-30.txt," 46 
+ 780 
+ 4,438 
+ Purchase/development of intangible assets 
+ 20 
+ (408,643 ) 
+ (6,314 ) 
+ (239,098 ) 
+ (172,970 ) 
+ Investment in ter",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2017,revenue_restated,9356813,INR thousand,YTRA_20F_2018-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue 
+ 6,527,694 
+ 8,345,234 
+ 9,356,813 
+ 12,248,513 
+ 188,121 
+ ​ 
+ ​ 
+",Total revenue restated in FY2018 20-F comparatives
+YTRA,FY2018,V,92542478,INR thousand,YTRA_20F_2018-07-31.txt,",643 
+ 13,386,288 
+ Total 
+ 47,806,801 
+ 58,882,785 
+ 67,997,906 
+ 92,542,478 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+",Gross Bookings (Air Ticketing + Hotels and Packages; Other not in this year's table)
+YTRA,FY2018,revenue,12248513,INR thousand,YTRA_20F_2018-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue 
+ 6,527,694 
+ 8,345,234 
+ 9,356,813 
+ 12,248,513 
+ 188,121 
+ ​ 
+ ​ 
+",Total revenue from consolidated statement of profit or loss
+YTRA,FY2018,ocf,-881941,INR thousand,YTRA_20F_2018-07-31.txt,"rating activities 
+ (459,903 
+ ) 
+ (1,589,820 
+ ) 
+ (881,941 
+ ) 
+ (13,546 
+ ) 
+ ​ 
+",Net cash used in operating activities
+YTRA,FY2018,capex,-223215,INR thousand,YTRA_20F_2018-07-31.txt,"nd equipment 
+ 19 
+ (68,672 
+ ) 
+ (65,055 
+ ) 
+ (223,215 
+ ) 
+ (3,428 
+ ) 
+ Proc","Purchase of property, plant and equipment"
+YTRA,FY2018,capex_sw,-353061,INR thousand,YTRA_20F_2018-07-31.txt,"gible assets 
+ 20 
+ (239,098 
+ ) 
+ (408,643 
+ ) 
+ (353,061 
+ ) 
+ (5,423 
+ ) 
+ Inve",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2019,V,111150227,INR thousand,YTRA_20F_2019-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total 
+ 47,806,801 
+ 58,882,785 
+ 67,997,906 
+ 92,542,478 
+ 111,150,227 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+",Gross Bookings (Air Ticketing + Hotels and Packages)
+YTRA,FY2019,revenue,9358580,INR thousand,YTRA_20F_2019-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue 
+ 6,527,694 
+ 8,345,234 
+ 9,356,813 
+ 12,248,513 
+ 9,358,580 
+ 135,318 
+ ​ 
+ ​ 
+",Total revenue from consolidated statement of profit or loss
+YTRA,FY2019,ocf,-3542134,INR thousand,YTRA_20F_2019-07-31.txt," 
+ (1,589,820 
+ ) 
+ (881,941 
+ ) 
+ (3,542,134 
+ ) 
+ Net cash from/(us",Net cash used in operating activities
+YTRA,FY2019,capex,-30157,INR thousand,YTRA_20F_2019-07-31.txt," 19 
+ (65,055 
+ ) 
+ (223,215 
+ ) 
+ (30,157 
+ ) 
+ (437 
+ ) 
+ Proceeds from","Purchase of property, plant and equipment"
+YTRA,FY2019,capex_sw,-394147,INR thousand,YTRA_20F_2019-07-31.txt,"20 
+ (408,643 
+ ) 
+ (353,061 
+ ) 
+ (394,147 
+ ) 
+ (5,699 
+ ) 
+ Investment in",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2020,V,85307244,INR thousand,YTRA_20F_2020-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total 
+ 58,882,785 
+ 67,997,906 
+ 92,542,478 
+ 111,150,227 
+ 85,307,244 
+ ​ 
+ ​ 
+ ​
+ ​
+ ​ 
+",Gross Bookings (Air Ticketing + Hotels and Packages)
+YTRA,FY2020,revenue,7259355,INR thousand,YTRA_20F_2020-07-31.txt,"​
+ ​
+ ​ 
+ ​
+ ​
+ ​ 
+ Total revenue 
+ 8,345,234 
+ 9,356,813 
+ 12,248,513 
+ 9,358,580 
+ 7,259,355 
+ 96,291 
+ ​ 
+ ​ 
+ ",Total revenue from consolidated statement of profit or loss
+YTRA,FY2020,ocf,-550356,INR thousand,YTRA_20F_2020-07-31.txt," ) 
+ (881,940 
+ ) 
+ (3,542,134 
+ ) 
+ (550,356 
+ ) 
+ Net cash from/(us",Net cash used in operating activities
+YTRA,FY2020,capex,-15572,INR thousand,YTRA_20F_2020-07-31.txt,"nt 
+ (223,215 
+ ) 
+ (30,157 
+ ) 
+ (15,572 
+ ) 
+ (207 
+ ) 
+ Proceeds from","Purchase of property, plant and equipment"
+YTRA,FY2020,capex_sw,-203751,INR thousand,YTRA_20F_2020-07-31.txt,"ts 
+ (353,061 
+ ) 
+ (394,147 
+ ) 
+ (203,751 
+ ) 
+ (2,703 
+ ) 
+ Investment in",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2021,V,14707383,INR thousand,YTRA_20F_2021-07-29.txt,"111,150,227 | | | 
+ | 85,307,244 | | | 
+ | 14,707,383 | | 
+ Adjusted
+ Revenue",Gross Bookings (Air Ticketing + Hotels and Packages)
+YTRA,FY2021,revenue,1271268,INR thousand,YTRA_20F_2021-07-29.txt,"| 9,358,580 | | | 
+ | 7,259,355 | | | 
+ | 1,271,268 | | | 
+ | 17,381 | | 
+ Ot",Total revenue from consolidated statement of profit or loss
+YTRA,FY2021,ocf,765443,INR thousand,YTRA_20F_2021-07-29.txt,"3,542,134 | ) | | 
+ | (550,356 | ) | | 
+ | 765,443 | | 
+ Net
+ cash from/(u",Net cash from operating activities
+YTRA,FY2021,capex,-1089,INR thousand,YTRA_20F_2021-07-29.txt," ( 30,157 | ) | | 
+ | ( 15,572 | ) | | 
+ | ( 1,089 | ) | | 
+ | ( 15 | ) | 
+ Pr","Purchase of property, plant and equipment"
+YTRA,FY2021,capex_sw,-77881,INR thousand,YTRA_20F_2021-07-29.txt,"( 394,147 | ) | | 
+ | ( 203,751 | ) | | 
+ | ( 77,881 | ) | | 
+ | ( 1,065 | ) | 
+",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2022,V,34298367,INR thousand,YTRA_20F_2022-08-01.txt," 87,770,405 | | | 
+ | 15,816,941 | | | 
+ | 34,298,367 | | 
+ Adjusted Revenue*",Gross Bookings (Air Ticketing + Hotels and Packages + Other Services)
+YTRA,FY2022,revenue,1989376,INR thousand,YTRA_20F_2022-08-01.txt,"| 7,259,355 | | | 
+ | 1,271,268 | | | 
+ | 1,989,376 | | | 
+ | 26,221 | | 
+ Ot",Total revenue from consolidated statement of profit or loss
+YTRA,FY2022,ocf,-972203,INR thousand,YTRA_20F_2022-08-01.txt,"( 550,356 | ) | | 
+ | 765,443 | | | 
+ | ( 972,203 | ) | | 
+ | ( 12,812 | ) | ",Net cash used in operating activities
+YTRA,FY2022,capex,-8927,INR thousand,YTRA_20F_2022-08-01.txt," ( 15,572 | ) | | 
+ | ( 1,089 | ) | | 
+ | ( 8,927 | ) | | 
+ | ( 118 | ) | 
+ P","Purchase of property, plant and equipment"
+YTRA,FY2022,capex_sw,-90469,INR thousand,YTRA_20F_2022-08-01.txt,"( 203,751 | ) | | 
+ | ( 77,881 | ) | | 
+ | ( 90,469 | ) | | 
+ | ( 1,192 | ) | 
+",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2023,V,67397495,INR thousand,YTRA_20F_2023-08-14.txt," 15,816,941 | | | 
+ | 34,298,367 | | | 
+ | 67,397,495 | | 
+ Adjusted
+Margin 
+",Gross Bookings (Air Ticketing + Hotels and Packages + Other Services)
+YTRA,FY2023,revenue,3827265,INR thousand,YTRA_20F_2023-08-14.txt,"Total revenue | | 
+ | 1,989,376 | | | 
+ | 100.0 | | | 
+ | 3,827,265 | | | 
+ | 100.0 | | 
+ Oth",Total revenue from results of operations / income statement
+YTRA,FY2023,ocf,-1962346,INR thousand,YTRA_20F_2023-08-14.txt,"443 | 
+ | 
+ | 
+ | 
+ ( 972,203 | 
+ ) | 
+ | 
+ | 
+ ( 1,962,346 | 
+ ) | 
+ | 
+ | 
+ ( 23,87",Net cash used in operating activities
+YTRA,FY2023,capex,-19786,INR thousand,YTRA_20F_2023-08-14.txt,"9 | 
+ ) | 
+ | 
+ | 
+ ( 8,927 | 
+ ) | 
+ | 
+ | 
+ ( 19,786 | 
+ ) | 
+ | 
+ | 
+ ( 241 |","Purchase of property, plant and equipment"
+YTRA,FY2023,capex_sw,-134406,INR thousand,YTRA_20F_2023-08-14.txt,"1 | 
+ ) | 
+ | 
+ | 
+ ( 90,469 | 
+ ) | 
+ | 
+ | 
+ ( 134,406 | 
+ ) | 
+ | 
+ | 
+ ( 1,635",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2024,V,75948025,INR thousand,YTRA_20F_2024-07-31.txt," 34,298,367 | | | 
+ | 67,397,495 | | | 
+ | 75,948,025 | | 
+ Adjusted
+Margin 
+",Gross Bookings (Air Ticketing + Hotels and Packages + Other Services)
+YTRA,FY2024,revenue,4189897,INR thousand,YTRA_20F_2024-07-31.txt,"otal
+ revenue | | 
+ | 3,827,265 | | | 
+ | 100.0 | | | 
+ | 4,189,897 | | | 
+ | 100.0 | | 
+ Oth",Total revenue from results of operations / income statement
+YTRA,FY2024,ocf,-1433362,INR thousand,YTRA_20F_2024-07-31.txt,"( 972,203 | ) | | 
+ | ( 1,962,346 | ) | | 
+ | ( 1,433,362 | ) | | 
+ | ( 17,199 | ) | ",Net cash used in operating activities
+YTRA,FY2024,capex,-20328,INR thousand,YTRA_20F_2024-07-31.txt,"| ( 8,927 | ) | | 
+ | ( 19,786 | ) | | 
+ | ( 20,328 | ) | | 
+ | ( 244 | ) | 
+ P","Purchase of property, plant and equipment"
+YTRA,FY2024,capex_sw,-246194,INR thousand,YTRA_20F_2024-07-31.txt," ( 90,469 | ) | | 
+ | ( 134,406 | ) | | 
+ | ( 246,194 | ) | | 
+ | ( 2,954 | ) | 
+",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2025,V,70910166,INR thousand,YTRA_20F_2025-07-31.txt," 67,397,495 | | | 
+ | 75,948,025 | | | 
+ | 70,910,166 | | 
+ *Gross
+Bookings r",Gross Bookings (Air Ticketing + Hotels and Packages including MICE + Other Services)
+YTRA,FY2025,revenue,7954522,INR thousand,YTRA_20F_2025-07-31.txt,"otal
+ revenue | | 
+ | 4,189,897 | | | 
+ | 100.0 | | | 
+ | 7,954,522 | | | 
+ | 100.0 | | 
+ Oth",Total revenue from results of operations / income statement
+YTRA,FY2025,ocf,-291088,INR thousand,YTRA_20F_2025-07-31.txt,"1,962,346 | ) | | 
+ | ( 1,433,362 | ) | | 
+ | ( 291,088 | ) | | 
+ | ( 3,407 | ) | 
+",Net cash used in operating activities
+YTRA,FY2025,capex,-62586,INR thousand,YTRA_20F_2025-07-31.txt," ( 19,786 | ) | | 
+ | ( 20,328 | ) | | 
+ | ( 62,586 | ) | | 
+ | ( 733 | ) | 
+ P","Purchase of property, plant and equipment"
+YTRA,FY2025,capex_sw,-232677,INR thousand,YTRA_20F_2025-07-31.txt,"( 134,406 | ) | | 
+ | ( 246,194 | ) | | 
+ | ( 232,677 | ) | | 
+ | ( 2,724 | ) | 
+",Purchase/development of intangible assets (software and technology-related development)
+YTRA,FY2026,V,80535823,INR thousand,YTRA_20F_2026-07-31.txt," 75,948,025 | | | 
+ | 70,910,166 | | | 
+ | 80,535,823 | | 
+ Adjusted
+Margin 
+",Gross Bookings (Air Ticketing + Hotels and Packages including MICE + Other Services)
+YTRA,FY2026,revenue,10074030,INR thousand,YTRA_20F_2026-07-31.txt,"Total revenue | | 
+ | 7,954,522 | | | 
+ | 100.0 | | | 
+ | 10,074,030 | | | 
+ | 100.0 | | 
+ Oth",Total revenue from results of operations / income statement
+YTRA,FY2026,ocf,661456,INR thousand,YTRA_20F_2026-07-31.txt,"1,433,362 | ) | | 
+ | (291,088 | ) | | 
+ | 661,456 | 
+ Net cash from/(us",Net cash from operating activities (printed positive under used-in line)
+YTRA,FY2026,capex,-38534,INR thousand,YTRA_20F_2026-07-31.txt," ( 20,328 | ) | | 
+ | ( 62,586 | ) | | 
+ | ( 38,534 | ) | | 
+ | ( 411 | ) | 
+ P","Purchase of property, plant and equipment"
+YTRA,FY2026,capex_sw,-412213,INR thousand,YTRA_20F_2026-07-31.txt,"( 246,194 | ) | | 
+ | ( 232,677 | ) | | 
+ | ( 412,213 | ) | | 
+ | ( 4,393 | ) | 
+",Purchase/development of intangible assets (software and technology-related development)
+DESP,FY2015,V,3596260,USD thousand,DESP_20F_2018-04-24.txt,",320 
+ Total 
+ 9,056 
+ 7,212 
+ 7,705 
+ Gross bookings 
+ $ 
+ 4,454,548 
+ $ 
+ 3,260,234 
+ $ 
+ 3,596,260 
+ Financial 
+ Adjusted EBITDA (unaudited) 
+ $ 
+ 89,354 
+ $ 
+ 48,585 
+ $ 
+ (39,067 
+ ) 
+ 4 
+ Table of Contents 
+ Number",gross bookings; first available (IPO 20-F comparatives)
+DESP,FY2015,revenue,421711,USD thousand,DESP_20F_2018-04-24.txt,"el Products 
+ 282,925 
+ 205,441 
+ 201,894 
+ Total revenue 
+ 523,940 
+ 411,162 
+ 421,711 
+ Cost of revenue 
+ 142,479 
+ 126,675 
+ 154,213 
+ Gross profit 
+ 381,461 
+ 284,487 
+ 267,498 
+ Operating expenses 
+ Selling and mark",total revenue; first available (IPO 20-F comparatives)
+DESP,FY2015,ocf,-24249,USD thousand,DESP_20F_2018-04-24.txt,"2,461 
+ (5,628 
+ ) 
+ 5,766 
+ Net cash flows provided by / (used in) operating activities 
+ $ 
+ 61,226 
+ $ 
+ (43,292 
+ ) 
+ $ 
+ (24,249 
+ ) 
+ Cash flows from investing activities: 
+ Sales of short-term investments 
+ 40,013",net cash from operating activities; first available
+DESP,FY2015,capex,-7085,USD thousand,DESP_20F_2018-04-24.txt," investments 
+ — 
+ — 
+ (40,013 
+ ) 
+ Acquisition of property and equipment 
+ (8,746 
+ ) 
+ (4,419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 
+ ) 
+ ",purchases of property and equipment; first available
+DESP,FY2015,capex_sw,-13552,USD thousand,DESP_20F_2018-04-24.txt,"419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 
+ ) 
+ (12,159 
+ ) 
+ (13,552 
+ ) 
+ (Increase) / Decrease in restricted cash and cash equivalents 
+ 3",increase of intangible assets including internal-use software; first available
+DESP,FY2016,V,3260234,USD thousand,DESP_20F_2018-04-24.txt,",320 
+ Total 
+ 9,056 
+ 7,212 
+ 7,705 
+ Gross bookings 
+ $ 
+ 4,454,548 
+ $ 
+ 3,260,234 
+ $ 
+ 3,596,260 
+ Financial 
+ Adjusted EBITDA (unaudited) 
+ $ 
+ 89,354 
+ $ 
+ 48,585 
+ $ 
+ (39,067 
+ ) 
+ 4 
+ Table of Contents 
+ Number",gross bookings; first available (IPO 20-F comparatives)
+DESP,FY2016,revenue,411162,USD thousand,DESP_20F_2018-04-24.txt,"el Products 
+ 282,925 
+ 205,441 
+ 201,894 
+ Total revenue 
+ 523,940 
+ 411,162 
+ 421,711 
+ Cost of revenue 
+ 142,479 
+ 126,675 
+ 154,213 
+ Gross profit 
+ 381,461 
+ 284,487 
+ 267,498 
+ Operating expenses 
+ Selling and mark",total revenue; first available (IPO 20-F comparatives)
+DESP,FY2016,ocf,-43292,USD thousand,DESP_20F_2018-04-24.txt,"e 
+ 2,461 
+ (5,628 
+ ) 
+ 5,766 
+ Net cash flows provided by / (used in) operating activities 
+ $ 
+ 61,226 
+ $ 
+ (43,292 
+ ) 
+ $ 
+ (24,249 
+ ) 
+ Cash flows from investing activities: 
+ Sales of short-term investments 
+ 40",net cash from operating activities; first available
+DESP,FY2016,capex,-4419,USD thousand,DESP_20F_2018-04-24.txt,"erm investments 
+ — 
+ — 
+ (40,013 
+ ) 
+ Acquisition of property and equipment 
+ (8,746 
+ ) 
+ (4,419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 
+ )",purchases of property and equipment; first available
+DESP,FY2016,capex_sw,-12159,USD thousand,DESP_20F_2018-04-24.txt," (4,419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 
+ ) 
+ (12,159 
+ ) 
+ (13,552 
+ ) 
+ (Increase) / Decrease in restricted cash and cash equivalents",increase of intangible assets including internal-use software; first available
+DESP,FY2017,V,4454548,USD thousand,DESP_20F_2018-04-24.txt," 
+ 3,320 
+ Total 
+ 9,056 
+ 7,212 
+ 7,705 
+ Gross bookings 
+ $ 
+ 4,454,548 
+ $ 
+ 3,260,234 
+ $ 
+ 3,596,260 
+ Financial 
+ Adjusted EBITDA (unaudited) 
+ $ 
+ 89,354 
+ $ 
+ 48,585 
+ $ 
+ (39,067 
+ ) 
+ 4 
+ Table of Contents 
+ Nu",gross bookings
+DESP,FY2017,revenue,523940,USD thousand,DESP_20F_2018-04-24.txt,"avel Products 
+ 282,925 
+ 205,441 
+ 201,894 
+ Total revenue 
+ 523,940 
+ 411,162 
+ 421,711 
+ Cost of revenue 
+ 142,479 
+ 126,675 
+ 154,213 
+ Gross profit 
+ 381,461 
+ 284,487 
+ 267,498 
+ Operating expenses 
+ Selling and ma",total revenue
+DESP,FY2017,ocf,61226,USD thousand,DESP_20F_2018-04-24.txt,"venue 
+ 2,461 
+ (5,628 
+ ) 
+ 5,766 
+ Net cash flows provided by / (used in) operating activities 
+ $ 
+ 61,226 
+ $ 
+ (43,292 
+ ) 
+ $ 
+ (24,249 
+ ) 
+ Cash flows from investing activities: 
+ Sales of short-term investments ",net cash from operating activities
+DESP,FY2017,capex,-8746,USD thousand,DESP_20F_2018-04-24.txt,"t-term investments 
+ — 
+ — 
+ (40,013 
+ ) 
+ Acquisition of property and equipment 
+ (8,746 
+ ) 
+ (4,419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 ",purchases of property and equipment
+DESP,FY2017,capex_sw,-12929,USD thousand,DESP_20F_2018-04-24.txt,") 
+ (4,419 
+ ) 
+ (7,085 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (12,929 
+ ) 
+ (12,159 
+ ) 
+ (13,552 
+ ) 
+ (Increase) / Decrease in restricted cash and cash equivale",increase of intangible assets including internal-use software
+DESP,FY2018,V,4715235,USD thousand,DESP_20F_2019-04-26.txt,"320 
+ Total 
+ 10,393 
+ 9,056 
+ 7,212 
+ 7,705 
+ Gross bookings 
+ $ 
+ 4,715,235 
+ $ 
+ 4,454,548 
+ $ 
+ 3,260,234 
+ 3,596,260 
+ Financial 
+ Adjusted EBITDA (unaudited) 
+ $ 
+ 67,329 
+ $ 
+ 89,354 
+ $ 
+ 48,585 
+ (39,067 
+ ) 
+ 4",gross bookings
+DESP,FY2018,revenue,530614,USD thousand,DESP_20F_2019-04-26.txt,"cts 
+ 315,810 
+ 282,925 
+ 205,441 
+ 201,894 
+ Total revenue 
+ 530,614 
+ 523,940 
+ 411,162 
+ 421,711 
+ Cost of revenue 
+ 172,110 
+ 142,479 
+ 126,675 
+ 154,213 
+ Gross profit 
+ 358,504 
+ 381,461 
+ 284,487 
+ 267,498 
+ Opera",total revenue
+DESP,FY2018,ocf,-17620,USD thousand,DESP_20F_2019-04-26.txt,"enue 
+ 6,009 
+ 2,461 
+ (5,628 
+ ) 
+ Net cash flows (used in) / provided by operating activities 
+ $ 
+ (17,620 
+ ) 
+ $ 
+ 61,226 
+ $ 
+ (43,292 
+ ) 
+ Cash flows from investing activities: 
+ Sales of short-term investments 
+",net cash from operating activities
+DESP,FY2018,capex,-13085,USD thousand,DESP_20F_2019-04-26.txt," short-term investments 
+ — 
+ — 
+ 40,013 
+ Acquisition of property and equipment 
+ (13,085 
+ ) 
+ (8,746 
+ ) 
+ (4,419 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (13,494",purchases of property and equipment
+DESP,FY2018,capex_sw,-13494,USD thousand,DESP_20F_2019-04-26.txt,") 
+ (8,746 
+ ) 
+ (4,419 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (13,494 
+ ) 
+ (12,929 
+ ) 
+ (12,159 
+ ) 
+ Net cash flows (used in) / provided by investing activitie",increase of intangible assets including internal-use software
+DESP,FY2019,V,4734257,USD thousand,DESP_20F_2020-04-10.txt,"al 
+ 10,678 
+ 10,393 
+ 9,056 
+ 7,212 
+ 7,705 
+ Gross bookings 
+ $ 
+ 4,734,257 
+ $ 
+ 4,715,325 
+ $ 
+ 4,454,548 
+ $ 
+ 3,260,234 
+ $ 
+ 3,596,260 
+ Financial 
+ Adjusted Segment EBITDA 
+ Air 
+ $ 
+ 3,346 
+ $ 
+ 27,790 
+ $ 
+ 58,",gross bookings
+DESP,FY2019,revenue,524876,USD thousand,DESP_20F_2020-04-10.txt,"238 
+ 315,810 
+ 282,925 
+ 205,441 
+ 201,894 
+ Total revenue 
+ 524,876 
+ 530,614 
+ 523,940 
+ 411,162 
+ 421,711 
+ Cost of revenue 
+ 179,565 
+ 172,110 
+ 142,479 
+ 126,675 
+ 154,213 
+ Gross profit 
+ 345,311 
+ 358,504 
+ 381,4",total revenue
+DESP,FY2019,ocf,44238,USD thousand,DESP_20F_2020-04-10.txt,"31, 
+ 2019 
+ 2018 
+ (in thousands) 
+ Net cash flows provided by / (used in) operating activities 
+ $ 
+ 44,238 
+ $ 
+ (17,620 
+ ) 
+ Net cash flows used in investing activities 
+ (30,784 
+ ) 
+ (26,579 
+ ) 
+ Net cash flows u",net cash from operating activities
+DESP,FY2019,capex,-5942,USD thousand,DESP_20F_2020-04-10.txt," net of cash acquired 
+ (228 
+ ) 
+ — 
+ — 
+ Acquisition of property and equipment 
+ (5,942 
+ ) 
+ (13,085 
+ ) 
+ (8,746 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (24,614",purchases of property and equipment
+DESP,FY2019,capex_sw,-24614,USD thousand,DESP_20F_2020-04-10.txt," 
+ (13,085 
+ ) 
+ (8,746 
+ ) 
+ Increase of intangible assets, including internal-use 
+software and website development 
+ (24,614 
+ ) 
+ (13,494 
+ ) 
+ (12,929 
+ ) 
+ Net cash flows used in investing activities 
+ $ 
+ (30,784 ",increase of intangible assets including internal-use software
+DESP,FY2020,V,1432335,USD thousand,DESP_20F_2021-04-30.txt,"| 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Total gross bookings
+ | 
+ | 
+ | 
+ 1,432,335
+ | 
+ | 
+ | 
+ | 
+ 4,734,193
+ | 
+ | 
+ | 
+ | 
+ (69.7
+ | 
+ ) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Financial Metrics
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",gross bookings
+DESP,FY2020,revenue,131334,USD thousand,DESP_20F_2021-04-30.txt,"| 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Consolidated revenues
+ | 
+ | 
+ | 
+ 131,334 | 
+ | 
+ | 
+ | 
+ 524,876 | 
+ | 
+ | 
+ | 
+ (75.0 | 
+ ) | 
+ Consolidated operating loss
+ | 
+ | 
+ | 
+ (177,217 | 
+ ) | 
+ | 
+ | 
+ (8,920 | ",total / consolidated revenue
+DESP,FY2020,ocf,-118345,USD thousand,DESP_20F_2021-04-30.txt," | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Net cash flows (used in) / provided by operating activities
+ | 
+ | 
+ $
+ | 
+ ( 118,345 
+ | 
+ ) 
+ | 
+ | 
+ $
+ | 
+ 44,238 
+ | 
+ | 
+ | 
+ $
+ | 
+ ( 17,620 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |",net cash from operating activities
+DESP,FY2020,capex,-3458,USD thousand,DESP_20F_2021-04-30.txt,"( 228 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ — 
+ | 
+ | 
+ Acquisition of property and equipment
+ | 
+ | 
+ | 
+ ( 3,458 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 5,942 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 13,085 
+ | 
+ ) 
+ | 
+ Increase of intangible assets, including inter",purchases of property and equipment
+DESP,FY2020,capex_sw,-14028,USD thousand,DESP_20F_2021-04-30.txt,"| 
+ ( 13,085 
+ | 
+ ) 
+ | 
+ Increase of intangible assets, including internal-use
+ software and website development
+ | 
+ | 
+ | 
+ ( 14,028 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 24,614 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 13,494 
+ | 
+ ) 
+ | 
+ | 
+ | 
+",increase of intangible assets including internal-use software
+DESP,FY2021,V,2529420,USD thousand,DESP_20F_2022-04-29.txt," 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Total gross bookings
+ | 
+ | 
+ $
+ | 
+ 2,529,420
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,432,335
+ | 
+ | 
+ | 
+ | 
+ 76.6
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Financial Metrics
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ",gross bookings
+DESP,FY2021,revenue,322843,USD thousand,DESP_20F_2022-04-29.txt,"| 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Consolidated revenues
+ | 
+ | 
+ $ | 
+ 322,843 | 
+ | 
+ | 
+ $ | 
+ 131,334 | 
+ | 
+ | 
+ | 
+ 145.8 | 
+ | 
+ Consolidated operating loss
+ | 
+ | 
+ $ | 
+ (95,888 | 
+ ) | 
+ | 
+ $ | 
+ (177",total / consolidated revenue
+DESP,FY2021,ocf,-38208,USD thousand,DESP_20F_2022-04-29.txt,"
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Net cash flows (used in) / provided by operating activities
+ | 
+ | 
+ $
+ | 
+ ( 38,208 
+ | 
+ ) 
+ | 
+ | 
+ $
+ | 
+ ( 118,345 
+ | 
+ ) 
+ | 
+ | 
+ $
+ | 
+ 44,238 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ ",net cash from operating activities
+DESP,FY2021,capex,-2368,USD thousand,DESP_20F_2022-04-29.txt,"43 | 
+ | 
+ | 
+ $
+ | 
+ ( 228 | 
+ ) 
+ | 
+ Acquisition of property and equipment
+ | 
+ | 
+ | 
+ ( 2,368 | 
+ ) 
+ | 
+ | 
+ | 
+ ( 3,458 | 
+ ) 
+ | 
+ | 
+ | 
+ ( 5,942 | 
+ ) 
+ | 
+ Increase of intangible assets, including internal-use",purchases of property and equipment
+DESP,FY2021,capex_sw,-18823,USD thousand,DESP_20F_2022-04-29.txt," 
+ | 
+ ( 5,942 | 
+ ) 
+ | 
+ Increase of intangible assets, including internal-use
+ software and website development
+ | 
+ | 
+ | 
+ ( 18,823 | 
+ ) 
+ | 
+ | 
+ | 
+ ( 14,028 | 
+ ) 
+ | 
+ | 
+ | 
+ ( 24,614 | 
+ ) 
+ | 
+ | 
+ | 
+ | 
+ |",increase of intangible assets including internal-use software
+DESP,FY2021,ocf_restated,-36472,USD thousand,DESP_20F_2023-04-27.txt,"497 | | | 4,534 | | | 10 | | 
+ Net cash flows provided by / (used in) operating activities | $ | 36,702 | | | $ | ( 36,472 ) | | | $ | ( 118,345 ) | | 
+ Cash flows from investing activities: | | | | | | 
+ Origination of ",revised OCF after reclass of merchant-customer loans to investing; see 2023 20-F revision note
+DESP,FY2022,V,4274606,USD thousand,DESP_20F_2023-04-27.txt,"er | 1,209,405 | | | 794,136 | | | 52.3 | | 
+ Total gross bookings | $ | 4,274,606 | | | $ | 2,524,910 | | | 69.3 | | 
+ Total Payment Volume | | | | | | 
+ By country | | | | | | 
+ Brazil | 75,686 | | | 30,412 | | | 148.9",gross bookings
+DESP,FY2022,revenue,537972,USD thousand,DESP_20F_2023-04-27.txt,"nue | | | | % of Revenue | | % of change | 
+ Total revenue | $ | 537,972 | | | 100.0 | | | $ | 322,843 | | | 100.0 | | | 66.6 | | 
+ Cost of revenue | (182,898) | | | (34.0) | | | (160,240) | | | (49.6) | | | 14.1 | | 
+ G",total revenue
+DESP,FY2022,ocf,36702,USD thousand,DESP_20F_2023-04-27.txt,"497 | | | 4,534 | | | 10 | | 
+ Net cash flows provided by / (used in) operating activities | $ | 36,702 | | | $ | ( 36,472 ) | | | $ | ( 118,345 ) | | 
+ Cash flows from investing activities: | | | | | | 
+ Origination of ",net cash from operating activities
+DESP,FY2022,capex,-4288,USD thousand,DESP_20F_2023-04-27.txt," assets | ( 3,190 ) | | | — | | | — | | 
+ Acquisition of property and equipment | ( 4,288 ) | | | ( 2,368 ) | | | ( 3,458 ) | | 
+ Capital expenditures, including internal-use software and website development | ( 26,372 )",purchases of property and equipment
+DESP,FY2022,capex_sw,-26372,USD thousand,DESP_20F_2023-04-27.txt,"( 2,368 ) | | | ( 3,458 ) | | 
+ Capital expenditures, including internal-use software and website development | ( 26,372 ) | | | ( 18,823 ) | | | ( 14,028 ) | | 
+ Net cash flows used in investing activities | $ | ( 51,14",capitalized software / website development (CF line also includes other intangibles)
+DESP,FY2023,V,5714361,USD thousand,DESP_20F_2024-04-26.txt,"0 | 
+ Other | 1,280,850 | 1,209,405 | 5.9 | 
+ Total gross bookings | $ | 5,714,361 | $ | 4,274,606 | 33.7 | 
+ Gross Bookings, net | 
+ By country | 
+ Brazil | 2,142,972 | 1,383,550 | 54.9 | 
+ Mexico | 1,022,011 | 836,236 ",gross bookings
+DESP,FY2023,revenue,706040,USD thousand,DESP_20F_2024-04-26.txt,"% of Revenue | % of Revenue | % of change | 
+ Total revenue | $ | 706,040 | 100.0 | $ | 537,972 | 100.0 | 31.2 | 
+ Cost of revenue | (228,938) | (32.4) | (182,898) | (34.0) | 25.2 | 
+ Gross profit | $ | 477,102 | 67.6 | ",total revenue
+DESP,FY2023,ocf,102730,USD thousand,DESP_20F_2024-04-26.txt,"ue | 12,772 | | 9,497 | | 4,534 | 
+ Net cash flows provided by / (used in) operating activities | $ | 102,730 | | $ | 36,702 | | $ | ( 36,472 ) | 
+ Cash flows from investing activities: | | | 
+ Origination of loans recei",net cash from operating activities
+DESP,FY2023,capex,-9820,USD thousand,DESP_20F_2024-04-26.txt," for other assets | — | ( 3,190 ) | — | 
+ Acquisition of property and equipment | ( 9,820 ) | | ( 4,288 ) | | ( 2,368 ) | 
+ Capital expenditures, including internal-use software and website development | ( 31,146 ) | | (",purchases of property and equipment
+DESP,FY2023,capex_sw,-31146,USD thousand,DESP_20F_2024-04-26.txt,"| | ( 4,288 ) | | ( 2,368 ) | 
+ Capital expenditures, including internal-use software and website development | ( 31,146 ) | | ( 26,372 ) | | ( 18,823 ) | 
+ Net cash flows used in investing activities | $ | ( 52,558 ) | ",capitalized software / website development (CF line also includes other intangibles)
+DESP,FY2024,V,5506966,USD thousand,DESP_20F_2025-04-30.txt,") | 
+ Other | 1,344,800 | 1,280,850 | 5.0 | 
+ Total gross bookings | $ | 5,506,966 | $ | 5,714,361 | (3.6) | 
+ Gross Bookings, net | 
+ By country | 
+ Brazil | 2,276,400 | 2,142,972 | 6.2 | 
+ Mexico | 1,002,623 | 1,022,01",gross bookings
+DESP,FY2024,revenue,774061,USD thousand,DESP_20F_2025-04-30.txt,"% of Revenue | % of Revenue | % of change | 
+ Total revenue | $ | 774,061 | 100.0 | $ | 706,040 | 100.0 | 9.6 | 
+ Cost of revenue | (208,142) | (26.9) | (228,938) | (32.4) | (9.1) | 
+ Gross profit | $ | 565,919 | 73.1 | ",total revenue
+DESP,FY2024,ocf,66113,USD thousand,DESP_20F_2025-04-30.txt,"nue | 12,767 | | 12,772 | 9,497 | 
+ Net cash flows provided by operating activities | $ | 66,113 | | $ | 102,730 | $ | 36,702 | 
+ Cash flows from investing activities: | | 
+ Origination of loans receivable | ( 9,204 ) | ",net cash from operating activities
+DESP,FY2024,capex,-6488,USD thousand,DESP_20F_2025-04-30.txt," for other assets | — | — | ( 3,190 ) | 
+ Acquisition of property and equipment | ( 6,488 ) | | ( 9,820 ) | ( 4,288 ) | 
+ Capital expenditures, including internal-use software and website development | ( 30,330 ) | | ( 3",purchases of property and equipment
+DESP,FY2024,capex_sw,-30330,USD thousand,DESP_20F_2025-04-30.txt,") | | ( 9,820 ) | ( 4,288 ) | 
+ Capital expenditures, including internal-use software and website development | ( 30,330 ) | | ( 31,146 ) | ( 26,372 ) | 
+ Proceeds from financed sale of held-for-sale assets | $ | 2,069 |",capitalized software / website development (CF line also includes other intangibles)
+TOUR,FY2014,V,,,TOUR_20F_2015-04-17.txt,"anjing Tuniu Technology Co., Ltd., or Nanjing Tuniu, and its subsidiaries; 
+ · “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2014,revenue,3534939179,RMB,TOUR_20F_2015-04-17.txt," ) 
+ | 
+ Net revenues 
+ | 
+ | 
+ 1,112,880,580 
+ | 
+ | 
+ 1,949,687,414 
+ | 
+ | 
+ 3,534,939,179 
+ | 
+ | 
+ 569,728,780 
+ | 
+ | 
+ Cost of revenues 
+ | 
+ | 
+ ",Net revenues; audited FS in RMB (not thousands)
+TOUR,FY2014,ocf,-271101198,RMB,TOUR_20F_2015-04-17.txt," in) operating activities 
+ | 
+ | 
+ 14,663,258 
+ | 
+ | 
+ 116,736,250 
+ | 
+ | 
+ (271,101,198 
+ | 
+ ) 
+ | 
+ (43,693,582 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+",Net cash used in operating activities
+TOUR,FY2014,capex,-50622276,RMB,TOUR_20F_2015-04-17.txt,"intangible assets 
+ | 
+ | 
+ (21,440,852 
+ | 
+ ) 
+ | 
+ (4,842,892 
+ | 
+ ) 
+ | 
+ (50,622,276 
+ | 
+ ) 
+ | 
+ (8,158,830 
+ | 
+ ) 
+ | 
+ Proceeds from dispos",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2014,capex_sw,6836756,RMB,TOUR_20F_2015-04-17.txt,"years. Software development cost capitalized amounted to nil, RMB980,187 and RMB6,836,756 for the years ended December 31, 2012, 2013 and 2014, respe",Software development cost capitalized; included in PPE
+TOUR,FY2015,V,,,TOUR_20F_2016-04-28.txt,"anjing Tuniu Technology Co., Ltd., or Nanjing Tuniu, and its subsidiaries; 
+ · “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2015,revenue,7645260,RMB thousand,TOUR_20F_2016-04-28.txt,"526 ) 
+ (5,484 ) 
+ Net revenues 
+ 765,543 
+ 1,112,881 
+ 1,949,687 
+ 3,534,939 
+ 7,645,260 
+ 1,180,224 
+ Cost of revenues 
+ (741,716 ) 
+ (1,073,732 ) ",Net revenues
+TOUR,FY2015,ocf,-514735,RMB thousand,TOUR_20F_2016-04-28.txt,"d by/(used in) operating activities 
+ 36,270 
+ 14,663 
+ 116,736 
+ (271,102 ) 
+ (514,735 ) 
+ (79,462 ) 
+ Net cash used in investing activities 
+ (20",Net cash used in operating activities
+TOUR,FY2015,capex,-155478,RMB thousand,TOUR_20F_2016-04-28.txt,"chase of property and equipment and intangible assets 
+ (4,843 ) 
+ (50,622 ) 
+ (155,478 ) 
+ (24,002 ) 
+ Proceeds from disposal of property and equi",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2015,capex_sw,7572,RMB thousand,TOUR_20F_2016-04-28.txt,"e years. Software development cost capitalized amounted to RMB980, RMB6,837 and RMB7,572 for the years
+ended December 31, 2013, 2014 and 2015, respe",Software development cost capitalized; included in PPE
+TOUR,FY2016,V,,,TOUR_20F_2017-04-17.txt,"anjing Tuniu Technology Co., Ltd., or Nanjing Tuniu, and its subsidiaries; 
+ · “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2016,revenue,10548273,RMB thousand,TOUR_20F_2017-04-17.txt,"7 ) 
+ (2,493 ) 
+ Net revenues 
+ 1,112,881 
+ 1,949,687 
+ 3,534,939 
+ 7,645,260 
+ 10,548,273 
+ 1,519,267 
+ Cost of revenues 
+ (1,073,732 ) 
+ (1,829,665 ",Net revenues
+TOUR,FY2016,ocf,-2239444,RMB thousand,TOUR_20F_2017-04-17.txt,"/(used in) operating activities 
+ 14,663 
+ 116,736 
+ (271,102 ) 
+ (514,735 ) 
+ (2,239,444 ) 
+ (322,550 ) 
+ Net cash used in investing activities 
+ (4",Net cash used in operating activities
+TOUR,FY2016,capex,-117894,RMB thousand,TOUR_20F_2017-04-17.txt,"ase of property and equipment and intangible assets 
+ (50,622 ) 
+ (155,478 ) 
+ (117,894 ) 
+ (16,980 ) 
+ Cash paid for long-term investment 
+ — 
+ — ",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2016,capex_sw,8516,RMB thousand,TOUR_20F_2017-04-17.txt,"years. Software development cost capitalized amounted to RMB6,837, RMB7,572 and RMB8,516 for the
+years ended December 31, 2014, 2015 and 2016, respe",Software development cost capitalized; included in PPE
+TOUR,FY2017,V,,,TOUR_20F_2018-04-26.txt,"ing Tuniu Technology Co., Ltd.,
+ or Nanjing Tuniu, and its subsidiaries; 
+ · 
+ “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2017,revenue,2192100,RMB thousand,TOUR_20F_2018-04-26.txt,"307 ) 
+ — 
+ — 
+ Net revenues 
+ 1,949,687 
+ 3,534,939 
+ 7,671,100 
+ 10,530,941 
+ 2,192,100 
+ 336,920 
+ Cost of revenues 
+ (1,829,665 ) 
+ (3,308,801 ) ",Net revenues
+TOUR,FY2017,ocf,-418649,RMB thousand,TOUR_20F_2018-04-26.txt,"in) operating
+ activities 
+ 116,736 
+ (271,102 ) 
+ (514,735 ) 
+ (2,239,444 ) 
+ (418,649 ) 
+ (64,347 ) 
+ Net cash (used in)/ provided by investing a",Net cash used in operating activities
+TOUR,FY2017,capex,-160497,RMB thousand,TOUR_20F_2018-04-26.txt,"se of property and equipment and intangible assets 
+ (155,478 ) 
+ (117,894 ) 
+ (160,497 ) 
+ (24,668 ) 
+ Cash paid for long-term investments 
+ — 
+ (",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2017,capex_sw,19545,RMB thousand,TOUR_20F_2018-04-26.txt,"years. Software development cost capitalized amounted to RMB7,572, RMB8,516
+and RMB19,545 for the years ended December 31, 2015, 2016 and 2017, respe",Software development cost capitalized; included in PPE
+TOUR,FY2018,V,,,TOUR_20F_2019-04-04.txt,"jing Tuniu Technology Co., Ltd., or Nanjing Tuniu, and its subsidiaries; 
+ · 
+ “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2018,revenue,2240149,RMB thousand,TOUR_20F_2019-04-04.txt,"19 
+ 59,562 
+ Total revenues 
+ 3,554,707 
+ 7,706,626 
+ 10,548,248 
+ 2,192,100 
+ 2,240,149 
+ 325,816 
+ Less: Business and related taxes 
+ (19,768 ) 
+ ",Net revenues
+TOUR,FY2018,ocf,268089,RMB thousand,TOUR_20F_2019-04-04.txt,"by operating activities 
+ (271,102 ) 
+ (514,735 ) 
+ (2,239,444 ) 
+ (418,649 ) 
+ 268,089 
+ 38,992 
+ Net cash (used in)/provided by investing activit",Net cash provided by operating activities
+TOUR,FY2018,capex,-119442,RMB thousand,TOUR_20F_2019-04-04.txt,"se of property and equipment and intangible assets 
+ (117,894 ) 
+ (160,497 ) 
+ (119,442 ) 
+ (17,372 ) 
+ Cash paid for long-term investments 
+ (57,5",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2018,capex_sw,75443,RMB thousand,TOUR_20F_2019-04-04.txt,"ears. Software development cost capitalized amounted to RMB8,516, RMB19,545 and RMB75,443 for the
+years ended December 31, 2016, 2017 and 2018, respe",Software development cost capitalized; included in PPE
+TOUR,FY2019,V,,,TOUR_20F_2020-05-22.txt,"jing Tuniu Technology Co., Ltd., or Nanjing Tuniu, and its subsidiaries; 
+ · 
+ “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2019,revenue,2280987,RMB thousand,TOUR_20F_2020-05-22.txt,"65 
+ 56,618 
+ Total revenues 
+ 7,706,626 
+ 10,548,248 
+ 2,192,100 
+ 2,240,149 
+ 2,280,987 
+ 327,643 
+ Less: Business and related taxes 
+ (35,526 ) 
+ ",Net revenues
+TOUR,FY2019,ocf,-120461,RMB thousand,TOUR_20F_2020-05-22.txt,"d by operating activities 
+ (514,735 ) 
+ (2,239,444 ) 
+ (418,649 ) 
+ 268,089 
+ (120,461 ) 
+ (17,303 ) 
+ Net cash (used in)/provided by investing ac",Net cash used in operating activities
+TOUR,FY2019,capex,-122479,RMB thousand,TOUR_20F_2020-05-22.txt,"se of property and equipment and intangible assets 
+ (160,497 ) 
+ (119,442 ) 
+ (122,479 ) 
+ (17,593 ) 
+ Cash paid for long-term investments 
+ (426,",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2019,capex_sw,56927,RMB thousand,TOUR_20F_2020-05-22.txt,"ars. Software development cost capitalized amounted to RMB19,545, RMB75,443
+and RMB56,927 for the years ended December 31, 2017, 2018 and 2019, respe",Software development cost capitalized; included in PPE
+TOUR,FY2020,V,,,TOUR_20F_2021-04-29.txt,"ology Co., Ltd., or Nanjing Tuniu, and its subsidiaries;
+ | 
+ ​ 
+ ​ 
+ | · 
+ | “ gross bookings ” refer to the total amount paid by our customers for the t",not reported
+TOUR,FY2020,revenue,450259,RMB thousand,TOUR_20F_2021-04-29.txt," | 
+ | 10,548,248 
+ | 
+ | 2,192,100 
+ | 
+ | 2,240,149 
+ | 
+ | 2,280,987 
+ | 
+ | 450,259 
+ | 
+ | 69,006 
+ | 
+ Less: Business and related taxes
+ | 
+ ",Net revenues
+TOUR,FY2020,ocf,-1313115,RMB thousand,TOUR_20F_2021-04-29.txt," | 
+ | (2,239,444) 
+ | 
+ | (418,649) 
+ | 
+ | 268,089 
+ | 
+ | (120,461) 
+ | 
+ | (1,313,115) 
+ | 
+ | (201,243) 
+ | 
+ Net cash (used in)/provided by inv",Net cash used in operating activities
+TOUR,FY2020,capex,-28330,RMB thousand,TOUR_20F_2021-04-29.txt," equipment and intangible assets
+ | 
+ | ( 119,442 )
+ | 
+ | ( 122,479 )
+ | 
+ | ( 28,330 )
+ | 
+ | ( 4,342 )
+ | 
+ Cash paid for long-term investments",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2020,capex_sw,756,RMB thousand,TOUR_20F_2021-04-29.txt,". Software development cost capitalized amounted to RMB 75,443 , RMB 56,927 and RMB 756 for the years ended December 31, 2018, 2019 and 2020, respe",Software development cost capitalized; included in PPE
+TOUR,FY2021,V,,,TOUR_20F_2022-04-29.txt,"dat e d affiliated entities” refers to the VIE and its subsidiaries; | 
+ | ● | “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2021,revenue,426348,RMB thousand,TOUR_20F_2022-04-29.txt,"015 
+ | 
+ | 18,990 
+ | 
+ Net revenues 
+ | 
+ | 2,280,987 
+ | 
+ | 450,259 
+ | 
+ | 426,348 
+ | 
+ | 66,903 
+ | 
+ Cost of revenues
+ | 
+ | ( 1,200,012 )
+",Net revenues
+TOUR,FY2021,ocf,-226342,RMB thousand,TOUR_20F_2022-04-29.txt,"h used in operating activities
+ | 
+ | ( 120,461 )
+ | 
+ | ( 1,313,115 )
+ | 
+ | ( 226,342 )
+ | 
+ | ( 35,519 )
+ | 
+ Cash flows from investing activiti",Net cash used in operating activities
+TOUR,FY2021,capex,-14742,RMB thousand,TOUR_20F_2022-04-29.txt,"d equipment and intangible assets
+ | 
+ | ( 122,479 )
+ | 
+ | ( 28,330 )
+ | 
+ | ( 14,742 )
+ | 
+ | ( 2,313 )
+ | 
+ Cash paid for long-term investments",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2021,capex_sw,4972,RMB thousand,TOUR_20F_2022-04-29.txt,"rs . Software development cost capitalized amounted to RMB 56,927 , RMB 756 and RMB 4,972 for the years ended December 31, 2019, 2020 and 2021, respe",Software development cost capitalized; included in PPE
+TOUR,FY2022,V,,,TOUR_20F_2023-04-27.txt,"dat e d affiliated entities” refers to the VIE and its subsidiaries; | 
+ | ● | “gross bookings” refer to the total amount paid by our customers for the tr",not reported
+TOUR,FY2022,revenue,183620,RMB thousand,TOUR_20F_2023-04-27.txt,"3,306 
+ | 
+ | 16,428 
+ | 
+ Net revenues 
+ | 
+ | 450,259 
+ | 
+ | 426,348 
+ | 
+ | 183,620 
+ | 
+ | 26,623 
+ | 
+ Cost of revenues
+ | 
+ | ( 237,065 )
+ |",Net revenues
+TOUR,FY2022,ocf,-142991,RMB thousand,TOUR_20F_2023-04-27.txt,"h used in operating activities
+ | 
+ | ( 1,313,115 )
+ | 
+ | ( 226,342 )
+ | 
+ | ( 142,991 )
+ | 
+ | ( 20,732 )
+ | 
+ Cash flows from investing activiti",Net cash used in operating activities
+TOUR,FY2022,capex,-6450,RMB thousand,TOUR_20F_2023-04-27.txt,"nd equipment and intangible assets
+ | 
+ | ( 28,330 )
+ | 
+ | ( 14,742 )
+ | 
+ | ( 6,450 )
+ | 
+ | ( 935 )
+ | 
+ Decrease in cash from disposals of su",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2022,capex_sw,2467,RMB thousand,TOUR_20F_2023-04-27.txt,"ars . Software development cost capitalized amounted to RMB 756 , RMB 4,972 and RMB 2,467 for the years ended December 31, 2020, 2021 and 2022, respe",Software development cost capitalized; included in PPE
+TOUR,FY2022,rev_1p,15213,RMB thousand,TOUR_20F_2023-04-27.txt,"ecognized on gross basis with revenue recognized of RMB 23,512 , RMB 17,780 and RMB 15,213 for the years ended December 31, 2020, 2021 and 2022, respe",Sales of merchandises (first-party principal; part of other revenues)
+TOUR,FY2023,V,,,TOUR_20F_2024-04-29.txt,"OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+ ​ 
+ For the fiscal year ended December 31, 2023 . 
+ ​ 
+ OR 
+ ​ 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13",not reported
+TOUR,FY2023,revenue,441270,RMB thousand,TOUR_20F_2024-04-29.txt,"913 
+ | ​ 
+ | 15,199 
+ | 
+ Net revenues 
+ | 
+ | 426,348 
+ | 
+ | 183,620 
+ | 
+ | 441,270 
+ | 
+ | 62,151 
+ | 
+ Cost of revenues
+ | 
+ | ( 254,815 )
+ |",Net revenues
+TOUR,FY2023,ocf,232838,RMB thousand,TOUR_20F_2024-04-29.txt,"ovided by operating activities
+ | 
+ | ( 226,342 )
+ | ​ 
+ | ( 142,991 )
+ | ​ 
+ | 232,838 
+ | ​ 
+ | 32,796 
+ | 
+ Cash flows from investing activities",Net cash provided by operating activities
+TOUR,FY2023,capex,-9788,RMB thousand,TOUR_20F_2024-04-29.txt,"equipment and intangible assets
+ | 
+ | ( 14,742 )
+ | ​ 
+ | ( 6,450 )
+ | ​ 
+ | ( 9,788 )
+ | ​ 
+ | ( 1,379 )
+ | 
+ Cash paid for long-term investmen",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2023,capex_sw,2750,RMB thousand,TOUR_20F_2024-04-29.txt,"s . Software development cost capitalized amounted to RMB 4,972 , RMB 2,467 and RMB 2,750 for the years ended December 31, 2021, 2022 and 2023, respe",Software development cost capitalized; included in PPE
+TOUR,FY2023,rev_1p,6264,RMB thousand,TOUR_20F_2024-04-29.txt,"ecognized on gross basis with revenue recognized of RMB 17,780 , RMB 15,213 and RMB 6,264 for the years ended December 31, 2021, 2022 and 2023, respe",Sales of merchandises (first-party principal; part of other revenues)
+TOUR,FY2024,V,,,TOUR_20F_2025-04-17.txt,"OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+ ​ 
+ For the fiscal year ended December 31, 2024 . 
+ ​ 
+ OR 
+ ​ 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13",not reported
+TOUR,FY2024,revenue,513622,RMB thousand,TOUR_20F_2025-04-17.txt,"160 
+ | ​ 
+ | 14,544 
+ | 
+ Net revenues 
+ | 
+ | 183,620 
+ | 
+ | 441,270 
+ | 
+ | 513,622 
+ | 
+ | 70,366 
+ | 
+ Cost of revenues
+ | 
+ | ( 94,066 )
+ | ",Net revenues
+TOUR,FY2024,ocf,96281,RMB thousand,TOUR_20F_2025-04-17.txt,")/provided by operating activities
+ | 
+ | (142,991) 
+ | ​ 
+ | 232,838 
+ | ​ 
+ | 96,281 
+ | ​ 
+ | 13,189 
+ | 
+ Net cash (used in)/provided by inves",Net cash provided by operating activities
+TOUR,FY2024,capex,-11813,RMB thousand,TOUR_20F_2025-04-17.txt," equipment and intangible assets
+ | 
+ | ( 6,450 )
+ | ​ 
+ | ( 9,788 )
+ | ​ 
+ | ( 11,813 )
+ | ​ 
+ | ( 1,618 )
+ | 
+ Cash paid for long-term investmen",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2024,capex_sw,1572,RMB thousand,TOUR_20F_2025-04-17.txt,"s . Software development cost capitalized amounted to RMB 2,467 , RMB 2,750 and RMB 1,572 for the years ended December 31, 2022, 2023 and 2024, respe",Software development cost capitalized; included in PPE
+TOUR,FY2024,rev_1p,7855,RMB thousand,TOUR_20F_2025-04-17.txt,"recognized on gross basis with revenue recognized of RMB 15,213 , RMB 6,264 and RMB 7,855 for the years ended December 31, 2022, 2023 and 2024, respe",Sales of merchandises (first-party principal; part of other revenues)
+TOUR,FY2025,V,,,TOUR_20F_2026-04-20.txt,"OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 
+ ​ 
+ For the fiscal year ended December 31, 2025 . 
+ ​ 
+ OR 
+ ​ 
+ ☐ TRANSITION REPORT PURSUANT TO SECTION 13",not reported
+TOUR,FY2025,revenue,577974,RMB thousand,TOUR_20F_2026-04-20.txt,"| ​ 
+ | 12,082 
+ | 
+ Net revenues 
+ | ​ 
+ | 441,270 
+ | ​ 
+ | 513,622 
+ | ​ 
+ | 577,974 
+ | ​ 
+ | 82,649 
+ | 
+ Cost of revenues
+ | ​ 
+ | ( 147,581 ",Net revenues
+TOUR,FY2025,ocf,-109068,RMB thousand,TOUR_20F_2026-04-20.txt,"/ (used in) operating activities 
+ | ​ 
+ | 232,838 
+ | ​ 
+ | 96,281 
+ | ​ 
+ | ( 109,068 ) 
+ | ​ 
+ | ( 15,598 ) 
+ | 
+ Cash flows from investing acti",Net cash used in operating activities
+TOUR,FY2025,capex,-7117,RMB thousand,TOUR_20F_2026-04-20.txt,"ment and intangible assets 
+ | ​ 
+ | ( 9,788 ) 
+ | ​ 
+ | ( 11,813 ) 
+ | ​ 
+ | ( 7,117 ) 
+ | ​ 
+ | ( 1,018 ) 
+ | 
+ Cash paid for long-term investm",Purchases of property and equipment and intangible assets (combined cash-flow line)
+TOUR,FY2025,capex_sw,483,RMB thousand,TOUR_20F_2026-04-20.txt,"s . Software development cost capitalized amounted to RMB 2,750 , RMB 1,572 and RMB 483 for the years ended December 31, 2023, 2024 and 2025, respe",Software development cost capitalized; included in PPE
+TOUR,FY2025,rev_1p,3626,RMB thousand,TOUR_20F_2026-04-20.txt," recognized on gross basis with revenue recognized of RMB 6,264 , RMB 7,855 and RMB 3,626 for the years ended December 31, 2023, 2024 and 2025, respe",Sales of merchandises (first-party principal; part of other revenues)
+VCSA,FY2019,V,588566,USD thousand,VCSA_10K_2022-03-21.txt,"Gross Booking Value (GBV) | $ | 1,915,591 | | | $ | 935,447 | | | $ | 588,566 | | | $ | 980,144 | | | 105 | % |",Gross Booking Value (GBV); first available as comparative in FY2021 10-K
+VCSA,FY2019,revenue,299281,USD thousand,VCSA_10K_2022-03-21.txt,"Revenue | $ | 889,058 | | | $ | 491,760 | | | $ | 299,281 | |",Total revenue; first available as comparative in FY2021 10-K
+VCSA,FY2019,ocf,-35456,USD thousand,VCSA_10K_2022-03-21.txt,"Net cash provided by (used in) operating activities | 63,265 | | | ( 2,427 ) | | | ( 35,456 ) | |",Net cash used in operating activities; first available as comparative in FY2021 10-K
+VCSA,FY2019,capex,-4528,USD thousand,VCSA_10K_2022-03-21.txt,"Purchases of property and equipment | ( 5,853 ) | | | ( 1,619 ) | | | ( 4,528 ) | |",Purchases of property and equipment; first available as comparative in FY2021 10-K
+VCSA,FY2019,capex_sw,-16940,USD thousand,VCSA_10K_2022-03-21.txt,"Cash paid for internally developed software | ( 5,387 ) | | | ( 7,856 ) | | | ( 16,940 ) | |",Cash paid for internally developed software; first available as comparative in FY2021 10-K
+VCSA,FY2020,V,935447,USD thousand,VCSA_10K_2022-03-21.txt,"Gross Booking Value (GBV) | $ | 1,915,591 | | | $ | 935,447 | | | $ | 588,566 | | | $ | 980,144 | | | 105 | % |",Gross Booking Value (GBV); first available as comparative in FY2021 10-K
+VCSA,FY2020,revenue,491760,USD thousand,VCSA_10K_2022-03-21.txt,"Revenue | $ | 889,058 | | | $ | 491,760 | | | $ | 299,281 | |",Total revenue; first available as comparative in FY2021 10-K
+VCSA,FY2020,ocf,-2427,USD thousand,VCSA_10K_2022-03-21.txt,"Net cash provided by (used in) operating activities | 63,265 | | | ( 2,427 ) | | | ( 35,456 ) | |",Net cash used in operating activities; first available as comparative in FY2021 10-K
+VCSA,FY2020,capex,-1619,USD thousand,VCSA_10K_2022-03-21.txt,"Purchases of property and equipment | ( 5,853 ) | | | ( 1,619 ) | | | ( 4,528 ) | |",Purchases of property and equipment; first available as comparative in FY2021 10-K
+VCSA,FY2020,capex_sw,-7856,USD thousand,VCSA_10K_2022-03-21.txt,"Cash paid for internally developed software | ( 5,387 ) | | | ( 7,856 ) | | | ( 16,940 ) | |",Cash paid for internally developed software; first available as comparative in FY2021 10-K
+VCSA,FY2021,V,1915591,USD thousand,VCSA_10K_2022-03-21.txt,"Gross Booking Value (GBV) | $ | 1,915,591 | | | $ | 935,447 | | | $ | 588,566 | | | $ | 980,144 | | | 105 | % |",Gross Booking Value (GBV)
+VCSA,FY2021,revenue,889058,USD thousand,VCSA_10K_2022-03-21.txt,"Revenue | $ | 889,058 | | | $ | 491,760 | | | $ | 299,281 | |",Total revenue
+VCSA,FY2021,ocf,63265,USD thousand,VCSA_10K_2022-03-21.txt,"Net cash provided by (used in) operating activities | 63,265 | | | ( 2,427 ) | | | ( 35,456 ) | |",Net cash provided by operating activities
+VCSA,FY2021,capex,-5853,USD thousand,VCSA_10K_2022-03-21.txt,"Purchases of property and equipment | ( 5,853 ) | | | ( 1,619 ) | | | ( 4,528 ) | |",Purchases of property and equipment
+VCSA,FY2021,capex_sw,-5387,USD thousand,VCSA_10K_2022-03-21.txt,"Cash paid for internally developed software | ( 5,387 ) | | | ( 7,856 ) | | | ( 16,940 ) | |",Cash paid for internally developed software
+VCSA,FY2022,V,2555195,USD thousand,VCSA_10K_2023-03-15.txt,"Gross Booking Value (""GBV"") | $ | 2,555,195 | | | $ | 1,915,591 | | | $ | 935,447 | | | $ | 639,604 | | | 33 | % |",Gross Booking Value (GBV)
+VCSA,FY2022,revenue,1187950,USD thousand,VCSA_10K_2023-03-15.txt,"Revenue | $ | 1,187,950 | | | $ | 889,058 | | | $ | 491,760 | |",Total revenue
+VCSA,FY2022,ocf,-51907,USD thousand,VCSA_10K_2023-03-15.txt,"Net cash provided by (used in) operating activities | ( 51,907 ) | | | 63,265 | | | ( 2,427 ) | |",Net cash used in operating activities
+VCSA,FY2022,capex,-8810,USD thousand,VCSA_10K_2023-03-15.txt,"Purchases of property and equipment | ( 8,810 ) | | | ( 5,853 ) | | | ( 1,619 ) | |",Purchases of property and equipment
+VCSA,FY2022,capex_sw,-9821,USD thousand,VCSA_10K_2023-03-15.txt,"Cash paid for internally developed software | ( 9,821 ) | | | ( 5,387 ) | | | ( 7,856 ) | |",Cash paid for internally developed software
+VCSA,FY2023,V,2310696,USD thousand,VCSA_10K_2024-03-01.txt,"Gross Booking Value (""GBV"") | $ | 2,310,696 | $ | 2,555,195 | $ | 1,915,591 | $ | (244,499) | (10) | % |",Gross Booking Value (GBV)
+VCSA,FY2023,revenue,1117950,USD thousand,VCSA_10K_2024-03-01.txt,"Revenue | $ | 1,117,950 | $ | 1,187,950 | $ | 889,058 |",Total revenue
+VCSA,FY2023,ocf,-51707,USD thousand,VCSA_10K_2024-03-01.txt,"Net cash provided by (used in) operating activities | ( 51,707 ) | ( 51,907 ) | 63,265 |",Net cash used in operating activities
+VCSA,FY2023,capex,-5269,USD thousand,VCSA_10K_2024-03-01.txt,"Purchases of property and equipment | ( 5,269 ) | ( 8,810 ) | ( 5,853 ) |",Purchases of property and equipment
+VCSA,FY2023,capex_sw,-7434,USD thousand,VCSA_10K_2024-03-01.txt,"Cash paid for internally developed software | ( 7,434 ) | ( 9,821 ) | ( 5,387 ) |",Cash paid for internally developed software
+VCSA,FY2024,V,1856691,USD thousand,VCSA_10K_2025-03-13.txt,"| $ | 1,856,691 | $ | 2,310,696 | $ | 2,555,195 | $ | (454,005) | (20) | % |",Gross Booking Value (GBV)
+VCSA,FY2024,revenue,910485,USD thousand,VCSA_10K_2025-03-13.txt,"Revenue | $ | 910,485 | $ | 1,117,950 | $ | 1,187,950 |",Total revenue
+VCSA,FY2024,ocf,-110025,USD thousand,VCSA_10K_2025-03-13.txt,"Net cash used in operating activities | ( 110,025 ) | ( 51,707 ) | ( 51,907 ) |",Net cash used in operating activities
+VCSA,FY2024,capex,-2332,USD thousand,VCSA_10K_2025-03-13.txt,"Purchases of property and equipment | ( 2,332 ) | ( 5,269 ) | ( 8,810 ) |",Purchases of property and equipment
+VCSA,FY2024,capex_sw,-5837,USD thousand,VCSA_10K_2025-03-13.txt,"Cash paid for internally developed software | ( 5,837 ) | ( 7,434 ) | ( 9,821 ) |",Cash paid for internally developed software

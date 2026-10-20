@@ -1,0 +1,33 @@
+id,claim,stated,recomputed,status
+N01,"Decomposition: GoTo on-demand 2022-25, share of revenue growth from volume",0.12,0.123,PASS
+N02,"GoTo 2022-25, share from discount pull-back",0.52,0.517,PASS
+N03,"Grab on-demand 2022-24, share from volume",0.42,0.425,PASS
+N04,"Grab 2022-24, share from discount pull-back",0.47,0.469,PASS
+N05,"Delivery Hero 2020-25, share from volume",0.8,0.801,PASS
+N06,"DoorDash 2018-19, share from volume",0.94,0.944,PASS
+N07,L test: transitions in the panel,37.0,37.0,PASS
+N08,Out-of-sample rank correlation of L with |dlnm|,0.195,0.195046,PASS
+N09,Out-of-sample transitions / firms,18.0,18.0,PASS
+N10,In-sample rank correlation,0.709,0.708772,PASS
+N11,Discount-driven moves above 0.20 (count),5.0,5.0,PASS
+N12,...all with L >= 1.07 (minimum L among them),1.07,1.065005,PASS
+N13,Share of transitions with L<1 exceeding 0.20 (3 of 29),3.0,3.0,PASS
+N14,Grab 2019 reported revenue (US$ m),-845.0,-845.0,PASS
+N15,Blibli 3P net take 4Q22 (%),0.32,0.321,PASS
+N16,Blibli 3P net take 1Q23 (%),2.07,2.065,PASS
+N17,Blibli: share of 4Q22-1Q23 rise from lower discounts and costs (proxy),0.81,0.811353,PASS
+N18,Shopee marketplace take rate 4Q18 (%),2.4,2.426,PASS
+N19,Shopee marketplace take rate 2Q26 (%),12.8,12.794,PASS
+N20,"BPS bridge: Tokopedia + Shopee Indonesia / BPS marketplace, 2023",2.87,2.874,PASS
+N21,"BPS bridge: Tokopedia alone / BPS marketplace, 2023",1.24,1.24,PASS
+N22,BPS 2024 / Bank Indonesia 2024,2.65,2.647,PASS
+N23,ASEAN ruler: Malaysia 2023 DOSM B2C / e-Conomy,5.7,5.68,PASS
+N24,ASEAN ruler: Thailand 2023 ETDA B2C / e-Conomy,3.8,3.79,PASS
+N25,ASEAN ruler: Vietnam 2023 IDEA B2C / e-Conomy,1.1,1.08,PASS
+N26,ASEAN ruler: Indonesia 2023 BPS / e-Conomy,1.22,1.22,PASS
+N27,Malaysia 2015-22: share of growth from more establishments,0.48,0.47855,PASS
+N28,"PMSE VAT collected 2020-24 (Rp tn, sum of yearly DJP figures)",25.35,25.3414,PASS
+N29,"H1 firm-level p, IDN_main + regional (5 firms) vs foreign clean (abs_dlnm)",0.02,0.0202,PASS
+N30,"H1 firm-level p, same, ex-Sea",0.0038,0.0038,PASS
+N31,Share of Indonesian main transitions within +-0.10,0.125,0.125,PASS
+N32,Share of foreign clean transitions within +-0.10,0.69,0.69,PASS

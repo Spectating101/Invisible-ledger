@@ -1,0 +1,10 @@
+id,claim,stated,recomputed,status
+T6-01,"Marketplace tax: value reach 2022, low scenario (%)",17.5,17.52268,PASS
+T6-02,"Marketplace tax: value reach 2022, mid scenario (%)",23.6,23.582018,PASS
+T6-03,"Marketplace tax: seller reach, marketplace and Rp300m+ (%)",5.4,5.417282,PASS
+T6-04,"Marketplace sellers, share of online sellers 2023 (%)",17.8,17.807474,PASS
+T6-05,Off-marketplace sellers wanting to join (%),13.5,13.498577,PASS
+T6-06,"Tax base, smallest ruler (Rp tn)",203.6,203.6,PASS
+T6-07,"Tax base, largest ruler (Rp tn)",983.0,983.0,PASS
+T6-08,"Grab rides share of on-demand GMV, last 4 quarters (%)",35.6,35.636196,PASS
+T6-09,"Grab incentives, % of on-demand GMV, last 4 quarters",10.4,10.3575,PASS

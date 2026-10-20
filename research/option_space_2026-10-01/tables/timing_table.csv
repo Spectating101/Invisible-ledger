@@ -1,0 +1,35 @@
+period,entity,field,note,kind,nasdaq_drawdown_pct
+2020-07-01,Ministry of Finance,tax_rule,PMK 48/PMK.03/2020 digital-goods VAT collection at 10%; issued 5 May 2020; effective 1 Jul 2020,policy: tax,
+2021-05-17,GoTo,merger,Gojek-Tokopedia combination announced 17 May 2021; prospectus also states akuisisi Tokopedia 17 Mei 2021,company,
+2021-10-29,Ministry of Finance,tax_rule,UU 7/2021 Harmonisasi Peraturan Perpajakan signed and promulgated 29 Oct 2021 (OCR renders 2021 as 2O2l),policy: tax,
+2022-03-28,Grab,incentive_pct_gmv,incentives 16.5% of on-demand GMV; net take rate 6.0%,company: incentives (data),-10.6
+2022-03-30,GoTo,ipo,GoTo final prospectus: OJK effective statement 30 Mar 2022,capital markets,-10.1
+2022-03-31,GoTo,ipo,GoTo IR press 31 Mar 2022: OJK IPO approval; offer price Rp338; offering 1-7 Apr 2022,capital markets,-11.4
+2022-03-31,GoTo,incentive_cut,1Q22: incentives cut by 90 bp of GTV QoQ (company statement),company: incentives (statement),-11.4
+2022-04-01,Ministry of Finance,tax_rule,UU 7/2021 HPP Pasal 7(1)a; VAT rate 11%; enacted/promulgated 29 Oct 2021,policy: tax,-11.2
+2022-04-11,GoTo,listing,GoTo IR press 31 Mar 2022 announcing IDX listing date 11 Apr 2022,capital markets,-16.5
+2022-04-11,GoTo,ipo,2022 AR confirms IPO/listing day 11 Apr 2022,capital markets,-16.5
+2022-05-01,Ministry of Finance,tax_rule,PMK 69/PMK.03/2022 PPh and VAT on financial-technology services; issued 30 Mar 2022,policy: tax,-23.2
+2022-06-28,Grab,incentive_pct_gmv,incentives 14.9% of on-demand GMV; net take rate 8.4%,company: incentives (data),-30.4
+2022-06-30,GoTo,incentive_cut,"2Q22: total incentives -3.5% of GTV, down 52 bp QoQ (company statement)",company: incentives (statement),-31.3
+2022-09-28,Grab,incentive_pct_gmv,incentives 13.5% of on-demand GMV; net take rate 9.8%,company: incentives (data),-31.2
+2022-11-08,Blibli,listing,Blibli (GDN) IPO listing 8 Nov 2022 at Rp450/share; company IR press,capital markets,-33.9
+2022-11-08,Blibli,ipo,Blibli IPO priced Rp450; ~Rp8tn proceeds; listing 8 Nov 2022,capital markets,-33.9
+2022-12-28,Grab,incentive_pct_gmv,incentives 11.8% of on-demand GMV; net take rate 13.1%,company: incentives (data),-36.4
+2023-03-28,Grab,incentive_pct_gmv,incentives 11.0% of on-demand GMV; net take rate 13.2%,company: incentives (data),-27.0
+2023-03-31,Blibli,rate_change,3P published seller rate adjusted from March 2023 (company release); net take 0.32% -> 2.07%,company: incentives (statement),-23.9
+2023-06-28,Grab,incentive_pct_gmv,incentives 10.8% of on-demand GMV; net take rate 12.8%,company: incentives (data),-15.4
+2023-09-26,Ministry of Trade,regulation,Permendag 31/2023 PMSE/social commerce; replaces Permendag 50/2020; Ditjen PDN page,policy: trade,-18.6
+2023-09-28,Grab,incentive_pct_gmv,incentives 9.5% of on-demand GMV; net take rate 13.4%,company: incentives (data),-17.8
+2023-12-28,Grab,incentive_pct_gmv,incentives 9.6% of on-demand GMV; net take rate 13.5%,company: incentives (data),-6.0
+2024-01-31,GoTo,deconsolidation,GoTo-TikTok/Tokopedia transaction closed 31 Jan 2024; TikTok controlling stake in PT Tokopedia,company,-5.6
+2024-01-31,TikTok,merger,Closing 31 Jan 2024; TikTok controlling stake; committed investment over US$1.5bn,company,-5.6
+2024-09-16,GoTo,restructuring,Gojek Vietnam exit; decision disclosed to IDX 4 Sep 2024; effective 16 Sep 2024,company,9.6
+2024-12-31,Ministry of Finance,tax_rule,PMK 131/2024 issuance date; VAT 12% implementing rule effective 1 Jan 2025,policy: tax,20.3
+2025-01-01,Ministry of Finance,tax_rule,PMK 131/2024 luxury BKP at statutory 12% VAT; issued 31 Dec 2024; effective 1 Jan 2025,policy: tax,20.3
+2025-02-01,Ministry of Finance,tax_rule,PMK 131/2024 Pasal 5a: luxury BKP to end consumers uses 11/12 DPP until 31 Jan 2025; full 12% from 1 Feb 2025,policy: tax,22.2
+2025-07-14,Ministry of Finance,tax_rule,PMK 37/2025 marketplace PPh 22; issued 11 Jun 2025; promulgated/effective 14 Jul 2025,policy: tax,28.5
+2026-06-04,Ministry of Trade,regulation,Permendag 19/2026 signing/issuance date; effective on promulgation 8 Jun 2026,policy: trade,67.1
+2026-06-08,Ministry of Trade,regulation,Permendag 19/2026 replaces Permendag 31/2023; established 4 Jun 2026; promulgated/effective 8 Jun 2026 per JDIH,policy: trade,61.5
+2026-06-24,GoTo,incentive_policy,GoTo IR announcement date of 8% GoRide commission,policy: commission cap (company),58.7
+2026-07-01,GoTo,incentive_policy,Company implementation of two-wheel commission cap 8%; announced 24 Jun 2026; cites 1 May presidential directive,policy: commission cap (company),62.2

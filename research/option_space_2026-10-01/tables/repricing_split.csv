@@ -1,0 +1,11 @@
+platform,window,V_growth_pct,R_growth_pct,m_start_pct,m_end_pct,take_rate_share_of_revenue_growth_pct,notes
+Grab (group on-demand),2022-2023,11.85,59.55,9.69,13.82,76.03,"group scope, not Indonesia-only; 2022-23 on company restatement, 2024-25 on summed quarters"
+Grab (group on-demand),2023-2025,40.25,38.42,13.82,13.64,-4.04,"group scope, not Indonesia-only; 2022-23 on company restatement, 2024-25 on summed quarters"
+Grab (group on-demand),2022-2025,56.87,120.85,9.69,13.64,43.17,"group scope, not Indonesia-only; 2022-23 on company restatement, 2024-25 on summed quarters"
+GoTo (group),2022-2023,-0.98,30.28,1.85,2.43,103.72,group scope incl. fintech; Tokopedia deconsolidated in 2024 (structural break)
+GoTo (group),2022-2025,11.79,61.44,1.85,2.67,76.74,group scope incl. fintech; Tokopedia deconsolidated in 2024 (structural break)
+Sea / Shopee (global),2022-2025,73.33,127.4,9.93,13.03,33.05,"global Shopee, not Indonesia"
+Tokopedia e-commerce segment,2022-2023,-8.9,53.2,1.48,2.48,121.85,Indonesia-aligned segment
+Blibli 3P Retail,2021-2025,237.78,1171.31,0.77,2.92,52.13,includes online travel; 2022 may reflect a definition change
+Blibli 3P Retail,2023-2025,6.56,37.87,2.25,2.92,80.21,includes online travel; 2022 may reflect a definition change
+Bukalapak Group,2020-2023,93.2,228.36,1.59,2.7,44.61,group scope incl. overseas

@@ -1,0 +1,104 @@
+{
+  "classification": "post-result arithmetic and source checks; no new hypothesis test",
+  "repository_head_at_run": "df10b405bce4b1c8618d10e8ebaaa6ec0a681fcc",
+  "input_sha256": {
+    "research/option_space_2026-10-01/tables/transitions_master.csv": "c72fb3cc332660585da421dd35467d595116b080137f33169c338418852b405b",
+    "research/option_space_2026-10-01/tables/wedge_split_summary.json": "17938e2f04bce56f0792d6f465fa04422066ad812e9a1e1fa47b5336391d312b",
+    "research/option_space_2026-10-01/tables/h1_groundwork.json": "a95c8e0ef6342205ff8e55fc17840ca22550ba12bd7990fe8153abf2a0ac8b4b",
+    "data/measurement/source_extracts/tokopedia_fy2022_2023_revenue_components.csv": "8efbec5c9d4b4dff683475d03a71a5b1182f63aac64f91480f587946c4777fa3",
+    "data/longitudinal/kong_empirical_candidate_table_2026-09-10.csv": "f09d037c31df423e92def1b52fd7a6a3c09f0cde3df86449b264cb9f6bb5adba",
+    "sources/core_public_documents/goto_annual_report_2023.pdf": "1d1ae5607f1ee5a97408f5d3051fb7169c24ef2511e21fbdcc060864fe4b5003"
+  },
+  "script_sha256": "d60bce278cc179153d378f06e0fdcdd04208cab3ca99cb81da7a9fb9dfc790d6",
+  "identities_checked_on_rows": 52,
+  "excluded_rows": [],
+  "growth_rate_convention": "ordinary fractional growth; D reported in percentage points; logs separately labelled",
+  "component_share_definition": "abs(delta log m) / (abs(delta log V) + abs(delta log m)); median across transitions, not share of net growth or a causal fraction",
+  "existing_core_and_original_clean_benchmark_summaries": {
+    "IDN_main": {
+      "transitions": 8,
+      "series_labels": 3,
+      "median_signed_growth_divergence_pp": 15.074503251392674,
+      "median_absolute_growth_divergence_pp": 38.916763389612214,
+      "median_take_rate_share_of_absolute_log_components": 0.6649604406162881,
+      "opposite_component_signs": 4
+    },
+    "EXT_clean": {
+      "transitions": 29,
+      "series_labels": 8,
+      "median_signed_growth_divergence_pp": 6.544628982372524,
+      "median_absolute_growth_divergence_pp": 7.104798587706629,
+      "median_take_rate_share_of_absolute_log_components": 0.2665197345308928,
+      "opposite_component_signs": 11
+    }
+  },
+  "tokopedia_source_check": {
+    "scope": "Tokopedia e-commerce segment, Indonesia-aligned; not an explicit country line",
+    "years": [
+      2022,
+      2023
+    ],
+    "units": "IDR million, original disclosure units",
+    "V": [
+      273146166.0,
+      248836156.0
+    ],
+    "third_party_gross_revenue": [
+      8143239,
+      8988909
+    ],
+    "customer_incentive_deduction_magnitude": [
+      4112320,
+      2813719
+    ],
+    "third_party_net_revenue": [
+      4030919,
+      6175190
+    ],
+    "net_revenue_increase": 2144271,
+    "incentive_reduction": 1298601,
+    "gross_revenue_increase": 845670,
+    "share_of_net_revenue_increase_from_lower_incentives_pct": 60.56142157404545,
+    "share_of_net_revenue_increase_from_higher_gross_revenue_pct": 39.43857842595455,
+    "transaction_growth_pct": -8.900000448843937,
+    "net_revenue_growth_pct": 53.19558641590167,
+    "take_rate_pct": [
+      1.4757369869141783,
+      2.481628915695033
+    ],
+    "take_rate_growth_required_for_flat_revenue_pct": 9.769484624252112,
+    "source_pdf_pages_one_based": [
+      144,
+      475,
+      476
+    ],
+    "source_locators": "Operating metrics, printed p.142; Note 29, financial-statement pp.5/111 and 12; 2022 restated",
+    "source_verification": "PDF text values asserted below; relevant complete pages also visually inspected on 8 October 2026",
+    "ordinary_growth_bridge": {
+      "set": "IDN_main",
+      "firm": "Tokopedia e-commerce segment",
+      "y0": "2022",
+      "y1": "2023",
+      "tier": "direct_indonesia_aligned_segment",
+      "transaction_growth_pct": -8.900000448843937,
+      "revenue_growth_pct": 53.19558641590167,
+      "take_rate_growth_pct": 68.16200567583608,
+      "growth_divergence_pp": 62.09558686474561,
+      "percentage_addition_error_pp": -6.066418811090468,
+      "interaction_term_pp": -6.066418811090441,
+      "log_transaction_change": -0.09321238664911548,
+      "log_revenue_change": 0.4265452616077229,
+      "log_take_rate_change": 0.5197576482568385,
+      "take_rate_share_of_absolute_log_components": 0.8479332082466042,
+      "take_rate_component_divided_by_net_log_revenue_change": 1.2185287120475374
+    },
+    "rounded_existing_h1_groundwork_share_pct": 60.4651162790698
+  },
+  "covered_share_cancellation_example": {
+    "classification": "synthetic identity check; not empirical evidence",
+    "commerce_growth_pct": 0,
+    "take_rate_growth_pct": 25,
+    "covered_share_growth_pct": -20,
+    "revenue_growth_pct": 0.0
+  }
+}

@@ -1,0 +1,126 @@
+"""Draft exhibits, one per story layer (4 Oct 2026). Built only from committed tables; PNGs in exhibits/.
+Palette: reference categorical slots 1-2 (blue #2a78d6, orange #eb6834), validated (CVD dE 24.7, normal 33.6, contrast >= 3:1).
+Text in neutral ink, never in series colour; every highlighted mark is also named in its label (identity is never colour alone).
+Run: python3 exhibits.py"""
+import json, os, pathlib
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import pandas as pd
+
+HERE = pathlib.Path(__file__).parent; OUT = HERE / "exhibits"; OUT.mkdir(exist_ok=True)
+BLUE, ORANGE, INK, INK2, GRID, SURF = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e", "#e4e3df", "#ffffff"
+DECK = bool(os.environ.get("IL_DECK"))   # slide versions: deck palette (teal #1e88a8, brick #bf4b33; validated on the paper surface #f1efea), transparent background
+if DECK:
+    BLUE, ORANGE, SURF = "#1e88a8", "#bf4b33", "none"; OUT = HERE / "exhibits" / "deck"; OUT.mkdir(parents=True, exist_ok=True)
+GREY = "#a3a29d"   # neutral reference, not a series colour
+plt.rcParams.update({"font.size": 10, "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2, "ytick.color": INK,
+                     "axes.spines.top": False, "axes.spines.right": False, "axes.spines.left": False, "figure.facecolor": SURF,
+                     "axes.facecolor": SURF, "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.6, "axes.axisbelow": True})
+
+
+def finish(fig, ax, title, note, name):
+    ax.grid(axis="y", visible=False)
+    if not DECK:   # on slides the title and source line sit on the slide itself
+        fig.text(0.01, 0.98, title, ha="left", va="top", fontsize=12, fontweight="bold", color=INK)
+        fig.text(0.01, -0.03, note, ha="left", va="top", fontsize=8, color=INK2, wrap=True)
+    fig.savefig(OUT / name, dpi=200, bbox_inches="tight", transparent=DECK); plt.close(fig)
+
+
+# 1. Inside the app: Indonesia vs 27 foreign platforms (median yearly swing in the platform's cut)
+f = pd.read_csv(HERE / "tables/h1_extended_firms.csv")
+f["is_idn"] = f.group == "Indonesia"
+f = f.sort_values("median_abs").reset_index(drop=True)
+fig, ax = plt.subplots(figsize=(7, 8))
+ax.barh(f.index, f.median_abs * 100, color=[ORANGE if i else BLUE for i in f.is_idn], height=0.6)
+ax.set_yticks(f.index, [n.replace(" e-commerce segment", "").replace(" Retail", "") for n in f.firm], fontsize=7.5)
+ax.set_xlabel("Typical yearly swing in the platform's cut (x100, firm median)")
+ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=ORANGE), plt.Rectangle((0, 0), 1, 1, color=BLUE)],
+          labels=["Indonesia and region (5 firms)", "Abroad (27 firms)"], frameon=False, loc="lower right")
+finish(fig, ax, "Inside the app: the cut swings about 3x more in Indonesia",
+       "Source: verified filings; h1_extended.py. Firm medians; Indonesia vs abroad p = 0.004 (firm level).", "1_inside_the_app.png")
+
+# 2. Apps vs the nation: two camps of rulers, 2024 growth (official household spending shown as a neutral reference)
+g = pd.read_csv(HERE / "tables/consistency_grid_growth.csv", index_col=0)["2024"].dropna()
+app_only = {"Bank Indonesia e-commerce", "Momentum Works Indonesia GMV", "e-Conomy Indonesia e-commerce"}
+ref = {"Official household spending (nominal)"}
+g = g.drop(["GoTo on-demand revenue", "GoTo on-demand GTV", "QRIS payments"], errors="ignore").sort_values()
+col = [BLUE if n in app_only else (GREY if n in ref else ORANGE) for n in g.index]
+fig, ax = plt.subplots(figsize=(7, 3.8))
+ax.barh(range(len(g)), g.values, color=col, height=0.6)
+ax.set_yticks(range(len(g)), g.index)
+for i, v in enumerate(g.values): ax.text(v + 0.6, i, f"{v:+.1f}%", va="center", fontsize=8.5, color=INK)
+ax.set_xlabel("Growth in 2024, each ruler in its own unit")
+ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=BLUE), plt.Rectangle((0, 0), 1, 1, color=ORANGE), plt.Rectangle((0, 0), 1, 1, color=GREY)],
+          labels=["Sees mainly the apps", "Sees more than the apps\n(BPS all sellers; SEA parcels;\nforeign-services VAT)", "Reference: official\nhousehold spending"],
+          frameon=False, loc="center right", bbox_to_anchor=(1.0, 0.36), fontsize=8.5)
+finish(fig, ax, "Apps vs the nation: rulers that see only the apps grow slowest (2024)",
+       "Source: consistency_grid.py. Parcels are Southeast Asia-wide; digital-services VAT taxes foreign services; QR payments (+187%, mostly in-person) and GoTo (rides and food, not online selling) omitted.", "2_two_camps.png")
+
+# 3. Outside the records: formal firms with neither a website nor online tax filing
+c = pd.read_csv(HERE / "tables/wb_crosscountry.csv").sort_values("neither_share")
+fig, ax = plt.subplots(figsize=(7, 3.6))
+ax.barh(c.country, c.neither_share, color=[ORANGE if x == "Indonesia" else BLUE for x in c.country], height=0.6)
+for i, v in enumerate(c.neither_share): ax.text(v + 0.6, i, f"{v:.1f}%", va="center", fontsize=9, color=INK)
+ax.set_xlabel("Share of formal firms (5+ employees) with no website and no online tax filing")
+finish(fig, ax, "Outside online records: Indonesia has the most formal firms with neither a website nor online tax filing",
+       "Source: World Bank Enterprise Surveys (Indonesia 2023 and latest per country); wb_crosscountry.py; weights wmedian.", "3_no_digital_trail.png")
+
+# 4. The state: marketplace tax base under four rulers
+t = pd.read_csv(HERE / "tables/tax_base_rulers.csv", index_col=0).sort_values("base_Rp_tn")
+fig, ax = plt.subplots(figsize=(7, 3.2))
+ax.barh(t.index, t.base_Rp_tn, color=BLUE, height=0.6)
+for i, (b, tax) in enumerate(zip(t.base_Rp_tn, t["tax_at_0.5pct_Rp_tn"])):
+    ax.text(b + 10, i, f"Rp{b:,.0f}tn  ->  tax at 0.5%: Rp{tax:.1f}tn", va="center", fontsize=8.5, color=INK)
+ax.set_xlabel("Marketplace tax base, 2024 (Rp trillion)"); ax.set_xlim(0, t.base_Rp_tn.max() * 1.7)
+finish(fig, ax, "The state: the same tax rests on a base that differs about 5x",
+       "Source: tax_base_rulers.py. Upper bounds before the Rp500m exemption; the largest is about 0.2% of the 2026 tax target.", "4_tax_base.png")
+# 5. BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry; existing sellers were flat
+d = json.load(open(HERE / "tables/bps_descriptives.json")); ra = json.load(open(HERE / "tables/bps_rise_accounting.json"))
+fig, (a1, a2) = plt.subplots(1, 2, figsize=(9, 3.2), gridspec_kw={"width_ratios": [1.15, 1]})
+ent, lo, hi = ra["entrants_k"], ra["scenarios"]["no_exits"]["newly_counted_k"], ra["scenarios"]["reference"]["newly_counted_k"]
+a1.barh([1], [ent], color=BLUE, height=0.6)
+a1.barh([0], [lo], color=ORANGE, height=0.6)
+a1.barh([0], [hi - lo], left=[lo], color=ORANGE, alpha=0.35, height=0.6)
+a1.set_yticks([1, 0], ["Started selling\nonline in 2023", "Already selling before 2023,\nabove the 2022 count"])
+a1.text(ent + 15, 1, f"{ent:.0f}k", va="center", fontsize=9, color=INK)
+a1.text(hi + 15, 0, f"{lo:.0f}k to {hi:.0f}k", va="center", fontsize=9, color=INK)
+a1.set_xlim(0, 700); a1.set_xlabel(f"Thousand sellers (published rise: {ra['rise_k']:.0f}k)")
+r = d["incumbents_2023_revenue_direction"]
+a2.barh([2, 1, 0], [r["up"], r["same"], r["down"]], color=[BLUE, GREY, ORANGE], height=0.6)
+a2.set_yticks([2, 1, 0], ["Online revenue up", "Same", "Down"])
+for i, v in zip([2, 1, 0], [r["up"], r["same"], r["down"]]): a2.text(v + 0.8, i, f"{v:.0f}%", va="center", fontsize=9, color=INK)
+a2.set_xlim(0, 55); a2.set_xlabel("Sellers already online before 2023 (%)")
+for ax in (a1, a2): ax.grid(axis="y", visible=False)
+if not DECK: fig.text(0.01, 1.0, "BPS's own answers: about half of the 2023 rise in sellers is not explained by first-time entry, and existing sellers were flat", ha="left", va="top", fontsize=11.5, fontweight="bold", color=INK)
+if not DECK: fig.text(0.01, -0.04, "Source: BPS e-commerce survey microdata (2022 and 2023 files), weighted; bps_cohort_check.py, bps_rise_accounting.py, bps_descriptives.py. "
+         "Above the 2022 count: pre-2023 sellers in excess of the whole 2022 count, newly reached by the survey or returning after a pause. Low end: no seller stopped (the bars add up to the rise). "
+         "High end: sellers stopped at the 2020-22 rate (about 5% a year, about 150k), which offsets part of the two bars.",
+         ha="left", va="top", fontsize=8, color=INK2, wrap=True)
+fig.tight_layout(); fig.savefig(OUT / "5_bps_own_answers.png", dpi=200, bbox_inches="tight", transparent=DECK); plt.close(fig)
+# 6. The 2023 verdict: headline numbers vs what buying and sellers show (growth 2023 vs 2022, each in its own unit)
+h = json.load(open(HERE / "tables/h1_groundwork.json"))["verdict_2023"]; gl = json.load(open(HERE / "tables/gel_checks.json"))
+rows = [("Tokopedia revenue", h["platform_revenue_growth_pct"]["Tokopedia"], ORANGE),
+        ("BPS e-commerce value (published)", h["BPS_value_growth_pct"], ORANGE),
+        ("BPS online sellers (published)", h["BPS_published_seller_growth_pct"], ORANGE),
+        ("Household spending (nominal, reference)", h["household_spending_nominal_growth_pct"], GREY),
+        ("Blibli 3P transaction value (the exception)", h["buying_growth_pct"]["Blibli 3P transaction value"], BLUE),
+        ("Bukalapak transaction value", h["buying_growth_pct"]["Bukalapak transaction value"], BLUE),
+        ("Momentum Works Indonesia GMV", h["buying_growth_pct"]["Momentum Works Indonesia GMV"], BLUE),
+        ("BPS marketplace slice (mid scenario)", gl["bps_marketplace_value_tn"]["growth_2022_2023_pct_by_scenario"]["mid"], BLUE),
+        ("Existing sellers' own reported change (mean)", gl["existing_sellers_reported_change_2023"]["all"]["mean_pct"], BLUE),
+        ("Bank Indonesia e-commerce", h["buying_growth_pct"]["Bank Indonesia e-commerce"], BLUE),
+        ("Tokopedia transaction value", h["buying_growth_pct"]["Tokopedia transaction value"], BLUE),
+        ("GoTo on-demand transaction value", h["buying_growth_pct"]["GoTo on-demand transaction value"], BLUE)]
+fig, ax = plt.subplots(figsize=(7.6, 5.2))
+ys = list(range(len(rows)))[::-1]
+ax.barh(ys, [r[1] for r in rows], color=[r[2] for r in rows], height=0.6)
+ax.set_yticks(ys, [r[0] for r in rows]); ax.axvline(0, color=INK2, linewidth=0.8)
+for y, (_, v, _) in zip(ys, rows): ax.text(v + (1 if v >= 0 else -1), y, f"{v:+.1f}%", va="center", ha="left" if v >= 0 else "right", fontsize=8.5, color=INK)
+ax.set_xlim(-20, 62); ax.set_xlabel("Growth in 2023 vs 2022 (%), each in its own unit")
+ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=ORANGE), plt.Rectangle((0, 0), 1, 1, color=BLUE), plt.Rectangle((0, 0), 1, 1, color=GREY)],
+          labels=["Headline numbers", "What buying and sellers show", "Reference"], frameon=False, loc="lower right", fontsize=8.5)
+finish(fig, ax, "2023: the headline numbers boomed; buying and sellers mostly did not",
+       "Sources: company filings; Bank Indonesia; Momentum Works; BPS publications and microdata (h1_groundwork.py, gel_checks.py). Indonesia-only measures. "
+       "BPS marketplace slice: range 0 to 13% across scenarios. Existing sellers: seller-weighted mean of their reported change in online revenue.", "6_verdict_2023.png")
+print(sorted(p.name for p in OUT.glob("*.png")))

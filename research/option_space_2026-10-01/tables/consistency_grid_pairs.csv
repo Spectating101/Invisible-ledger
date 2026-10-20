@@ -1,0 +1,105 @@
+year,ruler_a,ruler_b,growth_a,growth_b,same_direction,gap_pts
+2023,BPS e-commerce,Bank Indonesia e-commerce,40.6,-4.7,False,45.3
+2023,BPS e-commerce,GoTo on-demand GTV,40.6,-10.5,False,51.1
+2023,BPS e-commerce,GoTo on-demand revenue,40.6,-1.7,False,42.3
+2023,BPS e-commerce,Momentum Works Indonesia GMV,40.6,3.5,True,37.1
+2023,BPS e-commerce,Official household spending (nominal),40.6,9.4,True,31.2
+2023,BPS e-commerce,PMSE VAT collected,40.6,22.7,True,17.9
+2023,BPS e-commerce,QRIS payments,40.6,130.0,True,89.4
+2023,Bank Indonesia e-commerce,GoTo on-demand GTV,-4.7,-10.5,True,5.8
+2023,Bank Indonesia e-commerce,GoTo on-demand revenue,-4.7,-1.7,True,3.0
+2023,Bank Indonesia e-commerce,Momentum Works Indonesia GMV,-4.7,3.5,False,8.2
+2023,Bank Indonesia e-commerce,Official household spending (nominal),-4.7,9.4,False,14.1
+2023,Bank Indonesia e-commerce,PMSE VAT collected,-4.7,22.7,False,27.4
+2023,Bank Indonesia e-commerce,QRIS payments,-4.7,130.0,False,134.7
+2023,GoTo on-demand GTV,GoTo on-demand revenue,-10.5,-1.7,True,8.8
+2023,GoTo on-demand GTV,Momentum Works Indonesia GMV,-10.5,3.5,False,14.0
+2023,GoTo on-demand GTV,Official household spending (nominal),-10.5,9.4,False,19.9
+2023,GoTo on-demand GTV,PMSE VAT collected,-10.5,22.7,False,33.2
+2023,GoTo on-demand GTV,QRIS payments,-10.5,130.0,False,140.5
+2023,GoTo on-demand revenue,Momentum Works Indonesia GMV,-1.7,3.5,False,5.2
+2023,GoTo on-demand revenue,Official household spending (nominal),-1.7,9.4,False,11.1
+2023,GoTo on-demand revenue,PMSE VAT collected,-1.7,22.7,False,24.4
+2023,GoTo on-demand revenue,QRIS payments,-1.7,130.0,False,131.7
+2023,Momentum Works Indonesia GMV,Official household spending (nominal),3.5,9.4,True,5.9
+2023,Momentum Works Indonesia GMV,PMSE VAT collected,3.5,22.7,True,19.2
+2023,Momentum Works Indonesia GMV,QRIS payments,3.5,130.0,True,126.5
+2023,Official household spending (nominal),PMSE VAT collected,9.4,22.7,True,13.3
+2023,Official household spending (nominal),QRIS payments,9.4,130.0,True,120.6
+2023,PMSE VAT collected,QRIS payments,22.7,130.0,True,107.3
+2024,BPS e-commerce,Bank Indonesia e-commerce,17.1,7.3,True,9.8
+2024,BPS e-commerce,GoTo on-demand GTV,17.1,16.1,True,1.0
+2024,BPS e-commerce,GoTo on-demand revenue,17.1,88.2,True,71.1
+2024,BPS e-commerce,J&T Express SEA parcels,17.1,40.8,True,23.7
+2024,BPS e-commerce,Momentum Works Indonesia GMV,17.1,5.2,True,11.9
+2024,BPS e-commerce,Official household spending (nominal),17.1,7.9,True,9.2
+2024,BPS e-commerce,PMSE VAT collected,17.1,24.9,True,7.8
+2024,BPS e-commerce,QRIS payments,17.1,187.0,True,169.9
+2024,BPS e-commerce,SEA express parcel market,17.1,25.2,True,8.1
+2024,BPS e-commerce,e-Conomy Indonesia e-commerce,17.1,5.1,True,12.0
+2024,Bank Indonesia e-commerce,GoTo on-demand GTV,7.3,16.1,True,8.8
+2024,Bank Indonesia e-commerce,GoTo on-demand revenue,7.3,88.2,True,80.9
+2024,Bank Indonesia e-commerce,J&T Express SEA parcels,7.3,40.8,True,33.5
+2024,Bank Indonesia e-commerce,Momentum Works Indonesia GMV,7.3,5.2,True,2.1
+2024,Bank Indonesia e-commerce,Official household spending (nominal),7.3,7.9,True,0.6
+2024,Bank Indonesia e-commerce,PMSE VAT collected,7.3,24.9,True,17.6
+2024,Bank Indonesia e-commerce,QRIS payments,7.3,187.0,True,179.7
+2024,Bank Indonesia e-commerce,SEA express parcel market,7.3,25.2,True,17.9
+2024,Bank Indonesia e-commerce,e-Conomy Indonesia e-commerce,7.3,5.1,True,2.2
+2024,GoTo on-demand GTV,GoTo on-demand revenue,16.1,88.2,True,72.1
+2024,GoTo on-demand GTV,J&T Express SEA parcels,16.1,40.8,True,24.7
+2024,GoTo on-demand GTV,Momentum Works Indonesia GMV,16.1,5.2,True,10.9
+2024,GoTo on-demand GTV,Official household spending (nominal),16.1,7.9,True,8.2
+2024,GoTo on-demand GTV,PMSE VAT collected,16.1,24.9,True,8.8
+2024,GoTo on-demand GTV,QRIS payments,16.1,187.0,True,170.9
+2024,GoTo on-demand GTV,SEA express parcel market,16.1,25.2,True,9.1
+2024,GoTo on-demand GTV,e-Conomy Indonesia e-commerce,16.1,5.1,True,11.0
+2024,GoTo on-demand revenue,J&T Express SEA parcels,88.2,40.8,True,47.4
+2024,GoTo on-demand revenue,Momentum Works Indonesia GMV,88.2,5.2,True,83.0
+2024,GoTo on-demand revenue,Official household spending (nominal),88.2,7.9,True,80.3
+2024,GoTo on-demand revenue,PMSE VAT collected,88.2,24.9,True,63.3
+2024,GoTo on-demand revenue,QRIS payments,88.2,187.0,True,98.8
+2024,GoTo on-demand revenue,SEA express parcel market,88.2,25.2,True,63.0
+2024,GoTo on-demand revenue,e-Conomy Indonesia e-commerce,88.2,5.1,True,83.1
+2024,J&T Express SEA parcels,Momentum Works Indonesia GMV,40.8,5.2,True,35.6
+2024,J&T Express SEA parcels,Official household spending (nominal),40.8,7.9,True,32.9
+2024,J&T Express SEA parcels,PMSE VAT collected,40.8,24.9,True,15.9
+2024,J&T Express SEA parcels,QRIS payments,40.8,187.0,True,146.2
+2024,J&T Express SEA parcels,SEA express parcel market,40.8,25.2,True,15.6
+2024,J&T Express SEA parcels,e-Conomy Indonesia e-commerce,40.8,5.1,True,35.7
+2024,Momentum Works Indonesia GMV,Official household spending (nominal),5.2,7.9,True,2.7
+2024,Momentum Works Indonesia GMV,PMSE VAT collected,5.2,24.9,True,19.7
+2024,Momentum Works Indonesia GMV,QRIS payments,5.2,187.0,True,181.8
+2024,Momentum Works Indonesia GMV,SEA express parcel market,5.2,25.2,True,20.0
+2024,Momentum Works Indonesia GMV,e-Conomy Indonesia e-commerce,5.2,5.1,True,0.1
+2024,Official household spending (nominal),PMSE VAT collected,7.9,24.9,True,17.0
+2024,Official household spending (nominal),QRIS payments,7.9,187.0,True,179.1
+2024,Official household spending (nominal),SEA express parcel market,7.9,25.2,True,17.3
+2024,Official household spending (nominal),e-Conomy Indonesia e-commerce,7.9,5.1,True,2.8
+2024,PMSE VAT collected,QRIS payments,24.9,187.0,True,162.1
+2024,PMSE VAT collected,SEA express parcel market,24.9,25.2,True,0.3
+2024,PMSE VAT collected,e-Conomy Indonesia e-commerce,24.9,5.1,True,19.8
+2024,QRIS payments,SEA express parcel market,187.0,25.2,True,161.8
+2024,QRIS payments,e-Conomy Indonesia e-commerce,187.0,5.1,True,181.9
+2024,SEA express parcel market,e-Conomy Indonesia e-commerce,25.2,5.1,True,20.1
+2025,GoTo on-demand GTV,GoTo on-demand revenue,5.5,13.8,True,8.3
+2025,GoTo on-demand GTV,J&T Express SEA parcels,5.5,67.9,True,62.4
+2025,GoTo on-demand GTV,Momentum Works Indonesia GMV,5.5,2.1,True,3.4
+2025,GoTo on-demand GTV,Official household spending (nominal),5.5,7.3,True,1.8
+2025,GoTo on-demand GTV,QRIS payments,5.5,115.3,True,109.8
+2025,GoTo on-demand GTV,e-Conomy Indonesia e-commerce,5.5,14.5,True,9.0
+2025,GoTo on-demand revenue,J&T Express SEA parcels,13.8,67.9,True,54.1
+2025,GoTo on-demand revenue,Momentum Works Indonesia GMV,13.8,2.1,True,11.7
+2025,GoTo on-demand revenue,Official household spending (nominal),13.8,7.3,True,6.5
+2025,GoTo on-demand revenue,QRIS payments,13.8,115.3,True,101.5
+2025,GoTo on-demand revenue,e-Conomy Indonesia e-commerce,13.8,14.5,True,0.7
+2025,J&T Express SEA parcels,Momentum Works Indonesia GMV,67.9,2.1,True,65.8
+2025,J&T Express SEA parcels,Official household spending (nominal),67.9,7.3,True,60.6
+2025,J&T Express SEA parcels,QRIS payments,67.9,115.3,True,47.4
+2025,J&T Express SEA parcels,e-Conomy Indonesia e-commerce,67.9,14.5,True,53.4
+2025,Momentum Works Indonesia GMV,Official household spending (nominal),2.1,7.3,True,5.2
+2025,Momentum Works Indonesia GMV,QRIS payments,2.1,115.3,True,113.2
+2025,Momentum Works Indonesia GMV,e-Conomy Indonesia e-commerce,2.1,14.5,True,12.4
+2025,Official household spending (nominal),QRIS payments,7.3,115.3,True,108.0
+2025,Official household spending (nominal),e-Conomy Indonesia e-commerce,7.3,14.5,True,7.2
+2025,QRIS payments,e-Conomy Indonesia e-commerce,115.3,14.5,True,100.8

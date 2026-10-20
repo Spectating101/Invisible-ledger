@@ -1,0 +1,29 @@
+{
+ "rise_k": 818.813273126002,
+ "entrants_k": 513.220468948,
+ "pre_2023_above_2022_count_k": 305.5928041780018,
+ "reference_exit_rate_pct": 5.088408033709568,
+ "scenarios": {
+  "no_exits": {
+   "exit_rate_pct": 0.0,
+   "stopped_k": 0.0,
+   "newly_counted_k": 305.5928041780018,
+   "newly_counted_share_of_rise_pct": 37.321427754991475,
+   "net_entry_share_of_rise_pct": 62.67857224500851
+  },
+  "half_reference": {
+   "exit_rate_pct": 2.544204016854784,
+   "stopped_k": 76.22399615640693,
+   "newly_counted_k": 381.81680033440875,
+   "newly_counted_share_of_rise_pct": 46.63050940500001,
+   "net_entry_share_of_rise_pct": 53.369490594999974
+  },
+  "reference": {
+   "exit_rate_pct": 5.088408033709568,
+   "stopped_k": 152.44799231281385,
+   "newly_counted_k": 458.04079649081564,
+   "newly_counted_share_of_rise_pct": 55.93959105500854,
+   "net_entry_share_of_rise_pct": 44.06040894499144
+  }
+ }
+}

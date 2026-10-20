@@ -1,0 +1,134 @@
+PERDAGANGAN – SISTEM ELEKTRONIK – PERIZINAN BERUSAHA
+2023
+PERMENDAG NO. 31 TAHUN 2023, BN 2023 / NO. 763, LL KEMENDAG, 29 HLM
+PERATURAN MENTERI PERDAGANGAN TENTANG PERIZINAN BERUSAHA, PERIKLANAN,
+PEMBINAAN, DAN PENGAWASAN PELAKU USAHA DALAM PERDAGANGAN MELALUI SISTEM
+ELEKTRONIK
+
+ABSTRAK       - bahwa untuk mendukung pemberdayaan usaha mikro, usaha kecil, dan usaha
+                menengah, serta pelaku usaha perdagangan melalui sistem elektronik dalam
+                negeri, melindungi konsumen, mendorong perkembangan perdaganagn
+                melalui sistem elektronik;
+          -
+              - bahwa Peraturan Menteri Perdagangan Nomor 50 Tahun 2020 tentang
+                Ketentuan Perizinan Usaha, Periklanan, Pembinaan, dan Pengawasan Pelaku
+                Usaha dalam Perdagangan melalui Sistem Elektronik sudah tidak sesuai lagi
+                dengan perkembangan hukum dan kebutuhan Masyarakat sehingga perlu
+                diganti.
+
+              - Dasar Hukum Peraturan Menteri ini adalah:
+                Pasal 17 ayat (3) UUD 1945; UU No. 5 Th. 1999; UU No. 8 Th. 1999; UU No. 19
+                Th. 2016; UU No. 6 Th. 2023; UU No. 27 Th. 2022; PP No. 71 Th. 2019; PP No. 80
+                Tahun 2019; PP No. 5 Tahun 2021; PP No. 7 Th. 2021; Permendag No. 36 Th.
+                2018; Permendag No. 69 Th. 2018.
+
+              - Dalam Peraturan Menteri ini mengatur tentang:
+                1. Perdagangan adalah tatanan kegiatan yang terkait dengan transaksi barang
+                    dan/atau jasa di dalam negeri dan melampaui batas wilayah negara dengan
+                    tujuan pengalihan hak akses atas barang dan/atau jasa untuk memperoleh
+                    imbalan atau kompensasi;
+                2. Perdagangan Melalui Sistem Elektronik yang selanjutnya disingkat PMSE
+                    adalah perdagangan yang transaksinya dilakukan melalui serangkaian
+                    perangkat dan prosedur elektronik;
+                3. Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik
+                    yang berfungsi mempersiapkan, mengumpulkan mengolah, menganalisis,
+                    menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau
+                    menyebarkan informasi elektronik;
+                4. Barang adalah setiap benda, baik berwujud maupun tidak berwujud, baik
+                    bergerak bergerak maupun tidak bergerak, baik dapat dihabiskan maupun
+                    tidak dapat dihabiskan, dan dapat diperdagangkan, dipakai, digunakan, atau
+                    dimanfaatkan oleh konsumen atau pelaku usaha;
+                5. Jasa adalah setiap layanan dan unjuk kerja berbentuk pekerjaan atau hasil
+                    kerja yang dicapai, yang diperdagangkan oleh satu pihak ke pihak lain dalam
+                    Masyarakat untuk dimanfaatkan oleh konsumen atau pelaku usaha;
+                6. Pelaku Usaha Perdagangan Melalui Sistem Elektronik yang selanjutnya
+                    disebut Pelaku Usaha adalah setiap orang perseorangan atau badan usaha
+                    yang berbentuk badan hukum atau bukan badan hukum yang dapat berupa
+                    pelaku usaha dalam negeri dan pelaku usaha yang berkedudukan di luar
+                    negeri dan melakukan kegiatan usaha di bidang PMSE;
+                7. Pelaku Usaha Dalam Negeri adalah warga negara Indonesia atau badan
+                    usaha yang didirikan dan berkedudukan dalam wilayah hukum Negara
+                    Kesatuan Republik Indonesia yang melakukan kegiatan usaha di bidang
+                    PMSE;
+8. Pelaku Usaha Yang Berkedudukan di Luar Negeri yang selanjutnya disebut
+    Pelaku Usaha Luar Negeri adalah warga negara asing atau badan usaha
+    yang didirikan dan dan berkedudukan di luar wilayah hukum Negara
+    Kesatuan Republik Indonesia yang melakukan kegiatan usaha di bidang
+    PMSE di wilayah negara Republik Indonesia;
+9. Penyelenggara Perdagangan Melalui Sistem Elektronik yang selanjutnya
+    disingkat PPMSE adalah Pelaku Usaha penyedia sarana komunikasi
+    elektronik yang digunakan untik transaksi Perdagangan;
+10. Pedagang (Merchant) adalah Pelaku Usaha yang melakukan PMSE dengan
+    sarana yang dibuat dan dikelola sendiri secara langsung atau melalui sarana
+    milik pihak PPMSE, atau Sistem Elektronik lainnya yang menyediakan
+    sarana PMSE;
+11. Penyelenggara Sarana Perantara (Intermediary Services) yang selanjutnya
+    disingkat PSP adalah Pelaku Usaha Dalam Negeri atau Pelaku Usaha Luar
+    Negeri yang menyediakan sarana komunikasi elektronik selain
+    penyelenggara telekomunikasi yang hanya berfungsi sebagai perantara
+    dalam komunikasi elektronik antara pengirim dan penerima;
+12. Retail Online adalah Pedagang (Merchant) yang melakukan PMSE dengan
+    sarana berupa situs web atau aplikasi secara komersial yang dibuat,
+    dikelola, dan/atau dimiliki sendiri;
+13. Lokapasar (Marketplace) adalah penyedia sarana yang Sebagian atau
+    keseluruhan proses transaksi berada di dalam Sistem Elektronik berupa
+    situs web atau aplikasi secara komersial sebagai wadah bagi Pedagang
+    (Merchant);
+14. Iklan Baris Online adalah sarana untuk menjalankan Sistem Elektronik
+    berupa situs web atau aplikasi dengan tujuan komersial yang
+    mempertemukan penjual dan pembeli yang keseluruhan proses
+    transaksinya terjadi di luar situs wen atau aplikasinya.
+15. Pelantar (Platform) Pembanding Harga adalah sarana untuk menjalankan
+    Sistem Elektronik berupa situs web atau aplikasi dengan tujuan komersial
+    yang menampilkan perbandingan harga Barang dan/atau Jasa yang dijual
+    pada situs web atau aplikasi lain;
+16. Daily Deals adalah sarana untuk menjalankan Sistem Elektronik berupa situs
+    web atau aplikasi dengan tujuan komersial berupa penjualan kupon diskon
+    dan/atau kemudahan fasilitas lainnya yang dapat digunakan sebagai sarana
+    pembayaran oleh konsumen untuk melakukan pembelian Barang dan/atau
+    Jasa ke Pelaku Usaha lainnya;
+17. Social-Commerce adalah penyelenggara media social yang menyediakan
+    fitur, menu, dan/atau fasilitas tertentu yang memungkinkan Pedagang
+    (Merchant) dapat memasang penawaran Barang dan/atau Jasa;
+18. Agregasi Barang adalah proses kegiatan yang mencakup pengemasan ulang,
+    bantuan pengelolaan, penyediaan Gudang, dan kegiatan lain yang
+    membuat Pedagang (Merchant) tidak langsung mengirimkan barangnya
+    kepada konsumen;
+19. Surat Izin Usaha Perwakilan Perusahaan Perdagangan Asing di Bidang PMSE
+    yang selanjutnya disebut SIUP3A Bidang PMSE adalah Perizinan Berusaha untuk
+    melaksanakan kegiatan usaha perwakilan Perusahaan Perdagangan asing di
+    bidang PMSE;
+20. Sistem Perizinan Berusaha Terintegrasi Secara Elektronik (Online Single
+    Submission) yang selanjutnya disebut Sistem OSS adalah sistem elektronik
+    terintegrasi yang dikelola dan diselenggarakan oleh Lembaga Pengelola
+    dabn Penyelenggara Online Single Submission untuk penyelenggaraan
+    Perizinan Berusaha berbasis resiko;
+                  21. Pelaku Usaha terdiri atas:
+                      a. Pelaku Usaha Dalam Negeri yang meliputi:
+                          1. Pedagang (Merchant) dalam negeri
+                          2. PPMSE dalam negeri; dan
+                          3. PSP dalam negeri; dan
+                      b. Pelaku Usaha Luar Negeri yang meliputi:
+                          1. Pedagang (Merchant) luar negeri;
+                          2. PPMSE luar negeri; dan
+                          3. PSP luar negeri
+                  22. Model bisnis PMSE dalam negei dan PMSE luar negeri dapat berupa:
+                      a. Retail Online;
+                      b. Lokapasar (Marketplace);
+                      c. Iklan Baris Online;
+                      d. Pelantar (Platform) Pembanding Harga;
+                      e. Daily Deals; dan
+                      f. Social-Commerce.
+                  23. Materi muatan Peraturan Menteri berisi:
+                      a. Pelaksanaan Peraturan Perundang-undangan yang lebih tinggi; dan/atau;
+                      b. penyelenggaraan urusan pemerintahan di bidang perdagangan.
+                  24. Penerbitan Perizinan Berusaha Bidang PMSE tidak dipungut biaya.
+                  25. Pada saat Peraturan Menteri ini mulai berlaku, Permendag No. 50 Tahun 2020
+                      tentang Ketentuan Perizinan Usaha, Periklanan, Pembinaan, dan Pengawasan
+                      Pelaku Usaha dalam Perdagangan Melalui Sistem Elektronik (Berita Negara
+                      Republik Indonesia Tahun 2020 Nomor 498), dicabut dan dinyatakan tidak
+                      berlaku.
+
+CATATAN   :   -   Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.
+              -   Lampiran : 1 hlm
+

@@ -1,0 +1,18 @@
+Access date for all sources: 2 October 2026.
+
+Sources (primary IR / company PDFs downloaded, then pdftotext -layout):
+- zomato_ar_fy24.txt — Zomato Limited Annual Report 2023-24. URL: https://b.zmtcdn.com/investor-relations/Zomato_Annual_Report_2023-24.pdf (listed on Eternal IR annual-reports tab via https://www.eternal.com/investor-relations/results/ and https://www.zomato.com/webroutes/getPage?page_url=/investor-relations/financials)
+- eternal_ar_fy25.txt — Eternal Limited Annual Report 2024-25. URL: https://b.zmtcdn.com/investor-relations/Eternal_Annual_Report_2024-25.pdf (same IR listing)
+- eternal_q4fy25.txt — Eternal Limited Shareholders’ Letter Q4FY25 results. URL: https://b.zmtcdn.com/investor-relations/d9c290cd23764a09789769c39682276a_1746094084.pdf
+- eternal_q4fy26.txt — Eternal Limited Shareholders’ Letter Q4FY26 results. URL: https://b.zmtcdn.com/investor-relations/Eternal_Limited_Shareholders_Letter_Q4FY26_Results.pdf (used for source inventory; KPI tables largely image-based so FY26 GOV not extracted from it)
+- zomato_q4fy22.txt, zomato_q4fy23.txt, zomato_q4fy24.txt — Q4 shareholders’ letters from the same IR carousel (FY22–FY24). Q4FY23/FY24 letters are largely non-selectable charts; numeric GOV tables taken from annual reports instead.
+- swiggy_rhp_2024.txt — Swiggy Limited Red Herring Prospectus dated 28 October 2024. URL: https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Swiggy-Limited-RHP-Final-Filing-Version-October-28-2024.pdf (company Reports and Publications page)
+- swiggy_ar_fy25.txt — Swiggy Limited Annual Report FY 2024-25. URL: https://www.swiggy.com/corporate/wp-content/uploads/2025/07/Swiggy-Annual-Report-FY-2024-25.pdf
+- swiggy_ar_fy26.txt — Swiggy Limited Annual Report FY 2025-26. URL: https://www.swiggy.com/corporate/wp-content/uploads/2026/07/annual-report-2025-26.pdf
+
+Company summaries:
+- Eternal Ltd (Zomato): Customer incentives are partly netted from revenue (when the user is a customer / Group is responsible for delivery, to the extent of revenue from that user) and the excess is advertisement and sales promotion expense. Amounts netted from revenue are disclosed (INR 13 cr FY23, 194 cr FY24, 415 cr FY25 as discounts and consideration payable to customers); the expense line that includes remaining platform-funded subsidies is also disclosed.
+- Swiggy Ltd: Customer incentives/discounts are recorded as a reduction of revenue when the user is identified as a customer, with the excess (and discounts where Swiggy is not responsible for the service) in advertising and sales promotion. A standalone customer-discount rupee total is not printed; Advertising and sales promotion (which the RHP says includes discounts and promotions) is disclosed, including as a % of B2C GOV for FY22–FY23. Delivery and related charges are explicitly said to include incentives paid to delivery partners.
+- Nykaa: skipped (not a delivery/travel platform; spec said include only if easy).
+
+Not extracted: Eternal FY26 annual-report GOV/revenue tables (AR PDF listed at https://b.zmtcdn.com/investor-relations/Eternal_Annual_Report_2025-26.pdf was not converted for this pass; Q4FY26 letter text did not print annual GOV tables). Discount % of GOV is generally not printed as a customer-discount % except Swiggy advertising and sales promotion / B2C GOV. No computed fields.

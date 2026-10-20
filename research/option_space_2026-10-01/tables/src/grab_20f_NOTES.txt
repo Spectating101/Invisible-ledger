@@ -1,0 +1,16 @@
+F22/F23/F24 GMV tables are labeled ($ in millions / in $ millions); prose uses rounded $X.X billion — both kept with unit as printed, not converted.
+F22 2019 group revenue is printed as $(845) million and also as negative revenues of $(0.8) billion; deliveries 2019 revenue is $(638) million.
+F22 group incentives also split as base/excess/consumer; partner total is not stated as one million figure in that sentence, so partner was taken from the $0.7/$0.6/$1.2 billion summary, not summed from base+excess.
+F23 2020 Indonesia revenue is $(61) million; F22 folded Indonesia into rest of Southeast Asia ($24 million), so country mix is not comparable even though group totals match.
+F24 still reports group GMV including financial services ($21.0 billion / 20,983 million in 2023); F25 stops reporting FS GMV and reports On-Demand GMV only ($15.8 billion / 15,785 million in 2023).
+F25 recasts 2023/2022 deliveries and mobility after moving ads from Enterprise and New Initiatives and reallocating some payments/support costs: deliveries 2023 revenue 1,194 (F24) vs 1,310 (F25); GMV 10.2bn/10,173 (F24) vs 10.4bn/10,365 (F25); consumer incentives 631 (F24) vs 712 (F25).
+F25 recasts deliveries 2022 revenue 663 (F23/F24) vs 724 (F25); GMV 9.8bn/9,827 vs 10.0bn/10,007; partner incentives 598 vs 599; consumer incentives 841 vs 966.
+F25 recasts mobility 2023 revenue 869 (F24) vs 871 (F25); GMV table 5,419 (F24) vs 5,420 (F25); 2022 revenue 639 vs 643; partner incentives 203 vs 202; consumer incentives 114 vs 115.
+On-Demand as a named total (GMV, incentives vs on-demand GMV) appears in F25; earlier filings state mobility+deliveries combined incentives without the On-Demand label — those rows use entity On-Demand with a note.
+On-Demand revenue is not stated as a dollar total in any filing (only as % of on-demand GMV); deliveries total incentives are not stated as one figure (partner and consumer given separately and not added).
+Agent-to-principal change for certain deliveries offerings begins 4Q2022 (+$68 million revenue that quarter) and +$183 million in 2023; principal-model driver incentives go to cost of revenue and are excluded from the incentive tables.
+F25 GMV definition adds GrabAds and GrabRentals into deliveries/mobility GMV and drops financial-services GMV; F23/F24 already include Jaya Grocer offline-store sales in GMV.
+Incentive tables in F25 show partner/consumer as negative (reduction to revenue); values recorded as the printed magnitudes, not sign-flipped.
+F22 risk-factor incentive sentence (line ~951) uses slightly different punctuation than the MD&A copy (line ~3767); both used where quoted.
+Period is calendar year ended 31 December as used in the filings (Grab fiscal year = calendar year).
+Empty-value rows are only for figures not stated as a single number, or for note_text policy/definition sentences.

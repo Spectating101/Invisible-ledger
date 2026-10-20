@@ -1,0 +1,92 @@
+Access date for all downloads: 2 October 2026.
+
+SOURCES
+1. economy_sea_2024_indonesia.txt
+   URL: https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2024_report.pdf
+   Google-Temasek-Bain e-Conomy SEA 2024 Indonesia country PDF. pdftotext -layout.
+
+2. economy_sea_2023_indonesia.txt
+   URL: https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2023_report.pdf
+   e-Conomy SEA 2023 Indonesia country PDF. pdftotext -layout.
+
+3. economy_sea_2025_indonesia.txt
+   URL: https://services.google.com/fh/files/misc/indonesia_e_conomy_sea_2025_report.pdf
+   e-Conomy SEA 2025 Indonesia country PDF (has 2023-2025 columns). pdftotext -layout.
+
+4. economy_sea_2024.txt
+   URL: https://services.google.com/fh/files/misc/e_conomy_sea_2024_report.pdf
+   Regional e-Conomy SEA 2024 report. pdftotext -layout.
+
+5. google_economy_sea_2024.txt
+   URL: https://blog.google/intl/id-id/e-conomy-sea-2024-perekonomian-digital-indonesia-akan-mencapai-gmv-90-miliar-pada-tahun-2024/
+   Official Google Indonesia blog announcing e-Conomy SEA 2024. HTML converted to text.
+
+6. bi_lpi_2024.txt
+   URL: https://www.bi.go.id/id/publikasi/laporan/Documents/LPI%202024%20[versi%20lengkap].pdf
+   Bank Indonesia Laporan Perekonomian Indonesia 2024 (full). pdftotext -layout.
+
+7. bi_lpi_2024_bab7.txt
+   URL: https://www.bi.go.id/id/publikasi/laporan/Documents/LPI%202024_09_Bab%207.pdf
+   LPI 2024 Bab 7 excerpt. pdftotext -layout.
+
+8. bi_cerita_umkm.txt
+   URL: https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx
+   BI Cerita BI page. HTML converted to text.
+
+9. goto_fy2023.txt
+   URL: https://www.gotocompany.com/en/news/press/goto-group-turns-adjusted-ebitda-positive-surpassing-full-year-guidance-as-company-reports-2023-fourth-quarter-and-full-year-results
+   GoTo FY2023 earnings release. HTML converted to text.
+
+10. goto_fy2024.txt
+    URL: https://www.gotocompany.com/en/news/press/goto-group-beats-guidance-with-record-results-as-it-reports-2024-fourth-quarter-and-full-year-earnings
+    GoTo FY2024 earnings release. HTML converted to text.
+
+11. sea_20f_2024.txt
+    URL: https://www.sec.gov/Archives/edgar/data/1703399/000119312525084311/d940352d20f.htm
+    Sea Limited Form 20-F for year ended 31 December 2024. HTML converted to text.
+
+12. bukalapak_sr2024.txt
+    URL: https://s1.bukalapak.com/content/documents/websites/7/107251/SR2024_Bukalapak_LO010_M.pdf
+    Bukalapak Sustainability Report 2024. pdftotext -layout.
+
+13. blibli_ar2024.txt
+    URL: https://asset-about.blibli.com/2025/04/Annual-Report-2024-PT-Global-Digital-Niaga-Tbk.pdf
+    Blibli / PT Global Digital Niaga Tbk Annual Report 2024. pdftotext -layout.
+
+14. blibli_fy2024_pr.txt
+    URL: https://about.blibli.com/en/media/press-release/pt-global-digital-niaga-tbk-2024-full-year-results-performance
+    Blibli FY2024 results page. HTML converted to text.
+
+15. sulut_ecom_2023.txt
+    URL: https://web-api.bps.go.id/download.php?f=AD0LlgukMkR34yf8DkYJzWRWK3BjNFJRcUd3V2FSdjRQcDArNlUxWEh6d2tqM1pPMHMvNFp1cXZWZHpaTENlRGJuYzZHNjJUMDJLby8wOEV4dEtpS0o2eDlkVEN4SURBZkxQdkZxSnB3aDhEdVpLTDN0b3FYUnZ3eGR2RHNrcS9QNnJSS0hOZXJLam9OaldBWVptNHZFN2wxeDUzU3BXTzNFZUdPQmZyVTQycXNFSkllUHZBcTFkTHVVYkQ4MDdjd0U1N1p0ZnUrdnUyeGM5a3BJS3lQZndyOTk3VzVOanEzMEVvdUlVNUk0Ryt2Q2syc3BtOXV5N0lqQUVIeGhkYVh1eHdiUlltU3FqdkVVelVUSzJjQjNxQk1sdFVoaHFQMlcvSUFBPT0%3D
+    BPS Provinsi Sulawesi Utara, Statistik eCommerce 2023 (survey 2024, activity year 2023). Downloaded via web-api.bps.go.id. pdftotext -layout.
+
+16. bali_ecom_2022_2023.txt
+    URL: https://web-api.bps.go.id/download.php?f=4GUeJgWXnyPsvXYEfyOI+kdYRlA4Q0doL25IMXYzckZLMzJiSG5xNjBGbFBER2RkOUwzREFEbzJhbnlzUkxmVWVzcUQ0TjZWVGxHMEZyS1NrQi9hRC9FdW1ocURvbXhnenFURjBPaVJaRGUwcHlTMkFBQTRBK2QzS2RwdjdWdDRhN3BueG8yampVZ0Zac1g3bHFkenpHVzRhUk1QODE4WDRPeXNkRnIxcVNqVmo2TmlBWGN2NE5KZDN0VjFNNElYTTBtYzdGU0cvMGtnT2RaTEV5R3o0NE9XZk5pV05JSWNud0g4QmZ3Z2orTlBWUVJ6ZDhhd1NEMzNia0JhRyswSzVCSEg0aUt6T3B0VUszaFY%3D
+    BPS Provinsi Bali, Statistik eCommerce 2022/2023. pdftotext -layout.
+
+17. bps_ecom_2019.txt
+    URL: https://web-api.bps.go.id/download.php?f=dun1D059+ihzqe0uHk16k3JiMGVBVFBPQWJIWmdqVDVPZnJEM3kxdko5d21rRXplTTlqNHZmNFFmY0s0ZHlmTUNnSkJPOUhPWlZJRklMWEd1MVhaZWN2anVwWnYxZURtdW1Wb0djeHRiN053NTM0WDBQc0NLU0pRTDlCNjZ0M1dqeVRNQW0rM28wdWpmdHlkNnRRS0RjeFcrcG04aDlkZlkrZ3luenFVc1ZqZGZRVjJTRWp5NS9XQUpId2R2RTBtV1NmdVFFcisyQTQrMS9qbzZwR2MyZTJpcVdqVGFnU2NwcDRzR2Y3RzFlWTlMSStjbEFQODVnL2xDS3Jtci9QYXNnV3VRdUlaR3JpblkwMHc%3D
+    National BPS Statistik E-Commerce 2019 (definitions only; not used for 2022-2024 values).
+
+TRIED BUT NOT SAVED AS USABLE NATIONAL PRIMARY TEXT
+- https://www.bps.go.id/id/publication/2025/11/28/647323224ecc656c2933571b/e-commerce-statistics-2024.html (Statistik E-Commerce 2024, 15.36 MB) — Cloudflare 403 from this environment; download button not reachable.
+- https://www.bps.go.id/id/publication/2025/01/30/d52af11843aee401403ecfa6/statistik-e-commerce-2023.html (Statistik E-Commerce 2023, 9.68 MB) — same Cloudflare block.
+- https://www.bps.go.id/id/publication/2023/09/18/f3b02f2b6706e104ea9d5b74/statistik-ecommerce-2022-2023.html (Statistik eCommerce 2022/2023) — same.
+- https://www.bps.go.id/id/publication/2022/12/19/d215899e13b89e516caa7a44/statistik-e-commerce-2022.html — same; abstract itself says that 2022 book covers 2021 sales.
+- Wayback Machine had no archived PDF of the 2023/2024 national books.
+- Momentum Works “Ecommerce in Southeast Asia 2024” (https://momentum.asia/insights/detail/ecommerce-in-southeast-asia-2024) is a paid report; no free primary PDF was obtained. Platform-by-country GMV from Momentum Works is therefore not in extraction.csv.
+- Sea Limited 20-F has group Shopee GMV only. No Indonesia column.
+- Grab, Lazada Indonesia, TikTok Shop Indonesia: no first-hand Indonesia GMV in the company/e-Conomy files saved.
+
+CONTRADICTIONS AND SCOPE GAPS
+1. e-Conomy Indonesia e-commerce GMV is revised across vintages. 2023 report printed 2023 e-commerce as 62. 2024 report printed 2022=58, 2023=59, 2024=65. 2025 report printed 2023=59, 2024=62, 2025=71. Do not mix vintages without the source_file.
+2. BI vs e-Conomy vs BPS. BI Cerita BI gives ~Rp487 tn e-commerce in 2024 (IDR payment-style series, rounded). BI LPI 2024 cites e-Conomy’s US$65 bn e-commerce for 2024. Those are different units and different concepts. BPS national IDR totals for 2022-2024 were not obtained here; news/Kemendag citations of BPS ~Rp1,100 tn (2023) and ~Rp1,289 tn (2024) were not copied because they are not first-hand BPS pages.
+3. BI does not print 2022 or 2023 IDR e-commerce outturns in the saved LPI/Cerita/PTBI texts. Press reports of Rp476.3 tn (2022) and Rp453.75 tn (2023) were skipped as news.
+4. GoTo e-commerce GTV 2022=Rp273.146 tn and 2023=Rp248.836 tn is the Tokopedia-era segment. From 1 February 2024 Tokopedia is deconsolidated; FY2024 Group GTV (Rp519.784 tn) is not Tokopedia GMV. 2024 GoTo GTV definition explicitly excludes Tokopedia.
+5. Sea GMV includes shipping and other charges and is group-wide (SEA + other Shopee markets), not Indonesia. No returns/cancellations sentence was found next to the definition.
+6. Bukalapak TPV 2024 is only through 30 September 2024; the company stopped reporting TPV from Q4 2024. Printed figures use dotted thousands (153.738.958) which this checker cannot treat as one integer, so values were left empty.
+7. Blibli TPV is paid-and-delivered goods/services (not the same as GMV including unpaid/cancelled orders).
+8. BPS survey unit (from Sulut/Bali pubs) is usaha/perusahaan, including household businesses and companies, formal and informal, using the OECD 2009 order definition. Marketplace is a third-party platform stall. Phone/manual-email/fax orders are out. The provincial books do not state whether recorded sales are gross of returns or include shipping/tax. Sulut sample (171 census blocks) is provincial, not the national frame (other BPS news pages mention 365 kabupaten/kota and ~40,066 sample businesses for 2024 listing, but those pages were not saved as the national publication).
+9. e-Conomy e-commerce GMV is a sector separate from transport, food, online travel (OTAs only), and online media. The reports do not print a sentence on shipping, returns, or cross-border inside Indonesia e-commerce GMV.
+10. Statistik E-Commerce 2022 (Dec 2022 release) covers 2021 activity, not calendar 2022. Calendar 2022 is in Statistik eCommerce 2022/2023.

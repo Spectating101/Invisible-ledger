@@ -2,6 +2,8 @@
 
 Research repository for **The Invisible Ledger**, a thesis project on the measurement and disclosure boundaries of platform-mediated economic activity in Indonesia, with separate historical and ASEAN evidence.
 
+**Current state (8 October 2026).** The thesis executes the [27 September proposal](papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf), examined and passed on 1 October 2026. The current evidence and chapter groundwork are in [research/option_space_2026-10-01](research/option_space_2026-10-01/README.md): `PART1` to `PART7` (chapter groundwork, frozen at tag `parts-1-7-v3-frozen-2026-10-08`), `FINDINGS.md` (every number and its script) and `PREREGISTRATION.md` (tests and verdicts). The September documents linked below are history: where they differ from the October files, the October files are current.
+
 The project asks how platform transaction flows relate to revenue recognized by the platform, what participant-side activity remains outside that corporate revenue boundary, and what can—and cannot be inferred for economic statistics and tax administration.
 
 For the reasoning behind the current rebuild—including agreed decisions, provisional interpretation, strongest findings, unresolved questions, and the handoff to independent reviewers—read [the research-direction handoff](docs/RESEARCH_DIRECTION_HANDOFF_2026-09-09.md).
@@ -16,7 +18,7 @@ For the closest-literature map, evidence-to-claim matrix, and complete section-b
 
 The proposal currently in use is the [27 September 2026 PDF](papers/current/Invisible_Ledger_Proposal_FINAL_2026-09-27.pdf) (examined 1 October 2026), with a [searchable text mirror](papers/current/Invisible_Ledger_Thesis_Proposal_CANONICAL_TEXT.md). No editable source for it has been located. The earlier 24 September files are superseded. The deck presented at the oral is [v4.10](papers/current/IL_Proposal_Oral_Deck_v4.10_Christopher_Ongko.pptx) (the old `IL_Oral_Deck_v1` is not the presented deck and is archived). See [the artifact map](CANONICAL_ARTIFACTS.md) for the active paths and update rule.
 
-The generated thesis manuscript is a separate, earlier work stream; see [the current manuscript source](papers/current/Invisible_Ledger_Thesis_Manuscript.md). The September 11 integrated manuscript is historical.
+There is no current manuscript: the September manuscripts are archived in `papers/current/archive/manuscripts_2026-09/` and are stale. The October 2026 research is indexed in [research/option_space_2026-10-01/README.md](research/option_space_2026-10-01/README.md); its pre-registered tests are in [PREREGISTRATION.md](research/option_space_2026-10-01/PREREGISTRATION.md).
 
 Potential interpretations, falsification tests, additional data requirements, and manuscript decision gates are kept separately in [the hypotheses and empirical agenda](docs/HYPOTHESES_AND_EMPIRICAL_AGENDA_2026-09-10.md).
 
@@ -56,7 +58,7 @@ Invisible-ledger/
 ├── AGENTS.md
 ├── docs/                       # research history, method, status, limitations
 ├── papers/
-│   ├── current/                # current working manuscript
+│   ├── current/                # active proposal PDF, text mirror, presented deck (manuscripts archived)
 │   ├── milestones/             # representative historical versions
 │   └── proposals/              # proposal versions; not all are current
 ├── data/

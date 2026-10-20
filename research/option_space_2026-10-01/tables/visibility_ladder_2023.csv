@@ -1,0 +1,8 @@
+layer,usd_bn,basis,pct_of_gdp
+GDP (World Bank),1371.167,official,100.0
+BPS national e-commerce value,72.25,survey of e-commerce businesses,5.269
+  of which BPS marketplace category,13.171,"survey, sales-media split",0.961
+  of which outside marketplace category,59.08,"survey, sales-media split",4.309
+"Three-platform transaction value (Grab constructed, Tokopedia, Shopee estimate)",43.233,mixed: reported/constructed/estimated,3.153
+Three-platform recognized revenue,3.162,mixed,0.231
+Three-platform wedge V-R,40.07,arithmetic,2.922

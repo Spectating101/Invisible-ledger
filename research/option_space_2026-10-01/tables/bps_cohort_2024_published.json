@@ -1,0 +1,17 @@
+{
+ "cohorts_2023_survey_k": {
+  "before 2020": 1650.3558984739998,
+  "2020-2022": 1651.222905704,
+  "2023": 513.220468948
+ },
+ "cohorts_2024_published_k": {
+  "before 2020": 1481.3671751999998,
+  "2020-2022": 1652.564986,
+  "2023 or later": 1267.0398388
+ },
+ "change_before_2020_pct": -10.239532177892974,
+ "change_2020_2022_pct": 0.08127796019326006,
+ "published_rise_2023_2024_k": 584.222,
+ "min_entrants_2024_k": 753.8193698520001,
+ "note": "min_entrants_2024 assumes every 2023 starter was still selling in 2024; any exits among them raise it."
+}

@@ -1,0 +1,881 @@
+entity,period,field,value,unit,source_file,quote,note
+REAL,FY2017,V,492205,USD thousand,REAL_10K_2020-03-11.txt," $
+ | 
+ 1,008,344
+ | 
+ | 
+ | 
+ $
+ | 
+ 710,750
+ | 
+ | 
+ | 
+ $
+ | 
+ 492,205
+ | 
+ | ",GMV (gross merchandise value)
+REAL,FY2017,revenue,137521,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ 318,037
+ | 
+ | 
+ | 
+ | 
+ 213,732
+ | 
+ | 
+ | 
+ | 
+ 137,521
+ | 
+ | ",Total revenue
+REAL,FY2017,rev_1p,18180,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Direct revenue (1) 
+ | 
+ | 
+ | 
+ 50,625
+ | 
+ | 
+ | 
+ | 
+ 33,125
+ | 
+ | 
+ | 
+ | 
+ 18,180
+ | 
+ | ",Direct revenue (company-owned inventory)
+REAL,FY2017,ocf,-38574,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (54,490
+ | 
+ )
+ | 
+ | 
+ | 
+ (47,195
+ | 
+ )
+ | 
+ | 
+ | 
+ (38,574
+ | 
+ )
+",Net cash used in operating activities
+REAL,FY2017,capex,-11599,USD thousand,REAL_10K_2020-03-11.txt," )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (24,761
+ | 
+ )
+ | 
+ | 
+ | 
+ (13,392
+ | 
+ )
+ | 
+ | 
+ | 
+ (11,599
+ | 
+ )
+",Purchases of property and equipment
+REAL,FY2017,capex_sw,-2521,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Capitalized proprietary software development costs
+ | 
+ | 
+ | 
+ (9,267
+ | 
+ )
+ | 
+ | 
+ | 
+ (5,724
+ | 
+ )
+ | 
+ | 
+ | 
+ (2,521
+ | 
+ )
+",Capitalized proprietary software development costs
+REAL,FY2018,V,710750,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ (In thousands, except AOV and percentages)
+ | 
+ | 
+ GMV
+ | 
+ | 
+ $
+ | 
+ 1,008,344
+ | 
+ | 
+ | 
+ $
+ | 
+ 710,750
+ | 
+ | ",GMV (gross merchandise value)
+REAL,FY2018,revenue,213732,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ 318,037
+ | 
+ | 
+ | 
+ | 
+ 213,732
+ | 
+ | ",Total revenue
+REAL,FY2018,rev_1p,33125,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Direct revenue (1) 
+ | 
+ | 
+ | 
+ 50,625
+ | 
+ | 
+ | 
+ | 
+ 33,125
+ | 
+ | ",Direct revenue (company-owned inventory)
+REAL,FY2018,ocf,-47195,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (54,490
+ | 
+ )
+ | 
+ | 
+ | 
+ (47,195
+ | 
+ )
+",Net cash used in operating activities
+REAL,FY2018,capex,-13392,USD thousand,REAL_10K_2020-03-11.txt," )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (24,761
+ | 
+ )
+ | 
+ | 
+ | 
+ (13,392
+ | 
+ )
+",Purchases of property and equipment
+REAL,FY2018,capex_sw,-5724,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Capitalized proprietary software development costs
+ | 
+ | 
+ | 
+ (9,267
+ | 
+ )
+ | 
+ | 
+ | 
+ (5,724
+ | 
+ )
+",Capitalized proprietary software development costs
+REAL,FY2019,V,1008344,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ (In thousands, except AOV and percentages)
+ | 
+ | 
+ GMV
+ | 
+ | 
+ $
+ | 
+ 1,008,344
+ | 
+ | ",GMV (gross merchandise value)
+REAL,FY2019,revenue,318037,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Total revenue
+ | 
+ | 
+ | 
+ 318,037
+ | 
+ | ",Total revenue
+REAL,FY2019,rev_1p,50625,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Direct revenue (1) 
+ | 
+ | 
+ | 
+ 50,625
+ | 
+ | ",Direct revenue (company-owned inventory)
+REAL,FY2019,ocf,-54490,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (54,490
+ | 
+ )
+",Net cash used in operating activities
+REAL,FY2019,capex,-24761,USD thousand,REAL_10K_2020-03-11.txt," )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (24,761
+ | 
+ )
+",Purchases of property and equipment
+REAL,FY2019,capex_sw,-9267,USD thousand,REAL_10K_2020-03-11.txt,"| 
+ | 
+ Capitalized proprietary software development costs
+ | 
+ | 
+ | 
+ (9,267
+ | 
+ )
+",Capitalized proprietary software development costs
+REAL,FY2020,V,986951,USD thousand,REAL_10K_2021-03-01.txt,"| 
+ | 
+ (In thousands, except AOV and percentages)
+ | 
+ | 
+ GMV
+ | 
+ | 
+ $
+ | 
+ 986,951
+ | 
+ | 
+ | 
+ $
+ | 
+ 1,008,344
+ | 
+ | 
+ | 
+ $
+ | 
+ 710,750
+ | 
+ | 
+ NMV
+ | 
+ | 
+ $
+ | 
+ 736,872
+ | 
+ | 
+ | 
+ $
+ | 
+ 731,445
+ | 
+ | 
+ | 
+ $
+ | 
+ 506,589
+ | 
+ | 
+ Number of orders
+ | 
+ | 
+ | 
+ 2,233
+ | 
+ | 
+ | 
+ |",GMV (gross merchandise value)
+REAL,FY2020,revenue,299949,USD thousand,REAL_10K_2021-03-01.txt,"| 
+ | 
+ Total revenue
+ | 
+ | 
+ | 
+ 299,949
+ | 
+ | ",Total revenue
+REAL,FY2020,rev_1p,52623,USD thousand,REAL_10K_2021-03-01.txt,"| 
+ | 
+ Direct revenue
+ | 
+ | 
+ | 
+ 52,623
+ | 
+ | ",Direct revenue (company-owned inventory)
+REAL,FY2020,ocf,-134419,USD thousand,REAL_10K_2021-03-01.txt,"| 
+ | 
+ Net cash used in operating activities
+ | 
+ | 
+ | 
+ (134,419
+ | 
+ )
+",Net cash used in operating activities
+REAL,FY2020,capex,-18253,USD thousand,REAL_10K_2021-03-01.txt," )
+ | 
+ Purchases of property and equipment
+ | 
+ | 
+ | 
+ (18,253
+ | 
+ )
+",Purchases of property and equipment
+REAL,FY2020,capex_sw,-8678,USD thousand,REAL_10K_2021-03-01.txt,"| 
+ | 
+ Capitalized proprietary software development costs
+ | 
+ | 
+ | 
+ (8,678
+ | 
+ )
+",Capitalized proprietary software development costs
+REAL,FY2021,V,1482432,USD thousand,REAL_10K_2022-02-28.txt,"es) | 
+ GMV | $ | 1,482,432 | | | $",GMV (gross merchandise value)
+REAL,FY2021,revenue,467692,USD thousand,REAL_10K_2022-02-28.txt,"5 | | 
+ Total revenue | 467,692 | | | 2",Total revenue
+REAL,FY2021,rev_1p,120844,USD thousand,REAL_10K_2022-02-28.txt,"ge) | 
+ Direct revenue | $ | 120,844 | | | $",Direct revenue (company-owned inventory)
+REAL,FY2021,ocf,-142151,USD thousand,REAL_10K_2022-02-28.txt,"2 | | 
+ Net cash used in operating activities | ( 142,151 ) | | | (",Net cash used in operating activities
+REAL,FY2021,capex,-37470,USD thousand,REAL_10K_2022-02-28.txt,") | | 
+ Purchases of property and equipment | ( 37,470 ) | | | (",Purchases of property and equipment
+REAL,FY2021,capex_sw,-9967,USD thousand,REAL_10K_2022-02-28.txt,"1 | | 
+ Capitalized proprietary software development costs | ( 9,967 ) | | | (",Capitalized proprietary software development costs
+REAL,FY2022,V,1815983,USD thousand,REAL_10K_2023-02-28.txt,"es) | 
+ GMV | $ | 1,815,983 | | | $",GMV (gross merchandise value)
+REAL,FY2022,revenue,603493,USD thousand,REAL_10K_2023-02-28.txt,"4 | | 
+ Total revenue | 603,493 | | | 4",Total revenue
+REAL,FY2022,rev_1p,158726,USD thousand,REAL_10K_2023-02-28.txt,"ge) | 
+ Direct revenue | $ | 158,726 | | | $",Direct revenue (company-owned inventory)
+REAL,FY2022,ocf,-91557,USD thousand,REAL_10K_2023-02-28.txt,") | | 
+ Net cash used in operating activities | ( 91,557 ) | | | (",Net cash used in operating activities
+REAL,FY2022,capex,-22861,USD thousand,REAL_10K_2023-02-28.txt,") | | 
+ Purchases of property and equipment | ( 22,861 ) | | | (",Purchases of property and equipment
+REAL,FY2022,capex_sw,-14061,USD thousand,REAL_10K_2023-02-28.txt,"5 | | 
+ Capitalized proprietary software development costs | ( 14,061 ) | | | (",Capitalized proprietary software development costs
+REAL,FY2023,V,1725983,USD thousand,REAL_10K_2024-03-01.txt,"es) | 
+ GMV | $ | 1,725,983 | $ | 1",GMV (gross merchandise value)
+REAL,FY2023,revenue,549304,USD thousand,REAL_10K_2024-03-01.txt,"627 | 
+ Total revenue | 549,304 | 603,4",Total revenue
+REAL,FY2023,rev_1p,79160,USD thousand,REAL_10K_2024-03-01.txt,"ge) | 
+ Direct revenue | $ | 79,160 | $ | 1",Direct revenue (company-owned inventory)
+REAL,FY2023,ocf,-61268,USD thousand,REAL_10K_2024-03-01.txt,"947 | 
+ Net cash used in operating activities | ( 61,268 ) | ( 91,",Net cash used in operating activities
+REAL,FY2023,capex,-29177,USD thousand,REAL_10K_2024-03-01.txt,"7 ) | 
+ Purchases of property and equipment | ( 29,177 ) | ( 22,",Purchases of property and equipment
+REAL,FY2023,capex_sw,-12951,USD thousand,REAL_10K_2024-03-01.txt,"000 | 
+ Capitalized proprietary software development costs | ( 12,951 ) | ( 14,",Capitalized proprietary software development costs
+REAL,FY2024,V,1829463,USD thousand,REAL_10K_2025-02-21.txt,"es) | 
+ GMV | $ | 1,829,463 | $ | 1",GMV (gross merchandise value)
+REAL,FY2024,revenue,600484,USD thousand,REAL_10K_2025-02-21.txt,"788 | 
+ Total revenue | 600,484 | 549,3",Total revenue
+REAL,FY2024,rev_1p,64580,USD thousand,REAL_10K_2025-02-21.txt,"ge) | 
+ Direct revenue | $ | 64,580 | $ | 7",Direct revenue (company-owned inventory)
+REAL,FY2024,ocf,26846,USD thousand,REAL_10K_2025-02-21.txt,"301 | 
+ Net cash provided by (used in) operating activities 
+ | 26,846 | ( 61,",Net cash provided by operating activities
+REAL,FY2024,capex,-14248,USD thousand,REAL_10K_2025-02-21.txt,"1 ) | 
+ Purchases of property and equipment | ( 14,248 ) | ( 29,",Purchases of property and equipment
+REAL,FY2024,capex_sw,-11800,USD thousand,REAL_10K_2025-02-21.txt,"| — | 
+ Capitalized proprietary software development costs | ( 11,800 ) | ( 12,",Capitalized proprietary software development costs
+REAL,FY2025,V,2130007,USD thousand,REAL_10K_2026-02-26.txt,"es) | 
+ GMV | $ | 2,130,007 | $ | 1",GMV (gross merchandise value)
+REAL,FY2025,revenue,692845,USD thousand,REAL_10K_2026-02-26.txt,"572 | 
+ Total revenue | 692,845 | 600,4",Total revenue
+REAL,FY2025,rev_1p,91091,USD thousand,REAL_10K_2026-02-26.txt,"ge) | 
+ Direct revenue | $ | 91,091 | $ | 6",Direct revenue (company-owned inventory)
+REAL,FY2025,ocf,37010,USD thousand,REAL_10K_2026-02-26.txt,"2 ) | 
+ Net cash provided by (used in) operating activities | 37,010 | 26,84",Net cash provided by operating activities
+REAL,FY2025,capex,-18644,USD thousand,REAL_10K_2026-02-26.txt,"1 ) | 
+ Purchases of property and equipment | ( 18,644 ) | ( 14,",Purchases of property and equipment
+REAL,FY2025,capex_sw,-12889,USD thousand,REAL_10K_2026-02-26.txt,"| — | 
+ Capitalized proprietary software development costs | ( 12,889 ) | ( 11,",Capitalized proprietary software development costs
+DIBS,FY2019,V,279010,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ GMV | $ | 447,471 | | | $ | 342,586 | | | $ | 279,010 | | 
+ N",GMV (gross merchandise value)
+DIBS,FY2019,revenue,70567,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net revenue | $ | 102,731 | | | $ | 81,863 | | | $ | 70,567 | | 
+ C",Net revenue
+DIBS,FY2019,ocf,-18469,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net cash used in operating activities | $ | (4,401) | | | $ | (3,443) | | | $ | (18,469) | | 
+ ",Net cash used in operating activities
+DIBS,FY2019,capex,-1911,USD thousand,DIBS_10K_2022-03-03.txt,"| — | 
+ Purchases of property and equipment | ( 129 ) | | ( 44 ) | | ( 1,911 ) | 
+ A",Purchases of property and equipment
+DIBS,FY2019,capex_sw,-4191,USD thousand,DIBS_10K_2022-03-03.txt,"| | | 
+ Development of internal-use software | ( 2,110 ) | | ( 1,782 ) | | ( 4,191 ) | 
+ P",Development of internal-use software
+DIBS,FY2020,V,342586,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ GMV | $ | 447,471 | | | $ | 342,586 | | | $",GMV (gross merchandise value)
+DIBS,FY2020,revenue,81863,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net revenue | $ | 102,731 | | | $ | 81,863 | | | $",Net revenue
+DIBS,FY2020,ocf,-3443,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net cash used in operating activities | $ | (4,401) | | | $ | (3,443) | | | ",Net cash used in operating activities
+DIBS,FY2020,capex,-44,USD thousand,DIBS_10K_2022-03-03.txt,"| — | 
+ Purchases of property and equipment | ( 129 ) | | ( 44 ) | | ( 1",Purchases of property and equipment
+DIBS,FY2020,capex_sw,-1782,USD thousand,DIBS_10K_2022-03-03.txt,"| | | 
+ Development of internal-use software | ( 2,110 ) | | ( 1,782 ) | | (",Development of internal-use software
+DIBS,FY2021,V,447471,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ GMV | $ | 447,471 | | | $",GMV (gross merchandise value)
+DIBS,FY2021,revenue,102731,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net revenue | $ | 102,731 | | | $",Net revenue
+DIBS,FY2021,ocf,-4401,USD thousand,DIBS_10K_2022-03-03.txt,"019 | 
+ Net cash used in operating activities | $ | (4,401) | | | $",Net cash used in operating activities
+DIBS,FY2021,capex,-129,USD thousand,DIBS_10K_2022-03-03.txt,"| — | 
+ Purchases of property and equipment | ( 129 ) | | ( 4",Purchases of property and equipment
+DIBS,FY2021,capex_sw,-2110,USD thousand,DIBS_10K_2022-03-03.txt,"| | | 
+ Development of internal-use software | ( 2,110 ) | | ( 1",Development of internal-use software
+DIBS,FY2022,V,425375,USD thousand,DIBS_10K_2023-03-03.txt,"020 | 
+ GMV | $ | 425,375 | | | $",GMV (gross merchandise value)
+DIBS,FY2022,revenue,96849,USD thousand,DIBS_10K_2023-03-03.txt,"020 | 
+ Net revenue | $ | 96,849 | | | $",Net revenue
+DIBS,FY2022,ocf,-27914,USD thousand,DIBS_10K_2023-03-03.txt,"020 | 
+ Net cash used in operating activities | $ | (27,914) | | | $",Net cash used in operating activities
+DIBS,FY2022,capex,-93,USD thousand,DIBS_10K_2023-03-03.txt,"112 | 
+ Purchases of property and equipment | ( 93 ) | | ( 1",Purchases of property and equipment
+DIBS,FY2022,capex_sw,-1871,USD thousand,DIBS_10K_2023-03-03.txt,"| | | 
+ Development of internal-use software | ( 1,871 ) | | ( 2",Development of internal-use software
+DIBS,FY2023,V,362316,USD thousand,DIBS_10K_2024-02-29.txt,"021 | 
+ GMV | $ | 362,316 | $ | 4",GMV (gross merchandise value)
+DIBS,FY2023,revenue,84684,USD thousand,DIBS_10K_2024-02-29.txt,"021 | 
+ Net revenue | $ | 84,684 | $ | 9",Net revenue
+DIBS,FY2023,ocf,-13556,USD thousand,DIBS_10K_2024-02-29.txt,"7 ) | 
+ Net cash used in operating activities | ( 13,556 ) | ( 27,",Net cash used in operating activities
+DIBS,FY2023,capex,-88,USD thousand,DIBS_10K_2024-02-29.txt,"0 ) | 
+ Purchases of property and equipment | ( 88 ) | ( 93 ",Purchases of property and equipment
+DIBS,FY2023,capex_sw,-1706,USD thousand,DIBS_10K_2024-02-29.txt,"| — | 
+ Development of internal-use software | ( 1,706 ) | ( 1,8",Development of internal-use software
+DIBS,FY2024,V,362274,USD thousand,DIBS_10K_2025-03-03.txt,"022 | 
+ GMV | $ | 362,274 | $ | 3",GMV (gross merchandise value)
+DIBS,FY2024,revenue,88257,USD thousand,DIBS_10K_2025-03-03.txt,"022 | 
+ Net revenue | $ | 88,257 | $ | 8",Net revenue
+DIBS,FY2024,ocf,-2910,USD thousand,DIBS_10K_2025-03-03.txt,"7 ) | 
+ Net cash used in operating activities | ( 2,910 ) | ( 13,",Net cash used in operating activities
+DIBS,FY2024,capex,-618,USD thousand,DIBS_10K_2025-03-03.txt,"1 ) | 
+ Purchases of property and equipment | ( 618 ) | ( 88 ",Purchases of property and equipment
+DIBS,FY2024,capex_sw,-1304,USD thousand,DIBS_10K_2025-03-03.txt,"| — | 
+ Development of internal-use software | ( 1,304 ) | ( 1,7",Development of internal-use software
+DIBS,FY2025,V,363862,USD thousand,DIBS_10K_2026-02-27.txt,"023 | 
+ GMV | $ | 363,862 | $ | 3",GMV (gross merchandise value)
+DIBS,FY2025,revenue,89620,USD thousand,DIBS_10K_2026-02-27.txt,"023 | 
+ Net revenue | $ | 89,620 | $ | 8",Net revenue
+DIBS,FY2025,ocf,-2436,USD thousand,DIBS_10K_2026-02-27.txt,"027 | 
+ Net cash used in operating activities | ( 2,436 ) | ( 2,9",Net cash used in operating activities
+DIBS,FY2025,capex,-763,USD thousand,DIBS_10K_2026-02-27.txt,"3 ) | 
+ Purchases of property and equipment | ( 763 ) | ( 1,9",Purchases of property and equipment
+KSPI,FY2021,V,1844,KZT billion,KSPI_20F_2024-04-29.txt,". 
+ Our Marketplace GMV increased by 45% to ₸ 4,161 billion for the year ended December 31, 2023 from ₸ 2,872 billion for the year ended December 31, 2022, which in turn increased by 56% from ₸ 1,844 billion",Marketplace GMV
+KSPI,FY2021,V_alt,12935,KZT billion,KSPI_20F_2024-04-29.txt,"card. 
+ Our TPV increased by 43% to ₸28,406 billion for the year ended December 31, 2023 from ₸19,913 billion for the year ended December 31, 2022, which in turn increased by 54% from ₸12,935 billion",Payments TPV (total payment value)
+KSPI,FY2021,ocf,70351,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Net cash inflow from operating activities 
+ | 
+ | 
+ | 
+ 70,351 
+ | 
+ |",Net cash inflow from operating activities
+KSPI,FY2021,capex,-24901,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Purchase of property, equipment and intangible assets 
+ | 
+ | 
+ | 
+ ( 24,901 
+ | 
+ )","Purchase of property, equipment and intangible assets (combined line)"
+KSPI,FY2021,revenue,884822,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ REVENUE 
+ | 
+ | 
+ 4,5 
+ | 
+ | 
+ | 
+ 884,822 
+ | 
+ |",Total revenue; audited income statement
+KSPI,FY2022,V,2872,KZT billion,KSPI_20F_2024-04-29.txt,". 
+ Our Marketplace GMV increased by 45% to ₸ 4,161 billion for the year ended December 31, 2023 from ₸ 2,872 billion",Marketplace GMV
+KSPI,FY2022,V_alt,19913,KZT billion,KSPI_20F_2024-04-29.txt,"card. 
+ Our TPV increased by 43% to ₸28,406 billion for the year ended December 31, 2023 from ₸19,913 billion",Payments TPV (total payment value)
+KSPI,FY2022,revenue,1270592,KZT million,KSPI_20F_2024-04-29.txt,"venue 
+ Our total revenue increased by 51% to ₸ 1,913,490 million for the year ended December 31, 2023 from ₸ 1,270,592 million",Total revenue
+KSPI,FY2022,ocf,1020984,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Net cash inflow from operating activities 
+ | 
+ | 
+ 1,020,984 
+ | 
+ |",Net cash inflow from operating activities
+KSPI,FY2022,capex,-59468,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Purchase of property, equipment and intangible assets 
+ | 
+ | 
+ | 
+ ( 24,901 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 59,468 
+ | 
+ )","Purchase of property, equipment and intangible assets (combined line)"
+KSPI,FY2023,V,4161,KZT billion,KSPI_20F_2024-04-29.txt,". 
+ Our Marketplace GMV increased by 45% to ₸ 4,161 billion for the",Marketplace GMV
+KSPI,FY2023,V_alt,28406,KZT billion,KSPI_20F_2024-04-29.txt,"card. 
+ Our TPV increased by 43% to ₸28,406 billion for the",Payments TPV (total payment value)
+KSPI,FY2023,revenue,1913490,KZT million,KSPI_20F_2024-04-29.txt,"venue 
+ Our total revenue increased by 51% to ₸ 1,913,490 million for the",Total revenue
+KSPI,FY2023,ocf,1106128,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Net cash inflow from operating activities 
+ | 
+ | 
+ 1,020,984 
+ | 
+ | 
+ | 
+ 1,106,128 
+ | 
+ |",Net cash inflow from operating activities
+KSPI,FY2023,capex,-50257,KZT million,KSPI_20F_2024-04-29.txt,"| 
+ | 
+ Purchase of property, equipment and intangible assets 
+ | 
+ | 
+ | 
+ ( 24,901 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 59,468 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 50,257 
+ | 
+ )","Purchase of property, equipment and intangible assets (combined line)"
+KSPI,FY2024,V,5975,KZT billion,KSPI_20F_2025-03-10.txt,"enue. 
+ Our Marketplace GMV increased by 44% to ₸5,975 billion for the",Marketplace GMV
+KSPI,FY2024,V_alt,37229,KZT billion,KSPI_20F_2025-03-10.txt,"card. 
+ Our TPV increased by 31% to ₸37,229 billion for the",Payments TPV (total payment value)
+KSPI,FY2024,revenue,2532156,KZT million,KSPI_20F_2025-03-10.txt,"venue 
+ Our total revenue increased by 32% to ₸2,532,156 million for the",Total revenue
+KSPI,FY2024,ocf,581892,KZT million,KSPI_20F_2025-03-10.txt,"| 
+ | 
+ Net cash inflow from operating activities 
+ | 
+ | 
+ 1,106,128 
+ | 
+ | 
+ | 
+ 581,892 
+ | 
+ |",Net cash inflow from operating activities
+KSPI,FY2024,capex,-95726,KZT million,KSPI_20F_2025-03-10.txt,"| 
+ | 
+ Purchase of property, equipment and intangible assets 
+ | 
+ | 
+ | 
+ ( 59,468 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 50,257 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 95,726 
+ | 
+ )","Purchase of property, equipment and intangible assets (combined line)"
+KSPI,FY2025,V,6657,KZT billion,KSPI_20F_2026-03-16.txt,"enue. 
+ Our Marketplace GMV increased by 11% to ₸6,657 billion for the",Marketplace GMV (Kazakhstan; excludes Türkiye)
+KSPI,FY2025,V_alt,44219,KZT billion,KSPI_20F_2026-03-16.txt," 
+ 90 
+ Our TPV increased by 19% to ₸44,219 billion for the",Payments TPV (excludes Türkiye)
+KSPI,FY2025,revenue,4046074,KZT million,KSPI_20F_2026-03-16.txt,"venue 
+ Our total revenue increased by 60% to ₸4,046,074 million for the",Total revenue
+KSPI,FY2025,ocf,673611,KZT million,KSPI_20F_2026-03-16.txt,"| 
+ | 
+ Net cash inflow from operating activities 
+ | 
+ | 
+ 581,892 
+ | 
+ | 
+ | 
+ | 
+ 673,611 
+ | 
+ |",Net cash inflow from operating activities
+KSPI,FY2025,capex,-182513,KZT million,KSPI_20F_2026-03-16.txt,"| 
+ | 
+ Purchase of property, equipment and intangible assets 
+ | 
+ | 
+ | 
+ ( 50,257 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 95,726 
+ | 
+ ) 
+ | 
+ | 
+ | 
+ ( 182,513 
+ | 
+ )","Purchase of property, equipment and intangible assets (combined line)"
+HEPS,FY2019,V,8.0,TRY billion,HEPS_20F_2022-05-02.txt,"9 
+ | 
+ GMV ( TRY in billions ) 
+ | ​ 
+ | 26.2 
+ | 
+ | 17.0 
+ | 
+ | 8.0 
+ | 
+ M",total GMV; rounded in source; FY2019 comparative in FY2021 report
+HEPS,FY2019,revenue,2603735,TRY thousand,HEPS_20F_2022-05-02.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 7,558,021 
+ | 
+ | 6,375,727 
+ | 
+ | 2,603,735 
+ | 
+ C",Revenues; FY2019 comparative in FY2021 report
+HEPS,FY2020,V,17.0,TRY billion,HEPS_20F_2022-05-02.txt,"and our total GMV increased by 54% to TRY 26.2 billion in the year ended December 31, 2021 from TRY 17.0 billion",total GMV; rounded in source
+HEPS,FY2020,revenue,6375727,TRY thousand,HEPS_20F_2022-05-02.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 7,558,021 
+ | 
+ | 6,375,727 
+ | 
+ |","Revenues (table, thousands)"
+HEPS,FY2020,ocf,441361,TRY thousand,HEPS_20F_2022-05-02.txt,"or 77%, to TRY 89,476 thousand in 2021 from TRY 441,361 thousand in 2020",Net cash provided by operating activities
+HEPS,FY2020,capex,-100107,TRY thousand,HEPS_20F_2022-05-02.txt,"| 
+ | 
+ Purchases of property and equipment and intangible assets 
+ | 
+ | 9, 10 
+ | 
+ | ( 214,790 ) 
+ | 
+ | ( 100,107 ) 
+ | 
+",Purchases of property and equipment and intangible assets (combined)
+HEPS,FY2021,V,26.2,TRY billion,HEPS_20F_2022-05-02.txt,and our total GMV increased by 54% to TRY 26.2 billion in the ,total GMV; rounded in source
+HEPS,FY2021,revenue,7558021,TRY thousand,HEPS_20F_2022-05-02.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 7,558,021 
+ | 
+ |","Revenues (table, thousands)"
+HEPS,FY2021,ocf,89476,TRY thousand,HEPS_20F_2022-05-02.txt,"or 77%, to TRY 89,476 thousand in 2021 from TRY 441,361 thousand in 2020",Net cash provided by operating activities
+HEPS,FY2021,capex,-214790,TRY thousand,HEPS_20F_2022-05-02.txt,"| 
+ | 
+ Purchases of property and equipment and intangible assets 
+ | 
+ | 9, 10 
+ | 
+ | ( 214,790 ) 
+ | 
+",Purchases of property and equipment and intangible assets (combined)
+HEPS,FY2022,V,53.9,TRY billion,HEPS_20F_2023-05-01.txt,021 and our total GMV increased by 3.8% to TRY 53.9 billion in the ,total GMV; rounded in source
+HEPS,FY2022,revenue,16069394,TRY thousand,HEPS_20F_2023-05-01.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 16,069,394 
+ | 
+ |","Revenues (table, thousands)"
+HEPS,FY2023,V,116.5,TRY billion,HEPS_20F_2024-04-30.txt,"22, and our total GMV increased by 31.1% to TRY 116.5 billion in the ",total GMV; rounded in source
+HEPS,FY2023,revenue,35558521,TRY thousand,HEPS_20F_2024-04-30.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 35,558,521 
+ | 
+ |","Revenues (table, thousands)"
+HEPS,FY2024,V,188.6,TRY billion,HEPS_20F_2025-04-30.txt,"23, and our total GMV increased by 12.1% to TRY 188.6 billion in the ",total GMV; rounded in source
+HEPS,FY2024,revenue,57046561,TRY thousand,HEPS_20F_2025-04-30.txt,") 
+ | 
+ Revenues (a) 
+ | 
+ | 57,046,561 
+ | 
+ |","Revenues (table, thousands)"
+HEPS,FY2025,V,257.5,TRY billion,HEPS_20F_2026-04-30.txt,"24, and our GMV increased by 4.3% to TRY 257.5 billion in the ",GMV; rounded in source
+HEPS,FY2025,revenue,84651820,TRY thousand,HEPS_20F_2026-04-30.txt,") 
+ | 
+ Revenues (a) 
+ | ​ ​ ​
+ | 84,651,820 
+ | ​ ​","Revenues (table, thousands)"
+HEPS,FY2025,rev_1p,57.1,TRY billion,HEPS_20F_2026-04-30.txt,", 2025, TRY 57.1 billion (67.5% of total revenue) were derived from Direct Sales, TRY 9.",Direct Sales / first-party sales of goods
+MOGU,FY2017,V,11.8,RMB billion,MOGU_20F_2019-06-28.txt,apidly. Our total GMV increased by 24.6% from RMB11.8 billion for the,total GMV (gross merchandise volume)
+MOGU,FY2017,revenue,1109.9,RMB million,MOGU_20F_2019-06-28.txt,", 2019. Our total revenues were RMB1,109.9 million, RMB973",total revenues; FY2017 comparative in FY2019 report
+MOGU,FY2018,V,14.7,RMB billion,MOGU_20F_2019-06-28.txt,"y 24.6% from RMB11.8 billion for the year ended March 31, 2017 to RMB14.7 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2018,revenue,973.2,RMB million,MOGU_20F_2019-06-28.txt,", 2019. Our total revenues were RMB1,109.9 million, RMB973.2 million and RMB",total revenues
+MOGU,FY2018,ocf,-314.9,RMB million,MOGU_20F_2019-06-28.txt,"gain. 
+ Net cash used in operating activities in fiscal year 2018 was RMB314.9 million. The di",Net cash used in operating activities
+MOGU,FY2017,ocf,-832.5,RMB million,MOGU_20F_2019-06-28.txt,"nses. 
+ Net cash used in operating activities in fiscal year 2017 was RMB832.5 million. The di",Net cash used in operating activities; FY2017 comparative in FY2019 report
+MOGU,FY2017,capex,-23660,RMB thousand,MOGU_20F_2019-06-28.txt,"ties: 
+ Purchase of property, equipment and software 
+ (23,660 
+ ) 
+ (","Purchase of property, equipment and software; FY2017 comparative in FY2019 report"
+MOGU,FY2019,V,17.4,RMB billion,MOGU_20F_2019-06-28.txt,"7% from
+RMB14.7 billion for the year ended March 31, 2018 to RMB17.4 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2019,revenue,1074.3,RMB million,MOGU_20F_2019-06-28.txt,"illion, RMB973.2 million and RMB1,074.3 million (US$160",total revenues
+MOGU,FY2019,ocf,-325.8,RMB million,MOGU_20F_2019-06-28.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2019 was RMB325.8 million (US$48.",Net cash used in operating activities
+MOGU,FY2020,V,17.1,RMB billion,MOGU_20F_2020-07-29.txt,"ion and
+RMB17.1 billion for the years ended March 31, 2018, 2019 and 2020, respec",total GMV (gross merchandise volume)
+MOGU,FY2020,revenue,835.3,RMB million,MOGU_20F_2020-07-29.txt,"illion, RMB1,074.3 million and RMB835.3 million (US$118",total revenues
+MOGU,FY2020,ocf,-311.8,RMB million,MOGU_20F_2020-07-29.txt,"et cash
+used in operating activities in the year ended March 31, 2020 was RMB311.8 million (US$44.",Net cash used in operating activities
+MOGU,FY2020,capex,-62.9,RMB million,MOGU_20F_2020-07-29.txt," due to purchases of property, equipment and software and intangible assets of RMB62.9 million (US$8.9","purchases of property, equipment and software and intangible assets (combined)"
+MOGU,FY2021,V,13.9,RMB billion,MOGU_20F_2021-06-30.txt,"vely. 
+ Our total GMV was RMB17.4 billion, RMB17.1 billion and 13.9 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2021,revenue,482.4,RMB million,MOGU_20F_2021-06-30.txt,"ively. 
+Our total revenues were RMB1,074.3 million, RMB835.3 million and RMB482.4 million (US$73.",total revenues
+MOGU,FY2021,ocf,-77.9,RMB million,MOGU_20F_2021-06-30.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2021 was RMB77.9 million (US$11.",Net cash used in operating activities
+MOGU,FY2022,V,10.7,RMB billion,MOGU_20F_2022-07-15.txt,"vely. 
+ Our total GMV was RMB17.1 billion, 13.9 billion and RMB10.7 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2022,revenue,337.5,RMB million,MOGU_20F_2022-07-15.txt,"ively. 
+Our total revenues were RMB835.3 million, RMB482.4 million and RMB337.5 million (US$53.",total revenues
+MOGU,FY2022,ocf,-114.4,RMB million,MOGU_20F_2022-07-15.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2022 was RMB114.4 million (US$18.",Net cash used in operating activities
+MOGU,FY2022,capex,-55.1,RMB million,MOGU_20F_2022-07-15.txt,"fset by purchases of property, equipment and software of RMB55.1 million (US$8.7","purchases of property, equipment and software"
+MOGU,FY2023,V,6.1,RMB billion,MOGU_20F_2023-07-31.txt,"tents 
+ Our total GMV was RMB13.9 billion, RMB10.7 billion and RMB6.1 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2023,revenue,232.1,RMB million,MOGU_20F_2023-07-31.txt,"tively. Our total revenues were RMB482.4 million, RMB337.5 million and RMB232.1 million (US$33.",total revenues
+MOGU,FY2023,ocf,-10.1,RMB million,MOGU_20F_2023-07-31.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2023 was RMB10.1 million (US$1.5",Net cash used in operating activities
+MOGU,FY2023,capex,-19.0,RMB million,MOGU_20F_2023-07-31.txt,fset by purchases of property and equipment of RMB19.0 million (US$2.8,purchases of property and equipment
+MOGU,FY2024,V,5.2,RMB billion,MOGU_20F_2024-07-19.txt,"vely. 
+ Our total GMV was RMB10.7 billion, RMB6.1 billion and RMB5.2 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2024,revenue,160.3,RMB million,MOGU_20F_2024-07-19.txt,"tively. Our total revenues were RMB337.5 million, RMB232.1 million and RMB160.3 million (US$22.",total revenues
+MOGU,FY2024,ocf,-40.5,RMB million,MOGU_20F_2024-07-19.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2024 was RMB40.5 million (US$5.6",Net cash used in operating activities
+MOGU,FY2024,capex,-94.2,RMB million,MOGU_20F_2024-07-19.txt, due to purchases of property and equipment of RMB94.2 million (US$13.,purchases of property and equipment
+MOGU,FY2025,V,3.6,RMB billion,MOGU_20F_2025-07-31.txt,"vely. 
+ Our total GMV was RMB6.1 billion, RMB5.2 billion and RMB3.6 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2025,revenue,141.2,RMB million,MOGU_20F_2025-07-31.txt,"tively. Our total revenues were RMB232.1 million, RMB160.3 million and RMB141.2 million (US$19.",total revenues
+MOGU,FY2025,ocf,-67.9,RMB million,MOGU_20F_2025-07-31.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2025 was RMB67.9 million (US$9.4",Net cash used in operating activities
+MOGU,FY2025,capex,-10.1,RMB million,MOGU_20F_2025-07-31.txt, due to purchases of property and equipment of RMB10.1 million (US$1.4,purchases of property and equipment
+MOGU,FY2026,V,3.6,RMB billion,MOGU_20F_2026-07-24.txt,"vely. 
+ Our total GMV was RMB5.2 billion, RMB3.6 billion and RMB3.6 billion for the",total GMV (gross merchandise volume)
+MOGU,FY2026,revenue,125.4,RMB million,MOGU_20F_2026-07-24.txt,"on, and RMB141.2 million and RMB125.4 million (US$18.",total revenues
+MOGU,FY2026,ocf,-47.4,RMB million,MOGU_20F_2026-07-24.txt,"ities 
+ Net cash used in operating activities in the year ended March 31, 2026 was RMB47.4 million (US$6.9",Net cash used in operating activities
+MOGU,FY2026,capex,-4.1,RMB million,MOGU_20F_2026-07-24.txt,"llion), prepayment and payment for purchase of property and equipment of RMB4.1 million (US$0.6",prepayment and payment for purchase of property and equipment
+UXIN,FY2016,V_2B,10313,RMB million,UXIN_20F_2019-04-29.txt,"siness. GMV increased by 68.5% from RMB10,313 million in 2016 to RMB1",2B GMV (used-car transaction value); 2C GMV not separately totalled for 2016
+UXIN,FY2017,V_2B,17378,RMB million,UXIN_20F_2019-04-29.txt,"y 68.5% from RMB10,313 million in 2016 to RMB17,378 million in 2017. The in",2B GMV; total GMV also discussed as growing to 2018
+UXIN,FY2017,ocf,-1834.2,RMB million,UXIN_20F_2019-04-29.txt,"ness. 
+ Net cash used in operating activities was RMB1,834.2 million for the year ended December 31, 2017. The di",Net cash used in operating activities
+UXIN,FY2016,ocf,-661.2,RMB million,UXIN_20F_2019-04-29.txt,"ness. 
+ Net cash used in operating activities was RMB661.2 million for the year ended December 31, 2016. For th",Net cash used in operating activities
+UXIN,FY2018,V_total,55.1,RMB billion,UXIN_20F_2019-04-29.txt,ons and total GMV reached RMB55.1 billion (US$8.0,total GMV (2C and 2B)
+UXIN,FY2018,ocf,-2281.3,RMB million,UXIN_20F_2019-04-29.txt,"ities 
+ Net cash used in operating activities was RMB2,281.3 million (US$332.4 million) for the year ended December 31, 2018. In 201",Net cash used in operating activities
+UXIN,FY2019,V_2C,11.3,RMB billion,UXIN_20F_2020-05-12.txt,"tively, resulting in GMV of approximately RMB4.4 billion and RMB11.3 billion (US$1.6",2C GMV of online used car transactions
+UXIN,FY2019,revenue,1588.0,RMB million,UXIN_20F_2020-05-12.txt,"m 2018. Our total revenues increased significantly by 140.9% from RMB659.1 million in 2018 to RMB1,588.0 million (US$228",total revenues from continuing operations
+UXIN,FY2018,revenue,659.1,RMB million,UXIN_20F_2020-05-12.txt," 140.9% from RMB659.1 million in 2018 to RMB1,588.0 million (US$228",total revenues from continuing operations (2019 20-F presentation after 2B discontinued)
+UXIN,FY2019,ocf,-1194.1,RMB million,UXIN_20F_2020-05-12.txt,"ities 
+ Net cash used in operating activities was RMB 1,194.1 million (US$171.5 million) for the year ended December 31, 2019. In 201",Net cash used in operating activities
+UXIN,FY2021,revenue,657.4,RMB million,UXIN_20F_2021-07-30.txt,"evenue. Our total revenues decreased by 58.6% from RMB1,588.0 million in 2019 to RMB657.4 million (US$100",total revenues
+UXIN,FY2021,rev_1p,463.5,RMB million,UXIN_20F_2021-07-30.txt,evenue. Retail vehicle sales revenue was RMB463.5 million (US$70.,Retail vehicle sales (inventory-owning / first-party)
+UXIN,FY2021,ocf,-1122.3,RMB million,UXIN_20F_2021-07-30.txt,"s 
+ ​ 
+ Net cash used in operating activities was RMB1,122.3 million (US$171.3 million) for the fiscal year ended March 31, 2021. In the",Net cash used in operating activities
+UXIN,FY2022,revenue,1636.1,RMB million,UXIN_20F_2022-08-01.txt,"venue . Our total revenues increased by 148.9% from RMB657.4 million in the fiscal year of 2021 to RMB1,636.1 million (US$258",total revenues
+UXIN,FY2022,rev_1p,780.4,RMB million,UXIN_20F_2022-08-01.txt,venue . Retail vehicle sales revenue was RMB780.4 million (US$123,Retail vehicle sales (first-party inventory)
+UXIN,FY2022,ocf,-845.0,RMB million,UXIN_20F_2022-08-01.txt,"ities 
+ Net cash used in operating activities was RMB845.0 million (US$133.3 million) for the fiscal year ended March 31, 2022. In the",Net cash used in operating activities
+UXIN,FY2022,capex,-16.8,RMB million,UXIN_20F_2022-08-01.txt,"ities 
+ Net cash used in investing activities was RMB16.8 million (US$2.6 million) for the fiscal year ended March 31, 2022, primarily attributable to the purchase of property, equipment and software which w","investing outflow primarily purchase of property, equipment and software; no separate P&E line quoted"
+UXIN,FY2023,revenue,2059.2,RMB million,UXIN_20F_2023-08-14.txt,"venue . Our total revenues increased by 25.9% from RMB1,636.1 million in the fiscal year of 2022 to RMB2,059.2 million (US$299",total revenues
+UXIN,FY2023,rev_1p,1312.9,RMB million,UXIN_20F_2023-08-14.txt,"venue . Retail vehicle sales revenue was RMB1,312.9 million (US$191",Retail vehicle sales (first-party inventory)
+UXIN,FY2023,ocf,-251.1,RMB million,UXIN_20F_2023-08-14.txt,"ities 
+ Net cash used in operating activities was RMB251.1 million (US$36.6 million) for the fiscal year ended March 31, 2023. In the",Net cash used in operating activities
+UXIN,FY2023,capex,-32.0,RMB million,UXIN_20F_2023-08-14.txt,"ities 
+ Net cash used in investing activities was RMB32.0 million (US$4.7 million) for the fiscal year ended March 31, 2023, primarily attributable to purchase of property, equipment and software as we e","investing outflow primarily purchase of property, equipment and software"
+UXIN,FY2024,revenue,1374.7,RMB million,UXIN_20F_2024-07-31.txt,"y 33.2% from RMB2,059.2 million in the fiscal year of 2023 to RMB1,374.7 million (US$190",total revenues
+UXIN,FY2024,ocf,-262.4,RMB million,UXIN_20F_2024-07-31.txt," 
+ Our
+ net cash used in operating activities was RMB262.4 million (US$36.3 million) in the fiscal year ended March 31, 2024. | 
+ Ou",Net cash used in operating activities
+UXIN,FY2025,revenue,3239.7,RMB million,UXIN_20F_2026-04-30.txt,"y 78.6% from RMB1,814.4 million in the twelve months ended December 31, 2024 to RMB3,239.7 million
+(US$463","total revenues; fiscal year ended December 31, 2025"

@@ -1,0 +1,78 @@
+{
+ "grab_pricing_vs_mix": {
+  "2022-2023": {
+   "take_rate_change_pts": 3.8914949841296176,
+   "within_pts": 3.5444637847938707,
+   "mix_pts": 0.34703119933574583,
+   "rides_take_rate_pct": [
+    15.5458089668616,
+    16.054622624100386
+   ],
+   "deliveries_take_rate_pct": [
+    6.756894270886334,
+    11.736950751990562
+   ]
+  },
+  "2023-2024": {
+   "take_rate_change_pts": 0.5946047787720454,
+   "within_pts": 0.5429826147240515,
+   "mix_pts": 0.05162216404799358,
+   "rides_take_rate_pct": [
+    16.054622624100386,
+    15.768072289156626
+   ],
+   "deliveries_take_rate_pct": [
+    11.736950751990562,
+    12.735647871705194
+   ]
+  },
+  "2024-2025": {
+   "take_rate_change_pts": -0.19559354996026845,
+   "within_pts": -0.18201369457201297,
+   "mix_pts": -0.013579855388255442,
+   "rides_take_rate_pct": [
+    15.768072289156626,
+    15.426474310301188
+   ],
+   "deliveries_take_rate_pct": [
+    12.735647871705194,
+    12.643113015382454
+   ]
+  }
+ },
+ "tokopedia_two_views": {
+  "net_revenue_change_IDR_tn": 2.1499999999999995,
+  "rupiah_view_share_lower_incentives_pct": 60.4651162790698,
+  "rupiah_view_share_higher_gross_fees_pct": 39.53488372093023,
+  "transaction_value_growth_pct": -8.900000448843937,
+  "per_unit_gross_fee_change_pct": 21.231900094843546,
+  "per_unit_incentive_change_pct": -24.950790317725446
+ },
+ "verdict_2023": {
+  "buying_growth_pct": {
+   "Tokopedia transaction value": -8.900000448843937,
+   "GoTo on-demand transaction value": -10.5,
+   "Bank Indonesia e-commerce": -4.7,
+   "Momentum Works Indonesia GMV": 3.5,
+   "Bukalapak transaction value": 6.921542293788674,
+   "Blibli 3P transaction value": 34.71524966261808
+  },
+  "measures_below_household_spending": 5,
+  "measures_falling": 3,
+  "measures_counted": 6,
+  "household_spending_nominal_growth_pct": 9.4,
+  "platform_revenue_growth_pct": {
+   "Tokopedia": 53.19558641590167,
+   "Bukalapak": 22.65948220826748,
+   "Blibli 3P": 465.3266331658292
+  },
+  "BPS_value_growth_pct": 40.6,
+  "BPS_published_seller_growth_pct": 27.4,
+  "seller_growth_upper_bound_from_entry_pct": 15.544698442410112,
+  "existing_sellers_online_revenue_direction_pct": {
+   "up": 24.48406466000616,
+   "same": 43.578214471158525,
+   "down": 31.937720868835292
+  }
+ }
+}

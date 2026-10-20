@@ -1,0 +1,102 @@
+{
+  "verified_on": "2026-10-08",
+  "reviewed_commit": "b517f8e3b9416493ca1b77295d92b26748900f23",
+  "procedure": "Executed each named script in an isolated git-archive copy using the local licensed inputs. Compared parsed JSON outputs. Original inputs and repository outputs were not overwritten.",
+  "inputs": [
+    {
+      "label": "BPS 2021 file",
+      "local_path": "_local/licensed_data/bps_silastik/716 Survei E-commerce 2021/survei_ecommerce_2021.dbf",
+      "sha256": "80a7145fe0a5d24b5ed9cf80d7eb41dd2d2d96a71a6a53ab04d82bcb0352f355",
+      "classification": "licensed local input; contents not copied into this package"
+    },
+    {
+      "label": "BPS 2023 file",
+      "local_path": "_local/licensed_data/bps_silastik/Data/ecom2023.dbf",
+      "sha256": "ed9ec5243deeff75121d08811c1c1ee610b85304c0633099f652170f4d43222c",
+      "classification": "licensed local input; contents not copied into this package"
+    },
+    {
+      "label": "BPS 2024 file",
+      "local_path": "_local/licensed_data/bps_silastik/e_commerce2024.dbf",
+      "sha256": "b58ed340fcb39d04b4d0aa145ac3e433fc38853227d092402ac3801a37cea43f",
+      "classification": "licensed local input; contents not copied into this package"
+    },
+    {
+      "label": "LSEG market caps in reporting currency",
+      "local_path": "_local/licensed_data/lseg/mcap_reporting_ccy.csv",
+      "sha256": "dff6ad347f227407704fa16ca207e2fb3fd0fa7206e668824c8234487a21de87",
+      "classification": "licensed local input; contents not copied into this package"
+    }
+  ],
+  "runs": [
+    {
+      "script": "bps_microdata_tests.py",
+      "script_sha256": "9b00ec70d798731961b24dccf808768376dc4e0826020585c81d61182a0e041c",
+      "output": "bps_microdata_results.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "9323b2f648cd38e2e9bf555e26b5da9a98b21122c8ef3b4ed97a64fc3e606e06",
+      "rerun_output_sha256": "9323b2f648cd38e2e9bf555e26b5da9a98b21122c8ef3b4ed97a64fc3e606e06"
+    },
+    {
+      "script": "bps_descriptives.py",
+      "script_sha256": "5b9b2d25cdeacf0910dac4cfdfb5f0d9f093c1c477d9242a4e298a8f8a390a0e",
+      "output": "bps_descriptives.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "d6c206857d03a670aca39d9de4100272922630e2fa61143fd9f652590ad742a5",
+      "rerun_output_sha256": "d6c206857d03a670aca39d9de4100272922630e2fa61143fd9f652590ad742a5"
+    },
+    {
+      "script": "bps_cohort_check.py",
+      "script_sha256": "6043bd2847d3399aefa56de30813e7861789eabeef0aa4bd450ac7cfa87557e7",
+      "output": "bps_cohort_check.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "cca03ab8a665ef24de4866a25b0e8f9749742ff42a5cec54eca280830e56ab83",
+      "rerun_output_sha256": "cca03ab8a665ef24de4866a25b0e8f9749742ff42a5cec54eca280830e56ab83"
+    },
+    {
+      "script": "bps_frame_check.py",
+      "script_sha256": "607af32a889573ff2160985a583f5051c16def0c842b9885a653f93ed5ab5723",
+      "output": "bps_frame_check.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "eba650a2f459757537c458c841896949aec9496483a47ade04db4ececf9345f8",
+      "rerun_output_sha256": "eba650a2f459757537c458c841896949aec9496483a47ade04db4ececf9345f8"
+    },
+    {
+      "script": "bps_h2_cheap_checks.py",
+      "script_sha256": "c4b34347dd81c008038e703e8be5bade8f6bce02cfec2afbf03e339321333377",
+      "output": "bps_h2_cheap_checks.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "fd71c7e2e42b5ca38744c4a660dc1bf645fcce35247093fa5aa20f97cf8e9768",
+      "rerun_output_sha256": "fd71c7e2e42b5ca38744c4a660dc1bf645fcce35247093fa5aa20f97cf8e9768"
+    },
+    {
+      "script": "gel_checks.py",
+      "script_sha256": "24fa326c3756ca86fc01e13fe6133a606c9fb5550b1a13ae2ff09550427fc376",
+      "output": "gel_checks.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "7b04ec04958195cb4945e4946031443c17969538925e12d3679e725f1b24fc31",
+      "rerun_output_sha256": "7b04ec04958195cb4945e4946031443c17969538925e12d3679e725f1b24fc31"
+    },
+    {
+      "script": "part5_checks.py",
+      "script_sha256": "f2a1ec69d4450d3262224be41469f99c88423755cc0489d0b0795a32a85b5686",
+      "output": "part5_checks.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "36b783cd62bc645bce7ac76da27345543774523c6f419201f3b2e91f04051739",
+      "rerun_output_sha256": "36b783cd62bc645bce7ac76da27345543774523c6f419201f3b2e91f04051739"
+    },
+    {
+      "script": "m1_market_value.py",
+      "script_sha256": "f1cab625b2b3c9f386d08e45d394881861a5deb24f570523a5c925429c86dafc",
+      "output": "m1_market_value_results.json",
+      "rerun_matches_saved_json": true,
+      "saved_output_sha256": "82e0f1a9bca47229e0a49d2e32a365a3264d72adfaac9ba87dad2f49e7fced72",
+      "rerun_output_sha256": "82e0f1a9bca47229e0a49d2e32a365a3264d72adfaac9ba87dad2f49e7fced72"
+    }
+  ],
+  "boundaries": [
+    "Reproduction uses the original analytical code; it is not an independent reimplementation.",
+    "Questionnaire interpretation, survey design and economic attribution need separate assessment.",
+    "World Bank and event-return analyses were not rerun from raw inputs in this pass."
+  ]
+}

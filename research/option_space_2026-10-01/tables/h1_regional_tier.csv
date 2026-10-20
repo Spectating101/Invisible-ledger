@@ -1,0 +1,13 @@
+metric,test_set,benchmark,n_a,firms_a,median_a,median_b,mw_obs_p,firm_perm_p,combos,boot95
+abs_dlnm,"IDN_main (3 firms, as examined)",EXT_clean (8 firms),8,3,0.2519,0.0545,0.0037,0.0303,165,"[0.055,0.446]"
+abs_dlnm,"IDN_main (3 firms, as examined)",EXT_clean ex-Sea (7 firms),8,3,0.2519,0.0332,0.0001,0.0167,120,"[0.078,0.478]"
+abs_dlnm,"REGIONAL only (Grab OD, GoTo OD)",EXT_clean (8 firms),7,2,0.0945,0.0545,0.1103,0.1778,45,"[0.012,0.169]"
+abs_dlnm,"REGIONAL only (Grab OD, GoTo OD)",EXT_clean ex-Sea (7 firms),7,2,0.0945,0.0332,0.0349,0.0556,36,"[0.028,0.169]"
+abs_dlnm,IDN_main + REGIONAL (5 firms),EXT_clean (8 firms),15,5,0.1373,0.0545,0.0058,0.0202,1287,"[0.023,0.382]"
+abs_dlnm,IDN_main + REGIONAL (5 firms),EXT_clean ex-Sea (7 firms),15,5,0.1373,0.0332,0.0004,0.0038,792,"[0.060,0.382]"
+abs_D,"IDN_main (3 firms, as examined)",EXT_clean (8 firms),8,3,38.9168,7.1048,0.0022,0.0606,165,"[4.620,58.370]"
+abs_D,"IDN_main (3 firms, as examined)",EXT_clean ex-Sea (7 firms),8,3,38.9168,4.1924,0.0,0.0083,120,"[9.193,58.825]"
+abs_D,"REGIONAL only (Grab OD, GoTo OD)",EXT_clean (8 firms),7,2,8.8631,7.1048,0.2163,0.2667,45,"[-2.430,22.797]"
+abs_D,"REGIONAL only (Grab OD, GoTo OD)",EXT_clean ex-Sea (7 firms),7,2,8.8631,4.1924,0.0676,0.0833,36,"[-0.126,23.711]"
+abs_D,IDN_main + REGIONAL (5 firms),EXT_clean (8 firms),15,5,15.7379,7.1048,0.0093,0.0614,1287,"[-0.137,57.813]"
+abs_D,IDN_main + REGIONAL (5 firms),EXT_clean ex-Sea (7 firms),15,5,15.7379,4.1924,0.0006,0.0038,792,"[4.661,57.912]"
