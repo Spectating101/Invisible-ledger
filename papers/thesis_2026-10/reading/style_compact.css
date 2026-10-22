@@ -1,0 +1,27 @@
+/* Compact reading copy: loaded after style.css. Chapters 1 to 7 only, small type, tight margins, chapters run on without page breaks. */
+@page { size: A4; margin: 14mm 15mm 14mm 15mm; }
+html { font-size: 9.4pt; }
+body { line-height: 1.285; }
+p { margin: 0 0 0.42em; }
+header#title-block-header { break-after: auto; padding-top: 0; text-align: left; margin: 0 0 4mm; border-bottom: 1px solid #999; padding-bottom: 2mm; }
+header#title-block-header .title { font-size: 12pt; text-align: left; margin: 0 0 1mm; }
+header#title-block-header .subtitle { font-size: 9pt; text-align: left; margin: 0; }
+header#title-block-header .author, header#title-block-header .date { display: none; }
+h1 { font-size: 13.5pt; break-before: auto; margin: 7mm 0 3mm; padding-top: 0; text-align: left; }
+section.level1 > h1 { break-before: auto; }
+h2 { font-size: 10.6pt; margin: 4mm 0 1mm; }
+h3 { font-size: 9.6pt; margin: 3mm 0 1mm; }
+table { font-size: 8pt; line-height: 1.25; margin-bottom: 2.5mm; }
+th { padding: 0.8mm 1.6mm 0.7mm; }
+td { padding: 0.5mm 1.6mm; }
+tbody tr:first-child td { padding-top: 0.9mm; }
+tbody tr:last-child td { padding-bottom: 0.9mm; }
+p.tcap { font-size: 8.8pt; margin: 2.5mm 0 1mm; }
+p.fcap { font-size: 8.4pt; margin: 1mm 0 3mm; }
+p.note { font-size: 7.8pt; margin: 1mm 0 3mm; }
+table + p.note { margin-top: -1.5mm; }
+p > img { max-height: 50mm; margin: 2mm auto 0; }
+div.eq { margin: 1.5mm 0 2mm; font-size: 9.6pt; }
+blockquote { margin: 1.5mm 8mm 2mm; }
+ol, ul { margin: 0 0 0.4em 1.1em; }
+li { margin: 0.1em 0; }
