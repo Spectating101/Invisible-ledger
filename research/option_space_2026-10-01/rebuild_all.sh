@@ -7,7 +7,7 @@
 # Also not run here: cap_prediction.py and score_q3_2026.py (scoring after the 3Q26 releases), l_rule_preregistration.py (the registered rule, text only),
 # peers_quarterly.py, mmyt_incentives.py and tokopedia_segment.py (built once from the local filing corpus; outputs committed), verify_extraction.py and
 # check_rows.py (acceptance checks used when each extraction was made); m1_market_value.py (licensed LSEG market values; its committed
-# coefficients are checked by claims_ledger_v12.py).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
+# coefficients are checked by claims_ledger_v12.py), and m1_upgrade.py (22 Oct: the same licensed market values; run on the researcher's machine, selftest with --selftest).  Extraction CSVs in tables/src are the verified inputs (quote-checked when they were made).
 set -euo pipefail
 cd "$(dirname "$0")"
 PY="${PYTHON:-python3}"
@@ -56,8 +56,12 @@ step rq_closing_checks.py      # sampling noise vs the 2023 surplus (BPS publish
 step claims_ledger_v11.py      # closing checks
 step wedge_over_time.py        # Objective 1 over time (descriptive)
 step claims_ledger_v12.py      # wedge over time; market-value test (coefficients from tables/m1_market_value_results.json)
+step h2_coverage_adjusted.py   # H2 with the extra sellers read as wider coverage (exploratory, 16 Oct)
+step h1_exact_inference.py     # H1: exact tests, interval for the size of the gap, Sea as regional, drop two, young platforms (exploratory, 22 Oct)
+step event_study_panel_check.py # announcement returns on the committed derived panels (exploratory, 22 Oct)
+step claims_ledger_v13.py      # H2 coverage scenarios and H1 exact inference
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv", "tables/claims_ledger_v11.csv", "tables/claims_ledger_v12.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv", "tables/claims_ledger_v11.csv", "tables/claims_ledger_v12.csv", "tables/claims_ledger_v13.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

@@ -10,7 +10,7 @@ Every result in this chapter carries one of the three labels of Section 4.10: re
 |---|---|---|---|
 | *Inner link: revenue and platform commerce* | | | |
 | Revenue was about 7 percent of what three major platforms carried in 2023; the wedge was about US$40 billion | Descriptive | Shopee's take rate varied; each platform dropped in turn | 5.1 |
-| Take rates moved about three times as much in Indonesia and the region as abroad, so H1 is rejected | Exploratory; the narrower test, set before the wider one, points the same way | Each platform dropped in turn; Ozon and Zalando dropped; change measured in points; quarterly pairs do not reject | 5.2 |
+| Take rates moved about three times as much in Indonesia and the region as abroad, so H1 is rejected | Exploratory; the narrower test, set before the wider one, points the same way | Each platform dropped in turn, and two at a time; exact tests; Ozon and Zalando dropped; change measured in points; quarterly pairs do not reject | 5.2 |
 | The thin take rate of Indonesian and regional platforms explains much of that difference | Exploratory | Changes in percentage points compared across groups | 5.2 |
 | Pricing, not more commerce, moved revenue | Descriptive | All 15 pairs against 158 abroad; seven traced windows; two views of Tokopedia | 5.3 |
 | Market value moves with transaction value | Registered; holds | Extreme values capped (winsorised); a second run | 5.4 |
@@ -62,7 +62,7 @@ Revenue did not keep pace with transaction value at the Indonesian and regional 
 
 *Note:* Group values are medians of each platform's median yearly change. Appendix B lists every check, including the tests without Ozon and Zalando.
 
-The main test compares the five platforms with 27 abroad, one median per platform. Both methods of Section 4.3 reject equal moves, with p = 0.004 and p = 0.022. No single platform carries the result. Dropping any one, or treating Tokopedia and GoTo as one company, keeps the Mann–Whitney p-value at 0.016 or below. The main test was set up after a first, narrower test, so it is exploratory.
+The main test compares the five platforms with 27 abroad, one median per platform. Both methods of Section 4.3 reject equal moves, with p = 0.004 and p = 0.022. Exact versions, which list all 201,376 ways to pick five of the 32 platforms, give p = 0.004 and p = 0.021. No single platform carries the result. Dropping any one, or treating Tokopedia and GoTo as one company, keeps the Mann–Whitney p-value at 0.016 or below. Dropping two can weaken it: the worst case, without Blibli and Tokopedia, gives p = 0.058 (Appendix B). The main test was set up after a first, narrower test, so it is exploratory.
 
 A narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels, using one median per platform, comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
 
@@ -114,7 +114,7 @@ Tokopedia is not the only case of revenue rising while the commerce shrank. From
 
 Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation (8), p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
 
-The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m). That estimate is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20), or p = 0.16 with extreme values capped.
+The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m). That estimate is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20), or p = 0.16 with extreme values capped. The standard error of the gap is 0.31, so the test could reliably flag only a gap above about 0.8. A failed prediction here means the data cannot tell, not that markets value the two sources alike.
 
 A second run adds five segment series, including Grab, GoTo and Sea, and Mercado Libre. There the gap counts (p = 0.004), with about 0.6 for transaction value against about 0.1 for the take rate. That run sets segment figures against whole-company market values, as the registration warned, so the thesis does not rely on it. The answer depends on which platforms are in the sample.
 

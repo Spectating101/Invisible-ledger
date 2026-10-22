@@ -1,0 +1,43 @@
+id,claim,stated,recomputed,status
+H13-01,"H2 extensive share, published count (%)",71.1,71.07279,PASS
+H13-02,"Extra sellers removed, no exits (thousand)",306.0,305.592804,PASS
+H13-03,"Extra sellers removed, 5% exits (thousand)",458.0,458.040796,PASS
+H13-04,"Count-only share, no exits (%)",46.6,46.579721,PASS
+H13-05,"Count-only share, 5% exits (%)",33.6,33.55187,PASS
+H13-06,"Count and value removed, no exits, low (%)",54.5,54.499974,PASS
+H13-07,"Count and value removed, no exits, high (%)",53.3,53.308587,PASS
+H13-08,"Count and value removed, 5% exits, low (%)",43.0,43.048615,PASS
+H13-09,"Count and value removed, 5% exits, high (%)",41.5,41.487762,PASS
+H13-10,"H1 exact Mann-Whitney p, 5 against 27",0.0038,0.003819,PASS
+H13-11,"H1 exact permutation p over all 201,376 splits",0.021,0.021383,PASS
+H13-12,Splits enumerated,201376.0,201376.0,PASS
+H13-13,Hodges-Lehmann shift in |change in log take rate| per year,0.117,0.1167,PASS
+H13-14,"Exact 95% interval for the shift, low",0.039,0.0392,PASS
+H13-15,"Exact 95% interval for the shift, high",0.223,0.2226,PASS
+H13-16,Ratio of group medians,3.3,3.269919,PASS
+H13-17,"Bootstrap interval for the ratio, low",1.4,1.427492,PASS
+H13-18,"Bootstrap interval for the ratio, high",8.5,8.452033,PASS
+H13-19,"Sea in the regional group: median, regional group",0.225,0.2254,PASS
+H13-20,"Sea in the regional group: median, foreign group",0.06,0.05975,PASS
+H13-21,Sea in the regional group: exact Mann-Whitney p,0.0004,0.000428,PASS
+H13-22,Dropping any two of five: best exact p,0.003,0.002709,PASS
+H13-23,Dropping any two of five: worst exact p,0.058,0.058374,PASS
+H13-24,Dropping any two of five: cases above 0.05 (of 10),1.0,1.0,PASS
+H13-25,Young platforms only: Indonesian and regional platforms,4.0,4.0,PASS
+H13-26,Young platforms only: foreign platforms,18.0,18.0,PASS
+H13-27,"Young platforms only: median, regional group",0.169,0.169214,PASS
+H13-28,"Young platforms only: median, foreign group",0.069,0.069488,PASS
+H13-30,Announcements in the event-study panel,191.0,191.0,PASS
+H13-31,Event study: volume growth coefficient,0.014,0.013697,PASS
+H13-32,Event study: volume growth p,0.24,0.242789,PASS
+H13-33,Event study: take-rate change coefficient,0.026,0.025749,PASS
+H13-34,Event study: take-rate change p,0.63,0.626921,PASS
+H13-35,"Event study: gap between the two, p",0.8,0.799545,PASS
+H13-36,Announcements with a revenue surprise,117.0,117.0,PASS
+H13-37,Revenue surprise coefficient,0.23,0.234305,PASS
+H13-38,Revenue surprise p,0.2,0.202642,PASS
+H13-39,Surprise x large take-rate change coefficient,-0.28,-0.278482,PASS
+H13-40,Surprise x large take-rate change p,0.42,0.417982,PASS
+H13-41,Registered market-value test: standard error of b1 - b2,0.31,0.313908,PASS
+H13-42,"Smallest gap flagged with 80% power, 5% one-sided (about)",0.8,0.780532,PASS
+H13-29,Young platforms only: exact Mann-Whitney p,0.059,0.05892,PASS

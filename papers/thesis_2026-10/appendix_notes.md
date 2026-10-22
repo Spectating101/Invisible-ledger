@@ -122,7 +122,13 @@ The main test is in Table 5.3. This appendix lists each check with both p-values
 | Three marketplaces against all 40 foreign pairs, absolute growth divergence in points | 38.917 | 7.373 | 0.0014 | 0.0121 |
 | Five Indonesian and regional series including constructed Grab and Shopee (12 pairs) against the 8 chosen first, absolute growth divergence in points | 42.017 | 7.105 | 0.0006 | 0.0225 |
 | Tokopedia and GoTo on-demand as one company, 4 against 27 | | | 0.003 | 0.007 |
+| Exact tests over all 201,376 ways to pick the five platforms, main test (exploratory, 22 Oct 2026) | 0.201 | 0.062 | 0.0038 | 0.0214 |
+| Sea moved to the regional group, 6 against 26 (exploratory, 22 Oct 2026; exact tests) | 0.225 | 0.060 | 0.0004 | 0.0006 |
+| Dropping any two of the five platforms, 10 cases (exploratory, 22 Oct 2026; exact test) | 0.137 to 0.250 | 0.062 | 0.003 to 0.058 | |
+| Only years up to 5 after listing, 4 against 18 platforms (exploratory, 22 Oct 2026; exact test) | 0.169 | 0.069 | 0.059 | |
 | Quarterly pairs, 3 against 8 (same quarter a year earlier) | 0.071 | 0.049 | 0.19 | 0.33 |
+
+The four rows marked 22 Oct 2026 were added after all other results were known, so they are exploratory. They use exact tests, which list every possible split of the 32 platforms, and they agree with the approximations in Table 5.3. The typical gap between an Indonesian or regional platform and a foreign one is 0.117 in the size of the yearly change in log take rate. That is the median of all 135 pairwise differences, with an exact 95 percent interval of 0.039 to 0.223. The ratio of the group medians is 3.3, and a bootstrap interval of 1.4 to 8.5 shows how loosely five platforms fix its size. Moving Sea to the regional group makes the gap clearer. Dropping two platforms can weaken it. The one case above 0.05 drops Blibli and Tokopedia, the two largest movers, and leaves p = 0.058. Keeping only the years up to five after listing leaves the same direction, but p = 0.059 (`tables/h1_exact_inference.json`, from `h1_exact_inference.py`).
 
 Growth in revenue and growth in transaction value had a correlation of 0.10 in the Indonesian main sample and 0.98 in the foreign sample excluding Sea (`tables/claims_ledger.csv`, C48 and C49).
 

@@ -1,0 +1,128 @@
+{
+ "A_exact": {
+  "firms_idn": 5,
+  "firms_foreign": 27,
+  "median_idn": 0.2011,
+  "median_foreign": 0.0615,
+  "difference_in_medians": 0.1396,
+  "splits_enumerated": 201376,
+  "exact_permutation_p": 0.02138288574606706,
+  "exact_mannwhitney_p": 0.003818727157158748,
+  "U": 117.0,
+  "committed_normal_approx_p": 0.0038
+ },
+ "B_size": {
+  "hodges_lehmann_shift": 0.1167,
+  "ci95_low": 0.03920000000000001,
+  "ci95_high": 0.22260000000000002,
+  "interval_method": "inversion of the exact two-sided Mann-Whitney test at 5%, coverage at least 95%",
+  "ratio_of_medians": 3.269918699186992,
+  "ratio_bootstrap_ci95": [
+   1.4274924471299095,
+   8.452032520325204
+  ],
+  "ratio_bootstrap_note": "firms resampled within group, 20,000 draws; unstable with 5 platforms"
+ },
+ "C_sea_regional": {
+  "firms_idn": 6,
+  "firms_foreign": 26,
+  "median_idn": 0.2254,
+  "median_foreign": 0.05975,
+  "exact_permutation_p": 0.0006477655949291099,
+  "exact_mannwhitney_p": 0.00042816533361583417
+ },
+ "D_drop_two": {
+  "cases": [
+   {
+    "dropped": [
+     "Blibli 3P Retail",
+     "Bukalapak Group"
+    ],
+    "median_idn": 0.2011,
+    "exact_mannwhitney_p": 0.020443349753694582
+   },
+   {
+    "dropped": [
+     "Blibli 3P Retail",
+     "GoTo on-demand"
+    ],
+    "median_idn": 0.2011,
+    "exact_mannwhitney_p": 0.013054187192118226
+   },
+   {
+    "dropped": [
+     "Blibli 3P Retail",
+     "Grab on-demand"
+    ],
+    "median_idn": 0.1373,
+    "exact_mannwhitney_p": 0.03620689655172414
+   },
+   {
+    "dropped": [
+     "Blibli 3P Retail",
+     "Tokopedia e-commerce segment"
+    ],
+    "median_idn": 0.1373,
+    "exact_mannwhitney_p": 0.0583743842364532
+   },
+   {
+    "dropped": [
+     "Bukalapak Group",
+     "GoTo on-demand"
+    ],
+    "median_idn": 0.2497,
+    "exact_mannwhitney_p": 0.00270935960591133
+   },
+   {
+    "dropped": [
+     "Bukalapak Group",
+     "Grab on-demand"
+    ],
+    "median_idn": 0.2497,
+    "exact_mannwhitney_p": 0.013054187192118226
+   },
+   {
+    "dropped": [
+     "Bukalapak Group",
+     "Tokopedia e-commerce segment"
+    ],
+    "median_idn": 0.2011,
+    "exact_mannwhitney_p": 0.025123152709359605
+   },
+   {
+    "dropped": [
+     "GoTo on-demand",
+     "Grab on-demand"
+    ],
+    "median_idn": 0.2497,
+    "exact_mannwhitney_p": 0.007635467980295567
+   },
+   {
+    "dropped": [
+     "GoTo on-demand",
+     "Tokopedia e-commerce segment"
+    ],
+    "median_idn": 0.2011,
+    "exact_mannwhitney_p": 0.01650246305418719
+   },
+   {
+    "dropped": [
+     "Grab on-demand",
+     "Tokopedia e-commerce segment"
+    ],
+    "median_idn": 0.1373,
+    "exact_mannwhitney_p": 0.04285714285714286
+   }
+  ],
+  "worst_p": 0.0583743842364532,
+  "best_p": 0.00270935960591133
+ },
+ "E_young_only": {
+  "rule": "firm-years up to 5 years after listing (listing years as in h1_extended.py); platforms with at least 2 such pairs",
+  "firms_idn": 4,
+  "firms_foreign": 18,
+  "median_idn": 0.1692140313260374,
+  "median_foreign": 0.06948793902597725,
+  "exact_mannwhitney_p": 0.05892002734107997
+ }
+}

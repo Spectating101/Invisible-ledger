@@ -1,0 +1,51 @@
+{
+ "announcements": 191,
+ "firms": 10,
+ "calendar_quarters": 27,
+ "A_volume_and_take_rate": {
+  "gV": {
+   "coef": 0.013697446530466659,
+   "se": 0.01172681939434102,
+   "p_two_sided": 0.24278882800754698
+  },
+  "dm": {
+   "coef": 0.025748705065346093,
+   "se": 0.05297374682967254,
+   "p_two_sided": 0.6269208026410826
+  },
+  "gV_minus_dm": {
+   "coef": -0.012051258534879435,
+   "p_two_sided": 0.799545300546757
+  },
+  "n": 191
+ },
+ "surprise_announcements": 117,
+ "surprise_firms": 8,
+ "B_surprise": {
+  "S": {
+   "coef": 0.23430533041218146,
+   "se": 0.18390432123408157,
+   "p_two_sided": 0.2026417851364124
+  },
+  "n": 117
+ },
+ "C_surprise_x_high_take_rate_change": {
+  "S": {
+   "coef": 0.34030197881007845,
+   "se": 0.23168760213250475,
+   "p_two_sided": 0.14188794718091297
+  },
+  "Sx": {
+   "coef": -0.27848155948691505,
+   "se": 0.3438354672700954,
+   "p_two_sided": 0.4179822482075951
+  },
+  "highdm": {
+   "coef": 0.01607047371893281,
+   "se": 0.017686905907968974,
+   "p_two_sided": 0.3635567981141691
+  },
+  "n": 117
+ },
+ "reading": "no coefficient is distinguishable from zero; the revenue surprise itself is not detected, so the sample cannot show whether its take-rate part is priced differently"
+}
