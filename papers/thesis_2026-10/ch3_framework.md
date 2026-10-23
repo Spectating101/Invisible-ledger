@@ -131,7 +131,7 @@ Revenue follows transaction value only while the take rate holds steady, that is
 
 Growth rates never match exactly, so H1 is tested by comparison. The test compares the size of yearly changes in the take rate, measured in logs as in equation (5), between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. Changes far larger in Indonesia would count against H1. Chapter 4 describes the two groups and the test.
 
-National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin. Trade economists split a country's exports in the same way, into more of each good and more kinds of goods (Hummels and Klenow 2005).
+National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin.
 
 The distinction matters for measurement. Growth driven by new sellers can take place in channels that platform accounts do not cover, such as social media and instant messaging, which BPS reports are widely used (BPS 2025a). Platform figures can then miss that growth even when every platform reports accurately.
 
@@ -159,9 +159,9 @@ The 21.5 percent threshold comes from arithmetic. The published count of online 
 
 Sellers who stopped would have to be replaced as well, which only raises the share needed. The threshold is the smallest share of new sellers that can produce the rise. The test does not test H2 itself. It tests what "more businesses" means.
 
-Sellers' memory works in favour of passing the test. People tend to report past events as more recent than they were (Neter and Waksberg 1964). A seller who began in 2022 but reports 2023 raises the share of new sellers. Recall error of this kind makes the threshold easier to reach, so a share below it is a cautious finding.
+Sellers' memory works in favour of passing the test, as Section 2.2 noted: a seller who began in 2022 but reports 2023 raises the share of new sellers. Recall error of this kind makes the threshold easier to reach, so a share below it is a cautious finding.
 
-If the share of new sellers falls short, part of the rise is something other than first-time entry. Two readings are open. The survey may have reached more of the sellers who were already there. Or sellers may have come back after a pause, since a returning seller keeps an old start year. Small firms that stop are more often young firms with young owners (McKenzie and Paffhausen 2019). So the age of the sellers behind the rise bears on the second reading. Chapter 5 weighs the two readings with that evidence.
+If the share of new sellers falls short, part of the rise is something other than first-time entry. Two readings are open. The survey may have reached more of the sellers who were already there. Or sellers may have come back after a pause, since a returning seller keeps an old start year. The age of the sellers behind the rise bears on the second reading, because small firms that stop are more often young (Section 2.2). Chapter 5 weighs the two readings with that evidence.
 
 ## 3.6 Further analyses
 
@@ -194,6 +194,6 @@ The channel analysis answers the third question of Section 2.4. A rule built on 
 
 Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add.
 
-The comparison of national figures extends the outer link in Figure 3.1. Platform reports, BPS's survey, Bank Indonesia's statistics and industry estimates count different things. Their values change with the definition used (UNCTAD 2024).
+The comparison of national figures extends the outer link in Figure 3.1. Platform reports, BPS's survey, Bank Indonesia's statistics and industry estimates count different things.
 
 If two national figures move in opposite directions in one year, the conclusion about growth depends on the figure chosen. The thesis compares growth rates, each in its own unit, and levels only after reconciling what each source covers. Household spending is a further point of comparison.
