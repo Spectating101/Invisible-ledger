@@ -1,6 +1,6 @@
 # Decisions and current state: read this first
 
-Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other) reads before touching the thesis. It states what the researcher has already decided, what is still open, and how work goes wrong. The reasons and every round are in `EDIT_HISTORY.md`, which is an append-only log. The writing rules are in `README.md`. If this page and the log disagree, the researcher's latest word in chat wins, and this page is then corrected.
+Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other) reads before touching the thesis. It states what the researcher has already decided, what is still open, and how work goes wrong. The reasons and every round are in `EDIT_HISTORY.md`, which is an append-only log. The writing rules are in `README.md`. **The researcher's instruction in the current conversation beats this page and the log.** If it contradicts a settled item below, do what was asked, mention the conflict once, and update this page. Do not revert it, do not argue from the log, and do not make the researcher repeat it.
 
 ## 0. Before you change anything
 
@@ -16,7 +16,7 @@ Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other)
 |---|---|---|---|
 | Concept | Title, research question, H1, H2 and the measures are those of the 27 Sep proposal (passed 1 Oct). No H3 or H4. | 1 Oct | AGENTS.md; Part A |
 | Spine | The proposal's and the deck's paragraph order is the spine of each chapter. Lighten the sentences and insert new findings where the line reaches them. Do not rebuild a chapter on a new frame. | 12–13 Oct | README; Part D, Ch1 round 1 and "rebuilt on the proposal's spine" |
-| Chapter 1 opening | Order: the scene (Tanah Abang, the 2023 clash of BPS and the central bank), Tokopedia and the wedge, the mechanism, then global stakes, the gap, and Indonesia with its own amounts. A global-first reorder was tried on 23 Oct and reversed; it is kept in `alternatives/` and not built. | 12–13 Oct | Part D, Ch1 rounds 2 to 4; log 23 Oct |
+| Chapter 1 opening | Global first, then into Indonesia (the researcher's decision, 23 Oct): the size of online trade and who relies on the figures; why a stand-in can fail; Indonesia in 2023 (Tokopedia, BPS and the central bank); the gap; Indonesia as the case, ending on the Tanah Abang and TikTok Shop events. This replaces the 12–13 Oct scene-first order, which is kept in `alternatives/`. It follows the 8–9 Oct wish to frame Indonesia as an example of a bigger problem. | 23 Oct | Part B (8–9 Oct); log 23 Oct |
 | Section 1.1 | The first paragraph is the grand ambition, bold by design, with no claim flags. The question follows as the step toward it. The question and hypotheses paragraphs stay as they are; the objectives keep the proposal's formal wording, which Chapters 4.4 and 4.9 echo. | 12 Oct; 23 Oct | Part B; Part D Ch1 rounds 10 to 19; log 23 Oct |
 | No findings section | Chapter 1 has a short declaration of the answer ("In brief"), not a findings section. | 12 Oct | Part D, Ch1 round 5 |
 | Linear writing | Each paragraph answers what the last left open. Openers name their subject ("both", "these", "this", "the same" never open a paragraph). A chapter stands on its own without restating. | 12–13 Oct | README; "Independence read correctly" |
@@ -36,12 +36,11 @@ Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other)
 
 **Needs the researcher's decision**
 1. Section 1.1 should be "brief yet impactful". Two attempts failed (a shorter section; bullet lists). Untried: tighter sentences inside the same paragraphs.
-2. The first line of Chapter 1 says "in Indonesia" while the stakes that follow are global. One before and after, shown first.
-3. Proposed 23 Oct, not approved: the 1.2 audience wording ("For investors / statistics offices / tax authorities and regulators"), the 1.2 closing paragraph, and the 1.3 cut of the Chapter 4 clause.
-4. Whether to restore the original wording of the lead-ins that readability pass 1 added (for example "One check goes the other way" in 5.2).
-5. The GDP-scale sentence (2.92 percent, ledger C39).
-6. The 13 proposal references the thesis dropped (`REFERENCE_VERIFY_16OCT.md`); the citation style (APA until the YZU template decides).
-7. Prof. Kong had not yet seen the H2 framing (Part A, last confirmed 12 Oct).
+2. The US$60 million to US$300 million tax range was cut from the Chapter 1 opening on 23 Oct (it stays in 6.3). Restore it if wanted.
+3. Whether to restore the original wording of the lead-ins that readability pass 1 added (for example "One check goes the other way" in 5.2).
+4. The GDP-scale sentence (2.92 percent, ledger C39).
+5. The 13 proposal references the thesis dropped (`REFERENCE_VERIFY_16OCT.md`); the citation style (APA until the YZU template decides).
+6. Prof. Kong had not yet seen the H2 framing (Part A, last confirmed 12 Oct).
 
 **Work not yet done**
 - A paragraph-by-paragraph linear pass of Chapters 5 and 6 (needs the researcher's before-and-after approval), the transaction-value definition map, and a "who gains and loses" note for each rule in Chapter 6.
@@ -57,12 +56,13 @@ Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other)
 4. **Reading the compact copy as a verdict on the layout or the text's weight.**
 5. **Starting from stale routing.** Older files named the September branch as the working branch and listed chapters as unwritten. Corrected 23 Oct; if you meet such a statement, this page wins.
 6. **Reading only the end of the log.** The approvals are in Part D.
+7. **Putting the record above the researcher.** On 23 Oct a global-first Chapter 1 opening was asked for twice, then reversed because the log said scene-first had been approved on 12 Oct. The log is history; the researcher's current word is the instruction. Apply it and update the record.
 
 ## 4. Where things are (23 Oct 2026)
 
 - **Branches.** The current line is `claude/happy-pascal-uc2eya` and `claude/wizardly-cerf-2vgv2v`, identical when this page was written. `main` is behind until the October line is merged by pull request. When it is merged, `main` is the single line.
 - **Chapters.** Chapters 1 to 5, `abstract.md`, `symbols.md`, `references.md` and `appendix_notes.md` are in `papers/thesis_2026-10/`. Chapters 6 and 7 are the live files `drafts/ch6_draft_2026-10-14.md` and `drafts/ch7_draft_2026-10-14.md`.
 - **Reading copies.** `reading/`: `thesis_reading_copy_<date>.pdf` (judge layout by this), `thesis_compact_<date>.pdf` (Chapters 1 to 7, short and dense), `thesis_editing_copy_<date>.docx`. Rebuild them with `build_reading.sh` and `build_compact.sh` after any text change.
-- **Alternatives.** `alternatives/` holds attempts that were tried and not adopted. No build reads it.
+- **Alternatives.** `alternatives/` holds earlier versions that were replaced (now the 12–13 Oct scene-first Chapter 1 opening). No build reads it.
 - **Checks.** `research/option_space_2026-10-01/rebuild_all.sh` (314 automatic checks); audits in `materials_2026-10-15/`.
 - **Researcher only.** The Chinese abstract, the YZU template and the final assembly.

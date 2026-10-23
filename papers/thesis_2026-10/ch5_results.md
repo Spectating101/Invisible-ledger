@@ -218,7 +218,7 @@ The split by channel is the starting point for the third question of Section 2.4
 
 ## 5.10 Why the national figures disagree
 
-The national figures agree that growth was small only where they cover the same sellers, and they do not agree on scale. In 2023, Bank Indonesia's e-commerce figure fell by about 5 percent while BPS's rose by about 41 percent. That is the disagreement with which Chapter 1 began, and the third objective asks what lies behind it.
+The national figures agree that growth was small only where they cover the same sellers, and they do not agree on scale. In 2023, Bank Indonesia's e-commerce figure fell by about 5 percent while BPS's rose by about 41 percent. That is the disagreement Chapter 1 introduced, and the third objective asks what lies behind it.
 
 Where Bank Indonesia's figure and BPS's cover the same ground, the growth is small. From 2022 to 2023, BPS's own marketplace slice grew by about 0.2 percent in the middle scenario, and by 0.2 to 13 percent across the scenarios. From 2023 to 2024 it grew by about 1.5 percent. Most of the disagreement sits outside the marketplaces, among the sellers that only BPS reaches.
 
