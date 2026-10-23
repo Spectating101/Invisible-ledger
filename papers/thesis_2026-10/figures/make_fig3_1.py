@@ -9,7 +9,10 @@ from matplotlib.patches import Circle, FancyArrowPatch
 
 OUT = pathlib.Path(__file__).resolve().parent
 BLUE, ORANGE, INK, INK2 = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e"
-plt.rcParams.update({"font.size": 9, "font.family": "DejaVu Sans", "savefig.dpi": 300})
+from matplotlib import font_manager as _fm
+for _f in (OUT / "fonts").glob("SourceSerif4-*.ttf"):  # the body font of the reading copies (SIL Open Font License)
+    _fm.fontManager.addfont(str(_f))
+plt.rcParams.update({"font.size": 10, "font.family": ["Source Serif 4", "DejaVu Sans"], "savefig.dpi": 300})
 
 fig, ax = plt.subplots(figsize=(7.2, 3.9))
 ax.set_xlim(0, 13.2); ax.set_ylim(0, 7); ax.set_aspect("equal"); ax.axis("off")
@@ -17,20 +20,20 @@ ax.set_xlim(0, 13.2); ax.set_ylim(0, 7); ax.set_aspect("equal"); ax.axis("off")
 base = 0.4
 for r, face, edge, lw in [(3.2, "#eef4fc", BLUE, 1.6), (2.0, "#dbe8fa", BLUE, 1.6), (0.9, "#fbe3d9", ORANGE, 1.8)]:
     ax.add_patch(Circle((3.6, base + r), r, facecolor=face, edgecolor=edge, linewidth=lw))
-ax.text(3.6, base + 2 * 3.2 - 0.45, "All online commerce", ha="center", va="top", fontsize=10, fontweight="bold", color=INK)
-ax.text(3.6, base + 2 * 3.2 - 0.85, "every channel, including chat\nand social media", ha="center", va="top", fontsize=8, color=INK2)
-ax.text(3.6, base + 2 * 2.0 - 0.35, "Platform commerce", ha="center", va="top", fontsize=10, fontweight="bold", color=INK)
-ax.text(3.6, base + 2 * 2.0 - 0.72, "transaction value, V", ha="center", va="top", fontsize=8, color=INK2)
-ax.text(3.6, base + 0.9 + 0.12, "Revenue", ha="center", va="center", fontsize=9.5, fontweight="bold", color=INK)
-ax.text(3.6, base + 0.9 - 0.3, "R", ha="center", va="center", fontsize=8, color=INK2)
-ax.text(3.6, base + 2.45, "invisible wedge W = V − R", ha="center", va="center", fontsize=8, color=INK2, style="italic")
+ax.text(3.6, base + 2 * 3.2 - 0.45, "All online commerce", ha="center", va="top", fontsize=11, fontweight="bold", color=INK)
+ax.text(3.6, base + 2 * 3.2 - 0.85, "every channel, including chat\nand social media", ha="center", va="top", fontsize=9, color=INK2)
+ax.text(3.6, base + 2 * 2.0 - 0.35, "Platform commerce", ha="center", va="top", fontsize=11, fontweight="bold", color=INK)
+ax.text(3.6, base + 2 * 2.0 - 0.72, "transaction value, V", ha="center", va="top", fontsize=9, color=INK2)
+ax.text(3.6, base + 0.9 + 0.12, "Revenue", ha="center", va="center", fontsize=10.5, fontweight="bold", color=INK)
+ax.text(3.6, base + 0.9 - 0.3, "R", ha="center", va="center", fontsize=9, color=INK2)
+ax.text(3.6, base + 2.45, "invisible wedge W = V − R", ha="center", va="center", fontsize=9, color=INK2, style="italic")
 
 def link(y_from, y_to, label, sub, y_text):
     ax.add_patch(FancyArrowPatch((7.3, y_from), (7.3, y_to), arrowstyle="<->", mutation_scale=12, color=INK, lw=1.2))
     ax.plot([3.8, 7.3], [y_from, y_from], color=INK2, lw=0.6, ls=":")
     ax.plot([3.8, 7.3], [y_to, y_to], color=INK2, lw=0.6, ls=":")
-    ax.text(7.55, y_text + 0.2, label, ha="left", va="center", fontsize=10, fontweight="bold", color=INK)
-    ax.text(7.55, y_text - 0.3, sub, ha="left", va="center", fontsize=8, color=INK2)
+    ax.text(7.55, y_text + 0.2, label, ha="left", va="center", fontsize=11, fontweight="bold", color=INK)
+    ax.text(7.55, y_text - 0.3, sub, ha="left", va="center", fontsize=9, color=INK2)
 
 link(base + 1.8, base + 4.0, "H1, the inner link", "Does revenue grow in proportion\nto transaction value?", base + 2.75)
 link(base + 4.0, base + 6.4, "H2, the outer link", "Does national online growth come\nmainly from more businesses?", base + 5.2)
