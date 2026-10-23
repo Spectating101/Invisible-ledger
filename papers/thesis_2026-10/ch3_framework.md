@@ -178,7 +178,7 @@ Four further analyses complete the framework without forming hypotheses of their
 
 Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
 
-The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate. Early studies of internet companies found that markets priced measures of web activity beyond reported earnings (Trueman, Wong and Zhang 2000; Rajgopal, Venkatachalam and Kotha 2003).
+The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate.
 
 The two sources of growth need not be worth the same. Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end. A higher price to one side of a platform can also reduce how much that side uses it (Rochet and Tirole 2003).
 
@@ -190,9 +190,7 @@ The thesis relates the yearly change in a platform's market value, MV, to the tw
 
 where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m.
 
-The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Research on tax shows that reports from a third party improve compliance where they exist (Kleven et al. 2011).
-
-The reach of a rule built on platform records depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
+The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Its reach depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
 
 Record keeping is the second part of this analysis. The thesis compares how often marketplace sellers and other sellers keep financial statements. The comparison bears on the information that platform records can add.
 

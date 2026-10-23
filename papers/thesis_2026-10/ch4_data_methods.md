@@ -2,13 +2,13 @@
 
 The figures this thesis compares come from sources that were never designed to be read together. Platforms publish in their own formats, and the answers of individual sellers are released only under a data-use agreement. The methods in this chapter are built around these conditions.
 
-On the platform side, the thesis reads revenue and transaction value from annual reports, audited statements and earnings releases. The extraction tables keep the source file and the quoted passage beside every value. The Indonesian platforms are three online marketplaces, Tokopedia, Bukalapak and Blibli, and GoTo, the group that runs the Gojek app for rides and deliveries. GoTo also controlled Tokopedia until 2024 and still holds a stake in it. Two regional companies, both based in Singapore, complete the group: Grab, which runs rides and deliveries across Southeast Asia, and Sea, whose marketplace is Shopee. Where a platform does not report Indonesia alone, as with Shopee and Grab, the thesis states what it derives or borrows and labels it.
+On the platform side, the thesis reads revenue and transaction value from annual reports, audited statements and earnings releases. The extraction tables keep the source file and the quoted passage beside every value. The Indonesian platforms are three online marketplaces, Tokopedia, Bukalapak and Blibli, and GoTo, the group that runs the Gojek app for rides and deliveries. GoTo also controlled Tokopedia until 2024 and still holds a stake in it. Grab, a Singapore company that runs rides and deliveries across Southeast Asia, completes the group. Sea, also based in Singapore, owns the Shopee marketplace and is read with the foreign platforms (Section 4.1). Where a platform does not report Indonesia alone, as with Shopee and Grab, the thesis states what it derives or borrows and labels it.
 
 The national side rests on BPS's survey of online sellers. BPS publishes a few totals, and the thesis obtained the answers behind them for three survey rounds, which show when each seller began selling online and how much it sold. The central bank's own figure has no published method, so it serves only as a point of comparison.
 
 Setting the two sides against each other for one country is what makes the tests possible. Indonesia allows it. Five platform series report revenue and transaction value in the same year, and three of them report what they pay out in incentives. The survey asks every online seller when it began. The tests are built to ask only what these sources can answer, and each limit is stated where it applies.
 
-The chapter describes the evidence on each side and the tests that use it. It starts with the platforms: the data, the wedge in Indonesia, the test of H1, the tracing of large moves and market values. It then turns to the survey: H2, the entry test, and the channels and records of sellers. It ends with the comparison of national figures and with how every number is labelled and traced.
+The chapter describes the evidence on each side and the tests that use it, platforms first (Sections 4.1 to 4.5) and then the survey (Sections 4.6 to 4.8). It ends with the comparison of national figures and with how every number is labelled and traced (Sections 4.9 and 4.10).
 
 ## 4.1 The platform data
 
@@ -50,7 +50,7 @@ A move in either direction counts against H1, so the test uses the size of each 
 
 The test compares five numbers for the Indonesian and regional group with 27 for the foreign group. It asks whether the first group ranks higher than chance would give, using a one-sided Mann–Whitney test (Mann and Whitney 1947). It repeats the question by shuffling the group labels 9,999 times. The p-value is the chance of a result at least this lopsided if the groups did not differ.
 
-Appendix B lists the checks on this test. They drop each platform in turn and treat Tokopedia and GoTo as one company. They repeat the test with growth divergence in points as Chapter 3 defines it, and with exact tests. They also drop two platforms at a time, move Sea to the regional group and keep only the first five years after listing. They compare the change in the take rate in percentage points, to see whether a thin take rate explains the result. They narrow the test to the three marketplaces, correlate revenue growth with transaction value growth, and repeat the test with quarterly pairs.
+Appendix B lists the checks on this test. Some change the sample. They drop each platform in turn, drop two at a time, treat Tokopedia and GoTo as one company, move Sea to the regional group, keep only the first five years after listing, or narrow the test to the three marketplaces. Others change the measure: growth divergence in points as Chapter 3 defines it, exact tests, the change in the take rate in percentage points (to see whether a thin take rate explains the result), and the correlation of revenue growth with transaction value growth. One repeats the test with quarterly pairs.
 
 ## 4.4 Tracing the moves
 
@@ -96,7 +96,7 @@ A failed entry test raises a second question: how much of the rise does first-ti
 
 The cohort check compares the 2024 file's count of sellers who began before 2023 with the whole 2022 count. It does so twice. The first time it assumes that no seller stopped. The second time it assumes that sellers stopped at about 5 percent a year, the rate at which one cohort shrank between the 2020 and 2022 surveys.
 
-Further checks ask where the extra sellers sit. They look across provinces and channels, using rank correlations, and at sellers' own reports of their sales. They use the sampling error that BPS publishes. They profile who the extra sellers are, with each group's count in 2023 compared with what its own yearly change in 2020 to 2022 would give. They look at part-year selling and test a scenario of returners.
+Further checks ask where the extra sellers sit and who they are. They compare provinces and channels using rank correlations, look at sellers' own reports of their sales, and use the sampling error that BPS publishes. They compare each group's count in 2023 with what its own yearly change in 2020 to 2022 would give. They also look at part-year selling and test a scenario of returners.
 
 The cohort check and the further checks were designed after the entry test failed, so Chapter 5 labels them exploratory. The exception is the median change in sellers' sales, which was registered. The files cannot rule out returners, because a seller who stopped and returned keeps an old start year.
 
@@ -110,7 +110,9 @@ The 2023 questionnaire asks for monthly revenue but the bracket limits are annua
 
 Whether a seller keeps complete financial statements is the subject of a second analysis. It bears on what platform records can add, because a seller with no statements leaves fewer formal records. World Bank Enterprise Surveys add a check on records. They cover unregistered firms in six Indonesian cities in 2023, and formal firms with five or more employees in seven countries.
 
-A third analysis builds on the first two and is developed in Chapter 6. It counts the marketplace sellers whose revenue is above a bracket line and expresses the count as a share of all online sellers. At the 2022 rate, BPS's brackets divide at about US$20,000 a year. The marketplace tax exempts individual sellers up to about US$34,000. So the count above BPS's line is an upper limit on the sellers the tax can reach. Chapter 6 also sets each recent rule against the part of the figures it acts on. The thesis reads each legal text where it is published. It labels each rule by the status of its text: primary text read, announced, or reported in the news only.
+A third analysis builds on the first two and is developed in Chapter 6. It counts the marketplace sellers whose revenue is above a bracket line and expresses the count as a share of all online sellers. At the 2022 rate, BPS's brackets divide at about US$20,000 a year. The marketplace tax exempts individual sellers up to about US$34,000. So the count above BPS's line is an upper limit on the sellers the tax can reach.
+
+Chapter 6 also sets each recent rule against the part of the figures it acts on. The thesis reads each legal text where it is published. It labels each rule by the status of its text: primary text read, announced, or reported in the news only.
 
 ## 4.9 Comparing national figures
 
