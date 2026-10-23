@@ -1,0 +1,68 @@
+# Sentences printed in bold in the compact reading copy. Read in order, they summarise the thesis. One sentence per line, copied exactly from the chapter files.
+# build_compact.sh stops with a message if a line is no longer found, so edit this list when a chapter sentence changes.
+## Chapter 1
+In 2023, Indonesia's figures moved away from the commerce they stand for.
+This thesis calls what a revenue-only measure leaves out the invisible wedge.
+It does not say when a figure stops moving with the activity it represents, or by how much.
+Measuring what the current figures miss begins with one question: how much economic activity remains invisible when digital platforms are measured through their reported revenue, and when does that choice change the conclusion about growth?
+H1 says that a platform's revenue grows in proportion to its transaction value.
+H2 says that national e-commerce growth comes mainly from more businesses selling online, and less from higher sales per business.
+In brief: revenue shows only a small part of the commerce platforms carry, and marketplaces carry only about a fifth of online sales value in BPS's survey.
+But about half of the 2023 rise in the count of sellers is not explained by first-time entry.
+## Chapter 2
+Each body of research explains why the figures differ, but none measures how far they differ in practice.
+Revenue is a fair guide to the commerce only if it keeps a steady share of that commerce.
+So revenue can rise when a platform raises its fees or cuts its discounts, with no change in what customers buy.
+Testing whether revenue stays a fair guide needs the reported revenue and transaction value of the same platforms, over several years and on one definition.
+Among the studies reviewed here, it has not been applied to platform commerce and national online sales.
+Published totals cannot show whether a rise in the count reflects new sellers or a wider survey, because they do not record when each seller began.
+How far a rule built on platform records can reach depends on how much selling happens on platforms.
+## Chapter 3
+Revenue sits inside platform commerce, because a platform keeps only part of each sale.
+Platform commerce sits inside all online commerce, because many sellers trade outside platforms.
+Growth divergence carries the central test: whether revenue and transaction value keep the same relationship from year to year.
+So a large ecosystem ratio means that ordinary changes in fees or discounts can produce large swings in reported revenue growth.
+The survey can, because it asks every seller in which year it began selling online.
+The threshold is the smallest share of new sellers that can produce the rise.
+## Chapter 4
+The figures this thesis compares come from sources that were never designed to be read together.
+Setting the two sides against each other for one country is what makes the tests possible.
+Each platform gets one number, the median size of its yearly changes, because the pairs of one platform are not independent of one another.
+A registered test was written down, dated and stored in the repository before the data were opened.
+An exploratory test was designed after some results were seen.
+A descriptive result reports numbers without a test.
+## Chapter 5
+Revenue showed only a small part of what Indonesia's major platforms carried.
+Revenue did not keep pace with transaction value at the Indonesian and regional platforms, and the thesis rejects H1.
+The main test was set up after a first, narrower test, so it is exploratory.
+So the rejection of H1 describes that period.
+Pricing, not more commerce, moved revenue at the Indonesian and regional platforms.
+Higher fees and lower incentives together outweighed more commerce in every window.
+Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result.
+The second registered prediction does not hold in the main sample.
+Buying through platforms did not boom in 2023.
+H2 holds on BPS's published figures, but the registered entry test shows that first-time entry cannot explain the whole rise in the count.
+The registered entry test separates new sellers from sellers counted for the first time, and it fails.
+About half of the 2023 rise in the count is not explained by first-time entry, an exploratory result.
+H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up.
+The extra count leaned toward long-running businesses, older owners and places outside Java, an exploratory result.
+Returning sellers still cannot be ruled out.
+Most online selling happens outside marketplaces, and records are thinner there.
+The national figures agree that growth was small only where they cover the same sellers, and they do not agree on scale.
+## Chapter 6
+Each rule acts on one part of what Chapter 5 measured, and each reaches only that part.
+It can collect from at most about 1 in 20 online sellers and about a fifth of online sales value.
+The commission cap reaches a small part of the take rates this thesis measures.
+A cap on one fee does not fix the take rate, because the platform still sets its incentives.
+At most about 1 in 20 online sellers falls under the tax.
+The tax matters more for the record it creates than for the revenue it raises.
+Every one of these rules reaches only the sales that pass through a platform.
+## Chapter 7
+Each figure of Indonesia's online economy is a fair guide to another only while a condition holds.
+The answer to the first half is that most of the activity remains outside revenue.
+The answer to the second half differs by link.
+On the outer link, H2 holds on BPS's published figures: more businesses account for most of the growth in online sales value.
+Several registered predictions failed, and the failures are part of the answer.
+The invisible wedge is the part of each sale that a platform passes on to sellers, drivers and others.
+It is not missing output, unrecorded income or unpaid tax.
+A reader who asks which of those happened can still use all three.
