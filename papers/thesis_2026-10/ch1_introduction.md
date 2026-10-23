@@ -28,7 +28,7 @@ In brief: revenue shows only a small part of the commerce platforms carry, and m
 
 ## 1.2 Contributions
 
-The thesis makes three contributions, one for each group that relies on these figures: investors, statistics offices, and the authorities that tax and regulate online selling.
+The thesis makes three contributions, one for each group that relies on these figures. They are investors, statistics offices, and the authorities that tax and regulate online selling.
 
 For investors, the thesis shows how small a part of the commerce a platform's revenue records. That matters for value, because the market values of internet firms track revenue (Bowen, Davis and Rajgopal 2002). It matters for growth too: the larger the wedge is next to revenue, the more a small change in fees or discounts moves revenue growth. The thesis traces why revenue moved, which lets an investor check whether reported growth came from more commerce or from a larger share of each sale. A prediction registered in advance then tests how market value moves with revenue and with commerce.
 
@@ -36,7 +36,7 @@ For statistics offices, the thesis shows where the commerce outside the platform
 
 For tax authorities and regulators, the thesis measures how far rules based on platform records reach. Such a rule reaches only the sellers who use platforms, so where most sellers work outside them, it covers a minority. The thesis also sets each recent rule, from the cap on ride-hailing commissions to the limit on discounts, against the figure it acts on. Several other countries have adopted similar rules, so the same question applies there.
 
-Earlier work has already compared platform transaction values with national e-commerce statistics. This thesis adds connected evidence for one country, drawn from the platforms' accounts, the sellers' own survey responses and the rules that act on both.
+Earlier work has already compared platform transaction values with national e-commerce statistics. This thesis adds connected evidence for one country. It draws on the platforms' accounts, the sellers' own survey responses and the rules that act on both.
 
 ## 1.3 Structure of the thesis
 

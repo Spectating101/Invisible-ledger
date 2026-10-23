@@ -42,7 +42,7 @@ Revenue showed only a small part of what Indonesia's major platforms carried. In
 
 The three ratios differ because the amounts come from different sources. Tokopedia reports both amounts. Shopee's ratio follows from the assumed take rate, and Grab's is its company-wide ratio, so neither is separate evidence for Indonesia. Blibli and Bukalapak also report both amounts, with ratios of about 43 and 36, close to Tokopedia's. They stay out of the sum because Blibli's figure includes online travel and Bukalapak reports for its whole group.
 
-The size of the wedge does not depend on the assumed rates: a take rate for Shopee between 9 and 11 percent keeps the total near US$40 billion, and dropping any one platform still leaves more than US$20 billion. For platforms that report both amounts, the wedge was 97 to 99 percent of transaction value in every year. It moved almost one for one with the commerce, and Appendix A gives the wedge by platform and year.
+The size of the wedge does not depend on the assumed rates. A take rate for Shopee between 9 and 11 percent keeps the total near US$40 billion, and dropping any one platform still leaves more than US$20 billion. For platforms that report both amounts, the wedge was 97 to 99 percent of transaction value in every year. It moved almost one for one with the commerce, and Appendix A gives the wedge by platform and year.
 
 Platform commerce is itself only part of online commerce. In BPS's survey, marketplaces carry about a fifth of online sales value (Section 5.9), so platform revenue shows a smaller part still. A small share can still be a fair guide to the commerce, as long as it keeps its size from year to year.
 
@@ -168,7 +168,7 @@ The cohort counts show the break directly. A cohort should only shrink between s
 
 The count behaved normally again in BPS's published table for 2024. The cohort that began before 2020 shrank by about 10 percent. At least 754 thousand new sellers appeared, more than the rise of 584 thousand.
 
-The break sat in chat and social selling. Among sellers who began by 2022, those using only chat or social media rose by 13 percent, and marketplace users by 0.3 percent. Across the 34 provinces, growth in the count had almost no link to the share of new sellers (a rank correlation of 0.10, on a scale from −1 to 1) and only a weak link to growth in the sample (0.35).
+The break sat in chat and social selling. Among sellers who began by 2022, those using only chat or social media rose by 13 percent, and marketplace users by 0.3 percent. Across the 34 provinces, growth in the count had almost no link to the share of new sellers (a rank correlation of 0.10, on a scale from −1 to 1). It had only a weak link to growth in the sample (0.35).
 
 Sampling noise is very unlikely to explain the break. BPS's published error rates put the usual size of the sampling noise in the national count at about 1.4 percent. The 306 thousand extra sellers are about 4.6 times that noise in the change between the two years. The calculation applies the 2024 edition's error rates to both years and treats the two surveys as independent.
 
