@@ -66,7 +66,7 @@ The main test compares the five platforms with 27 abroad, using one median per p
 
 The main test was set up after a first, narrower test, so it is exploratory. The narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
 
-Both tests ask about the size of the moves, not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
+The main test and the narrower test ask about the size of the moves, not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
 
 Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered before the test was run. Most of the quarterly Indonesian pairs cover 2023 to 2026, after most of the repricing, while the large moves came between 2022 and 2024. So the rejection of H1 describes that period.
 
