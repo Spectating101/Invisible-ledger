@@ -104,7 +104,7 @@ The cohort check and the further checks were designed after the entry test faile
 
 Three analyses beyond the entry test also use the survey files. One asks which channels sellers use and how sales divide between them. The published tables split the 2023 to 2024 rise in value between marketplaces and other channels, and BPS counts food and ride apps in its marketplace category.
 
-Value by channel rests on revenue brackets, which only the 2021 and 2023 files give. The thesis assigns each bracket a low, a middle and a high amount. The amounts were fixed before the file was opened. A validation rule applies: the middle scenario's 2022 total must lie between half and double BPS's published total of about US$53 billion.
+Value by channel needs revenue brackets, and only the 2021 and 2023 files have them. The thesis gives each bracket a low, a middle and a high amount, fixed before the file was opened. A check follows: the middle scenario's 2022 total must fall between half and double BPS's published total of about US$53 billion.
 
 The 2023 questionnaire asks for monthly revenue but the bracket limits are annual size classes, so both readings are computed and the one that passes is kept. If the lower brackets alone already exceed the total, value shares are reported as ranges.
 
