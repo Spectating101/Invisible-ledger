@@ -22,11 +22,11 @@ for r, face, edge, lw in [(3.2, "#eef4fc", BLUE, 1.6), (2.0, "#dbe8fa", BLUE, 1.
     ax.add_patch(Circle((3.6, base + r), r, facecolor=face, edgecolor=edge, linewidth=lw))
 ax.text(3.6, base + 2 * 3.2 - 0.45, "All online commerce", ha="center", va="top", fontsize=11, fontweight="bold", color=INK)
 ax.text(3.6, base + 2 * 3.2 - 0.85, "every channel, including chat\nand social media", ha="center", va="top", fontsize=9, color=INK2)
-ax.text(3.6, base + 2 * 2.0 - 0.35, "Platform commerce", ha="center", va="top", fontsize=11, fontweight="bold", color=INK)
-ax.text(3.6, base + 2 * 2.0 - 0.72, "transaction value, V", ha="center", va="top", fontsize=9, color=INK2)
+ax.text(3.6, base + 2 * 2.0 - 0.65, "Platform commerce", ha="center", va="top", fontsize=11, fontweight="bold", color=INK)
+ax.text(3.6, base + 2 * 2.0 - 1.06, "transaction value, V", ha="center", va="top", fontsize=9, color=INK2)
 ax.text(3.6, base + 0.9 + 0.12, "Revenue", ha="center", va="center", fontsize=10.5, fontweight="bold", color=INK)
 ax.text(3.6, base + 0.9 - 0.3, "R", ha="center", va="center", fontsize=9, color=INK2)
-ax.text(3.6, base + 2.45, "invisible wedge W = V − R", ha="center", va="center", fontsize=9, color=INK2, style="italic")
+ax.text(3.6, base + 2.25, "invisible wedge W = V − R", ha="center", va="center", fontsize=9, color=INK2, style="italic")
 
 def link(y_from, y_to, label, sub, y_text):
     ax.add_patch(FancyArrowPatch((7.3, y_from), (7.3, y_to), arrowstyle="<->", mutation_scale=12, color=INK, lw=1.2))

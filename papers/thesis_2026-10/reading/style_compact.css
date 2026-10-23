@@ -25,3 +25,4 @@ div.eq { margin: 1.5mm 0 2mm; font-size: 9.6pt; }
 blockquote { margin: 1.5mm 8mm 2mm; }
 ol, ul { margin: 0 0 0.4em 1.1em; }
 li { margin: 0.1em 0; }
+p > img.big { max-height: 84mm; }

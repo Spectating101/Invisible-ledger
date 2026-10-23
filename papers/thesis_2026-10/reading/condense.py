@@ -1,9 +1,12 @@
 """Makes the compact reading copy read as a condensed thesis: removes what only the author needs while the work is unfinished. Reads Markdown
 on stdin, writes it to stdout. Removes (1) the "Results slot" note and the closing line of 6.5, (2) the Outcome column of Table 6.2, which is
-empty until the 2026 results arrive, (3) the author's note and the repeated title in the abstract. The chapter files are not changed."""
+empty until the 2026 results arrive, (3) the author's note and the repeated title in the abstract; and marks Figures 3.1 and 5.3 as large for the compact print. The chapter files are not changed."""
 import re, sys
 out, in_t62 = [], False
+BIG = ("![](figures/fig3_1_two_links.png)", "![](figures/fig5_3_growth_2023.png)")  # near-square figures: printed larger (style_compact.css, .big)
 for ln in sys.stdin.read().split("\n"):
+    if ln.strip() in BIG:
+        ln = ln.strip() + "{.big}"
     if ln.startswith("> **[Results slot]**"):
         continue
     if ln.strip() == "The outcomes will be reported whatever their direction, as the other registered tests are.":
