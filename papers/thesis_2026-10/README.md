@@ -43,7 +43,7 @@ The thesis written in full. Same title, research question, hypotheses and measur
 | `ch3_framework.md` | 3 Framework and Hypotheses | Accepted for now 13 Oct; a cold read is still due |
 | `ch4_data_methods.md` | 4 Data and Methods | Follows Chapter 5's order and points to Chapter 3; exact-inference checks added 22 Oct |
 | `ch5_results.md` | 5 Results | Ten sections on Figure 3.1's two links; 5.2 stands; readability pass 1 applied 23 Oct; a linear pass of Chapters 5 and 6 awaits approval |
-| `drafts/ch6_draft_2026-10-14.md`, `drafts/ch7_draft_2026-10-14.md` | 6 The Rules and How Far They Reach; 7 Conclusion | The live chapter files, despite the folder name; 6.5 waits for the scoring dates (27 Oct, early Nov, mid Nov) |
+| `drafts/ch6_draft_2026-10-14.md`, `drafts/ch7_draft_2026-10-14.md` | 6 Discussion and Policy Implications; 7 Conclusion | The live chapter files, despite the folder name; 6.5 waits for the scoring dates (27 Oct, early Nov, mid Nov) |
 | `appendix_notes.md` | Appendices | Platform lists, windows, every check on the H1 test, registered tests with outcomes |
 | `references.md` | References | Checked 16 Oct; two entries rest on a named secondary source; APA until the YZU style is settled |
 | `symbols.md`, `abstract.md` | Symbols and Abbreviations; Abstract | English only; the Chinese abstract, keywords and title page are the researcher's |
