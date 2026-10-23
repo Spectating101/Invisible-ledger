@@ -47,5 +47,5 @@ The thesis written in full. Same title, research question, hypotheses and measur
 | `appendix_notes.md` | Appendices | Platform lists, windows, every check on the H1 test, registered tests with outcomes |
 | `references.md` | References | Checked 16 Oct; two entries rest on a named secondary source; APA until the YZU style is settled |
 | `symbols.md`, `abstract.md` | Symbols and Abbreviations; Abstract | English only; the Chinese abstract, keywords and title page are the researcher's |
-| `reading/` | Reading copies | `build_reading.sh` (full copy and editing DOCX) and `build_compact.sh` (Chapters 1 to 7, short and dense; the 59 key sentences listed in `reading/keypoints.txt` are bold, so the bold alone summarises the thesis: `boldkey.py`; the full copy and the thesis text carry no bold); judge layout by the full copy |
+| `reading/` | Reading copies | `build_reading.sh` (full copy and editing DOCX) and `build_compact.sh` (the condensed thesis: abstract and Chapters 1 to 7, no notes to the reader, via `condense.py`; short and dense; the 59 key sentences listed in `reading/keypoints.txt` are bold, so the bold alone summarises the thesis: `boldkey.py`; the full copy and the thesis text carry no bold); judge layout by the full copy |
 | `alternatives/` | Tried, not adopted | Not read by any build |
