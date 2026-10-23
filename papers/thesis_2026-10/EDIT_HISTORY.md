@@ -2,6 +2,8 @@
 
 One place for every concern raised about this thesis and what was done about it: the committee's, the researcher's own during development, the independent reviews', and the round-by-round edits of each chapter. Status is **Addressed** (with where), **Partly**, or **OPEN**. Add to it; do not delete entries.
 
+**Start with `DECISIONS.md`**, which summarises what is settled and what is open. This file is the log behind it. The approvals for each chapter are in Part D, not at the end of the file.
+
 ## Part A. The committee
 
 | When | Who | Concern | Where it is answered | Status |
@@ -526,3 +528,4 @@ Source of every change: `research/option_space_2026-10-01/materials_2026-10-15/F
 - **23 Oct: a global-first reorder of the Chapter 1 opening was tried and reversed.** The order approved on 12 to 13 Oct (Part D, rounds 2 to 4: the deck's scene first, zoom out to global stakes, back into Indonesia) stands in `ch1_introduction.md`, unchanged. The attempt is kept for reference only, in `alternatives/ch1_opening_global_first_2026-10-23.md` (not read by any build). Reason for reversing: the order had already been approved, and round 1's lesson is to keep the proposal's and deck's paragraph order. The heaviness reported on reading the compact copy is partly its layout (9.4 pt, about 110 characters a line); judge layout by the full reading copy.
   - Open, small: the opening line says "in Indonesia" and the stakes that follow are global. To be shown as one before and after before any change.
   - Open, as before: 1.2 wording, the 1.3 clause on Chapter 4's sources, the 1.1 seam.
+- **23 Oct: context and record consolidated, so the reversal above cannot recur.** New `DECISIONS.md` (settled decisions with dates and sources, one open list, recurring failures, how to sync branches, where things are). Stale first-read statements corrected: the README's "how to continue" (it named the September branch and listed Chapters 3 to 5 as unwritten) and its status table; `CLAUDE.md` and `AGENTS.md` (they sent sessions to the end of this log, where the approvals are not, and to the 12 Oct handoff's branch advice); a banner on `HANDOFF.md` and on `docs/CURRENT_STATUS.md` (its "unresolved decisions" are the September state). The two thesis branches were made identical.

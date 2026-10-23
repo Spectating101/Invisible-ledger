@@ -5,9 +5,9 @@ The thesis written in full. Same title, research question, hypotheses and measur
 **Built from:** `research/option_space_2026-10-01/DRAFT_STORY_v1.md` (story and evidence map), `NARRATIVE_ARC.md` (order), `GOLDEN_PITCH.md` (voice), the groundwork Parts 1-7 with their dated notes, and `FINDINGS.md`. Every number comes from a script or ledger named there.
 
 **How to continue this work (for any new session, local or cloud).**
-1. Work on branch `proposal/integrated-2026-09-16` (not `main`).
-2. Read `EDIT_HISTORY.md` in this folder first: it lists every concern (committee, researcher, reviews), what was done, and what is still open.
-3. Next steps, in order: recheck section 1.2 against the ambition paragraph in 1.1; write chapter 3 (terms, the formula, H1, H2, the entry test) and chapter 4 (data, tests); rewrite chapter 5 to ten question sections from `research/option_space_2026-10-01/DRAFT_STORY_v2.md` (the existing `ch5_results.md` is an older report-style draft); then chapters 2, 6, 7. Chapter 6 waits for the 27 Oct and mid-Nov results.
+1. Read `DECISIONS.md` in this folder first. It lists what the researcher has settled, what is open, how work has gone wrong before, and how to sync the branches. Then read Part D of `EDIT_HISTORY.md` for the chapter you will touch.
+2. Sync before editing: `git fetch --all`, and take the branch with the newest thesis work (`DECISIONS.md` section 0). The current line is `claude/happy-pascal-uc2eya` and `claude/wizardly-cerf-2vgv2v`; `main` is behind until the October line is merged.
+3. Show every change as before and after in chat, apply only what the researcher approves, then make one commit and add one row to `EDIT_HISTORY.md`.
 4. The licensed data are not in the repository (`research/option_space_2026-10-01/LICENSED_DATA.md`). Writing does not need them; every number is in the committed tables, `FINDINGS.md` and the Part 1-7 files with their dated notes. Do not rerun the licensed scripts in a cloud session.
 5. The researcher prefers explanations in chat, and asks for pushback when a request would weaken the thesis.
 
@@ -34,18 +34,18 @@ The thesis written in full. Same title, research question, hypotheses and measur
   - *take rate* for the share of each sale a platform keeps; *US$* for money in running text.
 - **The committee's points** and where each is answered: see Part A of `EDIT_HISTORY.md`.
 
-`EDIT_HISTORY.md` records each round of edits, the researcher's response and any open concern; read it before revising a chapter.
+`DECISIONS.md` is the one-page record of what is settled and what is open. `EDIT_HISTORY.md` is the append-only log of each round of edits and the researcher's response; read Part D of it before revising a chapter.
 
-| File | Chapter | Status |
+| File | Chapter | State (23 Oct 2026) |
 |---|---|---|
-| `ch1_introduction.md` | 1 Introduction | drafted 12 Oct on the proposal's and deck's flow (opening, 1.1 question and objectives, 1.2 contributions, 1.3 structure); open concern on 1.1 in `EDIT_HISTORY.md` |
-| `ch5_results.md` | 5 Results | rewritten 14 Oct on Figure 3.1's two links: Table 5.1 (main results and evidence), inner link 5.1 to 5.4 (wedge, H1, what moved the take rate, markets), outer link 5.5 to 5.10 (2023 platforms and sellers, H2 and the entry test, what the rise contains, who the extra sellers were, channels and records, why the national figures disagree). Awaiting the researcher's reading with Chapters 3 and 4 |
-| `ch3_framework.md` | 3 Framework and Hypotheses | rewritten and accepted for now 13 Oct: opening declaration and map of the three gap questions, 3.1 terms and rules for comparison, 3.2 three measures (equations 1 to 4), 3.3 tracing a movement (equations 5 and 6), 3.4 hypotheses (equation 7), 3.5 the entry test, 3.6 further analyses (Table 3.3, market-value equation 8). Figure 3.1 still to be drawn; a cold read is still due (see `EDIT_HISTORY.md`) |
-| `ch2_literature.md` | 2 Literature Review | first full draft 12 Oct (evening), awaiting the researcher's reading: on the proposal's four sections (2.1 pricing and revenue recognition, 2.2 measuring the online economy, 2.3 digital records and third-party information, 2.4 the gap), with the survey-count strand added (breaks, recall, exit, margins). Citations are author-year, every one traced to `REFERENCES_WORKING.md`; the bibliography itself is not yet built |
-| `ch4_data_methods.md` | 4 Data and Methods | restructured 13 Oct to follow Chapter 5's order and to point to Chapter 3 instead of repeating it: short opening disclaimer, 4.1 platform data, 4.2 the wedge in Indonesia, 4.3 testing H1, 4.4 tracing, 4.5 market values, 4.6 survey files and H2, 4.7 entry test and extra sellers, 4.8 channels, records and reach, 4.9 comparing national figures, 4.10 labels and licensed data |
-| `appendix_notes.md` | Appendices A to C | working draft 13 Oct: platform lists, the seven windows, wedge by platform-year, every check on the test of H1, registered tests with outcomes; the detail that Chapters 4 and 5 point to |
-| ch6, ch7 | 6 The Rules and How Far They Reach; 7 Conclusion | drafts in `drafts/ch6_draft_2026-10-14.md` and `drafts/ch7_draft_2026-10-14.md`, revised 15 Oct on checked sources (tax started 1 Oct 2026; tax-start prediction withdrawn); 6.5 has a results slot for the 27 Oct to mid-Nov scoring |
-| `references.md` | References | merged and checked 15 Oct; verified at primary sources 16 Oct, 67 entries, none marked unverified; APA until the YZU style is settled |
-| `symbols.md` | Symbols and Abbreviations | added 16 Oct for the YZU list of symbols |
-| `abstract.md` | Abstract | English draft 16 Oct (about 280 words, keywords); the Chinese abstract, keywords and title page are left for the researcher |
-| `reading/` | Reading copy | `build_compact.sh` builds the 27-page Chapters 1 to 7 copy; `build_reading.sh` builds `thesis_reading_copy_<date>.pdf` (A4, Source Serif 4, checked page by page) and an editing DOCX from the chapters above; latest 23 Oct, 61 pages, plain thesis style, justified text |
+| `ch1_introduction.md` | 1 Introduction | Order approved 12 to 13 Oct and restored 23 Oct; open: 1.1 brevity, the 1.2 and 1.3 wording (`DECISIONS.md`) |
+| `ch2_literature.md` | 2 Literature Review | Three-part form confirmed 13 Oct |
+| `ch3_framework.md` | 3 Framework and Hypotheses | Accepted for now 13 Oct; a cold read is still due |
+| `ch4_data_methods.md` | 4 Data and Methods | Follows Chapter 5's order and points to Chapter 3; exact-inference checks added 22 Oct |
+| `ch5_results.md` | 5 Results | Ten sections on Figure 3.1's two links; 5.2 stands; readability pass 1 applied 23 Oct; a linear pass of Chapters 5 and 6 awaits approval |
+| `drafts/ch6_draft_2026-10-14.md`, `drafts/ch7_draft_2026-10-14.md` | 6 The Rules and How Far They Reach; 7 Conclusion | The live chapter files, despite the folder name; 6.5 waits for the scoring dates (27 Oct, early Nov, mid Nov) |
+| `appendix_notes.md` | Appendices | Platform lists, windows, every check on the H1 test, registered tests with outcomes |
+| `references.md` | References | Checked 16 Oct; two entries rest on a named secondary source; APA until the YZU style is settled |
+| `symbols.md`, `abstract.md` | Symbols and Abbreviations; Abstract | English only; the Chinese abstract, keywords and title page are the researcher's |
+| `reading/` | Reading copies | `build_reading.sh` (full copy and editing DOCX) and `build_compact.sh` (Chapters 1 to 7, short and dense); judge layout by the full copy |
+| `alternatives/` | Tried, not adopted | Not read by any build |

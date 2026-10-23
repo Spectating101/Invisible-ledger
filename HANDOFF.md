@@ -1,6 +1,8 @@
 # Handoff: The Invisible Ledger thesis (state on 12 October 2026)
 
 > **Note, 18 Oct 2026.** The thesis line is merged into the branch carrying this note (`claude/sleepy-allen-2fd7r7`). Once that branch is on `main`, `main` is no longer stale and `proposal/integrated-2026-09-16` is no longer the working branch. Ignore the branch advice below (the "Branch `main`" row in section 0, and sections 2, 8 and 11 on branches). Everything else here still applies. Old September branches were left in place; see `docs/BRANCHES_2026-10-18.md`.
+>
+> **Update, 23 Oct 2026.** Read `papers/thesis_2026-10/DECISIONS.md` first. It supersedes this file for the thesis's state, open items, next steps and branch advice. The thesis chapters in the file map below are all drafted.
 
 For any agent or person taking over. Read this file, then the two files it points to in section 3, before changing anything.
 

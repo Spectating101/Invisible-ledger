@@ -36,7 +36,10 @@ def main() -> None:
         "The presented oral deck is v4.10 (papers/current). The thesis executes this proposal: same title, research question and two hypotheses (H1 revenue to platform, H2 platform to national growth). "
         "Do not pivot the concept. Writing must be plain (see AGENTS.md, 'Thesis story and writing standard'). "
         "If the researcher names a version or file, believe the researcher over this repository and update CANONICAL_ARTIFACTS.md. "
-        "Before any diagnosis or rewrite, read AGENTS.md and CANONICAL_ARTIFACTS.md."
+        "Before any diagnosis or rewrite, read AGENTS.md and CANONICAL_ARTIFACTS.md. "
+        "For ANY work on the thesis chapters (papers/thesis_2026-10/), first run git fetch --all and take the branch with the newest thesis work, "
+        "then read papers/thesis_2026-10/DECISIONS.md (what the researcher has settled, what is open, how work went wrong before) and Part D of EDIT_HISTORY.md for the chapter. "
+        "Do not propose a structural or ordering change that DECISIONS.md lists as settled. Show every change as before and after in chat and apply only what the researcher approves."
     )
     print(json.dumps({"hookSpecificOutput": {"hookEventName": "SessionStart", "additionalContext": text}}))
 
