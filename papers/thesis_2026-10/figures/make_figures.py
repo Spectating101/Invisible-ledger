@@ -2,7 +2,7 @@
 Palette: reference categorical slots 1 (blue #2a78d6) and 2 (orange #eb6834), validated on a white surface (CVD dE 24.7, normal 33.6, contrast >= 3:1),
 plus neutral grey. Colour is not fixed to one entity across figures; inside each figure a legend or a label names every mark, so colour is never the only
 cue. Text is neutral ink. Run from the repository root: python3 papers/thesis_2026-10/figures/make_figures.py"""
-import json, pathlib
+import json, os, pathlib
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -11,12 +11,16 @@ import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[3]
 T = ROOT / "research/option_space_2026-10-01/tables"
-OUT = pathlib.Path(__file__).resolve().parent
+OUT = pathlib.Path(os.environ.get("FIG_OUT") or pathlib.Path(__file__).resolve().parent)
+OUT.mkdir(parents=True, exist_ok=True)
+FONTS = pathlib.Path(__file__).resolve().parent / "fonts"
 BLUE, ORANGE, GREY, INK, INK2, GRID = "#2a78d6", "#eb6834", "#a3a29d", "#0b0b0b", "#52514e", "#e4e3df"
 from matplotlib import font_manager as _fm
-for _f in (OUT / "fonts").glob("SourceSerif4-*.ttf"):  # the body font of the reading copies (SIL Open Font License)
+for _f in [q for q in os.environ.get("FIG_FONT_FILES", "").split(":") if q]:  # extra font files, e.g. Times New Roman for the YZU build
+    _fm.fontManager.addfont(_f)
+for _f in FONTS.glob("SourceSerif4-*.ttf"):  # the body font of the reading copies (SIL Open Font License)
     _fm.fontManager.addfont(str(_f))
-plt.rcParams.update({"font.size": 10, "font.family": ["Source Serif 4", "DejaVu Sans"], "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2,
+plt.rcParams.update({"font.size": 10, "font.family": [os.environ.get("FIG_FONT", "Source Serif 4"), "DejaVu Sans"], "axes.edgecolor": GRID, "axes.labelcolor": INK2, "xtick.color": INK2,
                      "ytick.color": INK, "axes.spines.top": False, "axes.spines.right": False, "axes.spines.left": False,
                      "figure.facecolor": "white", "axes.facecolor": "white", "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.6,
                      "axes.axisbelow": True, "savefig.dpi": 300})

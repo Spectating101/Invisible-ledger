@@ -1,18 +1,22 @@
 """Figure 3.1 of the thesis (draft, 15 Oct 2026): the three nested quantities and the two links tested by H1 and H2.
 Illustrative only, not to scale. Same palette and ink as make_figures.py. Run from the repository root:
 python3 papers/thesis_2026-10/figures/make_fig3_1.py"""
-import pathlib
+import os, pathlib
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle, FancyArrowPatch
 
-OUT = pathlib.Path(__file__).resolve().parent
+OUT = pathlib.Path(os.environ.get("FIG_OUT") or pathlib.Path(__file__).resolve().parent)
+OUT.mkdir(parents=True, exist_ok=True)
+FONTS = pathlib.Path(__file__).resolve().parent / "fonts"
 BLUE, ORANGE, INK, INK2 = "#2a78d6", "#eb6834", "#0b0b0b", "#52514e"
 from matplotlib import font_manager as _fm
-for _f in (OUT / "fonts").glob("SourceSerif4-*.ttf"):  # the body font of the reading copies (SIL Open Font License)
+for _f in [q for q in os.environ.get("FIG_FONT_FILES", "").split(":") if q]:  # extra font files, e.g. Times New Roman for the YZU build
+    _fm.fontManager.addfont(_f)
+for _f in FONTS.glob("SourceSerif4-*.ttf"):  # the body font of the reading copies (SIL Open Font License)
     _fm.fontManager.addfont(str(_f))
-plt.rcParams.update({"font.size": 10, "font.family": ["Source Serif 4", "DejaVu Sans"], "savefig.dpi": 300})
+plt.rcParams.update({"font.size": 10, "font.family": [os.environ.get("FIG_FONT", "Source Serif 4"), "DejaVu Sans"], "savefig.dpi": 300})
 
 fig, ax = plt.subplots(figsize=(7.2, 3.9))
 ax.set_xlim(0, 13.2); ax.set_ylim(0, 7); ax.set_aspect("equal"); ax.axis("off")

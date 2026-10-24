@@ -8,6 +8,11 @@ set -euo pipefail
 cd "$(dirname "$0")"
 D=$(date +%Y-%m-%d)
 mkdir -p yzu_tmp
+# the figures in Times New Roman, as the body (needs the font installed; see the log, 24 Oct)
+if fc-list | grep -qi "Times New Roman"; then
+  F=$(fc-list : file family | grep -i "^.*Times New Roman" | sed 's/:.*//' | tr '\n' ':' | sed 's/:$//')
+  ( cd ../.. && FIG_FONT="Times New Roman" FIG_OUT=papers/thesis_2026-10/figures_yzu FIG_FONT_FILES="$F" python3 papers/thesis_2026-10/figures/make_figures.py && FIG_FONT="Times New Roman" FIG_OUT=papers/thesis_2026-10/figures_yzu FIG_FONT_FILES="$F" python3 papers/thesis_2026-10/figures/make_fig3_1.py )
+fi
 slot() { printf '\n::: {custom-style="Front Heading"}\n%s\n:::\n\n::: {custom-style="Field Slot"}\n%s\n:::\n' "$1" "$2"; }
 {
   printf -- '---\ntitle: "The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia'"'"'s Platform Economy"\nsubtitle: "Master'"'"'s thesis"\nauthor:\n  - "Christopher Ongko (王新福)"\n  - "Advisor: Prof. De-Rong Kong (孔德蓉)"\n  - "College of Management, Yuan Ze University"\ndate: "October 2026"\nlang: en\n---\n\n'

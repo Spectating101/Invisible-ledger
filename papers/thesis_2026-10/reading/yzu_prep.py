@@ -19,6 +19,7 @@ def sub_refs(text):
     text = re.sub(r"(Figures? )(\d\.\d+)(?!\d)( (?:and|to) )?(\d\.\d+)?(?!\d)", lambda m: (m.group(1) + fmap.get(m.group(2), m.group(2)) + ((m.group(3) or "") + fmap.get(m.group(4), m.group(4)) if m.group(4) else (m.group(3) or ""))), text)
     return text
 t = sub_refs(t)
+t = t.replace("](figures/", "](figures_yzu/")        # the six figures lettered in Times New Roman (see figures/make_figures.py, FIG_FONT)
 t = re.sub(r"^# Chapter (\d)\. ", r"# Chapter \1 ", t, flags=re.M)
 t = re.sub(r"^# (Abstract|Symbols and Abbreviations)\s*$", r'::: {custom-style="Front Heading"}\n\1\n:::', t, flags=re.M)
 t = re.sub(r"^\*\*(Table \d+\.) (.*?)\*\*\s*$", r'::: {custom-style="Table Caption"}\n\1 \2\n:::', t, flags=re.M)
