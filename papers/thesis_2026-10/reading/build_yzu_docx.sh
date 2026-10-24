@@ -15,7 +15,122 @@ if fc-list | grep -qi "Times New Roman"; then
 fi
 slot() { printf '\n::: {custom-style="Front Heading"}\n%s\n:::\n\n::: {custom-style="Field Slot"}\n%s\n:::\n' "$1" "$2"; }
 {
-  printf -- '---\ntitle: "The Invisible Ledger: Quantifying the Invisible Wedge in Indonesia'"'"'s Platform Economy"\nsubtitle: "Master'"'"'s thesis"\nauthor:\n  - "Christopher Ongko (王新福)"\n  - "Advisor: Prof. De-Rong Kong (孔德蓉)"\n  - "College of Management, Yuan Ze University"\ndate: "October 2026"\nlang: en\n---\n\n'
+  printf -- '---\nlang: en\n---\n\n'
+  # cover (YZU template A1, Chinese only; not numbered), a section break, then the title page (A2)
+  cat <<'COVER'
+::: {custom-style="Cover University"}
+元智大學
+:::
+
+::: {custom-style="Cover Dept"}
+管理學院財務金融暨會計碩士班
+:::
+
+::: {custom-style="Cover Track"}
+財務金融碩士學程
+:::
+
+::: {custom-style="Cover Degree"}
+碩士論文
+:::
+
+::: {custom-style="Cover Title"}
+隱形帳簿：量化印尼平台經濟中的隱形缺口
+:::
+
+::: {custom-style="Cover Person"}
+研究生：王新福
+:::
+
+::: {custom-style="Cover Person Next"}
+指導教授：孔德蓉
+:::
+
+::: {custom-style="Cover Date"}
+中華民國 115 年 10 月
+:::
+
+::: {custom-style="Field Slot"}
+§COVER§
+:::
+
+::: {custom-style="TP Title"}
+隱形帳簿：量化印尼平台經濟中的隱形缺口
+:::
+
+::: {custom-style="TP Title"}
+THE INVISIBLE LEDGER: QUANTIFYING THE INVISIBLE WEDGE IN INDONESIA'S PLATFORM ECONOMY
+:::
+
+::: {custom-style="TP People"}
+研究生：王新福  Student: Christopher Ongko
+:::
+
+::: {custom-style="TP Line"}
+指導教授：孔德蓉  Advisor: De-Rong Kong
+:::
+
+::: {custom-style="TP Gap"}
+元智大學
+:::
+
+::: {custom-style="TP Line"}
+管理學院財務金融暨會計碩士班
+:::
+
+::: {custom-style="TP Line"}
+碩士論文
+:::
+
+::: {custom-style="TP People"}
+A Thesis
+:::
+
+::: {custom-style="TP Block"}
+Submitted to MS Program in Finance and Accounting
+:::
+
+::: {custom-style="TP Block"}
+College of Management
+:::
+
+::: {custom-style="TP Block"}
+Yuan Ze University
+:::
+
+::: {custom-style="TP Block"}
+in Partial Fulfillment of the Requirements
+:::
+
+::: {custom-style="TP Block"}
+for the Degree of
+:::
+
+::: {custom-style="TP Block"}
+Master of Science
+:::
+
+::: {custom-style="TP Block"}
+in
+:::
+
+::: {custom-style="TP Block"}
+Finance and Accounting
+:::
+
+::: {custom-style="TP Block"}
+October 2026
+:::
+
+::: {custom-style="TP Block"}
+Chungli, Taiwan, Republic of China.
+:::
+
+::: {custom-style="TP Line"}
+中華民國 115 年 10 月
+:::
+
+COVER
   cat ../abstract.md; printf '\n\n'
   slot "Contents" "§TOC§"; slot "List of Tables" "§LOT§"; slot "List of Figures" "§LOF§"; printf '\n'
   cat ../symbols.md; printf '\n\n::: {custom-style="Field Slot"}\n§SECT§\n:::\n\n'

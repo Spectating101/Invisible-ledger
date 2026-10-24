@@ -21,6 +21,15 @@ def sub_refs(text):
 t = sub_refs(t)
 t = t.replace("](figures/", "](figures_yzu/")        # the six figures lettered in Times New Roman (see figures/make_figures.py, FIG_FONT)
 t = re.sub(r"^# Chapter (\d)\. ", r"# Chapter \1 ", t, flags=re.M)
+# the English abstract in YZU's layout (template A6): title, student and advisor, the submission block, then ABSTRACT
+m = re.search(r"^# Abstract\s*\n(?:\s*\*\*(.*?)\*\*\s*\n)?", t, flags=re.M)
+if m:
+    hdr = ('::: {custom-style="Abstract Title"}\nThe Invisible Ledger: Quantifying the Invisible Wedge in Indonesia\u2019s Platform Economy\n:::\n\n'
+           '::: {custom-style="Abstract Head"}\nStudent: Christopher Ongko  \u3000 Advisor: Dr. De-Rong Kong\n:::\n\n'
+           '::: {custom-style="Abstract Head"}\nSubmitted to MS Program in Finance and Accounting\n:::\n\n'
+           '::: {custom-style="Abstract Head"}\nCollege of Management, Yuan Ze University\n:::\n\n'
+           '::: {custom-style="Abstract Label"}\nABSTRACT\n:::\n')
+    t = t[:m.start()] + hdr + t[m.end():]
 t = re.sub(r"^# (Abstract|Symbols and Abbreviations)\s*$", r'::: {custom-style="Front Heading"}\n\1\n:::', t, flags=re.M)
 t = re.sub(r"^\*\*(Table \d+\.) (.*?)\*\*\s*$", r'::: {custom-style="Table Caption"}\n\1 \2\n:::', t, flags=re.M)
 def fig(m):

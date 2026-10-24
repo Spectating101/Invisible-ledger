@@ -150,11 +150,25 @@ for p in paras:
     if sty in ("Heading 1", "Heading 2") and seen_main: heads.append((1 if sty == "Heading 1" else 2, p.text.strip()))
     if sty == "Table Caption": tcaps.append((1, p.text.strip()))
     if sty == "Figure Caption": fcaps.append((1, p.text.strip()))
+slot_toc = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == "§TOC§")
+for title, key in ([("Title Page", "Title Page"), ("Abstract", "Abstract"), ("Table of Contents", "Table of Contents"), ("List of Tables", "List of Tables"), ("List of Figures", "List of Figures"), ("Symbols and Abbreviations", "Symbols and Abbreviations")]):
+    pp = OxmlElement("w:p"); pPr = OxmlElement("w:pPr"); st = OxmlElement("w:pStyle"); st.set(qn("w:val"), styleid("toc 1")); pPr.append(st)
+    rp = OxmlElement("w:rPr"); b = OxmlElement("w:b"); b.set(qn("w:val"), "0"); rp.append(b); pPr.append(rp); pp.append(pPr)
+    pp.append(mkrun(title)); pp.append(mkrun(tab=True)); pp.append(mkrun(PAGES.get("front:" + key, "i")))
+    for r_ in pp.findall(qn("w:r")):
+        rp_ = OxmlElement("w:rPr"); b_ = OxmlElement("w:b"); b_.set(qn("w:val"), "0"); rp_.append(b_); r_.insert(0, rp_)
+    slot_toc.addprevious(pp)
 fill("§TOC§", heads, r'TOC \o "1-2" \u', lambda l: "toc 1" if l == 1 else "toc 2")
 fill("§LOT§", tcaps, r'TOC \t "Table Caption,1"', lambda l: "table of figures")
 fill("§LOF§", fcaps, r'TOC \t "Figure Caption,1"', lambda l: "table of figures")
 # ---- two page-number sections: front matter in lower-case Roman numerals (title page not printed), main text in Arabic from 1
 final = body.find(qn("w:sectPr"))
+# the cover is its own section: no footer, no page number
+cover_sp = copy.deepcopy(final)
+for ref in cover_sp.findall(qn("w:footerReference")): cover_sp.remove(ref)
+cslot = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == "§COVER§")
+for ch in list(cslot): cslot.remove(ch)
+cpPr = OxmlElement("w:pPr"); cpPr.append(cover_sp); cslot.insert(0, cpPr)
 def pgnum(sp, fmt, start=None):
     for old in sp.findall(qn("w:pgNumType")): sp.remove(old)
     e = OxmlElement("w:pgNumType"); e.set(qn("w:fmt"), fmt)
@@ -171,7 +185,7 @@ pPr = OxmlElement("w:pPr"); pPr.append(front); slot.insert(0, pPr)
 d.save(out + ".tmp")
 # the first page of the front section gets an empty footer (the title page is counted but not printed)
 d2 = docx.Document(out + ".tmp")
-s0 = d2.sections[0]; s0.different_first_page_header_footer = True
+s0 = d2.sections[1]; s0.different_first_page_header_footer = True
 s0.first_page_footer.is_linked_to_previous = False
 d2.save(out); os.remove(out + ".tmp")
 print("wrote", out)

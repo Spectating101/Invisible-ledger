@@ -60,6 +60,32 @@ tc = get_or_make("Table Caption"); setfont(tc, 11, False, False); para(tc, M, 1.
 fc = get_or_make("Figure Caption"); setfont(fc, 11, False, False); para(fc, M, 1.15, 4, 3, L)
 tn = get_or_make("Table Note"); setfont(tn, 9.5, False, False); para(tn, M, 1.1, 2, 12, J)
 tn.paragraph_format.alignment = L
+# cover (YZU template A1, Chinese only), title page (A2) and the English abstract header (A6)
+CJK = "DFKai-SB"
+def cjk(st):
+    rpr = st.element.get_or_add_rPr(); rf = rpr.find(qn("w:rFonts"))
+    if rf is None: rf = OxmlElement("w:rFonts"); rpr.append(rf)
+    rf.set(qn("w:eastAsia"), CJK)
+def mk(name, size, before, after, align, bold=False, line=1.3, pbb=False, left=None):
+    st = get_or_make(name); setfont(st, size, bold, False); para(st, M, line, before, after, align, None, pbb); cjk(st)
+    if left is not None: st.paragraph_format.left_indent = Mm(left)
+    return st
+mk("Cover University", 24, 40, 0, C, line=1.0)
+mk("Cover Dept", 28, 42, 6, C, line=1.0)
+mk("Cover Track", 18, 0, 0, C, line=1.0)
+mk("Cover Degree", 24, 44, 0, C, line=1.0)
+mk("Cover Title", 14, 40, 0, C)
+mk("Cover Person", 18, 60, 0, L, left=30)
+mk("Cover Person Next", 18, 14, 0, L, left=30)
+mk("Cover Date", 14, 70, 0, C)
+mk("TP Title", 14, 30, 0, C, True, 1.3)
+mk("TP Line", 12, 0, 0, C, False, 1.35)
+mk("TP People", 12, 24, 0, C, False, 1.5)
+mk("TP Block", 12, 0, 0, C, False, 1.5)
+mk("TP Gap", 12, 36, 0, C, False, 1.5)
+mk("Abstract Title", 14, 0, 14, C, True, 1.3, True)
+mk("Abstract Head", 12, 0, 0, C, False, 1.5)
+mk("Abstract Label", 12, 18, 14, C, True, 1.3)
 eq = get_or_make("Equation"); setfont(eq, 12); para(eq, M, 1.3, 6, 8, L); eq.paragraph_format.keep_together = True
 eq.paragraph_format.tab_stops.add_tab_stop(Mm(TEXT_W / 2), WD_TAB_ALIGNMENT.CENTER); eq.paragraph_format.tab_stops.add_tab_stop(Mm(TEXT_W), WD_TAB_ALIGNMENT.RIGHT)
 for name, left, bold in (("toc 1", 0, True), ("toc 2", 7, False), ("table of figures", 0, False)):
