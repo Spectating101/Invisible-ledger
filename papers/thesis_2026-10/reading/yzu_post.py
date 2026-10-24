@@ -77,6 +77,7 @@ for p in paras:
             for r in list(p.runs): r._r.getparent().remove(r._r)
             r1 = p.add_run(m.group(1)); r1.font.bold = True
             r2 = p.add_run(m.group(2)); r2.font.bold = False
+            if sty == "Figure Caption": p.paragraph_format.keep_with_next = True      # the description below stays with its figure
 # figures: at most 15 cm wide and 10 cm tall, centred, kept with the caption
 for idx, p in enumerate(paras):
     if p._p.xpath(".//w:drawing"):
