@@ -163,12 +163,16 @@ fill("§LOT§", tcaps, r'TOC \t "Table Caption,1"', lambda l: "table of figures"
 fill("§LOF§", fcaps, r'TOC \t "Figure Caption,1"', lambda l: "table of figures")
 # ---- two page-number sections: front matter in lower-case Roman numerals (title page not printed), main text in Arabic from 1
 final = body.find(qn("w:sectPr"))
-# the cover is its own section: no footer, no page number
-cover_sp = copy.deepcopy(final)
-for ref in cover_sp.findall(qn("w:footerReference")): cover_sp.remove(ref)
-cslot = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == "§COVER§")
-for ch in list(cslot): cslot.remove(ch)
-cpPr = OxmlElement("w:pPr"); cpPr.append(cover_sp); cslot.insert(0, cpPr)
+# the cover and the title page are sections of their own: no footer, and the margins of YZU's templates (3.17 cm at the sides, 2.54 cm above and below); the binding margin applies from the abstract on
+def plain_section(sp):
+    for ref in sp.findall(qn("w:footerReference")): sp.remove(ref)
+    pm = sp.find(qn("w:pgMar"))
+    for k, v in (("top", 1440), ("bottom", 1440), ("left", 1797), ("right", 1797), ("footer", 0)): pm.set(qn("w:" + k), str(v))
+    return sp
+for slot_text in ("§COVER§", "§TITLE§"):
+    sl = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == slot_text)
+    for ch in list(sl): sl.remove(ch)
+    pp_ = OxmlElement("w:pPr"); pp_.append(plain_section(copy.deepcopy(final))); sl.insert(0, pp_)
 def pgnum(sp, fmt, start=None):
     for old in sp.findall(qn("w:pgNumType")): sp.remove(old)
     e = OxmlElement("w:pgNumType"); e.set(qn("w:fmt"), fmt)
@@ -176,16 +180,12 @@ def pgnum(sp, fmt, start=None):
     # pgNumType goes after pgMar in the schema order
     pm = sp.find(qn("w:pgMar")); pm.addnext(e)
 front = copy.deepcopy(final)
-pgnum(front, "lowerRoman", 1)
-ts = OxmlElement("w:titlePg"); front.append(ts)
+pgnum(front, "lowerRoman", 2)
 pgnum(final, "decimal", 1)
 slot = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == "§SECT§")
 for ch in list(slot): slot.remove(ch)
 pPr = OxmlElement("w:pPr"); pPr.append(front); slot.insert(0, pPr)
 d.save(out + ".tmp")
-# the first page of the front section gets an empty footer (the title page is counted but not printed)
 d2 = docx.Document(out + ".tmp")
-s0 = d2.sections[1]; s0.different_first_page_header_footer = True
-s0.first_page_footer.is_linked_to_previous = False
 d2.save(out); os.remove(out + ".tmp")
 print("wrote", out)

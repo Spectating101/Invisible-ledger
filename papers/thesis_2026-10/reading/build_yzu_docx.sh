@@ -19,7 +19,7 @@ slot() { printf '\n::: {custom-style="Front Heading"}\n%s\n:::\n\n::: {custom-st
   # cover (YZU template A1, Chinese only; not numbered), a section break, then the title page (A2)
   cat <<'COVER'
 ::: {custom-style="Cover University"}
-元智大學
+元　智　大　學
 :::
 
 ::: {custom-style="Cover Dept"}
@@ -31,7 +31,7 @@ slot() { printf '\n::: {custom-style="Front Heading"}\n%s\n:::\n\n::: {custom-st
 :::
 
 ::: {custom-style="Cover Degree"}
-碩士論文
+碩　士　論　文
 :::
 
 ::: {custom-style="Cover Title"}
@@ -128,6 +128,10 @@ Chungli, Taiwan, Republic of China.
 
 ::: {custom-style="TP Line"}
 中華民國 115 年 10 月
+:::
+
+::: {custom-style="Field Slot"}
+§TITLE§
 :::
 
 COVER
