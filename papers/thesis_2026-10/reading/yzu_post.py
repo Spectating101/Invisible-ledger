@@ -61,6 +61,20 @@ for t in d.tables:
                 pf = p.paragraph_format; pf.alignment = WD_ALIGN_PARAGRAPH.LEFT; pf.space_before = Pt(0); pf.space_after = Pt(0)
                 pf.line_spacing_rule = WD_LINE_SPACING.EXACTLY; pf.line_spacing = Pt(11)
                 run_fmt(p, 9, True if ri == 0 else None)
+# keep tables from splitting badly: a table of up to 12 rows stays whole; a longer one keeps its first three rows and its last two together
+for t in d.tables:
+    rows = t.rows; nr = len(rows)
+    keep = set(range(nr - 1)) if nr <= 12 else set([0, 1, 2, nr - 2])
+    for ri in keep:
+        for c in rows[ri].cells:
+            for p in c.paragraphs: p.paragraph_format.keep_with_next = True
+# references: left-aligned with a hanging indent (justified text spreads the long web addresses into wide gaps)
+in_refs = False
+for p in d.paragraphs:
+    if p.style.name == "Heading 1": in_refs = (p.text.strip() == "References")
+    elif in_refs and p.text.strip():
+        pf = p.paragraph_format
+        pf.alignment = WD_ALIGN_PARAGRAPH.LEFT; pf.left_indent = Mm(12.5); pf.first_line_indent = Mm(-12.5); pf.space_after = Pt(6)
 # space after a table
 for tbl in d.element.body.findall(qn("w:tbl")):
     nxt = tbl.getnext()
