@@ -36,6 +36,7 @@ Updated 23 Oct 2026. This is the one page any session (Claude, ChatGPT or other)
 | Chapter 7 | 7.3 matches Appendix C; 7.4 carries the whole list of limits, so the main chapters need not. | 14–15 Oct | Part D |
 | Words and money | One word per concept (README Vocabulary). US$ in running text at the World Bank rate. | 12 Oct | README |
 | Data | BPS and LSEG files are never shared or committed, only aggregates. No contact with BPS by email. Licensed scripts are not rerun in cloud sessions. | standing | Part B; `LICENSED_DATA.md` |
+| Empirical package | Built by `research/option_space_2026-10-01/build_empirical_package.py` (README template `empirical_package_README.md`) from tracked files only: code, tables, public inputs, registration, README, manifest. No licensed data. Two derived firm-level panels from licensed prices (`event_study_panel.csv`, `event_study_surprise_panel.csv`) are left out on purpose; the researcher may decide to include them. The researcher uploads it to Dropbox himself (no credentials in chat). Rebuild it after any change to the tables; 6.5 results and `m1_upgrade` results are not in the 24 Oct build. | 24 Oct | Log 24 Oct, "Empirical package" |
 
 ## 2. Open
 
