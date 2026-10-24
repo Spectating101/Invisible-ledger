@@ -1,56 +1,68 @@
-"""Writes docx_reference.docx, the style template of the condensed Word copy: A4, Times New Roman 10.5 pt, 1.08 spacing, centred page number,
-an "Equation" paragraph style with a centre and a right tab. Run: python3 make_docx_reference.py (needs pandoc and python-docx)."""
+"""Writes docx_reference.docx, the style template of the condensed Word copy. It copies the compact PDF (style.css and style_compact.css): A4, margins
+14 mm above and below and 15 mm at the sides, Source Serif 4 at 9.4 pt with exact 12.1 pt lines, justified text, 13.5 pt left-aligned chapter headings,
+a 12 pt title with a rule, a centred 8 pt page number, and an Equation style with a centre and a right tab. Run: python3 make_docx_reference.py"""
 import subprocess, docx
-from docx.shared import Pt, Cm, RGBColor
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
+from docx.shared import Pt, Mm, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT, WD_LINE_SPACING
 from docx.enum.style import WD_STYLE_TYPE
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 subprocess.run(["pandoc", "-o", "/tmp/ref_default.docx", "--print-default-data-file", "reference.docx"], check=True)
 d = docx.Document("/tmp/ref_default.docx")
 by = {s.name.lower(): s for s in d.styles}
-get = by.get
 sec = d.sections[0]
-sec.page_height, sec.page_width = Cm(29.7), Cm(21.0)
-sec.left_margin = sec.right_margin = Cm(2.2); sec.top_margin = Cm(2.2); sec.bottom_margin = Cm(2.0)
-TEXT_W = 21.0 - 4.4
-FONT = "Times New Roman"
-def setfont(st, size, bold=None, italic=None):
+sec.page_height, sec.page_width = Mm(297), Mm(210)
+sec.left_margin = sec.right_margin = Mm(15); sec.top_margin = sec.bottom_margin = Mm(14)
+sec.footer_distance = Mm(6)
+TEXT_W = 180.0
+FONT = "Source Serif 4"; INK = RGBColor(0x11, 0x11, 0x11)
+def setfont(st, size, bold=None, italic=None, color=INK):
     st.font.name = FONT
     rpr = st.element.get_or_add_rPr(); rf = rpr.find(qn("w:rFonts"))
     if rf is None: rf = OxmlElement("w:rFonts"); rpr.append(rf)
     for a in ("w:ascii", "w:hAnsi", "w:cs", "w:eastAsia"): rf.set(qn(a), FONT)
     for a in ("w:asciiTheme", "w:hAnsiTheme", "w:cstheme", "w:eastAsiaTheme"):
         if rf.get(qn(a)) is not None: del rf.attrib[qn(a)]
-    st.font.size = Pt(size); st.font.color.rgb = RGBColor(0, 0, 0)
+    st.font.size = Pt(size); st.font.color.rgb = color
     if bold is not None: st.font.bold = bold
     if italic is not None: st.font.italic = italic
-spec = {"normal": (10.5, None, None), "body text": (10.5, None, None), "first paragraph": (10.5, None, None), "compact": (10.5, None, None),
-        "block text": (10.5, None, None), "title": (17, True, None), "subtitle": (11.5, False, True), "author": (10.5, None, None), "date": (10.5, None, None),
-        "heading 1": (15, True, False), "heading 2": (12.5, True, False), "heading 3": (11, True, False), "heading 4": (10.5, True, False),
-        "table caption": (10, False, False), "image caption": (10, False, False), "caption": (10, False, False), "footnote text": (9.5, None, None)}
-for n, (sz, b, i) in spec.items():
-    if get(n) is not None: setfont(get(n), sz, b, i)
+def para(st, line=None, before=0, after=0, align=None, keep=None):
+    pf = st.paragraph_format
+    if line: pf.line_spacing_rule = WD_LINE_SPACING.EXACTLY; pf.line_spacing = Pt(line)
+    pf.space_before = Pt(before); pf.space_after = Pt(after)
+    if align is not None: pf.alignment = align
+    if keep: pf.keep_with_next = True
+J, L, C = WD_ALIGN_PARAGRAPH.JUSTIFY, WD_ALIGN_PARAGRAPH.LEFT, WD_ALIGN_PARAGRAPH.CENTER
+BODY = 9.4; LH = round(BODY * 1.285, 1)          # 12.1 pt, as the PDF's line-height 1.285
 for n in ("normal", "body text", "first paragraph"):
-    pf = get(n).paragraph_format
-    pf.line_spacing = 1.08; pf.space_after = Pt(4); pf.space_before = Pt(0); pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-get("compact").paragraph_format.space_after = Pt(1); get("compact").paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
-get("block text").paragraph_format.left_indent = Cm(0.8); get("block text").paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
-for n, b, a in (("heading 1", 14, 6), ("heading 2", 10, 3), ("heading 3", 6, 2)):
-    pf = get(n).paragraph_format; pf.space_before = Pt(b); pf.space_after = Pt(a); pf.keep_with_next = True
-for n in ("title", "subtitle", "author", "date"): get(n).paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    setfont(by[n], BODY); para(by[n], LH, 0, 3.9, J)
+setfont(by["compact"], BODY); para(by["compact"], LH, 0, 1.0, L)
+setfont(by["block text"], BODY); para(by["block text"], LH, 4.3, 5.7, L)
+by["block text"].paragraph_format.left_indent = Mm(8); by["block text"].paragraph_format.right_indent = Mm(8)
+setfont(by["title"], 12, True); para(by["title"], 15.6, 0, 2.8, L)
+setfont(by["subtitle"], 9, False, True); para(by["subtitle"], 11.6, 0, 11, L)
+pPr = by["subtitle"].element.get_or_add_pPr(); bdr = OxmlElement("w:pBdr"); b = OxmlElement("w:bottom")
+for k, v in (("val", "single"), ("sz", "6"), ("space", "6"), ("color", "999999")): b.set(qn("w:" + k), v)
+bdr.append(b); pPr.append(bdr)
+for n in ("author", "date"): setfont(by[n], 9); para(by[n], 11.6, 0, 1, L)
+setfont(by["heading 1"], 13.5, True, False); para(by["heading 1"], 17.6, 19.8, 8.5, L, True)
+setfont(by["heading 2"], 10.6, True, False); para(by["heading 2"], 13.6, 11.3, 2.8, L, True)
+setfont(by["heading 3"], 9.6, True, True); para(by["heading 3"], 12.3, 8.5, 2.8, L, True)
+setfont(by["heading 4"], 9.4, True, False); para(by["heading 4"], LH, 6, 2, L, True)
+for n in ("table caption", "image caption", "caption"):
+    if n in by: setfont(by[n], 8.8, False, False); para(by[n], 12.3, 7, 2.8, L)
+setfont(by["footnote text"], 8.4); para(by["footnote text"], 10.8, 0, 1, L)
 if "equation" not in by:
-    eq = d.styles.add_style("Equation", WD_STYLE_TYPE.PARAGRAPH); eq.base_style = get("normal")
+    eq = d.styles.add_style("Equation", WD_STYLE_TYPE.PARAGRAPH); eq.base_style = by["normal"]
 else: eq = by["equation"]
-setfont(eq, 10.5)
-pf = eq.paragraph_format; pf.alignment = WD_ALIGN_PARAGRAPH.LEFT; pf.space_before = Pt(4); pf.space_after = Pt(6); pf.keep_together = True
-pf.tab_stops.add_tab_stop(Cm(TEXT_W / 2), WD_TAB_ALIGNMENT.CENTER); pf.tab_stops.add_tab_stop(Cm(TEXT_W), WD_TAB_ALIGNMENT.RIGHT)
-p = sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph(); p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+setfont(eq, 9.6); para(eq, 12.3, 4.3, 5.7, L); eq.paragraph_format.keep_together = True
+eq.paragraph_format.tab_stops.add_tab_stop(Mm(TEXT_W / 2), WD_TAB_ALIGNMENT.CENTER); eq.paragraph_format.tab_stops.add_tab_stop(Mm(TEXT_W), WD_TAB_ALIGNMENT.RIGHT)
+p = sec.footer.paragraphs[0] if sec.footer.paragraphs else sec.footer.add_paragraph(); p.alignment = C
 r = p.add_run()
 for t, txt in (("begin", None), ("instr", " PAGE "), ("separate", None), ("text", "1"), ("end", None)):
     if t == "instr": el = OxmlElement("w:instrText"); el.set(qn("xml:space"), "preserve"); el.text = txt
     elif t == "text": el = OxmlElement("w:t"); el.text = txt
     else: el = OxmlElement("w:fldChar"); el.set(qn("w:fldCharType"), t)
     r._r.append(el)
-r.font.size = Pt(9); r.font.name = FONT
+r.font.size = Pt(8); r.font.name = FONT
 d.save("docx_reference.docx"); print("docx_reference.docx written")
