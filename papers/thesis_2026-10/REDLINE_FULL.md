@@ -2,21 +2,21 @@
 
 Prepared 25 October 2026. **BEFORE** = commit `a1f1af2` (the text sent to Prof. Kong, her Chapter 1 edits ported in). **AFTER** = the current text. This file contains **both complete texts in one stream**: unchanged text is printed as it is, ~~deleted~~ words are <del>struck through in red</del>, <ins>added words are underlined in blue</ins>, and whole paragraphs, tables, equations or figures that exist on one side only sit in a red (removed) or blue (added) box. Each changed block has an ID such as <span class="cid">C012</span>; the index below lists them all, with my reading of why each changed (my mapping to her comment items, not hers). Nothing here has been sent to her.
 
-**Totals.** 88 changed blocks, 62 added, 45 removed; about 3,574 words deleted and 7,579 added inside or between them.
+**Totals.** 89 changed blocks, 68 added, 45 removed; about 3,575 words deleted and 7,899 added inside or between them.
 
 | Part | Changed | Added | Removed | Words touched |
 |---|---:|---:|---:|---:|
 | Abstract | 1 | 0 | 0 | 34 |
 | Symbols and Abbreviations (page removed) | 0 | 0 | 5 | 403 |
 | Chapter 1. Introduction | 5 | 0 | 0 | 51 |
-| Chapter 2. Literature review | 2 | 0 | 3 | 282 |
-| Chapter 3. Framework and hypotheses | 13 | 13 | 13 | 1,725 |
-| Chapter 4. Data and methods | 14 | 8 | 11 | 1,460 |
-| Chapter 5. Results | 21 | 25 | 13 | 4,189 |
-| Chapter 6. Discussion and policy implications | 7 | 0 | 0 | 18 |
+| Chapter 2. Literature review | 3 | 0 | 3 | 303 |
+| Chapter 3. Framework and hypotheses | 13 | 13 | 13 | 1,730 |
+| Chapter 4. Data and methods | 14 | 8 | 11 | 1,467 |
+| Chapter 5. Results | 21 | 27 | 13 | 4,314 |
+| Chapter 6. Discussion and policy implications | 7 | 2 | 0 | 126 |
 | Chapter 7. Conclusion | 7 | 1 | 0 | 377 |
 | Appendices | 14 | 15 | 0 | 2,530 |
-| References | 4 | 0 | 0 | 84 |
+| References | 4 | 2 | 0 | 139 |
 
 ## Change index
 
@@ -33,190 +33,197 @@ Prepared 25 October 2026. **BEFORE** = commit `a1f1af2` (the text sent to Prof. 
 | C009 | changed | Chapter 1. Introduction | Chapter 1. Introduction | Abbreviations at first use (item 1, comment 23); comment 26; H1 result restated | There are three reasons why this thesis focuses on Indonesia. First, Indonesia allows the  |
 | C010 | changed | Chapter 1. Introduction | 1.1 Research question and objectives | Abbreviations at first use (item 1, comment 23); comment 26; H1 result restated | The analysis begins by measuring the invisible wedge. In 2023, three major platforms in In |
 | C011 | changed | Chapter 1. Introduction | 1.2 Contributions | Abbreviations at first use (item 1, comment 23); comment 26; H1 result restated | Third, for tax authorities and regulators, the thesis measures how far rules based on plat |
-| C012 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets t |
-| C013 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | **Table 2.1. What the literature establishes and where it stops** |
-| C014 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | [table] Section / What it establishes / Main sources / Where it stops |
-| C015 | changed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | The shortfalls identified in Sections 2.1 to 2.3 define the research gap, and each becomes |
-| C016 | changed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | 1. **How large is the difference between transaction value and revenue, and does it last?* |
-| C017 | changed | Chapter 3. Framework and hypotheses | Chapter 3. Framework and hypotheses | Chapter 3 restructure (items 2 and 4) | 1. **How large the difference between transaction value and revenue is, and whether it las |
-| C018 | added | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | Six terms recur throughout the thesis. Transaction value, V, is everything bought through  |
-| C019 | added | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | An online seller is a business that BPS counts as selling online; the text also calls it a |
-| C020 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in |
-| C021 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | **Table 3.1. Terms and symbols** |
-| C022 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | [table] Term / Symbol / Meaning |
-| C023 | changed | Chapter 3. Framework and hypotheses | 3.2 Three measures | Take-rate identity moved here; Table 9 cited as the example (item 2) | where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. |
-| C024 | added | Chapter 3. Framework and hypotheses | 3.2 Three measures | Take-rate identity moved here; Table 9 cited as the example (item 2) | The take rate itself has two parts: |
-| C025 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | ## 3.3 Tracing a movement |
-| C026 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | A large divergence calls for an explanation, and the same definitions supply it. Measured  |
-| C027 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] Δln R_it = Δln V_it + Δln m_it                        (5) |
-| C028 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | where Δln X is the change in the natural logarithm of X from one year to the next. The fir |
-| C029 | changed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] m_it = f_it − s_it                                    (5) |
-| C030 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | Equations (5) and (6) together divide a movement in revenue into more commerce, higher fee |
-| C031 | changed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | Equation (5) also shows where a rule acts. A cap on commissions acts on the fee rate, and  |
-| C032 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | ## 3.3 What changes the wedge and the ecosystem ratio |
-| C033 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | Equations (1) to (4) define the wedge and the ecosystem ratio. They do not say what moves  |
-| C034 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | Revenue grows in proportion to transaction value when a 1 percent rise in transaction valu |
-| C035 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] g(R_it) = a + b g(V_it) + c Indonesia_i + d (Indonesia_i × g |
-| C036 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | where Indonesia_i equals one for the Indonesian and regional platforms and zero for the fo |
-| C037 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | The second test regresses the wedge and the ecosystem ratio on the features of a platform  |
-| C038 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] Y_it = α + β1 Indonesia_i + β2 ln(1 + Listed_it) + β3 ln(Ass |
-| C039 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | where Y_it is the natural logarithm of the wedge in US dollars, or the ecosystem ratio. Li |
-| C040 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | The take rate and its parts do not appear on the right-hand side. The ecosystem ratio equa |
-| C041 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | Two hypotheses follow from the research question. H1 asks whether revenue follows the comm |
-| C042 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | **Table 3.2. Hypotheses, tests and what would count against them** |
-| C043 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [table] Test / What it asks / Main test / What would count against it |
-| C044 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | H1 is tested in two ways. The first is equation (6): revenue growth is regressed on transa |
-| C045 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | BPS publishes both the number of businesses selling online, N, and their total online sale |
-| C046 | added | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [equation] 1 + g(Y_t) = (1 + g(N_t)) × (1 + g(Y_t / N_t))               |
-| C047 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [equation] Δln Y_t = Δln N_t + Δln (Y_t / N_t)                   (7) |
-| C048 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | where g(N) is the growth in the number of businesses, the extensive margin, and g(Y/N) the |
-| C049 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | Four further analyses complete the framework without forming hypotheses of their own. Each |
-| C050 | removed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | **Table 3.3. Further analyses** |
-| C051 | removed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | [table] Analysis / What it asks / Main evidence |
-| C052 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | Tracing large movements asks what moved revenue when it parted from transaction value. Whe |
-| C053 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | The market-value analysis asks whether investors, who price revenue (Section 2.1), treat i |
-| C054 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | [equation] Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + erro |
-| C055 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | where β_V shows how market value moves with transaction value, and β_m how it moves with t |
-| C056 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Two groups of platforms are compared. The Indonesian and regional group has five platforms |
-| C057 | removed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | **Table 4.1. The Indonesian and regional group of platforms** |
-| C058 | removed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | [table] Platform series / What it covers / Years / Yearly pairs / How it is la |
-| C059 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Appendix B states the scope of each series because the series differ, and only Tokopedia i |
-| C060 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Two platforms sit close to that line. Zalando is one of the eight and sells part of what i |
-| C061 | added | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The test of H1 has two parts, run on the same 32 platforms: the five Indonesian and region |
-| C062 | added | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The first part is equation (6). Each observation is a pair of consecutive years of one pla |
-| C063 | removed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The test of H1 asks how far each platform's take rate moves from one year to the next. For |
-| C064 | changed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The second part asks how far each platform's take rate moves from one year to the next. Fo |
-| C065 | changed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | Appendix C lists the checks on this test. Some change the sample. They drop each platform  |
-| C066 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | ## 4.4 What explains the wedge and the ecosystem ratio |
-| C067 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Equation (7) is estimated on a panel of 213 platform-years for the same 32 platforms, 20 o |
-| C068 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Size is the platform's total assets, taken from annual reports filed with the US Securitie |
-| C069 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | The home market is the country of the platform's main market. It is the United States for  |
-| C070 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles across a |
-| C071 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | ## 4.4 Tracing the moves |
-| C072 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The second objective, to reconcile large movements in revenue with disclosed changes in fe |
-| C073 | changed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The second objective, to reconcile large movements in revenue with disclosed changes in fe |
-| C074 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The sources differ by company. Tokopedia's audited segment note gives gross revenue, incen |
-| C075 | changed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The sources differ by company. Tokopedia's audited segment note gives gross revenue, incen |
-| C076 | changed | Chapter 4. Data and methods | 4.5 Market values | LSEG spelled out; equation renumbered | The market-value analysis of Section 3.6 uses year-end market values from the data service |
-| C077 | changed | Chapter 4. Data and methods | 4.5 Market values | LSEG spelled out; equation renumbered | Equation (9) is estimated with a fixed effect for each year, which removes what all platfo |
-| C078 | changed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | H2 uses the published figures and the split of equation (8). BPS prints two counts of busi |
-| C079 | changed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | The published figures cannot tell a new seller from one counted for the first time, but th |
-| C080 | added | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | [^files]: The files hold 11,848, 31,724 and 39,736 rows. Each weighted total is within 0.1 |
-| C081 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | **Table 4.2. The three BPS survey files** |
-| C082 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | [table] Survey round / Activity year / Rows / Weighted total / BPS count |
-| C083 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | *Implied by the published count for 2023 and its published growth of 27.4 percent. |
-| C084 | changed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | The third objective, to compare the platform evidence with national and payment figures, r |
-| C085 | removed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | **Table 4.3. Sources compared in Objective 3** |
-| C086 | removed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | [table] Source / What it covers / How it counts |
-| C087 | changed | Chapter 4. Data and methods | 4.10 Labels, traceability and licensed data | Public inputs added | The thesis also separates tests by when they were written. A registered test was written d |
-| C088 | changed | Chapter 4. Data and methods | 4.10 Labels, traceability and licensed data | Public inputs added | The World Bank indicators, the Bank for International Settlements policy rates and the tot |
-| C089 | changed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | Every result in this chapter carries one of the three labels of Section 4.10: registered,  |
-| C090 | removed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | **Table 5.1. Main results and the evidence behind them** |
-| C091 | removed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | [table] Result / Label / Main checks / Section |
-| C092 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tok |
-| C093 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | **Table 5.1. The invisible wedge of three platforms, 2023 (US$ billion)** |
-| C094 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | The size of the wedge does not depend on the assumed rates. A take rate for Shopee between |
-| C095 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Revenue followed transaction value abroad and did not in Indonesia and the region, so the  |
-| C096 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.2. Summary statistics and correlations** |
-| C097 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | This table reports summary statistics and pairwise correlations for the panel of 213 platf |
-| C098 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Panel A. Summary statistics* |
-| C099 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Variable / Indonesian and regional /  /  /  / Foreign /  /  /  |
-| C100 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Panel B. Pairwise correlations* |
-| C101 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Variables / (1) / (2) / (3) / (4) / (5) / (6) / (7) / (8) / (9) |
-| C102 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* Inflation and household spending growth are left out of Panel B to fit the page; t |
-| C103 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Across all platforms, revenue growth and transaction value growth have a correlation of 0. |
-| C104 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Table 5.3 tests H1 in growth rates. Abroad, a rise of 1 percentage point in the growth of  |
-| C105 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.3. Revenue growth and transaction value growth** |
-| C106 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | This table reports OLS estimates of equation (6). The dependent variable is the growth of  |
-| C107 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] *Dependent variable* / g(R) / g(R) / g(R) |
-| C108 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* The slope on g(V) is 1 if revenue grows in proportion to transaction value. Source |
-| C109 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Revenue did not keep pace with transaction value at the Indonesian and regional platforms, |
-| C110 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.3. The test of H1** |
-| C111 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Test / Method / Indonesian and regional group / Foreign group / p-valu |
-| C112 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* Group values are medians of each platform's median yearly change. Appendix B lists |
-| C113 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The earlier test of the size of take-rate moves points the same way. At the typical Indone |
-| C114 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The test of the size of moves was set up after a first, narrower test, so it is explorator |
-| C115 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Both tests of the size of moves ask about their size, not their direction, and direction i |
-| C116 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Age does not explain the result. The Indonesian and regional platforms made their largest  |
-| C117 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The thin take rate of Indonesian and regional platforms explains much of the threefold dif |
-| C118 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The thin take rate of Indonesian and regional platforms explains much of the threefold dif |
-| C119 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [figure] figures/fig5_1_thin_slice.png |
-| C120 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. Pane |
-| C121 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | ## 5.3 What explains the wedge and the ecosystem ratio |
-| C122 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Size explains the wedge, and pricing explains the ecosystem ratio. Table 5.4 regresses eac |
-| C123 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | **Table 5.4. What explains the wedge and the ecosystem ratio** |
-| C124 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | This table reports OLS estimates of equation (7). The dependent variable is the natural lo |
-| C125 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | [table] *Dependent variable* / ln(Wedge) / ln(Wedge) / ln(Wedge) / Ecosystem r |
-| C126 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one |
-| C127 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The wedge scales with the size of the platform. A 1 percent rise in total assets goes with |
-| C128 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The ecosystem ratio is different. The Indonesian and regional platforms have a ratio 13 to |
-| C129 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The result for the Indonesian and regional platforms survives the checks of Appendix C. Th |
-| C130 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricin |
-| C131 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Where companies disclose both their fees and their incentives, equation (6) splits the gro |
-| C132 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | **Table 5.4. What moved revenue in seven Indonesian and regional windows (share of the gro |
-| C133 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | [table] Platform and window / Growth of revenue / More commerce / Higher fees  |
-| C134 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | *Note:* Shares are rounded, so a row can add to 99 or 101. Source: company filings; author |
-| C135 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The regression does not say how a platform moved its take rate. Company reports do, for th |
-| C136 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not re |
-| C137 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about |
-| C138 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The ecosystem ratio matters for three groups. For investors, a high ratio means that small |
-| C139 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | For sellers and drivers, a high ratio means that most of each sale goes to them and not to |
-| C140 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | For policy, the wedge is the base that revenue-based rules do not reach. A rule that acts  |
-| C141 | changed | Chapter 5. Results | 5.4 What markets valued | Equation renumbered | Across 28 listed platforms and 138 platform-years, market value moved with transaction val |
-| C142 | changed | Chapter 5. Results | 5.5 The platforms and the sellers in 2023 | Chapter 5 changes | **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars s |
-| C143 | changed | Chapter 5. Results | 5.6 H2 and the entry test | H2 restated in simple percentage change (item 4) | H2 holds on BPS's published figures, but the registered entry test shows that first-time e |
-| C144 | changed | Chapter 5. Results | 5.6 H2 and the entry test | H2 restated in simple percentage change (item 4) | H2 holds again from 2023 to 2024. Value grew by 17 percent, the number of businesses by 15 |
-| C145 | changed | Chapter 5. Results | 5.7 What the rise in the count contains | H2 coverage readings restated in simple percentage change (item 4) | H2 holds on the published series, but it sits right on its threshold once the extra count  |
-| C146 | changed | Chapter 5. Results | 5.10 Why the national figures disagree | QRIS spelled out (item 1) | In 2024 the figures divide by coverage. Those that cover mainly platforms grew by 5 to 7 p |
-| C147 | changed | Chapter 5. Results | 5.10 Why the national figures disagree | QRIS spelled out (item 1) | Payment figures grew faster than any of these from 2023 to 2024. E-money shopping grew by  |
-| C148 | changed | Chapter 6. Discussion and policy implications | 6.1 The rules and what each acts on | Equation renumbered; table reference; national identity number | [table] Rule / What it does / What it acts on / Measured in / Status of the te |
-| C149 | changed | Chapter 6. Discussion and policy implications | 6.1 The rules and what each acts on | Equation renumbered; table reference; national identity number | Equation (5) shows where the first two rules act. The take rate is the fee rate less the i |
-| C150 | changed | Chapter 6. Discussion and policy implications | 6.2 What the commission cap and the discount rule  | Equation renumbered; table reference; national identity number | The discount rule acts on the lever that moved take rates most often. Lower incentives wer |
-| C151 | changed | Chapter 6. Discussion and policy implications | 6.3 How far the marketplace tax reaches | Equation renumbered; table reference; national identity number | The record reaches further than the tax. Every domestic seller on a designated marketplace |
-| C152 | changed | Chapter 6. Discussion and policy implications | 6.5 What the registered predictions test | Equation renumbered; table reference; national identity number | *Note:* Ranges as registered; registration dates are in Appendix D. A tenth prediction, th |
-| C153 | changed | Chapter 6. Discussion and policy implications | 6.5 What the registered predictions test | Equation renumbered; table reference; national identity number | > **[Results slot]** To be written after the GoTo results (late October), the BPS national |
-| C154 | changed | Chapter 6. Discussion and policy implications | 6.6 Beyond Indonesia | Equation renumbered; table reference; national identity number | Commission caps have been tried elsewhere as well. Fourteen US cities and states capped th |
-| C155 | changed | Chapter 7. Conclusion | 7.1 The answer to the research question | Answer restated with the new tests | The answer to the second half differs by link. On the inner link, the choice of revenue ch |
-| C156 | changed | Chapter 7. Conclusion | 7.1 The answer to the research question | Answer restated with the new tests | On the outer link, H2 holds on BPS's published figures: more businesses account for most o |
-| C157 | changed | Chapter 7. Conclusion | 7.2 What the thesis adds | Investor implications restated (item 5) | For investors, the thesis adds a check that can be run on any platform that reports both a |
-| C158 | changed | Chapter 7. Conclusion | 7.3 Predictions that failed | Conclusion restated | Appendix D lists every registered test with its outcome. The predictions on the 2026 rules |
-| C159 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The invisible wedge is the part of each sale that a platform passes on to sellers, drivers |
-| C160 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The tests of H1 are one-sided, because each asks whether the Indonesian and regional group |
-| C161 | added | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The new regressions are exploratory and rest on few platforms. The growth test for Indones |
-| C162 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | Foreign platforms also differ in how they book shopper discounts. Eight of the 27 record t |
-| C163 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix A. Definition of variables |
-| C164 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### A.1 Variables |
-| C165 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Every variable and symbol used in the empirical analyses is listed with its definition and |
-| C166 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Variable / Definition / Source |
-| C167 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### A.2 Sources compared in Objective 3 |
-| C168 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Source / What it covers / How it counts |
-| C169 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix B. Platforms, windows and the wedge by year |
-| C170 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.1 The foreign group (27 platforms) |
-| C171 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platfor |
-| C172 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.2 The Indonesian and regional group |
-| C173 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Platform series / What it covers / Years / Yearly pairs / How it is la |
-| C174 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.3 The seven windows traced |
-| C175 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Shares are of the log growth of revenue, because the split into more commerce, higher fees |
-| C176 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.4 Wedge and ecosystem ratio by platform-year, Indonesian series |
-| C177 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.5 Classification of the platforms in the regressions |
-| C178 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The type, the main market and the listing year are the author's classification from public |
-| C179 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Platform / Group / Type / Main market / Reporting currency / Listed |
-| C180 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix C. The checks on the tests of H1 and on the regressions |
-| C181 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.1 The checks |
-| C182 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The main test is described in Section 5.2. This appendix keeps its first measure, the abso |
-| C183 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The four rows marked 22 Oct 2026 were added after all other results were known, so they ar |
-| C184 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.2 Where the 2023 break sits (exploratory) |
-| C185 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.3 Checks on the growth test and on the regressions (exploratory, 25 Oct 2026) |
-| C186 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The first table repeats the test of the size of take-rate moves with other measures of the |
-| C187 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Measure of the yearly change in the take rate / Indonesian and regiona |
-| C188 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Sample / Correlation, capped / Correlation, not capped / Rank correlat |
-| C189 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Check / Dependent variable / IndonesiaRegion / p / Wild-bootstrap p /  |
-| C190 | changed | Appendices | Appendix D. Registered tests and their outcomes | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix D. Registered tests and their outcomes |
-| C191 | changed | Appendices | Appendix E. The values behind Figures 5.3 to 5.5 | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix E. The values behind Figures 5.3 to 5.5 |
-| C192 | changed | References | References | Sources added or generalised | Bank for International Settlements. (2026). *Central bank policy rates* [Data set, WS_CBPO |
-| C193 | changed | References | References | Sources added or generalised | Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for i |
-| C194 | changed | References | References | Sources added or generalised | UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Natio |
-| C195 | changed | References | References | Sources added or generalised | World Bank. (2026). *World development indicators* [GDP growth, consumer-price inflation,  |
+| C012 | changed | Chapter 2. Literature review | 2.3 Digital records and third-party information | Table 1 dropped; gaps stated in the list (item 2) | Tax research explains why such records matter. Reports from third parties improve complian |
+| C013 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets t |
+| C014 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | **Table 2.1. What the literature establishes and where it stops** |
+| C015 | removed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | [table] Section / What it establishes / Main sources / Where it stops |
+| C016 | changed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | The shortfalls identified in Sections 2.1 to 2.3 define the research gap, and each becomes |
+| C017 | changed | Chapter 2. Literature review | 2.4 Research gap | Table 1 dropped; gaps stated in the list (item 2) | 1. **How large is the difference between transaction value and revenue, and does it last?* |
+| C018 | changed | Chapter 3. Framework and hypotheses | Chapter 3. Framework and hypotheses | Chapter 3 restructure (items 2 and 4) | 1. **How large the difference between transaction value and revenue is, and whether it las |
+| C019 | added | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | Six terms recur throughout the thesis. Transaction value, V, is everything bought through  |
+| C020 | added | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | An online seller is a business that BPS counts as selling online; the text also calls it a |
+| C021 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in |
+| C022 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | **Table 3.1. Terms and symbols** |
+| C023 | removed | Chapter 3. Framework and hypotheses | 3.1 Terms and rules for comparison | Table 2 (terms) became prose; symbols to Appendix A (items 1, 2) | [table] Term / Symbol / Meaning |
+| C024 | changed | Chapter 3. Framework and hypotheses | 3.2 Three measures | Take-rate identity moved here; Table 9 cited as the example (item 2) | where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. |
+| C025 | added | Chapter 3. Framework and hypotheses | 3.2 Three measures | Take-rate identity moved here; Table 9 cited as the example (item 2) | The take rate itself has two parts: |
+| C026 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | ## 3.3 Tracing a movement |
+| C027 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | A large divergence calls for an explanation, and the same definitions supply it. Measured  |
+| C028 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] Δln R_it = Δln V_it + Δln m_it                        (5) |
+| C029 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | where Δln X is the change in the natural logarithm of X from one year to the next. The fir |
+| C030 | changed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] m_it = f_it − s_it                                    (5) |
+| C031 | removed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | Equations (5) and (6) together divide a movement in revenue into more commerce, higher fee |
+| C032 | changed | Chapter 3. Framework and hypotheses | 3.3 Tracing a movement | Section 3.3 replaced by the direct tests (items 2 and 4) | Equation (5) also shows where a rule acts. A cap on commissions acts on the fee rate, and  |
+| C033 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | ## 3.3 What changes the wedge and the ecosystem ratio |
+| C034 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | Equations (1) to (4) define the wedge and the ecosystem ratio. They do not say what moves  |
+| C035 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | Revenue grows in proportion to transaction value when a 1 percent rise in transaction valu |
+| C036 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] g(R_it) = a + b g(V_it) + c Indonesia_i + d (Indonesia_i × g |
+| C037 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | where Indonesia_i equals one for the Indonesian and regional platforms and zero for the fo |
+| C038 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | The second test regresses the wedge and the ecosystem ratio on the features of a platform  |
+| C039 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | [equation] Y_it = α + β1 Indonesia_i + β2 ln(1 + Listed_it) + β3 ln(Ass |
+| C040 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | where Y_it is the natural logarithm of the wedge in US dollars, or the ecosystem ratio. Li |
+| C041 | added | Chapter 3. Framework and hypotheses | 3.3 What changes the wedge and the ecosystem ratio | Section 3.3 replaced by the direct tests (items 2 and 4) | The take rate and its parts do not appear on the right-hand side. The ecosystem ratio equa |
+| C042 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | Two hypotheses follow from the research question. H1 asks whether revenue follows the comm |
+| C043 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | **Table 3.2. Hypotheses, tests and what would count against them** |
+| C044 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [table] Test / What it asks / Main test / What would count against it |
+| C045 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | H1 is tested in two ways. The first is equation (6), an ordinary least squares (OLS) regre |
+| C046 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | BPS publishes both the number of businesses selling online, N, and their total online sale |
+| C047 | added | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [equation] 1 + g(Y_t) = (1 + g(N_t)) × (1 + g(Y_t / N_t))               |
+| C048 | removed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | [equation] Δln Y_t = Δln N_t + Δln (Y_t / N_t)                   (7) |
+| C049 | changed | Chapter 3. Framework and hypotheses | 3.4 Hypotheses | Hypotheses table dropped; H1 tests restated; H2 in simple growth (items 2 and 4) | where g(N) is the growth in the number of businesses, the extensive margin, and g(Y/N) the |
+| C050 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | Four further analyses complete the framework without forming hypotheses of their own. Each |
+| C051 | removed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | **Table 3.3. Further analyses** |
+| C052 | removed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | [table] Analysis / What it asks / Main evidence |
+| C053 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | Tracing large movements asks what moved revenue when it parted from transaction value. Whe |
+| C054 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | The market-value analysis asks whether investors, who price revenue (Section 2.1), treat i |
+| C055 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | [equation] Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + erro |
+| C056 | changed | Chapter 3. Framework and hypotheses | 3.6 Further analyses | Further-analyses table dropped; market-value test keeps its registered logs; equations renumbered | where β_V shows how market value moves with transaction value, and β_m how it moves with t |
+| C057 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Two groups of platforms are compared. The Indonesian and regional group has five platforms |
+| C058 | removed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | **Table 4.1. The Indonesian and regional group of platforms** |
+| C059 | removed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | [table] Platform series / What it covers / Years / Yearly pairs / How it is la |
+| C060 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Appendix B states the scope of each series because the series differ, and only Tokopedia i |
+| C061 | changed | Chapter 4. Data and methods | 4.1 The platform data | Table 4.1 moved to Appendix B (item 2) | Two platforms sit close to that line. Zalando is one of the eight and sells part of what i |
+| C062 | added | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The test of H1 has two parts, run on the same 32 platforms: the five Indonesian and region |
+| C063 | added | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The first part is equation (6). Each observation is a pair of consecutive years of one pla |
+| C064 | removed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The test of H1 asks how far each platform's take rate moves from one year to the next. For |
+| C065 | changed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | The second part asks how far each platform's take rate moves from one year to the next. Fo |
+| C066 | changed | Chapter 4. Data and methods | 4.3 Testing H1 | H1 tests: growth regression added; simple percentage change (item 4) | Appendix C lists the checks on this test. Some change the sample. They drop each platform  |
+| C067 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | ## 4.4 What explains the wedge and the ecosystem ratio |
+| C068 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Equation (7) is estimated on a panel of 213 platform-years for the same 32 platforms, 20 o |
+| C069 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Size is the platform's total assets, taken from annual reports filed with the US Securitie |
+| C070 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | The home market is the country of the platform's main market. It is the United States for  |
+| C071 | added | Chapter 4. Data and methods | 4.4 What explains the wedge and the ecosystem rati | New: data and variables of the regressions (item 4) | Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles across a |
+| C072 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | ## 4.4 Tracing the moves |
+| C073 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The second objective, to reconcile large movements in revenue with disclosed changes in fe |
+| C074 | changed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The second objective, to reconcile large movements in revenue with disclosed changes in fe |
+| C075 | removed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The sources differ by company. Tokopedia's audited segment note gives gross revenue, incen |
+| C076 | changed | Chapter 4. Data and methods | 4.4 Tracing the moves | New: data and variables of the regressions (item 4) | The sources differ by company. Tokopedia's audited segment note gives gross revenue, incen |
+| C077 | changed | Chapter 4. Data and methods | 4.5 Market values | LSEG spelled out; equation renumbered | The market-value analysis of Section 3.6 uses year-end market values from the data service |
+| C078 | changed | Chapter 4. Data and methods | 4.5 Market values | LSEG spelled out; equation renumbered | Equation (9) is estimated with a fixed effect for each year, which removes what all platfo |
+| C079 | changed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | H2 uses the published figures and the split of equation (8). BPS prints two counts of busi |
+| C080 | changed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | The published figures cannot tell a new seller from one counted for the first time, but th |
+| C081 | added | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | [^files]: The files hold 11,848, 31,724 and 39,736 rows. Each weighted total is within 0.1 |
+| C082 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | **Table 4.2. The three BPS survey files** |
+| C083 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | [table] Survey round / Activity year / Rows / Weighted total / BPS count |
+| C084 | removed | Chapter 4. Data and methods | 4.6 The survey files and H2 | Table 4.2 became a footnote (item 2); equation renumbered | *Implied by the published count for 2023 and its published growth of 27.4 percent. |
+| C085 | changed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | The third objective, to compare the platform evidence with national and payment figures, r |
+| C086 | removed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | **Table 4.3. Sources compared in Objective 3** |
+| C087 | removed | Chapter 4. Data and methods | 4.9 Comparing national figures | Table 4.3 moved to Appendix A (item 2) | [table] Source / What it covers / How it counts |
+| C088 | changed | Chapter 4. Data and methods | 4.10 Labels, traceability and licensed data | Public inputs added | The thesis also separates tests by when they were written. A registered test was written d |
+| C089 | changed | Chapter 4. Data and methods | 4.10 Labels, traceability and licensed data | Public inputs added | The World Bank indicators, the Bank for International Settlements policy rates and the tot |
+| C090 | changed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | Every result in this chapter carries one of the three labels of Section 4.10: registered,  |
+| C091 | removed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | **Table 5.1. Main results and the evidence behind them** |
+| C092 | removed | Chapter 5. Results | Chapter 5. Results | Table 5.1 dropped (item 2); wedge table renumbered | [table] Result / Label / Main checks / Section |
+| C093 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tok |
+| C094 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | **Table 5.1. The invisible wedge of three platforms, 2023 (US$ billion)** |
+| C095 | added | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | This table reports transaction value, revenue, the wedge (transaction value less revenue)  |
+| C096 | changed | Chapter 5. Results | 5.1 How much revenue leaves out | Wedge table renumbered; table caption | The size of the wedge does not depend on the assumed rates. A take rate for Shopee between |
+| C097 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Revenue followed transaction value abroad and did not in Indonesia and the region, so the  |
+| C098 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.2. Summary statistics and correlations** |
+| C099 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | This table reports summary statistics and pairwise correlations for the panel of 213 platf |
+| C100 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Panel A. Summary statistics* |
+| C101 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Variable / Indonesian and regional /  /  /  / Foreign /  /  /  |
+| C102 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Panel B. Pairwise correlations* |
+| C103 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Variables / (1) / (2) / (3) / (4) / (5) / (6) / (7) / (8) / (9) |
+| C104 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* Inflation and household spending growth are left out of Panel B to fit the page; t |
+| C105 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Across all platforms, revenue growth and transaction value growth have a correlation of 0. |
+| C106 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Table 5.3 tests H1 in growth rates. Abroad, a rise of 1 percentage point in the growth of  |
+| C107 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.3. Revenue growth and transaction value growth** |
+| C108 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | This table reports OLS estimates of equation (6). The dependent variable is the growth of  |
+| C109 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] *Dependent variable* / g(R) / g(R) / g(R) |
+| C110 | added | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* The slope on g(V) is 1 if revenue grows in proportion to transaction value. Source |
+| C111 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Revenue did not keep pace with transaction value at the Indonesian and regional platforms, |
+| C112 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Table 5.3. The test of H1** |
+| C113 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [table] Test / Method / Indonesian and regional group / Foreign group / p-valu |
+| C114 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | *Note:* Group values are medians of each platform's median yearly change. Appendix B lists |
+| C115 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The earlier test of the size of take-rate moves points the same way. At the typical Indone |
+| C116 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The test of the size of moves was set up after a first, narrower test, so it is explorator |
+| C117 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Both tests of the size of moves ask about their size, not their direction, and direction i |
+| C118 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | Age does not explain the result. The Indonesian and regional platforms made their largest  |
+| C119 | removed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The thin take rate of Indonesian and regional platforms explains much of the threefold dif |
+| C120 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | The thin take rate of Indonesian and regional platforms explains much of the threefold dif |
+| C121 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | [figure] figures/fig5_1_thin_slice.png |
+| C122 | changed | Chapter 5. Results | 5.2 Testing H1 | Summary statistics, correlations and the H1 growth test (item 4); Figure panels (item 2) | **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. Pane |
+| C123 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | ## 5.3 What explains the wedge and the ecosystem ratio |
+| C124 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Size explains the wedge, and pricing explains the ecosystem ratio. Table 5.4 regresses eac |
+| C125 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | **Table 5.4. What explains the wedge and the ecosystem ratio** |
+| C126 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | This table reports OLS estimates of equation (7). The dependent variable is the natural lo |
+| C127 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | [table] *Dependent variable* / ln(Wedge) / ln(Wedge) / ln(Wedge) / Ecosystem r |
+| C128 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one |
+| C129 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The wedge scales with the size of the platform. A 1 percent rise in total assets goes with |
+| C130 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The ecosystem ratio is different. The Indonesian and regional platforms have a ratio 13 to |
+| C131 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The result for the Indonesian and regional platforms survives the checks of Appendix C. Th |
+| C132 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricin |
+| C133 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Where companies disclose both their fees and their incentives, equation (6) splits the gro |
+| C134 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | **Table 5.4. What moved revenue in seven Indonesian and regional windows (share of the gro |
+| C135 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | [table] Platform and window / Growth of revenue / More commerce / Higher fees  |
+| C136 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | *Note:* Shares are rounded, so a row can add to 99 or 101. Source: company filings; author |
+| C137 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The regression does not say how a platform moved its take rate. Company reports do, for th |
+| C138 | removed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not re |
+| C139 | changed | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about |
+| C140 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | The ecosystem ratio matters for three groups. For investors, a high ratio means that small |
+| C141 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | For sellers and drivers, a high ratio means that most of each sale goes to them and not to |
+| C142 | added | Chapter 5. Results | 5.3 What explains the wedge and the ecosystem rati | OLS of the wedge and the ecosystem ratio; economic implications (items 4 and 5) | For policy, the wedge is the base that revenue-based rules do not reach. A rule that acts  |
+| C143 | changed | Chapter 5. Results | 5.4 What markets valued | Equation renumbered | Across 28 listed platforms and 138 platform-years, market value moved with transaction val |
+| C144 | changed | Chapter 5. Results | 5.5 The platforms and the sellers in 2023 | Chapter 5 changes | **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars s |
+| C145 | changed | Chapter 5. Results | 5.6 H2 and the entry test | H2 restated in simple percentage change (item 4) | H2 holds on BPS's published figures, but the registered entry test shows that first-time e |
+| C146 | changed | Chapter 5. Results | 5.6 H2 and the entry test | H2 restated in simple percentage change (item 4) | H2 holds again from 2023 to 2024. Value grew by 17 percent, the number of businesses by 15 |
+| C147 | added | Chapter 5. Results | 5.7 What the rise in the count contains | H2 coverage readings restated in simple percentage change (item 4) | This table splits the rise in the number of online sellers between the weighted totals of  |
+| C148 | changed | Chapter 5. Results | 5.7 What the rise in the count contains | H2 coverage readings restated in simple percentage change (item 4) | H2 holds on the published series, but it sits right on its threshold once the extra count  |
+| C149 | changed | Chapter 5. Results | 5.10 Why the national figures disagree | QRIS spelled out (item 1) | In 2024 the figures divide by coverage. Those that cover mainly platforms grew by 5 to 7 p |
+| C150 | changed | Chapter 5. Results | 5.10 Why the national figures disagree | QRIS spelled out (item 1) | Payment figures grew faster than any of these from 2023 to 2024. E-money shopping grew by  |
+| C151 | added | Chapter 6. Discussion and policy implications | 6.1 The rules and what each acts on | Equation renumbered; table reference; national identity number | This table lists each recent Indonesian rule that bears on the figures in Chapters 4 and 5 |
+| C152 | changed | Chapter 6. Discussion and policy implications | 6.1 The rules and what each acts on | Equation renumbered; table reference; national identity number | [table] Rule / What it does / What it acts on / Measured in / Status of the te |
+| C153 | changed | Chapter 6. Discussion and policy implications | 6.1 The rules and what each acts on | Equation renumbered; table reference; national identity number | Equation (5) shows where the first two rules act. The take rate is the fee rate less the i |
+| C154 | changed | Chapter 6. Discussion and policy implications | 6.2 What the commission cap and the discount rule  | Equation renumbered; table reference; national identity number | The discount rule acts on the lever that moved take rates most often. Lower incentives wer |
+| C155 | changed | Chapter 6. Discussion and policy implications | 6.3 How far the marketplace tax reaches | Equation renumbered; table reference; national identity number | The record reaches further than the tax. Every domestic seller on a designated marketplace |
+| C156 | added | Chapter 6. Discussion and policy implications | 6.5 What the registered predictions test | Equation renumbered; table reference; national identity number | This table lists the registered predictions on the 2026 rules. For each prediction it give |
+| C157 | changed | Chapter 6. Discussion and policy implications | 6.5 What the registered predictions test | Equation renumbered; table reference; national identity number | *Note:* Ranges as registered; registration dates are in Appendix D. A tenth prediction, th |
+| C158 | changed | Chapter 6. Discussion and policy implications | 6.5 What the registered predictions test | Equation renumbered; table reference; national identity number | > **[Results slot]** To be written after the GoTo results (late October), the BPS national |
+| C159 | changed | Chapter 6. Discussion and policy implications | 6.6 Beyond Indonesia | Equation renumbered; table reference; national identity number | Commission caps have been tried elsewhere as well. Fourteen US cities and states capped th |
+| C160 | changed | Chapter 7. Conclusion | 7.1 The answer to the research question | Answer restated with the new tests | The answer to the second half differs by link. On the inner link, the choice of revenue ch |
+| C161 | changed | Chapter 7. Conclusion | 7.1 The answer to the research question | Answer restated with the new tests | On the outer link, H2 holds on BPS's published figures: more businesses account for most o |
+| C162 | changed | Chapter 7. Conclusion | 7.2 What the thesis adds | Investor implications restated (item 5) | For investors, the thesis adds a check that can be run on any platform that reports both a |
+| C163 | changed | Chapter 7. Conclusion | 7.3 Predictions that failed | Conclusion restated | Appendix D lists every registered test with its outcome. The predictions on the 2026 rules |
+| C164 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The invisible wedge is the part of each sale that a platform passes on to sellers, drivers |
+| C165 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The tests of H1 are one-sided, because each asks whether the Indonesian and regional group |
+| C166 | added | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | The new regressions are exploratory and rest on few platforms. The growth test for Indones |
+| C167 | changed | Chapter 7. Conclusion | 7.4 Limits of the evidence | Limits of the new tests added | Foreign platforms also differ in how they book shopper discounts. Eight of the 27 record t |
+| C168 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix A. Definition of variables |
+| C169 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### A.1 Variables |
+| C170 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Every variable and symbol used in the empirical analyses is listed with its definition and |
+| C171 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Variable / Definition / Source |
+| C172 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### A.2 Sources compared in Objective 3 |
+| C173 | added | Appendices | Appendix A. Definition of variables | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Source / What it covers / How it counts |
+| C174 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix B. Platforms, windows and the wedge by year |
+| C175 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.1 The foreign group (27 platforms) |
+| C176 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platfor |
+| C177 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.2 The Indonesian and regional group |
+| C178 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Platform series / What it covers / Years / Yearly pairs / How it is la |
+| C179 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.3 The seven windows traced |
+| C180 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | Shares are of the log growth of revenue, because the split into more commerce, higher fees |
+| C181 | changed | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.4 Wedge and ecosystem ratio by platform-year, Indonesian series |
+| C182 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### B.5 Classification of the platforms in the regressions |
+| C183 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The type, the main market and the listing year are the author's classification from public |
+| C184 | added | Appendices | Appendix B. Platforms, windows and the wedge by ye | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Platform / Group / Type / Main market / Reporting currency / Listed |
+| C185 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix C. The checks on the tests of H1 and on the regressions |
+| C186 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.1 The checks |
+| C187 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The main test is described in Section 5.2. This appendix keeps its first measure, the abso |
+| C188 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The four rows marked 22 Oct 2026 were added after all other results were known, so they ar |
+| C189 | changed | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.2 Where the 2023 break sits (exploratory) |
+| C190 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ### C.3 Checks on the growth test and on the regressions (exploratory, 25 Oct 2026) |
+| C191 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | The first table repeats the test of the size of take-rate moves with other measures of the |
+| C192 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Measure of the yearly change in the take rate / Indonesian and regiona |
+| C193 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Sample / Correlation, capped / Correlation, not capped / Rank correlat |
+| C194 | added | Appendices | Appendix C. The checks on the tests of H1 and on t | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | [table] Check / Dependent variable / IndonesiaRegion / p / Wild-bootstrap p /  |
+| C195 | changed | Appendices | Appendix D. Registered tests and their outcomes | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix D. Registered tests and their outcomes |
+| C196 | changed | Appendices | Appendix E. The values behind Figures 5.3 to 5.5 | New Appendix A (variables), relettering A to B, B.5, C.3 (items 1, 3) | ## Appendix E. The values behind Figures 5.3 to 5.5 |
+| C197 | changed | References | References | Sources added or generalised | Bank for International Settlements. (2026). *Central bank policy rates* [Data set, WS_CBPO |
+| C198 | added | References | References | Sources added or generalised | Barrios, J. M., Hochberg, Y. V., & Yi, H. (2022). Launching with a parachute: The gig econ |
+| C199 | changed | References | References | Sources added or generalised | Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for i |
+| C200 | added | References | References | Sources added or generalised | Denes, M. R., Lagaras, S., & Tsoutsoura, M. (2025). Entrepreneurship and the gig economy:  |
+| C201 | changed | References | References | Sources added or generalised | UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Natio |
+| C202 | changed | References | References | Sources added or generalised | World Bank. (2026). *World development indicators* [GDP growth, consumer-price inflation,  |
 
 <div class="pagebreak"></div>
 
@@ -371,22 +378,22 @@ The growth split has its own difficulty, because it rests on a count of sellers.
 
 A platform records every sale it carries: who sold what, to whom, for how much and when. Governments have begun to use these records for tax. The OECD, a group of mostly high-income countries, set out model rules under which platforms report what their sellers earn (OECD 2020). The European Union applies these rules through its DAC7 directive (European Union 2021). Indonesia goes further and requires marketplaces to collect tax from their sellers (Ministry of Finance of the Republic of Indonesia 2025).
 
-Tax research explains why such records matter. Reports from third parties improve compliance. In Denmark, evasion was close to zero on income that employers and banks reported, and substantial on income that taxpayers reported themselves (Kleven et al. 2011). In Chile, the paper trail of the value-added tax deters evasion, and enforcement spreads up the supply chain (Pomeranz 2015). In Brazil, rewards for asking for receipts raised the sales that firms reported (Naritomi 2019). Digital records can also hold information that conventional records lack (Berg, Burg, Gombovic and Puri 2020).
+<span class="cid">C012</span> Tax research explains why such records matter. Reports from third parties improve compliance. In Denmark, evasion was close to zero on income that employers and banks reported, and substantial on income that taxpayers reported themselves (Kleven et al. 2011). In Chile, the paper trail of the value-added tax deters evasion, and enforcement spreads up the supply chain (Pomeranz 2015). In Brazil, rewards for asking for receipts raised the sales that firms reported (Naritomi 2019). Digital records can also hold information that conventional records lack (Berg, Burg, Gombovic and Puri <del>2020).</del> <ins>2020), and platform-mediated activity can create traces outside conventional records (Barrios, Hochberg and Yi 2022; Denes, Lagaras and Tsoutsoura 2025).</ins>
 
 Tax research shows that platform records are valuable where they exist. Its evidence comes from settings where a third party already sees the transaction, such as an employer paying wages or a firm buying from another firm. Online selling differs, because many sellers trade through messaging apps and social media, where no marketplace records the sale (BPS 2025a). How far a rule built on platform records can reach depends on how much selling happens on platforms. The studies reviewed here do not estimate that share for Indonesia.
 
 ## 2.4 Research gap
 
 ::: {.del}
-<span class="cid">C012</span> The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets them side by side.
+<span class="cid">C013</span> The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets them side by side.
 :::
 
 ::: {.del}
-<span class="cid">C013</span> **Table 2.1. What the literature establishes and where it stops**
+<span class="cid">C014</span> **Table 2.1. What the literature establishes and where it stops**
 :::
 
 ::: {.del}
-<span class="cid">C014</span> *removed*
+<span class="cid">C015</span> *removed*
 
 | Section | What it establishes | Main sources | Where it stops |
 |---|---|---|---|
@@ -395,9 +402,9 @@ Tax research shows that platform records are valuable where they exist. Its evid
 | 2.3 Third-party information | Platform records show sales, and third-party reports improve compliance | Kleven et al. 2011; OECD 2020 | How much of online selling platform records cover has not been estimated for Indonesia |
 :::
 
-<span class="cid">C015</span> <del>Each shortfall</del> <ins>The shortfalls identified in Sections 2.1 to 2.3 define the research gap, and each</ins> becomes one question for the <del>thesis, and</del> <ins>thesis.</ins> Chapter 3 sets out the tools that answer each.
+<span class="cid">C016</span> <del>Each shortfall</del> <ins>The shortfalls identified in Sections 2.1 to 2.3 define the research gap, and each</ins> becomes one question for the <del>thesis, and</del> <ins>thesis.</ins> Chapter 3 sets out the tools that answer each.
 
-<span class="cid">C016</span>
+<span class="cid">C017</span>
 
 1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1. It explains why the share is small and can move, but <del>it does not test</del> whether <ins>reported</ins> revenue stays a fair guide to <del>the commerce.</del> <ins>reported transaction value has not been tested, least of all for Indonesian platforms.</ins>
 2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2. It shows that figures differ, but <del>it does</del> <ins>platform and national figures have</ins> not <del>test whether they grow for the same reasons, or</del> <ins>been followed through time in one country, and published totals cannot show</ins> what a rise in the count of sellers contains.
@@ -422,7 +429,7 @@ Figure 3.1 places the three quantities inside one another. Revenue sits inside p
 
 The research question asks how much activity remains invisible when platforms are measured through revenue, and when that choice changes the conclusion about growth. The literature leaves three parts of it open (Section 2.4). The framework answers each with its own tools:
 
-<span class="cid">C017</span>
+<span class="cid">C018</span>
 
 1. **How large the difference between transaction value and revenue is, and whether it lasts:** three measures, <del>a split</del> <ins>direct tests</ins> of <del>revenue growth,</del> <ins>what changes them,</ins> and H1 (Sections 3.2 to 3.4).
 2. **Whether the choice of figure changes the conclusion about growth:** H2, the entry test and a comparison of national figures (Sections 3.4 to 3.6).
@@ -433,23 +440,23 @@ The three objectives set in Chapter 1 sit inside this map. Measuring the wedge a
 ## 3.1 Terms and rules for comparison
 
 ::: {.ins}
-<span class="cid">C018</span> Six terms recur throughout the thesis. Transaction value, V, is everything bought through a platform in a period, also called the commerce the platform carries. Companies call it gross merchandise value (GMV), gross transaction value (GTV) or total payment volume (TPV); the thesis treats these as one measure and notes where a company's scope differs. Revenue, R, is what the platform recognizes as its own income in its accounts. The take rate, m, is revenue divided by transaction value: the share of each sale that the platform keeps. Customer incentives are the discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line.
+<span class="cid">C019</span> Six terms recur throughout the thesis. Transaction value, V, is everything bought through a platform in a period, also called the commerce the platform carries. Companies call it gross merchandise value (GMV), gross transaction value (GTV) or total payment volume (TPV); the thesis treats these as one measure and notes where a company's scope differs. Revenue, R, is what the platform recognizes as its own income in its accounts. The take rate, m, is revenue divided by transaction value: the share of each sale that the platform keeps. Customer incentives are the discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line.
 :::
 
 ::: {.ins}
-<span class="cid">C019</span> An online seller is a business that BPS counts as selling online; the text also calls it a seller or a business. The count of online sellers is BPS's estimate of how many there are in a year. First-time entry means that a seller began selling online in the year being measured. The measures built from these terms are defined in Section 3.2, and Appendix A lists every variable with its symbol, definition and source.
+<span class="cid">C020</span> An online seller is a business that BPS counts as selling online; the text also calls it a seller or a business. The count of online sellers is BPS's estimate of how many there are in a year. First-time entry means that a seller began selling online in the year being measured. The measures built from these terms are defined in Section 3.2, and Appendix A lists every variable with its symbol, definition and source.
 :::
 
 ::: {.del}
-<span class="cid">C020</span> Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in the formulas.
+<span class="cid">C021</span> Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in the formulas.
 :::
 
 ::: {.del}
-<span class="cid">C021</span> **Table 3.1. Terms and symbols**
+<span class="cid">C022</span> **Table 3.1. Terms and symbols**
 :::
 
 ::: {.del}
-<span class="cid">C022</span> *removed*
+<span class="cid">C023</span> *removed*
 
 | Term | Symbol | Meaning |
 |---|---|---|
@@ -491,7 +498,7 @@ To compare platforms of different size, the thesis also expresses the wedge rela
 E_it = W_it / R_it = 1 / m_it − 1                     (2)
 ```
 
-<span class="cid">C023</span> where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale. <ins>Table 5.1 applies the measures to three platforms in Indonesia in 2023, where the wedge is about US$40 billion and the ecosystem ratio about 13.</ins>
+<span class="cid">C024</span> where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale. <ins>Table 5.1 applies the measures to three platforms in Indonesia in 2023, where the wedge is about US$40 billion and the ecosystem ratio about 13.</ins>
 
 A single ratio does not show whether the relationship holds over time, so the thesis defines growth divergence:
 
@@ -516,19 +523,19 @@ The ecosystem ratio also governs how far a change in the take rate moves revenue
 A platform that keeps 2 percent of each sale has an ecosystem ratio of 49. If its transaction value is flat, a rise in its take rate to 3 percent raises its revenue by 50 percent. A platform that keeps 17 percent has an ecosystem ratio near 5, and a rise to 18 percent raises its revenue by about 6 percent. So a large ecosystem ratio means that ordinary changes in fees or discounts can produce large swings in reported revenue growth.
 
 ::: {.ins}
-<span class="cid">C024</span> The take rate itself has two parts:
+<span class="cid">C025</span> The take rate itself has two parts:
 :::
 
 ::: {.del}
-<span class="cid">C025</span> ## 3.3 Tracing a movement
+<span class="cid">C026</span> ## 3.3 Tracing a movement
 :::
 
 ::: {.del}
-<span class="cid">C026</span> A large divergence calls for an explanation, and the same definitions supply it. Measured in logarithms, the growth of revenue splits exactly into the growth of transaction value and the change in the take rate:
+<span class="cid">C027</span> A large divergence calls for an explanation, and the same definitions supply it. Measured in logarithms, the growth of revenue splits exactly into the growth of transaction value and the change in the take rate:
 :::
 
 ::: {.del}
-<span class="cid">C027</span> *removed*
+<span class="cid">C028</span> *removed*
 
 ```
 Δln R_it = Δln V_it + Δln m_it                        (5)
@@ -536,10 +543,10 @@ A platform that keeps 2 percent of each sale has an ecosystem ratio of 49. If it
 :::
 
 ::: {.del}
-<span class="cid">C028</span> where Δln X is the change in the natural logarithm of X from one year to the next. The first term is the volume effect, more or less commerce. The second is the take-rate effect, a larger or smaller share of each sale. A log change treats a rise and a fall by the same factor as equal in size, so the two effects can be compared directly. The take rate itself has two parts:
+<span class="cid">C029</span> where Δln X is the change in the natural logarithm of X from one year to the next. The first term is the volume effect, more or less commerce. The second is the take-rate effect, a larger or smaller share of each sale. A log change treats a rise and a fall by the same factor as equal in size, so the two effects can be compared directly. The take rate itself has two parts:
 :::
 
-<span class="cid">C029</span> *equation changed*
+<span class="cid">C030</span> *equation changed*
 
 <pre class="cdiff">  ```
 - m_it = f_it − s_it                                    (6)
@@ -549,25 +556,25 @@ A platform that keeps 2 percent of each sale has an ecosystem ratio of 49. If it
 where f_it is the fee rate and s_it the incentive rate, both measured against transaction value. A take rate can rise because a platform charges more or because it spends less on discounts and vouchers. Accounting rules normally deduct such incentives from revenue (International Accounting Standards Board 2014). So a cut in incentives raises revenue even when no fee changes.
 
 ::: {.del}
-<span class="cid">C030</span> Equations (5) and (6) together divide a movement in revenue into more commerce, higher fees and lower incentives. A change in the mix of a company's businesses is a further source, read from its reports where they describe one. The split shows how a movement happened. It does not show why the company chose it, and company explanations are read as reports.
+<span class="cid">C031</span> Equations (5) and (6) together divide a movement in revenue into more commerce, higher fees and lower incentives. A change in the mix of a company's businesses is a further source, read from its reports where they describe one. The split shows how a movement happened. It does not show why the company chose it, and company explanations are read as reports.
 :::
 
-<span class="cid">C031</span> Equation <del>(6)</del> <ins>(5)</ins> also shows where a rule acts. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate. Chapter 6 sets Indonesia's recent rules against these parts of the take rate.
+<span class="cid">C032</span> Equation <del>(6)</del> <ins>(5)</ins> also shows where a rule acts. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate. Chapter 6 sets Indonesia's recent rules against these parts of the take rate.
 
 ::: {.ins}
-<span class="cid">C032</span> ## 3.3 What changes the wedge and the ecosystem ratio
-:::
-
-::: {.ins}
-<span class="cid">C033</span> Equations (1) to (4) define the wedge and the ecosystem ratio. They do not say what moves them. Two direct tests do, and Chapter 5 reports both. The first tests whether revenue grows in proportion to transaction value, the claim of H1. The second asks what explains the size of the wedge and of the ecosystem ratio across platforms.
+<span class="cid">C033</span> ## 3.3 What changes the wedge and the ecosystem ratio
 :::
 
 ::: {.ins}
-<span class="cid">C034</span> Revenue grows in proportion to transaction value when a 1 percent rise in transaction value comes with a 1 percent rise in revenue. That claim can be tested in growth rates, with g(·) as defined above:
+<span class="cid">C034</span> Equations (1) to (4) define the wedge and the ecosystem ratio. They do not say what moves them. Two direct tests do, and Chapter 5 reports both. The first tests whether revenue grows in proportion to transaction value, the claim of H1. The second asks what explains the size of the wedge and of the ecosystem ratio across platforms.
 :::
 
 ::: {.ins}
-<span class="cid">C035</span> *added*
+<span class="cid">C035</span> Revenue grows in proportion to transaction value when a 1 percent rise in transaction value comes with a 1 percent rise in revenue. That claim can be tested in growth rates, with g(·) as defined above:
+:::
+
+::: {.ins}
+<span class="cid">C036</span> *added*
 
 ```
 g(R_it) = a + b g(V_it) + c Indonesia_i + d (Indonesia_i × g(V_it)) + u_it        (6)
@@ -575,15 +582,15 @@ g(R_it) = a + b g(V_it) + c Indonesia_i + d (Indonesia_i × g(V_it)) + u_it     
 :::
 
 ::: {.ins}
-<span class="cid">C036</span> where Indonesia_i equals one for the Indonesian and regional platforms and zero for the foreign ones. If revenue is proportional to transaction value, b equals 1, a is close to zero, and the group does not matter, so c and d are zero. A slope below 1 in the Indonesian and regional group would mean that revenue moved with the platform's pricing and not with the commerce. The correlation between the two growth rates, which Chapter 5 reports for each group, gives the same test in one number.
+<span class="cid">C037</span> where Indonesia_i equals one for the Indonesian and regional platforms and zero for the foreign ones. If revenue is proportional to transaction value, b equals 1, a is close to zero, and the group does not matter, so c and d are zero. A slope below 1 in the Indonesian and regional group would mean that revenue moved with the platform's pricing and not with the commerce. The correlation between the two growth rates, which Chapter 5 reports for each group, gives the same test in one number.
 :::
 
 ::: {.ins}
-<span class="cid">C037</span> The second test regresses the wedge and the ecosystem ratio on the features of a platform and of its home market:
+<span class="cid">C038</span> The second test regresses the wedge and the ecosystem ratio on the features of a platform and of its home market:
 :::
 
 ::: {.ins}
-<span class="cid">C038</span> *added*
+<span class="cid">C039</span> *added*
 
 ```
 Y_it = α + β1 Indonesia_i + β2 ln(1 + Listed_it) + β3 ln(Assets_it) + β4′ Type_i + γ′ Macro_it + δ_t + ε_it        (7)
@@ -591,23 +598,23 @@ Y_it = α + β1 Indonesia_i + β2 ln(1 + Listed_it) + β3 ln(Assets_it) + β4′
 :::
 
 ::: {.ins}
-<span class="cid">C039</span> where Y_it is the natural logarithm of the wedge in US dollars, or the ecosystem ratio. Listed_it is the number of years since the platform listed on a stock exchange. Assets_it is its total assets in US dollars, which measure size without using transaction value, because transaction value is part of the wedge itself. Type_i marks the kind of platform: marketplace, which is the base, on-demand, travel, freelance or resale. Macro_it holds four measures of the platform's home market: growth in gross domestic product (GDP), consumer-price inflation, growth in household spending and the central bank's policy rate. The year effects δ_t remove what all platforms share in a year.
+<span class="cid">C040</span> where Y_it is the natural logarithm of the wedge in US dollars, or the ecosystem ratio. Listed_it is the number of years since the platform listed on a stock exchange. Assets_it is its total assets in US dollars, which measure size without using transaction value, because transaction value is part of the wedge itself. Type_i marks the kind of platform: marketplace, which is the base, on-demand, travel, freelance or resale. Macro_it holds four measures of the platform's home market: growth in gross domestic product (GDP), consumer-price inflation, growth in household spending and the central bank's policy rate. The year effects δ_t remove what all platforms share in a year.
 :::
 
 ::: {.ins}
-<span class="cid">C040</span> The take rate and its parts do not appear on the right-hand side. The ecosystem ratio equals one divided by the take rate, minus one, so a regression of the ratio on the take rate would restate an identity and show nothing. Chapter 4 describes the data, the variables and the standard errors.
+<span class="cid">C041</span> The take rate and its parts do not appear on the right-hand side. The ecosystem ratio equals one divided by the take rate, minus one, so a regression of the ratio on the take rate would restate an identity and show nothing. Chapter 4 describes the data, the variables and the standard errors.
 :::
 
 ## 3.4 Hypotheses
 
-<span class="cid">C041</span> Two hypotheses follow from the research question. H1 asks whether revenue follows the commerce carried within a platform. H2 asks where national online growth comes from, which decides whether the commerce on platforms can stand for national online commerce. Together they test the two links in Figure 3.1. <del>Table 3.2 pairs each</del> <ins>Each</ins> hypothesis, and the entry test of Section 3.5, <ins>comes</ins> with its main test and with the result that would count against it.
+<span class="cid">C042</span> Two hypotheses follow from the research question. H1 asks whether revenue follows the commerce carried within a platform. H2 asks where national online growth comes from, which decides whether the commerce on platforms can stand for national online commerce. Together they test the two links in Figure 3.1. <del>Table 3.2 pairs each</del> <ins>Each</ins> hypothesis, and the entry test of Section 3.5, <ins>comes</ins> with its main test and with the result that would count against it.
 
 ::: {.del}
-<span class="cid">C042</span> **Table 3.2. Hypotheses, tests and what would count against them**
+<span class="cid">C043</span> **Table 3.2. Hypotheses, tests and what would count against them**
 :::
 
 ::: {.del}
-<span class="cid">C043</span> *removed*
+<span class="cid">C044</span> *removed*
 
 | Test | What it asks | Main test | What would count against it |
 |---|---|---|---|
@@ -624,16 +631,16 @@ Revenue follows transaction value only while the take rate holds steady, that is
 
 > **H1.** Transaction value and revenue recognized by the same platform grow in proportion over time.
 
-<span class="cid">C044</span> <del>Growth rates never match exactly, so</del> H1 is tested <del>by comparison.</del> <ins>in two ways.</ins> The <del>test</del> <ins>first is equation (6): revenue growth is regressed on transaction value growth, and H1 holds in a group if the slope is 1. The second</ins> compares the size of yearly changes in the take rate, measured <del>in logs</del> as <del>in equation (5),</del> <ins>simple percentage changes,</ins> between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. <del>Changes</del> <ins>A slope far below 1 in Indonesia, or changes</ins> far larger in Indonesia <ins>than abroad,</ins> would count against H1. Chapter 4 describes the two groups and the <del>test.</del> <ins>tests.</ins>
+<span class="cid">C045</span> <del>Growth rates never match exactly, so</del> H1 is tested <del>by comparison.</del> <ins>in two ways.</ins> The <del>test</del> <ins>first is equation (6), an ordinary least squares (OLS) regression of revenue growth on transaction value growth, and H1 holds in a group if the slope is 1. The second</ins> compares the size of yearly changes in the take rate, measured <del>in logs</del> as <del>in equation (5),</del> <ins>simple percentage changes,</ins> between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. <del>Changes</del> <ins>A slope far below 1 in Indonesia, or changes</ins> far larger in Indonesia <ins>than abroad,</ins> would count against H1. Chapter 4 describes the two groups and the <del>test.</del> <ins>tests.</ins>
 
 National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin.
 
 The distinction matters for measurement. Growth driven by new sellers can take place in channels that platform accounts do not cover, such as social media and instant messaging, which BPS reports are widely used (BPS 2025a). Platform figures can then miss that growth even when every platform reports accurately.
 
-<span class="cid">C045</span> BPS publishes both the number of businesses selling online, N, and their total online sales value, Y. Since Y equals N times the sales per business, its growth <del>in logarithms</del> splits <del>exactly</del> in two:
+<span class="cid">C046</span> BPS publishes both the number of businesses selling online, N, and their total online sales value, Y. Since Y equals N times the sales per business, its growth <del>in logarithms</del> splits <del>exactly</del> in two:
 
 ::: {.ins}
-<span class="cid">C046</span> *added*
+<span class="cid">C047</span> *added*
 
 ```
 1 + g(Y_t) = (1 + g(N_t)) × (1 + g(Y_t / N_t))                   (8)
@@ -641,14 +648,14 @@ The distinction matters for measurement. Growth driven by new sellers can take p
 :::
 
 ::: {.del}
-<span class="cid">C047</span> *removed*
+<span class="cid">C048</span> *removed*
 
 ```
 Δln Y_t = Δln N_t + Δln (Y_t / N_t)                   (7)
 ```
 :::
 
-<span class="cid">C048</span> where <del>the first term</del> <ins>g(N)</ins> is the <ins>growth in the number of businesses, the</ins> extensive <del>margin</del> <ins>margin,</ins> and <ins>g(Y/N)</ins> the <del>second</del> <ins>growth in sales per business,</ins> the intensive margin. H2 holds if <ins>g(N) is larger than g(Y/N), which is</ins> the <del>first term is</del> <ins>same as saying that</ins> more <del>than half</del> <ins>businesses account for most</ins> of the <del>total.</del> <ins>growth.</ins> The second hypothesis states the case in which more businesses drive growth.
+<span class="cid">C049</span> where <del>the first term</del> <ins>g(N)</ins> is the <ins>growth in the number of businesses, the</ins> extensive <del>margin</del> <ins>margin,</ins> and <ins>g(Y/N)</ins> the <del>second</del> <ins>growth in sales per business,</ins> the intensive margin. H2 holds if <ins>g(N) is larger than g(Y/N), which is</ins> the <del>first term is</del> <ins>same as saying that</ins> more <del>than half</del> <ins>businesses account for most</ins> of the <del>total.</del> <ins>growth.</ins> The second hypothesis states the case in which more businesses drive growth.
 
 > **H2.** The growth of national e-commerce value comes mainly from more businesses selling online, and less from higher sales per business.
 
@@ -672,14 +679,14 @@ If the share of new sellers falls short, part of the rise is something other tha
 
 ## 3.6 Further analyses
 
-<span class="cid">C049</span> Four further analyses complete the framework without forming hypotheses of their own. Each answers a part of the research question that H1, H2 and the entry test leave open. <del>Table 3.3 lists them.</del> <ins>They are the tracing of large movements, the market values of listed platforms, the channels and reach of platform records, and the comparison of national figures.</ins>
+<span class="cid">C050</span> Four further analyses complete the framework without forming hypotheses of their own. Each answers a part of the research question that H1, H2 and the entry test leave open. <del>Table 3.3 lists them.</del> <ins>They are the tracing of large movements, the market values of listed platforms, the channels and reach of platform records, and the comparison of national figures.</ins>
 
 ::: {.del}
-<span class="cid">C050</span> **Table 3.3. Further analyses**
+<span class="cid">C051</span> **Table 3.3. Further analyses**
 :::
 
 ::: {.del}
-<span class="cid">C051</span> *removed*
+<span class="cid">C052</span> *removed*
 
 | Analysis | What it asks | Main evidence |
 |---|---|---|
@@ -689,22 +696,22 @@ If the share of new sellers falls short, part of the rise is something other tha
 | Comparing national figures | Do national figures tell the same story of growth? | BPS, Bank Indonesia, industry estimates and household spending |
 :::
 
-<span class="cid">C052</span> Tracing large movements <del>applies the split of Section 3.3.</del> <ins>asks what moved revenue when it parted from transaction value.</ins> Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into <del>its parts.</del> <ins>more commerce, higher fees and lower incentives, using company reports (Appendix B).</ins> It also reads the <del>company's</del> reports for changes in the mix of businesses and in reporting scope.
+<span class="cid">C053</span> Tracing large movements <del>applies the split of Section 3.3.</del> <ins>asks what moved revenue when it parted from transaction value.</ins> Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into <del>its parts.</del> <ins>more commerce, higher fees and lower incentives, using company reports (Appendix B).</ins> It also reads the <del>company's</del> reports for changes in the mix of businesses and in reporting scope.
 
-<span class="cid">C053</span> The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation <del>(5)</del> <ins>(4)</ins> shows that revenue <del>can grow</del> <ins>growth has two sources: growth</ins> in <del>two ways, through more commerce or through</del> <ins>transaction value and</ins> a <del>larger</del> <ins>change in the</ins> take rate.
+<span class="cid">C054</span> The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation <del>(5)</del> <ins>(4)</ins> shows that revenue <del>can grow</del> <ins>growth has two sources: growth</ins> in <del>two ways, through more commerce or through</del> <ins>transaction value and</ins> a <del>larger</del> <ins>change in the</ins> take rate.
 
 The two sources of growth need not be worth the same. Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end. A higher price to one side of a platform can also reduce how much that side uses it (Rochet and Tirole 2003).
 
 The thesis relates the yearly change in a platform's market value, MV, to the two sources of revenue growth:
 
-<span class="cid">C054</span> *equation changed*
+<span class="cid">C055</span> *equation changed*
 
 <pre class="cdiff">  ```
 - Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + error      (8)
 + Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + error      (9)
   ```</pre>
 
-<span class="cid">C055</span> where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m. <ins>The predictions were registered with changes measured in logs, and the specification is kept as registered.</ins>
+<span class="cid">C056</span> where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m. <ins>The predictions were registered with changes measured in logs, and the specification is kept as registered.</ins>
 
 The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Its reach depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
 
@@ -735,14 +742,14 @@ The basic observation is one platform in one year, which this thesis calls a pla
 
 Companies define transaction value in different ways, and some include shipping charges, digital goods or travel. The thesis keeps each company's own definition and records it. Under the second rule of Section 3.1, the definition cancels out of a take rate's yearly changes. This holds as long as the company keeps both the definition and the mix of its businesses.
 
-<span class="cid">C056</span> Two groups of platforms are compared. The Indonesian and regional group has five platforms, listed in <del>Table 4.1.</del> <ins>Appendix B.</ins> Three are Indonesian marketplaces, and two are the on-demand businesses of Grab and GoTo, which cover rides and deliveries. The foreign group has 27 listed platforms in marketplaces, travel and ticketing, freelance work, resale and food delivery. Eight were chosen first, and 19 were added to widen the comparison. Ten more were examined and left out, six because they sell mostly their own goods and four because they do not disclose transaction value.
+<span class="cid">C057</span> Two groups of platforms are compared. The Indonesian and regional group has five platforms, listed in <del>Table 4.1.</del> <ins>Appendix B.</ins> Three are Indonesian marketplaces, and two are the on-demand businesses of Grab and GoTo, which cover rides and deliveries. The foreign group has 27 listed platforms in marketplaces, travel and ticketing, freelance work, resale and food delivery. Eight were chosen first, and 19 were added to widen the comparison. Ten more were examined and left out, six because they sell mostly their own goods and four because they do not disclose transaction value.
 
 ::: {.del}
-<span class="cid">C057</span> **Table 4.1. The Indonesian and regional group of platforms**
+<span class="cid">C058</span> **Table 4.1. The Indonesian and regional group of platforms**
 :::
 
 ::: {.del}
-<span class="cid">C058</span> *removed*
+<span class="cid">C059</span> *removed*
 
 | Platform series | What it covers | Years | Yearly pairs | How it is labelled |
 |---|---|---|---|---|
@@ -753,13 +760,13 @@ Companies define transaction value in different ways, and some include shipping 
 | GoTo on-demand | GoTo's rides and deliveries segment, in Indonesia and Vietnam to 2024 | 2022–2025 | 3 | Direct segment disclosure; the 2022 transaction value is an estimate |
 :::
 
-<span class="cid">C059</span> <del>Table 4.1</del> <ins>Appendix B</ins> states the scope of each series because the series differ, and only Tokopedia is an Indonesian segment alone. The thesis never adds the series together, and each platform enters the tests on its own. Sea, whose Shopee business has Indonesia as a main market, sits in the foreign group.
+<span class="cid">C060</span> <del>Table 4.1</del> <ins>Appendix B</ins> states the scope of each series because the series differ, and only Tokopedia is an Indonesian segment alone. The thesis never adds the series together, and each platform enters the tests on its own. Sea, whose Shopee business has Indonesia as a main market, sits in the foreign group.
 
 Platform-years are compared in pairs, and three rules keep the pairs comparable. Two consecutive platform-years form a pair, and nothing else does. A missing year stays missing and is never filled in. Annual and quarterly pairs are never pooled. A take rate is a ratio of two amounts in one currency, so the tests need no exchange rate. Amounts in running text are in US dollars at the World Bank's average rate for the year (World Bank 2026).
 
 The third rule of Section 3.1, which keeps out companies that mainly sell their own goods, is applied in two ways. For the 19 platforms added, the thesis drops any year in which own goods exceed half of revenue. For the eight chosen first, it keeps a pair only when the company's reporting scope did not change between the two years.
 
-<span class="cid">C060</span> Two platforms sit close to that line. Zalando is one of the eight and sells part of what it carries, so Appendix <del>B</del> <ins>C</ins> repeats the test without it. One added pair, Ozon from 2021 to 2022, ends in a kept year but starts in a dropped one. Appendix <del>B</del> <ins>C</ins> repeats the test without Ozon as well. The result is 15 pairs for the Indonesian and regional group and 158 for the foreign group.
+<span class="cid">C061</span> Two platforms sit close to that line. Zalando is one of the eight and sells part of what it carries, so Appendix <del>B</del> <ins>C</ins> repeats the test without it. One added pair, Ozon from 2021 to 2022, ends in a kept year but starts in a dropped one. Appendix <del>B</del> <ins>C</ins> repeats the test without Ozon as well. The result is 15 pairs for the Indonesian and regional group and 158 for the foreign group.
 
 ## 4.2 Measuring the wedge in Indonesia
 
@@ -770,85 +777,85 @@ Each platform reaches the sum by its own route. Tokopedia reports both amounts f
 ## 4.3 Testing H1
 
 ::: {.ins}
-<span class="cid">C061</span> The test of H1 has two parts, run on the same 32 platforms: the five Indonesian and regional platforms, Tokopedia, Blibli, Bukalapak and the on-demand businesses of Grab and GoTo, and the 27 platforms abroad.
+<span class="cid">C062</span> The test of H1 has two parts, run on the same 32 platforms: the five Indonesian and regional platforms, Tokopedia, Blibli, Bukalapak and the on-demand businesses of Grab and GoTo, and the 27 platforms abroad.
 :::
 
 ::: {.ins}
-<span class="cid">C062</span> The first part is equation (6). Each observation is a pair of consecutive years of one platform, and a missing year is never filled. Growth is the simple percentage change, and growth rates are capped at their 5th and 95th percentiles (Section 4.4). The regression runs on all platforms with the group interaction, on the foreign group alone and on the Indonesian and regional group alone, with standard errors clustered by platform. The thesis also reports the correlation between revenue growth and transaction value growth for each group. Appendix C gives the rank correlation and the correlation without caps.
+<span class="cid">C063</span> The first part is equation (6). Each observation is a pair of consecutive years of one platform, and a missing year is never filled. Growth is the simple percentage change, and growth rates are capped at their 5th and 95th percentiles (Section 4.4). The regression runs on all platforms with the group interaction, on the foreign group alone and on the Indonesian and regional group alone, with standard errors clustered by platform. The thesis also reports the correlation between revenue growth and transaction value growth for each group. Appendix C gives the rank correlation and the correlation without caps.
 :::
 
 ::: {.del}
-<span class="cid">C063</span> The test of H1 asks how far each platform's take rate moves from one year to the next. For each pair of years it takes the change in the logarithm of the take rate, the take-rate term of equation (5). This change is growth divergence measured in logs, and it does not depend on how fast transaction value grew. Tokopedia's log change in 2023 is 0.52, which is a rise by a factor of 1.68, or 68 percent.
+<span class="cid">C064</span> The test of H1 asks how far each platform's take rate moves from one year to the next. For each pair of years it takes the change in the logarithm of the take rate, the take-rate term of equation (5). This change is growth divergence measured in logs, and it does not depend on how fast transaction value grew. Tokopedia's log change in 2023 is 0.52, which is a rise by a factor of 1.68, or 68 percent.
 :::
 
-<span class="cid">C064</span> <ins>The second part asks how far each platform's take rate moves from one year to the next. For each pair of years it takes the simple percentage change in the take rate. Tokopedia's change in 2023 is 68 percent.</ins> A move in either direction counts against H1, so the test uses the size of each yearly <del>change in the take rate.</del> <ins>change.</ins> Each platform gets one number, the median size of its yearly changes, because the pairs of one platform are not independent of one another.
+<span class="cid">C065</span> <ins>The second part asks how far each platform's take rate moves from one year to the next. For each pair of years it takes the simple percentage change in the take rate. Tokopedia's change in 2023 is 68 percent.</ins> A move in either direction counts against H1, so the test uses the size of each yearly <del>change in the take rate.</del> <ins>change.</ins> Each platform gets one number, the median size of its yearly changes, because the pairs of one platform are not independent of one another.
 
 The test compares five numbers for the Indonesian and regional group with 27 for the foreign group. It asks whether the first group ranks higher than chance would give, using a one-sided Mann–Whitney test (Mann and Whitney 1947). It repeats the question by shuffling the group labels 9,999 times. The p-value is the chance of a result at least this lopsided if the groups did not differ.
 
-<span class="cid">C065</span> Appendix <del>B</del> <ins>C</ins> lists the checks on this test. Some change the sample. They drop each platform in turn, drop two at a time, treat Tokopedia and GoTo as one company, move Sea to the regional group, keep only the first five years after listing, or narrow the test to the three marketplaces. Others change the measure: <ins>the change in logs, which the first version of this test used,</ins> growth divergence in points as Chapter 3 defines it, exact tests, <ins>and</ins> the change in the take rate in percentage <del>points (to</del> <ins>points, to</ins> see whether a thin take rate explains the <del>result), and the correlation of revenue growth with transaction value growth.</del> <ins>result.</ins> One repeats the test with quarterly pairs.
+<span class="cid">C066</span> Appendix <del>B</del> <ins>C</ins> lists the checks on this test. Some change the sample. They drop each platform in turn, drop two at a time, treat Tokopedia and GoTo as one company, move Sea to the regional group, keep only the first five years after listing, or narrow the test to the three marketplaces. Others change the measure: <ins>the change in logs, which the first version of this test used,</ins> growth divergence in points as Chapter 3 defines it, exact tests, <ins>and</ins> the change in the take rate in percentage <del>points (to</del> <ins>points, to</ins> see whether a thin take rate explains the <del>result), and the correlation of revenue growth with transaction value growth.</del> <ins>result.</ins> One repeats the test with quarterly pairs.
 
 ::: {.ins}
-<span class="cid">C066</span> ## 4.4 What explains the wedge and the ecosystem ratio
+<span class="cid">C067</span> ## 4.4 What explains the wedge and the ecosystem ratio
 :::
 
 ::: {.ins}
-<span class="cid">C067</span> Equation (7) is estimated on a panel of 213 platform-years for the same 32 platforms, 20 of them Indonesian and regional platform-years and 193 foreign. A platform-year enters when the company reports both transaction value and revenue for it under the rules of Section 3.1, and a year that fails them stays missing. Amounts are in US dollars at the World Bank's period-average rate for the year (World Bank 2026).
+<span class="cid">C068</span> Equation (7) is estimated on a panel of 213 platform-years for the same 32 platforms, 20 of them Indonesian and regional platform-years and 193 foreign. A platform-year enters when the company reports both transaction value and revenue for it under the rules of Section 3.1, and a year that fails them stays missing. Amounts are in US dollars at the World Bank's period-average rate for the year (World Bank 2026).
 :::
 
 ::: {.ins}
-<span class="cid">C068</span> Size is the platform's total assets, taken from annual reports filed with the US Securities and Exchange Commission for 26 platforms (U.S. Securities and Exchange Commission 2026) and from published financial statements for the other six: Tokopedia and GoTo, which share one group statement, Blibli, Bukalapak, Rakuten and Zalando. Total assets are those of the company as a whole. They overstate the platform business at GoTo, Rakuten and Sea. The number of years since listing counts from the year the platform listed on a stock exchange, from public record, and a year before listing counts as zero. The type of platform is the author's classification (Appendix B).
+<span class="cid">C069</span> Size is the platform's total assets, taken from annual reports filed with the US Securities and Exchange Commission for 26 platforms (U.S. Securities and Exchange Commission 2026) and from published financial statements for the other six: Tokopedia and GoTo, which share one group statement, Blibli, Bukalapak, Rakuten and Zalando. Total assets are those of the company as a whole. They overstate the platform business at GoTo, Rakuten and Sea. The number of years since listing counts from the year the platform listed on a stock exchange, from public record, and a year before listing counts as zero. The type of platform is the author's classification (Appendix B).
 :::
 
 ::: {.ins}
-<span class="cid">C069</span> The home market is the country of the platform's main market. It is the United States for most US-listed platforms and Indonesia for the five Indonesian and regional platforms. It is also Indonesia for Sea, whose Shopee business has Indonesia as a main market. GDP growth, inflation and growth in household spending come from the World Bank (2026). The policy rate is the central bank's rate from the Bank for International Settlements (2026), averaged over the year. It is not available for Kazakhstan or Nigeria, so the regressions with macroeconomic variables have 178 platform-years from 30 platforms.
+<span class="cid">C070</span> The home market is the country of the platform's main market. It is the United States for most US-listed platforms and Indonesia for the five Indonesian and regional platforms. It is also Indonesia for Sea, whose Shopee business has Indonesia as a main market. GDP growth, inflation and growth in household spending come from the World Bank (2026). The policy rate is the central bank's rate from the Bank for International Settlements (2026), averaged over the year. It is not available for Kazakhstan or Nigeria, so the regressions with macroeconomic variables have 178 platform-years from 30 platforms.
 :::
 
 ::: {.ins}
-<span class="cid">C070</span> Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles across all platforms, the rule that Section 4.5 uses for market value. Standard errors are clustered by platform, with the small-sample correction, and p-values use a t distribution with one fewer degrees of freedom than platforms. Only five platforms are Indonesian and regional, so the thesis adds a wild cluster bootstrap p-value for the Indonesia coefficient (Cameron, Gelbach and Miller 2008). Appendix C lists the checks on this coefficient. All of these tests are exploratory, because they were designed after the data were seen.
+<span class="cid">C071</span> Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles across all platforms, the rule that Section 4.5 uses for market value. Standard errors are clustered by platform, with the small-sample correction, and p-values use a t distribution with one fewer degrees of freedom than platforms. Only five platforms are Indonesian and regional, so the thesis adds a wild cluster bootstrap p-value for the Indonesia coefficient (Cameron, Gelbach and Miller 2008). Appendix C lists the checks on this coefficient. All of these tests are exploratory, because they were designed after the data were seen.
 :::
 
 ::: {.del}
-<span class="cid">C071</span> ## 4.4 Tracing the moves
+<span class="cid">C072</span> ## 4.4 Tracing the moves
 :::
 
 ::: {.del}
-<span class="cid">C072</span> The second objective, to reconcile large movements in revenue with disclosed changes in fees, discounts and scope, is answered in two steps. The first divides each movement into volume and take rate with equation (5). The take-rate share is the size of the take-rate change divided by the sum of the sizes of both changes. The same split is made for the wedge.
+<span class="cid">C073</span> The second objective, to reconcile large movements in revenue with disclosed changes in fees, discounts and scope, is answered in two steps. The first divides each movement into volume and take rate with equation (5). The take-rate share is the size of the take-rate change divided by the sum of the sizes of both changes. The same split is made for the wedge.
 :::
 
-<span class="cid">C073</span> The second <del>step splits the take-rate change</del> <ins>objective, to reconcile large movements in revenue</ins> with <del>equation (6). Some companies disclose</del> <ins>disclosed changes in fees, discounts and scope, rests on company reports. Where a company discloses</ins> both <del>their</del> <ins>its</ins> gross fees and <del>their incentives. For them,</del> <ins>its incentives,</ins> the thesis splits the growth of revenue over a window into <del>three parts:</del> more commerce, a change in the fee rate and a change in the incentive <del>rate.</del> <ins>rate (equation (5)). The split is exact only in logs, so Appendix B keeps the log definition for these windows.</ins> A change in the mix of businesses is recorded from the company's reports.
+<span class="cid">C074</span> The second <del>step splits the take-rate change</del> <ins>objective, to reconcile large movements in revenue</ins> with <del>equation (6). Some companies disclose</del> <ins>disclosed changes in fees, discounts and scope, rests on company reports. Where a company discloses</ins> both <del>their</del> <ins>its</ins> gross fees and <del>their incentives. For them,</del> <ins>its incentives,</ins> the thesis splits the growth of revenue over a window into <del>three parts:</del> more commerce, a change in the fee rate and a change in the incentive <del>rate.</del> <ins>rate (equation (5)). The split is exact only in logs, so Appendix B keeps the log definition for these windows.</ins> A change in the mix of businesses is recorded from the company's reports.
 
 ::: {.del}
-<span class="cid">C074</span> The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia the thesis also reports the change line by line in rupiah, the usual way to read accounts, and says where the two views differ.
+<span class="cid">C075</span> The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia the thesis also reports the change line by line in rupiah, the usual way to read accounts, and says where the two views differ.
 :::
 
-<span class="cid">C075</span> <ins>The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia the thesis also reports the change line by line in rupiah, the usual way to read accounts, and says where the two views differ.</ins> Grab is read from its annual filings and GoTo from its audited statements. Blibli does not report incentives, so its split rests on a proxy built from its releases. Seven windows are traced, and Appendix <del>A</del> <ins>B</ins> lists them. The thesis also records where accounting treatment or reporting scope matters, such as the deduction of incentives from revenue and the travel business inside Blibli's retail segment. Company explanations are read as reports and are not tested.
+<span class="cid">C076</span> <ins>The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia the thesis also reports the change line by line in rupiah, the usual way to read accounts, and says where the two views differ.</ins> Grab is read from its annual filings and GoTo from its audited statements. Blibli does not report incentives, so its split rests on a proxy built from its releases. Seven windows are traced, and Appendix <del>A</del> <ins>B</ins> lists them. The thesis also records where accounting treatment or reporting scope matters, such as the deduction of incentives from revenue and the travel business inside Blibli's retail segment. Company explanations are read as reports and are not tested.
 
 ## 4.5 Market values
 
-<span class="cid">C076</span> The market-value analysis of Section 3.6 uses year-end market values from the <del>financial</del> data service <del>LSEG,</del> <ins>of the London Stock Exchange Group (LSEG),</ins> under the university licence. The main sample has 28 listed platforms and 138 platform-years, made up of Bukalapak and 27 platforms abroad, and it uses whole-company figures only. It is not the list of 27 used for H1. It adds Airbnb, Booking, DoorDash, Lyft and Uber, and it lacks Despegar, Mercado Libre, Ozon, Rakuten and Sea.
+<span class="cid">C077</span> The market-value analysis of Section 3.6 uses year-end market values from the <del>financial</del> data service <del>LSEG,</del> <ins>of the London Stock Exchange Group (LSEG),</ins> under the university licence. The main sample has 28 listed platforms and 138 platform-years, made up of Bukalapak and 27 platforms abroad, and it uses whole-company figures only. It is not the list of 27 used for H1. It adds Airbnb, Booking, DoorDash, Lyft and Uber, and it lacks Despegar, Mercado Libre, Ozon, Rakuten and Sea.
 
-<span class="cid">C077</span> Equation <del>(8)</del> <ins>(9)</ins> is estimated with a fixed effect for each year, which removes what all platforms share in that year. Standard errors are clustered by company, which allows for the repeated observations of one company. Each prediction names a direction, so both tests are one-sided. The test was written down before the market values were <del>pulled.</del> <ins>pulled, with changes measured in logs, and it keeps that definition.</ins> The result is an association, and market value also changes when a company issues shares, so the thesis does not call it a stock return. A second run adds five segment series and Mercado Libre as a robustness check. Grab, GoTo and Sea enter only there, because their reported transaction value covers only part of the business that the market value prices.
+<span class="cid">C078</span> Equation <del>(8)</del> <ins>(9)</ins> is estimated with a fixed effect for each year, which removes what all platforms share in that year. Standard errors are clustered by company, which allows for the repeated observations of one company. Each prediction names a direction, so both tests are one-sided. The test was written down before the market values were <del>pulled.</del> <ins>pulled, with changes measured in logs, and it keeps that definition.</ins> The result is an association, and market value also changes when a company issues shares, so the thesis does not call it a stock return. A second run adds five segment series and Mercado Libre as a robustness check. Grab, GoTo and Sea enter only there, because their reported transaction value covers only part of the business that the market value prices.
 
 ## 4.6 The survey files and H2
 
 The national evidence comes from the survey of online sellers that BPS runs. BPS publishes the number of businesses selling online, their total online sales and the shares by channel (BPS 2025a, 2025b). The survey rounds are named for the survey year, but their questions refer to the year before. The thesis names a file by its round and a year by the year of activity, so the file for the 2024 round describes 2023. Each round lists businesses in sampled areas and updates its sampling frame, so a change in who is found can change the count.
 
-<span class="cid">C078</span> H2 uses the published figures and the split of equation <del>(7).</del> <ins>(8).</ins> BPS prints two counts of businesses for 2023, so the thesis computes the 2023 to 2024 split with both and reports both. The 2022 to 2023 split uses the count that the survey weights match.
+<span class="cid">C079</span> H2 uses the published figures and the split of equation <del>(7).</del> <ins>(8).</ins> BPS prints two counts of businesses for 2023, so the thesis computes the 2023 to 2024 split with both and reports both. The 2022 to 2023 split uses the count that the survey weights match.
 
-<span class="cid">C079</span> The published figures cannot tell a new seller from one counted for the first time, but the survey files can. <del>Table 4.2 lists them.</del> <ins>The three files are the E-Commerce rounds of 2021, 2023 and 2024, which describe the activity years 2020, 2022 and 2023.[^files]</ins> Each row is a business that sold online in the activity year. Its survey weight shows how many businesses it represents, so the weights add up to the national count.
+<span class="cid">C080</span> The published figures cannot tell a new seller from one counted for the first time, but the survey files can. <del>Table 4.2 lists them.</del> <ins>The three files are the E-Commerce rounds of 2021, 2023 and 2024, which describe the activity years 2020, 2022 and 2023.[^files]</ins> Each row is a business that sold online in the activity year. Its survey weight shows how many businesses it represents, so the weights add up to the national count.
 
 Two checks come before any test. The weighted total of each file must fall within 1 percent of the BPS count. The 2024 file must also reproduce two published shares of sellers who keep complete financial statements, 28.63 and 12.25 percent. All three files pass. The files carry no business identifier across rounds and no area variable below the province. So the rounds compare groups of sellers and not the same sellers over time.
 
 ::: {.ins}
-<span class="cid">C080</span> [^files]: The files hold 11,848, 31,724 and 39,736 rows. Each weighted total is within 0.1 percent of the BPS count: 2,361,423; 2,995,879, implied by the 2023 count and its growth of 27.4 percent; and 3,816,750.
+<span class="cid">C081</span> [^files]: The files hold 11,848, 31,724 and 39,736 rows. Each weighted total is within 0.1 percent of the BPS count: 2,361,423; 2,995,879, implied by the 2023 count and its growth of 27.4 percent; and 3,816,750.
 :::
 
 ::: {.del}
-<span class="cid">C081</span> **Table 4.2. The three BPS survey files**
+<span class="cid">C082</span> **Table 4.2. The three BPS survey files**
 :::
 
 ::: {.del}
-<span class="cid">C082</span> *removed*
+<span class="cid">C083</span> *removed*
 
 | Survey round | Activity year | Rows | Weighted total | BPS count |
 |---|---|---|---|---|
@@ -858,7 +865,7 @@ Two checks come before any test. The weighted total of each file must fall withi
 :::
 
 ::: {.del}
-<span class="cid">C083</span> *Implied by the published count for 2023 and its published growth of 27.4 percent.
+<span class="cid">C084</span> *Implied by the published count for 2023 and its published growth of 27.4 percent.
 :::
 
 ## 4.7 The entry test and the extra sellers
@@ -889,16 +896,16 @@ Chapter 6 also sets each recent rule against the part of the figures it acts on.
 
 ## 4.9 Comparing national figures
 
-<span class="cid">C084</span> The third objective, to compare the platform evidence with national and payment figures, rests on the sources that <del>Table 4.3</del> <ins>Appendix A</ins> lists, with what each one counts. Beyond the rules of Section 3.1, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
+<span class="cid">C085</span> The third objective, to compare the platform evidence with national and payment figures, rests on the sources that <del>Table 4.3</del> <ins>Appendix A</ins> lists, with what each one counts. Beyond the rules of Section 3.1, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
 
 The 2023 file, which describes 2022, lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis sets the 2023 growth of six measures of buying through platforms beside household spending, each in its own unit. It does the same with quarterly platform growth.
 
 ::: {.del}
-<span class="cid">C085</span> **Table 4.3. Sources compared in Objective 3**
+<span class="cid">C086</span> **Table 4.3. Sources compared in Objective 3**
 :::
 
 ::: {.del}
-<span class="cid">C086</span> *removed*
+<span class="cid">C087</span> *removed*
 
 | Source | What it covers | How it counts |
 |---|---|---|
@@ -915,9 +922,9 @@ The 2023 file, which describes 2022, lets the thesis separate the part of BPS's 
 
 Every number in the thesis follows one path: source document, extract, analytic row, result. Each extract keeps the company's currency and units, and each value carries a label: direct company disclosure, direct segment disclosure, external estimate, derived value, conversion or scenario. The labels are never mixed in one sample. A restatement or a conflict between two reports is reported and never overwritten. A single script rebuilds every table that depends only on committed files, and 314 automatic checks confirm that each recorded result still matches its table.
 
-<span class="cid">C087</span> The thesis also separates tests by when they were written. A registered test was written down, dated and stored in the repository before the data were opened. This applies to the entry test, the scenario rules for value, the comparison with Bank Indonesia and the market-value test, among others. Appendix <del>C</del> <ins>D</ins> lists them with their dates. An exploratory test was designed after some results were seen. The test with the larger groups in Section 4.3 belongs here, because it was set up after a first test on the three marketplaces. A descriptive result reports numbers without a test.
+<span class="cid">C088</span> The thesis also separates tests by when they were written. A registered test was written down, dated and stored in the repository before the data were opened. This applies to the entry test, the scenario rules for value, the comparison with Bank Indonesia and the market-value test, among others. Appendix <del>C</del> <ins>D</ins> lists them with their dates. An exploratory test was designed after some results were seen. The test with the larger groups in Section 4.3 belongs here, because it was set up after a first test on the three marketplaces. A descriptive result reports numbers without a test.
 
-<span class="cid">C088</span> <ins>The World Bank indicators, the Bank for International Settlements policy rates and the total assets from SEC filings are public. The repository holds the downloaded values and the scripts that fetched them.</ins> Three sources are licensed and are not in the repository: the BPS survey files, the LSEG market values and the World Bank survey files. The repository records the size and checksum of each file, so anyone who obtains the same files can check them. It holds the code and the national totals it produces, and no business-level record. BPS is cited as the source of every survey figure, in line with the data-use agreement. Chapter 7 states what these data cannot show.
+<span class="cid">C089</span> <ins>The World Bank indicators, the Bank for International Settlements policy rates and the total assets from the filings with the US Securities and Exchange Commission are public. The repository holds the downloaded values and the scripts that fetched them.</ins> Three sources are licensed and are not in the repository: the BPS survey files, the LSEG market values and the World Bank survey files. The repository records the size and checksum of each file, so anyone who obtains the same files can check them. It holds the code and the national totals it produces, and no business-level record. BPS is cited as the source of every survey figure, in line with the data-use agreement. Chapter 7 states what these data cannot show.
 
 
 <div class="filehead">Chapter 5. Results</div>
@@ -926,14 +933,14 @@ Every number in the thesis follows one path: source document, extract, analytic 
 
 The results follow the two links of Figure 3.1. On the inner link, revenue showed a small and unsteady part of the commerce that platforms carried. Platforms changed how much of each sale they kept, and revenue moved with those choices (Sections 5.1 to 5.4). On the outer link, the national count of online sellers rose by 27 percent in 2023. About half of that rise is not explained by sellers entering for the first time. Whether H2 holds depends on how that half is read (Sections 5.5 to 5.10).
 
-<span class="cid">C089</span> Every result in this chapter carries one of the three labels of Section 4.10: registered, exploratory or descriptive. A result given without a label is descriptive. <del>Table 5.1 gives each main</del> <ins>Each section states the label next to the</ins> result <del>with its label, the checks behind</del> it <del>and the section that reports it.</del> <ins>reports.</ins>
+<span class="cid">C090</span> Every result in this chapter carries one of the three labels of Section 4.10: registered, exploratory or descriptive. A result given without a label is descriptive. <del>Table 5.1 gives each main</del> <ins>Each section states the label next to the</ins> result <del>with its label, the checks behind</del> it <del>and the section that reports it.</del> <ins>reports.</ins>
 
 ::: {.del}
-<span class="cid">C090</span> **Table 5.1. Main results and the evidence behind them**
+<span class="cid">C091</span> **Table 5.1. Main results and the evidence behind them**
 :::
 
 ::: {.del}
-<span class="cid">C091</span> *removed*
+<span class="cid">C092</span> *removed*
 
 | Result | Label | Main checks | Section |
 |---|---|---|---|
@@ -957,9 +964,13 @@ The results follow the two links of Figure 3.1. On the inner link, revenue showe
 
 ## 5.1 How much revenue leaves out
 
-<span class="cid">C092</span> Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed outside revenue for every dollar the platforms kept. Table <del>5.2</del> <ins>5.1</ins> shows each platform.
+<span class="cid">C093</span> Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed outside revenue for every dollar the platforms kept. Table <del>5.2</del> <ins>5.1</ins> shows each platform.
 
-<span class="cid">C093</span> **Table <del>5.2.</del> <ins>5.1.</ins> The invisible wedge of three platforms, 2023 (US$ billion)**
+<span class="cid">C094</span> **Table <del>5.2.</del> <ins>5.1.</ins> The invisible wedge of three platforms, 2023 (US$ billion)**
+
+::: {.ins}
+<span class="cid">C095</span> This table reports transaction value, revenue, the wedge (transaction value less revenue) and the ecosystem ratio (the wedge divided by revenue) for Tokopedia, Shopee in Indonesia and Grab in Indonesia in 2023. The last column states how each platform's amounts are obtained. The total row is the sum of the three platforms and is not a national total.
+:::
 
 | Platform | Transaction value | Revenue | Wedge | Ecosystem ratio | How it is labelled |
 |---|---|---|---|---|---|
@@ -972,30 +983,30 @@ The results follow the two links of Figure 3.1. On the inner link, revenue showe
 
 The three ratios differ because the amounts come from different sources. Tokopedia reports both amounts. Shopee's ratio follows from the assumed take rate, and Grab's is its company-wide ratio, so neither is separate evidence for Indonesia. Blibli and Bukalapak also report both amounts, with ratios of about 43 and 36, close to Tokopedia's. They stay out of the sum because Blibli's figure includes online travel and Bukalapak reports for its whole group.
 
-<span class="cid">C094</span> The size of the wedge does not depend on the assumed rates. A take rate for Shopee between 9 and 11 percent keeps the total near US$40 billion, and dropping any one platform still leaves more than US$20 billion. For platforms that report both amounts, the wedge was 97 to 99 percent of transaction value in every year. It moved almost one for one with the commerce, and Appendix <del>A</del> <ins>B</ins> gives the wedge by platform and year.
+<span class="cid">C096</span> The size of the wedge does not depend on the assumed rates. A take rate for Shopee between 9 and 11 percent keeps the total near US$40 billion, and dropping any one platform still leaves more than US$20 billion. For platforms that report both amounts, the wedge was 97 to 99 percent of transaction value in every year. It moved almost one for one with the commerce, and Appendix <del>A</del> <ins>B</ins> gives the wedge by platform and year.
 
 Platform commerce is itself only part of online commerce. In BPS's survey, marketplaces carry about a fifth of online sales value (Section 5.9), so platform revenue shows a smaller part still. A small share can still be a fair guide to the commerce, as long as it keeps its size from year to year.
 
 ## 5.2 Testing H1
 
 ::: {.ins}
-<span class="cid">C095</span> Revenue followed transaction value abroad and did not in Indonesia and the region, so the thesis rejects H1 for the Indonesian and regional platforms. Table 5.2 describes the panel behind the test. The typical Indonesian and regional platform-year has an ecosystem ratio of about 35, against about 5.5 abroad. Transaction value grew by a median of 16 percent a year in both groups, and revenue by 38 percent in Indonesia and the region against 21 percent abroad. The Indonesian and regional platforms are also younger, a median of one year since listing against four.
+<span class="cid">C097</span> Revenue followed transaction value abroad and did not in Indonesia and the region, so the thesis rejects H1 for the Indonesian and regional platforms. Table 5.2 describes the panel behind the test. The typical Indonesian and regional platform-year has an ecosystem ratio of about 35, against about 5.5 abroad. Transaction value grew by a median of 16 percent a year in both groups, and revenue by 38 percent in Indonesia and the region against 21 percent abroad. The Indonesian and regional platforms are also younger, a median of one year since listing against four.
 :::
 
 ::: {.ins}
-<span class="cid">C096</span> **Table 5.2. Summary statistics and correlations**
+<span class="cid">C098</span> **Table 5.2. Summary statistics and correlations**
 :::
 
 ::: {.ins}
-<span class="cid">C097</span> This table reports summary statistics and pairwise correlations for the panel of 213 platform-years used in Sections 5.2 and 5.3, which covers 32 platforms. Panel A gives the number of observations (N), the mean, the median (P50) and the standard deviation (SD) of each variable for the Indonesian and regional platforms and for the foreign platforms. Panel B gives pairwise Pearson correlations for all platforms. Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles; the wedge and total assets are in US$ million. Appendix A defines the variables. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
+<span class="cid">C099</span> This table reports summary statistics and pairwise correlations for the panel of 213 platform-years used in Sections 5.2 and 5.3, which covers 32 platforms. Panel A gives the number of observations (N), the mean, the median (P50) and the standard deviation (SD) of each variable for the Indonesian and regional platforms and for the foreign platforms. Panel B gives pairwise Pearson correlations for all platforms. Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles; the wedge and total assets are in US$ million. Appendix A defines the variables. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
 :::
 
 ::: {.ins}
-<span class="cid">C098</span> *Panel A. Summary statistics*
+<span class="cid">C100</span> *Panel A. Summary statistics*
 :::
 
 ::: {.ins}
-<span class="cid">C099</span> *added*
+<span class="cid">C101</span> *added*
 
 | Variable | Indonesian and regional | | | | Foreign | | | |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -1013,11 +1024,11 @@ Platform commerce is itself only part of online commerce. In BPS's survey, marke
 :::
 
 ::: {.ins}
-<span class="cid">C100</span> *Panel B. Pairwise correlations*
+<span class="cid">C102</span> *Panel B. Pairwise correlations*
 :::
 
 ::: {.ins}
-<span class="cid">C101</span> *added*
+<span class="cid">C103</span> *added*
 
 | Variables | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -1033,27 +1044,27 @@ Platform commerce is itself only part of online commerce. In BPS's survey, marke
 :::
 
 ::: {.ins}
-<span class="cid">C102</span> *Note:* Inflation and household spending growth are left out of Panel B to fit the page; they correlate 0.80 with the policy rate and 0.92 with GDP growth. The policy rate is missing for Kazakhstan and Nigeria, and some growth and macroeconomic values are missing for the first year of a platform or for 2025. Source: company filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
+<span class="cid">C104</span> *Note:* Inflation and household spending growth are left out of Panel B to fit the page; they correlate 0.80 with the policy rate and 0.92 with GDP growth. The policy rate is missing for Kazakhstan and Nigeria, and some growth and macroeconomic values are missing for the first year of a platform or for 2025. Source: company filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
 :::
 
 ::: {.ins}
-<span class="cid">C103</span> Across all platforms, revenue growth and transaction value growth have a correlation of 0.84 (Panel B). The wedge and transaction value correlate at 0.9994 in levels, as they must, because the wedge is transaction value minus revenue and revenue is a small part of it. So the test of H1 uses growth rates.
+<span class="cid">C105</span> Across all platforms, revenue growth and transaction value growth have a correlation of 0.84 (Panel B). The wedge and transaction value correlate at 0.9994 in levels, as they must, because the wedge is transaction value minus revenue and revenue is a small part of it. So the test of H1 uses growth rates.
 :::
 
 ::: {.ins}
-<span class="cid">C104</span> Table 5.3 tests H1 in growth rates. Abroad, a rise of 1 percentage point in the growth of transaction value goes with a rise of 0.99 points in the growth of revenue (standard error 0.07), which cannot be told from the 1 that proportional growth requires (p = 0.84). The two growth rates correlate at 0.90. In Indonesia and the region the slope is 0.40 (standard error 0.16) and differs from 1 (p = 0.02). The correlation is 0.31, and the constant is 0.44: revenue grew by about 44 percent a year whatever transaction value did. In the regression on all platforms, the slope of the Indonesian and regional group is 0.59 below the foreign slope. The Indonesian and regional result rests on 15 pairs from five platforms, so its standard errors are less reliable than those abroad.
+<span class="cid">C106</span> Table 5.3 tests H1 in growth rates. Abroad, a rise of 1 percentage point in the growth of transaction value goes with a rise of 0.99 points in the growth of revenue (standard error 0.07), which cannot be told from the 1 that proportional growth requires (p = 0.84). The two growth rates correlate at 0.90. In Indonesia and the region the slope is 0.40 (standard error 0.16) and differs from 1 (p = 0.02). The correlation is 0.31, and the constant is 0.44: revenue grew by about 44 percent a year whatever transaction value did. In the regression on all platforms, the slope of the Indonesian and regional group is 0.59 below the foreign slope. The Indonesian and regional result rests on 15 pairs from five platforms, so its standard errors are less reliable than those abroad.
 :::
 
 ::: {.ins}
-<span class="cid">C105</span> **Table 5.3. Revenue growth and transaction value growth**
+<span class="cid">C107</span> **Table 5.3. Revenue growth and transaction value growth**
 :::
 
 ::: {.ins}
-<span class="cid">C106</span> This table reports OLS estimates of equation (6). The dependent variable is the growth of revenue, g(R), the simple percentage change from the previous year. Column (1) uses all platforms, with an interaction between transaction value growth and the Indonesia and region dummy, so the coefficient on g(V) in that column is the slope of the foreign platforms. Column (2) uses the 26 foreign platforms with a pair of consecutive years, and column (3) the five Indonesian and regional platforms. Growth rates are capped at their 5th and 95th percentiles. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
+<span class="cid">C108</span> This table reports OLS estimates of equation (6). The dependent variable is the growth of revenue, g(R), the simple percentage change from the previous year. Column (1) uses all platforms, with an interaction between transaction value growth and the Indonesia and region dummy, so the coefficient on g(V) in that column is the slope of the foreign platforms. Column (2) uses the 26 foreign platforms with a pair of consecutive years, and column (3) the five Indonesian and regional platforms. Growth rates are capped at their 5th and 95th percentiles. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
 :::
 
 ::: {.ins}
-<span class="cid">C107</span> *added*
+<span class="cid">C109</span> *added*
 
 | *Dependent variable* | g(R) | g(R) | g(R) |
 |---|---:|---:|---:|
@@ -1075,19 +1086,19 @@ Platform commerce is itself only part of online commerce. In BPS's survey, marke
 :::
 
 ::: {.ins}
-<span class="cid">C108</span> *Note:* The slope on g(V) is 1 if revenue grows in proportion to transaction value. Source: company filings; author's calculations. Exploratory.
+<span class="cid">C110</span> *Note:* The slope on g(V) is 1 if revenue grows in proportion to transaction value. Source: company filings; author's calculations. Exploratory.
 :::
 
 ::: {.del}
-<span class="cid">C109</span> Revenue did not keep pace with transaction value at the Indonesian and regional platforms, and the thesis rejects H1. At the typical platform in this group, the take rate moved by about 20 percent a year, up or down. At the typical foreign platform it moved by about 6 percent, so the moves were about three times as large. Table 5.3 gives the test and its checks.
+<span class="cid">C111</span> Revenue did not keep pace with transaction value at the Indonesian and regional platforms, and the thesis rejects H1. At the typical platform in this group, the take rate moved by about 20 percent a year, up or down. At the typical foreign platform it moved by about 6 percent, so the moves were about three times as large. Table 5.3 gives the test and its checks.
 :::
 
 ::: {.del}
-<span class="cid">C110</span> **Table 5.3. The test of H1**
+<span class="cid">C112</span> **Table 5.3. The test of H1**
 :::
 
 ::: {.del}
-<span class="cid">C111</span> *removed*
+<span class="cid">C113</span> *removed*
 
 | Test | Method | Indonesian and regional group | Foreign group | p-value |
 |---|---|---|---|---|
@@ -1099,55 +1110,55 @@ Platform commerce is itself only part of online commerce. In BPS's survey, marke
 :::
 
 ::: {.del}
-<span class="cid">C112</span> *Note:* Group values are medians of each platform's median yearly change. Appendix B lists every check, including the tests without Ozon and Zalando.
+<span class="cid">C114</span> *Note:* Group values are medians of each platform's median yearly change. Appendix B lists every check, including the tests without Ozon and Zalando.
 :::
 
-<span class="cid">C113</span> The <del>main</del> <ins>earlier</ins> test <del>compares</del> <ins>of</ins> the <del>five platforms with 27 abroad, using one median per platform. Both methods</del> <ins>size</ins> of <del>Section 4.3 reject equal</del> <ins>take-rate</ins> moves <ins>points the same way. At the typical Indonesian and regional platform the take rate moved by 22 percent a year, up or down. At the typical foreign platform it moved by 6 percent, so the moves were about 3.6 times as large (Mann–Whitney p = 0.003; shuffling the group labels, p = 0.01). Measured in logs, as in an earlier version of this test, the medians are 0.20 and 0.06</ins> (p = <del>0.004 and 0.022),</del> <ins>0.004),</ins> and exact versions that list every possible split of the 32 platforms agree (p = 0.004 and 0.021). No single platform carries <del>the</del> <ins>that</ins> result: dropping any one, or treating Tokopedia and GoTo as one company, keeps p at 0.016 or below. Dropping the two largest movers, Blibli and Tokopedia, weakens it to p = 0.058 (Appendix <del>B).</del> <ins>C).</ins>
+<span class="cid">C115</span> The <del>main</del> <ins>earlier</ins> test <del>compares</del> <ins>of</ins> the <del>five platforms with 27 abroad, using one median per platform. Both methods</del> <ins>size</ins> of <del>Section 4.3 reject equal</del> <ins>take-rate</ins> moves <ins>points the same way. At the typical Indonesian and regional platform the take rate moved by 22 percent a year, up or down. At the typical foreign platform it moved by 6 percent, so the moves were about 3.6 times as large (Mann–Whitney p = 0.003; shuffling the group labels, p = 0.01). Measured in logs, as in an earlier version of this test, the medians are 0.20 and 0.06</ins> (p = <del>0.004 and 0.022),</del> <ins>0.004),</ins> and exact versions that list every possible split of the 32 platforms agree (p = 0.004 and 0.021). No single platform carries <del>the</del> <ins>that</ins> result: dropping any one, or treating Tokopedia and GoTo as one company, keeps p at 0.016 or below. Dropping the two largest movers, Blibli and Tokopedia, weakens it to p = 0.058 (Appendix <del>B).</del> <ins>C).</ins>
 
-<span class="cid">C114</span> The <del>main</del> test <ins>of the size of moves</ins> was set up after a first, narrower test, so it is exploratory. The narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
+<span class="cid">C116</span> The <del>main</del> test <ins>of the size of moves</ins> was set up after a first, narrower test, so it is exploratory. The narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
 
-<span class="cid">C115</span> <del>The main test and the narrower test ask about</del> <ins>Both tests of</ins> the size of <del>the moves,</del> <ins>moves ask about their size,</ins> not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
+<span class="cid">C117</span> <del>The main test and the narrower test ask about</del> <ins>Both tests of</ins> the size of <del>the moves,</del> <ins>moves ask about their size,</ins> not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
 
 Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered before the test was run. Most of the quarterly Indonesian pairs cover 2023 to 2026, after most of the repricing, while the large moves came between 2022 and 2024. So the rejection of H1 describes that period.
 
-<span class="cid">C116</span> <del>The large moves were</del> <ins>Age does</ins> not <del>simply a mark of young platforms, an exploratory check.</del> <ins>explain the result.</ins> The Indonesian and regional platforms made their largest moves one or two years after listing on the stock <del>market. Foreign platforms, by contrast,</del> <ins>market, but foreign platforms</ins> did not move their take rates more in their first three years after listing than later (median 0.07 against <del>0.08,</del> <ins>0.08 in logs,</ins> p = <del>0.24). This comparison uses</del> <ins>0.24, an exploratory check), and Table 5.4 shows that years since listing explains neither</ins> the <del>15 foreign platforms with years in both periods. Nor did foreign platforms in lower-income markets move more in 2022 to 2024: one of seven did, against all four Indonesian and regional platforms with enough years. The repricing was an Indonesian and regional episode of those years.</del> <ins>wedge nor the ecosystem ratio.</ins>
+<span class="cid">C118</span> <del>The large moves were</del> <ins>Age does</ins> not <del>simply a mark of young platforms, an exploratory check.</del> <ins>explain the result.</ins> The Indonesian and regional platforms made their largest moves one or two years after listing on the stock <del>market. Foreign platforms, by contrast,</del> <ins>market, but foreign platforms</ins> did not move their take rates more in their first three years after listing than later (median 0.07 against <del>0.08,</del> <ins>0.08 in logs,</ins> p = <del>0.24). This comparison uses</del> <ins>0.24, an exploratory check), and Table 5.4 shows that years since listing explains neither</ins> the <del>15 foreign platforms with years in both periods. Nor did foreign platforms in lower-income markets move more in 2022 to 2024: one of seven did, against all four Indonesian and regional platforms with enough years. The repricing was an Indonesian and regional episode of those years.</del> <ins>wedge nor the ecosystem ratio.</ins>
 
 ::: {.del}
-<span class="cid">C117</span> The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65).
+<span class="cid">C119</span> The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65).
 :::
 
-<span class="cid">C118</span> <ins>The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65).</ins> The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by <del>side.</del> <ins>side, in its Panels A, B and C.</ins> The test shows that take rates moved, but not what the platforms changed to move them.
+<span class="cid">C120</span> <ins>The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65).</ins> The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by <del>side.</del> <ins>side, in its Panels A, B and C.</ins> The test shows that take rates moved, but not what the platforms changed to move them.
 
 ::: {.del}
-<span class="cid">C119</span> figure before
+<span class="cid">C121</span> figure before
 
 ![Figure 5.1](redline_tmp/old/figures/fig5_1_thin_slice.png)
 :::
 
 ::: {.ins}
-<span class="cid">C119</span> figure after
+<span class="cid">C121</span> figure after
 
 ![Figure 5.1](figures/fig5_1_thin_slice.png)
 :::
 
-<span class="cid">C120</span> **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. <del>Left:</del> <ins>Panel A:</ins> the share of each sale that the platform keeps, on a log scale. <del>Middle:</del> <ins>Panel B:</ins> the yearly change in that share, in percentage points. <del>Right:</del> <ins>Panel C:</ins> the same change relative to the share itself, as a <del>log change in percent.</del> <ins>simple percentage change.</ins> Black bars mark group medians. The foreign group has 26 platforms here and 27 in the main test, because one platform has no pair of usable years for the change in points. Source: company filings; author's calculations. Exploratory.
+<span class="cid">C122</span> **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. <del>Left:</del> <ins>Panel A:</ins> the share of each sale that the platform keeps, on a log scale. <del>Middle:</del> <ins>Panel B:</ins> the yearly change in that share, in percentage points. <del>Right:</del> <ins>Panel C:</ins> the same change relative to the share itself, as a <del>log change in percent.</del> <ins>simple percentage change.</ins> Black bars mark group medians. The foreign group has 26 platforms here and 27 in the main test, because one platform has no pair of usable years for the change in points. Source: company filings; author's calculations. Exploratory.
 
-## 5.3 What <del>moved</del> <ins>explains</ins> the <del>take rate</del> <ins>wedge and the ecosystem ratio</ins> <span class="cid">C121</span>
+## 5.3 What <del>moved</del> <ins>explains</ins> the <del>take rate</del> <ins>wedge and the ecosystem ratio</ins> <span class="cid">C123</span>
 
 ::: {.ins}
-<span class="cid">C122</span> Size explains the wedge, and pricing explains the ecosystem ratio. Table 5.4 regresses each on the features of the platform and of its home market.
+<span class="cid">C124</span> Size explains the wedge, and pricing explains the ecosystem ratio. Table 5.4 regresses each on the features of the platform and of its home market.
 :::
 
 ::: {.ins}
-<span class="cid">C123</span> **Table 5.4. What explains the wedge and the ecosystem ratio**
+<span class="cid">C125</span> **Table 5.4. What explains the wedge and the ecosystem ratio**
 :::
 
 ::: {.ins}
-<span class="cid">C124</span> This table reports OLS estimates of equation (7). The dependent variable is the natural logarithm of the wedge in US dollars in columns (1) to (3) and the ecosystem ratio, capped at its 5th and 95th percentiles, in columns (4) to (6). IndonesiaRegion equals one for the Indonesian and regional platforms. Size is total assets in US dollars. The base type is marketplace. Columns (2), (3), (5) and (6) add the GDP growth, inflation, household spending growth and policy rate of the platform's main market, and columns (3) and (6) add year dummies. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels. The last row gives the p-value of a wild cluster bootstrap with 2,999 replications for IndonesiaRegion.
+<span class="cid">C126</span> This table reports OLS estimates of equation (7). The dependent variable is the natural logarithm of the wedge in US dollars in columns (1) to (3) and the ecosystem ratio, capped at its 5th and 95th percentiles, in columns (4) to (6). IndonesiaRegion equals one for the Indonesian and regional platforms. Size is total assets in US dollars. The base type is marketplace. Columns (2), (3), (5) and (6) add the GDP growth, inflation, household spending growth and policy rate of the platform's main market, and columns (3) and (6) add year dummies. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels. The last row gives the p-value of a wild cluster bootstrap with 2,999 replications for IndonesiaRegion.
 :::
 
 ::: {.ins}
-<span class="cid">C125</span> *added*
+<span class="cid">C127</span> *added*
 
 | *Dependent variable* | ln(Wedge) | ln(Wedge) | ln(Wedge) | Ecosystem ratio | Ecosystem ratio | Ecosystem ratio |
 |---|---:|---:|---:|---:|---:|---:|
@@ -1184,35 +1195,35 @@ Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered
 :::
 
 ::: {.ins}
-<span class="cid">C126</span> *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; SEC filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
+<span class="cid">C128</span> *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; filings with the US Securities and Exchange Commission; World Bank; Bank for International Settlements; author's calculations. Exploratory.
 :::
 
 ::: {.ins}
-<span class="cid">C127</span> The wedge scales with the size of the platform. A 1 percent rise in total assets goes with a rise of about 0.9 percent in the wedge, and the regressors of column (1) explain 81 percent of its variation. Once size is held fixed, Indonesian and regional platforms do not carry a different wedge. The coefficient on IndonesiaRegion is −0.07 in column (1) and stays between −0.30 and 0.08 in the others, never close to significance. On-demand platforms carry about 60 percent less wedge for their assets than marketplaces do.
+<span class="cid">C129</span> The wedge scales with the size of the platform. A 1 percent rise in total assets goes with a rise of about 0.9 percent in the wedge, and the regressors of column (1) explain 81 percent of its variation. Once size is held fixed, Indonesian and regional platforms do not carry a different wedge. The coefficient on IndonesiaRegion is −0.07 in column (1) and stays between −0.30 and 0.08 in the others, never close to significance. On-demand platforms carry about 60 percent less wedge for their assets than marketplaces do.
 :::
 
 ::: {.ins}
-<span class="cid">C128</span> The ecosystem ratio is different. The Indonesian and regional platforms have a ratio 13 to 17 points above foreign platforms of the same type, size and age, in markets with the same growth, inflation and interest rates (columns 4 to 6). The foreign mean is about 9. The wild-bootstrap p-values, which allow for the small number of clusters, are between 0.005 and 0.04. Size and age explain little of the ratio. Type explains a good deal: on-demand platforms have ratios 17 to 20 points below marketplaces, which means that they keep a much larger share of each sale, and travel, freelance and resale platforms are 7 to 14 points below. A home market that grows faster has a higher ratio, by about 1.3 to 1.5 points for each point of GDP growth, an exploratory pattern that the thesis does not read as causal.
+<span class="cid">C130</span> The ecosystem ratio is different. The Indonesian and regional platforms have a ratio 13 to 17 points above foreign platforms of the same type, size and age, in markets with the same growth, inflation and interest rates (columns 4 to 6). The foreign mean is about 9. The wild-bootstrap p-values, which allow for the small number of clusters, are between 0.005 and 0.04. Size and age explain little of the ratio. Type explains a good deal: on-demand platforms have ratios 17 to 20 points below marketplaces, which means that they keep a much larger share of each sale, and travel, freelance and resale platforms are 7 to 14 points below. A home market that grows faster has a higher ratio, by about 1.3 to 1.5 points for each point of GDP growth, an exploratory pattern that the thesis does not read as causal.
 :::
 
 ::: {.ins}
-<span class="cid">C129</span> The result for the Indonesian and regional platforms survives the checks of Appendix C. The coefficient stays between 15 and 18 when each of the five platforms is dropped in turn, and it is 21 without Alibaba, Pinduoduo, Rakuten and Shopify. It is 28.5 when the ratio is not capped (p = 0.008), 17 when a dummy for emerging home markets is added, whose own coefficient is close to zero (0.4, p = 0.94), and 17 without the six platforms whose main market is ambiguous. So the thin take rates of Indonesian and regional platforms are not a general emerging-market pattern. Total assets are those of the whole company, which is larger than the platform business at GoTo, Rakuten and Sea, so size is measured with error, and the result rests on five platforms.
+<span class="cid">C131</span> The result for the Indonesian and regional platforms survives the checks of Appendix C. The coefficient stays between 15 and 18 when each of the five platforms is dropped in turn, and it is 21 without Alibaba, Pinduoduo, Rakuten and Shopify. It is 28.5 when the ratio is not capped (p = 0.008), 17 when a dummy for emerging home markets is added, whose own coefficient is close to zero (0.4, p = 0.94), and 17 without the six platforms whose main market is ambiguous. So the thin take rates of Indonesian and regional platforms are not a general emerging-market pattern. Total assets are those of the whole company, which is larger than the platform business at GoTo, Rakuten and Sea, so size is measured with error, and the result rests on five platforms.
 :::
 
 ::: {.del}
-<span class="cid">C130</span> Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricing here means a change in the take rate, through fees or incentives. With equation (5), the take rate accounts for about two thirds of a revenue move at the typical pair, against about a quarter abroad. The wedge, by contrast, follows the commerce: in both groups, about 95 percent of a move in the wedge comes from transaction value.
+<span class="cid">C132</span> Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricing here means a change in the take rate, through fees or incentives. With equation (5), the take rate accounts for about two thirds of a revenue move at the typical pair, against about a quarter abroad. The wedge, by contrast, follows the commerce: in both groups, about 95 percent of a move in the wedge comes from transaction value.
 :::
 
 ::: {.del}
-<span class="cid">C131</span> Where companies disclose both their fees and their incentives, equation (6) splits the growth of revenue further. Table 5.4 gives the seven traced windows. Fees and incentives are measured per unit of transaction value, and a negative share means that a part pulled revenue down. The windows of one platform overlap, so they are not seven independent cases.
+<span class="cid">C133</span> Where companies disclose both their fees and their incentives, equation (6) splits the growth of revenue further. Table 5.4 gives the seven traced windows. Fees and incentives are measured per unit of transaction value, and a negative share means that a part pulled revenue down. The windows of one platform overlap, so they are not seven independent cases.
 :::
 
 ::: {.del}
-<span class="cid">C132</span> **Table 5.4. What moved revenue in seven Indonesian and regional windows (share of the growth of revenue, percent)**
+<span class="cid">C134</span> **Table 5.4. What moved revenue in seven Indonesian and regional windows (share of the growth of revenue, percent)**
 :::
 
 ::: {.del}
-<span class="cid">C133</span> *removed*
+<span class="cid">C135</span> *removed*
 
 | Platform and window | Growth of revenue | More commerce | Higher fees | Lower incentives |
 |---|---|---|---|---|
@@ -1226,16 +1237,16 @@ Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered
 :::
 
 ::: {.del}
-<span class="cid">C134</span> *Note:* Shares are rounded, so a row can add to 99 or 101. Source: company filings; author's calculations (Appendix A).
+<span class="cid">C136</span> *Note:* Shares are rounded, so a row can add to 99 or 101. Source: company filings; author's calculations (Appendix A).
 :::
 
-<span class="cid">C135</span> <ins>The regression does not say how a platform moved its take rate. Company reports do, for the seven windows traced in Appendix B, where the growth of revenue is split into more commerce, higher fees and lower incentives.</ins> Higher fees and lower incentives together outweighed more commerce in every window. Lower incentives were the larger of the two in four windows and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. <ins>The windows of one platform overlap, so they are not seven independent cases. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.</ins>
+<span class="cid">C137</span> <ins>The regression does not say how a platform moved its take rate. Company reports do, for the seven windows traced in Appendix B, where the growth of revenue is split into more commerce, higher fees and lower incentives.</ins> Higher fees and lower incentives together outweighed more commerce in every window. Lower incentives were the larger of the two in four windows and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. <ins>The windows of one platform overlap, so they are not seven independent cases. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.</ins>
 
 ::: {.del}
-<span class="cid">C136</span> Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.
+<span class="cid">C138</span> Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.
 :::
 
-<span class="cid">C137</span> Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, <del>as in Table 5.4,</del> higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
+<span class="cid">C139</span> Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, <del>as in Table 5.4,</del> higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
 
 ![Figure 5.2](figures/fig5_2_tokopedia_two_views.png)
 
@@ -1244,20 +1255,20 @@ Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered
 Tokopedia is not the only case of revenue rising while the commerce shrank. From 2024 to 2025, Blibli's transaction value fell by about 2 percent while its revenue rose by about 12 percent. In the windows traced here, revenue growth was not a fair guide to the commerce the platforms carried. Whether markets treated it as one is a separate question.
 
 ::: {.ins}
-<span class="cid">C138</span> The ecosystem ratio matters for three groups. For investors, a high ratio means that small changes in fees or discounts produce large swings in revenue growth. At the typical Indonesian and regional ratio of 35, the platform keeps about 2.8 percent of each sale, and a rise of 1 point in the take rate lifts revenue by about 36 percent at constant volume. At the typical foreign ratio of 5.5, the same rise lifts it by 6.5 percent. So a revenue multiple means something different in the two groups, because each unit of revenue stands for 36 units of transaction value in one and 6.5 in the other. Growth that comes from the take rate cannot go on without end, and Section 5.4 shows that markets priced transaction value.
+<span class="cid">C140</span> The ecosystem ratio matters for three groups. For investors, a high ratio means that small changes in fees or discounts produce large swings in revenue growth. At the typical Indonesian and regional ratio of 35, the platform keeps about 2.8 percent of each sale, and a rise of 1 point in the take rate lifts revenue by about 36 percent at constant volume. At the typical foreign ratio of 5.5, the same rise lifts it by 6.5 percent. So a revenue multiple means something different in the two groups, because each unit of revenue stands for 36 units of transaction value in one and 6.5 in the other. Growth that comes from the take rate cannot go on without end, and Section 5.4 shows that markets priced transaction value.
 :::
 
 ::: {.ins}
-<span class="cid">C139</span> For sellers and drivers, a high ratio means that most of each sale goes to them and not to the platform. A rising take rate means that the platform keeps more of each sale. The take rate rose in 87 percent of the Indonesian and regional pairs, against 65 percent abroad, and at Tokopedia part of the rise came from smaller discounts, which are paid to buyers. Whether that shows market power is a question the thesis cannot answer, because it holds no data on what sellers and drivers paid or could have chosen instead. The pattern is also consistent with platforms that listed in 2021 and 2022 moving from growth to earnings, since their largest moves came one or two years after listing.
+<span class="cid">C141</span> For sellers and drivers, a high ratio means that most of each sale goes to them and not to the platform. A rising take rate means that the platform keeps more of each sale. The take rate rose in 87 percent of the Indonesian and regional pairs, against 65 percent abroad, and at Tokopedia part of the rise came from smaller discounts, which are paid to buyers. Whether that shows market power is a question the thesis cannot answer, because it holds no data on what sellers and drivers paid or could have chosen instead. The pattern is also consistent with platforms that listed in 2021 and 2022 moving from growth to earnings, since their largest moves came one or two years after listing.
 :::
 
 ::: {.ins}
-<span class="cid">C140</span> For policy, the wedge is the base that revenue-based rules do not reach. A rule that acts on platform revenue acts on about 3 percent of the commerce at a typical Indonesian or regional platform. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate, the two parts of the take rate in equation (5). Chapter 6 sets each rule against the part it reaches.
+<span class="cid">C142</span> For policy, the wedge is the base that revenue-based rules do not reach. A rule that acts on platform revenue acts on about 3 percent of the commerce at a typical Indonesian or regional platform. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate, the two parts of the take rate in equation (5). Chapter 6 sets each rule against the part it reaches.
 :::
 
 ## 5.4 What markets valued
 
-<span class="cid">C141</span> Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation <del>(8),</del> <ins>(9),</ins> p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
+<span class="cid">C143</span> Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation <del>(8),</del> <ins>(9),</ins> p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
 
 The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m), which is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20, or 0.16 with extreme values capped). The test could reliably flag only a gap above about 0.8, so a failed prediction here means the data cannot tell, not that markets value the two sources alike.
 
@@ -1277,7 +1288,7 @@ Sellers' own accounts of their sales show no boom either, a registered result. B
 
 ![Figure 5.3](figures/fig5_3_growth_2023.png)
 
-<span class="cid">C142</span> **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars show the figures that described a boom. Each measure is in its own unit. Sources: company reports, Bank Indonesia, Momentum Works and BPS; household spending from national accounts. GoTo's change rests on an estimated 2022 value, and Momentum Works' 3.5 is the author's calculation from its published levels (its 2024 release states 3.7). Appendix <del>D</del> <ins>E</ins> gives the values.
+<span class="cid">C144</span> **Figure 5.3. Growth in 2023 (percent).** Blue bars show measures of buying; orange bars show the figures that described a boom. Each measure is in its own unit. Sources: company reports, Bank Indonesia, Momentum Works and BPS; household spending from national accounts. GoTo's change rests on an estimated 2022 value, and Momentum Works' 3.5 is the author's calculation from its published levels (its 2024 release states 3.7). Appendix <del>D</del> <ins>E</ins> gives the values.
 
 Fewer sellers reported a rise than a year earlier. About a quarter reported a rise and about a third a fall. A year before, more than a third had reported a rise and a quarter a fall. The mean change was about −4 percent. Lack of demand became the main obstacle, named by 41 percent of sellers against 35 percent in 2022.
 
@@ -1285,9 +1296,9 @@ The published count of online sellers nonetheless rose by 27 percent in 2023. A 
 
 ## 5.6 H2 and the entry test
 
-<span class="cid">C143</span> H2 holds on BPS's published figures, but the registered entry test shows that first-time entry cannot explain the whole rise in the count. From 2022 to 2023, online sales value grew by 41 <del>percent and the</del> <ins>percent. The</ins> number of businesses <ins>grew</ins> by 27 <del>percent. More</del> <ins>percent and sales per business by 10 percent, so more</ins> businesses account for <del>71 percent</del> <ins>most</ins> of <del>that growth, and higher sales per business for</del> the <del>rest.</del> <ins>growth.</ins>
+<span class="cid">C145</span> H2 holds on BPS's published figures, but the registered entry test shows that first-time entry cannot explain the whole rise in the count. From 2022 to 2023, online sales value grew by 41 <del>percent and the</del> <ins>percent. The</ins> number of businesses <ins>grew</ins> by 27 <del>percent. More</del> <ins>percent and sales per business by 10 percent, so more</ins> businesses account for <del>71 percent</del> <ins>most</ins> of <del>that growth, and higher sales per business for</del> the <del>rest.</del> <ins>growth.</ins>
 
-<span class="cid">C144</span> H2 holds again from 2023 to 2024. Value grew by 17 percent, <ins>the number of businesses by 15 percent</ins> and <del>more businesses account for 90 percent of the growth,</del> <ins>sales per business by 1.5 percent,</ins> or <del>71</del> <ins>by 12 and 4.7</ins> percent on BPS's other count for 2023. The split of equation <del>(7)</del> <ins>(8)</ins> is arithmetic, and it cannot tell a new seller from one counted for the first time.
+<span class="cid">C146</span> H2 holds again from 2023 to 2024. Value grew by 17 percent, <ins>the number of businesses by 15 percent</ins> and <del>more businesses account for 90 percent of the growth,</del> <ins>sales per business by 1.5 percent,</ins> or <del>71</del> <ins>by 12 and 4.7</ins> percent on BPS's other count for 2023. The split of equation <del>(7)</del> <ins>(8)</ins> is arithmetic, and it cannot tell a new seller from one counted for the first time.
 
 The registered entry test separates new sellers from sellers counted for the first time, and it fails. In the survey for 2023 (the 2024 file), about 13 percent of sellers began selling online that year. The test required 21.5 percent. Even with no sellers stopping, that many new sellers would raise the count by at most about 16 percent, against a published rise of 27 percent.
 
@@ -1298,6 +1309,10 @@ Recall error does not explain the shortfall. As Section 3.5 noted, sellers who r
 About half of the 2023 rise in the count is not explained by first-time entry, an exploratory result. Table 5.5 sets out the accounting. In the survey for 2023, sellers who began before 2023 outnumber the whole count for 2022 by about 306 thousand. They make up 37 percent of the rise if no seller stopped, and 56 percent if sellers stopped at about 5 percent a year.
 
 **Table 5.5. The 2023 rise in the count of online sellers (thousands)**
+
+::: {.ins}
+<span class="cid">C147</span> This table splits the rise in the number of online sellers between the weighted totals of the two BPS survey files into net entry and earlier sellers who were newly counted. The first column assumes that no seller stopped between the surveys, and the second assumes that sellers stopped at 5 percent a year. The percentages are shares of the rise.
+:::
 
 | Part of the rise | If no seller stopped | If sellers stopped at 5 percent a year |
 |---|---|---|
@@ -1319,7 +1334,7 @@ Most of the 2023 rise in sales value cannot be traced to what sellers reported. 
 
 New sellers, sized like those that began in 2022, account for 25 to 30 percent of the rise. The extra earlier sellers, sized like chat and social sellers, account for 15 to 17 percent. The typical seller already online reported no growth (a mean change of about −4 percent, counting each seller once). That leaves 53 to 59 percent with no source in the sellers' answers. A few large sellers growing fast could account for it, but the files cannot show whether they did.
 
-<span class="cid">C145</span> H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, <del>more</del> <ins>the number of</ins> businesses <del>account for about 54</del> <ins>grows by 17</ins> percent <del>of the growth</del> if no seller stopped, <del>and about 42</del> <ins>against 14 to 15</ins> percent <del>if</del> <ins>for sales per business, so H2 holds narrowly. If</ins> sellers stopped at 5 percent a <del>year.</del> <ins>year, the number of businesses grows by 12 percent and sales per business by about 16 to 17 percent, so H2 fails by a few points.</ins> H2 requires <del>more than 50 percent.</del> <ins>the first growth rate to be the larger.</ins> Taking out the sellers but keeping their sales gives <del>34 to 47</del> <ins>17 against 20 percent, and 12 against 25</ins> percent, but that version treats the count and the value unevenly.
+<span class="cid">C148</span> H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, <del>more</del> <ins>the number of</ins> businesses <del>account for about 54</del> <ins>grows by 17</ins> percent <del>of the growth</del> if no seller stopped, <del>and about 42</del> <ins>against 14 to 15</ins> percent <del>if</del> <ins>for sales per business, so H2 holds narrowly. If</ins> sellers stopped at 5 percent a <del>year.</del> <ins>year, the number of businesses grows by 12 percent and sales per business by about 16 to 17 percent, so H2 fails by a few points.</ins> H2 requires <del>more than 50 percent.</del> <ins>the first growth rate to be the larger.</ins> Taking out the sellers but keeping their sales gives <del>34 to 47</del> <ins>17 against 20 percent, and 12 against 25</ins> percent, but that version treats the count and the value unevenly.
 
 The checks point to a survey that reached more chat and social sellers in 2023, the kind of break that Section 3.5 described. The files cannot separate that reading from sellers returning after a pause. Who the extra sellers were helps decide between the two.
 
@@ -1377,9 +1392,9 @@ Where Bank Indonesia's figure and BPS's cover the same ground, the growth is sma
 
 A registered test on size gives a mixed answer. It predicted that the part of BPS's marketplace sales that went to final consumers in 2022 would fall below Bank Indonesia's figure. The prediction holds in the low and middle scenarios, at 0.16 and 0.68 times Bank Indonesia's figure. It fails in the high one, at 1.62 times.
 
-<span class="cid">C146</span> In 2024 the figures divide by coverage. Those that cover mainly platforms grew by 5 to 7 percent, and BPS's grew by about 17 percent. The adjacent figures of <del>Table 4.3</del> <ins>Appendix A</ins> point the same way as BPS but do not measure Indonesian e-commerce. Parcels shipped in Southeast Asia grew by about 25 percent, and the tax on foreign digital services by about 25 percent.
+<span class="cid">C149</span> In 2024 the figures divide by coverage. Those that cover mainly platforms grew by 5 to 7 percent, and BPS's grew by about 17 percent. The adjacent figures of <del>Table 4.3</del> <ins>Appendix A</ins> point the same way as BPS but do not measure Indonesian e-commerce. Parcels shipped in Southeast Asia grew by about 25 percent, and the tax on foreign digital services by about 25 percent.
 
-<span class="cid">C147</span> Payment figures grew faster than any of these from 2023 to 2024. E-money shopping grew by about 30 percent, mobile-banking purchases by 83 percent and <del>QRIS</del> payments <ins>through the Quick Response Code Indonesian Standard (QRIS)</ins> by 187 percent. They are context only, because they include in-person payments and the switch away from cash.
+<span class="cid">C150</span> Payment figures grew faster than any of these from 2023 to 2024. E-money shopping grew by about 30 percent, mobile-banking purchases by 83 percent and <del>QRIS</del> payments <ins>through the Quick Response Code Indonesian Standard (QRIS)</ins> by 187 percent. They are context only, because they include in-person payments and the switch away from cash.
 
 Levels cannot be reconciled. In 2024, BPS put online sales at about US$81 billion and Bank Indonesia at about US$31 billion.
 
@@ -1406,7 +1421,11 @@ The recent rules act on three parts of the figures: the platforms' take rate, th
 
 **Table 6.1. Indonesia's recent rules and what each acts on**
 
-<span class="cid">C148</span> *table changed*
+::: {.ins}
+<span class="cid">C151</span> This table lists each recent Indonesian rule that bears on the figures in Chapters 4 and 5. For each rule it gives what the rule does, which part of the figures it acts on, the section of Chapter 5 that measures that part, and the status of the legal text when this thesis was written. Amounts in rupiah (Rp) are converted to US dollars in the note.
+:::
+
+<span class="cid">C152</span> *table changed*
 
 | Rule | What it does | What it acts on | Measured in | Status of the text |
 |---|---|---|---|---|
@@ -1420,7 +1439,7 @@ The recent rules act on three parts of the figures: the platforms' take rate, th
 
 *Note:* At the 2024 rate, Rp500 million is about US$32,000 and Rp4.8 billion about US$300,000. Section 4.8 converts the exemption at the 2022 rate, about US$34,000, to match the survey year. Sources: the legal texts (BPS-Statistics Indonesia 2023; Government of the Republic of Indonesia 2026; Ministry of Finance of the Republic of Indonesia 2025; Ministry of Trade of the Republic of Indonesia 2023, 2026). The texts behind the commission cap were not public; its terms come from GoTo Gojek Tokopedia (2026) and CNN Indonesia (2026b).
 
-<span class="cid">C149</span> Equation <del>(6)</del> <ins>(5)</ins> shows where the first two rules act. The take rate is the fee rate less the incentive rate. A cap on a fee pushes the take rate down. A limit on incentives pushes it up. The two rules act on opposite sides of the same take rate.
+<span class="cid">C153</span> Equation <del>(6)</del> <ins>(5)</ins> shows where the first two rules act. The take rate is the fee rate less the incentive rate. A cap on a fee pushes the take rate down. A limit on incentives pushes it up. The two rules act on opposite sides of the same take rate.
 
 The marketplace tax acts further out, on the sales of sellers inside marketplaces. It leaves the take rate alone, but it depends on the marketplaces' records of each sale. The platform-data rule and the census act on the national figure: the first on what BPS receives, the second on where BPS looks.
 
@@ -1440,7 +1459,7 @@ Drivers asked for the cap, and the President announced the limit at a May Day ra
 
 A cap on one fee does not fix the take rate, because the platform still sets its incentives. At GoTo, on-demand revenue rose by about 20 percent in the second quarter of 2026 while transaction value grew by 2 percent. The company attributed the rise to its mix of services and to "rationalization of incentives as we prepared for the implementation of the 8% commission rate" (GoTo Gojek Tokopedia 2026). Its take rate rose to about 22 percent in that quarter, the last before the cap, from about 18 percent a year earlier.
 
-<span class="cid">C150</span> The discount rule acts on the lever that moved take rates most often. Lower incentives were the larger part of the rise in the take rate in four of the seven windows of <del>Table 5.4.</del> <ins>Appendix B.</ins> The rule binds every online trade operator, including ride-hailing apps that sell food or goods. Whether it reaches ride fares, which the transport ministry sets, is unclear.
+<span class="cid">C154</span> The discount rule acts on the lever that moved take rates most often. Lower incentives were the larger part of the rise in the take rate in four of the seven windows of <del>Table 5.4.</del> <ins>Appendix B.</ins> The rule binds every online trade operator, including ride-hailing apps that sell food or goods. Whether it reaches ride fares, which the transport ministry sets, is unclear.
 
 Where incentives can be followed over time, much of that lever had been pulled before the rule came. Tokopedia, the only marketplace that reported its incentives, cut them by about a third in 2023, its last full year of separate reporting. At GoTo's on-demand business, incentives fell from about 11 percent of transaction value in 2023 to about 4 percent in 2025. Grab still spent about 10 percent of on-demand transaction value on incentives in the four quarters to early 2026, across the region. The thesis did not register a test of the discount rule, because its effect on the take rate cannot be told apart from changes in fees.
 
@@ -1454,7 +1473,7 @@ At most about 1 in 20 online sellers falls under the tax. In 2022, marketplace s
 
 The value the tax reaches is larger, but it is still a minority of online sales. Marketplaces carried 23 to 26 percent of online sales value in 2022, and sellers above the bracket line held 77 to 94 percent of that. So the tax reaches at most about 18 to 24 percent of online sales value, about a fifth. Both figures use BPS's marketplace category, which also counts food and ride apps. Those apps are not among the four collectors, so both figures are upper limits for a second reason.
 
-<span class="cid">C151</span> The record reaches further than the tax. Every domestic seller on a designated marketplace must give the marketplace a tax number or national <del>ID</del> <ins>identity number</ins> and an address before being paid. Exempt sellers file a statement as well. Tax research finds that records held by a third party improve compliance where they exist (Section 2.3).
+<span class="cid">C155</span> The record reaches further than the tax. Every domestic seller on a designated marketplace must give the marketplace a tax number or national <del>ID</del> <ins>identity number</ins> and an address before being paid. Exempt sellers file a statement as well. Tax research finds that records held by a third party improve compliance where they exist (Section 2.3).
 
 The record still covers a minority of sellers. Marketplace sellers were about 18 percent of online sellers in 2023. Only 47 percent of them used a shopping marketplace, and most of the rest sold only through Gojek or Grab. So the record covers at most about 8 percent of online sellers, including the many who pay nothing.
 
@@ -1480,6 +1499,10 @@ Nine predictions on the rules and on what they act on were registered before any
 
 **Table 6.2. Registered predictions on the 2026 rules**
 
+::: {.ins}
+<span class="cid">C156</span> This table lists the registered predictions on the 2026 rules. For each prediction it gives what is expected, the rule it bears on and the date it is scored. The outcome stays blank until the company or BPS releases the figure.
+:::
+
 | Prediction | What it expects | Bears on | Scored | Outcome |
 |---|---|---|---|---|
 | P1 | GoTo's on-demand take rate falls by 0.3 to 2.5 points from the second quarter of 2026 | Commission cap | Late October 2026 | [to be filled] |
@@ -1492,11 +1515,11 @@ Nine predictions on the rules and on what they act on were registered before any
 | R3 | Shopee's revenue growth less its transaction value growth is at least +10 points | Marketplace fees | Mid-November 2026 | [to be filled] |
 | Marketplace share | BPS's next marketplace share of online sales value is at most 15.79 percent | Reach of marketplace rules | Next BPS release | [to be filled] |
 
-<span class="cid">C152</span> *Note:* Ranges as registered; registration dates are in Appendix <del>C.</del> <ins>D.</ins> A tenth prediction, that the start of the marketplace tax would slip again, is withdrawn: collection had begun on 1 October 2026, a day before the prediction was registered. Sources for scoring: company results releases; BPS national accounts and e-commerce publication.
+<span class="cid">C157</span> *Note:* Ranges as registered; registration dates are in Appendix <del>C.</del> <ins>D.</ins> A tenth prediction, that the start of the marketplace tax would slip again, is withdrawn: collection had begun on 1 October 2026, a day before the prediction was registered. Sources for scoring: company results releases; BPS national accounts and e-commerce publication.
 
 The predictions describe company numbers, not the effect of the cap. Both companies report rides and deliveries together, so any effect of the cap is diluted in their figures. P1 and P5 are read together. If both hold, GoTo met the cap partly by spending more to grow. If P1 holds and P5 fails, GoTo let the lower commission show in its take rate without spending more to grow. P4 has limited power, because its range cannot separate the cap from ordinary quarter-to-quarter noise. R2 and R3 concern single companies, and Shopee's figures cover Asia and Brazil.
 
-<span class="cid">C153</span> > **[Results slot]** To be written after the GoTo results (late October), the BPS national accounts (early November) and the Grab and Sea results (mid-November). For each outcome: the result against its range in Table 6.2 and Appendix <del>C,</del> <ins>D,</ins> then one paragraph on what the outcomes show about the cap and one on marketplace fees.
+<span class="cid">C158</span> > **[Results slot]** To be written after the GoTo results (late October), the BPS national accounts (early November) and the Grab and Sea results (mid-November). For each outcome: the result against its range in Table 6.2 and Appendix <del>C,</del> <ins>D,</ins> then one paragraph on what the outcomes show about the cap and one on marketplace fees.
 
 The outcomes will be reported whatever their direction, as the other registered tests are.
 
@@ -1506,7 +1529,7 @@ Other countries are building rules on platform records too, and the same questio
 
 Indonesia's design goes further than reporting, because its marketplaces collect the tax as well as identify the seller. Every one of these rules reaches only the sales that pass through a platform. Where most selling runs through platforms, a rule built on their records reaches most sellers. Where it runs through chat and social media, as in Indonesia, it reaches a minority.
 
-<span class="cid">C154</span> Commission caps have been tried elsewhere as well. Fourteen US cities and states capped the commissions that delivery platforms charged independent restaurants. The platforms raised delivery fees for consumers and showed chain restaurants first more often. Independent restaurants lost orders and revenue, while chains gained (Li and Wang 2025). In the terms of equation <del>(6),</del> <ins>(5),</ins> a cap on one fee left the platform free to change another. Indonesia's cap also covers one fee on one service.
+<span class="cid">C159</span> Commission caps have been tried elsewhere as well. Fourteen US cities and states capped the commissions that delivery platforms charged independent restaurants. The platforms raised delivery fees for consumers and showed chain restaurants first more often. Independent restaurants lost orders and revenue, while chains gained (Li and Wang 2025). In the terms of equation <del>(6),</del> <ins>(5),</ins> a cap on one fee left the platform free to change another. Indonesia's cap also covers one fee on one service.
 
 The thesis does not measure the split between channels outside Indonesia. Any statistics office that asks sellers which channels they use can make the same count, and with it measure how far its own rules reach.
 
@@ -1525,9 +1548,9 @@ The research question asked how much economic activity remains invisible when di
 
 Platform commerce is itself only part of online commerce. In BPS's survey, marketplaces carry about a fifth of online sales value. Any measure built on platforms, whether revenue or transaction value, leaves out most online sales, which move through chat, social media and sellers' own websites.
 
-<span class="cid">C155</span> The answer to the second half differs by link. On the inner link, the choice of revenue changed the conclusion, above all from 2022 to 2024. <ins>Abroad, revenue growth matched transaction value growth one for one, with a slope of 0.99, so revenue was a workable stand-in. In Indonesia and the region the slope was 0.40, and revenue grew by about 44 percent a year whatever transaction value did, so H1 is rejected there.</ins> The Indonesian and regional platforms changed their take rates about <del>three</del> <ins>3.6</ins> times as much as platforms <del>abroad, measured against the take rate itself, so H1 is rejected.</del> <ins>abroad.</ins> They <ins>also</ins> keep a much thinner share of each <del>sale, so</del> <ins>sale: their ecosystem ratio is 13 to 17 points above that of comparable foreign platforms, after the type, size and age of the platform and the conditions of its home market are held fixed. So</ins> price changes of a similar size in points moved their revenue far more. In the windows traced, pricing moved revenue more than commerce did. Market value, for its part, moved with transaction value, and the data do not show that markets valued growth from pricing any less.
+<span class="cid">C160</span> The answer to the second half differs by link. On the inner link, the choice of revenue changed the conclusion, above all from 2022 to 2024. <ins>Abroad, revenue growth matched transaction value growth one for one, with a slope of 0.99, so revenue was a workable stand-in. In Indonesia and the region the slope was 0.40, and revenue grew by about 44 percent a year whatever transaction value did, so H1 is rejected there.</ins> The Indonesian and regional platforms changed their take rates about <del>three</del> <ins>3.6</ins> times as much as platforms <del>abroad, measured against the take rate itself, so H1 is rejected.</del> <ins>abroad.</ins> They <ins>also</ins> keep a much thinner share of each <del>sale, so</del> <ins>sale: their ecosystem ratio is 13 to 17 points above that of comparable foreign platforms, after the type, size and age of the platform and the conditions of its home market are held fixed. So</ins> price changes of a similar size in points moved their revenue far more. In the windows traced, pricing moved revenue more than commerce did. Market value, for its part, moved with transaction value, and the data do not show that markets valued growth from pricing any less.
 
-<span class="cid">C156</span> On the outer link, H2 holds on BPS's published figures: more businesses account for most of the growth in online sales value. The registered entry test failed, and about half of the 2023 rise in the count is not explained by first-time entry. The extra count leaned toward long-running businesses. Read as wider coverage, an exploratory check, the extra count leaves H2 <del>on</del> <ins>near</ins> its threshold: <del>more</del> <ins>the number of</ins> businesses then <del>account for about 42</del> <ins>grows by 12</ins> to <del>54</del> <ins>17</ins> percent <del>of</del> <ins>and sales per business by 14 to 17 percent, so H2 holds narrowly in one reading and fails by a few points in</ins> the <del>growth, against the 50 percent H2 requires.</del> <ins>other.</ins>
+<span class="cid">C161</span> On the outer link, H2 holds on BPS's published figures: more businesses account for most of the growth in online sales value. The registered entry test failed, and about half of the 2023 rise in the count is not explained by first-time entry. The extra count leaned toward long-running businesses. Read as wider coverage, an exploratory check, the extra count leaves H2 <del>on</del> <ins>near</ins> its threshold: <del>more</del> <ins>the number of</ins> businesses then <del>account for about 42</del> <ins>grows by 12</ins> to <del>54</del> <ins>17</ins> percent <del>of</del> <ins>and sales per business by 14 to 17 percent, so H2 holds narrowly in one reading and fails by a few points in</ins> the <del>growth, against the 50 percent H2 requires.</del> <ins>other.</ins>
 
 In the same year, five of six measures of buying through platforms grew more slowly than household spending, and the median seller already online reported no change in sales. Reading BPS's 2023 figures as a boom in online selling overstates what sellers and platforms reported.
 
@@ -1535,7 +1558,7 @@ Where the national figures cover the same sellers, they agree on small growth in
 
 ## 7.2 What the thesis adds
 
-<span class="cid">C157</span> For investors, the thesis adds a check that can be run on any platform that reports both amounts. Revenue growth splits into <del>more commerce</del> <ins>growth in transaction value</ins> and a <del>larger</del> <ins>change in the</ins> take rate with two public figures (equation <del>(5)).</del> <ins>(4)).</ins> At the Indonesian and regional platforms, <del>the take rate accounted</del> <ins>revenue growth moved little with transaction value, while abroad it moved one</ins> for <del>about two thirds of a revenue move at the typical pair. Abroad it accounted for about a quarter.</del> <ins>one.</ins> The thinner the take rate, the more a small change in fees or incentives moves revenue growth. <ins>At the typical Indonesian and regional ecosystem ratio of 35, a rise of 1 point in the take rate lifts revenue by about 36 percent at constant volume, against 6.5 percent at the typical foreign ratio of 5.5. A revenue multiple then stands for 36 units of transaction value per unit of revenue in one group and 6.5 in the other.</ins> Across 28 listed platforms, market value moved with transaction value, as a registered prediction stated. A 1 percent rise in transaction value went with about 0.6 percent more market value.
+<span class="cid">C162</span> For investors, the thesis adds a check that can be run on any platform that reports both amounts. Revenue growth splits into <del>more commerce</del> <ins>growth in transaction value</ins> and a <del>larger</del> <ins>change in the</ins> take rate with two public figures (equation <del>(5)).</del> <ins>(4)).</ins> At the Indonesian and regional platforms, <del>the take rate accounted</del> <ins>revenue growth moved little with transaction value, while abroad it moved one</ins> for <del>about two thirds of a revenue move at the typical pair. Abroad it accounted for about a quarter.</del> <ins>one.</ins> The thinner the take rate, the more a small change in fees or incentives moves revenue growth. <ins>At the typical Indonesian and regional ecosystem ratio of 35, a rise of 1 point in the take rate lifts revenue by about 36 percent at constant volume, against 6.5 percent at the typical foreign ratio of 5.5. A revenue multiple then stands for 36 units of transaction value per unit of revenue in one group and 6.5 in the other.</ins> Across 28 listed platforms, market value moved with transaction value, as a registered prediction stated. A 1 percent rise in transaction value went with about 0.6 percent more market value.
 
 For statistics offices, the thesis adds a test of what a count of sellers represents. The entry test needs no linked records, only a question on when each business began selling online. Applied to BPS's survey, it showed that the 2023 rise in the count was only partly first-time entry. The same test can mark a break in any survey that asks the question.
 
@@ -1555,23 +1578,23 @@ Three predictions on sellers' records and sales failed narrowly or in part. The 
 
 A registered rule on discounts gave only thin support. It expected large take-rate moves only where a platform's incentives were at least as large as its revenue. Out of sample, the rule pointed the right way, but it rested on two cases and failed at its main threshold.
 
-<span class="cid">C158</span> Appendix <del>C</del> <ins>D</ins> lists every registered test with its outcome. The predictions on the 2026 rules are listed in Section 6.5, with the date on which each is scored. One of them, that the start of the marketplace tax would slip again, was withdrawn, because the tax had started a day before the prediction was registered. A comparison of seven countries on firms' digital records was withdrawn as a test for a similar reason. Published figures seen at registration already settled it, so it is reported as descriptive.
+<span class="cid">C163</span> Appendix <del>C</del> <ins>D</ins> lists every registered test with its outcome. The predictions on the 2026 rules are listed in Section 6.5, with the date on which each is scored. One of them, that the start of the marketplace tax would slip again, was withdrawn, because the tax had started a day before the prediction was registered. A comparison of seven countries on firms' digital records was withdrawn as a test for a similar reason. Published figures seen at registration already settled it, so it is reported as descriptive.
 
 ## 7.4 Limits of the evidence
 
-<span class="cid">C159</span> The invisible wedge is the part of each sale that a platform passes on to sellers, drivers and others. It is not missing output, unrecorded income or unpaid tax. The thesis does not find BPS's figures wrong in general, nor that total online buying in Indonesia fell. It finds that one year's count of sellers moved for reasons other than first-time entry, and that the figures disagree where they cover different sellers. The splits of <del>Table 5.4</del> <ins>Appendix B</ins> are accounting, not causes. Marketplace sellers keep financial statements more often, but the thesis does not show that marketplaces lead them to.
+<span class="cid">C164</span> The invisible wedge is the part of each sale that a platform passes on to sellers, drivers and others. It is not missing output, unrecorded income or unpaid tax. The thesis does not find BPS's figures wrong in general, nor that total online buying in Indonesia fell. It finds that one year's count of sellers moved for reasons other than first-time entry, and that the figures disagree where they cover different sellers. The splits of <del>Table 5.4</del> <ins>Appendix B</ins> are accounting, not causes. Marketplace sellers keep financial statements more often, but the thesis does not show that marketplaces lead them to.
 
 The platform evidence rests on a small sample. Three Indonesian marketplaces report both revenue and transaction value. The main test of H1 adds the on-demand businesses of Grab and GoTo, which mix rides and deliveries, and Grab's figures cover the whole region. That test was set up after a narrower first test, so it is exploratory.
 
-<span class="cid">C160</span> The tests of H1 are one-sided, because each asks whether the Indonesian and regional group moves more. A two-sided test would about double each p-value, and the main Mann–Whitney result would still be below 1 percent. The result depends on the larger movers. Dropping the two largest, Blibli and Tokopedia, leaves p = 0.058, and keeping only the first five years after each platform's listing leaves p = 0.059 (Appendix <del>B).</del> <ins>C).</ins>
+<span class="cid">C165</span> The tests of H1 are one-sided, because each asks whether the Indonesian and regional group moves more. A two-sided test would about double each p-value, and the main Mann–Whitney result would still be below 1 percent. The result depends on the larger movers. Dropping the two largest, Blibli and Tokopedia, leaves p = 0.058, and keeping only the first five years after each platform's listing leaves p = 0.059 (Appendix <del>B).</del> <ins>C).</ins>
 
 ::: {.ins}
-<span class="cid">C161</span> The new regressions are exploratory and rest on few platforms. The growth test for Indonesia and the region has 15 pairs from five platforms, and the Indonesia coefficients of Table 5.4 are identified by the same five. A wild cluster bootstrap allows for the small number of clusters but cannot remove the limit. Total assets are those of the whole company, so size is overstated at GoTo, Rakuten and Sea. The home market of each platform is assigned by the author, and the policy rate is missing for Kazakhstan and Nigeria. The regressions describe how the wedge and the ecosystem ratio differ across platforms and do not show what causes the difference.
+<span class="cid">C166</span> The new regressions are exploratory and rest on few platforms. The growth test for Indonesia and the region has 15 pairs from five platforms, and the Indonesia coefficients of Table 5.4 are identified by the same five. A wild cluster bootstrap allows for the small number of clusters but cannot remove the limit. Total assets are those of the whole company, so size is overstated at GoTo, Rakuten and Sea. The home market of each platform is assigned by the author, and the policy rate is missing for Kazakhstan and Nigeria. The regressions describe how the wedge and the ecosystem ratio differ across platforms and do not show what causes the difference.
 :::
 
 The platform figures carry their own limits. Shopee's and Grab's Indonesian amounts come from an outside estimate, an assumed take rate or a company-wide ratio, and they stay out of the main tests. Grab revised some figures between filings. The thesis takes each year from the latest filing that reports it, so one series can mix filings from before and after a revision. Blibli's incentives are a proxy, and Bukalapak's reports do not allow the parts of a revenue move to be separated. Company explanations of why revenue moved are reported as statements and are not tested.
 
-<span class="cid">C162</span> Foreign platforms also differ in how they book shopper discounts. Eight of the 27 record them mainly as marketing costs, not as lower revenue, which could steady their take rates. Their take rates were not steadier, and without them the test of H1 still gives p = 0.004, an exploratory check (Appendix <del>B).</del> <ins>C).</ins>
+<span class="cid">C167</span> Foreign platforms also differ in how they book shopper discounts. Eight of the 27 record them mainly as marketing costs, not as lower revenue, which could steady their take rates. Their take rates were not steadier, and without them the test of H1 still gives p = 0.004, an exploratory check (Appendix <del>B).</del> <ins>C).</ins>
 
 The survey files describe sellers in one year, not businesses followed over time. No business identifier links the files, so the thesis cannot follow a seller from one round to the next, and returning sellers cannot be ruled out. Revenue appears only in brackets, and only in the 2021 and 2023 files, which describe 2020 and 2022, so value shares are ranges. The 2024 file, which describes 2023, has no revenue amounts. At the top, sellers with sales above about US$3.4 million a year are only 19 sample rows in the survey for 2022. Yet they hold 18 to 39 percent of the marketplace value.
 
@@ -1607,19 +1630,19 @@ The thesis started from figures that moved apart in 2023. BPS's online sales ros
 These appendices hold the detail that the main text points to. Every number comes from a table in the project's repository, named in the notes in small type. Nothing here changes a result in Chapter 5.
 
 ::: {.ins}
-<span class="cid">C163</span> ## Appendix A. Definition of variables
+<span class="cid">C168</span> ## Appendix A. Definition of variables
 :::
 
 ::: {.ins}
-<span class="cid">C164</span> ### A.1 Variables
+<span class="cid">C169</span> ### A.1 Variables
 :::
 
 ::: {.ins}
-<span class="cid">C165</span> Every variable and symbol used in the empirical analyses is listed with its definition and data source. The subscripts i and t mark the platform and the year. Amounts in the text are in US dollars, at the World Bank's average rate for the year (World Bank 2026). Growth is the simple percentage change, g(X), defined in Panel A.
+<span class="cid">C170</span> Every variable and symbol used in the empirical analyses is listed with its definition and data source. The subscripts i and t mark the platform and the year. Amounts in the text are in US dollars, at the World Bank's average rate for the year (World Bank 2026). Growth is the simple percentage change, g(X), defined in Panel A.
 :::
 
 ::: {.ins}
-<span class="cid">C166</span> *added*
+<span class="cid">C171</span> *added*
 
 | Variable | Definition | Source |
 |---|---|---|
@@ -1660,11 +1683,11 @@ These appendices hold the detail that the main text points to. Every number come
 :::
 
 ::: {.ins}
-<span class="cid">C167</span> ### A.2 Sources compared in Objective 3
+<span class="cid">C172</span> ### A.2 Sources compared in Objective 3
 :::
 
 ::: {.ins}
-<span class="cid">C168</span> *added*
+<span class="cid">C173</span> *added*
 
 | Source | What it covers | How it counts |
 |---|---|---|
@@ -1677,11 +1700,11 @@ These appendices hold the detail that the main text points to. Every number come
 | Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes 2025), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
 :::
 
-## Appendix <del>A.</del> <ins>B.</ins> Platforms, windows and the wedge by year <span class="cid">C169</span>
+## Appendix <del>A.</del> <ins>B.</ins> Platforms, windows and the wedge by year <span class="cid">C174</span>
 
-### <del>A.1</del> <ins>B.1</ins> The foreign group (27 platforms) <span class="cid">C170</span>
+### <del>A.1</del> <ins>B.1</ins> The foreign group (27 platforms) <span class="cid">C175</span>
 
-<span class="cid">C171</span> Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platforms added, the later year is not one in which own goods exceed half of revenue; for the eight chosen first, the reporting scope did not change. Ozon's one pair starts in a year that fails the own-goods rule (Appendix <del>B).</del> <ins>C).</ins> The median is the platform's median size of yearly change in log take rate. Source: `tables/spinoff_panel.csv`, `tables/transitions_master.csv`.
+<span class="cid">C176</span> Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platforms added, the later year is not one in which own goods exceed half of revenue; for the eight chosen first, the reporting scope did not change. Ozon's one pair starts in a year that fails the own-goods rule (Appendix <del>B).</del> <ins>C).</ins> The median is the platform's median size of yearly change in log take rate. Source: `tables/spinoff_panel.csv`, `tables/transitions_master.csv`.
 
 | Platform | Chosen first or added | Pairs | Median size of yearly change in log take rate |
 |---|---|---|---|
@@ -1715,10 +1738,10 @@ These appendices hold the detail that the main text points to. Every number come
 
 Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg and Vipshop, because their own goods are most of revenue in every year; and four platforms that disclose no transaction value (Nebius Group, formerly Yandex; Trip.com; Tuniu; and Uxin).
 
-### <del>A.2</del> <ins>B.2</ins> The Indonesian and regional group <span class="cid">C172</span>
+### <del>A.2</del> <ins>B.2</ins> The Indonesian and regional group <span class="cid">C177</span>
 
 ::: {.ins}
-<span class="cid">C173</span> *added*
+<span class="cid">C178</span> *added*
 
 | Platform series | What it covers | Years | Yearly pairs | How it is labelled |
 |---|---|---|---|---|
@@ -1737,9 +1760,9 @@ Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg 
 | Grab on-demand | 4 | 0.20 | 0.50 |
 | Tokopedia | 1 | 0.52 | 0.00 |
 
-### <del>A.3</del> <ins>B.3</ins> The seven windows traced <del>(Table 5.4 in full)</del> <span class="cid">C174</span>
+### <del>A.3</del> <ins>B.3</ins> The seven windows traced <del>(Table 5.4 in full)</del> <span class="cid">C179</span>
 
-<span class="cid">C175</span> Shares are of the log growth of <del>revenue.</del> <ins>revenue, because the split into more commerce, higher fees and lower incentives is exact only in logs.</ins> Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and stay out of the main sample. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
+<span class="cid">C180</span> Shares are of the log growth of <del>revenue.</del> <ins>revenue, because the split into more commerce, higher fees and lower incentives is exact only in logs.</ins> Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and stay out of the main sample. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
 
 | Platform and window | Growth of revenue (%) | Growth of transaction value (%) | Take rate, start (%) | Take rate, end (%) | More commerce | Higher fees | Lower incentives |
 |---|---|---|---|---|---|---|---|
@@ -1753,7 +1776,7 @@ Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg 
 
 Tokopedia, 2022–23, line by line (Rp million, `tables/tokopedia_segment.csv`): gross revenue 8,143,239 to 8,988,909; incentives 4,112,320 to 2,813,719; net revenue 4,030,919 to 6,175,190. Net revenue rose by 2,144,271, of which lower incentives account for 60.6 percent and higher gross revenue for 39.4 percent (about 60 and 40 percent in the text).
 
-### <del>A.4</del> <ins>B.4</ins> Wedge and ecosystem ratio by platform-year, Indonesian series <span class="cid">C176</span>
+### <del>A.4</del> <ins>B.4</ins> Wedge and ecosystem ratio by platform-year, Indonesian series <span class="cid">C181</span>
 
 Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.2 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Each label names the source of the transaction value and of the revenue in that row. Source: `tables/take_rate_levels.csv`.
 
@@ -1778,15 +1801,15 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 | Bukalapak Group | 2023 | 164,380,065 | 4,438,269 | 159,941,796 | 2.70 | 36.0 | Company-wide disclosure |
 
 ::: {.ins}
-<span class="cid">C177</span> ### B.5 Classification of the platforms in the regressions
+<span class="cid">C182</span> ### B.5 Classification of the platforms in the regressions
 :::
 
 ::: {.ins}
-<span class="cid">C178</span> The type, the main market and the listing year are the author's classification from public record. The main market is the country whose macroeconomic conditions are attached to the platform: the United States for most US-listed platforms, Indonesia for Sea (Shopee), Nigeria for Jumia, Brazil for Mercado Libre and Argentina for Despegar. Source: `tables/platform_attributes.csv`.
+<span class="cid">C183</span> The type, the main market and the listing year are the author's classification from public record. The main market is the country whose macroeconomic conditions are attached to the platform: the United States for most US-listed platforms, Indonesia for Sea (Shopee), Nigeria for Jumia, Brazil for Mercado Libre and Argentina for Despegar. Source: `tables/platform_attributes.csv`.
 :::
 
 ::: {.ins}
-<span class="cid">C179</span> *added*
+<span class="cid">C184</span> *added*
 
 | Platform | Group | Type | Main market | Reporting currency | Listed |
 |---|---|---|---|---|---:|
@@ -1824,11 +1847,11 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 | Yatra | Foreign | Travel and ticketing | IN | INR | 2016 |
 :::
 
-## Appendix <del>B.</del> <ins>C.</ins> The checks on the <del>test</del> <ins>tests</ins> of H1 <ins>and on the regressions</ins> <span class="cid">C180</span>
+## Appendix <del>B.</del> <ins>C.</ins> The checks on the <del>test</del> <ins>tests</ins> of H1 <ins>and on the regressions</ins> <span class="cid">C185</span>
 
-### <del>B.1</del> <ins>C.1</ins> The checks <span class="cid">C181</span>
+### <del>B.1</del> <ins>C.1</ins> The checks <span class="cid">C186</span>
 
-<span class="cid">C182</span> The main test is <ins>described</ins> in <del>Table 5.3.</del> <ins>Section 5.2.</ins> This appendix <ins>keeps its first measure, the absolute change in the log take rate, and</ins> lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
+<span class="cid">C187</span> The main test is <ins>described</ins> in <del>Table 5.3.</del> <ins>Section 5.2.</ins> This appendix <ins>keeps its first measure, the absolute change in the log take rate, and</ins> lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
 
 | Check | Indonesian and regional (median) | Foreign (median) | Mann–Whitney p | Shuffle p |
 |---|---|---|---|---|
@@ -1862,7 +1885,7 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 | Only years up to 5 after listing, 4 against 18 platforms (exploratory, 22 Oct 2026; exact test) | 0.169 | 0.069 | 0.059 | |
 | Quarterly pairs, 3 against 8 (same quarter a year earlier) | 0.071 | 0.049 | 0.19 | 0.33 |
 
-<span class="cid">C183</span> The four rows marked 22 Oct 2026 were added after all other results were known, so they are exploratory. They use exact tests, which list every possible split of the 32 platforms, and they agree with the approximations in <del>Table 5.3.</del> <ins>Section 5.2.</ins> The typical gap between an Indonesian or regional platform and a foreign one is 0.117 in the size of the yearly change in log take rate. That is the median of all 135 pairwise differences, with an exact 95 percent interval of 0.039 to 0.223. The ratio of the group medians is 3.3, and a bootstrap interval of 1.4 to 8.5 shows how loosely five platforms fix its size. Moving Sea to the regional group makes the gap clearer. Dropping two platforms can weaken it. The one case above 0.05 drops Blibli and Tokopedia, the two largest movers, and leaves p = 0.058. Keeping only the years up to five after listing leaves the same direction, but p = 0.059 (`tables/h1_exact_inference.json`, from `h1_exact_inference.py`).
+<span class="cid">C188</span> The four rows marked 22 Oct 2026 were added after all other results were known, so they are exploratory. They use exact tests, which list every possible split of the 32 platforms, and they agree with the approximations in <del>Table 5.3.</del> <ins>Section 5.2.</ins> The typical gap between an Indonesian or regional platform and a foreign one is 0.117 in the size of the yearly change in log take rate. That is the median of all 135 pairwise differences, with an exact 95 percent interval of 0.039 to 0.223. The ratio of the group medians is 3.3, and a bootstrap interval of 1.4 to 8.5 shows how loosely five platforms fix its size. Moving Sea to the regional group makes the gap clearer. Dropping two platforms can weaken it. The one case above 0.05 drops Blibli and Tokopedia, the two largest movers, and leaves p = 0.058. Keeping only the years up to five after listing leaves the same direction, but p = 0.059 (`tables/h1_exact_inference.json`, from `h1_exact_inference.py`).
 
 Growth in revenue and growth in transaction value had a correlation of 0.10 in the Indonesian main sample and 0.98 in the foreign sample excluding Sea (`tables/claims_ledger.csv`, C48 and C49).
 
@@ -1872,22 +1895,22 @@ In the pairs of the Indonesian and regional group, the take rate stayed within a
 
 The comparison in points of the take rate (exploratory, `h1_points_vs_log.py`): median yearly change 1.01 points in the Indonesian and regional group and 0.98 points in the foreign group (26 platforms), Mann–Whitney p = 0.65; median share kept 1.59 percent against 16.93 percent.
 
-### <del>B.2</del> <ins>C.2</ins> Where the 2023 break sits (exploratory) <span class="cid">C184</span>
+### <del>B.2</del> <ins>C.2</ins> Where the 2023 break sits (exploratory) <span class="cid">C189</span>
 
 At the top of the size distribution, sellers with revenue above Rp50 billion a year (about US$3.4 million at the 2022 rate) were 0.5 percent of BPS's marketplace sellers in 2022 and held between 18 and 39 percent of the marketplace slice's value, resting on 19 sample rows (`tables/part5_checks.json`).
 
 Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) with the share of new sellers and 0.35 (p = 0.04) with growth in sample size. In 23 provinces count growth exceeded what entry can explain, and these provinces carry 98.5 percent of the increase. The standard error of the national count implied by BPS's published relative standard errors is about 1.4 percent. The 306 thousand newly counted sellers are about 4.6 times the standard error of the change, and 2.3 times if the true error were twice as large (`tables/bps_frame_check.json`, `tables/rq_closing_checks.json`).
 
 ::: {.ins}
-<span class="cid">C185</span> ### C.3 Checks on the growth test and on the regressions (exploratory, 25 Oct 2026)
+<span class="cid">C190</span> ### C.3 Checks on the growth test and on the regressions (exploratory, 25 Oct 2026)
 :::
 
 ::: {.ins}
-<span class="cid">C186</span> The first table repeats the test of the size of take-rate moves with other measures of the yearly change. The second gives the correlation of revenue growth and transaction value growth with and without capping the growth rates, and the rank correlation. The third lists the checks on the coefficient on IndonesiaRegion in Table 5.4. Sources: `h1_simple_change.py` (`tables/h1_simple_change.json`), `kong_regressions.py` (`tables/kong_results.json`), `build_regression_panel.py` (`tables/regression_panel.csv`).
+<span class="cid">C191</span> The first table repeats the test of the size of take-rate moves with other measures of the yearly change. The second gives the correlation of revenue growth and transaction value growth with and without capping the growth rates, and the rank correlation. The third lists the checks on the coefficient on IndonesiaRegion in Table 5.4. Sources: `h1_simple_change.py` (`tables/h1_simple_change.json`), `kong_regressions.py` (`tables/kong_results.json`), `build_regression_panel.py` (`tables/regression_panel.csv`).
 :::
 
 ::: {.ins}
-<span class="cid">C187</span> *added*
+<span class="cid">C192</span> *added*
 
 | Measure of the yearly change in the take rate | Indonesian and regional (median) | Foreign (median) | Ratio | Mann–Whitney p |
 |---|---|---|---|---|
@@ -1897,7 +1920,7 @@ Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) 
 :::
 
 ::: {.ins}
-<span class="cid">C188</span> *added*
+<span class="cid">C193</span> *added*
 
 | Sample | Correlation, capped | Correlation, not capped | Rank correlation | Pairs |
 |---|---|---|---|---|
@@ -1907,7 +1930,7 @@ Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) 
 :::
 
 ::: {.ins}
-<span class="cid">C189</span> *added*
+<span class="cid">C194</span> *added*
 
 | Check | Dependent variable | IndonesiaRegion | p | Wild-bootstrap p | Observations |
 |---|---|---:|---:|---:|---:|
@@ -1934,7 +1957,7 @@ Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) 
 | Ecosystem ratio not capped | Ecosystem ratio | 28.550 | 0.008 |  |  |
 :::
 
-## Appendix <del>C.</del> <ins>D.</ins> Registered tests and their outcomes <span class="cid">C190</span>
+## Appendix <del>C.</del> <ins>D.</ins> Registered tests and their outcomes <span class="cid">C195</span>
 
 A registered test was written down, dated and stored in the repository before the data it concerns were opened. The dates are those of the commits in `research/option_space_2026-10-01/PREREGISTRATION.md`. Exact wording and thresholds are in that file.
 
@@ -1964,7 +1987,7 @@ A registered test was written down, dated and stored in the repository before th
 | Marketplace tax start | The tax start slips again | 2 Oct 2026 | Withdrawn: collection began on 1 Oct 2026, before the prediction was registered (addendum of 15 Oct 2026) |
 | BPS marketplace share | The next published marketplace share is at most 15.79 percent | 2 Oct 2026 | Not yet scored |
 
-## Appendix <del>D.</del> <ins>E.</ins> The values behind Figures 5.3 to 5.5 <span class="cid">C191</span>
+## Appendix <del>D.</del> <ins>E.</ins> The values behind Figures 5.3 to 5.5 <span class="cid">C196</span>
 
 **Growth in 2023, percent (Figure 5.3).** Household spending +9.4; Tokopedia transaction value −8.9; GoTo on-demand transaction value −10.5 (rests on an estimated 2022 value); Bank Indonesia e-commerce −4.7; Momentum Works marketplace estimate +3.5 (calculated from its published levels; its 2024 release states 3.7); Bukalapak transaction value +6.9; Blibli third-party retail transaction value +34.7; Tokopedia revenue +53.2; BPS e-commerce value +40.6; BPS online sellers +27.4. Sources: `tables/consistency_grid_growth.csv`, `tables/yardsticks_bi_bps.csv`, `tables/wedge_over_time.csv`, `tables/h1_groundwork.json`, company filings.
 
@@ -1991,10 +2014,14 @@ Armstrong, M. (2006). Competition in two-sided markets. *The RAND Journal of Eco
 
 Ayudiana, S. (2026, July 8). Diskon biaya layanan marketplace ditargetkan berlaku Agustus 2026 [Marketplace service-fee discount targeted for August 2026]. *ANTARA*. https://www.antaranews.com/berita/5641444/diskon-biaya-layanan-marketplace-ditargetkan-berlaku-agustus-2026
 
-<span class="cid">C192</span> <ins>Bank for International Settlements. (2026). *Central bank policy rates* [Data set, WS_CBPOL, monthly]. https://data.bis.org</ins>
+<span class="cid">C197</span> <ins>Bank for International Settlements. (2026). *Central bank policy rates* [Data set, WS_CBPOL, monthly]. https://data.bis.org</ins>
 Bank Indonesia. (2023). *Laporan perekonomian Indonesia 2022* [Economic report on Indonesia 2022]. https://www.bi.go.id/id/publikasi/laporan/Documents/LPI_2022.pdf
 
 Bank Indonesia. (2025, October 30). *Sinergi jadi energi: Saat UMKM naik kelas lewat digitalisasi* [Synergy becomes energy: When small businesses move up through digitalisation] [Cerita BI]. https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx
+
+::: {.ins}
+<span class="cid">C198</span> Barrios, J. M., Hochberg, Y. V., & Yi, H. (2022). Launching with a parachute: The gig economy and new business formation. *Journal of Financial Economics, 144*(1), 22–43. https://doi.org/10.1016/j.jfineco.2021.12.011
+:::
 
 Berg, T., Burg, V., Gombović, A., & Puri, M. (2020). On the rise of FinTechs: Credit scoring using digital footprints. *The Review of Financial Studies, 33*(7), 2845–2897. https://doi.org/10.1093/rfs/hhz099
 
@@ -2018,8 +2045,12 @@ CNN Indonesia. (2026a, May 8). *Pemerintah ogah atur tarif admin Shopee-TikTok S
 
 CNN Indonesia. (2026b, October 9). *Perpres ojol terbit, tegaskan potongan 8% dan tarif diatur Kemenhub* [Ojol regulation issued, confirms the 8% cut and fares set by the transport ministry]. https://www.cnnindonesia.com/otomotif/20261009100050-579-1413414/perpres-ojol-terbit-tegaskan-potongan-8-dan-tarif-diatur-kemenhub
 
-<span class="cid">C193</span> <ins>Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414</ins>
+<span class="cid">C199</span> <ins>Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414</ins>
 Davis, A. K. (2002). The value relevance of revenue for Internet firms: Does reporting grossed-up or barter revenue make a difference? *Journal of Accounting Research, 40*(2), 445–477. https://doi.org/10.1111/1475-679X.00056
+
+::: {.ins}
+<span class="cid">C200</span> Denes, M. R., Lagaras, S., & Tsoutsoura, M. (2025). Entrepreneurship and the gig economy: Evidence from U.S. tax returns. *Journal of Financial Economics, 173*, Article 104156. https://doi.org/10.1016/j.jfineco.2025.104156
+:::
 
 Directorate General of Taxes. (2025, January 20). *Pajak atas usaha ekonomi digital terkini: 32,32 triliun* [Latest tax from the digital economy: Rp32.32 trillion] (Press Release No. SP-1/2025). Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun
 
@@ -2115,7 +2146,7 @@ Trueman, B., Wong, M. H. F., & Zhang, X.-J. (2001). Back to basics: Forecasting 
 
 UNCTAD. (2023). *Measuring the value of e-commerce*. United Nations. https://doi.org/10.18356/9789210025539
 
-<span class="cid">C194</span> UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Nations. https://doi.org/10.18356/9789211064490 <ins>U.S. Securities and Exchange Commission. (2026). *EDGAR company facts: XBRL financial data for annual filings (Forms 10-K, 20-F and 40-F)* [Total assets]. https://data.sec.gov/api/xbrl/companyfacts/</ins>
+<span class="cid">C201</span> UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Nations. https://doi.org/10.18356/9789211064490 <ins>U.S. Securities and Exchange Commission. (2026). *EDGAR company facts: XBRL financial data for annual filings (Forms 10-K, 20-F and 40-F)* [Total assets]. https://data.sec.gov/api/xbrl/companyfacts/</ins>
 
 
-<span class="cid">C195</span> World Bank. (2026). *World development <del>indicators: Official</del> <ins>indicators* [GDP growth, consumer-price inflation, household final consumption expenditure growth and official</ins> exchange rate (LCU per US$, period <del>average)* [PA.NUS.FCRF], Indonesia, 2022–2024.</del> <ins>average), 2012–2025].</ins> https://data.worldbank.org
+<span class="cid">C202</span> World Bank. (2026). *World development <del>indicators: Official</del> <ins>indicators* [GDP growth, consumer-price inflation, household final consumption expenditure growth and official</ins> exchange rate (LCU per US$, period <del>average)* [PA.NUS.FCRF], Indonesia, 2022–2024.</del> <ins>average), 2012–2025].</ins> https://data.worldbank.org

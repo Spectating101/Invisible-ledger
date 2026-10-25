@@ -138,7 +138,7 @@ COVER
   cat ../abstract.md; printf '\n\n'
   slot "Contents" "§TOC§"; slot "List of Tables" "§LOT§"; slot "List of Figures" "§LOF§"; printf '\n'
   printf '\n\n::: {custom-style="Field Slot"}\n§SECT§\n:::\n\n'
-  for f in ch1_introduction.md ch2_literature.md ch3_framework.md ch4_data_methods.md ch5_results.md drafts/ch6_draft_2026-10-14.md drafts/ch7_draft_2026-10-14.md appendix_notes.md references.md; do cat "../$f"; printf '\n\n'; done
+  for f in ch1_introduction.md ch2_literature.md ch3_framework.md ch4_data_methods.md ch5_results.md drafts/ch6_draft_2026-10-14.md drafts/ch7_draft_2026-10-14.md references.md appendix_notes.md; do cat "../$f"; printf '\n\n'; done
 } | python3 condense.py | python3 yzu_prep.py | python3 docx_prep.py > yzu_tmp/yzu.md
 pandoc yzu_tmp/yzu.md --from markdown --reference-doc=yzu_reference.docx --resource-path=.. -o yzu_tmp/raw.docx
 # pass 1: placeholders, convert, read the pages

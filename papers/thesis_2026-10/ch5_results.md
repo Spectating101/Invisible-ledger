@@ -10,6 +10,8 @@ Revenue showed only a small part of what Indonesia's major platforms carried. In
 
 **Table 5.1. The invisible wedge of three platforms, 2023 (US$ billion)**
 
+This table reports transaction value, revenue, the wedge (transaction value less revenue) and the ecosystem ratio (the wedge divided by revenue) for Tokopedia, Shopee in Indonesia and Grab in Indonesia in 2023. The last column states how each platform's amounts are obtained. The total row is the sum of the three platforms and is not a national total.
+
 | Platform | Transaction value | Revenue | Wedge | Ecosystem ratio | How it is labelled |
 |---|---|---|---|---|---|
 | Tokopedia | 16.33 | 0.41 | 15.93 | 39.3 | Both direct segment disclosure |
@@ -150,7 +152,7 @@ This table reports OLS estimates of equation (7). The dependent variable is the 
 | Year dummies | No | No | Yes | No | No | Yes |
 | Wild-bootstrap *p*, IndonesiaRegion | 0.848 | 0.475 | 0.866 | 0.031 | 0.039 | 0.005 |
 
-*Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; SEC filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
+*Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; filings with the US Securities and Exchange Commission; World Bank; Bank for International Settlements; author's calculations. Exploratory.
 
 The wedge scales with the size of the platform. A 1 percent rise in total assets goes with a rise of about 0.9 percent in the wedge, and the regressors of column (1) explain 81 percent of its variation. Once size is held fixed, Indonesian and regional platforms do not carry a different wedge. The coefficient on IndonesiaRegion is −0.07 in column (1) and stays between −0.30 and 0.08 in the others, never close to significance. On-demand platforms carry about 60 percent less wedge for their assets than marketplaces do.
 
@@ -217,6 +219,8 @@ Recall error does not explain the shortfall. As Section 3.5 noted, sellers who r
 About half of the 2023 rise in the count is not explained by first-time entry, an exploratory result. Table 5.5 sets out the accounting. In the survey for 2023, sellers who began before 2023 outnumber the whole count for 2022 by about 306 thousand. They make up 37 percent of the rise if no seller stopped, and 56 percent if sellers stopped at about 5 percent a year.
 
 **Table 5.5. The 2023 rise in the count of online sellers (thousands)**
+
+This table splits the rise in the number of online sellers between the weighted totals of the two BPS survey files into net entry and earlier sellers who were newly counted. The first column assumes that no seller stopped between the surveys, and the second assumes that sellers stopped at 5 percent a year. The percentages are shares of the rise.
 
 | Part of the rise | If no seller stopped | If sellers stopped at 5 percent a year |
 |---|---|---|

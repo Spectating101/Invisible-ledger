@@ -118,7 +118,7 @@ Revenue follows transaction value only while the take rate holds steady, that is
 
 > **H1.** Transaction value and revenue recognized by the same platform grow in proportion over time.
 
-H1 is tested in two ways. The first is equation (6): revenue growth is regressed on transaction value growth, and H1 holds in a group if the slope is 1. The second compares the size of yearly changes in the take rate, measured as simple percentage changes, between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. A slope far below 1 in Indonesia, or changes far larger in Indonesia than abroad, would count against H1. Chapter 4 describes the two groups and the tests.
+H1 is tested in two ways. The first is equation (6), an ordinary least squares (OLS) regression of revenue growth on transaction value growth, and H1 holds in a group if the slope is 1. The second compares the size of yearly changes in the take rate, measured as simple percentage changes, between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. A slope far below 1 in Indonesia, or changes far larger in Indonesia than abroad, would count against H1. Chapter 4 describes the two groups and the tests.
 
 National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin.
 

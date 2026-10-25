@@ -17,6 +17,8 @@ Bank Indonesia. (2023). *Laporan perekonomian Indonesia 2022* [Economic report o
 
 Bank Indonesia. (2025, October 30). *Sinergi jadi energi: Saat UMKM naik kelas lewat digitalisasi* [Synergy becomes energy: When small businesses move up through digitalisation] [Cerita BI]. https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx
 
+Barrios, J. M., Hochberg, Y. V., & Yi, H. (2022). Launching with a parachute: The gig economy and new business formation. *Journal of Financial Economics, 144*(1), 22–43. https://doi.org/10.1016/j.jfineco.2021.12.011
+
 Berg, T., Burg, V., Gombović, A., & Puri, M. (2020). On the rise of FinTechs: Credit scoring using digital footprints. *The Review of Financial Studies, 33*(7), 2845–2897. https://doi.org/10.1093/rfs/hhz099
 
 Bowen, R. M., Davis, A. K., & Rajgopal, S. (2002). Determinants of revenue-reporting practices for Internet firms. *Contemporary Accounting Research, 19*(4), 523–562. https://doi.org/10.1506/9728-4YG8-GC3L-FPFA
@@ -41,6 +43,8 @@ CNN Indonesia. (2026b, October 9). *Perpres ojol terbit, tegaskan potongan 8% da
 
 Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 Davis, A. K. (2002). The value relevance of revenue for Internet firms: Does reporting grossed-up or barter revenue make a difference? *Journal of Accounting Research, 40*(2), 445–477. https://doi.org/10.1111/1475-679X.00056
+
+Denes, M. R., Lagaras, S., & Tsoutsoura, M. (2025). Entrepreneurship and the gig economy: Evidence from U.S. tax returns. *Journal of Financial Economics, 173*, Article 104156. https://doi.org/10.1016/j.jfineco.2025.104156
 
 Directorate General of Taxes. (2025, January 20). *Pajak atas usaha ekonomi digital terkini: 32,32 triliun* [Latest tax from the digital economy: Rp32.32 trillion] (Press Release No. SP-1/2025). Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun
 

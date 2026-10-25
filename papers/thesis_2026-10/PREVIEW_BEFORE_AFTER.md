@@ -7,7 +7,7 @@ Prepared 25 October 2026. **BEFORE** is the text you sent Prof. Kong on 24 Octob
 | Her item | What was done | Where to look | Your call |
 |---|---|---|---|
 | Overall: the empirical design does not test the hypotheses well enough | Direct tests added: revenue growth on transaction value growth for H1; OLS of the wedge and the ecosystem ratio on platform and home-market features | 3.3, 5.2, 5.3; Tables 5.3 and 5.4 | Read 5.2 and 5.3. All of it is exploratory |
-| Overall: tighten, get to the point | **Not done.** The main text grew from 21,358 to 23,164 words | see the notes in section D | Choose the cuts |
+| Overall: tighten, get to the point | **Not done.** The main text grew from 21,358 to 23,428 words | see the notes in section D | Choose the cuts |
 | Overall: strengthen the economic implications | Investors, sellers and drivers, and policy, each in a paragraph in 5.3; investors in 7.2 | 5.3, 7.2 | Check the wording on market power |
 | 1. Drop the Symbols page; spell out abbreviations | Done. Symbols are in Appendix A; BPS, UNCTAD, OECD, LSEG, QRIS spelled out at first use | Appendix A; 1.1, 1.2, 4.5, 5.10 | none |
 | 2. Table 1 (literature gaps) | Dropped; the gaps are in the list in 2.4 | 2.4 | none |
@@ -27,8 +27,9 @@ Prepared 25 October 2026. **BEFORE** is the text you sent Prof. Kong on 24 Octob
 | 4. OLS of ln(wedge) or the ecosystem ratio | Done with her controls; wedge in US dollars; size by total assets; take rate not a regressor; errors clustered by platform. Competitive entry and regulatory events are replaced by year dummies | Table 5.4 | Needs her answer on events |
 | 4. Simple percentage change instead of log change | Done, except the registered market-value test (kept in logs as registered) and Appendix B.3 and Figure 5.2 (an exact split needs logs) | 3.2, 3.3, 5.2, 5.6, 5.7 | Needs her answer |
 | 5. Economic implications in results and conclusion | Done | 5.3, 7.2 | see above |
-| 6. Figures and tables after the References; "[Insert Table N about here]" | **Not done** | — | next step |
-| 6. Captions that explain how to read each table | Done for the three new tables; **not yet** for Tables 5.1, 5.5, 6.1 and 6.2 | — | next step |
+| 6. Figures and tables after the References; "[Insert Table N about here]" | Done in the YZU Word file: six figures, then seven tables, each on its own page after the References, with 13 markers placed after the paragraph that first mentions each in its chapter; the Appendices follow, as in her sample. The reading, compact, condensed and editing copies keep them inline | YZU file, after the References | Say if she also wants the markers in the reading copy |
+| 6. Captions that explain how to read each table | Done for all seven tables (a "This table…" paragraph under each title) | 5.1 to 5.5, 6.1, 6.2 | none |
+| 23. Abbreviations spelled out at first use | Also fixed on 25 Oct: OLS expanded at first use (3.3); "SEC filings" now read "filings with the US Securities and Exchange Commission" | 3.3, 4.4, 5.3 | none |
 | In her file: comments 23 (abbreviations), 26 (coverage) | Done | 1.1 | none |
 | In her file: comment 46 (wedge against transaction value) | Done: it is 0.9994 in levels by construction, so the test is in growth rates | 5.2 | none |
 | In her file: comment 47 (regression for H2), comments 48 and 49 (entry test inside the further analyses) | **Not done.** No unit for the H2 regression; the entry test is still its own section | 3.5, 5.6 | Needs her answer |
@@ -37,13 +38,13 @@ Prepared 25 October 2026. **BEFORE** is the text you sent Prof. Kong on 24 Octob
 
 | | Before (24 Oct) | After (25 Oct) |
 |---|---|---|
-| YZU Word file, pages | 84 | 94 |
+| YZU Word file, pages | 84 | 100 |
 | Reading copy, pages | 60 | 69 |
 | Compact copy, pages | 27 | 29 |
 | Condensed Word file, pages | 26 | 28 |
 | Tables in the YZU file | 14 | 7 |
 | Figures | 6 | 6 |
-| Main text, words (Chapters 1 to 7) | 21,358 | 23,164 |
+| Main text, words (Chapters 1 to 7) | 21,358 | 23,428 |
 | Equations | 8 | 9 |
 | Appendices | A to D | A to E (A is the variable definitions) |
 | Automatic checks that pass | 314 | 398 |
@@ -117,6 +118,16 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 > Third, for tax authorities and regulators, the thesis measures how far rules based on platform records reach. Reports from third parties improve tax compliance where they exist (Kleven et al. 2011; Pomeranz 2015), but such a rule reaches only the sellers who use platforms, so where most sellers work outside them, it covers a minority. The thesis also sets each recent rule, from the cap on ride-hailing commissions to the limit on discounts, against the figure it acts on. Several other countries have adopted similar rules ~~(OECD~~ **(Organisation for Economic Co-operation and Development [OECD]** 2020; European Union 2021), so the same question applies there.
 
 ## Chapter 2. Literature review
+
+### 2.3 Digital records and third-party information
+
+**BEFORE**
+
+> Tax research explains why such records matter. Reports from third parties improve compliance. In Denmark, evasion was close to zero on income that employers and banks reported, and substantial on income that taxpayers reported themselves (Kleven et al. 2011). In Chile, the paper trail of the value-added tax deters evasion, and enforcement spreads up the supply chain (Pomeranz 2015). In Brazil, rewards for asking for receipts raised the sales that firms reported (Naritomi 2019). Digital records can also hold information that conventional records lack (Berg, Burg, Gombovic and Puri 2020).
+
+**AFTER** (~~deleted~~, **added**)
+
+> Tax research explains why such records matter. Reports from third parties improve compliance. In Denmark, evasion was close to zero on income that employers and banks reported, and substantial on income that taxpayers reported themselves (Kleven et al. 2011). In Chile, the paper trail of the value-added tax deters evasion, and enforcement spreads up the supply chain (Pomeranz 2015). In Brazil, rewards for asking for receipts raised the sales that firms reported (Naritomi 2019). Digital records can also hold information that conventional records lack (Berg, Burg, Gombovic and Puri ~~2020).~~ **2020), and platform-mediated activity can create traces outside conventional records (Barrios, Hochberg and Yi 2022; Denes, Lagaras and Tsoutsoura 2025).**
 
 ### 2.4 Research gap
 
@@ -321,7 +332,7 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 
 **AFTER** (~~deleted~~, **added**)
 
-> ~~Growth rates never match exactly, so~~ H1 is tested ~~by comparison.~~ **in two ways.** The ~~test~~ **first is equation (6): revenue growth is regressed on transaction value growth, and H1 holds in a group if the slope is 1. The second** compares the size of yearly changes in the take rate, measured ~~in logs~~ as ~~in equation (5),~~ **simple percentage changes,** between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. ~~Changes~~ **A slope far below 1 in Indonesia, or changes** far larger in Indonesia **than abroad,** would count against H1. Chapter 4 describes the two groups and the ~~test.~~ **tests.**
+> ~~Growth rates never match exactly, so~~ H1 is tested ~~by comparison.~~ **in two ways.** The ~~test~~ **first is equation (6), an ordinary least squares (OLS) regression of revenue growth on transaction value growth, and H1 holds in a group if the slope is 1. The second** compares the size of yearly changes in the take rate, measured ~~in logs~~ as ~~in equation (5),~~ **simple percentage changes,** between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. ~~Changes~~ **A slope far below 1 in Indonesia, or changes** far larger in Indonesia **than abroad,** would count against H1. Chapter 4 describes the two groups and the ~~test.~~ **tests.**
 
 **BEFORE**
 
@@ -611,7 +622,7 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 
 **AFTER** (~~deleted~~, **added**)
 
-> **The World Bank indicators, the Bank for International Settlements policy rates and the total assets from SEC filings are public. The repository holds the downloaded values and the scripts that fetched them.** Three sources are licensed and are not in the repository: the BPS survey files, the LSEG market values and the World Bank survey files. The repository records the size and checksum of each file, so anyone who obtains the same files can check them. It holds the code and the national totals it produces, and no business-level record. BPS is cited as the source of every survey figure, in line with the data-use agreement. Chapter 7 states what these data cannot show.
+> **The World Bank indicators, the Bank for International Settlements policy rates and the total assets from the filings with the US Securities and Exchange Commission are public. The repository holds the downloaded values and the scripts that fetched them.** Three sources are licensed and are not in the repository: the BPS survey files, the LSEG market values and the World Bank survey files. The repository records the size and checksum of each file, so anyone who obtains the same files can check them. It holds the code and the national totals it produces, and no business-level record. BPS is cited as the source of every survey figure, in line with the data-use agreement. Chapter 7 states what these data cannot show.
 
 ## Chapter 5. Results
 
@@ -653,6 +664,10 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 **AFTER** (~~deleted~~, **added**)
 
 > **Table ~~5.2.~~ **5.1.** The invisible wedge of three platforms, 2023 (US$ billion)**
+
+**NEW**
+
+> This table reports transaction value, revenue, the wedge (transaction value less revenue) and the ecosystem ratio (the wedge divided by revenue) for Tokopedia, Shopee in Indonesia and Grab in Indonesia in 2023. The last column states how each platform's amounts are obtained. The total row is the sum of the three platforms and is not a national total.
 
 **BEFORE**
 
@@ -823,7 +838,7 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 
 **NEW**
 
-> *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; SEC filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
+> *Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; filings with the US Securities and Exchange Commission; World Bank; Bank for International Settlements; author's calculations. Exploratory.
 
 **NEW**
 
@@ -932,6 +947,10 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 
 ### 5.7 What the rise in the count contains
 
+**NEW**
+
+> This table splits the rise in the number of online sellers between the weighted totals of the two BPS survey files into net entry and earlier sellers who were newly counted. The first column assumes that no seller stopped between the surveys, and the second assumes that sellers stopped at 5 percent a year. The percentages are shares of the rise.
+
 **BEFORE**
 
 > H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, more businesses account for about 54 percent of the growth if no seller stopped, and about 42 percent if sellers stopped at 5 percent a year. H2 requires more than 50 percent. Taking out the sellers but keeping their sales gives 34 to 47 percent, but that version treats the count and the value unevenly.
@@ -961,6 +980,10 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 ## Chapter 6. Discussion and policy implications
 
 ### 6.1 The rules and what each acts on
+
+**NEW**
+
+> This table lists each recent Indonesian rule that bears on the figures in Chapters 4 and 5. For each rule it gives what the rule does, which part of the figures it acts on, the section of Chapter 5 that measures that part, and the status of the legal text when this thesis was written. Amounts in rupiah (Rp) are converted to US dollars in the note.
 
 **BEFORE**
 
@@ -1005,6 +1028,10 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 > The record reaches further than the tax. Every domestic seller on a designated marketplace must give the marketplace a tax number or national ~~ID~~ **identity number** and an address before being paid. Exempt sellers file a statement as well. Tax research finds that records held by a third party improve compliance where they exist (Section 2.3).
 
 ### 6.5 What the registered predictions test
+
+**NEW**
+
+> This table lists the registered predictions on the 2026 rules. For each prediction it gives what is expected, the rule it bears on and the date it is scored. The outcome stays blank until the company or BPS releases the figure.
 
 **BEFORE**
 
@@ -1113,13 +1140,12 @@ Each block below is one paragraph of the text. **BEFORE** is the old wording. **
 4. The size and macro controls explain the wedge, not the difference between the groups: the wedge is almost all transaction value, so the wedge regression mostly shows that big platforms carry a lot. The ecosystem ratio is where the groups differ. Prof. Kong may ask why the wedge regression is there; the honest answer is that she asked for it, and that its result is itself informative.
 5. "Market power" in the sellers and drivers paragraph is stated as an open question, because the thesis has no seller-side data.
 
-**Where the text got longer, against her request to tighten.** The new tests add about 1,806 words net. Candidates to cut or move to Appendix C, with the current word counts: the paragraphs on the narrower first test, the direction of moves, the quarterly pairs and age in 5.2 (296 words); the account of the seven windows and the company sources in 4.4 (217 words); 7.4 on the limits (942 words) overlaps with the new limits paragraph. Section 5.2 is now 1896 words and 5.3 is 1682.
+**Where the text got longer, against her request to tighten.** The new tests add about 2,070 words net. Candidates to cut or move to Appendix C, with the current word counts: the paragraphs on the narrower first test, the direction of moves, the quarterly pairs and age in 5.2 (296 words); the account of the seven windows and the company sources in 4.4 (217 words); 7.4 on the limits (942 words) overlaps with the new limits paragraph. Section 5.2 is now 1896 words and 5.3 is 1688.
 
 **Inconsistencies I know about.** Figure 5.2, the Tokopedia split and Appendix B.3 are in logs because the split of revenue growth into commerce, fees and incentives is exact only in logs; Appendix C.1 keeps the first version of the H1 test in logs. The market-value regression keeps its registered log definition. A simple-change version needs the licensed market values and a local run, which I have not written.
 
 **Decisions I need from you**
 
 1. Send Prof. Kong the nine questions in `KONG_COMMENTS_TRACE.md`, section 6, or only the ones still open: the unit of the H2 regression, whether Tables 13 and 14 (now 6.1 and 6.2) and the older figures stay, what counts as competitive entry or a regulatory event for the foreign platforms, and whether the entry test belongs inside the further analyses.
-2. Whether to cut for length before the layout step (moving the tables and figures after the References), or after.
-3. Whether the older tables get her caption form now.
-4. Whether the abstract (195 words) stays as it is; the new second paragraph adds four words.
+2. What to cut for length. The layout step is done, so cuts no longer move it, but each cut changes the page numbers in the YZU file (rebuilt in one command).
+3. Whether the abstract (195 words) stays as it is; the new second paragraph adds four words.

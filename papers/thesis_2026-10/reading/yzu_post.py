@@ -89,9 +89,24 @@ for t in d.tables:
     for ri in keep:
         for c in rows[ri].cells:
             for p in c.paragraphs: p.paragraph_format.keep_with_next = True
+# "[Insert Table N about here]": centred, on its own line
+for p in d.paragraphs:
+    if p.style.name == "Insert Marker":
+        pf = p.paragraph_format; pf.alignment = WD_ALIGN_PARAGRAPH.CENTER; pf.first_line_indent = Mm(0); pf.space_before = Pt(6); pf.space_after = Pt(6)
+        pf.line_spacing_rule = WD_LINE_SPACING.SINGLE; pf.keep_together = True
+# figures and tables after the References: each block starts on a new page (yzu_prep.py puts a "§PB§" paragraph before the block)
+first_float = None
+for p in list(d.paragraphs):
+    if p.text.strip() == "§PB§":
+        nxt = p._p.getnext()
+        if nxt is not None and nxt.tag == qn("w:p"):
+            docx.text.paragraph.Paragraph(nxt, d).paragraph_format.page_break_before = True
+        if first_float is None: first_float = nxt
+        p._p.getparent().remove(p._p)
 # references: left-aligned with a hanging indent (justified text spreads the long web addresses into wide gaps)
 in_refs = False
 for p in d.paragraphs:
+    if p._p is first_float: in_refs = False
     if p.style.name == "Heading 1": in_refs = (p.text.strip() == "References")
     elif in_refs and p.text.strip():
         pf = p.paragraph_format

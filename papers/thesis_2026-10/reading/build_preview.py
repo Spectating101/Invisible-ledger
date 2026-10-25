@@ -131,8 +131,9 @@ Prepared 25 October 2026. **BEFORE** is the text you sent Prof. Kong on 24 Octob
 | 4. OLS of ln(wedge) or the ecosystem ratio | Done with her controls; wedge in US dollars; size by total assets; take rate not a regressor; errors clustered by platform. Competitive entry and regulatory events are replaced by year dummies | Table 5.4 | Needs her answer on events |
 | 4. Simple percentage change instead of log change | Done, except the registered market-value test (kept in logs as registered) and Appendix B.3 and Figure 5.2 (an exact split needs logs) | 3.2, 3.3, 5.2, 5.6, 5.7 | Needs her answer |
 | 5. Economic implications in results and conclusion | Done | 5.3, 7.2 | see above |
-| 6. Figures and tables after the References; "[Insert Table N about here]" | **Not done** | — | next step |
-| 6. Captions that explain how to read each table | Done for the three new tables; **not yet** for Tables 5.1, 5.5, 6.1 and 6.2 | — | next step |
+| 6. Figures and tables after the References; "[Insert Table N about here]" | Done in the YZU Word file: six figures, then seven tables, each on its own page after the References, with 13 markers placed after the paragraph that first mentions each in its chapter; the Appendices follow, as in her sample. The reading, compact, condensed and editing copies keep them inline | YZU file, after the References | Say if she also wants the markers in the reading copy |
+| 6. Captions that explain how to read each table | Done for all seven tables (a "This table…" paragraph under each title) | 5.1 to 5.5, 6.1, 6.2 | none |
+| 23. Abbreviations spelled out at first use | Also fixed on 25 Oct: OLS expanded at first use (3.3); "SEC filings" now read "filings with the US Securities and Exchange Commission" | 3.3, 4.4, 5.3 | none |
 | In her file: comments 23 (abbreviations), 26 (coverage) | Done | 1.1 | none |
 | In her file: comment 46 (wedge against transaction value) | Done: it is 0.9994 in levels by construction, so the test is in growth rates | 5.2 | none |
 | In her file: comment 47 (regression for H2), comments 48 and 49 (entry test inside the further analyses) | **Not done.** No unit for the H2 regression; the entry test is still its own section | 3.5, 5.6 | Needs her answer |
@@ -180,9 +181,8 @@ notes = f"""
 **Decisions I need from you**
 
 1. Send Prof. Kong the nine questions in `KONG_COMMENTS_TRACE.md`, section 6, or only the ones still open: the unit of the H2 regression, whether Tables 13 and 14 (now 6.1 and 6.2) and the older figures stay, what counts as competitive entry or a regulatory event for the foreign platforms, and whether the entry test belongs inside the further analyses.
-2. Whether to cut for length before the layout step (moving the tables and figures after the References), or after.
-3. Whether the older tables get her caption form now.
-4. Whether the abstract (195 words) stays as it is; the new second paragraph adds four words.
+2. What to cut for length. The layout step is done, so cuts no longer move it, but each cut changes the page numbers in the YZU file (rebuilt in one command).
+3. Whether the abstract (195 words) stays as it is; the new second paragraph adds four words.
 """
 open(T + "PREVIEW_BEFORE_AFTER.md", "w", encoding="utf8").write(front + body_md + notes)
 print(stats, "main text words", w_before, w_after)
