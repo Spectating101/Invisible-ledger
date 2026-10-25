@@ -94,6 +94,8 @@ claims = [
  ("K14-79", "Coverage reading, 5% exits: sales per business, low (%)", 16, h2["scenarios"]["reference"]["count_and_value"]["low"]["sales_per_business_growth_pct"], 0.5),
  ("K14-80", "Coverage reading, 5% exits: sales per business, high (%)", 17, h2["scenarios"]["reference"]["count_and_value"]["high"]["sales_per_business_growth_pct"], 0.5),
  ("K14-81", "Count-only reading, no exits: sales per business (%)", 20, h2["scenarios"]["no_exits"]["count_only_sales_per_business_growth_pct"], 0.5),
+ ("K14-83", "Without the six platforms with an ambiguous main market: ecosystem-ratio coefficient", 17.0, C["excluding_ambiguous_main_market"]["E_w"]["b"], 0.05),
+ ("K14-84", "Without the six platforms with an ambiguous main market: wild-bootstrap p", 0.024, C["excluding_ambiguous_main_market"]["E_w"]["p_wild"], 0.005),
  ("K14-82", "Count-only reading, 5% exits: sales per business (%)", 25, h2["scenarios"]["reference"]["count_only_sales_per_business_growth_pct"], 0.5),
 ]
 L = pd.DataFrame([dict(id=c, claim=t, stated=st, recomputed=round(float(v), 6), status="PASS" if abs(float(v) - st) <= tol else "CHECK") for c, t, st, v, tol in claims])

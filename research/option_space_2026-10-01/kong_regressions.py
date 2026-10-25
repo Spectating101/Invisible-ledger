@@ -145,6 +145,7 @@ z = (np.arctanh(rf) - np.arctanh(ri)) / np.sqrt(1 / (len(fi) - 3) + 1 / (len(ii)
 # ---------------------------------------------------------------- D2. checks on the Indonesia/region coefficient
 chk = {}
 base = [("ln_wedge_usd", FEAT + MACRO, True), ("E_w", FEAT + MACRO, True)]
+base_w = base
 chk["leave_one_indonesian_platform_out"] = {}
 for kname in L[L.idn == 1].key.unique():
     r_ = run(base, L[L.key != kname], bootstrap=False)
@@ -156,6 +157,7 @@ chk["without_total_assets"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), 
 chk["excluding_pre_listing_years"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "n": o["n"]} for o in run(base, L[L.pre_listing == 0], bootstrap=False)}
 chk["excluding_alibaba_rakuten_pinduoduo_shopify"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3)} for o in run(base, L[~L.platform.isin(["Alibaba", "Rakuten", "Pinduoduo", "Shopify"])], bootstrap=False)}
 chk["with_emerging_market_dummy"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "p_wild": round(o["coef"]["idn"]["p_wild"], 3), "emerging_b": round(o["coef"]["emerging_market"]["b"], 3), "emerging_p": round(o["coef"]["emerging_market"]["p"], 3)} for o in run([("ln_wedge_usd", FEAT + ["emerging_market"] + MACRO, True), ("E_w", FEAT + ["emerging_market"] + MACRO, True)])}
+chk["excluding_ambiguous_main_market"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "p_wild": round(o["coef"]["idn"]["p_wild"], 3), "n": o["n"]} for o in run(base_w, L[~L.platform.isin(["Sea (Shopee)", "Jumia", "Mercado Libre", "Despegar", "Shopify", "Fiverr"])])}
 res["checks"] = chk
 json.dump(res, open("tables/kong_results.json", "w"), indent=1)
 

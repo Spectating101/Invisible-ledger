@@ -30,7 +30,9 @@ def save(fig, name):
 
 # ---- Figure 5.1: the thin slice -------------------------------------------------------------------------------------------------------
 f = pd.read_csv(T / "h1_points_vs_log_firms.csv")
-f["change_pct"] = 100 * f.change_log
+# right panel in simple percentage change (Prof. Kong, 24 Oct), one median per platform, the same platforms as the other two panels
+f = f.merge(pd.read_csv(T / "h1_simple_change_firms.csv")[["firm", "median_abs_simple_pct"]], on="firm", how="left").rename(columns={"median_abs_simple_pct": "change_pct"})
+assert f.change_pct.notna().all()
 rng = np.random.default_rng(7)
 fig, axes = plt.subplots(1, 3, figsize=(7.2, 2.7), sharey=True)
 panels = [("share_kept_pct", "What the platform keeps\n(percent of each sale)", True), ("change_points", "Yearly change in what it keeps\n(percentage points)", False),
@@ -44,6 +46,7 @@ for ax, (col, lab, logx) in zip(axes, panels):
         ax.plot([m, m], [y - 0.32, y + 0.32], color=INK, lw=2, zorder=4)
         ax.text(m, y + 0.38, f"median {m:.1f}", ha="center", va="bottom", fontsize=9, color=INK)
     if logx: ax.set_xscale("log"); ax.set_xticks([1, 3, 10, 30, 100]); ax.set_xticklabels(["1", "3", "10", "30", "100"])
+    ax.text(0.0, 1.04, "ABC"[list(axes).index(ax)], transform=ax.transAxes, fontsize=11, fontweight="bold", color=INK, ha="left", va="bottom")
     ax.set_xlabel(lab); ax.set_ylim(-0.6, 1.8); ax.set_yticks([0, 1]); ax.tick_params(axis="y", length=0); ax.grid(axis="y", visible=False)
 axes[0].set_yticklabels(["Foreign (26)", "Indonesian and\nregional (5)"])
 fig.tight_layout(); save(fig, "fig5_1_thin_slice.png")

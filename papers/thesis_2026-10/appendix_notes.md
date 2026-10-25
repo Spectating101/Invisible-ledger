@@ -282,6 +282,8 @@ The first table repeats the test of the size of take-rate moves with other measu
 | Without Alibaba, Pinduoduo, Rakuten and Shopify | Ecosystem ratio | 20.954 | <0.001 |  |  |
 | With a dummy for emerging home markets | ln(Wedge) | 0.065 | 0.869 | 0.886 |  |
 | With a dummy for emerging home markets | Ecosystem ratio | 16.888 | <0.001 | 0.027 |  |
+| Without the six platforms with an ambiguous main market (Sea, Jumia, Mercado Libre, Despegar, Shopify, Fiverr) | ln(Wedge) | 0.145 | 0.743 | 0.801 | 144 |
+| Without the six platforms with an ambiguous main market (Sea, Jumia, Mercado Libre, Despegar, Shopify, Fiverr) | Ecosystem ratio | 16.974 | <0.001 | 0.024 | 144 |
 | Natural logarithm of the ecosystem ratio | ln(Ecosystem ratio) | 1.677 | <0.001 | 0.006 |  |
 | Ecosystem ratio not capped | Ecosystem ratio | 28.550 | 0.008 |  |  |
 

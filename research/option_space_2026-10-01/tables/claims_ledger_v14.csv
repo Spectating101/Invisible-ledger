@@ -80,4 +80,6 @@ K14-78,"Coverage reading, 5% exits: growth of the count (%)",12.0,12.110977,PASS
 K14-79,"Coverage reading, 5% exits: sales per business, low (%)",16.0,16.327462,PASS
 K14-80,"Coverage reading, 5% exits: sales per business, high (%)",17.0,17.495495,PASS
 K14-81,"Count-only reading, no exits: sales per business (%)",20.0,19.963263,PASS
+K14-83,Without the six platforms with an ambiguous main market: ecosystem-ratio coefficient,17.0,16.974,PASS
+K14-84,Without the six platforms with an ambiguous main market: wild-bootstrap p,0.024,0.024,PASS
 K14-82,"Count-only reading, 5% exits: sales per business (%)",25.0,25.408259,PASS

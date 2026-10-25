@@ -5,7 +5,7 @@ log take rate| per platform-year, one median per platform, Indonesia and region 
 are used here (same sample, same exclusions); only the measure changes: g(m) = exp(dlnm) - 1 exactly. Reports the group medians, the ratio, the
 Mann-Whitney and permutation p-values, and the version with the symmetric measure |m_t - m_t-1| / mean(m_t, m_t-1) as a check, because a fall in the
 take rate can be at most -100 percent while a rise has no limit.
-Run from this folder: python3 h1_simple_change.py -> tables/h1_simple_change.json"""
+Run from this folder: python3 h1_simple_change.py -> tables/h1_simple_change.json, tables/h1_simple_change_firms.csv (per-platform medians, read by Figure 5.1)"""
 import json
 import numpy as np, pandas as pd
 from scipy import stats
@@ -35,4 +35,5 @@ def compare(col):
 out["log_change (as in the chapter)"] = compare("abs_log"); out["simple_percentage_change"] = compare("abs_simple"); out["symmetric_change"] = compare("abs_sym")
 # direction: share of pairs in which revenue grew faster than transaction value (take rate rose)
 out["share_take_rate_rose"] = {"idn": float((A[A.is_idn].dlnm > 0).mean()), "foreign": float((A[~A.is_idn].dlnm > 0).mean())}
+A.groupby(["firm", "is_idn"]).agg(median_abs_simple_pct=("abs_simple", lambda x: 100 * x.median()), median_abs_log=("abs_log", "median"), n=("abs_log", "size")).reset_index().to_csv("tables/h1_simple_change_firms.csv", index=False)
 s = json.dumps(out, indent=1); print(s); open("tables/h1_simple_change.json", "w").write(s)

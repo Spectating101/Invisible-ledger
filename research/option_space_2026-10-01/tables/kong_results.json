@@ -576,6 +576,20 @@
     "emerging_b": 0.408,
     "emerging_p": 0.943
    }
+  },
+  "excluding_ambiguous_main_market": {
+   "ln_wedge_usd": {
+    "b": 0.145,
+    "p": 0.743,
+    "p_wild": 0.801,
+    "n": 144
+   },
+   "E_w": {
+    "b": 16.974,
+    "p": 0.0,
+    "p_wild": 0.024,
+    "n": 144
+   }
   }
  }
 }
