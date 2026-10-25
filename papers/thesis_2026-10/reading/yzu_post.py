@@ -37,6 +37,8 @@ for t in d.tables:
     for i in range(n):
         if wid[i] < minw[i]: deficit += minw[i] - wid[i]; wid[i] = minw[i]
     if deficit: big = max(range(n), key=lambda i: wid[i]); wid[big] -= deficit
+    FS = 9
+    if n >= 10: wid = [1500] + [(TW - 1500) // (n - 1)] * (n - 1); FS = 8      # a wide matrix (Prof. Kong's correlation table): 8 pt, fixed first column
     tblPr = t._tbl.tblPr
     for tag in ("w:tblBorders", "w:tblW", "w:tblLayout", "w:tblCellMar"):
         for old in tblPr.findall(qn(tag)): tblPr.remove(old)
@@ -60,7 +62,7 @@ for t in d.tables:
             for p in c.paragraphs:
                 pf = p.paragraph_format; pf.alignment = WD_ALIGN_PARAGRAPH.LEFT; pf.space_before = Pt(0); pf.space_after = Pt(0)
                 pf.line_spacing_rule = WD_LINE_SPACING.EXACTLY; pf.line_spacing = Pt(11)
-                run_fmt(p, 9, True if ri == 0 else None)
+                run_fmt(p, FS, True if ri == 0 else None)
 # panel labels (rows whose other cells are empty) span the whole table, as in a journal's variable table
 for t in d.tables:
     for row in t.rows:
@@ -68,6 +70,18 @@ for t in d.tables:
         if len(cs) > 1 and cs[0].text.strip().startswith("Panel") and all(not c.text.strip() for c in cs[1:]):
             cs[0].merge(cs[-1])
             for pp_ in row.cells[0].paragraphs: pp_.paragraph_format.keep_with_next = True      # a panel label stays with its first row
+# group headers over several columns (a header row such as "Variable | Group A | | | | Group B | | | |") span their columns, centred
+for t in d.tables:
+    r0 = t.rows[0].cells
+    if len(r0) > 4 and r0[0].text.strip() == "Variable" and r0[1].text.strip() and not r0[2].text.strip():
+        i = 1
+        while i < len(r0):
+            j = i + 1
+            while j < len(r0) and not r0[j].text.strip(): j += 1
+            if r0[i].text.strip() and j - i > 1:
+                mc = r0[i].merge(r0[j - 1])
+                for pp_ in mc.paragraphs: pp_.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            i = j
 # keep tables from splitting badly: a table of up to 12 rows stays whole; a longer one keeps its first three rows and its last two together
 for t in d.tables:
     rows = t.rows; nr = len(rows)
@@ -99,6 +113,10 @@ for p in paras:
             r1 = p.add_run(m.group(1)); r1.font.bold = True
             r2 = p.add_run(m.group(2)); r2.font.bold = False
             if sty == "Figure Caption": p.paragraph_format.keep_with_next = True      # the description below stays with its figure
+# a table's title, its caption paragraph and its panel labels stay with the table they describe
+for p in paras:
+    if p.style.name == "Table Caption" or (p.style.name == "Table Note" and (p.text.startswith("This table") or p.text.startswith("Panel "))):
+        p.paragraph_format.keep_with_next = True
 # figures: at most 15 cm wide and 10 cm tall, centred, kept with the caption
 for idx, p in enumerate(paras):
     if p._p.xpath(".//w:drawing"):

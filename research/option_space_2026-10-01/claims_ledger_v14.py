@@ -5,6 +5,8 @@ Run: python3 claims_ledger_v14.py -> tables/claims_ledger_v14.csv"""
 import json
 import pandas as pd
 T = "tables/"
+import numpy as np
+h2 = json.load(open(T + "h2_coverage_adjusted.json"))
 k = json.load(open(T + "kong_results.json")); s = json.load(open(T + "h1_simple_change.json")); P = pd.read_csv(T + "regression_panel.csv")
 H = k["h1_growth"]; F = H["foreign"]; I = H["Indonesian and regional"]; O = k["ols"]; C = k["checks"]
 claims = [
@@ -57,6 +59,42 @@ claims = [
  ("K14-47", "Take-rate move, log change reproduces the chapter: Mann-Whitney p", 0.004, s["log_change (as in the chapter)"]["mannwhitney_p"], 0.0005),
  ("K14-48", "Share of Indonesian and regional pairs with a rising take rate", 0.87, s["share_take_rate_rose"]["idn"], 0.005),
  ("K14-49", "Share of foreign pairs with a rising take rate", 0.65, s["share_take_rate_rose"]["foreign"], 0.005),
+
+ # ---- Table 5.2 and the text of 5.2 and 5.3 ----
+ ("K14-50", "Median ecosystem ratio, Indonesian and regional platform-years", 34.7, P[P.grp == "IDN"].ecosystem_ratio.median(), 0.05),
+ ("K14-51", "Median ecosystem ratio, foreign platform-years", 5.5, P[P.grp == "FOR"].ecosystem_ratio.median(), 0.05),
+ ("K14-52", "Median revenue growth, Indonesian and regional (capped)", 0.38, P[P.grp == "IDN"].g_R.clip(*P.g_R.quantile([0.05, 0.95])).median(), 0.005),
+ ("K14-53", "Median revenue growth, foreign (capped)", 0.21, P[P.grp == "FOR"].g_R.clip(*P.g_R.quantile([0.05, 0.95])).median(), 0.005),
+ ("K14-54", "Median transaction value growth, Indonesian and regional (capped)", 0.16, P[P.grp == "IDN"].g_V.clip(*P.g_V.quantile([0.05, 0.95])).median(), 0.005),
+ ("K14-55", "Median transaction value growth, foreign (capped)", 0.16, P[P.grp == "FOR"].g_V.clip(*P.g_V.quantile([0.05, 0.95])).median(), 0.005),
+ ("K14-56", "Median years since listing, Indonesian and regional", 1, P[P.grp == "IDN"].years_listed.median(), 0),
+ ("K14-57", "Median years since listing, foreign", 4, P[P.grp == "FOR"].years_listed.median(), 0),
+ ("K14-58", "Correlation of the wedge and transaction value in levels", 0.9994, P.wedge_usd.corr(P.V_usd), 0.00005),
+ ("K14-59", "Mean ecosystem ratio, foreign, capped (about 9)", 9, P[P.grp == "FOR"].ecosystem_ratio.clip(*P.ecosystem_ratio.quantile([0.05, 0.95])).mean(), 0.5),
+ ("K14-60", "Take rate at the typical Indonesian and regional ratio of 35 (%)", 2.8, 100 / (1 + 34.66), 0.05),
+ ("K14-61", "Revenue rise from +1 point of take rate at ratio 34.66, constant volume (%)", 36, 100 * ((1 / 35.66 + 0.01) / (1 / 35.66) - 1), 0.5),
+ ("K14-62", "Revenue rise from +1 point of take rate at ratio 5.5, constant volume (%)", 6.5, 100 * ((1 / 6.5 + 0.01) / (1 / 6.5) - 1), 0.05),
+ ("K14-63", "On-demand wedge for given assets, OLS (1): change (%)", -61, 100 * (np.exp(O[0]["coef"]["type_on_demand"]["b"]) - 1), 0.5),
+ ("K14-64", "OLS (4) ecosystem ratio: OnDemand", -16.6, O[3]["coef"]["type_on_demand"]["b"], 0.05),
+ ("K14-65", "OLS (5) ecosystem ratio: GDPGrowth", 1.3, O[4]["coef"]["gdp_growth"]["b"], 0.05),
+ ("K14-66", "Without Alibaba, Pinduoduo, Rakuten and Shopify: ecosystem-ratio coefficient", 21.0, C["excluding_alibaba_rakuten_pinduoduo_shopify"]["E_w"]["b"], 0.05),
+ ("K14-67", "With an emerging-market dummy: IndonesiaRegion coefficient", 16.9, C["with_emerging_market_dummy"]["E_w"]["b"], 0.05),
+ ("K14-68", "With an emerging-market dummy: its own coefficient", 0.4, C["with_emerging_market_dummy"]["E_w"]["emerging_b"], 0.05),
+ ("K14-69", "With an emerging-market dummy: its own p", 0.94, C["with_emerging_market_dummy"]["E_w"]["emerging_p"], 0.005),
+ # ---- H2 restated in simple growth rates (5.6 and 5.7) ----
+ ("K14-70", "H2 2022-23: growth of sales per business (%)", 10, h2["published"]["sales_per_business_growth_pct"], 0.5),
+ ("K14-71", "H2 2023-24, first count: growth of the number of businesses (%)", 15.3, 100 * (4400972 / 3816750 - 1), 0.05),
+ ("K14-72", "H2 2023-24, first count: growth of sales per business (%)", 1.5, 100 * ((1288.93 / 1100.87) / (4400972 / 3816750) - 1), 0.05),
+ ("K14-73", "H2 2023-24, other count: growth of the number of businesses (%)", 12, 100 * (4400972 / 3934981 - 1), 0.5),
+ ("K14-74", "H2 2023-24, other count: growth of sales per business (%)", 4.7, 100 * ((1288.93 / 1100.87) / (4400972 / 3934981) - 1), 0.05),
+ ("K14-75", "Coverage reading, no exits: growth of the count (%)", 17, h2["scenarios"]["no_exits"]["adjusted_count_growth_pct"], 0.5),
+ ("K14-76", "Coverage reading, no exits: sales per business, low (%)", 14, h2["scenarios"]["no_exits"]["count_and_value"]["low"]["sales_per_business_growth_pct"], 0.5),
+ ("K14-77", "Coverage reading, no exits: sales per business, high (%)", 15, h2["scenarios"]["no_exits"]["count_and_value"]["high"]["sales_per_business_growth_pct"], 0.5),
+ ("K14-78", "Coverage reading, 5% exits: growth of the count (%)", 12, h2["scenarios"]["reference"]["adjusted_count_growth_pct"], 0.5),
+ ("K14-79", "Coverage reading, 5% exits: sales per business, low (%)", 16, h2["scenarios"]["reference"]["count_and_value"]["low"]["sales_per_business_growth_pct"], 0.5),
+ ("K14-80", "Coverage reading, 5% exits: sales per business, high (%)", 17, h2["scenarios"]["reference"]["count_and_value"]["high"]["sales_per_business_growth_pct"], 0.5),
+ ("K14-81", "Count-only reading, no exits: sales per business (%)", 20, h2["scenarios"]["no_exits"]["count_only_sales_per_business_growth_pct"], 0.5),
+ ("K14-82", "Count-only reading, 5% exits: sales per business (%)", 25, h2["scenarios"]["reference"]["count_only_sales_per_business_growth_pct"], 0.5),
 ]
 L = pd.DataFrame([dict(id=c, claim=t, stated=st, recomputed=round(float(v), 6), status="PASS" if abs(float(v) - st) <= tol else "CHECK") for c, t, st, v, tol in claims])
 L.to_csv(T + "claims_ledger_v14.csv", index=False); print(L[L.status != "PASS"].to_string(index=False)); print(L.status.value_counts().to_dict())

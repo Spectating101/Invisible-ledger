@@ -185,3 +185,13 @@ Status was checked against the October source files, not copied from the 14 Sept
 - That Momentum Works is explained at first use in Chapter 4.
 - Whether the public series for the macro variables exist for all 32 platforms' home markets, in the years we need.
 - Whether `wedge_over_time.csv` (17 rows) and the other panels give an estimable regression once they are limited to platforms with all of her variables.
+
+
+---
+
+## 8. Status after the 25 October implementation (added later)
+
+- **Done:** abbreviations at first use; Symbols page dropped; Appendix A (variables, with the regression variables); tables 1, 3, 4, 6, 8 dropped and 2, 5, 7 moved; Section 3.3 replaced by the direct tests; summary statistics and correlation matrix (one table, two panels); growth regression for H1; OLS of ln(wedge) and the ecosystem ratio with her controls, platform clustering, wedge in US dollars, size by total assets, take rate not a regressor; H2 split and the take-rate tests restated in simple percentage change; economic implications in 5.3 and 7.2.
+- **Answered by the data, no longer needing her:** question 1 (the wedge against transaction value in levels is 0.9994 by construction, so growth is the test); question 6 in part (Δln replaced everywhere except the registered market-value test, which keeps its registered definition).
+- **Still needs her:** question 2 (the unit of the H2 regression), question 3 (Tables 13 and 14, Figures, appendices), question 5 (what counts as competitive entry or a regulatory event for the foreign platforms; the year effects stand in for them), question 7 (entry test as one of the further analyses; the text still has it as its own section).
+- **Still to do:** layout (figures then tables after the References, "[Insert Table N about here]", captions in her form on every table and figure), Figure 2 as Panels A to C, length.

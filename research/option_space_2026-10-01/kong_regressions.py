@@ -47,14 +47,16 @@ S = pd.DataFrame(rows); S.to_csv("tables/kong_summary_stats.csv", index=False)
 
 # ---------------------------------------------------------------- B. correlations
 CV = [("ln_wedge_usd", "ln(Wedge)"), ("E_w", "Ecosystem ratio"), ("g_R_w", "g(R)"), ("g_V_w", "g(V)"), ("ln_assets_usd", "ln(Assets)"),
-      ("ln1_years_listed", "ln(1+YearsListed)"), ("idn", "IndonesiaRegion"), ("gdp_growth", "GDPGrowth"), ("inflation", "Inflation"),
-      ("household_growth", "HouseholdGrowth"), ("policy_rate", "PolicyRate")]
+      ("ln1_years_listed", "ln(1+YearsListed)"), ("idn", "IndonesiaRegion"), ("gdp_growth", "GDPGrowth"), ("policy_rate", "PolicyRate")]
+# inflation and household-spending growth are left out of the printed matrix to keep it within the page: they correlate 0.80 with the policy rate and 0.92 with GDP growth (all pairs are in kong_correlations_all.csv)
 k = len(CV); C = np.full((k, k), np.nan); P = np.full((k, k), np.nan); NN = np.zeros((k, k), int)
 for i in range(k):
     for j in range(i + 1):
         d = L[[CV[i][0], CV[j][0]]].dropna(); NN[i, j] = len(d)
         if i == j: C[i, j] = 1.0; continue
         r, p = stats.pearsonr(d.iloc[:, 0], d.iloc[:, 1]); C[i, j], P[i, j] = r, p
+_all = L[["ln_wedge_usd", "E_w", "g_R_w", "g_V_w", "ln_assets_usd", "ln1_years_listed", "idn", "gdp_growth", "inflation", "household_growth", "policy_rate"]]
+_all.corr().round(3).to_csv("tables/kong_correlations_all.csv")
 pd.DataFrame(C, index=[c[1] for c in CV], columns=range(1, k + 1)).to_csv("tables/kong_correlations.csv")
 pd.DataFrame(P, index=[c[1] for c in CV], columns=range(1, k + 1)).to_csv("tables/kong_correlations_p.csv")
 res["corr"] = {"g_R_w~g_V_w": {"r": float(C[3, 2]), "p": float(P[3, 2]), "n": int(NN[3, 2])},
@@ -95,7 +97,7 @@ FEAT = ["idn", "ln1_years_listed", "ln_assets_usd"] + TYPES
 MACRO = ["gdp_growth", "inflation", "household_growth", "policy_rate"]
 NAMES = {"idn": "IndonesiaRegion", "ln1_years_listed": "ln(1+YearsListed)", "ln_assets_usd": "ln(Assets)", "type_on_demand": "OnDemand", "type_travel": "Travel",
          "type_freelance": "Freelance", "type_resale": "Resale", "gdp_growth": "GDPGrowth", "inflation": "Inflation", "household_growth": "HouseholdGrowth",
-         "policy_rate": "PolicyRate", "const": "Constant"}
+         "policy_rate": "PolicyRate", "const": "Constant", "emerging_market": "EmergingMarket"}
 SPECS = [  # (label, dependent, regressors, year fixed effects)
     ("ln_wedge_usd", FEAT, False), ("ln_wedge_usd", FEAT + MACRO, False), ("ln_wedge_usd", FEAT + MACRO, True),
     ("E_w", FEAT, False), ("E_w", FEAT + MACRO, False), ("E_w", FEAT + MACRO, True)]
@@ -152,7 +154,8 @@ chk["ln_E_instead_of_E_w"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "
 chk["E_unwinsorised"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3)} for o in run([("ecosystem_ratio", FEAT + MACRO, True)], bootstrap=False)}
 chk["without_total_assets"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "n": o["n"]} for o in run([("ln_wedge_usd", [c for c in FEAT if c != "ln_assets_usd"] + MACRO, True), ("E_w", [c for c in FEAT if c != "ln_assets_usd"] + MACRO, True)], bootstrap=False)}
 chk["excluding_pre_listing_years"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "n": o["n"]} for o in run(base, L[L.pre_listing == 0], bootstrap=False)}
-chk["excluding_sea_alibaba_rakuten_largest_assets"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3)} for o in run(base, L[~L.platform.isin(["Alibaba", "Rakuten", "Pinduoduo", "Shopify"])], bootstrap=False)}
+chk["excluding_alibaba_rakuten_pinduoduo_shopify"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3)} for o in run(base, L[~L.platform.isin(["Alibaba", "Rakuten", "Pinduoduo", "Shopify"])], bootstrap=False)}
+chk["with_emerging_market_dummy"] = {o["dep"]: {"b": round(o["coef"]["idn"]["b"], 3), "p": round(o["coef"]["idn"]["p"], 3), "p_wild": round(o["coef"]["idn"]["p_wild"], 3), "emerging_b": round(o["coef"]["emerging_market"]["b"], 3), "emerging_p": round(o["coef"]["emerging_market"]["p"], 3)} for o in run([("ln_wedge_usd", FEAT + ["emerging_market"] + MACRO, True), ("E_w", FEAT + ["emerging_market"] + MACRO, True)])}
 res["checks"] = chk
 json.dump(res, open("tables/kong_results.json", "w"), indent=1)
 

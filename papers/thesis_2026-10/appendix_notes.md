@@ -20,7 +20,7 @@ Every variable and symbol used in the empirical analyses is listed with its defi
 | E~it~ | Ecosystem ratio: W~it~ divided by R~it~, equal to one divided by m~it~, minus one. The author's own measure. | Author's calculation |
 | g(X~t~) | Growth of X from one year to the next as a share of the first year: (X~t~ − X~t−1~) divided by X~t−1~. A value of 0.09 means 9 percent. | Author's calculation |
 | D~it~ | Growth divergence: g(R~it~) minus g(V~it~). A value of 0.62 means 62 percentage points. | Author's calculation |
-| Δln X~t~ | Change in the natural logarithm of X from one year to the next. | Author's calculation |
+| Δln X~t~ | Change in the natural logarithm of X from one year to the next. Used only where a registered test defined it so (equation (9)); everywhere else the change is g(X). | Author's calculation |
 | *Panel B: National and survey measures* | | |
 | N~t~ | Count of online sellers: BPS's estimate of the number of businesses selling online in year t. | BPS-Statistics Indonesia (2025a, 2025b); BPS e-commerce survey files for 2020, 2022 and 2023 (licensed) |
 | Y~t~ | Total online sales value: BPS's published value of online sales in year t. | BPS-Statistics Indonesia (2025a, 2025b) |
@@ -31,6 +31,19 @@ Every variable and symbol used in the empirical analyses is listed with its defi
 | β~V~, β~m~ | Coefficients in equation (8): how the change in market value moves with the change in transaction value and with the change in the take rate. | Author's estimate |
 | *Panel D: Labels* | | |
 | H1, H2 | The two hypotheses of Section 3.4. | Author's definition |
+| *Panel E: Variables of the regressions (Chapter 5)* | | |
+| Wedge in US dollars, and its natural logarithm | The invisible wedge W~it~ converted to US dollars at the period-average official exchange rate of the reporting currency, in US$ million. The regressions use its natural logarithm. | Company reports; World Bank (2026); author's calculation |
+| Ecosystem ratio, capped | E~it~, set to its 5th percentile below that value and to its 95th percentile above that value, across all platform-years. | Author's calculation |
+| g(R~it~), g(V~it~), capped | Growth of revenue and of transaction value as defined in Panel A, for consecutive years of one platform only, set to the 5th and 95th percentiles across all platforms. | Company reports; author's calculation |
+| IndonesiaRegion | A dummy variable that equals one for Tokopedia, Blibli, Bukalapak and the on-demand businesses of Grab and GoTo, and zero for the 27 foreign platforms. | Author's classification (Appendix B) |
+| ln(1+YearsListed) | Natural logarithm of one plus the number of years since the platform listed on a stock exchange; zero before listing. | Listing years from public record; author's calculation |
+| ln(Assets) | Natural logarithm of the company's total assets in US dollars, converted at the period-average official exchange rate of the reporting currency. | SEC filings (U.S. Securities and Exchange Commission 2026) for 26 platforms; published financial statements for Tokopedia and GoTo, Blibli, Bukalapak, Rakuten and Zalando |
+| OnDemand, Travel, Freelance, Resale | Dummy variables that equal one if the platform is of that type and zero otherwise. The base category is marketplace. | Author's classification (Appendix B) |
+| EmergingMarket | A dummy variable that equals one if the platform's main market is Argentina, Brazil, China, India, Indonesia, Kazakhstan, Nigeria, Russia or Turkey, and zero otherwise. | Author's classification (Appendix B) |
+| GDPGrowth | Growth of real gross domestic product of the platform's main market in year t, in percent. | World Bank (2026) |
+| Inflation | Growth of consumer prices of the platform's main market in year t, in percent. | World Bank (2026) |
+| HouseholdGrowth | Growth of real household final consumption expenditure of the platform's main market in year t, in percent. | World Bank (2026) |
+| PolicyRate | The central bank's policy rate in the platform's main market, mean of the monthly values in year t, in percent. The euro-area rate is used for Germany. | Bank for International Settlements (2026) |
 
 ### A.2 Sources compared in Objective 3
 
@@ -100,9 +113,9 @@ Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg 
 | Grab on-demand | 4 | 0.20 | 0.50 |
 | Tokopedia | 1 | 0.52 | 0.00 |
 
-### B.3 The seven windows traced (Table 5.4 in full)
+### B.3 The seven windows traced
 
-Shares are of the log growth of revenue. Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and stay out of the main sample. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
+Shares are of the log growth of revenue, because the split into more commerce, higher fees and lower incentives is exact only in logs. Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and stay out of the main sample. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
 
 | Platform and window | Growth of revenue (%) | Growth of transaction value (%) | Take rate, start (%) | Take rate, end (%) | More commerce | Higher fees | Lower incentives |
 |---|---|---|---|---|---|---|---|
@@ -140,11 +153,50 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 | Bukalapak Group | 2022 | 153,738,958 | 3,618,366 | 150,120,592 | 2.35 | 41.5 | Company-wide disclosure |
 | Bukalapak Group | 2023 | 164,380,065 | 4,438,269 | 159,941,796 | 2.70 | 36.0 | Company-wide disclosure |
 
-## Appendix C. The checks on the test of H1
+### B.5 Classification of the platforms in the regressions
+
+The type, the main market and the listing year are the author's classification from public record. The main market is the country whose macroeconomic conditions are attached to the platform: the United States for most US-listed platforms, Indonesia for Sea (Shopee), Nigeria for Jumia, Brazil for Mercado Libre and Argentina for Despegar. Source: `tables/platform_attributes.csv`.
+
+| Platform | Group | Type | Main market | Reporting currency | Listed |
+|---|---|---|---|---|---:|
+| Tokopedia | Indonesian and regional | Marketplace | ID | IDR | 2022 |
+| Blibli | Indonesian and regional | Marketplace | ID | IDR | 2022 |
+| Bukalapak | Indonesian and regional | Marketplace | ID | IDR | 2021 |
+| Grab (on-demand) | Indonesian and regional | On-demand | ID | USD | 2021 |
+| GoTo (on-demand) | Indonesian and regional | On-demand | ID | IDR | 2022 |
+| Etsy | Foreign | Marketplace | US | USD | 2015 |
+| eBay | Foreign | Marketplace | US | USD | 1998 |
+| Jumia | Foreign | Marketplace | NG | USD | 2019 |
+| Mercado Libre | Foreign | Marketplace | BR | USD | 2007 |
+| Rakuten | Foreign | Marketplace | JP | JPY | 2000 |
+| Sea (Shopee) | Foreign | Marketplace | ID | USD | 2017 |
+| Shopify | Foreign | Marketplace | US | USD | 2015 |
+| Zalando | Foreign | Marketplace | DE | EUR | 2014 |
+| ACV Auctions | Foreign | Resale and auctions | US | USD | 2021 |
+| Waitr | Foreign | On-demand | US | USD | 2018 |
+| Alibaba | Foreign | Marketplace | CN | CNY | 2014 |
+| Despegar | Foreign | Travel and ticketing | AR | USD | 2017 |
+| 1stDibs | Foreign | Resale and auctions | US | USD | 2021 |
+| Expedia | Foreign | Travel and ticketing | US | USD | 2005 |
+| Fiverr | Foreign | Freelance | US | USD | 2019 |
+| Grubhub | Foreign | On-demand | US | USD | 2014 |
+| Hepsiburada | Foreign | Marketplace | TR | TRY | 2021 |
+| Kaspi.kz | Foreign | Marketplace | KZ | KZT | 2020 |
+| Mogu | Foreign | Marketplace | CN | CNY | 2018 |
+| Ozon | Foreign | Marketplace | RU | RUB | 2020 |
+| Pinduoduo | Foreign | Marketplace | CN | CNY | 2018 |
+| RB Global | Foreign | Resale and auctions | US | USD | 1998 |
+| The RealReal | Foreign | Resale and auctions | US | USD | 2019 |
+| Vivid Seats | Foreign | Travel and ticketing | US | USD | 2021 |
+| Upwork | Foreign | Freelance | US | USD | 2018 |
+| Vacasa | Foreign | Travel and ticketing | US | USD | 2021 |
+| Yatra | Foreign | Travel and ticketing | IN | INR | 2016 |
+
+## Appendix C. The checks on the tests of H1 and on the regressions
 
 ### C.1 The checks
 
-The main test is in Table 5.3. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
+The main test is described in Section 5.2. This appendix keeps its first measure, the absolute change in the log take rate, and lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
 
 | Check | Indonesian and regional (median) | Foreign (median) | Mann–Whitney p | Shuffle p |
 |---|---|---|---|---|
@@ -178,7 +230,7 @@ The main test is in Table 5.3. This appendix lists each check with both p-values
 | Only years up to 5 after listing, 4 against 18 platforms (exploratory, 22 Oct 2026; exact test) | 0.169 | 0.069 | 0.059 | |
 | Quarterly pairs, 3 against 8 (same quarter a year earlier) | 0.071 | 0.049 | 0.19 | 0.33 |
 
-The four rows marked 22 Oct 2026 were added after all other results were known, so they are exploratory. They use exact tests, which list every possible split of the 32 platforms, and they agree with the approximations in Table 5.3. The typical gap between an Indonesian or regional platform and a foreign one is 0.117 in the size of the yearly change in log take rate. That is the median of all 135 pairwise differences, with an exact 95 percent interval of 0.039 to 0.223. The ratio of the group medians is 3.3, and a bootstrap interval of 1.4 to 8.5 shows how loosely five platforms fix its size. Moving Sea to the regional group makes the gap clearer. Dropping two platforms can weaken it. The one case above 0.05 drops Blibli and Tokopedia, the two largest movers, and leaves p = 0.058. Keeping only the years up to five after listing leaves the same direction, but p = 0.059 (`tables/h1_exact_inference.json`, from `h1_exact_inference.py`).
+The four rows marked 22 Oct 2026 were added after all other results were known, so they are exploratory. They use exact tests, which list every possible split of the 32 platforms, and they agree with the approximations in Section 5.2. The typical gap between an Indonesian or regional platform and a foreign one is 0.117 in the size of the yearly change in log take rate. That is the median of all 135 pairwise differences, with an exact 95 percent interval of 0.039 to 0.223. The ratio of the group medians is 3.3, and a bootstrap interval of 1.4 to 8.5 shows how loosely five platforms fix its size. Moving Sea to the regional group makes the gap clearer. Dropping two platforms can weaken it. The one case above 0.05 drops Blibli and Tokopedia, the two largest movers, and leaves p = 0.058. Keeping only the years up to five after listing leaves the same direction, but p = 0.059 (`tables/h1_exact_inference.json`, from `h1_exact_inference.py`).
 
 Growth in revenue and growth in transaction value had a correlation of 0.10 in the Indonesian main sample and 0.98 in the foreign sample excluding Sea (`tables/claims_ledger.csv`, C48 and C49).
 
@@ -194,6 +246,44 @@ The comparison in points of the take rate (exploratory, `h1_points_vs_log.py`): 
 At the top of the size distribution, sellers with revenue above Rp50 billion a year (about US$3.4 million at the 2022 rate) were 0.5 percent of BPS's marketplace sellers in 2022 and held between 18 and 39 percent of the marketplace slice's value, resting on 19 sample rows (`tables/part5_checks.json`).
 
 Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) with the share of new sellers and 0.35 (p = 0.04) with growth in sample size. In 23 provinces count growth exceeded what entry can explain, and these provinces carry 98.5 percent of the increase. The standard error of the national count implied by BPS's published relative standard errors is about 1.4 percent. The 306 thousand newly counted sellers are about 4.6 times the standard error of the change, and 2.3 times if the true error were twice as large (`tables/bps_frame_check.json`, `tables/rq_closing_checks.json`).
+
+### C.3 Checks on the growth test and on the regressions (exploratory, 25 Oct 2026)
+
+The first table repeats the test of the size of take-rate moves with other measures of the yearly change. The second gives the correlation of revenue growth and transaction value growth with and without capping the growth rates, and the rank correlation. The third lists the checks on the coefficient on IndonesiaRegion in Table 5.4. Sources: `h1_simple_change.py` (`tables/h1_simple_change.json`), `kong_regressions.py` (`tables/kong_results.json`), `build_regression_panel.py` (`tables/regression_panel.csv`).
+
+| Measure of the yearly change in the take rate | Indonesian and regional (median) | Foreign (median) | Ratio | Mann–Whitney p |
+|---|---|---|---|---|
+| Absolute change in the logarithm (the first version) | 0.201 | 0.062 | 3.3 | 0.0038 |
+| Absolute simple percentage change (Section 5.2) | 0.224 | 0.062 | 3.6 | 0.0031 |
+| Absolute change over the mean of the two take rates | 0.199 | 0.062 | 3.2 | 0.0038 |
+
+| Sample | Correlation, capped | Correlation, not capped | Rank correlation | Pairs |
+|---|---|---|---|---|
+| Foreign | 0.90 | 0.54 | 0.89 | 166 |
+| Indonesian and regional | 0.31 | 0.18 | 0.64 | 15 |
+| All platforms | 0.84 | 0.53 | 0.87 | 181 |
+
+| Check | Dependent variable | IndonesiaRegion | p | Wild-bootstrap p | Observations |
+|---|---|---:|---:|---:|---:|
+| Table 5.4, column (3) | ln(Wedge) | 0.080 | 0.841 | 0.866 | 178 |
+| Table 5.4, column (6) | Ecosystem ratio | 17.092 | <0.001 | 0.005 | 178 |
+| Without Blibli | ln(Wedge); Ecosystem ratio | 0.267; 15.330 | | | |
+| Without Bukalapak | ln(Wedge); Ecosystem ratio | -0.256; 16.072 | | | |
+| Without GoTo (on-demand) | ln(Wedge); Ecosystem ratio | 0.148; 18.344 | | | |
+| Without Grab (on-demand) | ln(Wedge); Ecosystem ratio | 0.023; 17.803 | | | |
+| Without Tokopedia | ln(Wedge); Ecosystem ratio | 0.104; 16.620 | | | |
+| Without year dummies | ln(Wedge) | -0.302 | 0.395 |  |  |
+| Without year dummies | Ecosystem ratio | 12.939 | <0.001 |  |  |
+| Without total assets | ln(Wedge) | 1.197 | 0.246 |  | 187 |
+| Without total assets | Ecosystem ratio | 17.027 | <0.001 |  | 187 |
+| Without years before listing | ln(Wedge) | -0.113 | 0.711 |  | 165 |
+| Without years before listing | Ecosystem ratio | 16.244 | <0.001 |  | 165 |
+| Without Alibaba, Pinduoduo, Rakuten and Shopify | ln(Wedge) | 0.383 | 0.394 |  |  |
+| Without Alibaba, Pinduoduo, Rakuten and Shopify | Ecosystem ratio | 20.954 | <0.001 |  |  |
+| With a dummy for emerging home markets | ln(Wedge) | 0.065 | 0.869 | 0.886 |  |
+| With a dummy for emerging home markets | Ecosystem ratio | 16.888 | <0.001 | 0.027 |  |
+| Natural logarithm of the ecosystem ratio | ln(Ecosystem ratio) | 1.677 | <0.001 | 0.006 |  |
+| Ecosystem ratio not capped | Ecosystem ratio | 28.550 | 0.008 |  |  |
 
 ## Appendix D. Registered tests and their outcomes
 

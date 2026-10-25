@@ -32,6 +32,9 @@ if m:
     t = t[:m.start()] + hdr + t[m.end():]
 t = re.sub(r"^# (Abstract)\s*$", r'::: {custom-style="Front Heading"}\n\1\n:::', t, flags=re.M)
 t = re.sub(r"^\*\*(Table \d+\.) (.*?)\*\*\s*$", r'::: {custom-style="Table Caption"}\n\1 \2\n:::', t, flags=re.M)
+# the caption of a table explains how to read it (Prof. Kong, 24 Oct): a paragraph that starts "This table" sits under the title, above the table; panel labels likewise
+t = re.sub(r"^(This table [^\n]+)$", r'::: {custom-style="Table Note"}\n\1\n:::', t, flags=re.M)
+t = re.sub(r"^\*(Panel [A-Z]\. [^*\n]+)\*\s*$", r'::: {custom-style="Table Note"}\n*\1*\n:::', t, flags=re.M)
 def fig(m):
     title = m.group(2).strip(); rest = m.group(3).strip()
     out = '::: {custom-style="Figure Caption"}\n' + m.group(1) + " " + title + "\n:::\n"

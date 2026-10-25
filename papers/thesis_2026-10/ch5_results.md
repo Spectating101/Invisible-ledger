@@ -6,9 +6,9 @@ Every result in this chapter carries one of the three labels of Section 4.10: re
 
 ## 5.1 How much revenue leaves out
 
-Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed outside revenue for every dollar the platforms kept. Table 5.2 shows each platform.
+Revenue showed only a small part of what Indonesia's major platforms carried. In 2023, Tokopedia, Shopee and Grab together carried about US$43 billion of transaction value and kept about US$3 billion as revenue. Revenue was about 7 percent of that commerce, and the invisible wedge was about US$40 billion. The ecosystem ratio was about 13, so almost 13 dollars of commerce passed outside revenue for every dollar the platforms kept. Table 5.1 shows each platform.
 
-**Table 5.2. The invisible wedge of three platforms, 2023 (US$ billion)**
+**Table 5.1. The invisible wedge of three platforms, 2023 (US$ billion)**
 
 | Platform | Transaction value | Revenue | Wedge | Ecosystem ratio | How it is labelled |
 |---|---|---|---|---|---|
@@ -27,63 +27,140 @@ Platform commerce is itself only part of online commerce. In BPS's survey, marke
 
 ## 5.2 Testing H1
 
-Revenue did not keep pace with transaction value at the Indonesian and regional platforms, and the thesis rejects H1. At the typical platform in this group, the take rate moved by about 20 percent a year, up or down. At the typical foreign platform it moved by about 6 percent, so the moves were about three times as large. Table 5.3 gives the test and its checks.
+Revenue followed transaction value abroad and did not in Indonesia and the region, so the thesis rejects H1 for the Indonesian and regional platforms. Table 5.2 describes the panel behind the test. The typical Indonesian and regional platform-year has an ecosystem ratio of about 35, against about 5.5 abroad. Transaction value grew by a median of 16 percent a year in both groups, and revenue by 38 percent in Indonesia and the region against 21 percent abroad. The Indonesian and regional platforms are also younger, a median of one year since listing against four.
 
-**Table 5.3. The test of H1**
+**Table 5.2. Summary statistics and correlations**
 
-| Test | Method | Indonesian and regional group | Foreign group | p-value |
-|---|---|---|---|---|
-| Yearly change in log take rate, 5 platforms against 27 | Mann–Whitney | 0.20 | 0.06 | 0.004 |
-| The same | Shuffle | 0.20 | 0.06 | 0.022 |
-| Growth divergence in points, 5 platforms against 26 | Mann–Whitney | 27.0 | 6.5 | 0.005 |
-| Drop each platform in turn, or treat Tokopedia and GoTo as one company | Mann–Whitney | 0.17 to 0.23 | 0.06 | 0.003 to 0.016 |
-| Quarterly pairs, 3 platforms against 8 | Mann–Whitney | 0.071 | 0.049 | 0.19 |
+This table reports summary statistics and pairwise correlations for the panel of 213 platform-years used in Sections 5.2 and 5.3, which covers 32 platforms. Panel A gives the number of observations (N), the mean, the median (P50) and the standard deviation (SD) of each variable for the Indonesian and regional platforms and for the foreign platforms. Panel B gives pairwise Pearson correlations for all platforms. Growth rates and the ecosystem ratio are capped at their 5th and 95th percentiles; the wedge and total assets are in US$ million. Appendix A defines the variables. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
 
-*Note:* Group values are medians of each platform's median yearly change. Appendix C lists every check, including the tests without Ozon and Zalando.
+*Panel A. Summary statistics*
 
-The main test compares the five platforms with 27 abroad, using one median per platform. Both methods of Section 4.3 reject equal moves (p = 0.004 and 0.022), and exact versions that list every possible split of the 32 platforms agree (p = 0.004 and 0.021). No single platform carries the result: dropping any one, or treating Tokopedia and GoTo as one company, keeps p at 0.016 or below. Dropping the two largest movers, Blibli and Tokopedia, weakens it to p = 0.058 (Appendix C).
+| Variable | Indonesian and regional | | | | Foreign | | | |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| | **N** | **Mean** | **P50** | **SD** | **N** | **Mean** | **P50** | **SD** |
+| Wedge, US$ million | 20 | 7,834 | 6,999 | 5,311 | 193 | 50,439 | 3,732 | 142,180 |
+| Ecosystem ratio | 20 | 25.08 | 34.66 | 14.95 | 193 | 8.84 | 5.50 | 9.56 |
+| Revenue growth, g(R) | 15 | 0.53 | 0.38 | 0.44 | 166 | 0.32 | 0.21 | 0.44 |
+| Transaction value growth, g(V) | 15 | 0.22 | 0.16 | 0.34 | 166 | 0.26 | 0.16 | 0.40 |
+| Total assets, US$ million | 20 | 4,300 | 2,751 | 3,727 | 182 | 13,252 | 1,461 | 35,325 |
+| Years since listing | 20 | 1.10 | 1.00 | 1.12 | 193 | 6.38 | 4.00 | 7.21 |
+| GDP growth, percent | 20 | 4.20 | 5.05 | 2.21 | 193 | 3.06 | 2.79 | 3.00 |
+| Inflation, percent | 20 | 2.91 | 2.93 | 1.08 | 179 | 8.55 | 2.95 | 21.84 |
+| Household spending growth, percent | 20 | 3.77 | 4.95 | 2.45 | 174 | 3.55 | 2.95 | 4.21 |
+| Policy rate, percent | 20 | 4.85 | 4.76 | 1.01 | 183 | 6.24 | 3.91 | 12.34 |
 
-The main test was set up after a first, narrower test, so it is exploratory. The narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
+*Panel B. Pairwise correlations*
 
-The main test and the narrower test ask about the size of the moves, not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
+| Variables | (1) | (2) | (3) | (4) | (5) | (6) | (7) | (8) | (9) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| (1) ln(Wedge) | 1 |  |  |  |  |  |  |  |  |
+| (2) Ecosystem ratio | 0.37∗∗∗ | 1 |  |  |  |  |  |  |  |
+| (3) g(R) | 0.13∗ | 0.18∗∗ | 1 |  |  |  |  |  |  |
+| (4) g(V) | 0.05 | 0.15∗ | 0.84∗∗∗ | 1 |  |  |  |  |  |
+| (5) ln(Assets) | 0.88∗∗∗ | 0.10 | 0.10 | 0.01 | 1 |  |  |  |  |
+| (6) ln(1+YearsListed) | 0.44∗∗∗ | -0.20∗∗∗ | -0.30∗∗∗ | -0.35∗∗∗ | 0.46∗∗∗ | 1 |  |  |  |
+| (7) IndonesiaRegion | 0.02 | 0.42∗∗∗ | 0.13∗ | -0.03 | 0.04 | -0.27∗∗∗ | 1 |  |  |
+| (8) GDPGrowth | 0.10 | 0.23∗∗∗ | 0.23∗∗∗ | 0.21∗∗∗ | 0.06 | -0.11 | 0.11 | 1 |  |
+| (9) PolicyRate | -0.02 | -0.06 | 0.01 | 0.02 | -0.09 | -0.04 | -0.04 | -0.14∗∗ | 1 |
+
+*Note:* Inflation and household spending growth are left out of Panel B to fit the page; they correlate 0.80 with the policy rate and 0.92 with GDP growth. The policy rate is missing for Kazakhstan and Nigeria, and some growth and macroeconomic values are missing for the first year of a platform or for 2025. Source: company filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
+
+Across all platforms, revenue growth and transaction value growth have a correlation of 0.84 (Panel B). The wedge and transaction value correlate at 0.9994 in levels, as they must, because the wedge is transaction value minus revenue and revenue is a small part of it. So the test of H1 uses growth rates.
+
+Table 5.3 tests H1 in growth rates. Abroad, a rise of 1 percentage point in the growth of transaction value goes with a rise of 0.99 points in the growth of revenue (standard error 0.07), which cannot be told from the 1 that proportional growth requires (p = 0.84). The two growth rates correlate at 0.90. In Indonesia and the region the slope is 0.40 (standard error 0.16) and differs from 1 (p = 0.02). The correlation is 0.31, and the constant is 0.44: revenue grew by about 44 percent a year whatever transaction value did. In the regression on all platforms, the slope of the Indonesian and regional group is 0.59 below the foreign slope, and the two correlations differ (p < 0.001). The Indonesian and regional result rests on 15 pairs from five platforms, so its standard errors are less reliable than those abroad.
+
+**Table 5.3. Revenue growth and transaction value growth**
+
+This table reports OLS estimates of equation (6). The dependent variable is the growth of revenue, g(R), the simple percentage change from the previous year. Column (1) uses all platforms, with an interaction between transaction value growth and the Indonesia and region dummy, so the coefficient on g(V) in that column is the slope of the foreign platforms. Column (2) uses the 26 foreign platforms with a pair of consecutive years, and column (3) the five Indonesian and regional platforms. Growth rates are capped at their 5th and 95th percentiles. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels.
+
+| *Dependent variable* | g(R) | g(R) | g(R) |
+|---|---:|---:|---:|
+| Sample | All platforms | Foreign | Indonesian and regional |
+| | (1) | (2) | (3) |
+| g(V) | 0.986∗∗∗ | 0.986∗∗∗ | 0.399∗ |
+|  | (0.072) | (0.072) | (0.159) |
+| IndonesiaRegion | 0.379∗∗∗ |  |  |
+|  | (0.060) |  |  |
+| IndonesiaRegion × g(V) | -0.587∗∗∗ |  |  |
+|  | (0.158) |  |  |
+| Constant | 0.059∗∗∗ | 0.059∗∗∗ | 0.439∗∗∗ |
+|  | (0.019) | (0.019) | (0.065) |
+| Observations | 181 | 166 | 15 |
+| Platforms (clusters) | 31 | 26 | 5 |
+| *R*^2^ | 0.750 | 0.802 | 0.094 |
+| *p*-value, slope on g(V) equal to 1 | 0.845 | 0.845 | 0.019 |
+| Pearson correlation, g(R) and g(V) | 0.843 | 0.896 | 0.307 |
+
+*Note:* The slope on g(V) is 1 if revenue grows in proportion to transaction value. Source: company filings; author's calculations. Exploratory.
+
+The earlier test of the size of take-rate moves points the same way. At the typical Indonesian and regional platform the take rate moved by 22 percent a year, up or down. At the typical foreign platform it moved by 6 percent, so the moves were about 3.6 times as large (Mann–Whitney p = 0.003; shuffling the group labels, p = 0.01). Measured in logs, as in an earlier version of this test, the medians are 0.20 and 0.06 (p = 0.004), and exact versions that list every possible split of the 32 platforms agree (p = 0.004 and 0.021). No single platform carries that result: dropping any one, or treating Tokopedia and GoTo as one company, keeps p at 0.016 or below. Dropping the two largest movers, Blibli and Tokopedia, weakens it to p = 0.058 (Appendix C).
+
+The test of the size of moves was set up after a first, narrower test, so it is exploratory. The narrower test, set before the wider one, compares the three Indonesian marketplaces with the eight foreign platforms chosen first. It points the same way. With one median per platform, the Mann–Whitney test rejects equal moves (p = 0.024). A shuffle of platform labels comes close without passing (p = 0.06), since three platforms give a test little power. In that sample, revenue growth and transaction value growth had a correlation of 0.10 in Indonesia and 0.98 abroad, excluding Sea.
+
+Both tests of the size of moves ask about their size, not their direction, and direction is less telling. Revenue grew faster than transaction value in 13 of the 15 Indonesian and regional pairs, and in two of them the two moved in opposite directions. Abroad, take rates also rose in about two thirds of pairs, but by much less. What sets the Indonesian and regional platforms apart is the size of the moves.
 
 Quarterly pairs do not reject H1 (p = 0.19), contrary to a prediction registered before the test was run. Most of the quarterly Indonesian pairs cover 2023 to 2026, after most of the repricing, while the large moves came between 2022 and 2024. So the rejection of H1 describes that period.
 
-The large moves were not simply a mark of young platforms, an exploratory check. The Indonesian and regional platforms made their largest moves one or two years after listing on the stock market. Foreign platforms, by contrast, did not move their take rates more in their first three years after listing than later (median 0.07 against 0.08, p = 0.24). This comparison uses the 15 foreign platforms with years in both periods. Nor did foreign platforms in lower-income markets move more in 2022 to 2024: one of seven did, against all four Indonesian and regional platforms with enough years. The repricing was an Indonesian and regional episode of those years.
+Age does not explain the result. The Indonesian and regional platforms made their largest moves one or two years after listing on the stock market, but foreign platforms did not move their take rates more in their first three years after listing than later (median 0.07 against 0.08 in logs, p = 0.24, an exploratory check), and Table 5.4 shows that years since listing explains neither the wedge nor the ecosystem ratio.
 
-The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65).
-
-The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the three measures side by side. The test shows that take rates moved, but not what the platforms changed to move them.
+The thin take rate of Indonesian and regional platforms explains much of the threefold difference, an exploratory finding. Measured in percentage points, both groups changed their take rates by about 1 point a year, and the difference between them is nowhere near large enough to count (p = 0.65). The two groups differ in the take rate they start from. The typical Indonesian and regional platform keeps about 1.6 percent of each sale, against about 17 percent abroad. The thinnest take rates belong to the three marketplaces, while Grab and GoTo keep shares closer to those abroad. As Section 3.2 showed, the same 1-point rise then has very different effects. It lifts revenue by more than half at the thinner take rate and by about 6 percent at the thicker one. Figure 5.1 shows the measures side by side. The test shows that take rates moved, but not what the platforms changed to move them.
 
 ![Figure 5.1](figures/fig5_1_thin_slice.png)
 
 **Figure 5.1. The thin take rate.** Each dot is one platform's median over its years. Left: the share of each sale that the platform keeps, on a log scale. Middle: the yearly change in that share, in percentage points. Right: the same change relative to the share itself, as a log change in percent. Black bars mark group medians. The foreign group has 26 platforms here and 27 in the main test, because one platform has no pair of usable years for the change in points. Source: company filings; author's calculations. Exploratory.
 
-## 5.3 What moved the take rate
+## 5.3 What explains the wedge and the ecosystem ratio
 
-Pricing, not more commerce, moved revenue at the Indonesian and regional platforms. Pricing here means a change in the take rate, through fees or incentives. With equation (5), the take rate accounts for about two thirds of a revenue move at the typical pair, against about a quarter abroad. The wedge, by contrast, follows the commerce: in both groups, about 95 percent of a move in the wedge comes from transaction value.
+Size explains the wedge, and pricing explains the ecosystem ratio. Table 5.4 regresses each on the features of the platform and of its home market.
 
-Where companies disclose both their fees and their incentives, equation (6) splits the growth of revenue further. Table 5.4 gives the seven traced windows. Fees and incentives are measured per unit of transaction value, and a negative share means that a part pulled revenue down. The windows of one platform overlap, so they are not seven independent cases.
+**Table 5.4. What explains the wedge and the ecosystem ratio**
 
-**Table 5.4. What moved revenue in seven Indonesian and regional windows (share of the growth of revenue, percent)**
+This table reports OLS estimates of equation (7). The dependent variable is the natural logarithm of the wedge in US dollars in columns (1) to (3) and the ecosystem ratio, capped at its 5th and 95th percentiles, in columns (4) to (6). IndonesiaRegion equals one for the Indonesian and regional platforms. Size is total assets in US dollars. The base type is marketplace. Columns (2), (3), (5) and (6) add the GDP growth, inflation, household spending growth and policy rate of the platform's main market, and columns (3) and (6) add year dummies. Appendix A defines the variables. Standard errors (in parentheses) are clustered at the platform level. ∗∗∗, ∗∗ and ∗ correspond to statistical significance at the 1%, 5% and 10% levels. The last row gives the p-value of a wild cluster bootstrap with 2,999 replications for IndonesiaRegion.
 
-| Platform and window | Growth of revenue | More commerce | Higher fees | Lower incentives |
-|---|---|---|---|---|
-| Tokopedia, 2022–23 | +53% | −22 | 76 | 45 |
-| Blibli third-party retail, 2022–23 | +465% | 17 | 20 | 63 |
-| Blibli third-party retail, 2022–25 | +679% | 18 | 63 | 20 |
-| Grab on-demand, 2021–24 | +321% | 34 | 34 | 33 |
-| Grab on-demand, 2022–24 | +86% | 42 | 11 | 47 |
-| GoTo on-demand, 2022–25 | +111% | 12 | 36 | 52 |
-| GoTo on-demand, 2023–25 | +114% | 27 | 6 | 67 |
+| *Dependent variable* | ln(Wedge) | ln(Wedge) | ln(Wedge) | Ecosystem ratio | Ecosystem ratio | Ecosystem ratio |
+|---|---:|---:|---:|---:|---:|---:|
+| | (1) | (2) | (3) | (4) | (5) | (6) |
+| IndonesiaRegion | -0.075 | -0.302 | 0.080 | 15.214∗∗∗ | 12.939∗∗∗ | 17.092∗∗∗ |
+|  | (0.361) | (0.349) | (0.396) | (3.857) | (3.290) | (3.168) |
+| ln(1+YearsListed) | -0.066 | -0.068 | 0.093 | -2.722 | -2.719∗ | -1.274 |
+|  | (0.156) | (0.141) | (0.169) | (1.623) | (1.531) | (1.516) |
+| ln(Assets) | 0.898∗∗∗ | 0.917∗∗∗ | 0.900∗∗∗ | 0.016 | -0.281 | -0.621 |
+|  | (0.086) | (0.073) | (0.060) | (0.897) | (0.676) | (0.662) |
+| OnDemand | -0.950∗∗∗ | -0.975∗∗∗ | -1.011∗∗∗ | -16.597∗∗∗ | -17.876∗∗∗ | -19.787∗∗∗ |
+|  | (0.267) | (0.305) | (0.273) | (3.837) | (3.640) | (3.251) |
+| Travel | -0.053 | -0.261 | -0.266 | -7.313∗ | -8.346∗∗ | -9.250∗∗ |
+|  | (0.346) | (0.397) | (0.317) | (3.795) | (3.937) | (3.429) |
+| Freelance | -0.822 | -0.878 | -0.741 | -11.946∗∗∗ | -14.088∗∗∗ | -13.658∗∗∗ |
+|  | (0.540) | (0.576) | (0.580) | (3.706) | (3.599) | (3.581) |
+| Resale | -0.444 | -0.527 | -0.477 | -8.393∗ | -10.223∗∗ | -10.912∗∗ |
+|  | (0.367) | (0.402) | (0.484) | (4.385) | (4.491) | (4.700) |
+| GDPGrowth |  | 0.106∗ | 0.148∗∗ |  | 1.301∗∗ | 1.479∗∗ |
+|  |  | (0.057) | (0.067) |  | (0.573) | (0.552) |
+| Inflation |  | -0.001 | 0.001 |  | -0.018 | -0.006 |
+|  |  | (0.003) | (0.003) |  | (0.024) | (0.027) |
+| HouseholdGrowth |  | -0.053∗∗ | -0.014 |  | -0.785∗ | -0.687 |
+|  |  | (0.025) | (0.031) |  | (0.452) | (0.490) |
+| PolicyRate |  | 0.008 | 0.011 |  | -0.033 | -0.005 |
+|  |  | (0.007) | (0.007) |  | (0.082) | (0.075) |
+| Constant | 2.148∗∗∗ | 1.962∗∗∗ | 2.108∗∗∗ | 18.840∗∗ | 21.744∗∗∗ | 27.343∗∗∗ |
+|  | (0.490) | (0.572) | (0.575) | (7.237) | (6.165) | (7.166) |
+| Observations | 202 | 178 | 178 | 202 | 178 | 178 |
+| Platforms (clusters) | 32 | 30 | 30 | 32 | 30 | 30 |
+| *R*^2^ | 0.808 | 0.842 | 0.867 | 0.438 | 0.515 | 0.571 |
+| Year dummies | No | No | Yes | No | No | Yes |
+| Wild-bootstrap *p*, IndonesiaRegion | 0.848 | 0.475 | 0.866 | 0.031 | 0.039 | 0.005 |
 
-*Note:* Shares are rounded, so a row can add to 99 or 101. Source: company filings; author's calculations (Appendix B).
+*Note:* The take rate and its parts are not regressors, because the ecosystem ratio is one divided by the take rate, minus one. Source: company filings; SEC filings; World Bank; Bank for International Settlements; author's calculations. Exploratory.
 
-Higher fees and lower incentives together outweighed more commerce in every window. Lower incentives were the larger of the two in four windows and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal.
+The wedge scales with the size of the platform. A 1 percent rise in total assets goes with a rise of about 0.9 percent in the wedge, and the regressors of column (1) explain 81 percent of its variation. Once size is held fixed, Indonesian and regional platforms do not carry a different wedge. The coefficient on IndonesiaRegion is −0.07 in column (1) and stays between −0.30 and 0.08 in the others, never close to significance. On-demand platforms carry about 60 percent less wedge for their assets than marketplaces do.
 
-Three series need a note. GoTo's 2022 transaction value is an estimate. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.
+The ecosystem ratio is different. The Indonesian and regional platforms have a ratio 13 to 17 points above foreign platforms of the same type, size and age, in markets with the same growth, inflation and interest rates (columns 4 to 6). The foreign mean is about 9. The wild-bootstrap p-values are between 0.005 and 0.04, so five platforms are enough to separate the two groups. Size and age explain little of the ratio. Type explains a good deal: on-demand platforms have ratios 17 to 20 points below marketplaces, which means that they keep a much larger share of each sale, and travel, freelance and resale platforms are 7 to 14 points below. A home market that grows faster has a higher ratio, by about 1.3 to 1.5 points for each point of GDP growth, an exploratory pattern that the thesis does not read as causal.
 
-Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, as in Table 5.4, higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
+The result for the Indonesian and regional platforms survives the checks of Appendix C. The coefficient stays between 15 and 18 when each of the five platforms is dropped in turn, and it is 21 without Alibaba, Pinduoduo, Rakuten and Shopify. It is 28.5 when the ratio is not capped (p = 0.008), and 17 when a dummy for emerging home markets is added, whose own coefficient is close to zero (0.4, p = 0.94). So the thin take rates of Indonesian and regional platforms are not a general emerging-market pattern. Total assets are those of the whole company, which is larger than the platform business at GoTo, Rakuten and Sea, so size is measured with error, and the result rests on five platforms.
+
+The regression does not say how a platform moved its take rate. Company reports do, for the seven windows traced in Appendix B, where the growth of revenue is split into more commerce, higher fees and lower incentives. Higher fees and lower incentives together outweighed more commerce in every window. Lower incentives were the larger of the two in four windows and higher fees in two. In the seventh, Grab from 2021 to 2024, the two were nearly equal. The windows of one platform overlap, so they are not seven independent cases. Blibli does not report incentives, so its split rests on a proxy, and part of its 2022–23 rise comes from travel and digital products. Bukalapak's reports do not allow the parts to be separated.
+
+Tokopedia can be read in two ways, and both point to pricing. Its incentives fell by about a third in 2023. Counted line by line in its accounts, lower incentives gave about 60 percent of the extra revenue and higher gross fees about 40 percent. That count does not adjust for the fall in transaction value, which lowered both lines. Measured per unit of transaction value, higher fees account for more of the rise in the take rate. The two views differ only on which lever led (Figure 5.2).
 
 ![Figure 5.2](figures/fig5_2_tokopedia_two_views.png)
 
@@ -91,9 +168,15 @@ Tokopedia can be read in two ways, and both point to pricing. Its incentives fel
 
 Tokopedia is not the only case of revenue rising while the commerce shrank. From 2024 to 2025, Blibli's transaction value fell by about 2 percent while its revenue rose by about 12 percent. In the windows traced here, revenue growth was not a fair guide to the commerce the platforms carried. Whether markets treated it as one is a separate question.
 
+The ecosystem ratio matters for three groups. For investors, a high ratio means that small changes in fees or discounts produce large swings in revenue growth. At the typical Indonesian and regional ratio of 35, the platform keeps about 2.8 percent of each sale, and a rise of 1 point in the take rate lifts revenue by about 36 percent at constant volume. At the typical foreign ratio of 5.5, the same rise lifts it by 6.5 percent. A revenue multiple therefore means something different in the two groups, because each unit of revenue stands for 36 units of transaction value in one and 6.5 in the other. Growth that comes from the take rate cannot go on without end, and Section 5.4 shows that markets priced transaction value.
+
+For sellers and drivers, a high ratio means that most of each sale goes to them and not to the platform. A rising take rate means that the platform keeps more of each sale. The take rate rose in 87 percent of the Indonesian and regional pairs, against 65 percent abroad, and at Tokopedia part of the rise came from smaller discounts, which are paid to buyers. Whether that shows market power is a question the thesis cannot answer, because it holds no data on what sellers and drivers paid or could have chosen instead. The pattern is also consistent with platforms that listed in 2021 and 2022 moving from growth to earnings, since their largest moves came one or two years after listing.
+
+For policy, the wedge is the base that revenue-based rules do not reach. A rule that acts on platform revenue acts on about 3 percent of the commerce at a typical Indonesian or regional platform. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate, the two parts of the take rate in equation (5). Chapter 6 sets each rule against the part it reaches.
+
 ## 5.4 What markets valued
 
-Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation (8), p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
+Across 28 listed platforms and 138 platform-years, market value moved with transaction value, a registered result. A 1 percent rise in transaction value goes with a rise of about 0.6 percent in market value (β_V in equation (9), p = 0.002). Section 4.5 describes this sample, which differs from the 27 foreign platforms of H1.
 
 The second registered prediction does not hold in the main sample. It expected markets to value growth from a higher take rate less than growth from more commerce. A 1 percent rise in the take rate goes with a rise of about 0.3 percent (β_m), which is too uncertain to tell from zero. The gap between the two estimates is not large enough to count (p = 0.20, or 0.16 with extreme values capped). The test could reliably flag only a gap above about 0.8, so a failed prediction here means the data cannot tell, not that markets value the two sources alike.
 
@@ -121,9 +204,9 @@ The published count of online sellers nonetheless rose by 27 percent in 2023. A 
 
 ## 5.6 H2 and the entry test
 
-H2 holds on BPS's published figures, but the registered entry test shows that first-time entry cannot explain the whole rise in the count. From 2022 to 2023, online sales value grew by 41 percent and the number of businesses by 27 percent. More businesses account for 71 percent of that growth, and higher sales per business for the rest.
+H2 holds on BPS's published figures, but the registered entry test shows that first-time entry cannot explain the whole rise in the count. From 2022 to 2023, online sales value grew by 41 percent. The number of businesses grew by 27 percent and sales per business by 10 percent, so more businesses account for most of the growth.
 
-H2 holds again from 2023 to 2024. Value grew by 17 percent, and more businesses account for 90 percent of the growth, or 71 percent on BPS's other count for 2023. The split of equation (7) is arithmetic, and it cannot tell a new seller from one counted for the first time.
+H2 holds again from 2023 to 2024. Value grew by 17 percent, the number of businesses by 15 percent and sales per business by 1.5 percent, or by 12 and 4.7 percent on BPS's other count for 2023. The split of equation (8) is arithmetic, and it cannot tell a new seller from one counted for the first time.
 
 The registered entry test separates new sellers from sellers counted for the first time, and it fails. In the survey for 2023 (the 2024 file), about 13 percent of sellers began selling online that year. The test required 21.5 percent. Even with no sellers stopping, that many new sellers would raise the count by at most about 16 percent, against a published rise of 27 percent.
 
@@ -155,7 +238,7 @@ Most of the 2023 rise in sales value cannot be traced to what sellers reported. 
 
 New sellers, sized like those that began in 2022, account for 25 to 30 percent of the rise. The extra earlier sellers, sized like chat and social sellers, account for 15 to 17 percent. The typical seller already online reported no growth (a mean change of about −4 percent, counting each seller once). That leaves 53 to 59 percent with no source in the sellers' answers. A few large sellers growing fast could account for it, but the files cannot show whether they did.
 
-H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, more businesses account for about 54 percent of the growth if no seller stopped, and about 42 percent if sellers stopped at 5 percent a year. H2 requires more than 50 percent. Taking out the sellers but keeping their sales gives 34 to 47 percent, but that version treats the count and the value unevenly.
+H2 holds on the published series, but it sits right on its threshold once the extra count is read as coverage, an exploratory follow-up. H2's split treats every seller in the count as having entered. Suppose instead that the sellers not explained by entry were reached by wider coverage, and that their sales came with them. With both taken out of the 2023 figures, the number of businesses grows by 17 percent if no seller stopped, against 14 to 15 percent for sales per business, so H2 holds narrowly. If sellers stopped at 5 percent a year, the number of businesses grows by 12 percent and sales per business by about 16 to 17 percent, so H2 fails by a few points. H2 requires the first growth rate to be the larger. Taking out the sellers but keeping their sales gives 17 against 20 percent, and 12 against 25 percent, but that version treats the count and the value unevenly.
 
 The checks point to a survey that reached more chat and social sellers in 2023, the kind of break that Section 3.5 described. The files cannot separate that reading from sellers returning after a pause. Who the extra sellers were helps decide between the two.
 

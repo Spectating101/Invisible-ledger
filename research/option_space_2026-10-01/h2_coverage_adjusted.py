@@ -11,18 +11,20 @@ gel = json.load(open(T / "gel_checks.json"))
 V22, V23 = 783.0, 1100.87                  # BPS published online sales value, Rp trillion (Statistik E-Commerce 2023)
 C22, C23 = 2_995_879, 3_816_750            # BPS published counts of businesses (C22 implied by the published 27.40 percent growth)
 share = lambda c, v: 100 * math.log(c / C22) / math.log(v / V22)
-out = {"published": {"count_growth_pct": 100 * (C23 / C22 - 1), "value_growth_pct": 100 * (V23 / V22 - 1), "extensive_share_pct": share(C23, V23)},
+spb = lambda c, v: 100 * ((v / V22) / (c / C22) - 1)      # growth in sales per business, simple percentage change (25 Oct: Prof. Kong's rule; the extensive share
+                                                          # is above 50 percent exactly when the count grows faster than sales per business)
+out = {"published": {"count_growth_pct": 100 * (C23 / C22 - 1), "value_growth_pct": 100 * (V23 / V22 - 1), "extensive_share_pct": share(C23, V23), "sales_per_business_growth_pct": spb(C23, V23)},
        "scenarios": {}}
 base_k = acc["scenarios"]["no_exits"]["newly_counted_k"]
 for name in ("no_exits", "reference"):
     k = acc["scenarios"][name]["newly_counted_k"]
     c = C23 - k * 1e3
     row = {"extra_sellers_removed_k": k, "adjusted_count_growth_pct": 100 * (c / C22 - 1),
-           "count_only_extensive_share_pct": share(c, V23), "count_and_value": {}}
+           "count_only_extensive_share_pct": share(c, V23), "count_only_sales_per_business_growth_pct": spb(c, V23), "count_and_value": {}}
     for s, v in gel["newly_counted_value_scenarios"].items():
         val = v["value_added_tn"] * k / base_k
         row["count_and_value"][s] = {"value_removed_tn": val, "adjusted_value_growth_pct": 100 * ((V23 - val) / V22 - 1),
-                                     "extensive_share_pct": share(c, V23 - val)}
+                                     "extensive_share_pct": share(c, V23 - val), "sales_per_business_growth_pct": spb(c, V23 - val)}
     out["scenarios"][name] = row
 json.dump(out, open(T / "h2_coverage_adjusted.json", "w"), indent=1)
 for n, r in out["scenarios"].items():

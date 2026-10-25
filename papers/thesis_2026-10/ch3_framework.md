@@ -14,7 +14,7 @@ Figure 3.1 places the three quantities inside one another. Revenue sits inside p
 
 The research question asks how much activity remains invisible when platforms are measured through revenue, and when that choice changes the conclusion about growth. The literature leaves three parts of it open (Section 2.4). The framework answers each with its own tools:
 
-1. **How large the difference between transaction value and revenue is, and whether it lasts:** three measures, a split of revenue growth, and H1 (Sections 3.2 to 3.4).
+1. **How large the difference between transaction value and revenue is, and whether it lasts:** three measures, direct tests of what changes them, and H1 (Sections 3.2 to 3.4).
 2. **Whether the choice of figure changes the conclusion about growth:** H2, the entry test and a comparison of national figures (Sections 3.4 to 3.6).
 3. **How far rules built on platform records reach:** how online selling divides between marketplaces and other channels (Section 3.6).
 
@@ -50,7 +50,7 @@ To compare platforms of different size, the thesis also expresses the wedge rela
 E_it = W_it / R_it = 1 / m_it − 1                     (2)
 ```
 
-where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale. Table 5.2 applies the measures to three platforms in Indonesia in 2023, where the wedge is about US$40 billion and the ecosystem ratio about 13.
+where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale. Table 5.1 applies the measures to three platforms in Indonesia in 2023, where the wedge is about US$40 billion and the ecosystem ratio about 13.
 
 A single ratio does not show whether the relationship holds over time, so the thesis defines growth divergence:
 
@@ -74,25 +74,37 @@ The ecosystem ratio also governs how far a change in the take rate moves revenue
 
 A platform that keeps 2 percent of each sale has an ecosystem ratio of 49. If its transaction value is flat, a rise in its take rate to 3 percent raises its revenue by 50 percent. A platform that keeps 17 percent has an ecosystem ratio near 5, and a rise to 18 percent raises its revenue by about 6 percent. So a large ecosystem ratio means that ordinary changes in fees or discounts can produce large swings in reported revenue growth.
 
-## 3.3 Tracing a movement
-
-A large divergence calls for an explanation, and the same definitions supply it. Measured in logarithms, the growth of revenue splits exactly into the growth of transaction value and the change in the take rate:
+The take rate itself has two parts:
 
 ```
-Δln R_it = Δln V_it + Δln m_it                        (5)
-```
-
-where Δln X is the change in the natural logarithm of X from one year to the next. The first term is the volume effect, more or less commerce. The second is the take-rate effect, a larger or smaller share of each sale. A log change treats a rise and a fall by the same factor as equal in size, so the two effects can be compared directly. The take rate itself has two parts:
-
-```
-m_it = f_it − s_it                                    (6)
+m_it = f_it − s_it                                    (5)
 ```
 
 where f_it is the fee rate and s_it the incentive rate, both measured against transaction value. A take rate can rise because a platform charges more or because it spends less on discounts and vouchers. Accounting rules normally deduct such incentives from revenue (International Accounting Standards Board 2014). So a cut in incentives raises revenue even when no fee changes.
 
-Equations (5) and (6) together divide a movement in revenue into more commerce, higher fees and lower incentives. A change in the mix of a company's businesses is a further source, read from its reports where they describe one. The split shows how a movement happened. It does not show why the company chose it, and company explanations are read as reports.
+Equation (5) also shows where a rule acts. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate. Chapter 6 sets Indonesia's recent rules against these parts of the take rate.
 
-Equation (6) also shows where a rule acts. A cap on commissions acts on the fee rate, and a limit on discounts acts on the incentive rate. Chapter 6 sets Indonesia's recent rules against these parts of the take rate.
+## 3.3 What changes the wedge and the ecosystem ratio
+
+Equations (1) to (4) define the wedge and the ecosystem ratio. They do not say what moves them. Two direct tests do, and Chapter 5 reports both. The first tests whether revenue grows in proportion to transaction value, the claim of H1. The second asks what explains the size of the wedge and of the ecosystem ratio across platforms.
+
+Revenue grows in proportion to transaction value when a 1 percent rise in transaction value comes with a 1 percent rise in revenue. That claim can be tested in growth rates, with g(·) as defined above:
+
+```
+g(R_it) = a + b g(V_it) + c Indonesia_i + d (Indonesia_i × g(V_it)) + u_it        (6)
+```
+
+where Indonesia_i equals one for the Indonesian and regional platforms and zero for the foreign ones. If revenue is proportional to transaction value, b equals 1, a is close to zero, and the group does not matter, so c and d are zero. A slope below 1 in the Indonesian and regional group would mean that revenue moved with the platform's pricing and not with the commerce. The correlation between the two growth rates, which Chapter 5 reports for each group, gives the same test in one number.
+
+The second test regresses the wedge and the ecosystem ratio on the features of a platform and of its home market:
+
+```
+Y_it = α + β1 Indonesia_i + β2 ln(1 + Listed_it) + β3 ln(Assets_it) + β4′ Type_i + γ′ Macro_it + δ_t + ε_it        (7)
+```
+
+where Y_it is the natural logarithm of the wedge in US dollars, or the ecosystem ratio. Listed_it is the number of years since the platform listed on a stock exchange. Assets_it is its total assets in US dollars, which measure size without using transaction value, because transaction value is part of the wedge itself. Type_i marks the kind of platform: marketplace, which is the base, on-demand, travel, freelance or resale. Macro_it holds four measures of the platform's home market: growth in gross domestic product (GDP), consumer-price inflation, growth in household spending and the central bank's policy rate. The year effects δ_t remove what all platforms share in a year.
+
+The take rate and its parts do not appear on the right-hand side. The ecosystem ratio equals one divided by the take rate, minus one, so a regression of the ratio on the take rate would restate an identity and show nothing. Chapter 4 describes the data, the variables and the standard errors.
 
 ## 3.4 Hypotheses
 
@@ -106,19 +118,19 @@ Revenue follows transaction value only while the take rate holds steady, that is
 
 > **H1.** Transaction value and revenue recognized by the same platform grow in proportion over time.
 
-Growth rates never match exactly, so H1 is tested by comparison. The test compares the size of yearly changes in the take rate, measured in logs as in equation (5), between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. Changes far larger in Indonesia would count against H1. Chapter 4 describes the two groups and the test.
+H1 is tested in two ways. The first is equation (6): revenue growth is regressed on transaction value growth, and H1 holds in a group if the slope is 1. The second compares the size of yearly changes in the take rate, measured as simple percentage changes, between two groups. One group is the Indonesian and regional platforms. The other is listed platforms abroad, where revenue and transaction value broadly move together. A slope far below 1 in Indonesia, or changes far larger in Indonesia than abroad, would count against H1. Chapter 4 describes the two groups and the tests.
 
 National e-commerce value can grow in two ways. Existing businesses can sell more, which is the intensive margin. More businesses can sell online, which is the extensive margin.
 
 The distinction matters for measurement. Growth driven by new sellers can take place in channels that platform accounts do not cover, such as social media and instant messaging, which BPS reports are widely used (BPS 2025a). Platform figures can then miss that growth even when every platform reports accurately.
 
-BPS publishes both the number of businesses selling online, N, and their total online sales value, Y. Since Y equals N times the sales per business, its growth in logarithms splits exactly in two:
+BPS publishes both the number of businesses selling online, N, and their total online sales value, Y. Since Y equals N times the sales per business, its growth splits in two:
 
 ```
-Δln Y_t = Δln N_t + Δln (Y_t / N_t)                   (7)
+1 + g(Y_t) = (1 + g(N_t)) × (1 + g(Y_t / N_t))                   (8)
 ```
 
-where the first term is the extensive margin and the second the intensive margin. H2 holds if the first term is more than half of the total. The second hypothesis states the case in which more businesses drive growth.
+where g(N) is the growth in the number of businesses, the extensive margin, and g(Y/N) the growth in sales per business, the intensive margin. H2 holds if g(N) is larger than g(Y/N), which is the same as saying that more businesses account for most of the growth. The second hypothesis states the case in which more businesses drive growth.
 
 > **H2.** The growth of national e-commerce value comes mainly from more businesses selling online, and less from higher sales per business.
 
@@ -144,19 +156,19 @@ If the share of new sellers falls short, part of the rise is something other tha
 
 Four further analyses complete the framework without forming hypotheses of their own. Each answers a part of the research question that H1, H2 and the entry test leave open. They are the tracing of large movements, the market values of listed platforms, the channels and reach of platform records, and the comparison of national figures.
 
-Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
+Tracing large movements asks what moved revenue when it parted from transaction value. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into more commerce, higher fees and lower incentives, using company reports (Appendix B). It also reads the reports for changes in the mix of businesses and in reporting scope.
 
-The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (5) shows that revenue can grow in two ways, through more commerce or through a larger take rate.
+The market-value analysis asks whether investors, who price revenue (Section 2.1), treat its two sources alike. Equation (4) shows that revenue growth has two sources: growth in transaction value and a change in the take rate.
 
 The two sources of growth need not be worth the same. Growth from the take rate has a limit, because a platform cannot raise its share of each sale without end. A higher price to one side of a platform can also reduce how much that side uses it (Rochet and Tirole 2003).
 
 The thesis relates the yearly change in a platform's market value, MV, to the two sources of revenue growth:
 
 ```
-Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + error      (8)
+Δln MV_it = β_V Δln V_it + β_m Δln m_it + year effect + error      (9)
 ```
 
-where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m.
+where β_V shows how market value moves with transaction value, and β_m how it moves with the take rate. Two predictions were written down before the market values were collected. The first is that market value moves with transaction value, so β_V is positive. The second is that markets value growth from more commerce more than growth from a higher take rate, so β_V is larger than β_m. The predictions were registered with changes measured in logs, and the specification is kept as registered.
 
 The channel analysis answers the third question of Section 2.4. A rule built on platform records reaches only the sellers whose sales pass through a platform. Its reach depends on how online selling divides between marketplaces and channels that no marketplace records, such as messaging apps and social media. The thesis measures that division by sellers and by sales value. It also counts the marketplace sellers who may be large enough to fall under the marketplace tax.
 

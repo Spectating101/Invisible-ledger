@@ -551,7 +551,7 @@
     "n": 165
    }
   },
-  "excluding_sea_alibaba_rakuten_largest_assets": {
+  "excluding_alibaba_rakuten_pinduoduo_shopify": {
    "ln_wedge_usd": {
     "b": 0.383,
     "p": 0.394
@@ -559,6 +559,22 @@
    "E_w": {
     "b": 20.954,
     "p": 0.0
+   }
+  },
+  "with_emerging_market_dummy": {
+   "ln_wedge_usd": {
+    "b": 0.065,
+    "p": 0.869,
+    "p_wild": 0.886,
+    "emerging_b": 0.031,
+    "emerging_p": 0.942
+   },
+   "E_w": {
+    "b": 16.888,
+    "p": 0.0,
+    "p_wild": 0.027,
+    "emerging_b": 0.408,
+    "emerging_p": 0.943
    }
   }
  }

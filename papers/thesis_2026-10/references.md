@@ -12,6 +12,7 @@ Armstrong, M. (2006). Competition in two-sided markets. *The RAND Journal of Eco
 
 Ayudiana, S. (2026, July 8). Diskon biaya layanan marketplace ditargetkan berlaku Agustus 2026 [Marketplace service-fee discount targeted for August 2026]. *ANTARA*. https://www.antaranews.com/berita/5641444/diskon-biaya-layanan-marketplace-ditargetkan-berlaku-agustus-2026
 
+Bank for International Settlements. (2026). *Central bank policy rates* [Data set, WS_CBPOL, monthly]. https://data.bis.org
 Bank Indonesia. (2023). *Laporan perekonomian Indonesia 2022* [Economic report on Indonesia 2022]. https://www.bi.go.id/id/publikasi/laporan/Documents/LPI_2022.pdf
 
 Bank Indonesia. (2025, October 30). *Sinergi jadi energi: Saat UMKM naik kelas lewat digitalisasi* [Synergy becomes energy: When small businesses move up through digitalisation] [Cerita BI]. https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/Sinergi-Jadi-Energi-Saat-UMKM-Naik-Kelas-Lewat-Digitalisasi.aspx
@@ -38,6 +39,7 @@ CNN Indonesia. (2026a, May 8). *Pemerintah ogah atur tarif admin Shopee-TikTok S
 
 CNN Indonesia. (2026b, October 9). *Perpres ojol terbit, tegaskan potongan 8% dan tarif diatur Kemenhub* [Ojol regulation issued, confirms the 8% cut and fares set by the transport ministry]. https://www.cnnindonesia.com/otomotif/20261009100050-579-1413414/perpres-ojol-terbit-tegaskan-potongan-8-dan-tarif-diatur-kemenhub
 
+Cameron, A. C., Gelbach, J. B., & Miller, D. L. (2008). Bootstrap-based improvements for inference with clustered errors. *The Review of Economics and Statistics, 90*(3), 414–427. https://doi.org/10.1162/rest.90.3.414
 Davis, A. K. (2002). The value relevance of revenue for Internet firms: Does reporting grossed-up or barter revenue make a difference? *Journal of Accounting Research, 40*(2), 445–477. https://doi.org/10.1111/1475-679X.00056
 
 Directorate General of Taxes. (2025, January 20). *Pajak atas usaha ekonomi digital terkini: 32,32 triliun* [Latest tax from the digital economy: Rp32.32 trillion] (Press Release No. SP-1/2025). Ministry of Finance of the Republic of Indonesia. https://pajak.go.id/id/siaran-pers/pajak-atas-usaha-ekonomi-digital-terkini-3232-triliun
@@ -135,5 +137,6 @@ Trueman, B., Wong, M. H. F., & Zhang, X.-J. (2001). Back to basics: Forecasting 
 UNCTAD. (2023). *Measuring the value of e-commerce*. United Nations. https://doi.org/10.18356/9789210025539
 
 UNCTAD. (2024). *Business e-commerce sales and the role of online platforms*. United Nations. https://doi.org/10.18356/9789211064490
+U.S. Securities and Exchange Commission. (2026). *EDGAR company facts: XBRL financial data for annual filings (Forms 10-K, 20-F and 40-F)* [Total assets]. https://data.sec.gov/api/xbrl/companyfacts/
 
-World Bank. (2026). *World development indicators: Official exchange rate (LCU per US$, period average)* [PA.NUS.FCRF], Indonesia, 2022–2024. https://data.worldbank.org
+World Bank. (2026). *World development indicators* [GDP growth, consumer-price inflation, household final consumption expenditure growth and official exchange rate (LCU per US$, period average), 2012–2025]. https://data.worldbank.org

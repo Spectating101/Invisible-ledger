@@ -48,3 +48,36 @@ K14-46,"Take-rate move, log change reproduces the chapter: ratio of medians",3.3
 K14-47,"Take-rate move, log change reproduces the chapter: Mann-Whitney p",0.004,0.003819,PASS
 K14-48,Share of Indonesian and regional pairs with a rising take rate,0.87,0.866667,PASS
 K14-49,Share of foreign pairs with a rising take rate,0.65,0.651899,PASS
+K14-50,"Median ecosystem ratio, Indonesian and regional platform-years",34.7,34.664523,PASS
+K14-51,"Median ecosystem ratio, foreign platform-years",5.5,5.504802,PASS
+K14-52,"Median revenue growth, Indonesian and regional (capped)",0.38,0.38283,PASS
+K14-53,"Median revenue growth, foreign (capped)",0.21,0.214259,PASS
+K14-54,"Median transaction value growth, Indonesian and regional (capped)",0.16,0.160501,PASS
+K14-55,"Median transaction value growth, foreign (capped)",0.16,0.158976,PASS
+K14-56,"Median years since listing, Indonesian and regional",1.0,1.0,PASS
+K14-57,"Median years since listing, foreign",4.0,4.0,PASS
+K14-58,Correlation of the wedge and transaction value in levels,0.9994,0.999448,PASS
+K14-59,"Mean ecosystem ratio, foreign, capped (about 9)",9.0,8.838027,PASS
+K14-60,Take rate at the typical Indonesian and regional ratio of 35 (%),2.8,2.804262,PASS
+K14-61,"Revenue rise from +1 point of take rate at ratio 34.66, constant volume (%)",36.0,35.66,PASS
+K14-62,"Revenue rise from +1 point of take rate at ratio 5.5, constant volume (%)",6.5,6.5,PASS
+K14-63,"On-demand wedge for given assets, OLS (1): change (%)",-61.0,-61.314818,PASS
+K14-64,OLS (4) ecosystem ratio: OnDemand,-16.6,-16.596976,PASS
+K14-65,OLS (5) ecosystem ratio: GDPGrowth,1.3,1.301296,PASS
+K14-66,"Without Alibaba, Pinduoduo, Rakuten and Shopify: ecosystem-ratio coefficient",21.0,20.954,PASS
+K14-67,With an emerging-market dummy: IndonesiaRegion coefficient,16.9,16.888,PASS
+K14-68,With an emerging-market dummy: its own coefficient,0.4,0.408,PASS
+K14-69,With an emerging-market dummy: its own p,0.94,0.943,PASS
+K14-70,H2 2022-23: growth of sales per business (%),10.0,10.358256,PASS
+K14-71,"H2 2023-24, first count: growth of the number of businesses (%)",15.3,15.306792,PASS
+K14-72,"H2 2023-24, first count: growth of sales per business (%)",1.5,1.540291,PASS
+K14-73,"H2 2023-24, other count: growth of the number of businesses (%)",12.0,11.842268,PASS
+K14-74,"H2 2023-24, other count: growth of sales per business (%)",4.7,4.685692,PASS
+K14-75,"Coverage reading, no exits: growth of the count (%)",17.0,17.199566,PASS
+K14-76,"Coverage reading, no exits: sales per business, low (%)",14.0,14.167841,PASS
+K14-77,"Coverage reading, no exits: sales per business, high (%)",15.0,14.913287,PASS
+K14-78,"Coverage reading, 5% exits: growth of the count (%)",12.0,12.110977,PASS
+K14-79,"Coverage reading, 5% exits: sales per business, low (%)",16.0,16.327462,PASS
+K14-80,"Coverage reading, 5% exits: sales per business, high (%)",17.0,17.495495,PASS
+K14-81,"Count-only reading, no exits: sales per business (%)",20.0,19.963263,PASS
+K14-82,"Count-only reading, 5% exits: sales per business (%)",25.0,25.408259,PASS
