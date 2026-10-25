@@ -9,6 +9,8 @@ Before doing any thesis work in this repository, read:
 5. `CANONICAL_ARTIFACTS.md`
 6. `docs/CURRENT_STATUS.md` (September groundwork state; superseded for the thesis by item 1)
 
+Latest session handoff (25 Oct 2026): `papers/thesis_2026-10/HANDOFF_2026-10-25.md`, with `KONG_NEXT_REPLY_PLAN.md` (prediction model and the two scenarios for Prof. Kong's next reply) and `KONG_COMMENTS_TRACE.md`.
+
 Important: the canonical GitHub artifact still points to the 27 September proposal because that is the examined proposal artifact. It is **not** the newest full thesis manuscript.
 
 The newest thesis is committed in `papers/thesis_2026-10/` (chapters, abstract, references, `README.md` with the writing rules, and `EDIT_HISTORY.md` as the running log). Its reading copy is `papers/thesis_2026-10/reading/thesis_reading_copy_*.pdf`, built by `reading/build_reading.sh`. The 15 October full check is `research/option_space_2026-10-01/materials_2026-10-15/FULL_CHECK_2026-10-15.md`, with the 16 October number and reference audits beside it. Before editing any chapter: sync the branches (`DECISIONS.md`, section 0), read `DECISIONS.md`, then `papers/thesis_2026-10/README.md` and Part D of `EDIT_HISTORY.md` for that chapter. The approvals are in Part D, not at the end of the log. Do not propose a structural or ordering change without checking that it is not already settled.
