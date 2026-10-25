@@ -63,6 +63,22 @@ for t in d.tables:
                 fmt(p, 8, 0, 0, 10.0)
                 if ri == 0:
                     for r in p.runs: r.font.bold = True
+# group headers and panel rows span the table; a table of up to 14 rows stays whole (Prof. Kong's summary-statistics table)
+for t in d.tables:
+    r0 = t.rows[0].cells
+    if len(r0) > 4 and r0[0].text.strip() == "Variable" and r0[1].text.strip() and not r0[2].text.strip():
+        i = 1
+        while i < len(r0):
+            j = i + 1
+            while j < len(r0) and not r0[j].text.strip(): j += 1
+            if r0[i].text.strip() and j - i > 1:
+                mc = r0[i].merge(r0[j - 1])
+                for pp_ in mc.paragraphs: pp_.paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            i = j
+    if len(t.rows) <= 14:
+        for row in t.rows[:-1]:
+            for c in row.cells:
+                for pp_ in c.paragraphs: pp_.paragraph_format.keep_with_next = True
 # a little space between a table and the paragraph that follows it (the PDF has a 5.7 pt margin there)
 body = d.element.body
 for tbl in body.findall(qn("w:tbl")):
@@ -82,6 +98,8 @@ for idx, p in enumerate(paras):
         fmt(p, 8.8, 7, 2.8, 12.3); p.paragraph_format.keep_with_next = True
     elif re.match(r"Figure \d\.\d+\.", txt):
         fmt(p, 8.4, 2.8, 8.5, 11.8)
+    elif txt.startswith("This table") or re.match(r"Panel [A-Z]\. ", txt):
+        fmt(p, 8.4, 2.0, 3.5, 11.0, "222222"); p.paragraph_format.keep_with_next = True
     elif txt.startswith("Note:") or txt.startswith("*Implied"):
         fmt(p, 7.8, 2.8, 8.5, 10.9, "333333")
     if p._p.xpath(".//w:drawing"):
