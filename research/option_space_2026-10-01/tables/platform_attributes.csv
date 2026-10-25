@@ -1,0 +1,33 @@
+key,platform,grp,type,market,currency,listed,note,indonesia_region,emerging_market
+Tokopedia e-commerce segment,Tokopedia,IDN,marketplace,ID,IDR,2022,"segment of GoTo, listed on the Indonesia Stock Exchange in 2022",1,1
+Blibli 3P Retail,Blibli,IDN,marketplace,ID,IDR,2022,third-party retail segment; includes online travel,1,1
+Bukalapak Group,Bukalapak,IDN,marketplace,ID,IDR,2021,"whole group, mainly Indonesia",1,1
+Grab on-demand,Grab (on-demand),IDN,on-demand,ID,USD,2021,Southeast Asia; Indonesia taken as the main market,1,1
+GoTo on-demand,GoTo (on-demand),IDN,on-demand,ID,IDR,2022,Indonesia and Vietnam to 2024,1,1
+Etsy,Etsy,FOR,marketplace,US,USD,2015,,0,0
+eBay,eBay,FOR,marketplace,US,USD,1998,,0,0
+Jumia,Jumia,FOR,marketplace,NG,USD,2019,pan-African; Nigeria taken as the main market,0,1
+Mercado Libre,Mercado Libre,FOR,marketplace,BR,USD,2007,Latin America; Brazil is the largest market,0,1
+Rakuten,Rakuten,FOR,marketplace,JP,JPY,2000,domestic e-commerce segment,0,0
+Sea / Shopee,Sea (Shopee),FOR,marketplace,ID,USD,2017,Shopee has Indonesia as a main market (Chapter 4),0,1
+Shopify,Shopify,FOR,marketplace,US,USD,2015,commerce platform; merchants mainly in the US,0,0
+Zalando,Zalando,FOR,marketplace,DE,EUR,2014,,0,0
+ACVA,ACV Auctions,FOR,resale,US,USD,2021,wholesale vehicle auctions,0,0
+ASAPQ,Waitr,FOR,on-demand,US,USD,2018,food delivery,0,0
+BABA,Alibaba,FOR,marketplace,CN,CNY,2014,,0,1
+DESP,Despegar,FOR,travel,AR,USD,2017,Latin America; Argentina is the headquarters,0,1
+DIBS,1stDibs,FOR,resale,US,USD,2021,,0,0
+EXPE,Expedia,FOR,travel,US,USD,2005,,0,0
+FVRR,Fiverr,FOR,freelance,US,USD,2019,Israeli company; customers mainly in the US,0,0
+GrubHub,Grubhub,FOR,on-demand,US,USD,2014,food delivery,0,0
+HEPS,Hepsiburada,FOR,marketplace,TR,TRY,2021,,0,1
+KSPI,Kaspi.kz,FOR,marketplace,KZ,KZT,2020,"payments, marketplace and fintech",0,1
+MOGU,Mogu,FOR,marketplace,CN,CNY,2018,,0,1
+Ozon,Ozon,FOR,marketplace,RU,RUB,2020,,0,1
+PDD,Pinduoduo,FOR,marketplace,CN,CNY,2018,,0,1
+RBA,RB Global,FOR,resale,US,USD,1998,industrial auctions,0,0
+REAL,The RealReal,FOR,resale,US,USD,2019,,0,0
+SEAT,Vivid Seats,FOR,travel,US,USD,2021,ticketing,0,0
+UPWK,Upwork,FOR,freelance,US,USD,2018,,0,0
+VCSA,Vacasa,FOR,travel,US,USD,2021,vacation rentals,0,0
+YTRA,Yatra,FOR,travel,IN,INR,2016,,0,1

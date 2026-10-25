@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Rebuilds every committed table from committed inputs, then checks the claims ledgers.  Run from anywhere: bash research/option_space_2026-10-01/rebuild_all.sh
 # Needs pandas, numpy, scipy, statsmodels (set PYTHONPATH if they live outside the system python).  Takes about 3 minutes (bootstrap steps).
+# Network scripts, run once and committed: fetch_wdi.py (World Bank WDI and BIS policy rates) and fetch_total_assets.py (SEC XBRL); tables/src/total_assets_manual.csv was typed from filings (sources in the file).
 # NOT rebuilt here (licensed or scratch inputs, see tables/claims_ledger_v2_NOT_REPRODUCIBLE_FROM_REPO.txt): analyst_extrapolation.py, multiples_dispersion.py,
 # event_study*.py, v_definition_map.py, timing_table.py's market column; wb_tests.py, wb_crosscountry.py, bps_microdata_tests.py, bps_descriptives.py, bps_frame_check.py, bps_cohort_check.py, bps_h2_cheap_checks.py, bps_newly_counted_profile.py, bps_returning_check.py, gel_checks.py and part5_checks.py
 # (licensed microdata; their committed aggregate outputs are checked by claims_ledger_v4.py to v10).
@@ -60,8 +61,12 @@ step h2_coverage_adjusted.py   # H2 with the extra sellers read as wider coverag
 step h1_exact_inference.py     # H1: exact tests, interval for the size of the gap, Sea as regional, drop two, young platforms (exploratory, 22 Oct)
 step event_study_panel_check.py # announcement returns on the committed derived panels (exploratory, 22 Oct)
 step claims_ledger_v13.py      # H2 coverage scenarios and H1 exact inference
+step build_regression_panel.py # platform-year panel in US dollars for Prof. Kong's regressions (25 Oct; inputs committed: WDI, BIS, SEC total assets)
+step kong_regressions.py       # summary statistics, correlations, H1 in growth, OLS with clustered errors and wild bootstrap (exploratory, 25 Oct)
+step h1_simple_change.py       # H1 take-rate test with the simple percentage change (exploratory, 25 Oct)
+step claims_ledger_v14.py      # numbers of the three scripts above
 echo "== ledgers"; "$PY" - <<'PYEOF'
 import pandas as pd
-for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv", "tables/claims_ledger_v11.csv", "tables/claims_ledger_v12.csv", "tables/claims_ledger_v13.csv"):
+for f in ("tables/claims_ledger.csv", "tables/claims_ledger_v2.csv", "tables/claims_ledger_v3.csv", "tables/claims_ledger_v4.csv", "tables/claims_ledger_v5.csv", "tables/claims_ledger_v6.csv", "tables/claims_ledger_v7.csv", "tables/claims_ledger_v8.csv", "tables/claims_ledger_v9.csv", "tables/claims_ledger_v10.csv", "tables/claims_ledger_v11.csv", "tables/claims_ledger_v12.csv", "tables/claims_ledger_v13.csv", "tables/claims_ledger_v14.csv"):
     d = pd.read_csv(f); print(f, d.status.value_counts().to_dict())
 PYEOF

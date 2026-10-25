@@ -1,0 +1,50 @@
+id,claim,stated,recomputed,status
+K14-01,Platform-years in the regression panel,213.0,213.0,PASS
+K14-02,Platforms in the panel,32.0,32.0,PASS
+K14-03,Indonesian and regional platform-years,20.0,20.0,PASS
+K14-04,Growth pairs abroad (winsorised 5/95),166.0,166.0,PASS
+K14-05,"Growth pairs, Indonesia and region",15.0,15.0,PASS
+K14-06,"H1 growth regression, foreign slope on g(V)",0.99,0.985766,PASS
+K14-07,"H1 growth regression, foreign slope, standard error",0.07,0.071921,PASS
+K14-08,"H1 growth regression, foreign slope equal to 1, p",0.84,0.844719,PASS
+K14-09,"H1 growth regression, Indonesia and region slope",0.4,0.39877,PASS
+K14-10,"H1 growth regression, Indonesia and region slope, standard error",0.16,0.159204,PASS
+K14-11,"H1 growth regression, Indonesia and region slope equal to 1, p",0.02,0.019495,PASS
+K14-12,"H1 growth regression, Indonesia and region constant",0.44,0.438607,PASS
+K14-13,"H1 growth regression, foreign constant",0.06,0.059498,PASS
+K14-14,"Correlation of g(R) and g(V), foreign",0.9,0.895516,PASS
+K14-15,"Correlation of g(R) and g(V), Indonesia and region",0.31,0.306666,PASS
+K14-16,"Correlation of g(R) and g(V), all platforms",0.84,0.843202,PASS
+K14-17,"Equal correlations in the two groups, Fisher p below 0.001",1.0,1.0,PASS
+K14-18,"Correlation of g(R) and g(V) without winsorising, foreign",0.54,0.540449,PASS
+K14-19,OLS (1) ln(wedge): IndonesiaRegion,-0.07,-0.074865,PASS
+K14-20,OLS (2) ln(wedge): IndonesiaRegion,-0.3,-0.301547,PASS
+K14-21,OLS (3) ln(wedge): IndonesiaRegion,0.08,0.080018,PASS
+K14-22,OLS (1) ln(wedge): ln(Assets),0.9,0.898208,PASS
+K14-23,OLS (3) ln(wedge): ln(Assets),0.9,0.900157,PASS
+K14-24,OLS (1) ln(wedge): R-squared,0.81,0.807976,PASS
+K14-25,OLS (3) ln(wedge): R-squared,0.87,0.866546,PASS
+K14-26,OLS (4) ecosystem ratio: IndonesiaRegion,15.2,15.214249,PASS
+K14-27,OLS (5) ecosystem ratio: IndonesiaRegion,12.9,12.93897,PASS
+K14-28,OLS (6) ecosystem ratio: IndonesiaRegion,17.1,17.092157,PASS
+K14-29,"OLS (4) ecosystem ratio: IndonesiaRegion, wild-bootstrap p",0.031,0.030667,PASS
+K14-30,"OLS (5) ecosystem ratio: IndonesiaRegion, wild-bootstrap p",0.039,0.039333,PASS
+K14-31,"OLS (6) ecosystem ratio: IndonesiaRegion, wild-bootstrap p",0.005,0.005,PASS
+K14-32,OLS (6) ecosystem ratio: OnDemand,-19.8,-19.787044,PASS
+K14-33,OLS (6) ecosystem ratio: GDPGrowth,1.5,1.479453,PASS
+K14-34,OLS (4) ecosystem ratio: R-squared,0.44,0.437812,PASS
+K14-35,OLS (6) ecosystem ratio: R-squared,0.57,0.571481,PASS
+K14-36,Observations in OLS (1),202.0,202.0,PASS
+K14-37,Observations in OLS (2) and (3),178.0,178.0,PASS
+K14-38,Leave one Indonesian platform out: smallest ecosystem-ratio coefficient,15.3,15.33,PASS
+K14-39,Leave one Indonesian platform out: largest ecosystem-ratio coefficient,18.3,18.344,PASS
+K14-40,Ecosystem ratio without winsorising: IndonesiaRegion,28.5,28.55,PASS
+K14-41,ln(ecosystem ratio): IndonesiaRegion,1.68,1.677,PASS
+K14-42,"Take-rate move, simple percentage change: Indonesia and region median",0.224,0.224496,PASS
+K14-43,"Take-rate move, simple percentage change: foreign median",0.062,0.061665,PASS
+K14-44,"Take-rate move, simple percentage change: ratio of medians",3.6,3.640594,PASS
+K14-45,"Take-rate move, simple percentage change: Mann-Whitney p",0.003,0.003119,PASS
+K14-46,"Take-rate move, log change reproduces the chapter: ratio of medians",3.3,3.268881,PASS
+K14-47,"Take-rate move, log change reproduces the chapter: Mann-Whitney p",0.004,0.003819,PASS
+K14-48,Share of Indonesian and regional pairs with a rising take rate,0.87,0.866667,PASS
+K14-49,Share of foreign pairs with a rising take rate,0.65,0.651899,PASS

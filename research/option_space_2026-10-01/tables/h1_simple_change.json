@@ -1,0 +1,30 @@
+{
+ "pairs": 173,
+ "platforms_idn": 5,
+ "platforms_foreign": 27,
+ "log_change (as in the chapter)": {
+  "median_idn": 0.2011112997330038,
+  "median_foreign": 0.0615229845641427,
+  "ratio": 3.26888074689109,
+  "mannwhitney_p": 0.0038187271571587474,
+  "permutation_p": 0.0184
+ },
+ "simple_percentage_change": {
+  "median_idn": 0.22449646656812128,
+  "median_foreign": 0.06166478356326688,
+  "ratio": 3.640594413791986,
+  "mannwhitney_p": 0.00311854441442873,
+  "permutation_p": 0.0099
+ },
+ "symmetric_change": {
+  "median_idn": 0.19926294045493181,
+  "median_foreign": 0.061503586133850686,
+  "ratio": 3.239858892476196,
+  "mannwhitney_p": 0.0038187271571587474,
+  "permutation_p": 0.0206
+ },
+ "share_take_rate_rose": {
+  "idn": 0.8666666666666667,
+  "foreign": 0.6518987341772152
+ }
+}
