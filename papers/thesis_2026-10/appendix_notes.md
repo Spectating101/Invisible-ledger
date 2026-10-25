@@ -2,11 +2,53 @@
 
 These appendices hold the detail that the main text points to. Every number comes from a table in the project's repository, named in the notes in small type. Nothing here changes a result in Chapter 5.
 
-## Appendix A. Platforms, windows and the wedge by year
+## Appendix A. Definition of variables
 
-### A.1 The foreign group (27 platforms)
+### A.1 Variables
 
-Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platforms added, the later year is not one in which own goods exceed half of revenue; for the eight chosen first, the reporting scope did not change. Ozon's one pair starts in a year that fails the own-goods rule (Appendix B). The median is the platform's median size of yearly change in log take rate. Source: `tables/spinoff_panel.csv`, `tables/transitions_master.csv`.
+Every variable and symbol used in the empirical analyses is listed with its definition and data source. The subscripts i and t mark the platform and the year. Amounts in the text are in US dollars, at the World Bank's average rate for the year (World Bank 2026). Growth is the simple percentage change, g(X), defined in Panel A.
+
+| Variable | Definition | Source |
+|---|---|---|
+| *Panel A: Platform measures* | | |
+| V~it~ | Transaction value: everything bought through platform i in year t, in the company's own currency. Companies also call it gross merchandise value (GMV), gross transaction value (GTV) or total payment volume (TPV). | Company annual reports, annual filings (Form 20-F) and investor releases; Appendix B lists each series |
+| R~it~ | Revenue: what the platform recognizes as its own income in its accounts, for the same business and period as V~it~. | Same as V~it~ |
+| m~it~ | Take rate: R~it~ divided by V~it~, the share of each sale that the platform keeps. | Author's calculation |
+| f~it~ | Fee rate: the platform's revenue before customer incentives, divided by V~it~. | Company reports; author's calculation |
+| s~it~ | Incentive rate: customer incentives divided by V~it~. Customer incentives are the discounts, vouchers and other promotions that a platform pays for, which accounting rules normally deduct from revenue. | Company reports; author's calculation. Blibli's incentives are a proxy (Appendix B) |
+| W~it~ | Invisible wedge: V~it~ minus R~it~, the part of transaction value that lies outside revenue, in currency. | Author's calculation |
+| E~it~ | Ecosystem ratio: W~it~ divided by R~it~, equal to one divided by m~it~, minus one. The author's own measure. | Author's calculation |
+| g(X~t~) | Growth of X from one year to the next as a share of the first year: (X~t~ − X~t−1~) divided by X~t−1~. A value of 0.09 means 9 percent. | Author's calculation |
+| D~it~ | Growth divergence: g(R~it~) minus g(V~it~). A value of 0.62 means 62 percentage points. | Author's calculation |
+| Δln X~t~ | Change in the natural logarithm of X from one year to the next. | Author's calculation |
+| *Panel B: National and survey measures* | | |
+| N~t~ | Count of online sellers: BPS's estimate of the number of businesses selling online in year t. | BPS-Statistics Indonesia (2025a, 2025b); BPS e-commerce survey files for 2020, 2022 and 2023 (licensed) |
+| Y~t~ | Total online sales value: BPS's published value of online sales in year t. | BPS-Statistics Indonesia (2025a, 2025b) |
+| Y~t~ / N~t~ | Sales per business: Y~t~ divided by N~t~. | Author's calculation |
+| First-time entry | A seller that reports beginning to sell online in the year being measured. The entry test uses the share of such sellers among the sellers of 2023. | BPS e-commerce survey file for 2023 (licensed) |
+| *Panel C: Market variables* | | |
+| MV~it~ | Market value: the year-end market value of listed platform i. | London Stock Exchange Group (LSEG) data (licensed) |
+| β~V~, β~m~ | Coefficients in equation (8): how the change in market value moves with the change in transaction value and with the change in the take rate. | Author's estimate |
+| *Panel D: Labels* | | |
+| H1, H2 | The two hypotheses of Section 3.4. | Author's definition |
+
+### A.2 Sources compared in Objective 3
+
+| Source | What it covers | How it counts |
+|---|---|---|
+| Platform reports | Everything bought through one platform | The platform's own records |
+| BPS online-seller survey | Every business that sold online, including chat and social media | Listing in sampled areas, scaled up by survey weights |
+| Bank Indonesia e-commerce statistics | Transactions of large e-commerce firms (Bank Indonesia 2025) | Data sent to the central bank; the method is not public |
+| Industry estimates | Shopping marketplaces in Indonesia or Southeast Asia, from the research firm Momentum Works (2024), as quoted by Setyowati (2024), and the e-Conomy report (Google, Temasek and Bain 2024) | Outside estimates |
+| Household spending | All household purchases | BPS national accounts |
+| Payment figures | Payments made through systems such as QRIS, the national QR-code system | Payment records, in person and online |
+| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes 2025), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
+
+## Appendix B. Platforms, windows and the wedge by year
+
+### B.1 The foreign group (27 platforms)
+
+Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for the platforms added, the later year is not one in which own goods exceed half of revenue; for the eight chosen first, the reporting scope did not change. Ozon's one pair starts in a year that fails the own-goods rule (Appendix C). The median is the platform's median size of yearly change in log take rate. Source: `tables/spinoff_panel.csv`, `tables/transitions_master.csv`.
 
 | Platform | Chosen first or added | Pairs | Median size of yearly change in log take rate |
 |---|---|---|---|
@@ -40,7 +82,15 @@ Pairs are consecutive years that pass the rules of Chapter 4, section 4.1: for t
 
 Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg and Vipshop, because their own goods are most of revenue in every year; and four platforms that disclose no transaction value (Nebius Group, formerly Yandex; Trip.com; Tuniu; and Uxin).
 
-### A.2 The Indonesian and regional group
+### B.2 The Indonesian and regional group
+
+| Platform series | What it covers | Years | Yearly pairs | How it is labelled |
+|---|---|---|---|---|
+| Tokopedia | The e-commerce segment of GoTo, an Indonesian marketplace | 2022–2023 | 1 | Direct segment disclosure |
+| Blibli | Blibli's third-party retail segment, which includes online travel | 2021–2025 | 4 | Direct segment disclosure |
+| Bukalapak | The whole Bukalapak group, mainly in Indonesia, including Mitra, its online-to-offline business | 2020–2023 | 3 | Direct company disclosure |
+| Grab on-demand | Grab's rides and deliveries across Southeast Asia, not Indonesia alone | 2020–2024 | 4 | Direct segment disclosure |
+| GoTo on-demand | GoTo's rides and deliveries segment, in Indonesia and Vietnam to 2024 | 2022–2025 | 3 | Direct segment disclosure; the 2022 transaction value is an estimate |
 
 | Platform | Pairs | Median size of yearly change in log take rate | Share of pairs with a change of 0.10 or less |
 |---|---|---|---|
@@ -50,7 +100,7 @@ Left out after examination: Dingdong, JD.com, Jumei, Liquidity Services, Newegg 
 | Grab on-demand | 4 | 0.20 | 0.50 |
 | Tokopedia | 1 | 0.52 | 0.00 |
 
-### A.3 The seven windows traced (Table 5.4 in full)
+### B.3 The seven windows traced (Table 5.4 in full)
 
 Shares are of the log growth of revenue. Source: `tables/growth_decomposition.csv`, built from `tables/l_panel.csv` by `growth_decomposition.py`. Tokopedia, GoTo: audited statements. Grab: annual filings, summed over mobility and deliveries. Blibli: incentives are a proxy (gross profit before discounts less net revenue) and stay out of the main sample. GoTo's 2022 transaction value is an estimate (2022 first and second quarters backed out of 2023 year-on-year comparisons).
 
@@ -66,7 +116,7 @@ Shares are of the log growth of revenue. Source: `tables/growth_decomposition.cs
 
 Tokopedia, 2022–23, line by line (Rp million, `tables/tokopedia_segment.csv`): gross revenue 8,143,239 to 8,988,909; incentives 4,112,320 to 2,813,719; net revenue 4,030,919 to 6,175,190. Net revenue rose by 2,144,271, of which lower incentives account for 60.6 percent and higher gross revenue for 39.4 percent (about 60 and 40 percent in the text).
 
-### A.4 Wedge and ecosystem ratio by platform-year, Indonesian series
+### B.4 Wedge and ecosystem ratio by platform-year, Indonesian series
 
 Original currency and units, as in the filings: Rp million for Tokopedia and Bukalapak, Rp billion for Blibli, and US$ billion for Grab and Shopee, whose Indonesian amounts are derived or estimated. Shopee's revenue assumes a take rate of 8.4 percent in 2022, 10 percent in 2023 and 10.8 percent in 2024. Table 5.2 converts Tokopedia's 2023 rupiah amounts to US dollars. Take rate and ecosystem ratio carry no currency. Each label names the source of the transaction value and of the revenue in that row. Source: `tables/take_rate_levels.csv`.
 
@@ -90,9 +140,9 @@ Original currency and units, as in the filings: Rp million for Tokopedia and Buk
 | Bukalapak Group | 2022 | 153,738,958 | 3,618,366 | 150,120,592 | 2.35 | 41.5 | Company-wide disclosure |
 | Bukalapak Group | 2023 | 164,380,065 | 4,438,269 | 159,941,796 | 2.70 | 36.0 | Company-wide disclosure |
 
-## Appendix B. The checks on the test of H1
+## Appendix C. The checks on the test of H1
 
-### B.1 The checks
+### C.1 The checks
 
 The main test is in Table 5.3. This appendix lists each check with both p-values where both exist. Sources: `h1_extended.py` (`tables/h1_extended_results.json`), `tables/test_battery.csv`, `tables/h1_quarterly_results.json`, `tables/h1_points_vs_log.json`, `tables/h1_thesis_drops.json`. The two rows on how platforms book shopper discounts come from `research/option_space_2026-10-01/materials_2026-10-15/incentive_accounting_check.py` (classification and filing quotes in `INCENTIVE_ACCOUNTING.md`); their shuffle uses a different seed.
 
@@ -139,13 +189,13 @@ In the pairs of the Indonesian and regional group, the take rate stayed within a
 The comparison in points of the take rate (exploratory, `h1_points_vs_log.py`): median yearly change 1.01 points in the Indonesian and regional group and 0.98 points in the foreign group (26 platforms), Mann–Whitney p = 0.65; median share kept 1.59 percent against 16.93 percent.
 
 
-### B.2 Where the 2023 break sits (exploratory)
+### C.2 Where the 2023 break sits (exploratory)
 
 At the top of the size distribution, sellers with revenue above Rp50 billion a year (about US$3.4 million at the 2022 rate) were 0.5 percent of BPS's marketplace sellers in 2022 and held between 18 and 39 percent of the marketplace slice's value, resting on 19 sample rows (`tables/part5_checks.json`).
 
 Across the 34 provinces, count growth had a rank correlation of 0.10 (p = 0.59) with the share of new sellers and 0.35 (p = 0.04) with growth in sample size. In 23 provinces count growth exceeded what entry can explain, and these provinces carry 98.5 percent of the increase. The standard error of the national count implied by BPS's published relative standard errors is about 1.4 percent. The 306 thousand newly counted sellers are about 4.6 times the standard error of the change, and 2.3 times if the true error were twice as large (`tables/bps_frame_check.json`, `tables/rq_closing_checks.json`).
 
-## Appendix C. Registered tests and their outcomes
+## Appendix D. Registered tests and their outcomes
 
 A registered test was written down, dated and stored in the repository before the data it concerns were opened. The dates are those of the commits in `research/option_space_2026-10-01/PREREGISTRATION.md`. Exact wording and thresholds are in that file.
 
@@ -175,7 +225,7 @@ A registered test was written down, dated and stored in the repository before th
 | Marketplace tax start | The tax start slips again | 2 Oct 2026 | Withdrawn: collection began on 1 Oct 2026, before the prediction was registered (addendum of 15 Oct 2026) |
 | BPS marketplace share | The next published marketplace share is at most 15.79 percent | 2 Oct 2026 | Not yet scored |
 
-## Appendix D. The values behind Figures 5.3 to 5.5
+## Appendix E. The values behind Figures 5.3 to 5.5
 
 **Growth in 2023, percent (Figure 5.3).** Household spending +9.4; Tokopedia transaction value −8.9; GoTo on-demand transaction value −10.5 (rests on an estimated 2022 value); Bank Indonesia e-commerce −4.7; Momentum Works marketplace estimate +3.5 (calculated from its published levels; its 2024 release states 3.7); Bukalapak transaction value +6.9; Blibli third-party retail transaction value +34.7; Tokopedia revenue +53.2; BPS e-commerce value +40.6; BPS online sellers +27.4. Sources: `tables/consistency_grid_growth.csv`, `tables/yardsticks_bi_bps.csv`, `tables/wedge_over_time.csv`, `tables/h1_groundwork.json`, company filings.
 

@@ -21,7 +21,7 @@ def roman(k):
         while k >= v: r += sym; k -= v
     return r
 front = {"Title Page": 1}
-for title, key in (("ABSTRACT", "Abstract"), ("Contents", "Table of Contents"), ("List of Tables", "List of Tables"), ("List of Figures", "List of Figures"), ("Symbols and Abbreviations", "Symbols and Abbreviations")):
+for title, key in (("ABSTRACT", "Abstract"), ("Contents", "Table of Contents"), ("List of Tables", "List of Tables"), ("List of Figures", "List of Figures")):
     for i in range(0, first):
         if title in lines[i][:8] and (title == "ABSTRACT" or lines[i][0] == title): front[key] = i; break   # physical page i+1; the title page is physical page 2 = i
 for key, k in front.items(): result["front:" + key] = roman(k) if key != "Title Page" else "i"

@@ -1,6 +1,6 @@
 """Finishes the YZU-layout Word copy. Usage: python3 yzu_post.py in.docx out.docx [pages.json]
 Tables: three rules, 9 pt, widths from content within the 15 cm text width, header repeated, rows kept whole. Captions: label bold. Figures: at most 15 cm wide.
-Page numbers: the front matter (title page to the list of symbols) is numbered i, ii, iii (the title page counted but not printed), the main text from Chapter 1
+Page numbers: the front matter (title page to the list of figures) is numbered i, ii, iii (the title page counted but not printed), the main text from Chapter 1
 is numbered 1, 2, 3 (two sections). Contents, list of tables and list of figures are real Word fields (TOC), written with the page numbers found in a first
 pass (pages.json), so they are right as delivered and refresh in Word with Ctrl+A, F9."""
 import sys, os, re, json, copy, docx
@@ -61,6 +61,13 @@ for t in d.tables:
                 pf = p.paragraph_format; pf.alignment = WD_ALIGN_PARAGRAPH.LEFT; pf.space_before = Pt(0); pf.space_after = Pt(0)
                 pf.line_spacing_rule = WD_LINE_SPACING.EXACTLY; pf.line_spacing = Pt(11)
                 run_fmt(p, 9, True if ri == 0 else None)
+# panel labels (rows whose other cells are empty) span the whole table, as in a journal's variable table
+for t in d.tables:
+    for row in t.rows:
+        cs = row.cells
+        if len(cs) > 1 and cs[0].text.strip().startswith("Panel") and all(not c.text.strip() for c in cs[1:]):
+            cs[0].merge(cs[-1])
+            for pp_ in row.cells[0].paragraphs: pp_.paragraph_format.keep_with_next = True      # a panel label stays with its first row
 # keep tables from splitting badly: a table of up to 12 rows stays whole; a longer one keeps its first three rows and its last two together
 for t in d.tables:
     rows = t.rows; nr = len(rows)
@@ -151,7 +158,7 @@ for p in paras:
     if sty == "Table Caption": tcaps.append((1, p.text.strip()))
     if sty == "Figure Caption": fcaps.append((1, p.text.strip()))
 slot_toc = next(p for p in body.iter(qn("w:p")) if text_of(p).strip() == "§TOC§")
-for title, key in ([("Title Page", "Title Page"), ("Abstract", "Abstract"), ("Table of Contents", "Table of Contents"), ("List of Tables", "List of Tables"), ("List of Figures", "List of Figures"), ("Symbols and Abbreviations", "Symbols and Abbreviations")]):
+for title, key in ([("Title Page", "Title Page"), ("Abstract", "Abstract"), ("Table of Contents", "Table of Contents"), ("List of Tables", "List of Tables"), ("List of Figures", "List of Figures")]):
     pp = OxmlElement("w:p"); pPr = OxmlElement("w:pPr"); st = OxmlElement("w:pStyle"); st.set(qn("w:val"), styleid("toc 1")); pPr.append(st)
     rp = OxmlElement("w:rPr"); b = OxmlElement("w:b"); b.set(qn("w:val"), "0"); rp.append(b); pPr.append(rp); pp.append(pPr)
     pp.append(mkrun(title)); pp.append(mkrun(tab=True)); pp.append(mkrun(PAGES.get("front:" + key, "i")))

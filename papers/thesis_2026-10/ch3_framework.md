@@ -22,24 +22,9 @@ The three objectives set in Chapter 1 sit inside this map. Measuring the wedge a
 
 ## 3.1 Terms and rules for comparison
 
-Table 3.1 defines the terms used throughout the thesis, each once, with the symbol used in the formulas.
+Six terms recur throughout the thesis. Transaction value, V, is everything bought through a platform in a period, also called the commerce the platform carries. Companies call it gross merchandise value (GMV), gross transaction value (GTV) or total payment volume (TPV); the thesis treats these as one measure and notes where a company's scope differs. Revenue, R, is what the platform recognizes as its own income in its accounts. The take rate, m, is revenue divided by transaction value: the share of each sale that the platform keeps. Customer incentives are the discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line.
 
-**Table 3.1. Terms and symbols**
-
-| Term | Symbol | Meaning |
-|---|---|---|
-| Transaction value | V | Everything bought through a platform in a period, also called the commerce the platform carries. Companies call it gross merchandise value (GMV), gross transaction value (GTV) or total payment volume (TPV); the thesis treats these as one measure and notes where a company's scope differs. |
-| Revenue | R | What the platform recognizes as its own income in its accounts. |
-| Take rate | m | Revenue divided by transaction value: the share of each sale that the platform keeps. |
-| Customer incentives | | Discounts, vouchers and other promotions that a platform pays for. Accounting rules normally deduct them from revenue, and Tokopedia reports the deduction as a separate line. |
-| Fee rate | f | The platform's revenue before customer incentives, divided by transaction value. |
-| Incentive rate | s | Customer incentives divided by transaction value. |
-| Invisible wedge | W | Transaction value minus revenue: what a revenue figure leaves out. It is defined for one platform. The thesis sums it over three platforms in Indonesia for 2023 and computes no national total. |
-| Ecosystem ratio | E | The wedge divided by revenue. It equals one divided by the take rate, minus one. This is the author's own measure, built for this thesis. |
-| Growth | g | The change from one year to the next as a share of the first year: 0.09 means 9 percent. |
-| Growth divergence | D | Growth of revenue minus growth of transaction value in the same year: 0.62 means 62 percentage points. |
-| Online seller | | A business that the national statistics office, BPS, counts as selling online; the text also calls it a seller or a business. The count of online sellers is BPS's estimate of how many there are in a year. |
-| First-time entry | | A seller that began selling online in the year being measured. |
+An online seller is a business that BPS counts as selling online; the text also calls it a seller or a business. The count of online sellers is BPS's estimate of how many there are in a year. First-time entry means that a seller began selling online in the year being measured. The measures built from these terms are defined in Section 3.2, and Appendix A lists every variable with its symbol, definition and source.
 
 Three rules decide which figures can be set against each other. First, transaction value and revenue are paired only when they refer to the same period and the same business. A take rate built from figures of different scope would measure the mismatch, not the platform.
 
@@ -65,7 +50,7 @@ To compare platforms of different size, the thesis also expresses the wedge rela
 E_it = W_it / R_it = 1 / m_it − 1                     (2)
 ```
 
-where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale.
+where m_it = R_it / V_it is the take rate, the share of each sale that the platform keeps. The ecosystem ratio is the author's own measure, and it restates the take rate. An ecosystem ratio of 9 means that 9 units of transaction value lie outside revenue for every unit recorded as revenue. Equivalently, the platform keeps 10 percent of each sale. Table 5.2 applies the measures to three platforms in Indonesia in 2023, where the wedge is about US$40 billion and the ecosystem ratio about 13.
 
 A single ratio does not show whether the relationship holds over time, so the thesis defines growth divergence:
 
@@ -111,15 +96,7 @@ Equation (6) also shows where a rule acts. A cap on commissions acts on the fee 
 
 ## 3.4 Hypotheses
 
-Two hypotheses follow from the research question. H1 asks whether revenue follows the commerce carried within a platform. H2 asks where national online growth comes from, which decides whether the commerce on platforms can stand for national online commerce. Together they test the two links in Figure 3.1. Table 3.2 pairs each hypothesis, and the entry test of Section 3.5, with its main test and with the result that would count against it.
-
-**Table 3.2. Hypotheses, tests and what would count against them**
-
-| Test | What it asks | Main test | What would count against it |
-|---|---|---|---|
-| H1 | Do revenue and transaction value grow together within a platform? | Size of yearly changes in the take rate, Indonesian and regional platforms against listed platforms abroad | Changes in Indonesia far larger than abroad |
-| H2 | Does national e-commerce value grow because of more businesses or because of higher sales per business? | BPS's national e-commerce value split into the number of businesses and sales per business | Higher sales per business accounting for most of the growth |
-| Entry test | Does a rise in the count of online sellers come from first-time entry? | Share of 2023 sellers in BPS's survey files who began selling online in 2023 | Fewer new sellers than the rise requires |
+Two hypotheses follow from the research question. H1 asks whether revenue follows the commerce carried within a platform. H2 asks where national online growth comes from, which decides whether the commerce on platforms can stand for national online commerce. Together they test the two links in Figure 3.1. Each hypothesis, and the entry test of Section 3.5, comes with its main test and with the result that would count against it.
 
 The share of transaction value that a platform keeps is not fixed. A platform sets its charges on both sides of the market together, and both the level and the split are choices (Rochet and Tirole 2003). Platforms often hold down the price to one side to draw it in. They can raise that price once both sides have joined (Evans and Schmalensee 2016).
 
@@ -165,16 +142,7 @@ If the share of new sellers falls short, part of the rise is something other tha
 
 ## 3.6 Further analyses
 
-Four further analyses complete the framework without forming hypotheses of their own. Each answers a part of the research question that H1, H2 and the entry test leave open. Table 3.3 lists them.
-
-**Table 3.3. Further analyses**
-
-| Analysis | What it asks | Main evidence |
-|---|---|---|
-| Tracing large movements | What moved revenue when it parted from transaction value? | Equations (5) and (6), applied to company reports |
-| Market values | Do markets value growth from more commerce differently from growth in the take rate? | Year-end market values of listed platforms |
-| Channels and reach | How much online selling passes through marketplaces, and how far can rules built on platform records reach? | BPS's channel shares and survey files |
-| Comparing national figures | Do national figures tell the same story of growth? | BPS, Bank Indonesia, industry estimates and household spending |
+Four further analyses complete the framework without forming hypotheses of their own. Each answers a part of the research question that H1, H2 and the entry test leave open. They are the tracing of large movements, the market values of listed platforms, the channels and reach of platform records, and the comparison of national figures.
 
 Tracing large movements applies the split of Section 3.3. Wherever H1 finds a large change in the take rate, the thesis divides the change in revenue into its parts. It also reads the company's reports for changes in the mix of businesses and in reporting scope.
 

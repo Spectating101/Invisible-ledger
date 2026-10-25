@@ -16,25 +16,15 @@ The basic observation is one platform in one year, which this thesis calls a pla
 
 Companies define transaction value in different ways, and some include shipping charges, digital goods or travel. The thesis keeps each company's own definition and records it. Under the second rule of Section 3.1, the definition cancels out of a take rate's yearly changes. This holds as long as the company keeps both the definition and the mix of its businesses.
 
-Two groups of platforms are compared. The Indonesian and regional group has five platforms, listed in Table 4.1. Three are Indonesian marketplaces, and two are the on-demand businesses of Grab and GoTo, which cover rides and deliveries. The foreign group has 27 listed platforms in marketplaces, travel and ticketing, freelance work, resale and food delivery. Eight were chosen first, and 19 were added to widen the comparison. Ten more were examined and left out, six because they sell mostly their own goods and four because they do not disclose transaction value.
+Two groups of platforms are compared. The Indonesian and regional group has five platforms, listed in Appendix B. Three are Indonesian marketplaces, and two are the on-demand businesses of Grab and GoTo, which cover rides and deliveries. The foreign group has 27 listed platforms in marketplaces, travel and ticketing, freelance work, resale and food delivery. Eight were chosen first, and 19 were added to widen the comparison. Ten more were examined and left out, six because they sell mostly their own goods and four because they do not disclose transaction value.
 
-**Table 4.1. The Indonesian and regional group of platforms**
-
-| Platform series | What it covers | Years | Yearly pairs | How it is labelled |
-|---|---|---|---|---|
-| Tokopedia | The e-commerce segment of GoTo, an Indonesian marketplace | 2022–2023 | 1 | Direct segment disclosure |
-| Blibli | Blibli's third-party retail segment, which includes online travel | 2021–2025 | 4 | Direct segment disclosure |
-| Bukalapak | The whole Bukalapak group, mainly in Indonesia, including Mitra, its online-to-offline business | 2020–2023 | 3 | Direct company disclosure |
-| Grab on-demand | Grab's rides and deliveries across Southeast Asia, not Indonesia alone | 2020–2024 | 4 | Direct segment disclosure |
-| GoTo on-demand | GoTo's rides and deliveries segment, in Indonesia and Vietnam to 2024 | 2022–2025 | 3 | Direct segment disclosure; the 2022 transaction value is an estimate |
-
-Table 4.1 states the scope of each series because the series differ, and only Tokopedia is an Indonesian segment alone. The thesis never adds the series together, and each platform enters the tests on its own. Sea, whose Shopee business has Indonesia as a main market, sits in the foreign group.
+Appendix B states the scope of each series because the series differ, and only Tokopedia is an Indonesian segment alone. The thesis never adds the series together, and each platform enters the tests on its own. Sea, whose Shopee business has Indonesia as a main market, sits in the foreign group.
 
 Platform-years are compared in pairs, and three rules keep the pairs comparable. Two consecutive platform-years form a pair, and nothing else does. A missing year stays missing and is never filled in. Annual and quarterly pairs are never pooled. A take rate is a ratio of two amounts in one currency, so the tests need no exchange rate. Amounts in running text are in US dollars at the World Bank's average rate for the year (World Bank 2026).
 
 The third rule of Section 3.1, which keeps out companies that mainly sell their own goods, is applied in two ways. For the 19 platforms added, the thesis drops any year in which own goods exceed half of revenue. For the eight chosen first, it keeps a pair only when the company's reporting scope did not change between the two years.
 
-Two platforms sit close to that line. Zalando is one of the eight and sells part of what it carries, so Appendix B repeats the test without it. One added pair, Ozon from 2021 to 2022, ends in a kept year but starts in a dropped one. Appendix B repeats the test without Ozon as well. The result is 15 pairs for the Indonesian and regional group and 158 for the foreign group.
+Two platforms sit close to that line. Zalando is one of the eight and sells part of what it carries, so Appendix C repeats the test without it. One added pair, Ozon from 2021 to 2022, ends in a kept year but starts in a dropped one. Appendix C repeats the test without Ozon as well. The result is 15 pairs for the Indonesian and regional group and 158 for the foreign group.
 
 ## 4.2 Measuring the wedge in Indonesia
 
@@ -50,7 +40,7 @@ A move in either direction counts against H1, so the test uses the size of each 
 
 The test compares five numbers for the Indonesian and regional group with 27 for the foreign group. It asks whether the first group ranks higher than chance would give, using a one-sided Mann–Whitney test (Mann and Whitney 1947). It repeats the question by shuffling the group labels 9,999 times. The p-value is the chance of a result at least this lopsided if the groups did not differ.
 
-Appendix B lists the checks on this test. Some change the sample. They drop each platform in turn, drop two at a time, treat Tokopedia and GoTo as one company, move Sea to the regional group, keep only the first five years after listing, or narrow the test to the three marketplaces. Others change the measure: growth divergence in points as Chapter 3 defines it, exact tests, the change in the take rate in percentage points (to see whether a thin take rate explains the result), and the correlation of revenue growth with transaction value growth. One repeats the test with quarterly pairs.
+Appendix C lists the checks on this test. Some change the sample. They drop each platform in turn, drop two at a time, treat Tokopedia and GoTo as one company, move Sea to the regional group, keep only the first five years after listing, or narrow the test to the three marketplaces. Others change the measure: growth divergence in points as Chapter 3 defines it, exact tests, the change in the take rate in percentage points (to see whether a thin take rate explains the result), and the correlation of revenue growth with transaction value growth. One repeats the test with quarterly pairs.
 
 ## 4.4 Tracing the moves
 
@@ -60,11 +50,11 @@ The second step splits the take-rate change with equation (6). Some companies di
 
 The sources differ by company. Tokopedia's audited segment note gives gross revenue, incentives and net revenue, and the thesis checks them against the audited consolidated statements. For Tokopedia the thesis also reports the change line by line in rupiah, the usual way to read accounts, and says where the two views differ.
 
-Grab is read from its annual filings and GoTo from its audited statements. Blibli does not report incentives, so its split rests on a proxy built from its releases. Seven windows are traced, and Appendix A lists them. The thesis also records where accounting treatment or reporting scope matters, such as the deduction of incentives from revenue and the travel business inside Blibli's retail segment. Company explanations are read as reports and are not tested.
+Grab is read from its annual filings and GoTo from its audited statements. Blibli does not report incentives, so its split rests on a proxy built from its releases. Seven windows are traced, and Appendix B lists them. The thesis also records where accounting treatment or reporting scope matters, such as the deduction of incentives from revenue and the travel business inside Blibli's retail segment. Company explanations are read as reports and are not tested.
 
 ## 4.5 Market values
 
-The market-value analysis of Section 3.6 uses year-end market values from the financial data service LSEG, under the university licence. The main sample has 28 listed platforms and 138 platform-years, made up of Bukalapak and 27 platforms abroad, and it uses whole-company figures only. It is not the list of 27 used for H1. It adds Airbnb, Booking, DoorDash, Lyft and Uber, and it lacks Despegar, Mercado Libre, Ozon, Rakuten and Sea.
+The market-value analysis of Section 3.6 uses year-end market values from the data service of the London Stock Exchange Group (LSEG), under the university licence. The main sample has 28 listed platforms and 138 platform-years, made up of Bukalapak and 27 platforms abroad, and it uses whole-company figures only. It is not the list of 27 used for H1. It adds Airbnb, Booking, DoorDash, Lyft and Uber, and it lacks Despegar, Mercado Libre, Ozon, Rakuten and Sea.
 
 Equation (8) is estimated with a fixed effect for each year, which removes what all platforms share in that year. Standard errors are clustered by company, which allows for the repeated observations of one company. Each prediction names a direction, so both tests are one-sided. The test was written down before the market values were pulled. The result is an association, and market value also changes when a company issues shares, so the thesis does not call it a stock return. A second run adds five segment series and Mercado Libre as a robustness check. Grab, GoTo and Sea enter only there, because their reported transaction value covers only part of the business that the market value prices.
 
@@ -74,19 +64,11 @@ The national evidence comes from the survey of online sellers that BPS runs. BPS
 
 H2 uses the published figures and the split of equation (7). BPS prints two counts of businesses for 2023, so the thesis computes the 2023 to 2024 split with both and reports both. The 2022 to 2023 split uses the count that the survey weights match.
 
-The published figures cannot tell a new seller from one counted for the first time, but the survey files can. Table 4.2 lists them. Each row is a business that sold online in the activity year. Its survey weight shows how many businesses it represents, so the weights add up to the national count.
+The published figures cannot tell a new seller from one counted for the first time, but the survey files can. The three files are the E-Commerce rounds of 2021, 2023 and 2024, which describe the activity years 2020, 2022 and 2023.[^files] Each row is a business that sold online in the activity year. Its survey weight shows how many businesses it represents, so the weights add up to the national count.
 
 Two checks come before any test. The weighted total of each file must fall within 1 percent of the BPS count. The 2024 file must also reproduce two published shares of sellers who keep complete financial statements, 28.63 and 12.25 percent. All three files pass. The files carry no business identifier across rounds and no area variable below the province. So the rounds compare groups of sellers and not the same sellers over time.
 
-**Table 4.2. The three BPS survey files**
-
-| Survey round | Activity year | Rows | Weighted total | BPS count |
-|---|---|---|---|---|
-| E-Commerce 2021 | 2020 | 11,848 | 2,361,423 | 2,361,423 |
-| E-Commerce 2023 | 2022 | 31,724 | 2,995,986 | 2,995,879* |
-| E-Commerce 2024 | 2023 | 39,736 | 3,814,799 | 3,816,750 |
-
-*Implied by the published count for 2023 and its published growth of 27.4 percent.
+[^files]: The files hold 11,848, 31,724 and 39,736 rows. Each weighted total is within 0.1 percent of the BPS count: 2,361,423; 2,995,879, implied by the 2023 count and its growth of 27.4 percent; and 3,816,750.
 
 ## 4.7 The entry test and the extra sellers
 
@@ -116,26 +98,14 @@ Chapter 6 also sets each recent rule against the part of the figures it acts on.
 
 ## 4.9 Comparing national figures
 
-The third objective, to compare the platform evidence with national and payment figures, rests on the sources that Table 4.3 lists, with what each one counts. Beyond the rules of Section 3.1, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
+The third objective, to compare the platform evidence with national and payment figures, rests on the sources that Appendix A lists, with what each one counts. Beyond the rules of Section 3.1, the comparison is closest where the coverage of two sources overlaps. Payment figures serve as context, because they show how people pay and not what they buy online.
 
 The 2023 file, which describes 2022, lets the thesis separate the part of BPS's marketplace sales that went to final consumers. It compares that part with Bank Indonesia's figure for the same year, in a test written down before the file was opened. The thesis sets the 2023 growth of six measures of buying through platforms beside household spending, each in its own unit. It does the same with quarterly platform growth.
-
-**Table 4.3. Sources compared in Objective 3**
-
-| Source | What it covers | How it counts |
-|---|---|---|
-| Platform reports | Everything bought through one platform | The platform's own records |
-| BPS online-seller survey | Every business that sold online, including chat and social media | Listing in sampled areas, scaled up by survey weights |
-| Bank Indonesia e-commerce statistics | Transactions of large e-commerce firms (Bank Indonesia 2025) | Data sent to the central bank; the method is not public |
-| Industry estimates | Shopping marketplaces in Indonesia or Southeast Asia, from the research firm Momentum Works (2024), as quoted by Setyowati (2024), and the e-Conomy report (Google, Temasek and Bain 2024) | Outside estimates |
-| Household spending | All household purchases | BPS national accounts |
-| Payment figures | Payments made through systems such as QRIS, the national QR-code system | Payment records, in person and online |
-| Adjacent figures | Parcels shipped in Southeast Asia, the value-added tax collected on foreign digital services (Directorate General of Taxes 2025), and the number of merchants a company reports | Used as context only, since none measures Indonesian e-commerce |
 
 ## 4.10 Labels, traceability and licensed data
 
 Every number in the thesis follows one path: source document, extract, analytic row, result. Each extract keeps the company's currency and units, and each value carries a label: direct company disclosure, direct segment disclosure, external estimate, derived value, conversion or scenario. The labels are never mixed in one sample. A restatement or a conflict between two reports is reported and never overwritten. A single script rebuilds every table that depends only on committed files, and 314 automatic checks confirm that each recorded result still matches its table.
 
-The thesis also separates tests by when they were written. A registered test was written down, dated and stored in the repository before the data were opened. This applies to the entry test, the scenario rules for value, the comparison with Bank Indonesia and the market-value test, among others. Appendix C lists them with their dates. An exploratory test was designed after some results were seen. The test with the larger groups in Section 4.3 belongs here, because it was set up after a first test on the three marketplaces. A descriptive result reports numbers without a test.
+The thesis also separates tests by when they were written. A registered test was written down, dated and stored in the repository before the data were opened. This applies to the entry test, the scenario rules for value, the comparison with Bank Indonesia and the market-value test, among others. Appendix D lists them with their dates. An exploratory test was designed after some results were seen. The test with the larger groups in Section 4.3 belongs here, because it was set up after a first test on the three marketplaces. A descriptive result reports numbers without a test.
 
 Three sources are licensed and are not in the repository: the BPS survey files, the LSEG market values and the World Bank survey files. The repository records the size and checksum of each file, so anyone who obtains the same files can check them. It holds the code and the national totals it produces, and no business-level record. BPS is cited as the source of every survey figure, in line with the data-use agreement. Chapter 7 states what these data cannot show.

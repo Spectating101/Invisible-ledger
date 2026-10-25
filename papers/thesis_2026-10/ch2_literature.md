@@ -36,18 +36,8 @@ Tax research shows that platform records are valuable where they exist. Its evid
 
 ## 2.4 Research gap
 
-The shortfalls identified in Sections 2.1 to 2.3 define the research gap. Table 2.1 sets them side by side.
+The shortfalls identified in Sections 2.1 to 2.3 define the research gap, and each becomes one question for the thesis. Chapter 3 sets out the tools that answer each.
 
-**Table 2.1. What the literature establishes and where it stops**
-
-| Section | What it establishes | Main sources | Where it stops |
-|---|---|---|---|
-| 2.1 Platform economics and accounting | Revenue is a fee that is a small share of the commerce, and the share can move with pricing, discounts and accounting | Rochet and Tirole 2003; Armstrong 2006; IASB 2014 | Whether reported revenue stays a fair guide to reported transaction value has not been tested, and not for Indonesian platforms |
-| 2.2 Official statistics and surveys | Platform commerce and platform revenue differ; sources differ; a count of sellers can break | Ahmad and Schreyer 2016; Henderson et al. 2012; van den Brakel et al. 2008 | Platform and national figures have not been followed through time in one country, and published totals cannot show what a rise in the count of sellers contains |
-| 2.3 Third-party information | Platform records show sales, and third-party reports improve compliance | Kleven et al. 2011; OECD 2020 | How much of online selling platform records cover has not been estimated for Indonesia |
-
-Each shortfall becomes one question for the thesis, and Chapter 3 sets out the tools that answer each.
-
-1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1. It explains why the share is small and can move, but it does not test whether revenue stays a fair guide to the commerce.
-2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2. It shows that figures differ, but it does not test whether they grow for the same reasons, or what a rise in the count of sellers contains.
-3. **How far can rules built on platform records reach?** This follows from Section 2.3. It shows that platform records are valuable, but not how much of online selling they cover.
+1. **How large is the difference between transaction value and revenue, and does it last?** This follows from Section 2.1. It explains why the share is small and can move, but whether reported revenue stays a fair guide to reported transaction value has not been tested, least of all for Indonesian platforms.
+2. **Does the choice of figure change the conclusion about growth?** This follows from Section 2.2. It shows that figures differ, but platform and national figures have not been followed through time in one country, and published totals cannot show what a rise in the count of sellers contains.
+3. **How far can rules built on platform records reach?** This follows from Section 2.3. It shows that platform records are valuable, but how much of online selling they cover has not been estimated for Indonesia.

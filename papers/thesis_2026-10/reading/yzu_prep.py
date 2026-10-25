@@ -1,7 +1,7 @@
 """Markdown for the YZU-layout Word copy: reads the concatenated chapter text on stdin, writes Markdown to stdout.
 Changes made only in this build (the chapter files keep their chapter-based numbers): tables and figures are numbered 1, 2, 3 through the whole thesis
 (YZU guideline III.2), in the order they appear, and every mention in the text follows; chapter titles read "Chapter 1 Introduction" (YZU's English template);
-the abstract and the symbols list become unnumbered front-matter pages; captions and notes get their own paragraph styles (a figure's title is the caption, its
+the abstract becomes an unnumbered front-matter pages; captions and notes get their own paragraph styles (a figure's title is the caption, its
 description is the note below it)."""
 import re, sys
 t = sys.stdin.read()
@@ -30,7 +30,7 @@ if m:
            '::: {custom-style="Abstract Head"}\nCollege of Management, Yuan Ze University\n:::\n\n'
            '::: {custom-style="Abstract Label"}\nABSTRACT\n:::\n')
     t = t[:m.start()] + hdr + t[m.end():]
-t = re.sub(r"^# (Abstract|Symbols and Abbreviations)\s*$", r'::: {custom-style="Front Heading"}\n\1\n:::', t, flags=re.M)
+t = re.sub(r"^# (Abstract)\s*$", r'::: {custom-style="Front Heading"}\n\1\n:::', t, flags=re.M)
 t = re.sub(r"^\*\*(Table \d+\.) (.*?)\*\*\s*$", r'::: {custom-style="Table Caption"}\n\1 \2\n:::', t, flags=re.M)
 def fig(m):
     title = m.group(2).strip(); rest = m.group(3).strip()
