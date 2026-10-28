@@ -34,3 +34,10 @@ other papers/
 # Primary legal texts: PDFs stay local (checksums and text extracts are committed)
 sources/policy_primary/*.pdf
 papers/thesis_2026-10/reading/redline.tmp.html
+
+# Prof. Kong's comments and notes that quote her: private, never published (repository is public)
+papers/thesis_2026-10/KONG_COMMENTS_TRACE.md
+papers/thesis_2026-10/KONG_28OCT_MAP.md
+papers/thesis_2026-10/benchmark/KONG_PROFILE.md
+papers/thesis_2026-10/benchmark/KONG_MODEL_FULL.md
+papers/thesis_2026-10/benchmark/papers/KONG_28OCT_EDIT_AUDIT.md
